@@ -4,7 +4,7 @@
 
 **Title:** Can System-1-Style Decision Models Replace Dedicated Rerankers in RAG? A Systems Evaluation<br>
 **Authors:** Qiaomu Li and Ying Xie<br>
-**arXiv:** [2610.34816](https://arxiv.org/abs/2610.34816) — the arXiv page title was verified to match.<br>
+**arXiv:** [2610.34816](https://arxiv.org/abs/2610.34816) (submitted 27 October 2026)<br>
 **Paper files:** [`paper/`](paper/), including [`paper/DecisionRAG_paper_v6_6.pdf`](paper/DecisionRAG_paper_v6_6.pdf) and the TeX source in [`paper/arxiv_source/`](paper/arxiv_source/).
 
 ```bibtex
@@ -19,6 +19,16 @@
 }
 ```
 
+## Where to start
+
+| If you want to... | Look at |
+|---|---|
+| Read the paper | [`paper/DecisionRAG_paper_v6_6.pdf`](paper/DecisionRAG_paper_v6_6.pdf) or the [arXiv page](https://arxiv.org/abs/2610.34816) |
+| See the numbers behind a paper table | The repository map below, then the matching folder under `results/` |
+| See the code that scored and analyzed the runs | [`code/`](code/) and [`scripts/`](scripts/) |
+| Check that the released files are intact | The four commands under *Reproducibility status* |
+| Know what is missing or unresolved | [`MISSING.md`](MISSING.md) and [`RESULTS_INDEX.md`](RESULTS_INDEX.md) |
+
 ## Study summary and repository contents
 
 This study evaluates whether a structured decision model can replace a specialist reranker at the fixed Top-20-to-Top-5 stage of text RAG. It combines a sparse historical screen with matched BRIGHT ranking, input-budget, candidate-order, two-stage, serving, transfer, and frozen CQADupStack evidence. Results vary by workload; failures, contended/superseded runs, and unresolved discrepancies remain visible. The historical screen is heterogeneous, not a controlled 21-by-11 matrix.
@@ -29,7 +39,7 @@ Included are experiment adapters and runners; request builders; serving, scoring
 
 ## Reproducibility status
 
-This release supports **artifact-integrity checks and selected offline analyses**. It is **not a turnkey reproduction of the complete historical project**. Full native inference requires model weights, tokenizer assets, benchmark/corpus files, and machine-specific services that are not distributed. Some historical raw traces and result bundles are also unavailable or intentionally excluded; `MISSING.md` records the resulting claim-level limits. The included full historical test suite refers to those omitted stage artifacts and is not expected to pass from this release alone. Do not interpret the passing package checks as reproduction of every paper result.
+This release supports **file-integrity checks and selected offline analyses**. It is **not a one-command reproduction of the whole study**: rerunning the experiments needs model weights, benchmark data and GPU serving setups that are not distributed here. Some raw traces and result bundles are unavailable or excluded, and `MISSING.md` lists what that means for individual paper claims. The historical test suite under `code/tests` refers to those omitted files and is not expected to pass from this release alone. Passing the checks below shows that the released files are intact; it does not reproduce every paper result.
 
 On a clean checkout with Python 3.12, the self-contained checks are:
 
@@ -52,7 +62,7 @@ The 21 checkpoints below are those in the paper. Revisions are copied from avail
 | Specialist | GTE-ModernBERT | [HF](https://huggingface.co/Alibaba-NLP/gte-reranker-modernbert-base) | `f7481e6055501a30fb19d090657df9ec1f79ab2c` | 0.15B |
 | Specialist | BGE-v2-m3 | [HF](https://huggingface.co/BAAI/bge-reranker-v2-m3) | `953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e` | 0.57B |
 | Specialist | Qwen3-Reranker-0.6B | [HF](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B) | `e61197ed45024b0ed8a2d74b80b4d909f1255473` | 0.6B |
-| Specialist | Jina Reranker v3.5 | [HF](https://huggingface.co/jinaai/jina-reranker-v3.5) | `e8a93f33f0b22108f8c2364f8484ce3422552fbc` | 0.6B |
+| Specialist | Jina Reranker v3.5 (model card lists CC BY-NC 4.0, non-commercial) | [HF](https://huggingface.co/jinaai/jina-reranker-v3.5) | `e8a93f33f0b22108f8c2364f8484ce3422552fbc` | 0.6B |
 | Specialist | Mixedbread v2 | [HF](https://huggingface.co/mixedbread-ai/mxbai-rerank-large-v2) | `ca7e1ee484c37c0ddd8d178a9a5c33cec575c5e6` in model-lineage manifest | 1.5B |
 | Specialist | Qwen3-VL-Reranker-2B | [HF](https://huggingface.co/Qwen/Qwen3-VL-Reranker-2B) | `4bd860ac4f15ad1897a214615cccc700f8f71818` | 2.1B |
 | Specialist | Qwen3-Reranker-4B | [HF](https://huggingface.co/Qwen/Qwen3-Reranker-4B) | `22e683669bc0f0bd69640a1354a6d0aebcfeede5` | 4B |
@@ -66,7 +76,7 @@ The 21 checkpoints below are those in the paper. Revisions are copied from avail
 | Decision | Kev-9B | [HF](https://huggingface.co/jaredpalmer/kev-9b) | `db029f08b290afd9fee4aa4bbcd9ae48602d1eb0` | 9B |
 | Decision | Bespoke Nimble-9B-v2 | [HF](https://huggingface.co/bespokelabs/Bespoke-Nimble-9B-v2) | `4b8c04d1ac2cea3e41e5e3c4d2130bcead2c0abe` | 9B |
 | Decision | Clef-Flash | [HF](https://huggingface.co/Cloudflare/clef-flash) | `8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3` | 9.4B |
-| Decision | Winnow-12B | [HF](https://huggingface.co/EldanRing/Winnow-12B) | `0b5b7f98e718cf0faffd0acea3093b86ebf00b56` (paper-row); later Q8 run has a separate revision | 12B |
+| Decision | Winnow-12B | [HF](https://huggingface.co/EldanRing/Winnow-12B) | `0b5b7f98e718cf0faffd0acea3093b86ebf00b56` (revision used for the Table I row; a later Q8 run used a different revision) | 12B |
 | Decision | PPLX Decider v1.1 | [HF](https://huggingface.co/perplexity-ai/pplx-decider-v1.1-27b) | `14c9d90137962d300f3de95633f7b6535e80c5ce` | 27B |
 | Decision | Drex-v2 | [HF](https://huggingface.co/nace-ai/drex-v2.0) | `3e6d164cb5c8cf264eec167905cc2448d89ea97d` | 35B (3B active) |
 
@@ -91,7 +101,7 @@ Auxiliary reader and embedding checkpoints appear in historical code outside the
 
 The historical screen used different candidate views and metrics across datasets; the 104 runs are not one shared-protocol grid. The exact cohort manifests and protocols are indexed under `protocols/` and `archive/`.
 
-Models and datasets are not included in this repository. Obtain them from the official links above and follow their licenses.
+Models and datasets are not included in this repository. Obtain them from the official links above and follow their licenses. Licenses differ between models and datasets (for example, some are non-commercial), so check each one before use.
 
 ## Repository map and recorded commands
 
@@ -117,6 +127,20 @@ Run inventory and discrepancies are indexed in [RESULTS_INDEX.md](RESULTS_INDEX.
 
 ## Large files
 
-No `data-v1` release assets are published. The 35 original source artifacts listed in [`RELEASE_ASSETS_TODO.md`](RELEASE_ASSETS_TODO.md) are not included in this repository; that inventory records each source path, byte size, SHA-256, and disposition. They include raw benchmark/model-input material or artifacts whose redistribution rights are unresolved. Under [`LICENSE-DATA.md`](LICENSE-DATA.md), these files are not cleared for redistribution, so no release download URLs are available.
+Some original source artifacts (listed in [`RELEASE_ASSETS_TODO.md`](RELEASE_ASSETS_TODO.md), with size and SHA-256) are not in this repository because they contain benchmark or model-input material that may not be redistributed. No release downloads are provided for them. The score, selection and latency records derived from them are included.
+
+## License
+
+Code: Apache-2.0 ([`LICENSE`](LICENSE)). Released results and derived tables: see [`LICENSE-DATA.md`](LICENSE-DATA.md). Third-party models and datasets are not included and remain under their own licenses ([`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)).
+
+## Packaging and audit notes
+
+The files `INVENTORY.md`, `PACKAGING_REPORT.md`, `PUBLIC_REDACTION_REPORT.md`, `SANITIZATION_LOG.md`, `INTERNAL_VERSION_CROSSWALK.md` and `MISSING_SOURCE_FILES.csv` document how this release was assembled; you do not need them to use the results.
+
+## Questions
+
+Please open a GitHub issue for questions about the code or results.
+
+## AI assistance
 
 The authors used LLM assistants to write analysis scripts, draft figures and tables, and edit the text. The authors reviewed and validated the resulting analyses, figures, tables, and text and take full responsibility for the paper's content and findings.
