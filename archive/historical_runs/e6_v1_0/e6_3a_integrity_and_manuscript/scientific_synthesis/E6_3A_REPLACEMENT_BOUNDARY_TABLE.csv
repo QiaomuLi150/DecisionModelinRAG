@@ -1,0 +1,9 @@
+model,workload,quality_endpoint,p50_ms,p95_ms,failure_rate,peak_allocated_mib,quality_source
+pplx_decider,scifact,see separate E6-2 quality artifacts,923.3475695364177,930.4929301142693,0.0,50423.36,E6-2 R3/R5; not pooled
+pplx_decider,garage,see separate E6-2 quality artifacts,654.8191253095865,722.5320325233039,0.0,50311.95,E6-2 R3/R5; not pooled
+liquid_d1_3b,scifact,see separate E6-2 quality artifacts,344.6385362185538,372.3419584799558,0.0,6811.81,E6-2 R3/R5; not pooled
+liquid_d1_3b,garage,see separate E6-2 quality artifacts,140.55640902370214,197.37415877170838,0.0,6515.19,E6-2 R3/R5; not pooled
+jina_v3_5,scifact,see separate E6-2 quality artifacts,232.62622253969312,345.3217082191257,0.0,2264.7,E6-2 R3/R5; not pooled
+jina_v3_5,garage,see separate E6-2 quality artifacts,59.47396857663989,88.34899081848555,0.0,1450.88,E6-2 R3/R5; not pooled
+qwen3_reranker_0_6b,scifact,see separate E6-2 quality artifacts,200.1040824688971,311.0886508598922,0.0,3254.08,E6-2 R3/R5; not pooled
+qwen3_reranker_0_6b,garage,see separate E6-2 quality artifacts,88.2968851365149,118.38433216325937,0.0,1871.08,E6-2 R3/R5; not pooled

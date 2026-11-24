@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "all_reader_cache_disabled": true,
+    "all_reader_status_ok": true,
+    "joined_input_contract": true,
+    "no_gold_in_selector_or_reader": true,
+    "reader_output_cardinality": true,
+    "reader_task_cardinality": true,
+    "same_reader_revision_and_generation": true,
+    "score_cardinality": true,
+    "selector_P1_PPLX_BUDGETED_VISIBLE_TEXT": true,
+    "selector_R0_RETRIEVAL_TOP5_VISIBLE_TEXT": true,
+    "selector_S1_JINA_FULL_VISIBLE_TEXT": true,
+    "selector_S2_JINA_BUDGETED_VISIBLE_TEXT": true
+  },
+  "historical_reader_reuse": false,
+  "issues": [],
+  "reader_contract": {
+    "cache_disabled": true,
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "prompt_revision": "E11V_FIXED_READER_QWEN_V1",
+    "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b"
+  },
+  "rows": 1200,
+  "selection_source": "html_text_repair_1"
+}

@@ -1,0 +1,31 @@
+{
+  "device_row": [
+    "5",
+    "<REDACTED_GPU_UUID>",
+    "NVIDIA A100-SXM4-80GB",
+    "81920",
+    "4",
+    "81149",
+    "0"
+  ],
+  "gpu_index": 5,
+  "gpu_snapshot": {
+    "command": "nvidia-smi --query-gpu=index,uuid,name,memory.total,memory.used,memory.free,utilization.gpu --format=csv,noheader,nounits",
+    "returncode": 0,
+    "status": "PASS",
+    "stderr": "",
+    "stdout": "0, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 31118, 50035, 23\n1, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 15797, 65356, 68\n2, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 6291, 74862, 0\n3, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 6, 81147, 0\n4, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 8, 81145, 0\n5, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 4, 81149, 0\n6, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 4, 81149, 0\n7, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 13327, 67825, 0"
+  },
+  "memory_free_mib": 81149,
+  "model_calls_started": 0,
+  "process_snapshot": {
+    "command": "<GPU_PROCESS_LISTING_OMITTED>",
+    "returncode": 0,
+    "status": "PASS",
+    "stderr": "",
+    "stdout": "<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 2432\n<REDACTED_GPU_UUID>, 2978176, <REDACTED_PATH> 4790\n<REDACTED_GPU_UUID>, 699613, <REDACTED_PATH> 4790\n<REDACTED_GPU_UUID>, 1943734, <REDACTED_PATH> 18982\n<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 759893, .venv-gifteval/bin/python, 15362\n<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 2978176, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 755318, <REDACTED_PATH> 5374\n<REDACTED_GPU_UUID>, 4163740, <REDACTED_PATH> 13316"
+  },
+  "resident_process_present": false,
+  "status": "PASS_DEDICATED_GPU_AVAILABLE",
+  "utilization_percent": 0
+}

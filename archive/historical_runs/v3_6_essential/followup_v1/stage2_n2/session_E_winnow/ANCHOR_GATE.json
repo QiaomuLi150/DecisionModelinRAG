@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "session": "E",
+  "gpu_slot": "D",
+  "anchors": [
+    "jina_full",
+    "pplx_budget"
+  ],
+  "records": 2160
+}

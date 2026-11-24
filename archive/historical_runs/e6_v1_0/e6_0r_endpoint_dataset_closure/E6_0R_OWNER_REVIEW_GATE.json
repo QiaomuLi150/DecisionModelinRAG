@@ -1,0 +1,12 @@
+{
+  "confirmation_locked": true,
+  "e6_1_started": false,
+  "e6_2_authorized": false,
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "primary_dataset": "BEIR/SciFact",
+  "primary_track": "N-REL",
+  "secondary_dataset": "GaRAGe",
+  "secondary_track": "F-GRD-K15",
+  "status": "E6_0R_OWNER_APPROVAL_READY"
+}

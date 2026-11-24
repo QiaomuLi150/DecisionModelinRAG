@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-15T21:00:07.733911+00:00",
+  "git": "246ff54e66b178eadd350351a5544879f5484ed2",
+  "gpu_snapshot": {
+    "captured_at": "2026-10-15T21:00:07.733874+00:00",
+    "error": "CalledProcessError: Command '['nvidia-smi', '--query-gpu=index,uuid,name,memory.total,memory.used,memory.free,utilization.gpu', '--format=csv,noheader,nounits']' returned non-zero exit status 9.",
+    "status": "unavailable"
+  },
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "protected_access": false
+}

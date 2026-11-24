@@ -1,0 +1,852 @@
+{
+  "orders": [
+    {
+      "policy": "pplx_two_stage",
+      "order_id": "reversed",
+      "rows": 1384,
+      "valid": 1381,
+      "failed": 3,
+      "all_attempt_mean_ndcg5": 0.20250045910538894,
+      "valid_mean_ndcg5": 0.2029403587269068,
+      "selection_set_changed_vs_original": 1306,
+      "selection_set_changed_rate": 0.9436416184971098,
+      "selection_order_changed_vs_original": 1374,
+      "selection_order_changed_rate": 0.9927745664739884,
+      "paired_delta_query_weighted": -0.00827169723463724,
+      "paired_delta_domain_weighted": -0.009389292740160404,
+      "ndcg5_domain_bootstrap": {
+        "n": 1384,
+        "n_domains": 12,
+        "query_weighted": 0.20250045910538894,
+        "domain_weighted": 0.2007213961804731,
+        "domain_bootstrap_ci95": [
+          0.16162036285508455,
+          0.23992796162053298
+        ],
+        "seed": 731,
+        "draws": 40000,
+        "domains": {
+          "aops": {
+            "n": 111,
+            "mean": 0.06945819105593262
+          },
+          "biology": {
+            "n": 103,
+            "mean": 0.24227098951152923
+          },
+          "earth_science": {
+            "n": 116,
+            "mean": 0.30128086571103685
+          },
+          "economics": {
+            "n": 103,
+            "mean": 0.18932391887083844
+          },
+          "leetcode": {
+            "n": 142,
+            "mean": 0.32348859440673927
+          },
+          "pony": {
+            "n": 112,
+            "mean": 0.22273183670100702
+          },
+          "psychology": {
+            "n": 101,
+            "mean": 0.19108363307825302
+          },
+          "robotics": {
+            "n": 101,
+            "mean": 0.2102336513125397
+          },
+          "stackoverflow": {
+            "n": 117,
+            "mean": 0.19613256041591326
+          },
+          "sustainable_living": {
+            "n": 108,
+            "mean": 0.20921951896128718
+          },
+          "theoremqa_questions": {
+            "n": 194,
+            "mean": 0.14346951862609555
+          },
+          "theoremqa_theorems": {
+            "n": 76,
+            "mean": 0.10996347551450493
+          }
+        }
+      },
+      "delta_vs_original_domain_bootstrap": {
+        "n": 1384,
+        "n_domains": 12,
+        "query_weighted": -0.00827169723463724,
+        "domain_weighted": -0.009389292740160404,
+        "domain_bootstrap_ci95": [
+          -0.016259250668358684,
+          -0.002472883508158142
+        ],
+        "seed": 731,
+        "draws": 40000,
+        "domains": {
+          "aops": {
+            "n": 111,
+            "mean": -0.018903417847297724
+          },
+          "biology": {
+            "n": 103,
+            "mean": -0.012117649768374884
+          },
+          "earth_science": {
+            "n": 116,
+            "mean": -0.030756780521843705
+          },
+          "economics": {
+            "n": 103,
+            "mean": -0.020592296043744816
+          },
+          "leetcode": {
+            "n": 142,
+            "mean": 0.004445589082553697
+          },
+          "pony": {
+            "n": 112,
+            "mean": 0.002701921098362009
+          },
+          "psychology": {
+            "n": 101,
+            "mean": -0.01887996090765096
+          },
+          "robotics": {
+            "n": 101,
+            "mean": -0.013408338838134182
+          },
+          "stackoverflow": {
+            "n": 117,
+            "mean": 0.008546713529738374
+          },
+          "sustainable_living": {
+            "n": 108,
+            "mean": -0.018298140967597434
+          },
+          "theoremqa_questions": {
+            "n": 194,
+            "mean": 0.004590848302064776
+          },
+          "theoremqa_theorems": {
+            "n": 76,
+            "mean": 0.0
+          }
+        },
+        "sign_flip_p_two_sided": 0.0283203125,
+        "observed_domain_mean": -0.009389292740160404
+      }
+    },
+    {
+      "policy": "pplx_two_stage",
+      "order_id": "perm_seed_1",
+      "rows": 1384,
+      "valid": 1381,
+      "failed": 3,
+      "all_attempt_mean_ndcg5": 0.2036059874767087,
+      "valid_mean_ndcg5": 0.20404828868049588,
+      "selection_set_changed_vs_original": 1307,
+      "selection_set_changed_rate": 0.944364161849711,
+      "selection_order_changed_vs_original": 1373,
+      "selection_order_changed_rate": 0.9920520231213873,
+      "paired_delta_query_weighted": -0.007166168863317501,
+      "paired_delta_domain_weighted": -0.008077828146569542,
+      "ndcg5_domain_bootstrap": {
+        "n": 1384,
+        "n_domains": 12,
+        "query_weighted": 0.2036059874767087,
+        "domain_weighted": 0.20203286077406393,
+        "domain_bootstrap_ci95": [
+          0.16072433727674507,
+          0.24422853557827523
+        ],
+        "seed": 731,
+        "draws": 40000,
+        "domains": {
+          "aops": {
+            "n": 111,
+            "mean": 0.07310259022616387
+          },
+          "biology": {
+            "n": 103,
+            "mean": 0.25101719322964505
+          },
+          "earth_science": {
+            "n": 116,
+            "mean": 0.3236002793571717
+          },
+          "economics": {
+            "n": 103,
+            "mean": 0.16735612053294244
+          },
+          "leetcode": {
+            "n": 142,
+            "mean": 0.32311697442492054
+          },
+          "pony": {
+            "n": 112,
+            "mean": 0.21436677060365295
+          },
+          "psychology": {
+            "n": 101,
+            "mean": 0.19331197630344685
+          },
+          "robotics": {
+            "n": 101,
+            "mean": 0.19287295299467538
+          },
+          "stackoverflow": {
+            "n": 117,
+            "mean": 0.18759428312915663
+          },
+          "sustainable_living": {
+            "n": 108,
+            "mean": 0.2493685893866536
+          },
+          "theoremqa_questions": {
+            "n": 194,
+            "mean": 0.1387231235858334
+          },
+          "theoremqa_theorems": {
+            "n": 76,
+            "mean": 0.10996347551450493
+          }
+        }
+      },
+      "delta_vs_original_domain_bootstrap": {
+        "n": 1384,
+        "n_domains": 12,
+        "query_weighted": -0.007166168863317501,
+        "domain_weighted": -0.008077828146569542,
+        "domain_bootstrap_ci95": [
+          -0.017434659023750246,
+          0.0007500842122462783
+        ],
+        "seed": 731,
+        "draws": 40000,
+        "domains": {
+          "aops": {
+            "n": 111,
+            "mean": -0.01525901867706647
+          },
+          "biology": {
+            "n": 103,
+            "mean": -0.0033714460502590822
+          },
+          "earth_science": {
+            "n": 116,
+            "mean": -0.008437366875708752
+          },
+          "economics": {
+            "n": 103,
+            "mean": -0.042560094381640844
+          },
+          "leetcode": {
+            "n": 142,
+            "mean": 0.004073969100734982
+          },
+          "pony": {
+            "n": 112,
+            "mean": -0.00566314499899207
+          },
+          "psychology": {
+            "n": 101,
+            "mean": -0.01665161768245714
+          },
+          "robotics": {
+            "n": 101,
+            "mean": -0.0307690371559985
+          },
+          "stackoverflow": {
+            "n": 117,
+            "mean": 8.436242981747338e-06
+          },
+          "sustainable_living": {
+            "n": 108,
+            "mean": 0.021850929457768984
+          },
+          "theoremqa_questions": {
+            "n": 194,
+            "mean": -0.0001555467381973629
+          },
+          "theoremqa_theorems": {
+            "n": 76,
+            "mean": 0.0
+          }
+        },
+        "sign_flip_p_two_sided": 0.130859375,
+        "observed_domain_mean": -0.008077828146569542
+      }
+    },
+    {
+      "policy": "pplx_two_stage",
+      "order_id": "perm_seed_2",
+      "rows": 1384,
+      "valid": 1381,
+      "failed": 3,
+      "all_attempt_mean_ndcg5": 0.20930963794004248,
+      "valid_mean_ndcg5": 0.20976432940551687,
+      "selection_set_changed_vs_original": 1301,
+      "selection_set_changed_rate": 0.940028901734104,
+      "selection_order_changed_vs_original": 1371,
+      "selection_order_changed_rate": 0.990606936416185,
+      "paired_delta_query_weighted": -0.0014625183999837246,
+      "paired_delta_domain_weighted": -0.0018324842070726894,
+      "ndcg5_domain_bootstrap": {
+        "n": 1384,
+        "n_domains": 12,
+        "query_weighted": 0.20930963794004248,
+        "domain_weighted": 0.20827820471356084,
+        "domain_bootstrap_ci95": [
+          0.16701002619127897,
+          0.24883540383348693
+        ],
+        "seed": 731,
+        "draws": 40000,
+        "domains": {
+          "aops": {
+            "n": 111,
+            "mean": 0.06940414741171032
+          },
+          "biology": {
+            "n": 103,
+            "mean": 0.2648443463308244
+          },
+          "earth_science": {
+            "n": 116,
+            "mean": 0.30173725738245416
+          },
+          "economics": {
+            "n": 103,
+            "mean": 0.18380099775709838
+          },
+          "leetcode": {
+            "n": 142,
+            "mean": 0.3334396671356246
+          },
+          "pony": {
+            "n": 112,
+            "mean": 0.21954754365552073
+          },
+          "psychology": {
+            "n": 101,
+            "mean": 0.20337820022534114
+          },
+          "robotics": {
+            "n": 101,
+            "mean": 0.23580764299061113
+          },
+          "stackoverflow": {
+            "n": 117,
+            "mean": 0.2130641569307214
+          },
+          "sustainable_living": {
+            "n": 108,
+            "mean": 0.2212938814246783
+          },
+          "theoremqa_questions": {
+            "n": 194,
+            "mean": 0.13911310290229906
+          },
+          "theoremqa_theorems": {
+            "n": 76,
+            "mean": 0.1139075124158462
+          }
+        }
+      },
+      "delta_vs_original_domain_bootstrap": {
+        "n": 1384,
+        "n_domains": 12,
+        "query_weighted": -0.0014625183999837246,
+        "domain_weighted": -0.0018324842070726894,
+        "domain_bootstrap_ci95": [
+          -0.011090930333411965,
+          0.007152261606652639
+        ],
+        "seed": 731,
+        "draws": 40000,
+        "domains": {
+          "aops": {
+            "n": 111,
+            "mean": -0.01895746149152002
+          },
+          "biology": {
+            "n": 103,
+            "mean": 0.01045570705092022
+          },
+          "earth_science": {
+            "n": 116,
+            "mean": -0.030300388850426435
+          },
+          "economics": {
+            "n": 103,
+            "mean": -0.026115217157484917
+          },
+          "leetcode": {
+            "n": 142,
+            "mean": 0.014396661811439013
+          },
+          "pony": {
+            "n": 112,
+            "mean": -0.00048237194712427836
+          },
+          "psychology": {
+            "n": 101,
+            "mean": -0.006585393760562821
+          },
+          "robotics": {
+            "n": 101,
+            "mean": 0.012165652839937235
+          },
+          "stackoverflow": {
+            "n": 117,
+            "mean": 0.02547831004454653
+          },
+          "sustainable_living": {
+            "n": 108,
+            "mean": -0.006223778504206327
+          },
+          "theoremqa_questions": {
+            "n": 194,
+            "mean": 0.00023443257826827468
+          },
+          "theoremqa_theorems": {
+            "n": 76,
+            "mean": 0.0039440369013412566
+          }
+        },
+        "sign_flip_p_two_sided": 0.708984375,
+        "observed_domain_mean": -0.0018324842070726894
+      }
+    },
+    {
+      "policy": "pplx_two_stage",
+      "order_id": "perm_seed_3",
+      "rows": 1384,
+      "valid": 1381,
+      "failed": 3,
+      "all_attempt_mean_ndcg5": 0.20684795856632976,
+      "valid_mean_ndcg5": 0.20729730242997854,
+      "selection_set_changed_vs_original": 1304,
+      "selection_set_changed_rate": 0.9421965317919075,
+      "selection_order_changed_vs_original": 1372,
+      "selection_order_changed_rate": 0.9913294797687862,
+      "paired_delta_query_weighted": -0.003924197773696423,
+      "paired_delta_domain_weighted": -0.004273273571503364,
+      "ndcg5_domain_bootstrap": {
+        "n": 1384,
+        "n_domains": 12,
+        "query_weighted": 0.20684795856632976,
+        "domain_weighted": 0.20583741534913014,
+        "domain_bootstrap_ci95": [
+          0.16600255474134207,
+          0.246057801146498
+        ],
+        "seed": 731,
+        "draws": 40000,
+        "domains": {
+          "aops": {
+            "n": 111,
+            "mean": 0.07855471003717177
+          },
+          "biology": {
+            "n": 103,
+            "mean": 0.23357126690229418
+          },
+          "earth_science": {
+            "n": 116,
+            "mean": 0.32730851132068894
+          },
+          "economics": {
+            "n": 103,
+            "mean": 0.20919569779833494
+          },
+          "leetcode": {
+            "n": 142,
+            "mean": 0.3199710909049398
+          },
+          "pony": {
+            "n": 112,
+            "mean": 0.2182342171879434
+          },
+          "psychology": {
+            "n": 101,
+            "mean": 0.20924745725924762
+          },
+          "robotics": {
+            "n": 101,
+            "mean": 0.20968805400783133
+          },
+          "stackoverflow": {
+            "n": 117,
+            "mean": 0.19004977773247528
+          },
+          "sustainable_living": {
+            "n": 108,
+            "mean": 0.22634653014766964
+          },
+          "theoremqa_questions": {
+            "n": 194,
+            "mean": 0.13791819537645977
+          },
+          "theoremqa_theorems": {
+            "n": 76,
+            "mean": 0.10996347551450493
+          }
+        }
+      },
+      "delta_vs_original_domain_bootstrap": {
+        "n": 1384,
+        "n_domains": 12,
+        "query_weighted": -0.003924197773696423,
+        "domain_weighted": -0.004273273571503364,
+        "domain_bootstrap_ci95": [
+          -0.00841388995178937,
+          -0.0008923631565204269
+        ],
+        "seed": 731,
+        "draws": 40000,
+        "domains": {
+          "aops": {
+            "n": 111,
+            "mean": -0.009806898866058586
+          },
+          "biology": {
+            "n": 103,
+            "mean": -0.020817372377609965
+          },
+          "earth_science": {
+            "n": 116,
+            "mean": -0.004729134912191571
+          },
+          "economics": {
+            "n": 103,
+            "mean": -0.0007205171162483403
+          },
+          "leetcode": {
+            "n": 142,
+            "mean": 0.0009280855807542486
+          },
+          "pony": {
+            "n": 112,
+            "mean": -0.0017956984147016579
+          },
+          "psychology": {
+            "n": 101,
+            "mean": -0.0007161367266563514
+          },
+          "robotics": {
+            "n": 101,
+            "mean": -0.013953936142842585
+          },
+          "stackoverflow": {
+            "n": 117,
+            "mean": 0.0024639308463004182
+          },
+          "sustainable_living": {
+            "n": 108,
+            "mean": -0.001171129781214988
+          },
+          "theoremqa_questions": {
+            "n": 194,
+            "mean": -0.0009604749475709935
+          },
+          "theoremqa_theorems": {
+            "n": 76,
+            "mean": 0.0
+          }
+        },
+        "sign_flip_p_two_sided": 0.037109375,
+        "observed_domain_mean": -0.004273273571503364
+      }
+    },
+    {
+      "policy": "pplx_two_stage",
+      "order_id": "perm_seed_4",
+      "rows": 1384,
+      "valid": 1381,
+      "failed": 3,
+      "all_attempt_mean_ndcg5": 0.20277082489746445,
+      "valid_mean_ndcg5": 0.20321131184510557,
+      "selection_set_changed_vs_original": 1292,
+      "selection_set_changed_rate": 0.9335260115606936,
+      "selection_order_changed_vs_original": 1369,
+      "selection_order_changed_rate": 0.9891618497109826,
+      "paired_delta_query_weighted": -0.008001331442561724,
+      "paired_delta_domain_weighted": -0.00821279636953273,
+      "ndcg5_domain_bootstrap": {
+        "n": 1384,
+        "n_domains": 12,
+        "query_weighted": 0.20277082489746445,
+        "domain_weighted": 0.20189789255110072,
+        "domain_bootstrap_ci95": [
+          0.1620497341898602,
+          0.24196063193949108
+        ],
+        "seed": 731,
+        "draws": 40000,
+        "domains": {
+          "aops": {
+            "n": 111,
+            "mean": 0.07455468485658584
+          },
+          "biology": {
+            "n": 103,
+            "mean": 0.25971713247819944
+          },
+          "earth_science": {
+            "n": 116,
+            "mean": 0.30480299383596465
+          },
+          "economics": {
+            "n": 103,
+            "mean": 0.1898221691005712
+          },
+          "leetcode": {
+            "n": 142,
+            "mean": 0.3193466263665646
+          },
+          "pony": {
+            "n": 112,
+            "mean": 0.2246011635030822
+          },
+          "psychology": {
+            "n": 101,
+            "mean": 0.20467477519985078
+          },
+          "robotics": {
+            "n": 101,
+            "mean": 0.18651843592892753
+          },
+          "stackoverflow": {
+            "n": 117,
+            "mean": 0.1618351986209894
+          },
+          "sustainable_living": {
+            "n": 108,
+            "mean": 0.24249635132106367
+          },
+          "theoremqa_questions": {
+            "n": 194,
+            "mean": 0.13752010928120945
+          },
+          "theoremqa_theorems": {
+            "n": 76,
+            "mean": 0.11688507012020036
+          }
+        }
+      },
+      "delta_vs_original_domain_bootstrap": {
+        "n": 1384,
+        "n_domains": 12,
+        "query_weighted": -0.008001331442561724,
+        "domain_weighted": -0.00821279636953273,
+        "domain_bootstrap_ci95": [
+          -0.01724027719756545,
+          0.0003698716397879032
+        ],
+        "seed": 731,
+        "draws": 40000,
+        "domains": {
+          "aops": {
+            "n": 111,
+            "mean": -0.013806924046644506
+          },
+          "biology": {
+            "n": 103,
+            "mean": 0.005328493198295289
+          },
+          "earth_science": {
+            "n": 116,
+            "mean": -0.027234652396915773
+          },
+          "economics": {
+            "n": 103,
+            "mean": -0.020094045814012015
+          },
+          "leetcode": {
+            "n": 142,
+            "mean": 0.0003036210423789593
+          },
+          "pony": {
+            "n": 112,
+            "mean": 0.004571247900437221
+          },
+          "psychology": {
+            "n": 101,
+            "mean": -0.005288818786053184
+          },
+          "robotics": {
+            "n": 101,
+            "mean": -0.037123554221746374
+          },
+          "stackoverflow": {
+            "n": 117,
+            "mean": -0.02575064826518549
+          },
+          "sustainable_living": {
+            "n": 108,
+            "mean": 0.014978691392179045
+          },
+          "theoremqa_questions": {
+            "n": 194,
+            "mean": -0.0013585610428213505
+          },
+          "theoremqa_theorems": {
+            "n": 76,
+            "mean": 0.006921594605695425
+          }
+        },
+        "sign_flip_p_two_sided": 0.1103515625,
+        "observed_domain_mean": -0.00821279636953273
+      }
+    },
+    {
+      "policy": "pplx_two_stage",
+      "order_id": "perm_seed_5",
+      "rows": 1384,
+      "valid": 1381,
+      "failed": 3,
+      "all_attempt_mean_ndcg5": 0.20233791530625894,
+      "valid_mean_ndcg5": 0.20277746182756146,
+      "selection_set_changed_vs_original": 1285,
+      "selection_set_changed_rate": 0.9284682080924855,
+      "selection_order_changed_vs_original": 1366,
+      "selection_order_changed_rate": 0.9869942196531792,
+      "paired_delta_query_weighted": -0.008434241033767229,
+      "paired_delta_domain_weighted": -0.008980420877048994,
+      "ndcg5_domain_bootstrap": {
+        "n": 1384,
+        "n_domains": 12,
+        "query_weighted": 0.20233791530625894,
+        "domain_weighted": 0.20113026804358447,
+        "domain_bootstrap_ci95": [
+          0.16326526975804606,
+          0.2384928265621796
+        ],
+        "seed": 731,
+        "draws": 40000,
+        "domains": {
+          "aops": {
+            "n": 111,
+            "mean": 0.07862703303614789
+          },
+          "biology": {
+            "n": 103,
+            "mean": 0.2456287757476298
+          },
+          "earth_science": {
+            "n": 116,
+            "mean": 0.29096660740867564
+          },
+          "economics": {
+            "n": 103,
+            "mean": 0.17802623422036956
+          },
+          "leetcode": {
+            "n": 142,
+            "mean": 0.31469226155190694
+          },
+          "pony": {
+            "n": 112,
+            "mean": 0.20686961522949407
+          },
+          "psychology": {
+            "n": 101,
+            "mean": 0.20577519352518675
+          },
+          "robotics": {
+            "n": 101,
+            "mean": 0.218511386581364
+          },
+          "stackoverflow": {
+            "n": 117,
+            "mean": 0.18802277266944656
+          },
+          "sustainable_living": {
+            "n": 108,
+            "mean": 0.23592763202381561
+          },
+          "theoremqa_questions": {
+            "n": 194,
+            "mean": 0.14146437956613814
+          },
+          "theoremqa_theorems": {
+            "n": 76,
+            "mean": 0.10905132496283905
+          }
+        }
+      },
+      "delta_vs_original_domain_bootstrap": {
+        "n": 1384,
+        "n_domains": 12,
+        "query_weighted": -0.008434241033767229,
+        "domain_weighted": -0.008980420877048994,
+        "domain_bootstrap_ci95": [
+          -0.017218372851898034,
+          -0.0019889625700222524
+        ],
+        "seed": 731,
+        "draws": 40000,
+        "domains": {
+          "aops": {
+            "n": 111,
+            "mean": -0.009734575867082469
+          },
+          "biology": {
+            "n": 103,
+            "mean": -0.00875986353227431
+          },
+          "earth_science": {
+            "n": 116,
+            "mean": -0.04107103882420487
+          },
+          "economics": {
+            "n": 103,
+            "mean": -0.031889980694213685
+          },
+          "leetcode": {
+            "n": 142,
+            "mean": -0.004350743772278659
+          },
+          "pony": {
+            "n": 112,
+            "mean": -0.013160300373150932
+          },
+          "psychology": {
+            "n": 101,
+            "mean": -0.004188400460717193
+          },
+          "robotics": {
+            "n": 101,
+            "mean": -0.0051306035693099265
+          },
+          "stackoverflow": {
+            "n": 117,
+            "mean": 0.00043692578327164807
+          },
+          "sustainable_living": {
+            "n": 108,
+            "mean": 0.008409972094930981
+          },
+          "theoremqa_questions": {
+            "n": 194,
+            "mean": 0.0025857092421073613
+          },
+          "theoremqa_theorems": {
+            "n": 76,
+            "mean": -0.0009121505516658809
+          }
+        },
+        "sign_flip_p_two_sided": 0.029296875,
+        "observed_domain_mean": -0.008980420877048994
+      }
+    }
+  ],
+  "seed": 731,
+  "draws": 40000
+}

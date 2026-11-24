@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-15T15:10:19.844419+00:00",
+  "input_sha256": "cbe937a1ff3425cc55c937ef32cfd99c470ec09374dfa72b855b79c4fb4935b7",
+  "jev_calls": 0,
+  "model_forward_calls_after_freeze": 0,
+  "paid_api_calls": 0,
+  "prediction_sha256": "bc1cfcada22068be33764f97fe46fc444fc51b4fc0416463d03d33ffb307cc8c",
+  "quality_metrics_computed_before_freeze": false,
+  "reserved_rows_exported": 0,
+  "schema": "E6-2-R5-PREOUTCOME-FREEZE-V1",
+  "selection_registry_sha256": "ba6d61130c615968ce4ee8ef1d0a81aace0a2f88b503680b45b17f8b4e470331",
+  "status": "FROZEN_BEFORE_LABEL_SCORING"
+}

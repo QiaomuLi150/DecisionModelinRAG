@@ -1,0 +1,37 @@
+{
+  "external_api_calls": 0,
+  "focused_integrity_checks": {
+    "C2 E12 ratios": "PASS",
+    "C2 R1 baseline ratios": "PASS",
+    "C2 bootstrap rows": "PASS",
+    "C2 fallback candidate integrity": "PASS",
+    "C2 fallback count": "PASS",
+    "C2 policy summaries": "PASS",
+    "C2 request count": "PASS",
+    "C2 request-key uniqueness": "PASS",
+    "blocked stages made no calls": "PASS",
+    "historical artifacts unchanged by v1.5": "PASS",
+    "historical source hashes": "PASS",
+    "v1.5 artifact sanitization": "PASS"
+  },
+  "full_regression": {
+    "failed_tests": 3,
+    "failures": [
+      "test_e6_0r_closure.py::test_scifact_natural_relevance_identity_and_sparse_qrels (pyarrow missing)",
+      "test_e6_0r_closure.py::test_scifact_component_split_is_disjoint_and_reserved_is_metadata_only (pyarrow missing)",
+      "test_startlux_runtime.py::test_startlux_fast_kernel_detector_uses_actual_bindings (torch missing)"
+    ],
+    "status": "3_FAILED_DEPENDENCY_GATED",
+    "v1_5_focused_checks": "12/12 PASS"
+  },
+  "gate": "V1_5_OWNER_REVIEW_READY_PARTIAL",
+  "historical_artifacts_modified": false,
+  "inference_calls": 0,
+  "next_owner_decision": "Provide a valid dedicated-A100 window before authorizing C1/C3/C4; no v1.5 result should be inferred from the blockers.",
+  "stages": {
+    "C1": "BLOCKED_DEDICATED_GPU_UNAVAILABLE_AT_PREFLIGHT",
+    "C2": "COMPLETE_OFFLINE",
+    "C3": "BLOCKED_DEDICATED_GPU_UNAVAILABLE_AT_PREFLIGHT",
+    "C4": "BLOCKED_DEDICATED_GPU_UNAVAILABLE_AT_PREFLIGHT"
+  }
+}

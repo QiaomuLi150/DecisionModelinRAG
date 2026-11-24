@@ -1,0 +1,182 @@
+{
+  "summary": [
+    {
+      "policy": "retrieval_top5",
+      "window": 512,
+      "cohort": "representative",
+      "n": 240,
+      "reader_ok": 240,
+      "reader_errors": 0,
+      "em_all": 0.14583333333333334,
+      "f1_all": 0.24919111716042722,
+      "answer_offset_present": 0.1
+    },
+    {
+      "policy": "retrieval_top5",
+      "window": 512,
+      "cohort": "oversized_diagnostic",
+      "n": 60,
+      "reader_ok": 60,
+      "reader_errors": 0,
+      "em_all": 0.25,
+      "f1_all": 0.35015873015873017,
+      "answer_offset_present": 0.16666666666666666
+    },
+    {
+      "policy": "retrieval_top5",
+      "window": 1024,
+      "cohort": "representative",
+      "n": 240,
+      "reader_ok": 240,
+      "reader_errors": 0,
+      "em_all": 0.15833333333333333,
+      "f1_all": 0.27989137319280905,
+      "answer_offset_present": 0.1
+    },
+    {
+      "policy": "retrieval_top5",
+      "window": 1024,
+      "cohort": "oversized_diagnostic",
+      "n": 60,
+      "reader_ok": 60,
+      "reader_errors": 0,
+      "em_all": 0.2833333333333333,
+      "f1_all": 0.38398809523809524,
+      "answer_offset_present": 0.16666666666666666
+    },
+    {
+      "policy": "jina_full",
+      "window": 512,
+      "cohort": "representative",
+      "n": 240,
+      "reader_ok": 240,
+      "reader_errors": 0,
+      "em_all": 0.15,
+      "f1_all": 0.26567316201098734,
+      "answer_offset_present": 0.125
+    },
+    {
+      "policy": "jina_full",
+      "window": 512,
+      "cohort": "oversized_diagnostic",
+      "n": 60,
+      "reader_ok": 60,
+      "reader_errors": 0,
+      "em_all": 0.3333333333333333,
+      "f1_all": 0.43376322751322755,
+      "answer_offset_present": 0.18333333333333332
+    },
+    {
+      "policy": "jina_full",
+      "window": 1024,
+      "cohort": "representative",
+      "n": 240,
+      "reader_ok": 240,
+      "reader_errors": 0,
+      "em_all": 0.15833333333333333,
+      "f1_all": 0.2762136083650907,
+      "answer_offset_present": 0.125
+    },
+    {
+      "policy": "jina_full",
+      "window": 1024,
+      "cohort": "oversized_diagnostic",
+      "n": 60,
+      "reader_ok": 60,
+      "reader_errors": 0,
+      "em_all": 0.26666666666666666,
+      "f1_all": 0.36606112845866945,
+      "answer_offset_present": 0.18333333333333332
+    },
+    {
+      "policy": "jina_budget",
+      "window": 512,
+      "cohort": "representative",
+      "n": 240,
+      "reader_ok": 240,
+      "reader_errors": 0,
+      "em_all": 0.1625,
+      "f1_all": 0.2838516863071395,
+      "answer_offset_present": 0.1125
+    },
+    {
+      "policy": "jina_budget",
+      "window": 512,
+      "cohort": "oversized_diagnostic",
+      "n": 60,
+      "reader_ok": 60,
+      "reader_errors": 0,
+      "em_all": 0.3,
+      "f1_all": 0.4191121661060246,
+      "answer_offset_present": 0.16666666666666666
+    },
+    {
+      "policy": "jina_budget",
+      "window": 1024,
+      "cohort": "representative",
+      "n": 240,
+      "reader_ok": 240,
+      "reader_errors": 0,
+      "em_all": 0.1625,
+      "f1_all": 0.2872170029525006,
+      "answer_offset_present": 0.1125
+    },
+    {
+      "policy": "jina_budget",
+      "window": 1024,
+      "cohort": "oversized_diagnostic",
+      "n": 60,
+      "reader_ok": 60,
+      "reader_errors": 0,
+      "em_all": 0.3,
+      "f1_all": 0.40967273307790547,
+      "answer_offset_present": 0.16666666666666666
+    },
+    {
+      "policy": "pplx_budget",
+      "window": 512,
+      "cohort": "representative",
+      "n": 240,
+      "reader_ok": 240,
+      "reader_errors": 0,
+      "em_all": 0.1625,
+      "f1_all": 0.28994628949071105,
+      "answer_offset_present": 0.125
+    },
+    {
+      "policy": "pplx_budget",
+      "window": 512,
+      "cohort": "oversized_diagnostic",
+      "n": 60,
+      "reader_ok": 60,
+      "reader_errors": 0,
+      "em_all": 0.3333333333333333,
+      "f1_all": 0.4400670335744962,
+      "answer_offset_present": 0.18333333333333332
+    },
+    {
+      "policy": "pplx_budget",
+      "window": 1024,
+      "cohort": "representative",
+      "n": 240,
+      "reader_ok": 240,
+      "reader_errors": 0,
+      "em_all": 0.15833333333333333,
+      "f1_all": 0.2926449165666788,
+      "answer_offset_present": 0.125
+    },
+    {
+      "policy": "pplx_budget",
+      "window": 1024,
+      "cohort": "oversized_diagnostic",
+      "n": 60,
+      "reader_ok": 60,
+      "reader_errors": 0,
+      "em_all": 0.3,
+      "f1_all": 0.4126278061352688,
+      "answer_offset_present": 0.18333333333333332
+    }
+  ],
+  "endpoint": "deterministic answer/reference proxies, not factual correctness",
+  "answer_offset_definition": "first contiguous tokenizer-token match in the original selected-page text"
+}

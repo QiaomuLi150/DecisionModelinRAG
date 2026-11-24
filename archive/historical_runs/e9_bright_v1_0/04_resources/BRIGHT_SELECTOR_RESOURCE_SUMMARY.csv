@@ -1,0 +1,5 @@
+model,n_attempts,valid_n,failure_n,p50_selector_ms,p95_selector_ms,p95_peak_memory_mib,matched_hardware,note
+pplx_decider,1384,611,773,82.879796,2419.5117656499997,51334.747314453125,False,per-model GPU allocation and model-loading order are recorded in native run manifests; no unmeasured QPS/cost inference
+liquid_d1_3b,1384,1384,0,602.7278779999999,1734.2709429499998,9210.712890625,False,per-model GPU allocation and model-loading order are recorded in native run manifests; no unmeasured QPS/cost inference
+jina_v3_5,1384,1384,0,382.141571,1422.2969771999979,4497.824902343747,False,per-model GPU allocation and model-loading order are recorded in native run manifests; no unmeasured QPS/cost inference
+qwen3_reranker_0_6b,1384,1382,2,323.2234465,1524.2218250999988,33618.5220703125,False,per-model GPU allocation and model-loading order are recorded in native run manifests; no unmeasured QPS/cost inference

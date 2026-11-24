@@ -1,0 +1,200 @@
+{
+  "approved_amendment_sha256": "f5a1ea111bb3a22658f51e25831890a4f7fa29c1af73caec8ad8f59a540d6418",
+  "artifacts": [
+    {
+      "bytes": 195389,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_ANSWER_REFERENCE_AGREEMENT.csv",
+      "sha256": "829eb31afa7e0253ae400fca21f855458904859849642aa6452dce190904587b"
+    },
+    {
+      "bytes": 354,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_BLINDED_EVALUATION_AND_QC.csv",
+      "sha256": "76d34184e0c3f853de06e66f62e2033b9b2d33dee0a92e7e6811b425f9be3d5e"
+    },
+    {
+      "bytes": 15753,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_DISCORDANT_EVIDENCE_ANSWER_CASEBOOK.md",
+      "sha256": "7d26b3df3c296ec2e08f38f2a45bb35fa4ca67ba0cd51daf66faba06197f1a60"
+    },
+    {
+      "bytes": 1082,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_FINAL_READER_SCIENTIFIC_REPORT.md",
+      "sha256": "d41c69573965fbc456d60cb23f21fb48f7d87cbdae5e81477a230222727f2f44"
+    },
+    {
+      "bytes": 518,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_PAIRED_READER_STATISTICS.csv",
+      "sha256": "ded341af8e2b2fc43fc9207a56043379306c3f8ea191630100ff11ed6c7af35a"
+    },
+    {
+      "bytes": 400,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_READER_EXECUTION_SUMMARY.json",
+      "sha256": "4d7ab2f2d45dec2f8c573dbb5fd7a233656789ed920a8864947e07d23cb46785"
+    },
+    {
+      "bytes": 1998441,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_READER_INPUTS_AND_OUTPUTS.jsonl",
+      "sha256": "d6b9a0937611878924ff400256fa99bb09186742dab85556db76ba8aa0e6762f"
+    },
+    {
+      "bytes": 1401,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_REFERENCE_ANALYSIS_SUMMARY.json",
+      "sha256": "54012a512eecbd073c5a75b2ddfd493e38bc6916efa21bb889c4925ec4456618"
+    },
+    {
+      "bytes": 723,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_REFERENCE_AND_GROUNDING_LIMITATIONS.md",
+      "sha256": "3be3e3a05a81757b0e24632a90f586b3dfe64f74a46935ebbc3bf21f6f24fc93"
+    },
+    {
+      "bytes": 1059,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_DEVIATIONS_AND_STOP_RULES.md",
+      "sha256": "fb88b71c500297f5360e643de0634751925ac0194f95fab8816780a5759668d9"
+    },
+    {
+      "bytes": 575,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_EXECUTION_EVENTS.md",
+      "sha256": "cec84e013e71045411f215e17b7346c199f74baab118db6464bedbe75a675168"
+    },
+    {
+      "bytes": 45777,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_EXECUTION_MANIFEST_FROZEN.json",
+      "sha256": "1f338b891194be21e7d6c741a81f9c76e4a333e4e4ccbbad1ee4e0c57170ead7"
+    },
+    {
+      "bytes": 52213,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_FROZEN_REPRESENTATIVE_AND_DIAGNOSTIC_COHORTS.csv",
+      "sha256": "ef378c66e2e4f89700106ab2e6cfb48e8cdd27aa09dd0789bcfccb269df38426"
+    },
+    {
+      "bytes": 573,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_GPU_AUTHORIZATION_ISOLATION_GATE.md",
+      "sha256": "c7f28156bfa2a0cbf0b841e43e02bcc72d046f5176d8755b6f10d0d28f5fc669"
+    },
+    {
+      "bytes": 2989,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_H0_READINESS.json",
+      "sha256": "4b7d480332b8ac3d116f57877c1bf199d56af568065d2371c6ec9c5efe5052c7"
+    },
+    {
+      "bytes": 770,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_INTEGRATED_REPLACEMENT_DECISION_MATRIX.md",
+      "sha256": "ef1ff2f5c1c5e826e670cba5d54394a817a7a265cb9620a389a3791d84ae4caa"
+    },
+    {
+      "bytes": 1091,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_MODEL_AND_READER_CONTRACT_MATRIX.csv",
+      "sha256": "6ed7c705770683039a0dc921b3a3cb4f93e70e2b613770fac113a6fc915b5219"
+    },
+    {
+      "bytes": 267,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_OWNER_REVIEW_GATE.json",
+      "sha256": "f2c7db0b0a5587a93bcb64623ffe0234cb6f60cd494de4c94ecfaee38ea78f68"
+    },
+    {
+      "bytes": 276,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_OWNER_REVIEW_GATE.md",
+      "sha256": "416fe59f485d763598b4e610007f24bb9ed9ddd3677515aeeb4bbc98a7f96bb4"
+    },
+    {
+      "bytes": 580,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_PREOUTCOME_FREEZE_RECEIPT.json",
+      "sha256": "3ce001a416004dd27efe8eea23802a5bde05f2101b7976072cd336b4ccb74aff"
+    },
+    {
+      "bytes": 723,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_REFERENCE_AND_GROUNDING_LIMITATIONS.md",
+      "sha256": "3be3e3a05a81757b0e24632a90f586b3dfe64f74a46935ebbc3bf21f6f24fc93"
+    },
+    {
+      "bytes": 566,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_REVIEWER_EXECUTIVE_SUMMARY.md",
+      "sha256": "53c91dc04d6b1e726f965b61625527e80a66573999b75fa16bd5663a8802e277"
+    },
+    {
+      "bytes": 697,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_TARGETED_AND_FULL_REGRESSION_TEST_REPORT.md",
+      "sha256": "47360c6a264c8309e87a362d574d594b40edcd484a2d6ee07496de50d4c5a598"
+    },
+    {
+      "bytes": 1038,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_FINAL_SERVING_SCIENTIFIC_REPORT.md",
+      "sha256": "21a576b3a3bad747211a2481c4aec662d41380c40168fcbec7db7fbbe1f1d205"
+    },
+    {
+      "bytes": 492,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_FORWARD_TOKEN_MEMORY_ACCOUNTING.csv",
+      "sha256": "8d00aa3c2b57642bac374a4cd302529494bd5c5c4794332d090e4d53b3216ee2"
+    },
+    {
+      "bytes": 1518,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_LATENCY_ANALYSIS.json",
+      "sha256": "9b97717af57891664c55203fbf0d5e02491345d641cfa52b9510a0429441a94b"
+    },
+    {
+      "bytes": 620,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_MATCHED_LATENCY_STATISTICS.csv",
+      "sha256": "61f201306062c2d23a0bcf189c0b854d49a17fd0c44c2ac6b2f63466b47185c7"
+    },
+    {
+      "bytes": 1330704,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_NATIVE_SERVING_ATTEMPTS.jsonl",
+      "sha256": "28d877830c55690b1b062c7831f53e7c1d73509fac6c6ac53a97318b34a557a3"
+    },
+    {
+      "bytes": 430,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_OPERATING_SCENARIOS_AND_REPLACEMENT_LIMITS.md",
+      "sha256": "267c4ec934a63a6c73e0f848d8feee86a43218e296715cab16e85a3c951d14dd"
+    },
+    {
+      "bytes": 5796,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_jina35_SUMMARY.json",
+      "sha256": "0702345c64d0fb2b39f8bbe5b6b3d32a54c451fc262bddfed307144d3d3eaad9"
+    },
+    {
+      "bytes": 5815,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_pplx_decider_SUMMARY.json",
+      "sha256": "a0e15e86e418366ea6aa9a5f95f34804799d4627e53a9f550d15d87cb84dfbd3"
+    }
+  ],
+  "checks": {
+    "all_reader_inputs_gold_free": true,
+    "all_reader_selected_cardinality": true,
+    "cohort_rows": 248,
+    "diagnostic_n": 55,
+    "e5a_historical_files_unchanged": true,
+    "reader_rows": 496,
+    "representative_n": 200,
+    "required_missing": [],
+    "selector_rows": 464,
+    "source_slate_sha_match": true,
+    "tests": {
+      "full": {
+        "command": "./Production_Project/MultiModalRAG/venv/bin/python -m pytest -q",
+        "returncode": 0,
+        "status": "PASS",
+        "stderr": "",
+        "stdout": "........................................................................ [ 43%]\n........................................................................ [ 86%]\n.......................                                                  [100%]"
+      },
+      "full_pass": true,
+      "targeted": {
+        "command": "./Production_Project/MultiModalRAG/venv/bin/python -m pytest -q tests/test_e5_dc_serving_reader.py",
+        "returncode": 0,
+        "status": "PASS",
+        "stderr": "",
+        "stdout": ".....                                                                    [100%]"
+      },
+      "targeted_pass": true
+    }
+  },
+  "created_utc": "2026-10-14T19:08:42.630115+00:00",
+  "e5a_provenance_sha256": "bc01a613b5ae50b4ec56120fbeb1dc5053defa53aa7584f715d2700c61af15ee",
+  "e5a_source_slate_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+  "gate": "E5_DC_OWNER_REVIEW_READY",
+  "historical_artifacts_modified": false,
+  "jev_calls": 0,
+  "manifest_version": "E5-DC-PROVENANCE-V1",
+  "paid_api_calls": 0,
+  "reserved_e5f_accessed": false,
+  "source_manifest_sha256": "1f338b891194be21e7d6c741a81f9c76e4a333e4e4ccbbad1ee4e0c57170ead7"
+}

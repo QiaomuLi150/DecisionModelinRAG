@@ -1,0 +1,28 @@
+{
+  "contract_checks": {
+    "all_reader_cache_disabled": true,
+    "all_reader_status_ok": true,
+    "joined_input_contract": true,
+    "no_gold_in_selector_or_reader": true,
+    "reader_output_cardinality": true,
+    "reader_task_cardinality": true,
+    "same_reader_revision_and_generation": true,
+    "score_cardinality": true,
+    "selector_P1_PPLX_BUDGETED_VISIBLE_TEXT": true,
+    "selector_R0_RETRIEVAL_TOP5_VISIBLE_TEXT": true,
+    "selector_S1_JINA_FULL_VISIBLE_TEXT": true,
+    "selector_S2_JINA_BUDGETED_VISIBLE_TEXT": true
+  },
+  "corrected_comparison_valid": true,
+  "diagnostic_n": 40,
+  "gate": "R0_VALID_BUT_LOW_INFORMATION",
+  "historical_artifacts_preserved": true,
+  "holdout_opened": false,
+  "input_contract_issue_count": 0,
+  "new_model_inference_calls": 0,
+  "new_reader_calls": 0,
+  "reason": "All four corrected selector arms and 1,200 reader records join one-to-one with matching input hashes and common reader settings. Selection differences and answer changes are observable, but CRAG lacks independent passage support/qrels and the deterministic reference endpoint is low-information for factual truth.",
+  "selector_dependent_answer_outcomes_detectable": true,
+  "silver_diagnostic_rows": 160,
+  "status": "PASS_WITH_LIMITATIONS"
+}

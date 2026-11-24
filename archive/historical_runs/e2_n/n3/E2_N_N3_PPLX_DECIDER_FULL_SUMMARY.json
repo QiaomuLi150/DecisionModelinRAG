@@ -1,0 +1,24 @@
+{
+  "cache_reuse_rows": 0,
+  "expected_rows": 4267,
+  "gpu_snapshot_after": {
+    "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,utilization.gpu --format=csv,noheader,nounits",
+    "status": "PASS",
+    "stderr": "",
+    "stdout": "0, NVIDIA A100-SXM4-80GB, 81920, 56687, 0\n1, NVIDIA A100-SXM4-80GB, 81920, 55827, 0\n2, NVIDIA A100-SXM4-80GB, 81920, 54785, 0\n3, NVIDIA A100-SXM4-80GB, 81920, 61033, 0\n4, NVIDIA A100-SXM4-80GB, 81920, 42849, 32\n5, NVIDIA A100-SXM4-80GB, 81920, 8, 0\n6, NVIDIA A100-SXM4-80GB, 81920, 40447, 0\n7, NVIDIA A100-SXM4-80GB, 81920, 52223, 0"
+  },
+  "input_and_response_hash_rows": 4267,
+  "jev_calls": 0,
+  "model": "perplexity-ai/pplx-decider-v1.1-27b",
+  "ok_rows": 4267,
+  "paid_api_calls": 0,
+  "physical_forward_evidence_rows": 4267,
+  "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+  "rows": 4267,
+  "stage": "N3_FULL_HISTORICAL",
+  "status": "PASS",
+  "total_physical_forward_calls": 4267,
+  "trace_sha256": "47594515c9c74806f18143660a906ad5b4301861801a66999385ef3172aa0544",
+  "unique_queries": 4267,
+  "valid_unique_20_candidate_rows": 4267
+}

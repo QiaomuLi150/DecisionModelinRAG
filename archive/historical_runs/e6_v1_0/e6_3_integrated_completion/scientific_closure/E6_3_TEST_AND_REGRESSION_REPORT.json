@@ -1,0 +1,27 @@
+{
+  "artifact_hash_verification": "performed by provenance manifest generation",
+  "focused": {
+    "command": "pytest -q tests/test_e6_3_integrated_completion.py",
+    "failed": 0,
+    "passed": 7,
+    "total": 7
+  },
+  "full_regression": {
+    "command": "venv/bin/pytest -q",
+    "failed": 0,
+    "passed": 274,
+    "runtime": "MultiModalRAG/venv",
+    "total": 274
+  },
+  "jev_calls": 0,
+  "new_reader_inference": 0,
+  "paid_api_calls": 0,
+  "serving_timed_attempts": 3200,
+  "serving_warmups": 16,
+  "system_python_probe": {
+    "failed": 3,
+    "failures": "pyarrow absent for two cached SciFact audit tests; torch absent for one StartLux runtime test; not E6-3 failures",
+    "passed": 271,
+    "total": 274
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "model": "pplx",
+  "gpu": 4,
+  "shard": 1,
+  "shards": 2,
+  "rows": 2667,
+  "valid": 2667,
+  "failures": 0,
+  "failure_classes": {},
+  "elapsed_s": 4691.666768494993,
+  "raw_sha256": "3a074a922080e18ea69ad0600d10c4003f535b229a28c379fc9826529217b2c9",
+  "labels_joined": false,
+  "Ls": [
+    2048,
+    4096
+  ]
+}

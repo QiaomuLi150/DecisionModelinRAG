@@ -1,0 +1,24 @@
+{
+  "attempts": 1502,
+  "counts": {
+    "valid": 1502
+  },
+  "gpu_after": {
+    "command": "nvidia-smi --query-gpu=index,uuid,name,memory.total,memory.used,memory.free,utilization.gpu --format=csv,noheader,nounits",
+    "returncode": 0,
+    "status": "PASS",
+    "stderr": "",
+    "stdout": "0, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 18117, 63035, 38\n1, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 15649, 65503, 62\n2, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 54785, 26367, 0\n3, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 60463, 20689, 0\n4, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 56583, 24570, 0\n5, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 50329, 30823, 94\n6, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 4, 81149, 0\n7, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 52225, 28928, 0"
+  },
+  "gpu_before": {
+    "command": "nvidia-smi --query-gpu=index,uuid,name,memory.total,memory.used,memory.free,utilization.gpu --format=csv,noheader,nounits",
+    "returncode": 0,
+    "status": "PASS",
+    "stderr": "",
+    "stdout": "0, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 18117, 63035, 45\n1, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 15649, 65503, 53\n2, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 54785, 26367, 0\n3, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 60463, 20689, 0\n4, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 56583, 24570, 0\n5, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 8, 81145, 0\n6, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 4, 81149, 0\n7, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 52225, 28928, 0"
+  },
+  "gpu_id": 5,
+  "policy": "pplx_decider",
+  "requested": 1502,
+  "stage": "A0"
+}

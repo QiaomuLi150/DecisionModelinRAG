@@ -1,0 +1,433 @@
+{
+  "artifact_hashes": {
+    "results/non_jev/v2/e2_n/E2_N_FINAL_REPORT.md": "dd24d3f0a96569f098c8e3721c7d7979673a4347d866a8047e8aca6862dda4cc",
+    "results/non_jev/v2/e2_n/E2_N_OWNER_REVIEW_GATE.md": "7da6276909b32c915ea0902a1bdc08f22fb3e75064067b7047316ec48213ce16"
+  },
+  "authorization": {
+    "active_service_gpu_ids_left_untouched": [
+      1,
+      2,
+      4
+    ],
+    "downloads": 0,
+    "fallback_gpu_ids_used": [
+      6
+    ],
+    "fresh_confirmatory_holdout_accessed": false,
+    "gpu_ids_used_by_new_e2_n_runs": {
+      "gpu0": [
+        "clef N1/N2",
+        "laya N3"
+      ],
+      "gpu6": [
+        "bge N1/N2/N3",
+        "laya N1/N2"
+      ]
+    },
+    "jev_calls": 0,
+    "owner_authorized_gpu_ids": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "paid_api_calls": 0,
+    "production_service_restarts": 0,
+    "training_runs": 0
+  },
+  "completed_stages": {
+    "N0": {
+      "blocked_roster_entries": 11,
+      "focused_cpu_checks": 22,
+      "not_authorized_entries": 1,
+      "repository_tests": 65,
+      "verified_local_roster": 4
+    },
+    "N1": {
+      "N1_BGE": "PASS",
+      "N1_CLEF": "PASS",
+      "N1_LAYA": "PASS",
+      "N1_OVERALL": "PASS_WITH_LIMITATIONS",
+      "N1_QWEN": "PASS_WITH_TELEMETRY_LIMITATION"
+    },
+    "N2": "PASS",
+    "N3": {
+      "bge": "PASS",
+      "clef": "PASS",
+      "laya": "PASS"
+    },
+    "N4": "PASS_WITH_LIMITATIONS"
+  },
+  "created_at_utc": "2026-10-13T03:14:17.122067+00:00",
+  "historical_population": {
+    "track_a_queries": 3767,
+    "track_a_retrieval_conditional": 1490,
+    "track_b_identity_resolved_eligible": 443,
+    "track_b_questions": 500,
+    "track_b_retrieval_conditional": 330
+  },
+  "limitations": [
+    "Qwen smoke scores were aligned but physical-forward telemetry was unavailable from the local service; it was excluded from N2-N4.",
+    "New official E2-N checkpoints were not locally available and checkpoint downloads were not authorized; no substitutes were used.",
+    "Laya checkpoint temperature metadata is invalid/out of range; ranking outputs are reported, confidence calibration is not certified.",
+    "Clef N3 full traces are compatible E2-M1 traces reused with source hashes; they were not silently regenerated.",
+    "CSSR is complete-support selection quality, not independently verified reader factual accuracy; no new reader outputs were generated.",
+    "GPU dollar cost was not measured and is reported as NOT_MEASURED."
+  ],
+  "models": [
+    {
+      "model_id": "Cloudflare/clef-flash",
+      "n0_status": "VERIFIED_LOCAL",
+      "n1_gate": "PASS",
+      "n2_gate": "PASS",
+      "n3_gate": "PASS",
+      "revision": "8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3",
+      "role": "existing decision control / M1 native replication control"
+    },
+    {
+      "model_id": "convaiinnovations/laya",
+      "n0_status": "VERIFIED_LOCAL",
+      "n1_gate": "PASS",
+      "n2_gate": "PASS",
+      "n3_gate": "PASS",
+      "revision": "7b928d828b7b0e022f929d9bd2e44165aa270148",
+      "role": "existing decision control"
+    },
+    {
+      "model_id": "BAAI/bge-reranker-v2-m3",
+      "n0_status": "VERIFIED_LOCAL",
+      "n1_gate": "PASS",
+      "n2_gate": "PASS",
+      "n3_gate": "PASS",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "role": "existing specialist control"
+    },
+    {
+      "model_id": "Qwen/Qwen3-VL-Reranker-2B",
+      "n0_status": "VERIFIED_LOCAL",
+      "n1_gate": "PASS_WITH_TELEMETRY_LIMITATION",
+      "n2_gate": "BLOCKED_TELEMETRY",
+      "n3_gate": "NOT_RUN",
+      "revision": "4bd860ac4f15ad1897a214615cccc700f8f71818",
+      "role": "existing multimodal specialist control"
+    },
+    {
+      "model_id": "Bespoke Nimble-9B-v2",
+      "n0_status": "BLOCKED",
+      "n1_gate": "NOT_RUN",
+      "n2_gate": "NOT_RUN",
+      "n3_gate": "NOT_RUN",
+      "revision": "MISSING",
+      "role": "core decision"
+    },
+    {
+      "model_id": "internlm/Intern-Decision-4B",
+      "n0_status": "BLOCKED",
+      "n1_gate": "NOT_RUN",
+      "n2_gate": "NOT_RUN",
+      "n3_gate": "NOT_RUN",
+      "revision": "MISSING",
+      "role": "core independent replication"
+    },
+    {
+      "model_id": "perplexity-ai/pplx-decider-v1.1-27b",
+      "n0_status": "BLOCKED",
+      "n1_gate": "NOT_RUN",
+      "n2_gate": "NOT_RUN",
+      "n3_gate": "NOT_RUN",
+      "revision": "MISSING",
+      "role": "core gated decision"
+    },
+    {
+      "model_id": "Qwen/Qwen3-Reranker-0.6B",
+      "n0_status": "BLOCKED",
+      "n1_gate": "NOT_RUN",
+      "n2_gate": "NOT_RUN",
+      "n3_gate": "NOT_RUN",
+      "revision": "MISSING",
+      "role": "core specialist"
+    },
+    {
+      "model_id": "Qwen/Qwen3-Reranker-4B",
+      "n0_status": "BLOCKED",
+      "n1_gate": "NOT_RUN",
+      "n2_gate": "NOT_RUN",
+      "n3_gate": "NOT_RUN",
+      "revision": "MISSING",
+      "role": "core specialist"
+    },
+    {
+      "model_id": "jinaai/jina-reranker-v3.5",
+      "n0_status": "BLOCKED",
+      "n1_gate": "NOT_RUN",
+      "n2_gate": "NOT_RUN",
+      "n3_gate": "NOT_RUN",
+      "revision": "MISSING",
+      "role": "core specialist"
+    },
+    {
+      "model_id": "Alibaba-NLP/gte-reranker-modernbert-base",
+      "n0_status": "BLOCKED",
+      "n1_gate": "NOT_RUN",
+      "n2_gate": "NOT_RUN",
+      "n3_gate": "NOT_RUN",
+      "revision": "MISSING",
+      "role": "core specialist"
+    },
+    {
+      "model_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "n0_status": "BLOCKED",
+      "n1_gate": "NOT_RUN",
+      "n2_gate": "NOT_RUN",
+      "n3_gate": "NOT_RUN",
+      "revision": "MISSING",
+      "role": "core specialist"
+    },
+    {
+      "model_id": "Cloudflare/clef",
+      "n0_status": "BLOCKED",
+      "n1_gate": "NOT_RUN",
+      "n2_gate": "NOT_RUN",
+      "n3_gate": "NOT_RUN",
+      "revision": "MISSING",
+      "role": "optional decision"
+    },
+    {
+      "model_id": "CLM 8B",
+      "n0_status": "BLOCKED",
+      "n1_gate": "NOT_RUN",
+      "n2_gate": "NOT_RUN",
+      "n3_gate": "NOT_RUN",
+      "revision": "MISSING",
+      "role": "optional contrastive subgroup"
+    },
+    {
+      "model_id": "Qwen/Qwen3-Reranker-8B",
+      "n0_status": "BLOCKED",
+      "n1_gate": "NOT_RUN",
+      "n2_gate": "NOT_RUN",
+      "n3_gate": "NOT_RUN",
+      "revision": "MISSING",
+      "role": "optional specialist"
+    },
+    {
+      "model_id": "TypeSafe/Jev",
+      "n0_status": "NOT_AUTHORIZED",
+      "n1_gate": "NOT_RUN",
+      "n2_gate": "NOT_RUN",
+      "n3_gate": "NOT_RUN",
+      "revision": "MISSING",
+      "role": "paid reference, last"
+    }
+  ],
+  "next_owner_decision": [
+    "Decide whether to provide service-level physical-forward telemetry if Qwen must enter the benchmark.",
+    "Separately authorize public checkpoint downloads and exact revisions if the blocked new roster is required.",
+    "Review the exploratory Track A/B scorecards before any further model expansion or a separately approved Jev phase."
+  ],
+  "paired_statistics_rows": 32,
+  "scorecard": [
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.6655518394648829,
+      "cssr_unconditional": 0.4975,
+      "dataset": "hotpot",
+      "n_conditional": 598,
+      "n_eligible": 800,
+      "n_total": 800,
+      "policy": "retrieval5"
+    },
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.919732441471572,
+      "cssr_unconditional": 0.6875,
+      "dataset": "hotpot",
+      "n_conditional": 598,
+      "n_eligible": 800,
+      "n_total": 800,
+      "policy": "bge_pointwise"
+    },
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.14381270903010032,
+      "cssr_unconditional": 0.1075,
+      "dataset": "hotpot",
+      "n_conditional": 598,
+      "n_eligible": 800,
+      "n_total": 800,
+      "policy": "laya_pointwise"
+    },
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.3695652173913043,
+      "cssr_unconditional": 0.27625,
+      "dataset": "hotpot",
+      "n_conditional": 598,
+      "n_eligible": 800,
+      "n_total": 800,
+      "policy": "clef_pointwise"
+    },
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.5752508361204013,
+      "cssr_unconditional": 0.43,
+      "dataset": "hotpot",
+      "n_conditional": 598,
+      "n_eligible": 800,
+      "n_total": 800,
+      "policy": "clef_joint"
+    },
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.38738738738738737,
+      "cssr_unconditional": 0.09921550530687587,
+      "dataset": "musique",
+      "n_conditional": 555,
+      "n_eligible": 2167,
+      "n_total": 2167,
+      "policy": "retrieval5"
+    },
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.6558558558558558,
+      "cssr_unconditional": 0.16797415782187355,
+      "dataset": "musique",
+      "n_conditional": 555,
+      "n_eligible": 2167,
+      "n_total": 2167,
+      "policy": "bge_pointwise"
+    },
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.04864864864864865,
+      "cssr_unconditional": 0.012459621596677434,
+      "dataset": "musique",
+      "n_conditional": 555,
+      "n_eligible": 2167,
+      "n_total": 2167,
+      "policy": "laya_pointwise"
+    },
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.13873873873873874,
+      "cssr_unconditional": 0.03553299492385787,
+      "dataset": "musique",
+      "n_conditional": 555,
+      "n_eligible": 2167,
+      "n_total": 2167,
+      "policy": "clef_pointwise"
+    },
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.27207207207207207,
+      "cssr_unconditional": 0.0696815874480849,
+      "dataset": "musique",
+      "n_conditional": 555,
+      "n_eligible": 2167,
+      "n_total": 2167,
+      "policy": "clef_joint"
+    },
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.5786350148367952,
+      "cssr_unconditional": 0.24375,
+      "dataset": "wiki2",
+      "n_conditional": 337,
+      "n_eligible": 800,
+      "n_total": 800,
+      "policy": "retrieval5"
+    },
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.8071216617210683,
+      "cssr_unconditional": 0.34,
+      "dataset": "wiki2",
+      "n_conditional": 337,
+      "n_eligible": 800,
+      "n_total": 800,
+      "policy": "bge_pointwise"
+    },
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.09792284866468842,
+      "cssr_unconditional": 0.04125,
+      "dataset": "wiki2",
+      "n_conditional": 337,
+      "n_eligible": 800,
+      "n_total": 800,
+      "policy": "laya_pointwise"
+    },
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.5192878338278932,
+      "cssr_unconditional": 0.21875,
+      "dataset": "wiki2",
+      "n_conditional": 337,
+      "n_eligible": 800,
+      "n_total": 800,
+      "policy": "clef_pointwise"
+    },
+    {
+      "cohort": "track_a",
+      "cssr_conditional": 0.5667655786350149,
+      "cssr_unconditional": 0.23875,
+      "dataset": "wiki2",
+      "n_conditional": 337,
+      "n_eligible": 800,
+      "n_total": 800,
+      "policy": "clef_joint"
+    },
+    {
+      "cohort": "track_b",
+      "cssr_conditional": 0.7484848484848485,
+      "cssr_unconditional": 0.5575620767494357,
+      "dataset": "enterprise",
+      "n_conditional": 330,
+      "n_eligible": 443,
+      "n_total": 500,
+      "policy": "retrieval5"
+    },
+    {
+      "cohort": "track_b",
+      "cssr_conditional": 0.7212121212121212,
+      "cssr_unconditional": 0.5372460496613995,
+      "dataset": "enterprise",
+      "n_conditional": 330,
+      "n_eligible": 443,
+      "n_total": 500,
+      "policy": "bge_pointwise"
+    },
+    {
+      "cohort": "track_b",
+      "cssr_conditional": 0.36363636363636365,
+      "cssr_unconditional": 0.2708803611738149,
+      "dataset": "enterprise",
+      "n_conditional": 330,
+      "n_eligible": 443,
+      "n_total": 500,
+      "policy": "laya_pointwise"
+    },
+    {
+      "cohort": "track_b",
+      "cssr_conditional": 0.4121212121212121,
+      "cssr_unconditional": 0.30699774266365687,
+      "dataset": "enterprise",
+      "n_conditional": 330,
+      "n_eligible": 443,
+      "n_total": 500,
+      "policy": "clef_pointwise"
+    },
+    {
+      "cohort": "track_b",
+      "cssr_conditional": 0.6121212121212121,
+      "cssr_unconditional": 0.45598194130925507,
+      "dataset": "enterprise",
+      "n_conditional": 330,
+      "n_eligible": 443,
+      "n_total": 500,
+      "policy": "clef_joint"
+    }
+  ],
+  "stage": "E2-N-COMPLETE",
+  "status": "PASS_WITH_LIMITATIONS"
+}

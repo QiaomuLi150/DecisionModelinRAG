@@ -1,0 +1,10 @@
+{
+  "expected_records": 1080,
+  "failed": 114,
+  "gpu_slot": "D",
+  "labels_joined": false,
+  "records": 1080,
+  "sha256": "5c2bb057e7f09b264a890f0d6e63271b645819f588792ef6c7485a48d0cf6a81",
+  "status": "PARTIAL_ANCHORS_MISSING",
+  "valid": 966
+}

@@ -1,0 +1,239 @@
+{
+  "all_new_artifacts_match": true,
+  "checks": [
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_ANSWER_TYPE_VALIDITY_REPORT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_BACKBONE_AND_READOUT_TAXONOMY.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_BLINDED_100_CASE_REVIEW_HANDOFF.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_COMPARISON_HIERARCHY.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_CORPUS_RECONSTRUCTION_READINESS.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_DATASET_ADMISSION_DECISION.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_DATASET_ADMISSION_DECISION.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_DATASET_INVENTORY_AND_LICENSES.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_DOCHOPQA_SCHEMA_AND_SOURCE_AUDIT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_EIGHT_MODEL_VERSION_LICENSE_REGISTRY.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_ENDPOINT_AMENDMENT_PROPOSAL.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_EVALUATION_PROTOCOL_V1_FROZEN.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_EVIDENCE_ONTOLOGY_AND_MAPPING_AUDIT.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_FAILED_AND_BLOCKED_OPERATIONS.jsonl",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_FINAL_DATA_MODEL_AND_PROTOCOL_REPORT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_GARAGE_SCHEMA_AND_GROUNDING_AUDIT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_GPU_AND_DEPENDENCY_FEASIBILITY_ESTIMATES.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_HISTORICAL_IMMUTABILITY_REPORT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_HOLDOUT_ACCESS_DENY_TESTS.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_METRIC_AND_ANALYSIS_SPEC.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_MODEL_ADMISSION_MATRIX.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_NATIVE_TOP5_CONTRACTS.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_NEAR_DUPLICATE_AUDIT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_NEW_ADAPTER_CAL_PILOT_SPEC.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_OWNER_REVIEW_GATE.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_QASPER_ANSWER_F1_PER_QID.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_QASPER_ANSWER_F1_SCORECARD.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_QASPER_OFFICIAL_SCORER_PROVENANCE.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_R0_BASELINE_TESTS.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_R0_INPUT_AUTHENTICATION_AND_HISTORICAL_EXCLUSIONS.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_R0_REPO_STATE.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_RESERVATION_AND_CONFIRMATION_GATE.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_RESERVATION_PROVENANCE_AND_ACCESS_GATE.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_RESOURCE_FRONTIER_SPEC.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_SOURCE_DISJOINT_SPLIT_MANIFEST.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_SOURCE_GRAPH_COMPONENT_REPORT.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_SOURCE_OVERLAP_EXCLUSION_INDEX.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_TARGETED_AND_FULL_REGRESSION_REPORT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_F_STATUS_LOCKED.txt",
+      "size_match": true
+    }
+  ]
+}

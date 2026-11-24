@@ -1,0 +1,109 @@
+{
+  "authentic_scifact_slate_search": {
+    "matches": [],
+    "status": "NOT_FOUND"
+  },
+  "created_utc": "2026-10-15T02:53:43.529657+00:00",
+  "future_primary_cohort": {
+    "partition": "SciFact EXPLORATORY",
+    "query_count": 277,
+    "reason": "CAL is adapter development; RESERVED remains sealed; no outcome-based selection"
+  },
+  "garage_audit": {
+    "aligned_grounding_arrays": 2366,
+    "candidate_identity": "sample_id:cite_i (positional supplied-pool identity)",
+    "endpoint": "fixed-pool graded grounding only; not natural retrieval and not CSSR-U",
+    "evidence_correct_label_counts": {
+      "ANSWER-THE-QUESTION": 11015,
+      "EMPTY": 9402,
+      "OUTDATED": 2771,
+      "RELATED-INFORMATION": 9337,
+      "UNKNOWN": 2826
+    },
+    "exact_k15_pools": 2329,
+    "path": "data/external/e6_0r_datasets/garage/GaRAGe_benchmark.jsonl",
+    "rows": 2366,
+    "sha256": "419e3941f6e8eb4082a74ca2140c1f9337f8b467ff76656a6b8b0290ca3f3a72",
+    "source_document_ids": "NOT_PRESENT_IN_LOCAL_RELEASE",
+    "source_group_bootstrap": "NOT_DEFENSIBLE",
+    "status": "PASS",
+    "unique_sample_ids": 2366
+  },
+  "partition": {
+    "cal_queries": 555,
+    "exploratory_queries": 277,
+    "latent_near_duplicate_audit": "NOT_PROVEN",
+    "reserved_queries": 277,
+    "seed": 731,
+    "source_components": 572,
+    "source_disjoint_at_qrel_identity_level": true
+  },
+  "reserved": {
+    "metadata_only": true,
+    "raw_question_text_exported": false,
+    "status": "METADATA_ONLY_RESERVED_LOCK"
+  },
+  "schema": "E6-2-R0-DATASET-ENDPOINT-REGISTRY-V1",
+  "scifact_audit": {
+    "candidate_slate_status": "NOT_FOUND_AUTHENTIC_SCIFACT_TOP20",
+    "join_audit": {
+      "queries_without_qrels": 0
+    },
+    "paths": {
+      "corpus": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact/corpus/0.0.0/b3b5335604bf5ee3c4447671af975ea25143d4f5/scifact-corpus.arrow",
+      "queries": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact/queries/0.0.0/b3b5335604bf5ee3c4447671af975ea25143d4f5/scifact-queries.arrow",
+      "test_qrels": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact-qrels/default/0.0.0/2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029/scifact-qrels-test.arrow",
+      "train_qrels": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact-qrels/default/0.0.0/2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029/scifact-qrels-train.arrow"
+    },
+    "rows": {
+      "corpus": 5183,
+      "positive_qrels": 1258,
+      "queries": 1109,
+      "test_qrels": 339,
+      "total_qrels": 1258,
+      "train_qrels": 919
+    },
+    "sha256": {
+      "corpus": "1abf7e91fa5278704cdf75a919f522b82e9c3711da990443efd212f7361f8394",
+      "queries": "eb72bf7b1144d3fab2368330be29d64ce0c081f613b395e47c87d148588e6d5c",
+      "test_qrels": "210ff5c601deb42f529a85299c4bf88f03d5667ae4fba030981ca8a51aefdea0",
+      "train_qrels": "26725381447f908390e967771af83f0d5e838c6d772718fda949cab94dbd230f"
+    },
+    "status": "PASS",
+    "unique_ids": {
+      "corpus": 5183,
+      "queries": 1109
+    }
+  },
+  "source_slate_sha256": {
+    "historical_e5_qasper": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7"
+  },
+  "tracks": {
+    "A_QASPER": {
+      "endpoint": "set-aware CSSR-U; CSSR-C conditional",
+      "groups": 587,
+      "population": 1502,
+      "role": "historical E5 anchor",
+      "status": "HISTORICAL_ONLY_NO_REOPEN"
+    },
+    "B_SCIFACT": {
+      "corpus_documents": 5183,
+      "natural_top20_status": "MISSING_AUTHENTIC_FROZEN_SLATES",
+      "primary_endpoint": "binary nDCG@5",
+      "queries": 1109,
+      "role": "primary independent natural-relevance benchmark",
+      "secondary_endpoints": [
+        "Recall@5",
+        "Hit@5",
+        "judged-positive presence in Top-20"
+      ]
+    },
+    "C_GARAGE": {
+      "endpoint": "support_any@5 and graded grounding precision",
+      "exact_k15_pools": 2329,
+      "role": "secondary fixed-pool grounding workload",
+      "rows": 2366,
+      "status": "AUTHENTIC_FIXED_POOL_CONDITIONAL"
+    }
+  }
+}

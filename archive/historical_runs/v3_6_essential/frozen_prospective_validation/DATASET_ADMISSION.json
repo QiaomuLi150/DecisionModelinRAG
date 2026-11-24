@@ -1,0 +1,51 @@
+{
+  "candidate_pool_size": 20,
+  "candidate_slate_queries": 1406,
+  "corpus_documents": 8674,
+  "dataset": "BEIR/ArguAna",
+  "excluded_benchmarks": [
+    "2WikiMultiHopQA",
+    "BRIGHT",
+    "CRAG",
+    "EnterpriseRAG-Bench",
+    "FinanceBench",
+    "garage",
+    "HotpotQA",
+    "MultiHop-RAG",
+    "MuSiQue",
+    "QASPER",
+    "SciFact"
+  ],
+  "labels_joined": false,
+  "protocol_sha256": "06ea012a3bd555454fe6a498ecada087f6affcb62bcab7915fe37a34d62df92c",
+  "qrels_file_entries_including_header": 1407,
+  "queries": 1406,
+  "sampling": "complete 1406-query population; no sampling required",
+  "sampling_seed": 731,
+  "selection_rule": "first locally complete/downloadable eligible dataset in frozen order",
+  "status": "PASS",
+  "tried_order": [
+    {
+      "checked_cache": "<cache>/datasets--BeIR--cqadupstack",
+      "dataset": "CQADupStack",
+      "status": "NOT_LOCALLY_AVAILABLE"
+    },
+    {
+      "dataset": "ArguAna",
+      "reason": "complete local corpus, queries and test qrels; 1406 queries >= 1000 minimum",
+      "status": "SELECTED"
+    },
+    {
+      "dataset": "SciDocs",
+      "status": "NOT_TRIED_AFTER_FIRST_ELIGIBLE"
+    },
+    {
+      "dataset": "FiQA-2018",
+      "status": "NOT_TRIED_AFTER_FIRST_ELIGIBLE"
+    },
+    {
+      "dataset": "Natural Questions (BEIR)",
+      "status": "NOT_TRIED_AFTER_FIRST_ELIGIBLE"
+    }
+  ]
+}

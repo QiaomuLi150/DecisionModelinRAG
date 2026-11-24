@@ -1,0 +1,65 @@
+{
+  "candidate_ids_and_orders_validated": true,
+  "created_utc": "2026-10-15T12:48:24.823517+00:00",
+  "exactly_one_model_query_record": true,
+  "gate": "R3_INPUTS_AUTHENTICATED",
+  "historical_hash_checks": [
+    {
+      "listed": 24,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_INPUT_OUTPUT_PROVENANCE_MANIFEST.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 24
+    },
+    {
+      "listed": 27,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_PROVENANCE_MANIFEST_V3.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 27
+    },
+    {
+      "listed": 30,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r2_selector_inference/E6_2_R2_PROVENANCE_MANIFEST.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 30
+    },
+    {
+      "listed": 5,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r2_startlux_repair/E6_2_R2_STARTLUX_REPAIR_PROVENANCE.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 5
+    }
+  ],
+  "jev_calls": 0,
+  "no_new_inference": true,
+  "paid_api_calls": 0,
+  "r1_population": {
+    "candidate_records": 5540,
+    "queries": 277,
+    "top20_slates": 277,
+    "top5_controls": 277
+  },
+  "r2_combined": {
+    "failed": 83,
+    "models": [
+      "pplx_decider",
+      "liquid_d1_3b",
+      "startlux_decision_4b",
+      "amos_1_small_2b",
+      "jina_v3_5",
+      "qwen3_reranker_4b",
+      "bge_reranker_v2_m3",
+      "qwen3_reranker_0_6b"
+    ],
+    "planned": 2216,
+    "registry_sha256": "7ccea4925c5163001f9a88912aaca96fd39b055d5d5a76085aa0f54654488dcd",
+    "valid": 2133
+  },
+  "reader_calls": 0,
+  "reserved_content_accessed": false,
+  "schema": "E6-2-R3-INPUT-AUTHENTICATION-V1",
+  "startlux_repair": "authenticated separate 277-row exploratory trace; original R2 preserved"
+}

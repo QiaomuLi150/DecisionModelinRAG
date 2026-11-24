@@ -1,0 +1,13 @@
+{
+  "focused_tests": "8/8",
+  "full_regression": "259/259",
+  "jev_calls": 0,
+  "new_model_calls": 0,
+  "new_retrieval_calls": 0,
+  "paid_api_calls": 0,
+  "reader_calls": 0,
+  "reserved_accessed": false,
+  "test_command": "python -m pytest -q",
+  "toy_metric_cases": 8,
+  "warnings": "StartLux dependency warnings only; no failures"
+}

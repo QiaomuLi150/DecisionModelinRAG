@@ -1,0 +1,136 @@
+# E3-D Native Smoke/CAL Report
+
+{
+  "cache_reuse": false,
+  "cal_n": 30,
+  "gold_in_inference_input": false,
+  "gpu_id": 0,
+  "smoke_n": 12,
+  "status": "NATIVE_CONTRACT_PASS",
+  "summaries": [
+    {
+      "errors": 0,
+      "physical_forward_calls": 0,
+      "policy": "retrieval5",
+      "requested": 12,
+      "stage": "smoke",
+      "valid": 12
+    },
+    {
+      "errors": 0,
+      "physical_forward_calls": 0,
+      "policy": "retrieval5",
+      "requested": 30,
+      "stage": "cal",
+      "valid": 30
+    },
+    {
+      "errors": 0,
+      "gpu_id": 0,
+      "physical_forward_calls": 0,
+      "policy": "bge_pointwise",
+      "requested": 12,
+      "stage": "smoke",
+      "valid": 12
+    },
+    {
+      "errors": 0,
+      "gpu_id": 0,
+      "physical_forward_calls": 0,
+      "policy": "bge_pointwise",
+      "requested": 30,
+      "stage": "cal",
+      "valid": 30
+    },
+    {
+      "errors": 0,
+      "gpu_id": 0,
+      "physical_forward_calls": 0,
+      "policy": "jina35",
+      "requested": 12,
+      "stage": "smoke",
+      "valid": 12
+    },
+    {
+      "errors": 0,
+      "gpu_id": 0,
+      "physical_forward_calls": 0,
+      "policy": "jina35",
+      "requested": 30,
+      "stage": "cal",
+      "valid": 30
+    },
+    {
+      "errors": 0,
+      "gpu_id": 0,
+      "physical_forward_calls": 12,
+      "policy": "pplx_decider",
+      "requested": 12,
+      "stage": "smoke",
+      "valid": 12
+    },
+    {
+      "errors": 0,
+      "gpu_id": 0,
+      "physical_forward_calls": 30,
+      "policy": "pplx_decider",
+      "requested": 30,
+      "stage": "cal",
+      "valid": 30
+    },
+    {
+      "errors": 0,
+      "gpu_id": 0,
+      "physical_forward_calls": 0,
+      "policy": "liquid_joint20_binary",
+      "requested": 12,
+      "stage": "smoke",
+      "valid": 12
+    },
+    {
+      "errors": 0,
+      "gpu_id": 0,
+      "physical_forward_calls": 0,
+      "policy": "liquid_joint20_binary",
+      "requested": 30,
+      "stage": "cal",
+      "valid": 30
+    },
+    {
+      "errors": 0,
+      "gpu_id": 0,
+      "physical_forward_calls": 0,
+      "policy": "zerank2_pointwise",
+      "requested": 12,
+      "stage": "smoke",
+      "valid": 12
+    },
+    {
+      "errors": 0,
+      "gpu_id": 0,
+      "physical_forward_calls": 0,
+      "policy": "zerank2_pointwise",
+      "requested": 30,
+      "stage": "cal",
+      "valid": 30
+    },
+    {
+      "errors": 12,
+      "gpu_id": 0,
+      "physical_forward_calls": 0,
+      "policy": "nimble",
+      "requested": 12,
+      "stage": "smoke",
+      "valid": 0
+    },
+    {
+      "errors": 30,
+      "gpu_id": 0,
+      "physical_forward_calls": 0,
+      "policy": "nimble",
+      "requested": 30,
+      "stage": "cal",
+      "valid": 0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "bootstrap_mean": 0.01725983436189141,
+  "ci95_percentile": [
+    -0.01054864518886083,
+    0.04528112317476296
+  ],
+  "comparison": "pplx_decider - jina_v3_5",
+  "descriptive_equal_group_mean_delta": 0.014982849347708438,
+  "descriptive_group_count": 142,
+  "equal": 206,
+  "jina_only_wins": 34,
+  "metric": "operational_binary_ndcg5",
+  "n": 277,
+  "point": 0.01739960021571993,
+  "pplx_only_wins": 37,
+  "qids": 277,
+  "query_delta_max": 1.0,
+  "query_delta_mean": 0.01739960021571993,
+  "query_delta_min": -1.0,
+  "resamples": 5000,
+  "seed": 731,
+  "source_group_bootstrap_primary": false,
+  "source_group_count_descriptive": 142
+}

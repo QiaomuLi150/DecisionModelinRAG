@@ -1,0 +1,92 @@
+{
+  "bright_records": 1384,
+  "bright_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+  "budget_manifest_sha256": "c8d9299711a0c64b94ccd139e4f6329dc8779eb267f534b90c085e3d2d3f9a94",
+  "concurrency": 1,
+  "created_utc": "2026-10-20T04:15:06Z",
+  "e12_lock_sha256": "73ee82cd8cc06a58c27e2fbd0e071bfb3660d4eaeeba130d3e94b584b51bd5d2",
+  "gpu_post_within_process": {
+    "device_row": [
+      "3",
+      "<REDACTED_GPU_UUID>",
+      "NVIDIA A100-SXM4-80GB",
+      "81920",
+      "539",
+      "80613",
+      "0"
+    ],
+    "gpu": 3,
+    "isolated": true,
+    "process_snapshot": {
+      "command": "<GPU_PROCESS_LISTING_OMITTED>",
+      "returncode": 0,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 2432\n<REDACTED_GPU_UUID>, 2978176, <REDACTED_PATH> 4790\n<REDACTED_GPU_UUID>, 3124476, VLLM::EngineCore, 27374\n<REDACTED_GPU_UUID>, 3138693, VLLM::EngineCore, 27756\n<REDACTED_GPU_UUID>, 3594722, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 3781652, .venv/bin/python, 602\n<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 1670425, <REDACTED_PATH> 26846\n<REDACTED_GPU_UUID>, 881592, VLLM::EngineCore, 54770\n<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 2978176, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 3810765, <REDACTED_PATH> 12918\n<REDACTED_GPU_UUID>, 3765667, <WORKSPACE_ROOT>/Production_Project/MultiModalRAG/venv/bin/python, 530\n<REDACTED_GPU_UUID>, 3694015, <REDACTED_PATH> 16628\n<REDACTED_GPU_UUID>, 3818668, <REDACTED_PATH> 3398\n<REDACTED_GPU_UUID>, 3834276, <REDACTED_PATH> 3540\n<REDACTED_GPU_UUID>, 3855186, <REDACTED_PATH> 3594\n<REDACTED_GPU_UUID>, 3864127, .venv/bin/python, 494\n<REDACTED_GPU_UUID>, 2105526, <REDACTED_PATH> 26846\n<REDACTED_GPU_UUID>, 3500111, .venv-gifteval/bin/python, 18800\n<REDACTED_GPU_UUID>, 2088548, <REDACTED_PATH> 26846\n<REDACTED_GPU_UUID>, 3490503, .venv-gifteval/bin/python, 20582\n<REDACTED_GPU_UUID>, 3594722, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 2816471, <REDACTED_PATH> 13316\n<REDACTED_GPU_UUID>, 3466332, <REDACTED_PATH> 2380\n<REDACTED_GPU_UUID>, 1941812, VLLM::EngineCore, 63708"
+    },
+    "resident": [
+      "<REDACTED_GPU_UUID>, 3765667, <WORKSPACE_ROOT>/Production_Project/MultiModalRAG/venv/bin/python, 530"
+    ],
+    "resident_external": [],
+    "self_only": true,
+    "snapshot": {
+      "command": "nvidia-smi --query-gpu=index,uuid,name,memory.total,memory.used,memory.free,utilization.gpu --format=csv,noheader,nounits",
+      "returncode": 0,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "0, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 63415, 17737, 7\n1, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 27277, 53876, 100\n2, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 68578, 12575, 100\n3, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 539, 80613, 0\n4, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 27690, 53463, 100\n5, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 45663, 35490, 100\n6, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 47869, 33284, 100\n7, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 79431, 1722, 100"
+    },
+    "uuid": "<REDACTED_GPU_UUID>"
+  },
+  "gpu_pre": {
+    "device_row": [
+      "3",
+      "<REDACTED_GPU_UUID>",
+      "NVIDIA A100-SXM4-80GB",
+      "81920",
+      "4",
+      "81149",
+      "0"
+    ],
+    "gpu": 3,
+    "isolated": true,
+    "process_snapshot": {
+      "command": "<GPU_PROCESS_LISTING_OMITTED>",
+      "returncode": 0,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 2432\n<REDACTED_GPU_UUID>, 2978176, <REDACTED_PATH> 4790\n<REDACTED_GPU_UUID>, 3124476, VLLM::EngineCore, 27374\n<REDACTED_GPU_UUID>, 3138693, VLLM::EngineCore, 27756\n<REDACTED_GPU_UUID>, 3594722, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 1670425, <REDACTED_PATH> 26846\n<REDACTED_GPU_UUID>, 881592, VLLM::EngineCore, 54770\n<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 2978176, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 3604571, <REDACTED_PATH> 12918\n<REDACTED_GPU_UUID>, 3576620, <REDACTED_PATH> 10624\n<REDACTED_GPU_UUID>, 3659955, <REDACTED_PATH> 3398\n<REDACTED_GPU_UUID>, 3694015, <REDACTED_PATH> 16628\n<REDACTED_GPU_UUID>, 3736281, .venv/bin/python, 2256\n<REDACTED_GPU_UUID>, 3751028, <REDACTED_PATH> 3344\n<REDACTED_GPU_UUID>, 3751836, <REDACTED_PATH> 3398\n<REDACTED_GPU_UUID>, 2105526, <REDACTED_PATH> 26846\n<REDACTED_GPU_UUID>, 3500111, .venv-gifteval/bin/python, 18800\n<REDACTED_GPU_UUID>, 2088548, <REDACTED_PATH> 26846\n<REDACTED_GPU_UUID>, 3490503, .venv-gifteval/bin/python, 19680\n<REDACTED_GPU_UUID>, 3594722, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 2816471, <REDACTED_PATH> 13316\n<REDACTED_GPU_UUID>, 3466332, <REDACTED_PATH> 2380\n<REDACTED_GPU_UUID>, 1941812, VLLM::EngineCore, 63708"
+    },
+    "resident": [],
+    "resident_external": [],
+    "self_only": false,
+    "snapshot": {
+      "command": "nvidia-smi --query-gpu=index,uuid,name,memory.total,memory.used,memory.free,utilization.gpu --format=csv,noheader,nounits",
+      "returncode": 0,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "0, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 62808, 18345, 0\n1, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 27277, 53876, 100\n2, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 68578, 12575, 99\n3, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 4, 81149, 0\n4, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 39689, 41463, 100\n5, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 45663, 35490, 100\n6, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 46967, 34186, 100\n7, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 79431, 1722, 97"
+    },
+    "uuid": "<REDACTED_GPU_UUID>"
+  },
+  "gpu_requested": 3,
+  "jina_load_ms": 1557.293,
+  "labels_joined": false,
+  "models": {
+    "jina": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+    "pplx": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+  },
+  "paid_api_calls": 0,
+  "pplx_load_ms": 53415.224,
+  "protected_holdouts_accessed": false,
+  "raw_sha256": {
+    "results/v1_5/c1_two_stage_specialist_gpu3/r1_retime/raw/jina_full_R1_RAW_V2.jsonl": "d209a52660fb0678aee7a5b565e70ffb71c10f370758975ab0d34cb5bf10a142",
+    "results/v1_5/c1_two_stage_specialist_gpu3/r1_retime/raw/jina_pplx_budget_R1_RAW_V2.jsonl": "1a4c306de3d9fbd08a4d03e725c488376fec83334ba712d7b33a2e5d7c776da4",
+    "results/v1_5/c1_two_stage_specialist_gpu3/r1_retime/raw/pplx_budget_R1_RAW_V2.jsonl": "a32432773dccbca8b0fb9cc2e729d4b85f34325d755897bbb4e069e4d18e7f2a",
+    "results/v1_5/c1_two_stage_specialist_gpu3/r1_retime/raw/pplx_two_stage_R1_RAW_V2.jsonl": "89a86fd9d86e414add377cd6bdaa2b7a5bd66a6e96fa43642e5bb82e87f4821b"
+  },
+  "repeats": 3,
+  "session_sha256": "aca05f7cd41a5503466dfc59e26c4e6f57a7d80d90f2fed85fe2dcf68f5fffb5",
+  "status": "PASS",
+  "views": 120
+}

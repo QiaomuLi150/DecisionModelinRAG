@@ -1,0 +1,29 @@
+{
+  "cache_reuse_rows": 0,
+  "downloads": 0,
+  "expected_rows": 8534,
+  "frozen_queries": 4267,
+  "input_and_response_hash_rows": 8534,
+  "jev_calls": 0,
+  "model": "clef",
+  "ok_rows": 8534,
+  "paid_api_calls": 0,
+  "physical_forward_evidence_rows": 8534,
+  "reuse_provenance": {
+    "reuse_reason": "same model revision, frozen views, score contracts, candidate slates, and input/response hashes; no incompatible cache reuse",
+    "source_joint_path": "results/non_jev/v2/e2_m1/E2_M1_JOINT_BINARY_SCORES.jsonl",
+    "source_joint_sha256": "5cc6a1bd8c2fe30c308ac40e06505a8762c05bf862052dc402a86289eeb3ecaa",
+    "source_point_path": "results/non_jev/v2/e2_m1/E2_M1_POINTWISE_SCORES.jsonl",
+    "source_point_sha256": "645e9cf3c42ccfa8b814f790fb86f406085d09039b53347ffa11ddd5d04595d8",
+    "source_rows": 8534
+  },
+  "rows": 8534,
+  "stage": "N3_FULL_HISTORICAL",
+  "status": "PASS",
+  "trace_reused_from_e2_m1": true,
+  "trace_sha256": "a447c994010ac4b6e071b86b7124592af8d2f673a5ab159767c44f8c7ba0c77b",
+  "track_a_queries": 3767,
+  "track_b_queries": 500,
+  "unique_queries": 4267,
+  "valid_unique_20_candidate_rows": 8534
+}

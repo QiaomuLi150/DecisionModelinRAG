@@ -1,0 +1,162 @@
+{
+  "failed": 0,
+  "gpu_index_requested": 1,
+  "labels_joined": false,
+  "model_group": "pplx",
+  "model_load_ms": 42753.623716533184,
+  "no_retries": true,
+  "pass_index": 1,
+  "phase": "passA",
+  "policies": [
+    "pplx_single_4096",
+    "pplx_single_6144"
+  ],
+  "post_model_load_gpu": {
+    "captured_ns": 1792901189856155243,
+    "devices": [
+      {
+        "index": "0",
+        "memory_free_mib": "53176",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "27977",
+        "utilization_gpu": "94",
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": "1",
+        "memory_free_mib": "21192",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "59961",
+        "utilization_gpu": "42",
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": "2",
+        "memory_free_mib": "2634",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "78518",
+        "utilization_gpu": "100",
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": "3",
+        "memory_free_mib": "79231",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "1921",
+        "utilization_gpu": "41",
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": "4",
+        "memory_free_mib": "22186",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "58967",
+        "utilization_gpu": "26",
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": "5",
+        "memory_free_mib": "22804",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "58349",
+        "utilization_gpu": "44",
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": "6",
+        "memory_free_mib": "21502",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "59651",
+        "utilization_gpu": "29",
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": "7",
+        "memory_free_mib": "4139",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "77014",
+        "utilization_gpu": "49",
+        "uuid": "<REDACTED_GPU_UUID>"
+      }
+    ],
+    "status": "OK"
+  },
+  "pre_gpu": {
+    "captured_ns": 1792901146816494568,
+    "devices": [
+      {
+        "index": "0",
+        "memory_free_mib": "57512",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "23641",
+        "utilization_gpu": "15",
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": "1",
+        "memory_free_mib": "70982",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "10171",
+        "utilization_gpu": "38",
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": "2",
+        "memory_free_mib": "6988",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "74164",
+        "utilization_gpu": "64",
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": "3",
+        "memory_free_mib": "79231",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "1921",
+        "utilization_gpu": "23",
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": "4",
+        "memory_free_mib": "71392",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "9761",
+        "utilization_gpu": "6",
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": "5",
+        "memory_free_mib": "66274",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "14879",
+        "utilization_gpu": "71",
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": "6",
+        "memory_free_mib": "71404",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "9749",
+        "utilization_gpu": "17",
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": "7",
+        "memory_free_mib": "4139",
+        "memory_total_mib": "81920",
+        "memory_used_mib": "77014",
+        "utilization_gpu": "98",
+        "uuid": "<REDACTED_GPU_UUID>"
+      }
+    ],
+    "status": "OK"
+  },
+  "protocol_sha256": "f15cb0f6001327bfe47e0b1d605f73f7beefc3c6a5fc195689cd5ca1652ce86e",
+  "queries": 3282,
+  "raw_sha256": "81f4f111d25d1c94e939447b214a58ada0c26ff637827a9f5356f27b1eec7638",
+  "records": 6564,
+  "shard": 0,
+  "shards": 4,
+  "status": "PASS",
+  "valid": 6564
+}

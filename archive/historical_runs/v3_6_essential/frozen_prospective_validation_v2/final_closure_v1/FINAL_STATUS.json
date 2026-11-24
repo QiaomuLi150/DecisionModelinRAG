@@ -1,0 +1,16 @@
+{
+  "full_regression_designated_environment": "PASS",
+  "gate": "V2_OWNER_REVIEW_READY",
+  "labels_joined_in_pass_b": false,
+  "latency_cohort_sha256": "5d5f34e3b3a9cfd1b547744e1e4417c992e97b86a81edd94f8f175645652961c",
+  "overall_scientific_claim": "PPLX_6144_QUALITY_PASS_BUT_LATENCY_NONINFERIORITY_INCONCLUSIVE",
+  "pass_a_quality": "PASS_WITH_EXPLICIT_JINA_FAILURE_ACCOUNTING",
+  "pass_b_clean_trace_integrity": "PASS",
+  "pass_b_primary_latency_s_gate": "INCONCLUSIVE_FOR_PPLX_6144",
+  "pass_b_secondary_latency_s_gate": "PASS_FOR_PPLX_4096_AND_JINA_TRUNC_8192",
+  "preparation": "PASS",
+  "protocol_sha256": "f15cb0f6001327bfe47e0b1d605f73f7beefc3c6a5fc195689cd5ca1652ce86e",
+  "qrels_read_in_pass_b": false,
+  "raw_artifacts_preserved": true,
+  "system_python_regression": "NOT_COMPARABLE_MISSING_PYARROW_AND_TORCH"
+}

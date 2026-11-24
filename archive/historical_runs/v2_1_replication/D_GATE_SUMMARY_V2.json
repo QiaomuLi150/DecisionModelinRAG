@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE",
+  "final_gate": "COMPLETE_STAGE0_AMENDED_STAGE3_COMPLETE",
+  "stage0_original_exact_bm25": "BLOCKED_PRESERVED",
+  "stage0_amended_hybrid_rrf": "PASS",
+  "stage1_quality": "PASS",
+  "stage2_order_robustness": "PASS",
+  "stage3_serving": "PASS",
+  "stage4_analysis": "PASS",
+  "stage5_packaging": "PASS",
+  "labels_in_native_traces": false,
+  "protected_holdouts_accessed": false,
+  "paid_api_calls": 0,
+  "new_retrieval": false,
+  "source_report_preserved": "REPLICATION_REPORT.md",
+  "derived_report": "REPLICATION_REPORT_V2_FINAL.md"
+}

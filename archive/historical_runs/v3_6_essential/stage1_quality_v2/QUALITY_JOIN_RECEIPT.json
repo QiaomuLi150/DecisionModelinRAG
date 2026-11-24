@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "slates": 1384,
+  "record_count": 31832,
+  "missing_records": [],
+  "missing_count": 0,
+  "new_raw_sha256": {
+    "pplx": [
+      "5c650eb03bb07890ec8cfa9334d41793f519a3aa1129517bf8980446fdadee14",
+      "40ceafa0193a01fbedadbfe8bf6b8c5eca80bfc80209a181ec3108ff7021bbf4"
+    ],
+    "jina": [
+      "bb35ad9312f804d55a6cb73c42dceaa9544591990765eede1dfce25486589d32",
+      "72dd7847d7947d93f55bd285a734ef7516d6db095723dc6b8fbe9e76123e0472"
+    ]
+  }
+}

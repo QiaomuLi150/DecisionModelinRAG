@@ -1,0 +1,67 @@
+{
+  "schema": "decisionrag-v1.3-continuation-provenance-v2",
+  "gate": "PARTIAL_COMPLETE_R5_RESOURCE_BLOCKED",
+  "artifacts": [
+    {
+      "path": "results/v1_3/r1_serving_gate_v2/export/serving_r1.csv",
+      "sha256": "1fa7aea7a4df7a17d7f99ddcf0cc614442334ee7ac421e300ec3daced2d39017"
+    },
+    {
+      "path": "results/v1_3/r3_multipass_ordered/export/multipass_ordered_summary.csv",
+      "sha256": "3c7234592972f2f8ad5f5ee3462edb62580dfbade0d145983efc6859c5f73f04"
+    },
+    {
+      "path": "results/v1_3/r3_multipass_ordered/export/multipass_ordered_provenance.json",
+      "sha256": "d8d1320956d43a30ad2c5d411b335b1502691a845503556fe479ace51acc51e7"
+    },
+    {
+      "path": "results/v1_3/r4_crag_reader_window_v2/raw/R4_READER_RAW_OUTPUTS_V2.jsonl",
+      "sha256": "0a707cafb47cd1e416691d35c8dd0e5fc57eec9bf052eb9089e0ab6f94891a99"
+    },
+    {
+      "path": "results/v1_3/r4_crag_reader_window_v2/raw/R4_SCORED_RAW_OUTPUTS_V3.jsonl",
+      "sha256": "deb04362e89ceefc3d5162d49b168d4a0124414c9b9e27a8f851fa6ecb3076d2"
+    },
+    {
+      "path": "results/v1_3/r4_crag_reader_window_v2/export/crag_reader_window_v3.csv",
+      "sha256": "307016af13c70964e323695cf72a2cba0fa8425410db19485c89ee723fc77f77"
+    },
+    {
+      "path": "results/v1_3/r5_winnow_budget_v2/PROTOCOL_V2.json",
+      "sha256": "5ea8ea34e9906f6965c3452c76a712caee3e549c52d40f6d26e8c3205d2a3e02"
+    },
+    {
+      "path": "results/v1_3/r5_winnow_budget_v2/R5_RESOURCE_GATE.json",
+      "sha256": "891b218da5d03cf530520af752f58a9162c35cb5f490f675492aa7d77f9f232d"
+    }
+  ],
+  "raw_r3_shards": [
+    {
+      "path": "results/v1_3/r3_multipass_ordered/raw/multipass_gpu3_start0_n1384_orders_reversed_perm_seed_1.jsonl",
+      "sha256": "14a95bfa1a615b70a91b9d6c1e754585db35e0e22646f56c87e4953cc43c52d2"
+    },
+    {
+      "path": "results/v1_3/r3_multipass_ordered/raw/multipass_gpu5_start0_n1384_orders_perm_seed_2_perm_seed_3.jsonl",
+      "sha256": "63975a0e165cf23e42f6fb3c1196521d4417b8ab7ccbdfaca0e61975e36a0236"
+    },
+    {
+      "path": "results/v1_3/r3_multipass_ordered/raw/multipass_gpu6_start0_n1384_orders_perm_seed_4_perm_seed_5.jsonl",
+      "sha256": "ec5ae1a0d822ecb1d3e1e41c34a94627ef5cd62f854b020a4772776513c71285"
+    }
+  ],
+  "runtime": {
+    "winnow_source_commit": "6c2b3c04e248a319f2cb43832628eba03e55fe38",
+    "llama_cpp_commit": "911f6cdc8ab8a530b2bee09ee61471a6f3178eeb",
+    "winnow_binary_sha256": "2f729cd3f59b34dc5b3a9a7cd0c5096e59075fe8dcd246529e9b34753f273993",
+    "winnow_model_sha256": "b710efc4c0d048ee61eed92c5fef5ce323a4d17e7c51f9f0533cc72ae50818ea",
+    "winnow_tokenizer_sha256": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "winnow_unit_tests": "1/1 passed"
+  },
+  "validation": {
+    "full_project_pytest": "302 passed",
+    "jev_calls": 0,
+    "paid_api_calls": 0,
+    "reserved_holdout_accessed": false,
+    "historical_artifacts_overwritten": false
+  }
+}

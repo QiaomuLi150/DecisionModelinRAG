@@ -1,0 +1,12 @@
+{
+  "policy": "pplx_two_stage",
+  "gpu": 1,
+  "start": 462,
+  "n_rows": 461,
+  "valid": 458,
+  "failed": 3,
+  "load_ms": 16739.66031242162,
+  "raw_sha256": "30151a17338eb9d075d869fdfc5483a48e74a9e7892644819d9c1d664b095b61",
+  "labels_joined": false,
+  "model_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+}

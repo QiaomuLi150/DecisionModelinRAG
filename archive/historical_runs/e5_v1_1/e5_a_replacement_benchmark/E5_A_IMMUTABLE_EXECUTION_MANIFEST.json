@@ -1,0 +1,98 @@
+{
+  "commands": {
+    "a0": "python scripts/e5_a_benchmark.py --stage a0 --policy POLICY --gpu GPU",
+    "h0": "python scripts/e5_a_benchmark.py --stage h0 --policy POLICY --gpu GPU",
+    "m0": "python scripts/e5_a_benchmark.py --stage m0",
+    "s0": "python scripts/e5_a_benchmark.py --stage s0",
+    "v0": "python scripts/e5_a_benchmark.py --stage v0"
+  },
+  "created_utc": "2026-10-14T17:39:28.237008+00:00",
+  "execution_authorization": "owner-authorized E5-A exploratory selector inference; GPU5/GPU6 only",
+  "git": {
+    "branch": "main",
+    "dirty": true,
+    "head": "246ff54e66b178eadd350351a5544879f5484ed2",
+    "status_sha256": "6908119a97c6942b401c204d2cf062b02ef870a1c4adb190a48534f92842474d"
+  },
+  "input_contract": {
+    "candidate_count": 20,
+    "candidate_view_hashes_sha256": "b220afa1e6778b890fe8b50502c91569c9668990f3d702847dd5bfe8af588453",
+    "dataset": "QASPER train/dev v0.3",
+    "eligible_group_count": 587,
+    "eligible_group_ids_sha256": "eef07ab9e8219e35064eff0c3dfeb56bff8ab70260935286b26cd3e76d8a035d",
+    "eligible_question_count": 1502,
+    "eligible_question_ids_sha256": "13312d1f372ab93332a7c0aeb7575997462f5d300b973f1b5a7d41ce86ec5369",
+    "frozen_slate_file": "./results/non_jev/v2/e5_v1_1/e5_0_data_protocol/E5_0_NATURAL_TOP20_MANIFEST.jsonl",
+    "frozen_slate_file_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+    "full_exploratory_partition_group_count": 643,
+    "reserved_payload_accessed": false,
+    "selected_count": 5,
+    "support_set_source": "E5-0C audited permitted-record mapper"
+  },
+  "manifest_version": "E5-A-v1.0",
+  "models": [
+    {
+      "adapter": "scripts/e3_d_external.py::ExternalNativeAdapter",
+      "adapter_sha256": "5c13fe48c789ca97439d64db6dd2f5dc683aea1e1322be012db786292659ac6b",
+      "candidate_count": 20,
+      "checkpoint_path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--perplexity-ai--pplx-decider-v1.1-27b/snapshots/14c9d90137962d300f3de95633f7b6535e80c5ce",
+      "checkpoint_present": true,
+      "gpu_index": 5,
+      "max_attempts": 2,
+      "model_id": "perplexity-ai/pplx-decider-v1.1-27b",
+      "native_kind": "pplx_native",
+      "native_objective": "NATIVE_SLATE_CATEGORICAL:v1",
+      "native_passage_cap": 128,
+      "native_question_cap": 64,
+      "output_count": 5,
+      "policy": "pplx_decider",
+      "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+      "score_direction": "descending",
+      "selection_tie_break": "original candidate order, then canonical ID"
+    },
+    {
+      "adapter": "scripts/e3_d_external.py::ExternalNativeAdapter",
+      "adapter_sha256": "5c13fe48c789ca97439d64db6dd2f5dc683aea1e1322be012db786292659ac6b",
+      "candidate_count": 20,
+      "checkpoint_path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--jinaai--jina-reranker-v3.5/snapshots/e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+      "checkpoint_present": true,
+      "gpu_index": 6,
+      "max_attempts": 2,
+      "model_id": "jinaai/jina-reranker-v3.5",
+      "native_kind": "jina_listwise",
+      "native_objective": "native_listwise_chunked_relevance",
+      "native_passage_cap": 512,
+      "native_question_cap": 64,
+      "output_count": 5,
+      "policy": "jina35",
+      "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+      "score_direction": "descending",
+      "selection_tie_break": "original candidate order, then canonical ID"
+    }
+  ],
+  "output_root": "./results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark",
+  "project_root": ".",
+  "retry_and_failure": {
+    "invalid_output_is_failure": true,
+    "max_attempts": 2,
+    "retry_only": [
+      "TIMEOUT",
+      "INFRA_INTERRUPTED"
+    ],
+    "unattempted_is_missing": true
+  },
+  "run_id": "e5_a_20261014_9d0fbb8ea156",
+  "runtime": {
+    "platform": "Linux-6.8.0-137-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+  },
+  "secondary_scope": "retrieval Top-5 only; BGE/Liquid/zerank not required and not allowed to mutate primary cohort",
+  "statistics": {
+    "bootstrap": "paired source-group bootstrap",
+    "bootstrap_reps": 5000,
+    "confidence_interval": "two-sided percentile 95%",
+    "primary": "PPLX minus Jina equal-source-group set-aware CSSR-U",
+    "seed": 731
+  },
+  "status": "IMMUTABLE_PRE_OUTCOME"
+}

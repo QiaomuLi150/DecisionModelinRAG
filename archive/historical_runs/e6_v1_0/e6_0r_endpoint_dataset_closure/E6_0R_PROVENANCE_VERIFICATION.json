@@ -1,0 +1,213 @@
+{
+  "checked": 41,
+  "failed": 0,
+  "files": [
+    {
+      "bytes_match": true,
+      "path": "data/external/e6_0r_datasets/dochopqa/.cache/huggingface/.gitignore",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "data/external/e6_0r_datasets/dochopqa/.cache/huggingface/CACHEDIR.TAG",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "data/external/e6_0r_datasets/dochopqa/.cache/huggingface/download/README.md.lock",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "data/external/e6_0r_datasets/dochopqa/.cache/huggingface/download/README.md.metadata",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "data/external/e6_0r_datasets/dochopqa/.cache/huggingface/download/[F] DocHopQA_Dataset.json.lock",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "data/external/e6_0r_datasets/dochopqa/.cache/huggingface/download/[F] DocHopQA_Dataset.json.metadata",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "data/external/e6_0r_datasets/dochopqa/README.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "data/external/e6_0r_datasets/dochopqa/[F] DocHopQA_Dataset.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "data/external/e6_0r_datasets/garage/GaRAGe_benchmark.jsonl",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "data/external/e6_0r_datasets/garage/LICENSE",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "data/external/e6_0r_datasets/garage/README.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_ACCESS_ISOLATION_AND_CHRONOLOGY.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_CORPUS_RECONSTRUCTABILITY_AUDIT.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_DATASET_ACTUAL_ROW_INVENTORIES.csv",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_DATASET_ACTUAL_ROW_INVENTORIES.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_DATASET_REJECTION_AND_ADMISSION_MATRIX.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_DATASET_SOURCE_AND_LICENSE_PROOFS.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_DATASET_SOURCE_STATS.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_E6_1_CAL_ADAPTER_HANDOFF_SPEC.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_E6_2_RELEASE_CRITERIA.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_ENDPOINT_AMENDMENT_V1_PROPOSED.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_ENDPOINT_SCHEMA_AND_LABEL_MAPPING.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_FAIL_AND_ACCESS_LOG.jsonl",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_FINAL_OWNER_REVIEW_REPORT.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_GOLD_PASSAGE_AND_ANNOTATION_AUDIT.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_HISTORICAL_EXCLUSION_INDEX.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_HISTORICAL_IMMUTABILITY_REPORT.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_HISTORICAL_OVERLAP_AND_DUPLICATE_AUDIT.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_NATURAL_VS_FIXED_POOL_SCOPE_CROSSWALK.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_OWNER_REVIEW_GATE.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_POOL_SIZE_AND_JUDGMENT_COVERAGE.csv",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_PRIMARY_SECONDARY_CONTRASTS.csv",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_R0_EXACT_PROTOCOL_CROSSWALK.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_R0_INPUT_AUTHENTICATION.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_RESERVED_METADATA_ONLY_RECEIPT.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_RESOURCE_FRONTIER_AND_SERVING_PROTOCOL.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_SCIFACT_CAL_QIDS.jsonl",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_SCIFACT_EXPLORATORY_QIDS.jsonl",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_SOURCE_COMPONENT_GRAPH_REPORT.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_SOURCE_SPLIT_MANIFEST.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_TARGETED_AND_REGRESSION_TEST_REPORT.md",
+      "sha256_match": true
+    }
+  ],
+  "passed": 41,
+  "status": "PASS"
+}

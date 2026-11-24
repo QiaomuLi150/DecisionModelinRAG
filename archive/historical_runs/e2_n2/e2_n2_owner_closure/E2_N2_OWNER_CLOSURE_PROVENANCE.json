@@ -1,0 +1,248 @@
+{
+  "closure_output_hashes": {
+    "E2_N2_CANDIDATE_VIEW_AUDIT.md": {
+      "bytes": 4257,
+      "sha256": "f8aad626c8ca4e33f38d6bd4c1c2c5256da64bb3dc1d8d31ecded60c4f7e882d"
+    },
+    "E2_N2_FINAL_SCIENTIFIC_CLOSURE.json": {
+      "bytes": 1558,
+      "sha256": "b42434d60af8c9d9ff88151b0b519ec5fe7117d244cae150190fc660b628345f"
+    },
+    "E2_N2_FINAL_SCIENTIFIC_CLOSURE.md": {
+      "bytes": 7208,
+      "sha256": "94caf0774620773f50bbd49fc20f2987d4383fcab00b08f9f048bab7a31e0b29"
+    },
+    "E2_N2_FORWARD_COUNT_RECONCILIATION.md": {
+      "bytes": 4835,
+      "sha256": "7aa3df2bf9a2decd237c614341f9a0c0e6f749d0d4b560f85efcc53972e5bde1"
+    },
+    "E2_N2_INDEPENDENT_PAIRED_STATISTICS.csv": {
+      "bytes": 28964,
+      "sha256": "24e41a511f6ddb601ccfee1feb41e640a1235829d7ac7200a8189c55a033be97"
+    },
+    "E2_N2_INDEPENDENT_QUALITY_RECOMPUTATION.csv": {
+      "bytes": 14930,
+      "sha256": "9e060135f4548774e888ad360f24ef0b48ea354e8a3c622dbabd3b566cebcedd"
+    },
+    "E2_N2_MODEL_INFERENCE_PROVENANCE.csv": {
+      "bytes": 5569,
+      "sha256": "8e54217a97ae25805ba4c69cee5baf8117a0965f472a50511a0e70f18fe92728"
+    },
+    "E2_SP_AUTHORIZATION_CHECKLIST.md": {
+      "bytes": 853,
+      "sha256": "ea32fd6eded8d69f49f71ed7cd12ea66003466741d3ad62274816d7c98af7aec"
+    },
+    "E2_SP_DOWNSTREAM_VALIDATION_CONTRACT.md": {
+      "bytes": 642,
+      "sha256": "ef3973acd08e43d87918e18a2a5fda6b9e58331c462a60e8d92eb8ea901c232f"
+    },
+    "E2_SP_EXECUTION_SDD.md": {
+      "bytes": 2156,
+      "sha256": "de6bc390d39e679183fb07ec31d8e41d5607ef790cbf5d8a9fdee4ce8e90a72a"
+    },
+    "E2_SP_MODEL_AND_WORKLOAD_MATRIX.csv": {
+      "bytes": 1743,
+      "sha256": "f10cce5c27f35aa91b679aec92787da3728afa0858bfbc9865cad940962ea69e"
+    },
+    "E2_SP_SERVING_MEASUREMENT_CONTRACT.md": {
+      "bytes": 1008,
+      "sha256": "6e0491765c6220ebcfd66cb6be7d053353d358aab142ef1c08a554dc6a22082c"
+    }
+  },
+  "generated_utc": "2026-10-13T10:14:31.944381+00:00",
+  "limitations": [
+    "500 Intern-Decision enterprise rows are native context-blocked above the frozen 8192-token contract.",
+    "CSSR is complete-support selection proxy, not independently verified reader factual accuracy.",
+    "API request counts, timestamps, queue intervals, and monetary GPU cost are not recorded in E2-N2 traces.",
+    "Raw serialized candidate-view text is not embedded; per-view hashes and actual input hashes are preserved."
+  ],
+  "method": "offline independent recomputation from frozen normalized rows and manifests",
+  "milestone": "E2-N2-R",
+  "safety": {
+    "fresh_holdout_accessed": false,
+    "gpu_used": false,
+    "network_used": false,
+    "retrieval_or_indexing": false,
+    "services_modified": false,
+    "training": false
+  },
+  "source_files": {
+    "E2_N2_AUTHENTICITY_AUDIT.md": {
+      "bytes": 839,
+      "sha256": "73193951812f30af8ee89ac898a5d6cf9a483238c432799f874b614d74803aae"
+    },
+    "E2_N2_CAL_VALIDATION_REPORT.md": {
+      "bytes": 1827,
+      "sha256": "cf2aaeb6ffe947ddc7899081e0b84dc1515d82f8825bb092fd7d02bbcc707040"
+    },
+    "E2_N2_CHECKPOINT_AND_LICENSE_AUDIT.md": {
+      "bytes": 4315,
+      "sha256": "b5596041422b55c9fc6bf18b9c609ffd3ad7e384d6d40ce1b8efce7b6ef7d6a7"
+    },
+    "E2_N2_CONTEXT_AND_FEASIBILITY_REPORT.md": {
+      "bytes": 941,
+      "sha256": "c711eb226d06c45c50f19ec23ca7d4200df1322eb3d54328da62a34fc28b30b0"
+    },
+    "E2_N2_EXECUTION_MANIFEST.json": {
+      "bytes": 25531,
+      "sha256": "406de239c6396f8b9ccfafdad196ff182f31940a416e0f4732c316438f272504"
+    },
+    "E2_N2_FINAL_REPORT.md": {
+      "bytes": 1451,
+      "sha256": "34b74f06d2c50c76bf89ae84fe3272427d1fe8adaf2632d9b4cf915af2356d19"
+    },
+    "E2_N2_FROZEN_EXPLORATORY_CONFIG.json": {
+      "bytes": 12645,
+      "sha256": "9840dc5e1851eb753d74a9ffbdb49fe8cf5fd0d653d383e63e2df6afa419b421"
+    },
+    "E2_N2_GPU_RESOURCE_AUDIT.md": {
+      "bytes": 835,
+      "sha256": "4aac2f2d1a87feabb6f5d632d9500e382496b12c1b244b1b04b56ca9b82b43fa"
+    },
+    "E2_N2_MODEL_DATASET_QUALITY_SUMMARY.csv": {
+      "bytes": 14745,
+      "sha256": "323570b237c4b960cdbba2bfb3eb7de064af5438a2e28034f2b2030c777ec88f"
+    },
+    "E2_N2_MODEL_FAMILY_ANALYSIS.md": {
+      "bytes": 938,
+      "sha256": "02b55c598dbda5b8f8ce37da0e206a9e85d5ad614b139d7b4deea59f62f21674"
+    },
+    "E2_N2_MODEL_SCORES.jsonl": {
+      "bytes": 230223074,
+      "sha256": "d5cc6ea0349dc6a5d15f331f2f9c43aff9cf629181600ae983746e5dfc8448ac"
+    },
+    "E2_N2_NATIVE_SMOKE_REPORT.md": {
+      "bytes": 2248,
+      "sha256": "9b5c19dc2ec319e9eb9edf151b7f19dc5556c101e2e0e4553da97960134212d1"
+    },
+    "E2_N2_OFFLINE_EVALUATOR_RUN.json": {
+      "bytes": 375,
+      "sha256": "311c6cb840f8a81b7a9217f776b6e9a61e556b1818adf995351660b7cbcd694e"
+    },
+    "E2_N2_OWNER_REVIEW_GATE.md": {
+      "bytes": 1010,
+      "sha256": "7db6b43c692f2e4e7f741157c28cceccd95557a5785f41d41716627a833c4a45"
+    },
+    "E2_N2_PRIMARY_EXPLORATORY_PAIRED_STATISTICS.csv": {
+      "bytes": 25488,
+      "sha256": "5aba574b018b2ea173802b16c41766d32598f007691de6bc3b2c2c26ac991ad4"
+    },
+    "E2_N2_PROVENANCE_MANIFEST.json": {
+      "bytes": 5954,
+      "sha256": "caa4460e8134482759c0af55f215a75c20d2139416a40be24de479971136d98c"
+    },
+    "E2_N2_RUNTIME_AND_GPU_REPORT.md": {
+      "bytes": 1216,
+      "sha256": "e8e280006c8f02343875593d5ba738331f2ff85ddbe3376e935e51c581deec47"
+    },
+    "E2_N2_SELECTED_DOCUMENTS.jsonl": {
+      "bytes": 116155030,
+      "sha256": "cb2a948c62bf7590bfeb37f2c254ea89e09c175dc2ce691c7f3b132f2ef84c97"
+    }
+  },
+  "source_trace_hash_checks": [
+    {
+      "actual_sha256": "645164198c69886f61f1de60e43ccb189ca57146940eb5027326ce9482c4ad5f",
+      "expected_sha256": "645164198c69886f61f1de60e43ccb189ca57146940eb5027326ce9482c4ad5f",
+      "match": true,
+      "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_BGE_FULL.jsonl",
+      "rows": 4267,
+      "source_key": "bge_pointwise"
+    },
+    {
+      "actual_sha256": "58f03e7891e904d4b957fdd1beeb7fa7ccc6d8ccd12c77438d354598b2eb8ec5",
+      "expected_sha256": "58f03e7891e904d4b957fdd1beeb7fa7ccc6d8ccd12c77438d354598b2eb8ec5",
+      "match": true,
+      "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_LAYA_FULL.jsonl",
+      "rows": 4267,
+      "source_key": "laya_pointwise"
+    },
+    {
+      "actual_sha256": "a447c994010ac4b6e071b86b7124592af8d2f673a5ab159767c44f8c7ba0c77b",
+      "expected_sha256": "a447c994010ac4b6e071b86b7124592af8d2f673a5ab159767c44f8c7ba0c77b",
+      "match": true,
+      "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_CLEF_FULL.jsonl",
+      "rows": 8534,
+      "source_key": "clef"
+    },
+    {
+      "actual_sha256": "60574a866356dd5abef003ebce6e0d5813c10beb6ee61a70da17d7c38fb8f6ae",
+      "expected_sha256": "60574a866356dd5abef003ebce6e0d5813c10beb6ee61a70da17d7c38fb8f6ae",
+      "match": true,
+      "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_GTE_FULL.jsonl",
+      "rows": 4267,
+      "source_key": "gte"
+    },
+    {
+      "actual_sha256": "151d36c2c5197b1c4889dfc39351a2eecde416822216f7099e4c8f81c4387a97",
+      "expected_sha256": "151d36c2c5197b1c4889dfc39351a2eecde416822216f7099e4c8f81c4387a97",
+      "match": true,
+      "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_MINILM_FULL.jsonl",
+      "rows": 4267,
+      "source_key": "minilm"
+    },
+    {
+      "actual_sha256": "e9472311e538cc36e70ac9ebc387e3370c9d9405a544ec86e943fa85ac4f9526",
+      "expected_sha256": "e9472311e538cc36e70ac9ebc387e3370c9d9405a544ec86e943fa85ac4f9526",
+      "match": true,
+      "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_JINA35_FULL.jsonl",
+      "rows": 4267,
+      "source_key": "jina35"
+    },
+    {
+      "actual_sha256": "f3f6c430db1d1198ec254b9a51b3897ed56cc6ad2520fb1b936d89407f31f011",
+      "expected_sha256": "f3f6c430db1d1198ec254b9a51b3897ed56cc6ad2520fb1b936d89407f31f011",
+      "match": true,
+      "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_NIMBLE_FULL.jsonl",
+      "rows": 4267,
+      "source_key": "nimble"
+    },
+    {
+      "actual_sha256": "7b856e06c74df994a9317c37ed250185e95543fe70715c751dea969405949712",
+      "expected_sha256": "7b856e06c74df994a9317c37ed250185e95543fe70715c751dea969405949712",
+      "match": true,
+      "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_INTERN_DECISION_FULL.jsonl",
+      "rows": 4267,
+      "source_key": "intern_decision"
+    },
+    {
+      "actual_sha256": "47594515c9c74806f18143660a906ad5b4301861801a66999385ef3172aa0544",
+      "expected_sha256": "47594515c9c74806f18143660a906ad5b4301861801a66999385ef3172aa0544",
+      "match": true,
+      "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_PPLX_DECIDER_FULL.jsonl",
+      "rows": 4267,
+      "source_key": "pplx_decider"
+    },
+    {
+      "actual_sha256": "efe9a033eced4bf5891249f48b918b78352ac1e4fc1978d4579920712fc1a3fa",
+      "expected_sha256": "efe9a033eced4bf5891249f48b918b78352ac1e4fc1978d4579920712fc1a3fa",
+      "match": true,
+      "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_QWEN06_FULL.jsonl",
+      "rows": 4267,
+      "source_key": "qwen06"
+    },
+    {
+      "actual_sha256": "6c29f217b4d2eff28d7d9fc5676fa3652bb030d3b2de2d0617b5f54adf98b928",
+      "expected_sha256": "6c29f217b4d2eff28d7d9fc5676fa3652bb030d3b2de2d0617b5f54adf98b928",
+      "match": true,
+      "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_QWEN4_FULL.jsonl",
+      "rows": 4267,
+      "source_key": "qwen4"
+    },
+    {
+      "actual_sha256": "c7fc80ab9fff480d1c0923cb73e645cb59fe8f005a6b552b1361ba581be90a76",
+      "expected_sha256": "c7fc80ab9fff480d1c0923cb73e645cb59fe8f005a6b552b1361ba581be90a76",
+      "match": true,
+      "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_QWEN_DIRECT_FULL.jsonl",
+      "rows": 4267,
+      "source_key": "qwen_direct"
+    }
+  ],
+  "status": "E2_N2_OWNER_ACCEPTED_WITH_LIMITATIONS",
+  "tests": {
+    "jev_calls": 0,
+    "new_inference": 0,
+    "paid_api_calls": 0,
+    "status": "PASS (65/65; command: PYTHONPATH=. pytest -q)"
+  }
+}

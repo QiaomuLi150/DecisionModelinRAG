@@ -1,0 +1,130 @@
+{
+  "bootstrap": {
+    "interval": "percentile_95",
+    "resamples": 5000,
+    "seed": 731,
+    "unit": "query"
+  },
+  "candidate_budget": 5,
+  "created_utc": "2026-10-15T23:24:21.742437+00:00",
+  "diagnostic_not_native_unmodified": true,
+  "e7_cohort_sha256": "3e2a31e047f7365280710f2d6f84bb12e66ea8ee657ef79b6330cb41e7c765c5",
+  "e7_gate": "E7_VALIDATED_EVIDENCE_READY",
+  "e7_protocol_sha256": "fc265121622a3280bdbfea12ba3210b042d3d62394f4b76b72c988d0500bdb24",
+  "e7_raw_sha256": "7520d102c8436145e51ca9b2f7ba3f07f26f9f598a1a0d7f111326c86bc4e521",
+  "failure_policy": "retain all attempts; no truncation, resampling or outcome-dependent retry; infrastructure retries must repeat exact payload",
+  "git_head": "246ff54e66b178eadd350351a5544879f5484ed2",
+  "gpu_preflight": {
+    "captured_at": "2026-10-15T23:24:21.785751+00:00",
+    "error": "CalledProcessError: Command '['nvidia-smi', '--query-gpu=index,uuid,name,memory.total,memory.used,memory.free,utilization.gpu', '--format=csv,noheader,nounits']' returned non-zero exit status 9.",
+    "status": "unavailable"
+  },
+  "jev_calls": 0,
+  "labels_joined_after_raw_freeze": true,
+  "metrics": [
+    "validity_all_attempts",
+    "exact_set_agreement",
+    "mean_jaccard",
+    "binary_ndcg5",
+    "A_minus_R",
+    "C_minus_D",
+    "paired_moderation"
+  ],
+  "model_repositories": {
+    "jina_v3_5": "jinaai/jina-reranker-v3.5",
+    "pplx_decider": "perplexity-ai/pplx-decider-v1.1-27b",
+    "qwen3_reranker_0_6b": "Qwen/Qwen3-Reranker-0.6B",
+    "startlux_decision_4b": "startlux-models/StartLux-Decision-v1-4B"
+  },
+  "model_revisions": {
+    "jina_v3_5": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+    "pplx_decider": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+    "qwen3_reranker_0_6b": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+    "startlux_decision_4b": "9c0a32e9809d6a3f612434dd0bce150295dcc274"
+  },
+  "models": [
+    "pplx_decider",
+    "startlux_decision_4b",
+    "jina_v3_5",
+    "qwen3_reranker_0_6b"
+  ],
+  "native_context_limits_unchanged": true,
+  "new_conditions": {
+    "C": "canonical serialized candidate order with fixed identity-tied original_retrieval_rank",
+    "D": "reversed presentation order with the same identity-tied original_retrieval_rank"
+  },
+  "paid_api_calls": 0,
+  "planned_logical_attempts": 640,
+  "population": {
+    "garage": 40,
+    "scifact": 40,
+    "unique_queries": 80
+  },
+  "rank_tag_syntax": "original_retrieval_rank=NNN",
+  "reserved_access": false,
+  "schema": "DECISIONRAG-E8-PREINFERENCE-PROTOCOL-V1",
+  "seed": 731,
+  "source": "exact E7-B CAL cohort; no new sampling",
+  "source_hashes": [
+    {
+      "bytes": 833,
+      "exists": true,
+      "path": "results/non_jev/v2/e7_v1_0/04_closure/E7_FINAL_OWNER_REVIEW_GATE.json",
+      "sha256": "72d317f2c5ddf89650ce5edb1284ec214b625b4467ba49bfd53bb4c653e83c08"
+    },
+    {
+      "bytes": 7892,
+      "exists": true,
+      "path": "results/non_jev/v2/e7_v1_0/04_closure/E7_PROVENANCE_MANIFEST.json",
+      "sha256": "309ca991583e2cba4298909ada82b5933e758b593d0b9bb0d674091b532ef986"
+    },
+    {
+      "bytes": 970,
+      "exists": true,
+      "path": "results/non_jev/v2/e7_v1_0/01_native_contract_audit/E7_MAIN_NATIVE_CONTRACT_REFERENCE_REPORT.md",
+      "sha256": "23662c53dac4b7b41b3c18a7e92d1bf21f71a104b008b2860739fff01970e061"
+    },
+    {
+      "bytes": 1424,
+      "exists": true,
+      "path": "results/non_jev/v2/e7_v1_0/02_repeatability_and_order/E7_B_PROTOCOL.json",
+      "sha256": "fc265121622a3280bdbfea12ba3210b042d3d62394f4b76b72c988d0500bdb24"
+    },
+    {
+      "bytes": 2223994,
+      "exists": true,
+      "path": "results/non_jev/v2/e7_v1_0/02_repeatability_and_order/E7_B_COHORT_MANIFEST.json",
+      "sha256": "3e2a31e047f7365280710f2d6f84bb12e66ea8ee657ef79b6330cb41e7c765c5"
+    },
+    {
+      "bytes": 527,
+      "exists": true,
+      "path": "results/non_jev/v2/e7_v1_0/02_repeatability_and_order/E7_B_CORRECTED_RAW_FREEZE_RECEIPT.json",
+      "sha256": "88ae4657f48206e7e7c7a317806b71e72b6071d8a7b6ea33cb018f00a3263c59"
+    },
+    {
+      "bytes": 7403947,
+      "exists": true,
+      "path": "results/non_jev/v2/e7_v1_0/02_repeatability_and_order/E7_B_NATIVE_OUTPUTS_CORRECTED_V2.jsonl",
+      "sha256": "7520d102c8436145e51ca9b2f7ba3f07f26f9f598a1a0d7f111326c86bc4e521"
+    },
+    {
+      "bytes": 5540274,
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_CAL_RETRIEVAL_SLATES.jsonl",
+      "sha256": "5552c0e605a8d0d23ac3fc7ecd00b7cfe3cfb1eb2e2f1b88a69dd687a292c37d"
+    },
+    {
+      "bytes": 126179,
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_PARTITION_MANIFEST.json",
+      "sha256": "98c81a492c45e1e69b56101b721c5f852e75d10c0cc4bc3fdc8774e2a1c309c8"
+    },
+    {
+      "bytes": 2172651,
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/E6_4_COHORT_AND_PERMUTATION_MANIFEST.json",
+      "sha256": "5a69e96a7bc274009d93dbb0d7cbce9c980f60032ed385b92eb237314402d898"
+    }
+  ]
+}

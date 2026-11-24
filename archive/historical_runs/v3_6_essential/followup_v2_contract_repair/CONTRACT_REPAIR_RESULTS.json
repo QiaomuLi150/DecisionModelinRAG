@@ -1,0 +1,50 @@
+{
+  "batch_size": 8,
+  "bright_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+  "e11_budget_manifest_sha256": "c8d9299711a0c64b94ccd139e4f6329dc8779eb267f534b90c085e3d2d3f9a94",
+  "exact_list_n": 1352,
+  "exact_request_hash_n": 1352,
+  "exact_score_vector_n": 1352,
+  "exact_set_n": 1352,
+  "gate": "JINA_SELECTION_GATE_PASS",
+  "historical_failures_preserved": 32,
+  "historical_pass": 1352,
+  "labels_joined_after_raw_freeze": true,
+  "new_native_pass": 1352,
+  "paid_api_calls": 0,
+  "physical_batch_forwards": 169,
+  "population": 1384,
+  "protected_holdout_accessed": false,
+  "quality_comparison": {
+    "ci95_equal_domain_query_bootstrap": [
+      -0.02867888422435398,
+      -0.009828854304061354
+    ],
+    "delta_equal_domain": -0.01924194973743863,
+    "delta_query_weighted": -0.019004403419495726,
+    "domain_count": 12,
+    "domain_means": {
+      "aops": 0.0005314571336247468,
+      "biology": -0.04079617107301426,
+      "earth_science": -0.0054196015826911284,
+      "economics": 0.007587469764018037,
+      "leetcode": -0.03349835399690446,
+      "pony": -0.07287788728094403,
+      "psychology": 0.0449983800046631,
+      "robotics": -0.07033768128354932,
+      "stackoverflow": 0.006660699917225161,
+      "sustainable_living": -0.05120122054562007,
+      "theoremqa_questions": -0.006993982833296081,
+      "theoremqa_theorems": -0.00955650507277522
+    },
+    "draws": 40000,
+    "n": 1384,
+    "p_signflip_equal_domain": 0.08837890625,
+    "seed": 731
+  },
+  "remaining_blockers": [
+    "N3 exact BM25 artifact unavailable",
+    "N2-E pre-outcome protocol receipt cannot be retroactively created"
+  ],
+  "unexpected_failures": []
+}

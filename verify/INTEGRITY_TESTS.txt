@@ -1,0 +1,13 @@
+test_bright_frozen_slates_have_1384_unique_domain_queries (__main__.ReleaseIntegrity.test_bright_frozen_slates_have_1384_unique_domain_queries) ... ok
+test_bright_source_query_metrics_not_merged_with_e2n (__main__.ReleaseIntegrity.test_bright_source_query_metrics_not_merged_with_e2n) ... ok
+test_cqadupstack_scored_rows_and_candidate_identity (__main__.ReleaseIntegrity.test_cqadupstack_scored_rows_and_candidate_identity) ... ok
+test_frozen_cqadupstack_protocol_and_cohort_hashes (__main__.ReleaseIntegrity.test_frozen_cqadupstack_protocol_and_cohort_hashes) ... ok
+test_model_downloader_is_opt_in_and_requires_safe_pins (__main__.ReleaseIntegrity.test_model_downloader_is_opt_in_and_requires_safe_pins) ... ok
+test_source_crosswalk_release_hashes (__main__.ReleaseIntegrity.test_source_crosswalk_release_hashes) ... ok
+test_trace_manifest_projection_hashes (__main__.ReleaseIntegrity.test_trace_manifest_projection_hashes) ... ok
+test_transfer_population_and_failure_accounting (__main__.ReleaseIntegrity.test_transfer_population_and_failure_accounting) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.553s
+
+OK

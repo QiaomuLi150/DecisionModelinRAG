@@ -1,0 +1,17 @@
+{
+  "full_regression": {
+    "command": "python -m pytest -q tests",
+    "collected": 198,
+    "passed": 198,
+    "failed": 0
+  },
+  "jev_calls": 0,
+  "model_calls": "native calls recorded in traces",
+  "paid_api_calls": 0,
+  "targeted": {
+    "command": "python -m pytest -q tests/test_e6_1_native_adapter_validation.py",
+    "collected": 5,
+    "passed": 5,
+    "failed": 0
+  }
+}

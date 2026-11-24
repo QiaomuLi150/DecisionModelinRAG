@@ -1,0 +1,14 @@
+{
+  "policy": "jina_two_stage_matched",
+  "order_id": "reversed",
+  "n_requests": 2667,
+  "valid": 2667,
+  "failures": 0,
+  "failure_classes": {},
+  "load_ms": 18968.766265548766,
+  "elapsed_s": 962.1280711516738,
+  "raw_sha256": "b3ee23a80d9fbf4d5eaeee067e8ea898cc84eca83a5f946d8024ce5fbb605be4",
+  "labels_joined": false,
+  "gpu_index_requested": 7,
+  "model_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc"
+}

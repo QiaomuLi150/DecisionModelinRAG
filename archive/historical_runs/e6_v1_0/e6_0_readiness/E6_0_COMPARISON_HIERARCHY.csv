@@ -1,0 +1,4 @@
+rank,comparison,endpoint,population,status
+1,PPLX minus Jina,set-aware CSSR-U if eligible,source-disjoint exploratory,historical anchor
+2,Liquid/StartLux/Amos minus Jina,same eligible endpoint or amended graded endpoint,same frozen candidate views,conditional on native contract
+3,Qwen/BGE controls,"same endpoint, native score",same frozen candidate views,conditional CAL validation

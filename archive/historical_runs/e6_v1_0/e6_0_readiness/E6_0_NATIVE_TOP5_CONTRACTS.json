@@ -1,0 +1,93 @@
+{
+  "contracts": [
+    {
+      "candidate_cap": "freeze before E6-1",
+      "candidate_count": 20,
+      "no_inference_in_e6_0": true,
+      "output_count": 5,
+      "policy": "pplx_decider",
+      "question_cap": "freeze before E6-1",
+      "score_direction": "descending after native contract validation",
+      "tie_break": "original candidate order then canonical ID",
+      "validation_status": "ADMITTED_HISTORICAL_ANCHOR"
+    },
+    {
+      "candidate_cap": "freeze before E6-1",
+      "candidate_count": 20,
+      "no_inference_in_e6_0": true,
+      "output_count": 5,
+      "policy": "liquid_d1_3b",
+      "question_cap": "freeze before E6-1",
+      "score_direction": "descending after native contract validation",
+      "tie_break": "original candidate order then canonical ID",
+      "validation_status": "ADMITTED_WITH_CONTRACT_SCOPE"
+    },
+    {
+      "candidate_cap": "freeze before E6-1",
+      "candidate_count": 20,
+      "no_inference_in_e6_0": true,
+      "output_count": 5,
+      "policy": "startlux_decision_4b",
+      "question_cap": "freeze before E6-1",
+      "score_direction": "descending after native contract validation",
+      "tie_break": "original candidate order then canonical ID",
+      "validation_status": "CONDITIONAL_NATIVE_TOP5_VALIDATION_REQUIRED"
+    },
+    {
+      "candidate_cap": "freeze before E6-1",
+      "candidate_count": 20,
+      "no_inference_in_e6_0": true,
+      "output_count": 5,
+      "policy": "amos_1_small_2b",
+      "question_cap": "freeze before E6-1",
+      "score_direction": "descending after native contract validation",
+      "tie_break": "original candidate order then canonical ID",
+      "validation_status": "CONDITIONAL_NATIVE_TOP5_VALIDATION_REQUIRED"
+    },
+    {
+      "candidate_cap": "freeze before E6-1",
+      "candidate_count": 20,
+      "no_inference_in_e6_0": true,
+      "output_count": 5,
+      "policy": "jina35",
+      "question_cap": "freeze before E6-1",
+      "score_direction": "descending after native contract validation",
+      "tie_break": "original candidate order then canonical ID",
+      "validation_status": "ADMITTED_HISTORICAL_ANCHOR"
+    },
+    {
+      "candidate_cap": "freeze before E6-1",
+      "candidate_count": 20,
+      "no_inference_in_e6_0": true,
+      "output_count": 5,
+      "policy": "qwen3_reranker_4b",
+      "question_cap": "freeze before E6-1",
+      "score_direction": "descending after native contract validation",
+      "tie_break": "original candidate order then canonical ID",
+      "validation_status": "CONDITIONAL_CAL_CONTRACT_VALIDATION"
+    },
+    {
+      "candidate_cap": "freeze before E6-1",
+      "candidate_count": 20,
+      "no_inference_in_e6_0": true,
+      "output_count": 5,
+      "policy": "bge_reranker_v2_m3",
+      "question_cap": "freeze before E6-1",
+      "score_direction": "descending after native contract validation",
+      "tie_break": "original candidate order then canonical ID",
+      "validation_status": "CONDITIONAL_CAL_CONTRACT_VALIDATION"
+    },
+    {
+      "candidate_cap": "freeze before E6-1",
+      "candidate_count": 20,
+      "no_inference_in_e6_0": true,
+      "output_count": 5,
+      "policy": "qwen3_reranker_0_6b",
+      "question_cap": "freeze before E6-1",
+      "score_direction": "descending after native contract validation",
+      "tie_break": "original candidate order then canonical ID",
+      "validation_status": "CONDITIONAL_CAL_CONTRACT_VALIDATION"
+    }
+  ],
+  "schema": "E6-0-NATIVE-TOP5-CONTRACTS-V1"
+}

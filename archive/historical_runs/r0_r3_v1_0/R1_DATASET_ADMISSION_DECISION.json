@@ -1,0 +1,39 @@
+{
+  "candidate_cohort_hash": null,
+  "candidate_order": [
+    {
+      "dataset": "CRAG_Task3",
+      "decision": "REJECT_FOR_INDEPENDENT_VALIDATION",
+      "existing_admission_counts": {
+        "cohort_used": 300,
+        "metadata_url_components": 665,
+        "records": 2706,
+        "validation_answer_scorable_20_candidate": 1362
+      },
+      "reasons": [
+        "existing E11-V admission inspected all 2,706 records and 1,362 answer-scorable validation records for candidate/readiness metadata",
+        "the only completed reader cohort is the already exposed 300-question development cohort",
+        "the release supplies answer/reference strings but no passage-level qrels or independently verified support annotations",
+        "source components are URL-overlap metadata components, not an attested independent source-document partition",
+        "split semantics for a fresh protected-independent population are not established by retained local artifacts"
+      ]
+    },
+    {
+      "dataset": "KILT-NQ",
+      "decision": "REJECT_NOT_AVAILABLE",
+      "reasons": [
+        "no authenticated local KILT-NQ revision or label manifest is present",
+        "no permitted retrieved-passage-ID corpus/candidate contract is present",
+        "no supported frozen retriever/index is available without a new retrieval/indexing campaign"
+      ]
+    }
+  ],
+  "gate": "R1_NO_ADMISSIBLE_POPULATION",
+  "model_inference_authorized": false,
+  "model_inference_calls": 0,
+  "protected_holdout_opened": false,
+  "reader_calls": 0,
+  "sampling_seed": null,
+  "status": "BLOCKED",
+  "stop_rule": "R2 is skipped because no population meets independent-admission requirements."
+}

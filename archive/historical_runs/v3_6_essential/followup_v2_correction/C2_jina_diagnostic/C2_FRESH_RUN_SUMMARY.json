@@ -1,0 +1,27 @@
+{
+  "cause_note": "Fresh-run disagreement identifies output instability only; this trace does not identify whether padding, dtype, batching or truncation caused it.",
+  "fresh_both_valid_n": 1380,
+  "fresh_list_differences_n": 0,
+  "fresh_list_equal_n": 1384,
+  "fresh_list_equal_rate": 1.0,
+  "fresh_ndcg_mean_run1": 0.17687529971635774,
+  "fresh_ndcg_mean_run2": 0.17687529971635774,
+  "fresh_ndcg_spread_max": 0.0,
+  "fresh_set_equal_n": 1384,
+  "fresh_set_equal_rate": 1.0,
+  "frozen_vs_corrected_summary": {
+    "first20_path": "results/v3_6_essential/followup_v2_correction/C2_jina_diagnostic/first20_differences.jsonl",
+    "fresh_replicates": "PENDING_NATIVE_RUN",
+    "list_difference_n": 254,
+    "list_equal_n": 1130,
+    "n_queries": 1384,
+    "note": "Causes are evidence-bounded; a raw score difference alone does not identify dtype, padding, batch or truncation as the cause.",
+    "set_difference_n": 104,
+    "set_equal_n": 1280,
+    "status": "PASS"
+  },
+  "n_queries": 1384,
+  "run1_valid": 1380,
+  "run2_valid": 1380,
+  "status": "PASS"
+}

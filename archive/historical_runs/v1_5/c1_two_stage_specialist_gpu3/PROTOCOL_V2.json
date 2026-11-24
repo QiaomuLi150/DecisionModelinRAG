@@ -1,0 +1,56 @@
+{
+  "experiment_id": "v1_5_c1_two_stage_specialist_gpu3",
+  "protocol_version": "decisionrag-v1.5-c1-v2",
+  "status": "FROZEN_PRE_OUTCOME",
+  "execution_device": 3,
+  "source_population": {
+    "bright_top20": "results/non_jev/v2/e9_bright_v1_0/01_retrieval/BRIGHT_FROZEN_TOP20_SLATES.jsonl",
+    "bright_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+    "budget_manifest": "results/non_jev/v2/e11_v1_0/01_budget_policy/E11_A_FROZEN_INPUT_AND_TOKEN_MANIFEST.jsonl",
+    "budget_manifest_sha256": "c8d9299711a0c64b94ccd139e4f6329dc8779eb267f534b90c085e3d2d3f9a94",
+    "n_queries": 1384,
+    "candidate_count": 20,
+    "orders": [
+      "original",
+      "reversed",
+      "perm_seed_1",
+      "perm_seed_2",
+      "perm_seed_3",
+      "perm_seed_4",
+      "perm_seed_5"
+    ],
+    "permutation_manifest_sha256": "75ee9bf7ab05ef9e2916dd334d3d5227cb7e038ed2061c2f4aca390f0f271255"
+  },
+  "models": {
+    "jina_v3_5": {
+      "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+      "native_contract": "listwise rerank with index-preserving scores"
+    }
+  },
+  "policies": {
+    "jina_two_stage_full": "two 10-candidate stage-1 windows, retain native Top-5 from each, then native Jina stage-2 over ten survivors",
+    "jina_two_stage_pplxtext": "same windows and survivor rule, using the frozen E11 per-passage budget strings for both stages",
+    "jina_pplx_budget": "one native Jina call over the frozen E11 budgeted 20-candidate view"
+  },
+  "survivor_order_rule": "stage-1 survivors are concatenated window-one then window-two, each in descending native score with stable original-position tie-breaking; stage-2 receives that ten-item order",
+  "labels_joined_before_inference": false,
+  "failure_rule": "any failed native call fails the request; failed requests remain in raw output and receive offline metric zero",
+  "timed_boundary": "view preparation + native scoring + score parsing + candidate-ID mapping + Top-5 packaging",
+  "analysis": {
+    "metric": "known-positive nDCG@5 normalized by min(gold_count, 5), failure=0",
+    "holm_family": [
+      "pplx_two_stage - jina_two_stage_full on original order",
+      "pplx_two_stage - jina_two_stage_full on mean shuffled order",
+      "pplx_two_stage - jina_two_stage_pplxtext on original order",
+      "jina_two_stage_full - jina_full on original order"
+    ],
+    "bootstrap_seed": 731,
+    "bootstrap_draws": 40000,
+    "determinism_recheck": "20 random non-timing requests after the timing workload"
+  },
+  "historical_reuse": {
+    "pplx_two_stage": "authenticated R3 raw outputs reused; no PPLX re-inference unless the raw reuse integrity check fails",
+    "original_jina_full": "authenticated original native outputs reused for offline comparison",
+    "new_calls": "Jina policies in this continuation namespace"
+  }
+}

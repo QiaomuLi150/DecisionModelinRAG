@@ -1,0 +1,9 @@
+{
+  "labels_joined": false,
+  "policy": "pplx_two_stage_8192",
+  "rows": 1384,
+  "sha256": "97e1aab380e5e817f0ef046ae969336fd7cf42ae49aac273b9f7861b23030504",
+  "source": "results/v1_3/r3_multipass/multipass_raw_start0_n462.jsonl",
+  "status": "PASS",
+  "verified_input_hashes": 1384
+}

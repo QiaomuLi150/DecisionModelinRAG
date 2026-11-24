@@ -1,0 +1,47 @@
+{
+  "gpu_id": 5,
+  "measurement_boundary": "per-request complete selector from wrapper input preparation through native scoring, Top-5 sorting and packaging",
+  "policies": [
+    {
+      "assigned_n": 200,
+      "failure_n": 0,
+      "p50_ms": 1320.0852405,
+      "p50_native_score_ms": 1320.0631495,
+      "p50_pack_ms": 0.017172,
+      "p50_prep_ms": 0.002184,
+      "p95_le_1s": false,
+      "p95_le_3s": true,
+      "p95_ms": 1616.62286185,
+      "p95_native_score_ms": 1616.60008085,
+      "p95_pack_ms": 0.02572914999999998,
+      "p95_prep_ms": 0.0026269999999999996,
+      "peak_memory_allocated_max_bytes": 53188925952,
+      "peak_memory_reserved_max_bytes": 54509174784,
+      "physical_forward_calls": 200,
+      "policy": "pplx_decider",
+      "status": "MEASURED",
+      "valid_n": 200
+    },
+    {
+      "assigned_n": 200,
+      "failure_n": 0,
+      "p50_ms": 62.2448475,
+      "p50_native_score_ms": 62.2279955,
+      "p50_pack_ms": 0.013105,
+      "p50_prep_ms": 0.002294,
+      "p95_le_1s": true,
+      "p95_le_3s": true,
+      "p95_ms": 88.79032159999997,
+      "p95_native_score_ms": 88.77296444999999,
+      "p95_pack_ms": 0.015653049999999995,
+      "p95_prep_ms": 0.0027654999999999997,
+      "peak_memory_allocated_max_bytes": 1551129600,
+      "peak_memory_reserved_max_bytes": 1769996288,
+      "physical_forward_calls": 200,
+      "policy": "jina35",
+      "status": "MEASURED",
+      "valid_n": 200
+    }
+  ],
+  "same_gpu": true
+}

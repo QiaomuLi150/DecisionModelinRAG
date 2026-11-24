@@ -1,0 +1,17 @@
+evidence_cell,answer_transition,n,denominator,interpretation
+BOTH_COMPLETE,PPLX_BETTER,2,250,reference-answer proxy; no causal or factual claim
+BOTH_COMPLETE,EQUAL_PROXY,82,250,reference-answer proxy; no causal or factual claim
+BOTH_COMPLETE,JINA_BETTER,2,250,reference-answer proxy; no causal or factual claim
+BOTH_COMPLETE,ABSTAIN_OR_MISSING,0,250,reference-answer proxy; no causal or factual claim
+PPLX_ONLY,PPLX_BETTER,1,250,reference-answer proxy; no causal or factual claim
+PPLX_ONLY,EQUAL_PROXY,26,250,reference-answer proxy; no causal or factual claim
+PPLX_ONLY,JINA_BETTER,0,250,reference-answer proxy; no causal or factual claim
+PPLX_ONLY,ABSTAIN_OR_MISSING,0,250,reference-answer proxy; no causal or factual claim
+JINA_ONLY,PPLX_BETTER,1,250,reference-answer proxy; no causal or factual claim
+JINA_ONLY,EQUAL_PROXY,27,250,reference-answer proxy; no causal or factual claim
+JINA_ONLY,JINA_BETTER,4,250,reference-answer proxy; no causal or factual claim
+JINA_ONLY,ABSTAIN_OR_MISSING,0,250,reference-answer proxy; no causal or factual claim
+NEITHER_COMPLETE,PPLX_BETTER,3,250,reference-answer proxy; no causal or factual claim
+NEITHER_COMPLETE,EQUAL_PROXY,98,250,reference-answer proxy; no causal or factual claim
+NEITHER_COMPLETE,JINA_BETTER,4,250,reference-answer proxy; no causal or factual claim
+NEITHER_COMPLETE,ABSTAIN_OR_MISSING,0,250,reference-answer proxy; no causal or factual claim

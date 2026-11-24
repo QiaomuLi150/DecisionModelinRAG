@@ -1,0 +1,53 @@
+cohort,dataset,population,cell,count,denominator,share,metric_semantics
+track_a,hotpot,unconditional_eligible,BOTH_COMPLETE,564,800,0.705,all-required-supporting-documents-in-Top-5
+track_a,hotpot,unconditional_eligible,PPLX_ONLY_COMPLETE,6,800,0.0075,all-required-supporting-documents-in-Top-5
+track_a,hotpot,unconditional_eligible,JINA_ONLY_COMPLETE,18,800,0.0225,all-required-supporting-documents-in-Top-5
+track_a,hotpot,unconditional_eligible,NEITHER_COMPLETE,212,800,0.265,all-required-supporting-documents-in-Top-5
+track_a,hotpot,retrieval_conditional,BOTH_COMPLETE,564,598,0.9431438127090301,all-required-supporting-documents-in-Top-5
+track_a,hotpot,retrieval_conditional,PPLX_ONLY_COMPLETE,6,598,0.010033444816053512,all-required-supporting-documents-in-Top-5
+track_a,hotpot,retrieval_conditional,JINA_ONLY_COMPLETE,18,598,0.030100334448160536,all-required-supporting-documents-in-Top-5
+track_a,hotpot,retrieval_conditional,NEITHER_COMPLETE,10,598,0.016722408026755852,all-required-supporting-documents-in-Top-5
+track_a,musique,unconditional_eligible,BOTH_COMPLETE,355,2167,0.16382095062298108,all-required-supporting-documents-in-Top-5
+track_a,musique,unconditional_eligible,PPLX_ONLY_COMPLETE,54,2167,0.024919243193354867,all-required-supporting-documents-in-Top-5
+track_a,musique,unconditional_eligible,JINA_ONLY_COMPLETE,78,2167,0.03599446239040148,all-required-supporting-documents-in-Top-5
+track_a,musique,unconditional_eligible,NEITHER_COMPLETE,1680,2167,0.7752653437932626,all-required-supporting-documents-in-Top-5
+track_a,musique,retrieval_conditional,BOTH_COMPLETE,355,555,0.6396396396396397,all-required-supporting-documents-in-Top-5
+track_a,musique,retrieval_conditional,PPLX_ONLY_COMPLETE,54,555,0.0972972972972973,all-required-supporting-documents-in-Top-5
+track_a,musique,retrieval_conditional,JINA_ONLY_COMPLETE,78,555,0.14054054054054055,all-required-supporting-documents-in-Top-5
+track_a,musique,retrieval_conditional,NEITHER_COMPLETE,68,555,0.12252252252252252,all-required-supporting-documents-in-Top-5
+track_a,wiki2,unconditional_eligible,BOTH_COMPLETE,303,800,0.37875,all-required-supporting-documents-in-Top-5
+track_a,wiki2,unconditional_eligible,PPLX_ONLY_COMPLETE,26,800,0.0325,all-required-supporting-documents-in-Top-5
+track_a,wiki2,unconditional_eligible,JINA_ONLY_COMPLETE,5,800,0.00625,all-required-supporting-documents-in-Top-5
+track_a,wiki2,unconditional_eligible,NEITHER_COMPLETE,466,800,0.5825,all-required-supporting-documents-in-Top-5
+track_a,wiki2,retrieval_conditional,BOTH_COMPLETE,303,337,0.8991097922848664,all-required-supporting-documents-in-Top-5
+track_a,wiki2,retrieval_conditional,PPLX_ONLY_COMPLETE,26,337,0.0771513353115727,all-required-supporting-documents-in-Top-5
+track_a,wiki2,retrieval_conditional,JINA_ONLY_COMPLETE,5,337,0.01483679525222552,all-required-supporting-documents-in-Top-5
+track_a,wiki2,retrieval_conditional,NEITHER_COMPLETE,3,337,0.008902077151335312,all-required-supporting-documents-in-Top-5
+track_b,enterprise,unconditional_eligible,BOTH_COMPLETE,257,443,0.5801354401805869,all-required-supporting-documents-in-Top-5
+track_b,enterprise,unconditional_eligible,PPLX_ONLY_COMPLETE,47,443,0.10609480812641084,all-required-supporting-documents-in-Top-5
+track_b,enterprise,unconditional_eligible,JINA_ONLY_COMPLETE,6,443,0.013544018058690745,all-required-supporting-documents-in-Top-5
+track_b,enterprise,unconditional_eligible,NEITHER_COMPLETE,133,443,0.3002257336343115,all-required-supporting-documents-in-Top-5
+track_b,enterprise,retrieval_conditional,BOTH_COMPLETE,257,330,0.7787878787878788,all-required-supporting-documents-in-Top-5
+track_b,enterprise,retrieval_conditional,PPLX_ONLY_COMPLETE,47,330,0.14242424242424243,all-required-supporting-documents-in-Top-5
+track_b,enterprise,retrieval_conditional,JINA_ONLY_COMPLETE,6,330,0.01818181818181818,all-required-supporting-documents-in-Top-5
+track_b,enterprise,retrieval_conditional,NEITHER_COMPLETE,20,330,0.06060606060606061,all-required-supporting-documents-in-Top-5
+track_a,__pooled__,unconditional_eligible,BOTH_COMPLETE,1222,3767,0.32439607114414654,pooled query estimate
+track_a,__pooled__,unconditional_eligible,PPLX_ONLY_COMPLETE,86,3767,0.022829838067427662,pooled query estimate
+track_a,__pooled__,unconditional_eligible,JINA_ONLY_COMPLETE,101,3767,0.02681178656756039,pooled query estimate
+track_a,__pooled__,unconditional_eligible,NEITHER_COMPLETE,2358,3767,0.6259623042208654,pooled query estimate
+track_a,__equal_dataset_macro__,unconditional_eligible,BOTH_COMPLETE,NOT_APPLICABLE,3 datasets,0.41585698354099365,equal-dataset macro of cell shares
+track_a,__equal_dataset_macro__,unconditional_eligible,PPLX_ONLY_COMPLETE,NOT_APPLICABLE,3 datasets,0.02163974773111829,equal-dataset macro of cell shares
+track_a,__equal_dataset_macro__,unconditional_eligible,JINA_ONLY_COMPLETE,NOT_APPLICABLE,3 datasets,0.02158148746346716,equal-dataset macro of cell shares
+track_a,__equal_dataset_macro__,unconditional_eligible,NEITHER_COMPLETE,NOT_APPLICABLE,3 datasets,0.5409217812644209,equal-dataset macro of cell shares
+track_a,__pooled__,retrieval_conditional,BOTH_COMPLETE,1222,1490,0.8201342281879195,pooled query estimate
+track_a,__pooled__,retrieval_conditional,PPLX_ONLY_COMPLETE,86,1490,0.05771812080536913,pooled query estimate
+track_a,__pooled__,retrieval_conditional,JINA_ONLY_COMPLETE,101,1490,0.06778523489932886,pooled query estimate
+track_a,__pooled__,retrieval_conditional,NEITHER_COMPLETE,81,1490,0.05436241610738255,pooled query estimate
+track_a,__equal_dataset_macro__,retrieval_conditional,BOTH_COMPLETE,NOT_APPLICABLE,3 datasets,0.8272977482111787,equal-dataset macro of cell shares
+track_a,__equal_dataset_macro__,retrieval_conditional,PPLX_ONLY_COMPLETE,NOT_APPLICABLE,3 datasets,0.06149402580830784,equal-dataset macro of cell shares
+track_a,__equal_dataset_macro__,retrieval_conditional,JINA_ONLY_COMPLETE,NOT_APPLICABLE,3 datasets,0.061825890080308865,equal-dataset macro of cell shares
+track_a,__equal_dataset_macro__,retrieval_conditional,NEITHER_COMPLETE,NOT_APPLICABLE,3 datasets,0.04938233590020456,equal-dataset macro of cell shares
+track_b,enterprise,all_500_manifest,BOTH_COMPLETE,257,500,0.514,coverage diagnostic; identity-ineligible rows structurally neither
+track_b,enterprise,all_500_manifest,PPLX_ONLY_COMPLETE,47,500,0.094,coverage diagnostic; identity-ineligible rows structurally neither
+track_b,enterprise,all_500_manifest,JINA_ONLY_COMPLETE,6,500,0.012,coverage diagnostic; identity-ineligible rows structurally neither
+track_b,enterprise,all_500_manifest,NEITHER_COMPLETE,190,500,0.38,coverage diagnostic; identity-ineligible rows structurally neither

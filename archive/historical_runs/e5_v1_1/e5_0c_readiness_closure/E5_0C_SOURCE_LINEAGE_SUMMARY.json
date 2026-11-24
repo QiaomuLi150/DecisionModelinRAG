@@ -1,0 +1,554 @@
+{
+  "duplicate_normalized_titles": {},
+  "exact_cross_source_passage_hash_count": 119,
+  "exact_cross_source_passage_hashes": {
+    "0117c6f85b353d914afb93ab909f086bca8a75dcca2cced1bbf6bd50fd9577a3": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "01c9d0b9f4fddcc90a2d29af0a02bacbbfc64f9d1459b72db39d8b2681b589c0": [
+      "qasper:1608.03902",
+      "qasper:1610.01030"
+    ],
+    "02cc020f791cdbd49b1e6761ee41577461874e05441615f9c872ccbb119d2d87": [
+      "qasper:2001.05672",
+      "qasper:2002.08899"
+    ],
+    "05d9f52c2ce713d21baaee2e7d87346d2837066953a1f852ae0b455dbafdb81a": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "0695b563acde461fc2f8d9aebccf35c7596ac458b8d8e067c602fb7b4e5f1578": [
+      "qasper:1909.00015",
+      "qasper:2003.04748"
+    ],
+    "0a179b1a0ad73c42ace92817bd233df54b1bc54862a1c2ae8aa590a9ef7673aa": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "0bfcde1b56d26fabe0f0d61a2402155477ad1793ea7e225643272ffd537b79a4": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "11aad983ac3efc694bc75496a6d8dc58786a95332a1f0e6e6fcb07e4353e4924": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "120d39378c927751a42fc23d516ed96803595d9cf92f226b6c2d5f8c8d0efe58": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "15715d5ca91fe9c1de7947083abca074bb304712ebf119996712abf31472579f": [
+      "qasper:1702.03274",
+      "qasper:1705.01214",
+      "qasper:1805.02400",
+      "qasper:1808.06834"
+    ],
+    "15b76f25592d3149ca9222740f28ded3b64ebb2ff618b879303d5b55abd8c452": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "16ad938f9dce819c5c7aeeb67c8f447da1d5fff7c08020d8aae0926c59cfaefa": [
+      "qasper:1909.00015",
+      "qasper:1909.00153"
+    ],
+    "1765725731c3c1088a04da0cddedd2f32ab529d6ef52babb239dbb2da1bbef22": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "186aa1dfd00b11e5c78efa737150fb232cec86debb06e9f65758a0c28485c70a": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "1889f03338b79bbad8bdcdc925ef5e83069569c17e433174ef9a49f62e7d5ee7": [
+      "qasper:1901.08079",
+      "qasper:1911.06192"
+    ],
+    "18aeccd49b2f24ed5f312540a8a167911d9c79ab5b7914b8339d2290b201fba6": [
+      "qasper:1804.03396",
+      "qasper:1906.03538"
+    ],
+    "18e133440a3f55aaf63c33cad2abfd81b94a2acb938517c6da869d90526d2f42": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "1dcd96e6afd7dcd0a380d68b96a83ff35d0a6d19223524c6bfe059088a03d491": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "1e2133920fb46e2d91fe4683701957c374f29beb0ba6731a65901f7d46036ddc": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "1f7c4aa3d758cd1f5fcd41ea1c92e3de8a924fd561a87fbc5ce4090b43d7cacd": [
+      "qasper:1909.05855",
+      "qasper:2002.01359"
+    ],
+    "204d09bd865ba5fd32f920c6e09b86862016a72142b5ea7e319fc925d8a313ea": [
+      "qasper:1711.06288",
+      "qasper:1908.11365"
+    ],
+    "20ab8e96317497494be0c68939c67df30a7d65a393aa0e778ec47bc9bacd9d76": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "241f73e8641aa7daaafd575717e190ec5b65863cbf79a4463af1ba7c2d9d4917": [
+      "qasper:1805.08241",
+      "qasper:1806.01733",
+      "qasper:1903.07398",
+      "qasper:1907.08937"
+    ],
+    "26fe2b896b13afdd1a30b9eb1ba19a94a9c3d19690658664b74259bf0aa5d66b": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "2a8cbd075a36c54e845e09e26de107837aee337843deb58d43e35b16d7f00c7e": [
+      "qasper:1704.08424",
+      "qasper:1706.00139",
+      "qasper:1803.09745",
+      "qasper:1812.10479",
+      "qasper:1905.06512"
+    ],
+    "2b457d679058510a32da5875dddc3d598d75c435f17afefa5b8575018822a895": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "2f13ae1b912b56c2978919ebc3e1f8ae104568924f497b087d04a8db9168b1fe": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "2fc46744e2346972d6974a880547326773b1dd5fc11f40b8378af14665662767": [
+      "qasper:1804.10686",
+      "qasper:1910.06592"
+    ],
+    "31fda7feaeb0b025eeb5796de32f43c37e99dc12ab16cb3dc51039a715788a12": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "331921b8315f1bb64894e41d726fa6cdb216bbe13d4e21b7417b97e817a1d151": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "36b222e18e182b45ba0c847491c38d43b57ca22c5ea624013628bbe899f93106": [
+      "qasper:1701.06538",
+      "qasper:1911.06118"
+    ],
+    "373fc9f3a8fc53b78535d7740d5b81b0862394da10204139add2a8639bfe0efa": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "38de8806b910cdc047694d72396522ea3a00f672a4359328ba07f335ba26f5bd": [
+      "qasper:1708.06185",
+      "qasper:1801.10293",
+      "qasper:1901.03859",
+      "qasper:1907.06292",
+      "qasper:1909.01247",
+      "qasper:2003.06651"
+    ],
+    "3d277947c0e3e6415d1dce8bc25445859bc86e0ae4b221be9595db3288cc450d": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "42d9d250102688de60f2f9a1238e282ba40aa8eaf9b2b3c4483783e9fad0d8b3": [
+      "qasper:1704.04539",
+      "qasper:1909.00326"
+    ],
+    "44a3509b29cb0b1deb2f6bed2cb645c317c6e0bab6be17ecfa9bc6d0d5da7442": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "4823f46cd0ac61d6539c72dd159c55c0649ed97784bf12f42f0ac2945c3168d7": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "48a4ef5e1abff15e99e6cea740482587b6df9ae8be68b377b332041fbe491674": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "4c2d88fa5e8e49560b1f2121f3c2a1fdd01bfc0810d55758261e84fa89a1c9f2": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "54f76e948a465477b828386719c173e8e8e428b86cd6fef2ac4576d884d91593": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "581ec5a0b06652f65d59f2b6217fb2eca4dbda74f90163964515f26536aa80cb": [
+      "qasper:1811.04604",
+      "qasper:1907.11499"
+    ],
+    "5d8a4c54e8893dcdc601d669610645b6b0e0e2fa018e86cba8ffc867957a1a3e": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "5d924355934e38443a5631dc0cb0b7e40fd9e67c52d56a84aba39279dca517de": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "6201111b83a0cb5b0922cb37cc442b9a40e24e3b1ce100a4bb204f4c63fd2ac0": [
+      "qasper:1601.01705",
+      "qasper:1909.00015",
+      "qasper:1910.04269",
+      "qasper:1911.03350",
+      "qasper:2002.01320",
+      "qasper:2002.03438"
+    ],
+    "652a98beb06ec760d1f85b86d1bf79e9aacaef40869bf8fa9e5b0f1297ae7fb2": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "6abf0b55fcf1aff8cc03c3dd7e815662710e344f768322144759190c41a33b8f": [
+      "qasper:1612.05310",
+      "qasper:1704.02385"
+    ],
+    "6c76dcbe9d730ad1811af681eca15af4cf1b5793a8ebd953e03803b00dec614c": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "6d21b380e1e5bf3cfdbf0713f808298f80a29e8c4552453387faafcf2ceefb2c": [
+      "qasper:1602.06291",
+      "qasper:1608.04917",
+      "qasper:1706.08198",
+      "qasper:1711.05568"
+    ],
+    "711868c7b20898c39d4c9350ff7cc4bd7502ce58f667a768faa23794b800319f": [
+      "qasper:1604.00400",
+      "qasper:1808.10113",
+      "qasper:1811.00266"
+    ],
+    "7132945767f8f18defa4417bbb135fe52922b50a976f13e9f2d7b433f5e57ea4": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "714675bbf3258fc3a1c91106f45bc88fdc400b16cb10f9c60a6fd0d6f4ad926f": [
+      "qasper:2003.01006",
+      "qasper:2003.06651",
+      "qasper:2003.08132"
+    ],
+    "71aa5e6ea014db409b04dc99d04b326577a4dca809ae98e0e21dc3e52eca3888": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "727c18322b9304d6ef3056f4eeda80349335e2b478c720e1c63cc4cba281349a": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "796d7f1fb7b6684103fa656a46f0881c8761d54998f2e40b22a176091d83181d": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "7ae852ff2b49eba5779ec9658ecce5f36130b0fa274f30bc5c346be1a793a4f4": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "7ba39f30701902df44b5c7bfb5cbf4a6da91bcbd4e6acc9c0600a352e7d8a36c": [
+      "qasper:1702.03274",
+      "qasper:1808.06834"
+    ],
+    "80358bf8a58621360226f8f0eddac8cd3361a2409d42affaab5712f2cffbc732": [
+      "qasper:1603.01514",
+      "qasper:1608.04917",
+      "qasper:1611.02550",
+      "qasper:1705.07368",
+      "qasper:1707.03764",
+      "qasper:1710.01492",
+      "qasper:1807.03367",
+      "qasper:1808.09111",
+      "qasper:1901.08079",
+      "qasper:1903.11437",
+      "qasper:1906.10225",
+      "qasper:1908.08419"
+    ],
+    "822428aceee347b2db4077f5689029197aed3697bd208fbf9a350558dd761028": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "8281f41bfdb98c3fedbe09dcafc7eef2a7ffe4b8ae0da982a8e1da47df8af4ec": [
+      "qasper:2003.01006",
+      "qasper:2003.06651",
+      "qasper:2003.08132"
+    ],
+    "84b25fd6db39cda0c7c7703950e3b99e57cc10b570b484e9cac82200e7b5547b": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "84ed3f1a57a6d14fabcc11d51407f742bc65ec93ad13aafa9e38b9ff9bab7581": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e": [
+      "qasper:1702.03274",
+      "qasper:1912.08320"
+    ],
+    "8932cf3a05e499def0f13ef834c59051b796e94d97e618a14db3c591b2927ba5": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "895ba7cbe8f4922daabece29861d4ef304a6eee2cd10b938552d51cacb01ca76": [
+      "qasper:1808.08850",
+      "qasper:1905.12801"
+    ],
+    "8ed91cd1a6701b28e8f38bc7a8800389ceeb07a52ef02bc97f0364de336356d2": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "90b849c84daa1f21ad3dba5e35585276e18358965b7db30b43c3c6071ea84fee": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "9658e459178f34d282064bbf4ebbadb3acdeed6a1059af6543e5a28acbd6fab4": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "97fb9e7c4c1a1a8261033c84a9512c291401054cfc395e8e1fa3a1d9bc04d123": [
+      "qasper:1612.05310",
+      "qasper:1704.02385",
+      "qasper:1711.06351"
+    ],
+    "9aec77bfe065200b6ce98376dc4c8dc989bcf70a17d3cd6523b9cce1a4748642": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "9d2d3f0d306515df5c5abdbcb8720c66710c5f712f646da6d25c4c684ed76bcd": [
+      "qasper:1807.03367",
+      "qasper:1901.08079",
+      "qasper:1908.08419"
+    ],
+    "9e420a6718012366c2ddb2984570867f1bdc8d85d953d269f1155b256d99053f": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "9e728ce526e668881c7ab7783139e0f91cfe29314b9627e96a0baf5463265b94": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "9fb41f4424005bfb3c092b9cfa8ad24abc3b085c4fe22b48201c926b7fff3249": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "a0ac287781666e66c2b33cad8a9c8246ccbddd7371a6333cc3892902f0ce293a": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "a10e6386b691a6f41f0954e9e0256d705c1fea2095bb17dd53ec933c45fd422e": [
+      "qasper:1901.01010",
+      "qasper:1904.03288",
+      "qasper:1911.03385"
+    ],
+    "a5f91c718efe2c041e0e3f97261371d1a372acbc9480d763d2e974e769641045": [
+      "qasper:1603.01514",
+      "qasper:1611.02550",
+      "qasper:1707.06945",
+      "qasper:1804.08782",
+      "qasper:1807.07279",
+      "qasper:1808.09111",
+      "qasper:1905.09866",
+      "qasper:1906.03338",
+      "qasper:1907.00455"
+    ],
+    "b09cbef3eb9a31c92b432419941c86cf54ac2b774172ad8706f29b9faf18f891": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "b48111c10c65fc119368edafb19f97451759ee90b3f44647368135ca47aa4753": [
+      "qasper:1603.01987",
+      "qasper:1804.08782",
+      "qasper:1908.05969",
+      "qasper:1910.11204",
+      "qasper:1911.03154",
+      "qasper:1911.03270",
+      "qasper:1911.11750",
+      "qasper:2001.10161",
+      "qasper:2003.04748"
+    ],
+    "b5114de32f53a8ab2ecf175fce13e09eeba609b23f816c2c451b5a2feb23cc6f": [
+      "qasper:1811.04604",
+      "qasper:1909.07593"
+    ],
+    "b5f0997a04fddf590cbe8a870647a40bf895b6e1348b629a3bb3c714f8696eb4": [
+      "qasper:1608.03902",
+      "qasper:1610.01030"
+    ],
+    "b9abd3702ceed42c69ef7d41a48b91280509b1a96bf35c05810f819a19f1fe42": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "bbc53e064ad50b0436e672464119786a3188ef299d4e2f377310066b42b09e73": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "bcec9c704a25c0987551181b744ab60a276d1dea578db7c858fd3a5698ef07bc": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "bd0bbd228e45aaf9ce8433d3a94356361862156e682ca1aa5daf8e605829a1af": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "bddbe4abd8a40bd5f9d57152f14a52e5f0e470a5e9b0c23ad302e3e311cf0fd5": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "be3792ec96fdf2042d3d947cf4ead95fe894082ff01c18f0d416338b353a8c81": [
+      "qasper:1608.06111",
+      "qasper:1712.02121"
+    ],
+    "be7120b160ff556e5498d510da75fa06b7b539ead8c6a9d9d6c5b4f5d1b137e5": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "c131c08372990abbdf1560a36b46041e193efb5b707dc19005f584e96ff290de": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "c36a0cc05c829f05fb5db0952d8a279d707d92999d39a6288ef5508d0d027bc0": [
+      "qasper:1909.05855",
+      "qasper:2002.01359"
+    ],
+    "c4606c7f2456157bf7c4177542a0a74af20c1921308c8594409efdac34e08740": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "c7fce6a60fdd946ce7ce30d6b875601281d37d05e528dca2b5b6f456128d60ae": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "cc02e55efb339637fe8c769af3254f91a2bafa1d8f8e8970171a02ffcb80b935": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "cc7286e3dd0bb9843a3f4bd0257ba09fd2f1c664ea1836f0cab1af475a059773": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8": [
+      "qasper:1611.09441",
+      "qasper:1808.02113",
+      "qasper:1901.03859",
+      "qasper:1908.11279",
+      "qasper:1911.13066"
+    ],
+    "cfae0d4248f7142f7b17f826cd7a519280e312577690e957830d23dcf35a3fff": [
+      "qasper:1705.07368",
+      "qasper:1712.05999"
+    ],
+    "d0c33c7a5ad27f363620b9d1fbc7e8686bcf5d1fdbdca544c2981e8f0b82a823": [
+      "qasper:1706.08198",
+      "qasper:1805.08241",
+      "qasper:1907.00455"
+    ],
+    "d10b36aa74a59bcf4a88185837f658afaf3646eff2bb16c3928d0e9335e945d2": [
+      "qasper:1705.01214",
+      "qasper:1805.02400",
+      "qasper:1808.06834",
+      "qasper:1912.09713"
+    ],
+    "d2609d4ebb60f38cef54132d38036c8c1b5434c33dbc6e3a7ac4c7d615fbe791": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "d2a364f570ef2ca276511029dc91a07af5d25e9abd9510d9f8644681b4acdd83": [
+      "qasper:1803.02839",
+      "qasper:1803.07771",
+      "qasper:1808.08850"
+    ],
+    "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35": [
+      "qasper:1909.00326",
+      "qasper:1909.07512",
+      "qasper:2004.04435"
+    ],
+    "d6366edb193f65672dd402d5826799f17aa051f1c03aed7dae20e44d6c2f5e8f": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "d67a17243cd8299f84ff1f1ce51198acd3be581407ea6190de09ebfa8550cfe9": [
+      "qasper:1612.05310",
+      "qasper:1704.02385"
+    ],
+    "d88c97a543c981b39fb22b5ba078089c9b606a88125f8f223a1f48f6ac7a62d8": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "d8ec322913bfedf212bfd82c6adefbe0c6f9a36fef036fba82e3989e3310fb43": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "dbf4f7faa16653794fbef2158612483e267a0d9a4628ec9572b7b3c4d830d050": [
+      "qasper:1612.05310",
+      "qasper:1704.02385"
+    ],
+    "de36f363cf3293b7fa3a78582eac3ea3d56f71c491fcab20d1317350e911b8b6": [
+      "qasper:1705.01214",
+      "qasper:1808.06834"
+    ],
+    "df3b7532699a2e035be57c61f36fb852f1fe34e7036abfb33f85f70cb179c1c2": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "e93bef37bfab87334e3f4917fd73d53b4965fc7a8871ff49ec8ca1265d04f4fc": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "e9bd8ab2d96f5b646785b68e0316df3e305808e7986494139e73743739dd0774": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "ebabceb9d55b4a98656e8b497636d0008821b28c626e4d2edf339aca61954e2f": [
+      "qasper:1909.03526",
+      "qasper:1909.04181"
+    ],
+    "f1e9d9815711f8c869d4cedae48b4595d70dc408bd180097dde2a8d0d8030303": [
+      "qasper:1909.03582",
+      "qasper:1910.11204",
+      "qasper:2002.01861",
+      "qasper:2003.04032"
+    ],
+    "f36124d1d85543541a804229190515b32f9be5cf6c3e73e7a73b6f38417b467f": [
+      "qasper:1704.02686",
+      "qasper:1909.01383"
+    ],
+    "f3f4890dc0466b70901702b10657acc03dee6ce8291b8902544df7d4298aa760": [
+      "qasper:1603.01514",
+      "qasper:1707.07048",
+      "qasper:1905.10238",
+      "qasper:1909.11687",
+      "qasper:1910.06036",
+      "qasper:1911.05960",
+      "qasper:1912.08904",
+      "qasper:2001.08868",
+      "qasper:2002.01359"
+    ],
+    "f52f940f71d53640f42b83cb5d64bc7ce8685925eea6ba47403c98c8d64cc7fd": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "fbe878206e948de20ed681f936fc88b5a91619b081cdb2062bd1e2a1787de037": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "fc28d9fea624c46e86b30ad3510b10d00f362d3374aa78e3ffd0b53afd1ed5a9": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "fc8a8f6550de56172ca7df31c8af343d2740057ca2e513e7d884a055c69455bb": [
+      "qasper:1902.09393",
+      "qasper:1903.00172"
+    ],
+    "fe3d65e526302b22e54f12d46ae5c4b462aafa3b71ecf8db0e7e1bde827aa921": [
+      "qasper:1608.08738",
+      "qasper:2003.01006",
+      "qasper:2003.06651",
+      "qasper:2003.08132"
+    ]
+  },
+  "permitted_source_groups": 876,
+  "permitted_source_ids": 876,
+  "pretraining_exposure": "UNKNOWN",
+  "raw_permitted_papers": 876,
+  "reserved_near_duplicate_disjointness": "RESERVED_NEAR_DUPLICATE_DISJOINTNESS_NOT_INDEPENDENTLY_VERIFIED",
+  "source_id_unique": true
+}

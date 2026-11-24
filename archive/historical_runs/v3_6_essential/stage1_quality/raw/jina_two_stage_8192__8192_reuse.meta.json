@@ -1,0 +1,9 @@
+{
+  "labels_joined": false,
+  "policy": "jina_two_stage_8192",
+  "rows": 1384,
+  "sha256": "491fbd2c77246b6bc316b16c0dfea0159e6a013df5accafef607ff9960fa03fd",
+  "source": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_pplxtext__original.jsonl",
+  "status": "PASS",
+  "verified_input_hashes": 1384
+}

@@ -1,0 +1,51 @@
+{
+  "attempts": 3,
+  "cohort": "C360",
+  "finished_utc": "2026-10-23T20:39:02Z",
+  "gpu_index": 3,
+  "jina_model_load_ms": 1111.332,
+  "labels_joined": false,
+  "model_loads": {},
+  "phase": "jina",
+  "policy_order": [
+    "jina_full",
+    "jina_pplx_budget",
+    "jina_two_stage_pplxwindow"
+  ],
+  "pplx_processor_load_ms": 24192.322,
+  "preflight": {
+    "device_row": [
+      "3",
+      "<REDACTED_GPU_UUID>",
+      "NVIDIA A100-SXM4-80GB",
+      "81920",
+      "6",
+      "81147",
+      "0"
+    ],
+    "gpu_index": 3,
+    "gpu_snapshot": {
+      "command": "nvidia-smi --query-gpu=index,uuid,name,memory.total,memory.used,memory.free,utilization.gpu --format=csv,noheader,nounits",
+      "returncode": 0,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "0, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 16948, 64205, 0\n1, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 15919, 65234, 46\n2, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 6712, 74441, 0\n3, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 6, 81147, 0\n4, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 26859, 54293, 100\n5, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 26855, 54297, 100\n6, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 54459, 26693, 100\n7, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 13327, 67825, 0"
+    },
+    "memory_free_mib": 81147,
+    "model_calls_started": 0,
+    "process_snapshot": {
+      "command": "<GPU_PROCESS_LISTING_OMITTED>",
+      "returncode": 0,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 2432\n<REDACTED_GPU_UUID>, 2978176, <REDACTED_PATH> 4790\n<REDACTED_GPU_UUID>, 699613, <REDACTED_PATH> 4790\n<REDACTED_GPU_UUID>, 862992, <REDACTED_PATH> 4888\n<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 759893, .venv-gifteval/bin/python, 15062\n<REDACTED_GPU_UUID>, 862992, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 2978176, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 755318, <REDACTED_PATH> 5374\n<REDACTED_GPU_UUID>, 862992, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 770394, <REDACTED_PATH> 26846\n<REDACTED_GPU_UUID>, 1388136, <REDACTED_PATH> 26846\n<REDACTED_GPU_UUID>, 1863867, ./Production_Project/MultiModalRAG/venv/bin/python, 54450\n<REDACTED_GPU_UUID>, 4163740, <REDACTED_PATH> 13316"
+    },
+    "resident_process_present": false,
+    "status": "PASS_DEDICATED_GPU_AVAILABLE",
+    "utilization_percent": 0
+  },
+  "raw_sha256": "c3fe6b6b7dd5f493b7ea27a48e111b4ffb9abb11e0c8937d38701f4415859112",
+  "records": 3240,
+  "started_utc": "2026-10-23T20:16:21Z",
+  "status": "PASS"
+}

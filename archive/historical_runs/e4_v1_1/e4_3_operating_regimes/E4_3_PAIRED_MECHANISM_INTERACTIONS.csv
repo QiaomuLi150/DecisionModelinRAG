@@ -1,0 +1,4 @@
+contrast,k,cohort,matched_topk_feasible_n,joint_success,pointwise_success,wins,losses,ties,difference,bootstrap95_low,bootstrap95_high,status,matched_n,D10,D20,interaction
+clef_joint_minus_pointwise,10,representative,206,99,109,24,34,148,-0.04854368932038835,-0.11650485436893204,0.019417475728155338,MEASURED,,,,
+clef_joint_minus_pointwise,20,representative,300,79,92,27,40,233,-0.043333333333333335,-0.1,0.01,MEASURED,,,,
+interaction_D20_minus_D10,10_to_20,representative_K10_feasible,,,,,,,,-0.05825242718446602,0.05825242718446602,MEASURED,206,-0.04854368932038835,-0.04854368932038835,0.0

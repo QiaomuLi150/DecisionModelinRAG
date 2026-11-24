@@ -1,0 +1,9 @@
+model,attempts,successful,failed,failure_rate,latency_p50_ms,latency_p95_ms,input_tokens_total,input_tokens_missing,peak_allocated_mib,peak_reserved_mib,quality_metric_source
+pplx_decider,277,277,0,0.0,1721.988865,1727.696602,0,277,50801.13,52280.0,R2/StartLux repair resource artifacts; no new inference
+liquid_d1_3b,277,277,0,0.0,328.893755,352.3829332,2808271,0,6811.85,8920.0,R2/StartLux repair resource artifacts; no new inference
+startlux_decision_4b,277,277,0,0,775.8067324757576,1373.7464239820838,4141025,0,12094.73,17230.0,R2/StartLux repair resource artifacts; no new inference
+amos_1_small_2b,277,194,83,0.29963898916967513,1957.8583310358226,2379.084634082392,2549765,0,6007.39,12620.0,R2/StartLux repair resource artifacts; no new inference
+jina_v3_5,277,277,0,0.0,217.385127,343.8695444,1856253,0,2323.66,7038.0,R2/StartLux repair resource artifacts; no new inference
+qwen3_reranker_4b,277,277,0,0.0,613.105536,962.7216275999999,2059472,0,11093.21,15602.0,R2/StartLux repair resource artifacts; no new inference
+bge_reranker_v2_m3,277,277,0,0.0,460.695177,668.8252814,2344998,0,2958.46,9212.0,R2/StartLux repair resource artifacts; no new inference
+qwen3_reranker_0_6b,277,277,0,0.0,200.819996,305.2726675999999,2059472,0,3254.17,4330.0,R2/StartLux repair resource artifacts; no new inference

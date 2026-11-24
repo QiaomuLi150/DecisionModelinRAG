@@ -1,0 +1,66 @@
+{
+  "files": {
+    "results/v3_6_essential/frozen_prospective_validation/ARGUANA_FROZEN_TOP20_SLATES.jsonl": {
+      "bytes": 52874883,
+      "sha256": "6d2d94e68117ba91d7887aa93ffd3ba3f872b9b8a6b7d955919e3ef1cb7834ec"
+    },
+    "results/v3_6_essential/frozen_prospective_validation/ARGUANA_QUERY_LENGTHS.jsonl": {
+      "bytes": 403470,
+      "sha256": "73961368118d2cd91f6e7f43bc51add4087011fdfe9ad9abf0e6ab4222ccc03d"
+    },
+    "results/v3_6_essential/frozen_prospective_validation/prepared_L4096.jsonl": {
+      "bytes": 70398718,
+      "sha256": "fe6964379b08afebc1d51260eb7c5ba0c37a764d846c7d6cbd5f2d6cce96a590"
+    },
+    "results/v3_6_essential/frozen_prospective_validation/prepared_L6144.jsonl": {
+      "bytes": 80775504,
+      "sha256": "5c156e956e862327ecb799f87cefec36845d53fce764b32030bbd302cc21356e"
+    },
+    "results/v3_6_essential/frozen_prospective_validation/prepared_L8192.jsonl": {
+      "bytes": 86765900,
+      "sha256": "d2dda03d1336542ac8fb9df719de61fd7eb5f93490511caee5697ec487186052"
+    }
+  },
+  "length_tercile_boundaries_mean_passage_tokens": {
+    "medium_upper": 343.65,
+    "short_upper": 278.1
+  },
+  "length_tercile_counts": {
+    "long": 468,
+    "medium": 469,
+    "short": 469
+  },
+  "prepared": [
+    {
+      "L": 4096,
+      "builder_failure_n": 0,
+      "builder_pass_n": 1406,
+      "max_serialized_tokens": 3968,
+      "mean_serialized_tokens": 3884.066145092461,
+      "n": 1406,
+      "sha256": "fe6964379b08afebc1d51260eb7c5ba0c37a764d846c7d6cbd5f2d6cce96a590"
+    },
+    {
+      "L": 6144,
+      "builder_failure_n": 0,
+      "builder_pass_n": 1406,
+      "max_serialized_tokens": 6014,
+      "mean_serialized_tokens": 5420.099573257468,
+      "n": 1406,
+      "sha256": "5c156e956e862327ecb799f87cefec36845d53fce764b32030bbd302cc21356e"
+    },
+    {
+      "L": 8192,
+      "builder_failure_n": 0,
+      "builder_pass_n": 1406,
+      "max_serialized_tokens": 8061,
+      "mean_serialized_tokens": 6362.77453769559,
+      "n": 1406,
+      "sha256": "d2dda03d1336542ac8fb9df719de61fd7eb5f93490511caee5697ec487186052"
+    }
+  ],
+  "protocol_sha256": "06ea012a3bd555454fe6a498ecada087f6affcb62bcab7915fe37a34d62df92c",
+  "slate_count": 1406,
+  "slate_sha256": "6d2d94e68117ba91d7887aa93ffd3ba3f872b9b8a6b7d955919e3ef1cb7834ec",
+  "status": "PREPARED_BEFORE_INFERENCE"
+}

@@ -1,0 +1,11 @@
+{
+  "cancelled_records": 2,
+  "no_retries": true,
+  "prefix_records": {
+    "./results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_shard0_of2.jsonl.part": 2691,
+    "./results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_shard1_of2.jsonl.part": 2683
+  },
+  "status": "FROZEN",
+  "suffix_path": "results/v3_6_essential/followup_v3_repro_fixes/pplx_suffix/prepared_L6144_L8192_unseen.jsonl",
+  "unseen_suffix_records": 5292
+}

@@ -1,0 +1,16 @@
+{
+  "cost": "NOT_MODELED",
+  "created_utc": "2026-10-15T16:43:43.710617+00:00",
+  "e6_4": "DEFERRED",
+  "e6_f": "LOCKED",
+  "gate": "E6_3_INTEGRATED_RESULTS_READY_WITH_LIMITATIONS",
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "provenance_manifest_sha256": "f482c7d2362380847bfd7b7df89fe4da5989673693ddc50adca2b71d77bd1153",
+  "reader_factual_correctness": "NOT_VERIFIED",
+  "reader_gate": "E6_3_READER_SCORING_COMPLETE",
+  "schema": "E6-3-FINAL-GATE-V1",
+  "scientific_gate": "INTEGRATED_WITH_LIMITATIONS",
+  "serving_gate": "E6_3_MATCHED_SERVING_COMPLETE_WITH_HARDWARE_LIMITS",
+  "sustainable_qps": "NOT_MEASURED"
+}

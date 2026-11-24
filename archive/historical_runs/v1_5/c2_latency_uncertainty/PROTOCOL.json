@@ -1,0 +1,42 @@
+{
+  "experiment_id": "v1_5_c2_latency_uncertainty",
+  "status": "COMPLETE_OFFLINE",
+  "purpose": "Reconcile historical serving traces and quantify policy/Jina latency ratios with CPU-only fallback accounting.",
+  "inference_authorized": false,
+  "population": {
+    "cohort": "frozen BRIGHT serving cohort",
+    "requests": 360,
+    "unique_questions": 120,
+    "attempts_per_question": 3,
+    "top20_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2"
+  },
+  "inputs": {
+    "r1_trace_session": "results/v1_3/r1_serving_gate_v2",
+    "e12_o3_trace_session": "results/non_jev/v2/e12_o_final_v1_0/03_serving/e12o_o3_attempt_01",
+    "liquid_trace": "results/non_jev/v2/reviewer_response_final_v1_1_blocker_resolution/02_LIQUID_SERVING_RAW_ALL_ATTEMPTS.jsonl",
+    "raw_trace_manifest": "export/C2_RAW_TRACE_MANIFEST.json"
+  },
+  "fallback": {
+    "source": "results/non_jev/v2/e9_bright_v1_0/01_retrieval/BRIGHT_FROZEN_TOP20_SLATES.jsonl",
+    "source_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+    "measurement": "CPU list extraction and first-five packaging only",
+    "failure_rule": "timed failed request = recorded elapsed_ms + measured fallback_ms; untimed requests are not imputed"
+  },
+  "uncertainty": {
+    "method": "query-cluster bootstrap",
+    "draws": 10000,
+    "seed": 731,
+    "estimand": "p95 policy latency divided by p95 Jina baseline latency",
+    "bases": [
+      "completed",
+      "all_request_timed"
+    ]
+  },
+  "historical_artifacts_modified": false,
+  "outputs": [
+    "export/latency_perrequest.csv",
+    "export/fallback_cost.csv",
+    "export/latency_policy_summary.csv",
+    "export/latency_ratios.csv"
+  ]
+}

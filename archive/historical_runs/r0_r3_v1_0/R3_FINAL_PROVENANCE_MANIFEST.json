@@ -1,0 +1,115 @@
+{
+  "artifact_count": 21,
+  "artifacts": [
+    {
+      "bytes": 1680367,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R0_AUTHENTICATED_JOINED_RECORDS.jsonl",
+      "sha256": "43edcb3da290a396757992d6af579989a5a7ba4691241db747bc407d55dfee40"
+    },
+    {
+      "bytes": 2317,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R0_CRAG_VALIDITY_AND_SENSITIVITY_REPORT.md",
+      "sha256": "b9fbd867af3216602227e8602d1179e30514950c80053b3404fac78845defe1a"
+    },
+    {
+      "bytes": 10756,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R0_DIAGNOSTIC_COHORT.jsonl",
+      "sha256": "d5698afa8e1fbfaf851059eeb9ed876c6e6a4b35edb13745d2c6752d520bf7a8"
+    },
+    {
+      "bytes": 1263,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R0_GATE.json",
+      "sha256": "a68eedca2c3c6b62109813e04ad75da640773493306ea06b22f69e21dc2a70f9"
+    },
+    {
+      "bytes": 1207,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R0_PPLX_JINA_CONTINGENCY_AND_TRANSITIONS.json",
+      "sha256": "222dafa19d3928eef615d48c1ba61e3f81831deb7deb6615137e4ad36f49f2ef"
+    },
+    {
+      "bytes": 854,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R0_READER_INPUT_CONTRACT_AUDIT.json",
+      "sha256": "dfe5a284cc2dffbad1895ffdc1fed29d839b06aaa6541e4fdb642be30db780a4"
+    },
+    {
+      "bytes": 1146,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R0_REFERENCE_PROXY_SCORECARD.json",
+      "sha256": "d4553f848220a6b70f436baa08befab08e7807bd38d7ffaa8953d24af2fc72f9"
+    },
+    {
+      "bytes": 19040,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R0_SELECTION_DISAGREEMENT_CASEBOOK.jsonl",
+      "sha256": "78e1b1e6b2ca3c50037f69a530e3cf0a9d811893498fb1d36ba8cd2fea0ba4ea"
+    },
+    {
+      "bytes": 979,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R0_SELECTION_OVERLAP_SUMMARY.csv",
+      "sha256": "9b894d63dc30633d433738e2703ea19d1c2f12119b2fe2d121147e4bd1c4208a"
+    },
+    {
+      "bytes": 38438,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R0_SILVER_EVIDENCE_DIAGNOSTICS.jsonl",
+      "sha256": "b7b029806af141f662bde78fe2ddf6685cf9296f66029f60e0212ad7f1629ca8"
+    },
+    {
+      "bytes": 1679,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R1_DATASET_ADMISSION_DECISION.json",
+      "sha256": "a8291be21fc9d5ee20cd5e625d6f4eb31f0cefd40e87b59ef09276f9cd4926b2"
+    },
+    {
+      "bytes": 587,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R1_DATASET_ADMISSION_DECISION.md",
+      "sha256": "86741893655792c7147fa1147bf11713fe273c1d92c1208b9d447ea6aa41edd7"
+    },
+    {
+      "bytes": 825,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R1_PREREGISTRATION_MANIFEST.json",
+      "sha256": "17670cf9fbd442cd25162b63eb07e16de52b4422eefb74c142497f4dfc663466"
+    },
+    {
+      "bytes": 194,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R2_GATE.json",
+      "sha256": "9014b1240544c28a71b903186799f63857c045bd343c90b40e40561acca099f9"
+    },
+    {
+      "bytes": 3011,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R3_AUTHORITATIVE_CLAIMS_EVIDENCE_MATRIX.csv",
+      "sha256": "a26a5969a11af55c5a02a3a83729a67c86fd429d162a93b231b025ce27ccfd78"
+    },
+    {
+      "bytes": 454,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R3_AUTHORITATIVE_RESULTS_LEDGER.json",
+      "sha256": "416621c0bb947ad889e917347ea463a3327ad1337881d5cee4edb352a1094631"
+    },
+    {
+      "bytes": 3948,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R3_FINAL_LOCAL_MODEL_SCIENTIFIC_REPORT.md",
+      "sha256": "2ea91e60cb68edb58fd5e56a7c9047befcff52a0783363da299acba4a2c9e5b9"
+    },
+    {
+      "bytes": 4488,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R3_HISTORICAL_HASH_VERIFICATION.json",
+      "sha256": "effca4483e0156b30e5a21dcd2554895dd2b41d3bc41e734d39639c3e549a43d"
+    },
+    {
+      "bytes": 249,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R3_PAPER_READY_RESULT_TABLES.md",
+      "sha256": "6c3099e9779945eb50a82f4b0037edd89903c850a2d02e1cffbd22aa049e8600"
+    },
+    {
+      "bytes": 514,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R3_RESOURCE_AND_FAILURE_LEDGER.csv",
+      "sha256": "acc1b895f64112d2c53da5416f9dbb5ff0fe5317d62ac2e34a7b670dda7802ad"
+    },
+    {
+      "bytes": 6158,
+      "path": "results/non_jev/v2/r0_r3_v1_0/R3_TEST_AND_INTEGRITY_REPORT.json",
+      "sha256": "c5bd2a9619e73faecaaa4a7f3167686e2616c37e9fef0c9cda1f30c35199a004"
+    }
+  ],
+  "historical_artifacts_modified": false,
+  "jev_calls": 0,
+  "manifest_type": "DecisionRAG_R0_R3_APPEND_ONLY_PROVENANCE",
+  "paid_api_calls": 0,
+  "protected_holdout_opened": false
+}

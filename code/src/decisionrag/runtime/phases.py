@@ -1,0 +1,26 @@
+from __future__ import annotations
+
+from enum import Enum
+
+
+class Phase(str, Enum):
+    M0_AUDIT = "M0_AUDIT"
+    M1_DATASET = "M1_DATASET"
+    M2_RETRIEVAL = "M2_RETRIEVAL"
+    M3_NON_JEV_SELECTORS = "M3_NON_JEV_SELECTORS"
+    M4_NON_JEV_READER = "M4_NON_JEV_READER"
+    M5_NON_JEV_SERVING = "M5_NON_JEV_SERVING"
+    M6_NON_JEV_COMPLETE = "M6_NON_JEV_COMPLETE"
+    JEV_AUTHORIZED = "JEV_AUTHORIZED"
+
+
+NON_JEV_PHASES = {
+    Phase.M0_AUDIT,
+    Phase.M1_DATASET,
+    Phase.M2_RETRIEVAL,
+    Phase.M3_NON_JEV_SELECTORS,
+    Phase.M4_NON_JEV_READER,
+    Phase.M5_NON_JEV_SERVING,
+    Phase.M6_NON_JEV_COMPLETE,
+}
+

@@ -1,0 +1,12 @@
+{
+  "gpu_calls": 0,
+  "inference_calls": 0,
+  "outputs": [
+    "latency_perrequest.csv",
+    "latency_policy_summary.csv",
+    "latency_ratios.csv",
+    "fallback_cost.csv"
+  ],
+  "script": "scripts/v1_5_c2_offline.py",
+  "status": "COMPLETE_OFFLINE"
+}

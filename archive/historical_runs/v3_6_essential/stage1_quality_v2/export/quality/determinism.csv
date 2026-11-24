@@ -1,0 +1,2 @@
+policy,order_id,n_rechecked,n_mismatch,status
+all_new_stage1_policies,original,0,NOT_MEASURED,PENDING_GPU_RECHECK

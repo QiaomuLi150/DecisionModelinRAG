@@ -1,0 +1,129 @@
+{
+  "artifact_index": [
+    {
+      "bytes": 97349,
+      "path": "results/non_jev/v2/e2_n/n2/E2_N_N2_BGE_CAL.jsonl",
+      "sha256": "976a67ca7260224ad9c810b2d36a8f36571312c193032a6b83aa8bcf1ae37574"
+    },
+    {
+      "bytes": 489,
+      "path": "results/non_jev/v2/e2_n/n2/E2_N_N2_BGE_CONFIG.json",
+      "sha256": "1c317c9b04c8f83e1352cc4579194f006fc266bcd82c8e97be8c0072b54c1356"
+    },
+    {
+      "bytes": 500,
+      "path": "results/non_jev/v2/e2_n/n2/E2_N_N2_BGE_CAL_SUMMARY.json",
+      "sha256": "fbbb7f79053c2e408e0b2a1e2a68e99cb75b51cc236841be93bf758d8f02971f"
+    },
+    {
+      "bytes": 268190,
+      "path": "results/non_jev/v2/e2_n/n2/E2_N_N2_CLEF_CAL.jsonl",
+      "sha256": "837ba917c4a4ec6e59adf31dd909e32746d01f54c4466a9a4a81aec5fe5ff3d3"
+    },
+    {
+      "bytes": 576,
+      "path": "results/non_jev/v2/e2_n/n2/E2_N_N2_CLEF_CONFIG.json",
+      "sha256": "97c87edfbf48dc653a2409f6befa430fae8206194370d681d129a0574f1871b3"
+    },
+    {
+      "bytes": 620,
+      "path": "results/non_jev/v2/e2_n/n2/E2_N_N2_CLEF_CAL_SUMMARY.json",
+      "sha256": "110a23562a655792a6b31dd458e826db41ecf6d344d592b126e179d98f020a1f"
+    },
+    {
+      "bytes": 438874,
+      "path": "results/non_jev/v2/e2_n/n2/E2_N_N2_LAYA_CAL.jsonl",
+      "sha256": "a28fa001349ed2022319b54c33b44375dc6c3ba42ac064c03f2f0f008a1290df"
+    },
+    {
+      "bytes": 695,
+      "path": "results/non_jev/v2/e2_n/n2/E2_N_N2_LAYA_CONFIG.json",
+      "sha256": "3337702ac566e1971000e9f650f0ccb70509f11ffd5406deb24cdcbbb51e3513"
+    },
+    {
+      "bytes": 501,
+      "path": "results/non_jev/v2/e2_n/n2/E2_N_N2_LAYA_CAL_SUMMARY.json",
+      "sha256": "1ee4d1157c38e6dec504168216661afba1d1e9102ed4277c24f512596917dcdb"
+    }
+  ],
+  "cal_contract": {
+    "cache_reuse": false,
+    "candidate_count_per_query": 20,
+    "configuration_frozen_before_n3": true,
+    "dataset_counts": {
+      "hotpot": 10,
+      "musique": 10,
+      "wiki2": 10
+    },
+    "seed": 20261011
+  },
+  "created_at_utc": "2026-10-13T02:58:36.570899+00:00",
+  "jev_calls": 0,
+  "models": {
+    "bge": {
+      "actual_model_input_hash_rows": 30,
+      "cache_reuse_rows": 0,
+      "config_path": "results/non_jev/v2/e2_n/n2/E2_N_N2_BGE_CONFIG.json",
+      "config_sha256": "dc4ca6f64fd1deed35e03f99729794a06c57928eb3cbfaca546a2641c2e8a334",
+      "denominator_correction": null,
+      "downloads": 0,
+      "expected_rows": 30,
+      "jev_calls": 0,
+      "model": "bge",
+      "ok_rows": 30,
+      "paid_api_calls": 0,
+      "physical_forward_evidence_rows": 30,
+      "rows": 30,
+      "stage": "N2_CAL",
+      "status": "PASS",
+      "trace_sha256": "976a67ca7260224ad9c810b2d36a8f36571312c193032a6b83aa8bcf1ae37574",
+      "unique_queries": 30,
+      "valid_unique_20_candidate_rows": 30
+    },
+    "clef": {
+      "actual_model_input_hash_rows": 60,
+      "cache_reuse_rows": 0,
+      "config_path": "results/non_jev/v2/e2_n/n2/E2_N_N2_CLEF_CONFIG.json",
+      "config_sha256": "bf09d473dd30d11f7fedf098dd1819484086cd77707424bf973583384b3cdf92",
+      "denominator_correction": "Clef has two rows per query (pointwise and native_joint); expected_rows=60 is intentional and the raw trace is unchanged.",
+      "downloads": 0,
+      "expected_rows": 60,
+      "jev_calls": 0,
+      "model": "clef",
+      "ok_rows": 60,
+      "paid_api_calls": 0,
+      "physical_forward_evidence_rows": 60,
+      "rows": 60,
+      "stage": "N2_CAL",
+      "status": "PASS",
+      "trace_sha256": "837ba917c4a4ec6e59adf31dd909e32746d01f54c4466a9a4a81aec5fe5ff3d3",
+      "unique_queries": 30,
+      "valid_unique_20_candidate_rows": 60
+    },
+    "laya": {
+      "actual_model_input_hash_rows": 30,
+      "cache_reuse_rows": 0,
+      "config_path": "results/non_jev/v2/e2_n/n2/E2_N_N2_LAYA_CONFIG.json",
+      "config_sha256": "b3dc198e986fa65b910f195c499b3450428e4e95c2925670767cdf05f32eb792",
+      "denominator_correction": null,
+      "downloads": 0,
+      "expected_rows": 30,
+      "jev_calls": 0,
+      "model": "laya",
+      "ok_rows": 30,
+      "paid_api_calls": 0,
+      "physical_forward_evidence_rows": 30,
+      "rows": 30,
+      "stage": "N2_CAL",
+      "status": "PASS",
+      "trace_sha256": "a28fa001349ed2022319b54c33b44375dc6c3ba42ac064c03f2f0f008a1290df",
+      "unique_queries": 30,
+      "valid_unique_20_candidate_rows": 30
+    }
+  },
+  "new_models_gate": "BLOCKED_NO_LOCAL_CHECKPOINT_AND_DOWNLOAD_NOT_AUTHORIZED",
+  "paid_api_calls": 0,
+  "qwen_gate": "BLOCKED_SERVICE_PHYSICAL_TELEMETRY_NOT_EXPOSED",
+  "stage": "N2_CAL",
+  "status": "PASS"
+}

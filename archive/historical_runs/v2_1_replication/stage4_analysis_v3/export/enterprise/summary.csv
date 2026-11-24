@@ -1,0 +1,29 @@
+policy,policy_label,order_id,status,n_requests,n_valid,valid_pct,n_labeled,mean_fs5_all_labeled,mean_fs5_reachable
+bm25_order,first-stage order (hybrid RRF),original,RUN,500,500,100.0,443,0.5575620767494357,0.7484848484848485
+bm25_order,first-stage order (hybrid RRF),reversed,RUN,500,500,100.0,443,0.011286681715575621,0.015151515151515152
+bm25_order,first-stage order (hybrid RRF),perm_seed_20261020,RUN,500,500,100.0,443,0.0654627539503386,0.08787878787878788
+bm25_order,first-stage order (hybrid RRF),perm_seed_20261021,RUN,500,500,100.0,443,0.09029345372460497,0.12121212121212122
+jina_full,jina_full,original,RUN,500,500,100.0,443,0.5869074492099323,0.7878787878787878
+jina_full,jina_full,reversed,RUN,500,500,100.0,443,0.5304740406320542,0.7121212121212122
+jina_full,jina_full,perm_seed_20261020,RUN,500,500,100.0,443,0.5214446952595937,0.7
+jina_full,jina_full,perm_seed_20261021,RUN,500,500,100.0,443,0.5395033860045146,0.7242424242424242
+jina_budget,jina_budget,original,RUN,500,500,100.0,443,0.5327313769751693,0.7151515151515152
+jina_budget,jina_budget,reversed,RUN,500,500,100.0,443,0.4717832957110609,0.6333333333333333
+jina_budget,jina_budget,perm_seed_20261020,RUN,500,500,100.0,443,0.4650112866817156,0.6242424242424243
+jina_budget,jina_budget,perm_seed_20261021,RUN,500,500,100.0,443,0.48306997742663654,0.6484848484848484
+jina_two_stage_matched,jina_two_stage_matched,original,RUN,500,500,100.0,443,0.5688487584650113,0.7636363636363637
+jina_two_stage_matched,jina_two_stage_matched,reversed,RUN,500,500,100.0,443,0.5282167042889391,0.7090909090909091
+jina_two_stage_matched,jina_two_stage_matched,perm_seed_20261020,RUN,500,500,100.0,443,0.5327313769751693,0.7151515151515152
+jina_two_stage_matched,jina_two_stage_matched,perm_seed_20261021,RUN,500,500,100.0,443,0.5485327313769752,0.7363636363636363
+pplx_native,pplx_native,original,RUN,500,15,3.0,443,0.022573363431151242,0.030303030303030304
+pplx_native,PPLX native,reversed,NOT_RUN,500,,,,,
+pplx_native,PPLX native,perm_seed_20261020,NOT_RUN,500,,,,,
+pplx_native,PPLX native,perm_seed_20261021,NOT_RUN,500,,,,,
+pplx_budget,pplx_budget,original,RUN,500,500,100.0,443,0.6523702031602708,0.8757575757575757
+pplx_budget,pplx_budget,reversed,RUN,500,500,100.0,443,0.6478555304740407,0.8696969696969697
+pplx_budget,pplx_budget,perm_seed_20261020,RUN,500,500,100.0,443,0.6410835214446953,0.8606060606060606
+pplx_budget,pplx_budget,perm_seed_20261021,RUN,500,500,100.0,443,0.6275395033860045,0.8424242424242424
+pplx_two_stage,pplx_two_stage,original,RUN,500,500,100.0,443,0.6704288939051919,0.9
+pplx_two_stage,pplx_two_stage,reversed,RUN,500,500,100.0,443,0.6704288939051919,0.9
+pplx_two_stage,pplx_two_stage,perm_seed_20261020,RUN,500,500,100.0,443,0.6704288939051919,0.9
+pplx_two_stage,pplx_two_stage,perm_seed_20261021,RUN,500,500,100.0,443,0.6659142212189616,0.8939393939393939

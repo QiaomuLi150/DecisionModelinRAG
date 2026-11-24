@@ -1,0 +1,499 @@
+{
+  "artifacts_preserved": true,
+  "attempt_accounting": {
+    "cal": 240,
+    "models": [
+      "startlux_decision_4b",
+      "amos_1_small_2b"
+    ],
+    "order_diagnostic": 6,
+    "per_model": 256,
+    "smoke": 10,
+    "top15": 125,
+    "top20": 131
+  },
+  "created_at": "2026-10-15T01:53:41.899513+00:00",
+  "gate": "E6_2_READY_WITH_EXCLUSIONS",
+  "historical_inputs": {
+    "canonical_manifest_sha256": "a1b006a79456aeba818fe3faf0059a56c1eb1c6adaf47483cac665845097f318",
+    "expected": "a1b006a79456aeba818fe3faf0059a56c1eb1c6adaf47483cac665845097f318",
+    "historical_e5_top20_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+    "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_CAL_INPUTS.jsonl",
+    "sha256_bytes": "c9b5698e3d0181246ba5ea5b90b0766f7529cbda7caee6057e18d51f90294c0f"
+  },
+  "holdout_access": false,
+  "jev_calls": 0,
+  "models": [
+    {
+      "checkpoint_files": [
+        {
+          "bytes": 1842,
+          "path": ".gitattributes",
+          "sha256": "a966ca40f5df93ab9dace38bbc879cb85367643878de479bf3ebe48e9762110a"
+        },
+        {
+          "bytes": 19347,
+          "path": "LICENSE",
+          "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+        },
+        {
+          "bytes": 12330,
+          "path": "NOTICE",
+          "sha256": "ec7d09e98f04667acf3a33358ee4e830f6ee3b41251af388035aec40d4e47fe2"
+        },
+        {
+          "bytes": 7012,
+          "path": "README.md",
+          "sha256": "ad1147c616772fc09357b61f33fb8a102fe6f29964130bf04fa94a62874cbcb6"
+        },
+        {
+          "bytes": 190249,
+          "path": "assets/by_size.png",
+          "sha256": "fdb376ffbe08ffcfdca2324cb0a24a04b4f58409dd66ee5aed04badc68c4838d"
+        },
+        {
+          "bytes": 278807,
+          "path": "assets/di_chart.png",
+          "sha256": "a884d46a05a09ab842148ea99d8e20b40f8b00f442223c7216180f5dad6c4cb8"
+        },
+        {
+          "bytes": 214939,
+          "path": "assets/hero.png",
+          "sha256": "87e2c68cd1dc7493fd03582f985f4b3393dd91648a3a2f3ed086c21b097bbe4f"
+        },
+        {
+          "bytes": 229167,
+          "path": "assets/latency.png",
+          "sha256": "d20870f44d8a7ceefa0de648a3f11d9e59c6b7695f525cff95fe2266bf77c515"
+        },
+        {
+          "bytes": 175524,
+          "path": "assets/vs_jev.png",
+          "sha256": "382a9d06e94b6fd23ef9fa0bdf7b7f49b7ca0b80674bba03a4b1c0a583a6453b"
+        },
+        {
+          "bytes": 7756,
+          "path": "chat_template.jinja",
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+        },
+        {
+          "bytes": 3161,
+          "path": "config.json",
+          "sha256": "ddc63e1c717afa86c865bb5e01313d89d72bb53b97ad4a8a03ba8510c0621670"
+        },
+        {
+          "bytes": 477,
+          "path": "decision_config.json",
+          "sha256": "ef0e0865c830c0774e080023c9ab01d2ccbe2403e72c6d434d8bea00a8b4332d"
+        },
+        {
+          "bytes": 3353259,
+          "path": "merges.txt",
+          "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+        },
+        {
+          "bytes": 5356493792,
+          "path": "model-00001-of-00002.safetensors",
+          "sha256": "52bed9cbbe89fa424e9ab8b057e2cea02eb950333a788f74ce924a005102ce98"
+        },
+        {
+          "bytes": 3963334448,
+          "path": "model-00002-of-00002.safetensors",
+          "sha256": "26bf7f6ab832d2a1fdb1191ca70e0f5de3395140b7222dce21f6e156e49b5c03"
+        },
+        {
+          "bytes": 67340,
+          "path": "model.safetensors.index.json",
+          "sha256": "b29366b82be1087a67b2d6328006aa2b85f7b708afc0da48524ccf79494661aa"
+        },
+        {
+          "bytes": 390,
+          "path": "preprocessor_config.json",
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516"
+        },
+        {
+          "bytes": 877,
+          "path": "requirements.txt",
+          "sha256": "c44c27623f60111dc3deada2358955c6252c4a5adbdf3e51cc2c49656b307838"
+        },
+        {
+          "bytes": 184,
+          "path": "startlux_decision/__init__.py",
+          "sha256": "52c7fd27759098245b8fbe8fdb50846eefa06116b5500466621f6ff1139d61b0"
+        },
+        {
+          "bytes": 476,
+          "path": "startlux_decision/__pycache__/__init__.cpython-312.pyc",
+          "sha256": "1085ebdae8aaa1913f8e5f3a20904c0b40d665dfa439a492f287be219fe5ef59"
+        },
+        {
+          "bytes": 2957,
+          "path": "startlux_decision/__pycache__/check.cpython-312.pyc",
+          "sha256": "b088daee2bedf298886e4dcf446c54750c7a01924a2a9e3e0678585011522a38"
+        },
+        {
+          "bytes": 12880,
+          "path": "startlux_decision/__pycache__/jevfmt.cpython-312.pyc",
+          "sha256": "fd37c6af078f909fa78c06d625ddc4185597faa21b4a6ae8243c457592718e7e"
+        },
+        {
+          "bytes": 61978,
+          "path": "startlux_decision/__pycache__/model.cpython-312.pyc",
+          "sha256": "6c8afdb78cd2e4a58bb6e9d8e47148c1cf753908cc5e73ff5fcb25556af3caad"
+        },
+        {
+          "bytes": 12247,
+          "path": "startlux_decision/__pycache__/server.cpython-312.pyc",
+          "sha256": "6d28692096d8032e0f9f356e33a334f509bbdb2d244f338b7b879473a6ab9b77"
+        },
+        {
+          "bytes": 1673,
+          "path": "startlux_decision/check.py",
+          "sha256": "eb33b4061182f3e3a73cf27e84666987a4708e77447db456eeaae9b21c21a8f1"
+        },
+        {
+          "bytes": 6041,
+          "path": "startlux_decision/gguf_server.py",
+          "sha256": "ccecc3ad59052cb44ecc64a03fac7897788db879fa23ed485292233d4726b125"
+        },
+        {
+          "bytes": 7937,
+          "path": "startlux_decision/jevfmt.py",
+          "sha256": "b0bd50b78e6391d91a8428db781949224012ee6b1ba8e6eda2889fda1ca4bfa7"
+        },
+        {
+          "bytes": 12320,
+          "path": "startlux_decision/mlx_int8.py",
+          "sha256": "0a18f824f18e67957b98518e0147b27a7b1af045c1c2b4e5f93fce64c220500c"
+        },
+        {
+          "bytes": 9307,
+          "path": "startlux_decision/mlx_model.py",
+          "sha256": "f7d1ab1799f1c3ef87113fe82835ac1562dc8538e2dc684b3f84801076c8107f"
+        },
+        {
+          "bytes": 38941,
+          "path": "startlux_decision/model.py",
+          "sha256": "643f25b999cc373d02d5ff726781d2032cd8ed2ec8648f18585b29914149e044"
+        },
+        {
+          "bytes": 8288,
+          "path": "startlux_decision/server.py",
+          "sha256": "263feb8b5e8637f9f38153aa2a05e52c2b35a80ef50946fab2d6494d5ee17e54"
+        },
+        {
+          "bytes": 12807982,
+          "path": "tokenizer.json",
+          "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+        },
+        {
+          "bytes": 16710,
+          "path": "tokenizer_config.json",
+          "sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8"
+        },
+        {
+          "bytes": 385,
+          "path": "video_preprocessor_config.json",
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13"
+        },
+        {
+          "bytes": 6722759,
+          "path": "vocab.json",
+          "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003"
+        }
+      ],
+      "kind": "startlux",
+      "license": "CC-BY-NC-4.0 weights; Apache-2.0 code",
+      "native_contract": "official StartLuxDecision.decide typed choice probabilities",
+      "params": "4B",
+      "path": "./data/models/e6_1b/startlux_decision_v1_4b",
+      "repo": "startlux-models/StartLux-Decision-v1-4B",
+      "revision": "9c0a32e9809d6a3f612434dd0bce150295dcc274"
+    },
+    {
+      "checkpoint_files": [
+        {
+          "bytes": 1636,
+          "path": ".gitattributes",
+          "sha256": "bb2da54355952b34aef1e80901bc7a4223e856ab3138b3949badb495eb30da6c"
+        },
+        {
+          "bytes": 11358,
+          "path": "LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "bytes": 4347,
+          "path": "README.md",
+          "sha256": "de1775c29d170499c457415ea5f40ce1a1c4492adba2f54ef03aa3bc2dae96e8"
+        },
+        {
+          "bytes": 116696,
+          "path": "assets/amos-1-small.png",
+          "sha256": "fa3963e990c3e0e6f1f8f1296027b44ca080a1adab4855c7cae515a122d79089"
+        },
+        {
+          "bytes": 147,
+          "path": "calibration.json",
+          "sha256": "f9ca221eceeea6dc52774885a8c50ad727bb8c269a7ff4fbb439131d2f5be0f2"
+        },
+        {
+          "bytes": 28,
+          "path": "config.json",
+          "sha256": "2636cc2d838bc7395655ebb3d2ba933b186a43b13ce134c9a441ee8ba45a9d0d"
+        },
+        {
+          "bytes": 7755,
+          "path": "model/chat_template.jinja",
+          "sha256": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80"
+        },
+        {
+          "bytes": 2855,
+          "path": "model/config.json",
+          "sha256": "90c4a5672369ff2b3010f057c5dd1abafafcd29c9890ad61e7a893f6a1fa2b5e"
+        },
+        {
+          "bytes": 116,
+          "path": "model/generation_config.json",
+          "sha256": "62153eb6c69f2e1f426beaa8002b7186437e949c7588167085df14e10e9c0a73"
+        },
+        {
+          "bytes": 109123355,
+          "path": "model/heads.pt",
+          "sha256": "30ba05e777e4a07e8aec5139eb6700d99b4d294d86ad67f312fc14e3e23575c1"
+        },
+        {
+          "bytes": 4426558864,
+          "path": "model/model.safetensors",
+          "sha256": "790c9700fe4a0be2b79498919c04d74a3cbfaf01e451d4c589db601608f4f557"
+        },
+        {
+          "bytes": 443,
+          "path": "model/preprocessor_config.json",
+          "sha256": "3a159dfec9978a186a72ba085e0ad6a050f3968d8b364218d7bd13f5c89381f2"
+        },
+        {
+          "bytes": 19989510,
+          "path": "model/tokenizer.json",
+          "sha256": "aa7582a6b90dc3711049d293d985e549f2b22c0c4e5ad11b9272a03c6294886e"
+        },
+        {
+          "bytes": 1172,
+          "path": "model/tokenizer_config.json",
+          "sha256": "8c54bd45ef2fc821a711502da04af1bff020fe02c2207117c7ffdbf1866e6e25"
+        },
+        {
+          "bytes": 385,
+          "path": "model/video_preprocessor_config.json",
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13"
+        },
+        {
+          "bytes": 2505,
+          "path": "serve/README.md",
+          "sha256": "9e17531efd289cf720a36688d943197f9baf9db7c4f743aa4951f6b6f7dbafda"
+        },
+        {
+          "bytes": 42,
+          "path": "serve/amos/__init__.py",
+          "sha256": "0579eb845ee7af463ec88cf627d99dd636466f2c12d840a7cbe183d8f17044fd"
+        },
+        {
+          "bytes": 304,
+          "path": "serve/amos/__pycache__/__init__.cpython-312.pyc",
+          "sha256": "6155c453e2bcb4358552be1223badb994986c4c70db7ea5889fd16c44fbddc5a"
+        },
+        {
+          "bytes": 3532,
+          "path": "serve/amos/__pycache__/calibrate.cpython-312.pyc",
+          "sha256": "d308cc4f6c3bddd4610fa5a573a25154ba5b4711ca01209726da89b3def1c71f"
+        },
+        {
+          "bytes": 69176,
+          "path": "serve/amos/__pycache__/decoder.cpython-312.pyc",
+          "sha256": "a002a44dccc8b09980ac271c57d7cc702c4ff5561eb4d7f6c90ae1a157d7e9a7"
+        },
+        {
+          "bytes": 13565,
+          "path": "serve/amos/__pycache__/encoder.cpython-312.pyc",
+          "sha256": "3294ed61b58579358b09e5e2ccf9d011318cf1869c5b264713d2aa45a5dfb830"
+        },
+        {
+          "bytes": 2181,
+          "path": "serve/amos/__pycache__/facts.cpython-312.pyc",
+          "sha256": "007c4e21d26afa84d59acf2e915fc8aa52474cdc8cb858ad26e9b99734521c98"
+        },
+        {
+          "bytes": 28057,
+          "path": "serve/amos/__pycache__/model.cpython-312.pyc",
+          "sha256": "d38ad5544dc520e5e70a40709ab7c26bb45f15d708bcb778cb7690150307d200"
+        },
+        {
+          "bytes": 17936,
+          "path": "serve/amos/__pycache__/packing.cpython-312.pyc",
+          "sha256": "ea49dd3e9f255e7677c7f9ddeaf15a15b459ff7f43b67b26512ba9d8f9d6665b"
+        },
+        {
+          "bytes": 63651,
+          "path": "serve/amos/__pycache__/serve.cpython-312.pyc",
+          "sha256": "e10d845d09908d36495aee33d82a2452e250127a6f79f97bad163c50497001c9"
+        },
+        {
+          "bytes": 15117,
+          "path": "serve/amos/__pycache__/vision.cpython-312.pyc",
+          "sha256": "2da66c0fbdd72fef1b4a4d06c1ccc9a4817ddd409e0024b0665b73e31d84fcb9"
+        },
+        {
+          "bytes": 1712,
+          "path": "serve/amos/calibrate.py",
+          "sha256": "ba094d9eaedd229a99b2bdcd35a371ffdeb9aaee258a342524cc19e2f85ec421"
+        },
+        {
+          "bytes": 43439,
+          "path": "serve/amos/decoder.py",
+          "sha256": "0dcacb27a05d31781f8310cbe6123b0ee351c62456cc6b5f8576b40b8ddad080"
+        },
+        {
+          "bytes": 7816,
+          "path": "serve/amos/encoder.py",
+          "sha256": "b4a5a606a2dee99eedf86cab50be759eca0908a318e4f3037ba92560d837bd67"
+        },
+        {
+          "bytes": 1356,
+          "path": "serve/amos/facts.py",
+          "sha256": "f2efd7ef25453f7f2dc204dd247c86733a55697ec48714f30560df8ed2da1f23"
+        },
+        {
+          "bytes": 15106,
+          "path": "serve/amos/model.py",
+          "sha256": "d4f4354f3e4d3b475b4c1f832a4a9741da757a368a1d2e0e74544d06009c2c27"
+        },
+        {
+          "bytes": 10835,
+          "path": "serve/amos/packing.py",
+          "sha256": "14f027c9e15c456abb0f264c07dae06afb7ace7b64270f2374e97eabeb04f993"
+        },
+        {
+          "bytes": 0,
+          "path": "serve/amos/py.typed",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 39697,
+          "path": "serve/amos/serve.py",
+          "sha256": "b0523591c320a074a0ec0751b68ebc205aeedd090ff5e7ca10bda3fb94a07ef8"
+        },
+        {
+          "bytes": 6633,
+          "path": "serve/amos/vision.py",
+          "sha256": "133d1e29cc64e371f5df1f0cb0328fd77b8b9093d8465319580cf5ea4af5d081"
+        },
+        {
+          "bytes": 842,
+          "path": "serve/pyproject.toml",
+          "sha256": "bea3f98882a5d12c891aae4a5d75eda8c5a5436e88889d94b6a7d3d648d126f2"
+        },
+        {
+          "bytes": 1723,
+          "path": "serve/sources.json",
+          "sha256": "0d43aa4e58fe6131f4ed1f4bbcbcaa4a0815f8b1fe5331c7e96489700681136b"
+        },
+        {
+          "bytes": 1355,
+          "path": "typed_decisions.json",
+          "sha256": "f4404c7f2e088c6a5977f274a4a78025527a7a0d2e8fb5178bb85d55373cbbab"
+        }
+      ],
+      "kind": "amos",
+      "license": "Apache-2.0",
+      "native_contract": "official local amos.serve.Engine /v1/systemone choice probabilities",
+      "params": "2B",
+      "path": "./data/models/e6_1b/amos_1_small",
+      "repo": "mukaddamzaid/amos-1-small",
+      "revision": "09ba3e9d8f506cfcb96ea130845d5d76d9d92028"
+    }
+  ],
+  "output_files": [
+    {
+      "bytes": 269,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1b_checkpoint_recovery/E6_1B_COMPLETION_RECEIPT.json",
+      "sha256": "79fec5990810744e1f57af49e1e50007edbf04ac785886aaba0f22cb341c5390"
+    },
+    {
+      "bytes": 737,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1b_checkpoint_recovery/E6_1B_CONTRACT_SCORECARD.csv",
+      "sha256": "5f046bce02fa19660f1e294c4b83a01646408aa52b9f411d21572e3a6e0213ba"
+    },
+    {
+      "bytes": 485,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1b_checkpoint_recovery/E6_1B_E6_2_READINESS_GATE.json",
+      "sha256": "9f8e1c81158f986768166bea4a1917c839c4a4c2a4bfb34c9b8dc2c04caf30a2"
+    },
+    {
+      "bytes": 811,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1b_checkpoint_recovery/E6_1B_FAILURES.csv",
+      "sha256": "627eab01f41a27263dd436e1485d749807127cbb1df68a2ab77f59e45344459f"
+    },
+    {
+      "bytes": 4277,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1b_checkpoint_recovery/E6_1B_FINAL_REPORT.md",
+      "sha256": "e462573167e1ecb5ce859e5a74a0cf4bea22983a9452481b7825360e93e062d5"
+    },
+    {
+      "bytes": 29472,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1b_checkpoint_recovery/E6_1B_GPU_AUDIT.json",
+      "sha256": "dca652cb03356b0d713267e9360ef427f6b580d7668311b675c38dd418cc0d84"
+    },
+    {
+      "bytes": 489,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1b_checkpoint_recovery/E6_1B_INFERENCE_ACCOUNTING.csv",
+      "sha256": "51dace34aba06112549a0b9af9f905983f4ea10dde72b8ed3259cd75a9221759"
+    },
+    {
+      "bytes": 457,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1b_checkpoint_recovery/E6_1B_LATENCY_REPORT.csv",
+      "sha256": "74b621a52861cf0d184f8f4b3b434511dfa13b4cb6335df0ede49ac74e2aeee1"
+    },
+    {
+      "bytes": 1401,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1b_checkpoint_recovery/E6_1B_MODEL_REGISTRY.csv",
+      "sha256": "c239ce7bd5add2e928e3c1c6d1526e6309eebbbff70c77cd5ce385f92e3382ba"
+    },
+    {
+      "bytes": 1367100,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1b_checkpoint_recovery/E6_1B_NATIVE_TRACES.jsonl",
+      "sha256": "c67c209b29b89666c2e943b73ef8e59ab6520418105659c26cc726ebe706c38c"
+    },
+    {
+      "bytes": 1840,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1b_checkpoint_recovery/E6_1B_ORDER_DIAGNOSTICS.csv",
+      "sha256": "a137d4d224768c85e48d4fff60be5beeaafa714fe7923cfbf17e8aea742d82bc"
+    },
+    {
+      "bytes": 1251,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1b_checkpoint_recovery/E6_1B_TEST_REPORT.md",
+      "sha256": "edb81becccbf05543ee2adad665350571a5e84b6fc08e317bf56fb36f20a75be"
+    }
+  ],
+  "paid_api_calls": 0,
+  "reader_inference": false,
+  "source_files": [
+    {
+      "path": "scripts/e6_1b_finalize_reports.py",
+      "sha256": "26d110784084645b6285604a19fb3e4679344d8b9262831c91fcfc8c3561cd18"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_CAL_INPUTS.jsonl",
+      "sha256": "c9b5698e3d0181246ba5ea5b90b0766f7529cbda7caee6057e18d51f90294c0f"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_FROZEN_CAL_PROTOCOL.json",
+      "sha256": "159c06e6fad9042b99246881c36baa2fc88abaf3a2ec5751e08f831284e22696"
+    },
+    {
+      "path": "scripts/e6_1b_checkpoint_recovery.py",
+      "sha256": "242c60e79d2c727dc172bb4920b390710339405ee19fdefa730816ddd0abfb8d"
+    }
+  ],
+  "status": "E6_1B_COMPLETE",
+  "training": false
+}

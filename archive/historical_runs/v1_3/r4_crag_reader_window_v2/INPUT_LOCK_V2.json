@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "2fb1f5f5916a483f95393529497fa87e745a864558bc966b6e8a7d806af7b0a7",
+  "tasks": 2400,
+  "smoke": false,
+  "labels_joined": false,
+  "padding_side": "left"
+}

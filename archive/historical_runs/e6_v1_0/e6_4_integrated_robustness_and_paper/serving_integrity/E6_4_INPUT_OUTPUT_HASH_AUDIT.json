@@ -1,0 +1,8 @@
+{
+  "cohort_manifest_sha256": "5a69e96a7bc274009d93dbb0d7cbce9c980f60032ed385b92eb237314402d898",
+  "garage_release_sha256": "419e3941f6e8eb4082a74ca2140c1f9337f8b467ff76656a6b8b0290ca3f3a72",
+  "labels_loaded": false,
+  "reserved_content_loaded": false,
+  "scifact_slate_sha256": "5552c0e605a8d0d23ac3fc7ecd00b7cfe3cfb1eb2e2f1b88a69dd687a292c37d",
+  "status": "FROZEN_PREINFERENCE"
+}

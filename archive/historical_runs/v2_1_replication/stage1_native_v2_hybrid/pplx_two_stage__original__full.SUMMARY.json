@@ -1,0 +1,14 @@
+{
+  "policy": "pplx_two_stage",
+  "order_id": "original",
+  "n_requests": 2667,
+  "valid": 2667,
+  "failures": 0,
+  "failure_classes": {},
+  "load_ms": 35120.99311966449,
+  "elapsed_s": 5622.518709219061,
+  "raw_sha256": "6725e5532f927ea5fdebbb3bc0fb1fd7cd609ac57f2cbc25f6c341e44aa58609",
+  "labels_joined": false,
+  "gpu_index_requested": 0,
+  "model_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+}

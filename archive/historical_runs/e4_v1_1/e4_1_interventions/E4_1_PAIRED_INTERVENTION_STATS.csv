@@ -1,0 +1,13 @@
+cohort,contrast,n,groups,mean_delta,ci95_low,ci95_high,repetitions,seed,unit,estimand,interpretation
+representative,B_PPLX_TOP5_minus_A_JINA_TOP5,200,21,0.015,0.0,0.08571428571428572,5000,731,source_group,paired deterministic reference agreement proxy,exploratory; not factual correctness
+representative,D_SUPPORT_REMOVAL_minus_D_CONTROL_NEUTRAL_SWAP,198,21,-0.09090909090909091,-0.3103448275862069,-0.07142857142857142,5000,731,source_group,paired deterministic reference agreement proxy,exploratory; not factual correctness
+representative,C_ORACLE_minus_A_JINA_TOP5,200,21,0.025,-0.07142857142857142,0.06666666666666667,5000,731,source_group,paired deterministic reference agreement proxy,exploratory; not factual correctness
+representative,C_ORACLE_minus_B_PPLX_TOP5,200,21,0.01,-0.09375,0.0166358595194085,5000,731,source_group,paired deterministic reference agreement proxy,exploratory; not factual correctness
+representative,C_ORACLE_minus_E_NO_EVIDENCE,200,21,0.41,0.17647058823529413,0.4416243654822335,5000,731,source_group,paired deterministic reference agreement proxy,exploratory; not factual correctness
+representative,C_ORACLE_minus_D_SUPPORT_REMOVAL,198,21,0.10101010101010101,0.07692307692307693,0.2647058823529412,5000,731,source_group,paired deterministic reference agreement proxy,exploratory; not factual correctness
+diagnostic_enriched,B_PPLX_TOP5_minus_A_JINA_TOP5,50,4,0.02,0.0,0.02112676056338028,5000,731,source_group,paired deterministic reference agreement proxy,exploratory; not factual correctness
+diagnostic_enriched,D_SUPPORT_REMOVAL_minus_D_CONTROL_NEUTRAL_SWAP,49,4,-0.14285714285714285,-0.1510791366906475,0.0,5000,731,source_group,paired deterministic reference agreement proxy,exploratory; not factual correctness
+diagnostic_enriched,C_ORACLE_minus_A_JINA_TOP5,49,4,0.0,-0.75,0.02158273381294964,5000,731,source_group,paired deterministic reference agreement proxy,exploratory; not factual correctness
+diagnostic_enriched,C_ORACLE_minus_B_PPLX_TOP5,49,4,-0.02040816326530612,-0.75,0.0,5000,731,source_group,paired deterministic reference agreement proxy,exploratory; not factual correctness
+diagnostic_enriched,C_ORACLE_minus_E_NO_EVIDENCE,49,4,0.40816326530612246,0.0,0.75,5000,731,source_group,paired deterministic reference agreement proxy,exploratory; not factual correctness
+diagnostic_enriched,C_ORACLE_minus_D_SUPPORT_REMOVAL,49,4,0.14285714285714285,0.0,0.1510791366906475,5000,731,source_group,paired deterministic reference agreement proxy,exploratory; not factual correctness

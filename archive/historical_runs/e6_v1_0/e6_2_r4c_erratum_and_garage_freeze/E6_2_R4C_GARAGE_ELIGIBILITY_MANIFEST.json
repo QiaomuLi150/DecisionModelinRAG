@@ -1,0 +1,14 @@
+{
+  "candidate_identity": "sample_id:cite_i positional",
+  "candidate_order_preserved": true,
+  "dataset_path": "data/external/e6_0r_datasets/garage/GaRAGe_benchmark.jsonl",
+  "dataset_sha256": "419e3941f6e8eb4082a74ca2140c1f9337f8b467ff76656a6b8b0290ca3f3a72",
+  "eligible_ids_sha256": "36778ed8e5dd4b1844ea56e960305cf3a3734dbf5e8b7dd8494e910b3f213320",
+  "exact_k15_aligned_rows": 2329,
+  "excluded_count": 37,
+  "full_release_rows": 2366,
+  "labels_not_used_for_eligibility": true,
+  "license_sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+  "readme_sha256": "b3f7ab1186a759746e5f80cb0823aea07743acef91dedc416292cd154965a397",
+  "schema": "E6-2-R4C-GARAGE-ELIGIBILITY-V1"
+}

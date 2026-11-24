@@ -1,0 +1,222 @@
+{
+  "code": [
+    {
+      "path": "scripts/e6_4_order_robustness_and_paper.py",
+      "sha256": "cdce0601bbcb77a4da4261de6bc097c2d1de0962b330f6b78a8f92be9380b763"
+    },
+    {
+      "path": "tests/test_e6_4_order_robustness_and_paper.py",
+      "sha256": "edaec4ffefe9574e4648aca3e7ba5cc29edd93c7eb6731b062a372742e72214c"
+    }
+  ],
+  "created_utc": "2026-10-15T18:25:42.945629+00:00",
+  "focused_tests": {
+    "checks": {
+      "cohort_counts": true,
+      "native_attempt_key_uniqueness": true,
+      "no_paid_or_jev": true,
+      "no_reserved_access": true,
+      "permutation_lengths": true,
+      "permutation_membership": true,
+      "unique_ids": true,
+      "valid_top5_membership": true
+    },
+    "focused_passed": 8,
+    "focused_total": 8,
+    "full_regression": {
+      "collected": 290,
+      "command": "./Production_Project/MultiModalRAG/venv/bin/python -m pytest -q",
+      "output": "........................................................................ [ 24%]\n........................................................................ [ 49%]\n........................................................................ [ 74%]\n........................................................................ [ 99%]\n..                                                                       [100%]\n=============================== warnings summary ===============================\ntests/test_startlux_runtime.py::test_startlux_fast_kernel_detector_uses_actual_bindings\n  ./Production_Project/MultiModalRAG/venv/lib/python3.12/site-packages/fla/utils/_device.py:100: UserWarning: Triton is not supported on current platform, roll back to CPU.\n    _cpu_device_warning()\n\ntests/test_startlux_runtime.py: 14 warnings\n  ./Production_Project/MultiModalRAG/venv/lib/python3.12/site-packages/torch/jit/_script.py:365: DeprecationWarning: `torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`.\n    warnings.warn(\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n",
+      "passed": 290,
+      "returncode": 0,
+      "stderr": ""
+    },
+    "historical_baseline": "E6-3A recorded 282/282; current full suite run below",
+    "jev_calls": 0,
+    "paid_api_calls": 0,
+    "reserved_access": false
+  },
+  "historical_artifacts_modified": false,
+  "historical_inputs": [
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_3a_integrity_and_manuscript/E6_3A_FINAL_OWNER_REVIEW_GATE.json",
+      "sha256": "37b18aab67ed4f96c891992694c72ece541b47cecd87707102cee26756eb5716"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_3a_integrity_and_manuscript/E6_3A_PROVENANCE_MANIFEST.json",
+      "sha256": "4591609fbcc1d9cf23749681c44e1600e1d8d41e662c047471f94111fcc73779"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_CAL_RETRIEVAL_SLATES.jsonl",
+      "sha256": "5552c0e605a8d0d23ac3fc7ecd00b7cfe3cfb1eb2e2f1b88a69dd687a292c37d"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_PARTITION_MANIFEST.json",
+      "sha256": "98c81a492c45e1e69b56101b721c5f852e75d10c0cc4bc3fdc8774e2a1c309c8"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_EXPLORATORY_INPUTS.jsonl",
+      "sha256": "cbe937a1ff3425cc55c937ef32cfd99c470ec09374dfa72b855b79c4fb4935b7"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_PRIMARY_STATISTICAL_ANALYSIS.json",
+      "sha256": "85f9c87f955d3889f55cc3ef99d159b6e5790d1972a4efde45c0d0503db3f4ec"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_PRIMARY_STATISTICS.json",
+      "sha256": "0bdf1b9ec90385cd7cccc9c57c541b26c7cabc02aa8a837d739753677193dbbc"
+    }
+  ],
+  "jev_calls": 0,
+  "native_inference_attempts": 2400,
+  "new_files": [
+    {
+      "bytes": 2172651,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/E6_4_COHORT_AND_PERMUTATION_MANIFEST.json",
+      "sha256": "5a69e96a7bc274009d93dbb0d7cbce9c980f60032ed385b92eb237314402d898"
+    },
+    {
+      "bytes": 1635,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/E6_4_FINAL_REPORT.md",
+      "sha256": "075678eeaa35fbb2d390367deb8bc8d827b0d1381c8f6a55760629a7e274ca50"
+    },
+    {
+      "bytes": 357,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/E6_4_INPUT_OUTPUT_HASH_AUDIT.json",
+      "sha256": "0ebf6fc4a019322db01e3e31a33f612aabcbdaee7ce88d265df0d36c2c342349"
+    },
+    {
+      "bytes": 65,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/E6_4_MODEL_FAILURES.csv",
+      "sha256": "92841e76b0ce17c062b181245177e60efb36e1eb19276e2b61880de4c289db90"
+    },
+    {
+      "bytes": 21214346,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/E6_4_NATIVE_SELECTIONS.jsonl",
+      "sha256": "48f263788b27d576d164a3c560777fc2a477012d1aaa6864e1035e40b080e850"
+    },
+    {
+      "bytes": 1214,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/E6_4_PREINFERENCE_PROTOCOL.md",
+      "sha256": "a4f2fc7ac7bf8e61f34607a77690da397dd8024007eeca4b1f2c13896057bf61"
+    },
+    {
+      "bytes": 1091,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/E6_4_PROSPECTIVE_CONFIRMATION_PLAN.md",
+      "sha256": "77e836b3e6023efee7d10569cf1586bc5a1aa2e9d86b52342525a61b74e18aec"
+    },
+    {
+      "bytes": 1482,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/E6_4_REVIEWER_RISK_ASSESSMENT.md",
+      "sha256": "1d2a876e69d68af613a03b4023beed2be5ad2f733d31f492bec902988b2bbd7c"
+    },
+    {
+      "bytes": 1913,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/E6_4_TEST_AND_REGRESSION_REPORT.json",
+      "sha256": "9f79f1d977d8fb874d42199ca031c8f2f6eeb1212098779f38b7b8d919140878"
+    },
+    {
+      "bytes": 107,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/E6_4_TEST_AND_REGRESSION_REPORT.md",
+      "sha256": "fbad5d94091d3ab4dc5f5060c8e4a5e6082647f72127f433a5ec6182771d198e"
+    },
+    {
+      "bytes": 3917,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/manuscript/DECISIONRAG_REVISED_MANUSCRIPT.md",
+      "sha256": "c77f0045b672024e10c2d87b460d6d3f8a00f5d863719f704391721708c52e5b"
+    },
+    {
+      "bytes": 1043,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/manuscript/DECISIONRAG_REVISED_TABLES.md",
+      "sha256": "a2af00c3d73a06ce5a105a9e149fd2b51bba28f20360b9d34b0de4a3fd2bb485"
+    },
+    {
+      "bytes": 355,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/manuscript/E6_4_FIGURE_GENERATION.py",
+      "sha256": "fb128f1a1bf44c51ce799c8ad59491356ae5e40fa5567a18425930a71b7b073d"
+    },
+    {
+      "bytes": 155187,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/mechanism_inference/E6_4_ORDER_STABILITY_SCORECARD.csv",
+      "sha256": "fb120126e8613afbb27b5e50fa9bf581ccf7205268a5c8438ff9c681adc64c94"
+    },
+    {
+      "bytes": 5417080,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/mechanism_inference/E6_4_jina_v3_5.jsonl",
+      "sha256": "1b646615e2acd54feb9548f0e001bf73213a4fc744b9d4840e646f80889eecd0"
+    },
+    {
+      "bytes": 5240013,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/mechanism_inference/E6_4_pplx_decider.jsonl",
+      "sha256": "65cd5cb212c6db1ca7f954bc1b17ee654a46c2ee8a948ee57a5e3cd33704e35b"
+    },
+    {
+      "bytes": 5281538,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/mechanism_inference/E6_4_qwen3_reranker_0_6b.jsonl",
+      "sha256": "3d75b0d5dff478fbfd150eb74c5c1fbf554cf7b770bb35abe47cc4e8b9b2cd0c"
+    },
+    {
+      "bytes": 5277219,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/mechanism_inference/E6_4_startlux_decision_4b.jsonl",
+      "sha256": "189eb15930b1b928d7bf88c6b04ce7b01821c7b06c25626647116867e9768f8a"
+    },
+    {
+      "bytes": 357,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/mechanism_scoring/E6_4_INPUT_OUTPUT_HASH_AUDIT.json",
+      "sha256": "0ebf6fc4a019322db01e3e31a33f612aabcbdaee7ce88d265df0d36c2c342349"
+    },
+    {
+      "bytes": 3503,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/mechanism_scoring/E6_4_PRIMARY_STATISTICS.json",
+      "sha256": "702b515a67f52cd2c29820650a46e24e23eb0d3dddbf4b2df36b420d1a223ed6"
+    },
+    {
+      "bytes": 193679,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/mechanism_scoring/E6_4_RELEVANCE_SENSITIVITY.csv",
+      "sha256": "28b8f2d9fcbf76e8a385b0fc4d8a28b99f861ad87ae3f71665b8ea7ddac69e03"
+    },
+    {
+      "bytes": 1821,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/scientific_synthesis/E6_4_CROSS_WORKLOAD_METRICS.csv",
+      "sha256": "3bace5149012fb3d98c159bb2a7dde8005f4a5f6624e02ffd00cf466c5e3de4c"
+    },
+    {
+      "bytes": 1184,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/scientific_synthesis/E6_4_CROSS_WORKLOAD_SYNTHESIS.md",
+      "sha256": "ed70e39557736e787e45a8c1e6b6c8ea03bf2e1e49d7e40c19eb6fa0281d65de"
+    },
+    {
+      "bytes": 257,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/scientific_synthesis/E6_4_FIGURE_DATA.csv",
+      "sha256": "400ef2010f25a1df70ee28834a8a6979ad1802313181c82eb36a742e2207c985"
+    },
+    {
+      "bytes": 2553,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/scientific_synthesis/E6_4_OPERATIONAL_DIAGNOSTICS.csv",
+      "sha256": "f1415c087f0b8d7b4ee9b7212bb2330a17b1df1898a66d7f86050c722ea006ae"
+    },
+    {
+      "bytes": 3316,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/scientific_synthesis/E6_4_OPERATIONAL_DIAGNOSTICS.md",
+      "sha256": "fe11a36e9ee38d92b733af87c2787d1db2f952cebd7153b1382b62b813309fb4"
+    },
+    {
+      "bytes": 317,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/scientific_synthesis/E6_4_REPLACEMENT_BOUNDARY_TABLE.csv",
+      "sha256": "71be73a13126daa45f4399a0271d8ec7e11df0ebb57693b24133c765a785efc7"
+    },
+    {
+      "bytes": 385,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/serving_integrity/E6_4_INPUT_OUTPUT_HASH_AUDIT.json",
+      "sha256": "1e099bedcde7d6b4fe75d7d1a9bed72d926a135dc3381da3a3d0ac1748fc7b92"
+    },
+    {
+      "bytes": 2460,
+      "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/serving_integrity/E6_4_SERVING_FINAL_INTEGRITY_AUDIT.md",
+      "sha256": "2843865d381ed4033992b7ecfc7229eaa77dff4bbe17b48090b9e6e0aa75325b"
+    }
+  ],
+  "paid_api_calls": 0,
+  "reserved_access": false,
+  "schema": "E6-4-PROVENANCE-V1"
+}

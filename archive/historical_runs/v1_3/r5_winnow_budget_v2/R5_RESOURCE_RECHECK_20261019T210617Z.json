@@ -1,0 +1,61 @@
+{
+  "checked_at_utc": "2026-10-19T21:06:17Z",
+  "status": "BLOCKED_DEDICATED_GPU_UNAVAILABLE",
+  "required": "one dedicated A100-SXM4-80GB with zero resident processes before and after the complete timing run",
+  "snapshot": {
+    "gpu0": {
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 36235,
+      "utilization_percent": 99,
+      "resident": true
+    },
+    "gpu1": {
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 27277,
+      "utilization_percent": 100,
+      "resident": true
+    },
+    "gpu2": {
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 55207,
+      "utilization_percent": 0,
+      "resident": true,
+      "process": "VLLM::EngineCore"
+    },
+    "gpu3": {
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 14107,
+      "utilization_percent": 100,
+      "resident": true,
+      "process": "unattributed python3"
+    },
+    "gpu4": {
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 56799,
+      "utilization_percent": 0,
+      "resident": true,
+      "process": "VLLM::EngineCore"
+    },
+    "gpu5": {
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 26855,
+      "utilization_percent": 100,
+      "resident": true
+    },
+    "gpu6": {
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 26855,
+      "utilization_percent": 100,
+      "resident": true
+    },
+    "gpu7": {
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 79431,
+      "utilization_percent": 99,
+      "resident": true
+    }
+  },
+  "r5_action": "not_started",
+  "model_calls": 0,
+  "reason": "A nonzero resident process on every device violates the frozen dedicated-GPU serving protocol. GPU sharing would invalidate the matched latency and memory measurements."
+}

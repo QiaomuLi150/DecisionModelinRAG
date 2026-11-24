@@ -1,0 +1,305 @@
+{
+  "command": "Production_Project/AI_Search_Agent/RAG_system/Decision_Model_in_RAG/scripts/e2_p0v2_preflight.py",
+  "cpu_check_counts": {
+    "blocked": 0,
+    "pass": 18,
+    "skip": 0
+  },
+  "created_utc_end": "2026-10-12T21:05:20.027139+00:00",
+  "created_utc_start": "2026-10-12T21:05:19.518935+00:00",
+  "execution_scope": {
+    "checkpoint_loads": 0,
+    "cuda_visible_devices": "",
+    "gpu_calls": 0,
+    "holdout_gold_opened": 0,
+    "jev_calls": 0,
+    "model_calls": 0,
+    "network_calls": 0,
+    "note": "standard-library static analysis and mock contract checks only",
+    "paid_api_calls": 0,
+    "qdrant_calls": 0
+  },
+  "final_status": "E2_P0V2_SPEC_READY_FOR_OWNER_REVIEW",
+  "git_commit": "246ff54e66b178eadd350351a5544879f5484ed2",
+  "git_root": "./Production_Project/AI_Search_Agent/RAG_system",
+  "m0_status": "E2_M0_COMPLETE_WITH_LIMITATIONS_READY_FOR_OWNER_REVIEW",
+  "manifest_version": "e2-p0v2-provenance-v1",
+  "mechanism_matrix_rows": 7,
+  "model_matrix_rows": 16,
+  "output_count": 14,
+  "outputs": {
+    "E2_P0V2_AUTHENTICITY_AND_TELEMETRY_SPEC.md": "05161ef18b28e9115dbeebaa1b9909c5909dd91069c1c7be6291980baa057c5c",
+    "E2_P0V2_CANDIDATE_VIEW_CONTRACT.md": "2724ece16bdf65bc125f7d9d32af354ae4edfcc0fb7e6e9a401291def300749b",
+    "E2_P0V2_CPU_VALIDATION_REPORT.md": "0bcbc8553f65e27f117da795d3e714e990e12cfbb45bf22da6faff176f05e9fb",
+    "E2_P0V2_HOLDOUT_AND_LEAKAGE_PLAN.md": "83665a0a4f5744d01c5f889e827d64e8c6377e5550d96defc3243ae79d5d9e41",
+    "E2_P0V2_HYPOTHESES_AND_PRIMARY_CONTRASTS.md": "12ff952421aea09b15dff8947ac576df03e74e06ba5043cf6d668a3eec60e0e1",
+    "E2_P0V2_MECHANISM_EXPERIMENT_MATRIX.csv": "f34079e8d56e31f6001f42b292d671d985b955aa450a5bc1643b29c4c15cfb23",
+    "E2_P0V2_MODEL_CAPABILITY_MATRIX.csv": "03eddf7778070165f358635ff6f51b976998824825142fb31ecf023011736435",
+    "E2_P0V2_OWNER_DECISION_REGISTER.md": "9ab6b62b1ebe58b47987b321f83e8ff4040379e84013f195d7b28529b7b11854",
+    "E2_P0V2_OWNER_GATE.md": "7c89429b2010fb42cf82c0939381d344dbd309e1782dacdf9dcda9aae5a9b2ee",
+    "E2_P0V2_RESEARCH_PROTOCOL.md": "2d0ff4784ba5fa156cb632bb990ed654479afb95b0b225eb5105dafa7b507550",
+    "E2_P0V2_SCORING_CONTRACTS.md": "ee798ceadc82fb1d606434ed6c4ad894faba2922dcbd139151853fef44455fd7",
+    "E2_P0V2_SERVING_BENCHMARK_SDD.md": "7bb1486dd8553cd63c090c852ea6e05468695cc5e6d672f4a0bd0908ac210b9d",
+    "E2_P0V2_STATISTICAL_ANALYSIS_PLAN.md": "4ec382c8647d9199f4837b0781906d7b4796c2940564880d3dc241f5f1c5efd9"
+  },
+  "platform": "Linux-6.8.0-137-generic-x86_64-with-glibc2.39",
+  "project_root": ".",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "source_count": 42,
+  "sources": [
+    {
+      "bytes": 22113,
+      "path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.codex/attachments/45adfd00-9049-4705-8b8d-b0347b8fa330/Pasted text.txt",
+      "role": "attached E2-P0v2 authoritative specification",
+      "sha256": "8c3c209a1a846cd89774833d7cabea439b097c8e36afde095e1c4861e8f38e3c"
+    },
+    {
+      "bytes": 20208,
+      "path": "./DecisionRAG_v2_1_Revised_Research_Protocol.md",
+      "role": "authoritative v2.1 research protocol",
+      "sha256": "938be4b5078cbc660d2aadd3f72dcb4b962d821e3f4284de3b8e9da498c12f70"
+    },
+    {
+      "bytes": 32318,
+      "path": "./DecisionRAG_v2_1_E2_M0_Structural_Oracle_SDD.md",
+      "role": "completed M0 execution contract",
+      "sha256": "5c331471483c6b85a74b064d9857fff20ffe94232203cf1a7f8a847bc1b0c35f"
+    },
+    {
+      "bytes": 25586,
+      "path": "./DecisionRAG_Industry_Experimental_Plan_v1_1_PRE_REGISTRATION.md",
+      "role": "prior preregistration",
+      "sha256": "a9d1d68168f6304df74d0e2d3cb540aeb6398491fb35ec41644b4acd2873ebf7"
+    },
+    {
+      "bytes": 792,
+      "path": "./configs/models.yaml",
+      "role": "local model configuration",
+      "sha256": "37590c9d9fc026041ce9bffcc173f5ba3dddabc97c15ae67c63e3b13cec47b49"
+    },
+    {
+      "bytes": 1037,
+      "path": "./configs/study.yaml",
+      "role": "local study configuration",
+      "sha256": "c7c2e9d984ae002e08ab92cb967f1d5b4696f967ec43ef4d3db5e4d0260dbee2"
+    },
+    {
+      "bytes": 7647,
+      "path": "./src/decisionrag/selection.py",
+      "role": "frozen selection/view implementation",
+      "sha256": "c222a36ad6388aeca2ff40a15a3670a5af37b128f89948a3994ee7ab8e595660"
+    },
+    {
+      "bytes": 163267,
+      "path": "./V11_TRACK_A_EXECUTION_MANIFEST.json",
+      "role": "historical Track A manifest",
+      "sha256": "096e83ba9299cd0199d05d93f19270f4e16c02d9c617c7b782307c8bf4d0b91e"
+    },
+    {
+      "bytes": 2000,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_PROVENANCE_MANIFEST.json",
+      "role": "historical Track A provenance",
+      "sha256": "5ed16b5874fa522010dc2c350c0e00ba11caea6cb60cd7ede907a241c692b060"
+    },
+    {
+      "bytes": 1759,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_PROVENANCE_MANIFEST.json",
+      "role": "historical Track B provenance",
+      "sha256": "836a9e150e607f2a7564e8cbecda298c80f6a080ea323200ad80c30a7975cfe6"
+    },
+    {
+      "bytes": 1743,
+      "path": "./results/non_jev/v11/track_c/V11_TRACK_C_R2_PROVENANCE_MANIFEST.json",
+      "role": "historical Track C R2 provenance",
+      "sha256": "78cd6d78520b444e470d1eeac4bdbae129c75f24aae77a91d497a69ee3ff3c2d"
+    },
+    {
+      "bytes": 11939,
+      "path": "./results/non_jev/v11/track_c_r2/V11_TRACK_C_R2_OWNER_REVIEW_CLOSURE.md",
+      "role": "Track C R2 owner closure",
+      "sha256": "64e2fd33b9049cd1f7465f79e89a07cacb407434e036ef9bff82dc9b886dca1d"
+    },
+    {
+      "bytes": 7952,
+      "path": "./results/non_jev/herb_h1/HERB_H1_PROVENANCE_MANIFEST.json",
+      "role": "historical HERB provenance",
+      "sha256": "516bcd1b4b2dbec3baf675adc8b44c472442eeb8bac375facfb8c01699b64626"
+    },
+    {
+      "bytes": 2573,
+      "path": "./results/non_jev/herb_h1_owner_audit/HERB_H1_OWNER_REVIEW_CLOSURE.md",
+      "role": "HERB owner closure",
+      "sha256": "a8dc2d17d8080f0563bae4484a2781faaed8109f0945d7bd72343462684d6b7e"
+    },
+    {
+      "bytes": 23633450,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_RETRIEVAL_SLATES.jsonl",
+      "role": "M0 preserved source artifact",
+      "sha256": "1891f41e2b8614b871aa42cdbe61af3d0c193410a85041e5426c5e7eb3905f0f"
+    },
+    {
+      "bytes": 92454379,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_SELECTOR_RESULTS_FULL.jsonl",
+      "role": "M0 preserved source artifact",
+      "sha256": "87cd17c3ac6408a182d5821d3b86cfb535161d1a0b7df3e6d60a216433f303bb"
+    },
+    {
+      "bytes": 3236770,
+      "path": "./results/preflight/v11/NEW_TEST_GOLD_SIDECAR.jsonl",
+      "role": "M0 preserved source artifact",
+      "sha256": "5b17f0dfacceddc82952163b6fb98fcecb2d0d4ce232209c5d565f79c04d40cc"
+    },
+    {
+      "bytes": 10576540,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_LAYA_GROUPWISE_FULL.jsonl",
+      "role": "M0 preserved source artifact",
+      "sha256": "4e8c12b333e530a77495f81fa737e0e78f77971912a235dcae4aa28f00ace8af"
+    },
+    {
+      "bytes": 10778743,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_CLEF_GROUPWISE_FULL.jsonl",
+      "role": "M0 preserved source artifact",
+      "sha256": "b9279e414d880a2fe16f2827ba986b1b15257121a959a8640e4822d4abd4a424"
+    },
+    {
+      "bytes": 5730238,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_METRICS.csv",
+      "role": "M0 preserved source artifact",
+      "sha256": "97cb4d5b3de284614bfdcc027f46a337a3141b39af7f003112138cab42ee227e"
+    },
+    {
+      "bytes": 348,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_GROUPWISE_COLLISIONS.csv",
+      "role": "M0 preserved source artifact",
+      "sha256": "50c8685a75508a37a56a7c401f3172e022565d4a2a78a74f5e14f74d4123be51"
+    },
+    {
+      "bytes": 83783504,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_RETRIEVAL_SLATES.jsonl",
+      "role": "M0 preserved source artifact",
+      "sha256": "2e82fc2788398f98d6a257165718b1baa6e1ad792f63671c06458f9212326c9f"
+    },
+    {
+      "bytes": 43959451,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_SELECTOR_RESULTS.jsonl",
+      "role": "M0 preserved source artifact",
+      "sha256": "3716a91c96d3f03d42f39e529e5f50abb574b4b1219e9c6aa3a7374bf7c6e0f8"
+    },
+    {
+      "bytes": 648465,
+      "path": "./results/preflight/v11/ENTERPRISE_GOLD_SIDECAR.jsonl",
+      "role": "M0 preserved source artifact",
+      "sha256": "e7a7dbe71ee9e4290fe29615991c3aed90f70530ab12a63e9c1003be6bfa6b55"
+    },
+    {
+      "bytes": 831571,
+      "path": "./results/preflight/v11_remediation/ENTERPRISE_QUESTION_MANIFEST_V11R1.jsonl",
+      "role": "M0 preserved source artifact",
+      "sha256": "00befe74a6bd3786fd2149639f434efd574f2784f49f7f91961c3ed7091d2683"
+    },
+    {
+      "bytes": 274781259,
+      "path": "./results/preflight/v11_remediation/ENTERPRISE_DOCUMENT_IDENTITY_MANIFEST.jsonl",
+      "role": "M0 preserved source artifact",
+      "sha256": "eb31c184c604efbdaf0e513860e5464782d7146cd1e151289a7044d7a9bcfd8e"
+    },
+    {
+      "bytes": 1048,
+      "path": "./results/preflight/v11_remediation/ENTERPRISE_QST_0413_ACCEPTANCE_V11R1.json",
+      "role": "M0 preserved source artifact",
+      "sha256": "12f12be9db5ad11cd214b42a132370ffd2704158fa0f2ae8d159501ac3f0e176"
+    },
+    {
+      "bytes": 3195822,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_LAYA_GROUPWISE_FULL.jsonl",
+      "role": "M0 preserved source artifact",
+      "sha256": "cb30aa66f8c758f691f33ee93f4773b2c87bec295a6966416daea9f8c48036a0"
+    },
+    {
+      "bytes": 3217834,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_CLEF_GROUPWISE_FULL.jsonl",
+      "role": "M0 preserved source artifact",
+      "sha256": "982985887d0fa591c6feb704a4a487fda06ac3aa1c70cbce7461c603180d4fd3"
+    },
+    {
+      "bytes": 1072158,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_METRICS.csv",
+      "role": "M0 preserved source artifact",
+      "sha256": "57703cb9851c80a575ba3ddb89596f40a0a1e4c3de2b93cdcae4a7f06713d7a0"
+    },
+    {
+      "bytes": 1054,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_GROUPWISE_COLLISION_AUDIT.csv",
+      "role": "M0 preserved source artifact",
+      "sha256": "e4ad654f4b4801cc2cc5f727e2c7cedd17e457b9e81f5d51ea6e3bf596f62839"
+    },
+    {
+      "bytes": 2761,
+      "path": "./results/non_jev/v11/track_c/V11_TRACK_C_PROVENANCE_MANIFEST.json",
+      "role": "M0 preserved source artifact",
+      "sha256": "2ec02e309d4735ddce8c53f7afc6a5c0dd054eb3c34238143d5dc0e86debb664"
+    },
+    {
+      "bytes": 4122,
+      "path": "./results/non_jev/v11/track_c_r2/V11_TRACK_C_R2_PROVENANCE_MANIFEST.json",
+      "role": "M0 preserved source artifact",
+      "sha256": "e536c402185b117161610815d506306d0b3840c062fc34c23dce9466eeff99a4"
+    },
+    {
+      "bytes": 10896,
+      "path": "./results/non_jev/v2/e2_m0/E2_M0_AGGREGATE_ORACLES.csv",
+      "role": "completed E2-M0 output",
+      "sha256": "9da8b628322e7ffaf1b5584630b9145436e926265200714a9c5d1196baf4a4ef"
+    },
+    {
+      "bytes": 7692,
+      "path": "./results/non_jev/v2/e2_m0/E2_M0_EXCLUSIONS_AND_INTEGRITY.csv",
+      "role": "completed E2-M0 output",
+      "sha256": "4476295f5778e9fdadc10c276db8b49c7b12088588fdde79fb4e811a6c4108c4"
+    },
+    {
+      "bytes": 12300,
+      "path": "./results/non_jev/v2/e2_m0/E2_M0_INPUT_SOURCE_MANIFEST.json",
+      "role": "completed E2-M0 output",
+      "sha256": "1b5c1ba5469767f35abd4bd76c66b5b3a815ec182175e73202f2f654e4bd649e"
+    },
+    {
+      "bytes": 1605,
+      "path": "./results/non_jev/v2/e2_m0/E2_M0_OWNER_GATE.json",
+      "role": "completed E2-M0 output",
+      "sha256": "29bbd0a03beeb2e16e8730bd4d4d4bf3337ebb1cafe7d5bfc86072881ada0ab7"
+    },
+    {
+      "bytes": 674,
+      "path": "./results/non_jev/v2/e2_m0/E2_M0_OWNER_GATE.md",
+      "role": "completed E2-M0 output",
+      "sha256": "9e8034b0e3803bca6e50ed14683bb259f148ff8ef1463b64c90564f32d82be94"
+    },
+    {
+      "bytes": 1014,
+      "path": "./results/non_jev/v2/e2_m0/E2_M0_P0V2_HANDOFF.md",
+      "role": "completed E2-M0 output",
+      "sha256": "05295e6104a4a751487f0735c3c5941336b50d124988c91e390ab07f9141df11"
+    },
+    {
+      "bytes": 3337108,
+      "path": "./results/non_jev/v2/e2_m0/E2_M0_PER_QUERY_ORACLES.csv",
+      "role": "completed E2-M0 output",
+      "sha256": "23f849deba8a63685335a4961d4264a1cd331955c89dda5d8ecf2a81be114297"
+    },
+    {
+      "bytes": 25091,
+      "path": "./results/non_jev/v2/e2_m0/E2_M0_PROVENANCE_MANIFEST.json",
+      "role": "completed E2-M0 output",
+      "sha256": "083540b3c7c8e2973b17ec01540075fbc3f890a402c2b5f6c36ed614beddcaa0"
+    },
+    {
+      "bytes": 6644,
+      "path": "./results/non_jev/v2/e2_m0/E2_M0_STRUCTURAL_ORACLE_REPORT.md",
+      "role": "completed E2-M0 output",
+      "sha256": "214f2c12c8008e534c238bb6c5e6aeaab47a639726a4e975eb44a35ec87d392e"
+    }
+  ],
+  "study": "DecisionRAG v2.1 E2-P0v2 Protocol Finalization and Native-Adapter Audit",
+  "working_tree_status": "M Decision_Model_in_RAG/scripts/v11_track_c_serving.py\n M api/routes/search.py\n M api/schemas.py\n M scripts/service_manager.py\n M src/agent/schemas.py\n M src/gateway/hierarchical_router.py\n M src/gateway/production_controller.py\n M src/serving/service_manager.py\n M tests/test_qdrant_integration.py\n?? Decision_Model/\n?? Decision_Model_in_RAG/DecisionRAG_v2_1_E2_M0_Structural_Oracle_SDD.md\n?? Decision_Model_in_RAG/DecisionRAG_v2_1_Revised_Research_Protocol.md\n?? Decision_Model_in_RAG/data/results/audit/original_non_jev/\n?? Decision_Model_in_RAG/data/results/audit/quality/ERRATA.md\n?? Decision_Model_in_RAG/data/results/audit/quality/EXPANSION_READINESS_VERDICT.md\n?? Decision_Model_in_RAG/data/results/audit/quality/FINAL_AUDIT_MACHINE_READABLE.json\n?? Decision_Model_in_RAG/data/results/audit/quality/FINAL_ERRATA.md\n?? Decision_Model_in_RAG/data/results/audit/quality/FINAL_EXPERIMENTAL_INTEGRITY_AUDIT.md\n?? Decision_Model_in_RAG/data/results/audit/quality/FINAL_PAIRED_STATISTICS.csv\n?? Decision_Model_in_RAG/data/results/audit/quality/GOLD_COVERAGE_RECONCILIATION.md\n?? Decision_Model_in_RAG/data/results/audit/quality/GROUPWISE_AND_RESCUE_DIAGNOSTICS.csv\n?? Decision_Model_in_RAG/data/results/audit/quality/GROUPWISE_COLLISION_AND_RESCUE_AUDIT.md\n?? Decision_Model_in_RAG/data/results/audit/quality/M3_AUROC_BY_QUERY.jsonl\n?? Decision_Model_in_RAG/data/results/audit/quality/M3_AUROC_SUMMARY.csv\n?? Decision_Model_in_RAG/data/results/audit/quality/M3_SCORE_ALIGNMENT_AUDIT.csv\n?? Decision_Model_in_RAG/data/results/audit/quality/M3_SCORE_ALIGNMENT_AUDIT.csv.jsonl\n?? Decision_Model_in_RAG/data/results/audit/quality/M5_INTERLEAVED_SERVING_REPORT.md\n?? Decision_Model_in_RAG/data/results/audit/quality/QUALITY_AUDIT_MANIFEST.json\n?? Decision_Model_in_RAG/data/results/audit/quality/QUALITY_CORRECTNESS_AUDIT.md\n?? Decision_Model_in_RAG/data/results/audit/quality/QWEN_AUDIT_SUMMARY.json\n?? Decision_Model_in_RAG/data/results/audit/quality/QWEN_CORRECTED_M5_REPORT.md\n?? Decision_Model_in_RAG/data/results/audit/quality/QWEN_ERRATUM.md\n?? Decision_Model_in_RAG/data/results/audit/quality/QWEN_QUERY_METRICS.jsonl\n?? Decision_Model_in_RAG/data/results/audit/quality/QWEN_REFERENCE_VS_SERVICE.csv\n?? Decision_Model_in_RAG/data/results/audit/quality/QWEN_REGRESSION_TEST_REPORT.md\n?? Decision_Model_in_RAG/data/results/audit/quality/QWEN_REPRESENTATIVE_INPUTS.json\n?? Decision_Model_in_RAG/data/results/audit/quality/QWEN_SCORE_ALIGNMENT.jsonl\n?? Decision_Model_in_RAG/data/results/audit/quality/QWEN_SEMANTIC_CORRECTNESS_AUDIT.md\n?? Decision_Model_in_RAG/data/results/audit/quality/QWEN_SERVING_CONFIGURATION.json\n?? Decision_Model_in_RAG/data/results/audit/quality/REPRODUCIBILITY_GATE_REPORT.md\n?? Decision_Model_in_RAG/data/results/audit/quality/REVISED_NON_JEV_COMPLETE_REPORT.md\n?? Decision_Model_in_RAG/data/results/audit/quality/STALE_CACHE_AND_PROVENANCE_AUDIT.json\n?? Decision_Model_in_RAG/data/results/audit/quality/STALE_CACHE_AND_PROVENANCE_AUDIT.md\n?? Decision_Model_in_RAG/data/results/audit/quality/audit_queries.jsonl\n?? Decision_Model_in_RAG/data/results/audit/quality/audit_summary.json\n?? Decision_Model_in_RAG/data/results/audit/quality/gold_coverage_by_query.jsonl\n?? Decision_Model_in_RAG/data/results/audit/quality/groupwise_collision_by_query.jsonl\n?? Decision_Model_in_RAG/data/results/audit/quality/m5_interleaved/\n?? Decision_Model_in_RAG/data/results/audit/quality/qwen_final_audit_cohort.jsonl\n?? Decision_Model_in_RAG/data/results/audit/quality/qwen_original_service/\n?? Decision_Model_in_RAG/data/results/audit/quality/qwen_raw_replays.json\n?? Decision_Model_in_RAG/data/results/audit/quality/qwen_template_without_generation_prompt/\n?? Decision_Model_in_RAG/data/results/audit/quality/representative_inputs.json\n?? Decision_Model_in_RAG/data/results/audit/quality/rescue_outcomes_by_query.jsonl\n?? Decision_Model_in_RAG/data/results/audit/quality/semantic_alignment_summary.json\n?? Decision_Model_in_RAG/data/results/audit/quality/shared_view_join_audit.jsonl\n?? Decision_Model_in_RAG/data/results/audit/quality/support_visibility_audit.jsonl\n?? Decision_Model_in_RAG/data/results/audit/quality/support_visibility_summary.json\n?? Decision_Model_in_RAG/data/results/audit/quality/support_visibility_summary.md\n?? Decision_Model_in_RAG/data/results/m3/\n?? Decision_Model_in_RAG/data/results/m4/\n?? Decision_Model_in_RAG/data/results/m5/\n?? Decision_Model_in_RAG/data/retrieval/\n?? Decision_Model_in_RAG/paper/\n?? Decision_Model_in_RAG/pyproject.toml\n?? Decision_Model_in_RAG/reports/\n?? Decision_Model_in_RAG/results/audit/\n?? Decision_Model_in_RAG/scripts/analyze_m4.py\n?? Decision_Model_in_RAG/scripts/analyze_m5.py\n?? Decision_Model_in_RAG/scripts/assemble_m3.py\n?? Decision_Model_in_RAG/scripts/e2_m0_structural_oracle.py\n?? Decision_Model_in_RAG/scripts/e2_p0v2_preflight.py\n?? Decision_Model_in_RAG/scripts/final_integrity_audit.py\n?? Decision_Model_in_RAG/scripts/finalize_m6.py\n?? Decision_Model_in_RAG/scripts/finalize_quality_reports.py\n?? Decision_Model_in_RAG/scripts/herb_h1_assemble.py\n?? Decision_Model_in_RAG/scripts/herb_h1_finalize.py\n?? Decision_Model_in_RAG/scripts/herb_h1_index.py\n?? Decision_Model_in_RAG/scripts/herb_h1_merge_clef.py\n?? Decision_Model_in_RAG/scripts/herb_h1_metrics.py\n?? Decision_Model_in_RAG/scripts/herb_h1_owner_audit.py\n?? Decision_Model_in_RAG/scripts/herb_h1_preflight.py\n?? Decision_Model_in_RAG/scripts/herb_h1_reader.py\n?? Decision_Model_in_RAG/scripts/herb_h1_selectors.py\n?? Decision_Model_in_RAG/scripts/m2_retrieve.py\n?? Decision_Model_in_RAG/scripts/preflight.py\n?? Decision_Model_in_RAG/scripts/prepare_data.py\n?? Decision_Model_in_RAG/scripts/quality_phase_b.py\n?? Decision_Model_in_RAG/scripts/quality_score_audit.py\n?? Decision_Model_in_RAG/scripts/qwen_semantic_final_audit.py\n?? Decision_Model_in_RAG/scripts/repair_gold_audit.py\n?? Decision_Model_in_RAG/scripts/repair_m5_metadata.py\n?? Decision_Model_in_RAG/scripts/run_m3_selectors.py\n?? Decision_Model_in_RAG/scripts/run_m4_reader.py\n?? Decision_Model_in_RAG/scripts/run_m5_interleaved.py\n?? Decision_Model_in_RAG/scripts/run_m5_serving.py\n?? Decision_Model_in_RAG/scripts/typed_model_audit.py\n?? Decision_Model_in_RAG/scripts/v11_track_b_analyze.py\n?? Decision_Model_in_RAG/scripts/v11_track_b_assemble.py\n?? Decision_Model_in_RAG/scripts/v11_track_b_index.py\n?? Decision_Model_in_RAG/scripts/v11_track_b_owner_closure.py\n?? Decision_Model_in_RAG/scripts/v11_track_b_reader.py\n?? Decision_Model_in_RAG/scripts/v11_track_b_selectors.py\n?? Decision_Model_in_RAG/src/\n?? Decision_Model_in_RAG/tests/test_e2_m0_frozen_mapping.py\n?? Decision_Model_in_RAG/tests/test_e2_m0_structural_oracle.py\n?? Decision_Model_in_RAG/tests/test_m1_data.py\n?? Decision_Model_in_RAG/tests/test_m2_retrieval.py\n?? Decision_Model_in_RAG/tests/test_m3_selection.py\n?? Decision_Model_in_RAG/tests/test_m4_reader.py\n?? Decision_Model_in_RAG/tests/test_m5_serving.py\n?? Decision_Model_in_RAG/tests/test_paid_gate.py\n?? Decision_Model_in_RAG/tests/test_quality_audit.py\n?? Decision_Model_in_RAG/tests/test_selection_policy.py\n?? Decision_Model_in_RAG/tests/test_track_b_index.py\n?? benchmarks/\n?? config/corpus_registry.json\n?? core_system/\n?? data/p22_cache/\n?? eval/benchmarks/common_voice_speech/\n?? eval/benchmarks/docvqa_p30i_cert/\n?? eval/dev_multimodal/\n?? eval/dev_multimodal_p30c/\n?? reports/P20_AUDIT_REPORT.md\n?? reports/P20_R1_AUDIT_REPORT.md\n?? reports/P20_R1_test_evidence/\n?? reports/P20_test_evidence/\n?? reports/P21_AUDIT_REPORT.md\n?? reports/P21_test_evidence/\n?? reports/P26R_ADAPTIVE_EVIDENCE_PACKAGING_REPORT.md\n?? reports/P26R_test_evidence/\n?? reports/P27R_ROUTING_RECERTIFICATION_REPORT.md\n?? reports/P27R_test_evidence/\n?? reports/P28AR_VISUAL_RETRIEVAL_PROMOTION_RECERTIFICATION_REPORT.md\n?? reports/P28AR_test_evidence/\n?? reports/P28A_VISUAL_DOCUMENT_RETRIEVAL_OPTIMIZATION_REPORT.md\n?? reports/P28A_test_evidence/\n?? reports/P28_0FR2_ERRATUM_SYNTHETIC_LEDGER.md\n?? reports/P28_0FR2_QUERY_LEDGER_CERTIFICATION_REPORT.md\n?? reports/P28_0FR2_test_evidence/\n?? reports/P28_0FR_RETRIEVAL_PROTOCOL_RECERTIFICATION_REPORT.md\n?? reports/P28_0FR_test_evidence/\n?? reports/P28_0F_AUTHENTIC_MULTIMODAL_BASELINE_REPORT.md\n?? reports/P28_0F_test_evidence/\n?? reports/P28_0R_MULTIMODAL_BASELINE_RECERTIFICATION_REPORT.md\n?? reports/P28_0R_test_evidence/\n?? reports/P28_0_COMPREHENSIVE_MULTIMODAL_BASELINE_REPORT.md\n?? reports/P28_0_test_evidence/\n?? reports/P28_EVAL_R3R_PATCH_test_evidence/\n?? reports/P28_EVAL_R3R_test_evidence/\n?? reports/P28_EVAL_R3_LIVE_MULTIMODAL_BASELINE_CERTIFICATION_REPORT.md\n?? reports/P28_EVAL_R3_test_evidence/\n?? reports/P28_EVAL_R4_test_evidence/\n?? reports/P28_EVAL_R5_test_evidence/\n?? reports/P29A_test_evidence/\n?? reports/P30A_R_DOCUMENT_QA_GROUND_TRUTH_AND_DOWNSTREAM_CERTIFICATION_REPORT.md\n?? reports/P30A_R_test_evidence/\n?? reports/P30A_VISUAL_DOCUMENT_RERANKING_OPTIMIZATION_REPORT.md\n?? reports/P30A_test_evidence/\n?? reports/P30B_COV_MULTIMODAL_DEV_BENCHMARK_REPORT.md\n?? reports/P30B_COV_test_evidence/\n?? reports/P30B_WORKABLE_MULTIMODAL_BASELINE_REPORT.md\n?? reports/P30B_test_evidence/\n?? reports/P30C_FULL_E0_BASELINE_AND_SECTION_ANALYSIS_REPORT.md\n?? reports/P30C_MULTIMODAL_ALIGNMENT_AND_CAPABILITY_REPAIR_REPORT.md\n?? reports/P30C_test_evidence/\n?? reports/P30D_NATIVE_AUDIO_RETRIEVAL_OPTIMIZATION_REPORT.md\n?? reports/P30D_test_evidence/\n?? reports/P30E_R_PRODUCTION_TEXT_CORPUS_AND_GATEWAY_CERTIFICATION_REPORT.md\n?? reports/P30E_R_test_evidence/\n?? reports/P30E_TEXT_HYBRID_RETRIEVAL_OPTIMIZATION_REPORT.md\n?? reports/P30E_test_evidence/\n?? reports/P30F_MULTIMODAL_EVIDENCE_TO_ANSWER_OPTIMIZATION_REPORT.md\n?? reports/P30F_test_evidence/\n?? reports/P30G_CONTEXT_BOUNDED_MULTIMODAL_EVIDENCE_REPORT.md\n?? reports/P30G_test_evidence/\n?? reports/P30H_GROUNDED_NUMERICAL_REASONING_AND_CERTIFICATION_REPORT.md\n?? reports/P30H_test_evidence/\n?? reports/P30I_INDEPENDENT_DOCVQA_CERT_AND_NUMERIC_ELIGIBILITY_REPORT.md\n?? reports/P30I_test_evidence/\n?? reports/P30J_GROUNDED_ATTRIBUTION_AND_OPERAND_EXTRACTION_REPORT.md\n?? reports/P30J_test_evidence/\n?? reports/P30K_VISUAL_RETRIEVAL_AND_GROUNDED_CITATION_OPTIMIZATION_REPORT.md\n?? reports/P30K_test_evidence/\n?? reports/P30L_VISUAL_RETRIEVAL_OPTIMIZATION_REPORT.md\n?? reports/P30L_test_evidence/\n?? reports/P30M_B_FULL_E0_BASELINE_AND_SECTION_ANALYSIS_REPORT.md\n?? reports/P30M_B_test_evidence/\n?? reports/P30M_D_BASELINE_TASK_DECOMPOSITION_AND_OPTIMIZATION_PRIORITY_REPORT.md\n?? reports/P30M_D_test_evidence/\n?? reports/P30M_END_TO_END_MULTIMODAL_CERTIFICATION_REPORT.md\n?? reports/P30M_UNIFIED_MULTIMODAL_DEV_BENCHMARK_REPORT.md\n?? reports/P30M_test_evidence/\n?? reports/P30N_PARALLEL_WAVE1_CAPABILITY_OPTIMIZATION_REPORT.md\n?? reports/P30N_test_evidence/\n?? reports/P30O_PRODUCTION_COMPATIBLE_VALIDATION_AND_BASELINE_RECONCILIATION_REPORT.md\n?? reports/P30O_test_evidence/\n?? reports/P30P_BOTTLENECK_RESOLUTION_AND_COMPOSITION_REPORT.md\n?? reports/P30P_test_evidence/\n?? reports/experiment_history/\n?? reports/p28_0r_user_request.txt\n?? research/\n?? scripts/build_p30b_cov_suite.py\n?? scripts/build_p30c_suite.py\n?? scripts/debug_generate.py\n?? scripts/evaluate_p30b_cov.py\n?? scripts/evaluate_p30c.py\n?? scripts/finalize_p30b_cov.py\n?? scripts/p20_benchmark_baseline_verifier.py\n?? scripts/p20_build_complete_evidence_pool.py\n?? scripts/p20_build_human_labels_and_taxonomy.py\n?? scripts/p20_check_manifests.py\n?? scripts/p20_evaluate_frozen_test.py\n?? scripts/p20_evaluate_verifier_models.py\n?? scripts/p20_r1_audit_provenance.py\n?? scripts/p20_r1_git_commit.py\n?? scripts/p20_r1_human_audit_sample.py\n?? scripts/p20_split_manifests.py\n?? scripts/p20_stratified_split.py\n?? scripts/p20_test_verifier_probe.py\n?? scripts/p21_build_benchmark_manifests.py\n?? scripts/p21_debug_multimodal.py\n?? scripts/p21_debug_n_images.py\n?? scripts/p21_probe_multimodal.py\n?? scripts/p21_probe_server.py\n?? scripts/p21_run_causal_benchmark.py\n?? scripts/p21_sanity_r2.py\n?? scripts/p21_test_multimodal_fit.py\n?? scripts/p22_r1_git_commit.py\n?? scripts/p22_test_models.py\n?? scripts/p26r_explore_dev_selectors.py\n?? scripts/p26r_prepare_independent_benchmark.py\n?? scripts/p26r_run_evaluation_matrix.py\n?? scripts/p26r_run_non_regressions.py\n?? scripts/p27_build_routing_benchmark.py\n?? scripts/p27_evaluate_l1_dev.py\n?? scripts/p27_fix_manifest_media_paths.py\n?? scripts/p27_git_sync.py\n?? scripts/p27_run_non_regressions_and_reliability.py\n?? scripts/p27_run_routing_evaluation_matrix.py\n?? scripts/p27_run_stage_latency_recertification.py\n?? scripts/p27r_audit_raw.py\n?? scripts/p27r_generate_certifications.py\n?? scripts/p27r_inspect_queries.py\n?? scripts/p27r_inspect_r1_r2.py\n?? scripts/p27r_reconcile_all.py\n?? scripts/p27r_starting_state.py\n?? scripts/p27r_test_pse.py\n?? scripts/p27r_test_single_execute.py\n?? scripts/p28_build_multimodal_suite.py\n?? scripts/p28_evaluate_and_decompose.py\n?? scripts/p28_generate_inventory_and_taxonomy.py\n?? scripts/p28_generate_starting_state.py\n?? scripts/p28_probe_controller.py\n?? scripts/p28_write_per_benchmark_files.py\n?? scripts/p28_write_results_jsonl.py\n?? scripts/p28a_finalize_artifacts.py\n?? scripts/p28a_orchestrator.py\n?? scripts/p28a_r0_real.py\n?? scripts/p28ar_audit_and_reproduce.py\n?? scripts/p28evalr3_build_manifests.py\n?? scripts/p28evalr3_evaluator.py\n?? scripts/p28evalr3_finalize_provenance.py\n?? scripts/p28evalr3_runner.py\n?? scripts/p28evalr3r_arithmetic_check.py\n?? scripts/p28evalr3r_evaluator.py\n?? scripts/p28evalr3r_patch_certify.py\n?? scripts/p28evalr3r_patch_temporal_runner.py\n?? scripts/p28evalr4_leakage_scan.py\n?? scripts/p28evalr4_reconstruct.py\n?? scripts/p28evalr5_evaluate_video.py\n?? scripts/p28evalr5_finalize.py\n?? scripts/p28evalr5_prepare.py\n?? scripts/p28evalr5_video_runner.py\n?? scripts/p28f_baseline_provenance.py\n?? scripts/p28f_build_and_evaluate.py\n?? scripts/p28f_finalize_artifacts.py\n?? scripts/p28fr2_aggregate_metrics.py\n?? scripts/p28fr2_build_canonical_ledger.py\n?? scripts/p28fr_audit_and_recertify.py\n?? scripts/p29a_blind_runner.py\n?? scripts/p29a_build_index.py\n?? scripts/p29a_common.py\n?? scripts/p29a_evaluate.py\n?? scripts/p29a_finalize.py\n?? scripts/p29a_latency_probe.py\n?? scripts/p29a_prepare.py\n?? scripts/p29a_reliability.py\n?? scripts/p30a_finalize.py\n?? scripts/p30a_run.py\n?? scripts/p30ar_adjudicate_answer_gold.py\n?? scripts/p30ar_arithmetic_check.py\n?? scripts/p30ar_blind_runner_test.py\n?? scripts/p30ar_build_source_inventory.py\n?? scripts/p30ar_evaluate_docqa.py\n?? scripts/p30ar_extract_source_records.py\n?? scripts/p30ar_prepare_freeze.py\n?? scripts/p30ar_run_frozen_docqa.py\n?? scripts/p30ar_stats_and_latency.py\n?? scripts/p30ar_verify_candidate_mapping.py\n?? scripts/p30b_build_artifacts.py\n?? scripts/p30b_evaluate_docqa.py\n?? scripts/p30b_run_docqa.py\n?? scripts/p30b_smoke_suite.py\n?? scripts/p30c_build_authorized_corpora.py\n?? scripts/p30c_build_video_corpus.py\n?? scripts/p30c_targeted_regression.py\n?? scripts/p30er_build_qwen_index.py\n?? scripts/p30er_certification.py\n?? scripts/p30er_full_pytest_status.py\n?? scripts/p30f_run.py\n?? scripts/p30g_run.py\n?? scripts/p30h_run.py\n?? scripts/p30i_run.py\n?? scripts/p30j_run.py\n?? scripts/p30k_run.py\n?? scripts/p30l_run.py\n?? scripts/p30m_acquire_missing.py\n?? scripts/p30m_unified.py\n?? scripts/p30mb_full_baseline.py\n?? scripts/p30md_decompose.py\n?? scripts/p30n_parallel_wave1.py\n?? scripts/p30o_production_validation.py\n?? scripts/p30p_bottleneck_resolution.py\n?? scripts/run_dev_multimodal.py\n?? scripts/run_p30c.py\n?? scripts/run_p30d.py\n?? scripts/run_p30e.py\n?? scripts/test_bg_run.py\n?? scripts/test_gateway_query.py\n?? scripts/test_model_speed.py\n?? scripts/test_terminal_exec.py\n?? services/\n?? src/evaluation/\n?? src/gateway/canonical_evidence.py\n?? src/gateway/context_budget.py\n?? src/gateway/evidence_selectors.py\n?? src/gateway/native_audio.py\n?? src/gateway/numerical_reasoning.py\n?? src/search/corpus_registry.py\n?? tests/test_p26r_evidence_packaging.py\n?? tests/test_p28evalr3r_metrics.py\n?? tests/test_p28evalr3r_patch.py\n?? tests/test_p28evalr4_protocol.py\n?? tests/test_p28evalr5_readiness.py\n?? tests/test_p28fr2_metrics.py\n?? tests/test_p29a.py\n?? tests/test_p30a.py\n?? tests/test_p30ar.py\n?? tests/test_p30b.py\n?? tests/test_p30c.py\n?? tests/test_p30d.py\n?? tests/test_p30e.py\n?? tests/test_p30er.py\n?? tests/test_p30f.py\n?? tests/test_p30g.py\n?? tests/test_p30h_numerical_reasoning.py\n?? tests/test_p30i.py\n?? tests/test_p30j.py\n?? tests/test_p30k.py\n?? tests/test_p30l.py\n?? tests/test_p30m.py\n?? tests/test_p30o.py\n?? tests/test_p30p.py"
+}

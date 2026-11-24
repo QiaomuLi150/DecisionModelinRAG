@@ -1,0 +1,170 @@
+{
+  "gpu_after": {
+    "captured_at": "2026-10-16T02:11:08.576640+00:00",
+    "devices": [
+      {
+        "index": 0,
+        "memory_free_mib": 63033,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 18119,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 56,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 1,
+        "memory_free_mib": 28195,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 52957,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 86,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 2,
+        "memory_free_mib": 26367,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 54785,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 3,
+        "memory_free_mib": 43977,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 37175,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 100,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 4,
+        "memory_free_mib": 24570,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 56583,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 5,
+        "memory_free_mib": 38852,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 42301,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 51,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 6,
+        "memory_free_mib": 15521,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 65631,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 100,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 7,
+        "memory_free_mib": 65436,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 15717,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      }
+    ],
+    "status": "ok"
+  },
+  "gpu_before": {
+    "captured_at": "2026-10-16T01:58:32.797992+00:00",
+    "devices": [
+      {
+        "index": 0,
+        "memory_free_mib": 63033,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 18119,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 29,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 1,
+        "memory_free_mib": 81149,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 4,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 2,
+        "memory_free_mib": 26367,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 54785,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 3,
+        "memory_free_mib": 81149,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 4,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 4,
+        "memory_free_mib": 24570,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 56583,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 5,
+        "memory_free_mib": 81149,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 4,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 6,
+        "memory_free_mib": 81149,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 4,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 7,
+        "memory_free_mib": 65436,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 15717,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      }
+    ],
+    "status": "ok"
+  },
+  "gpu_id": 5,
+  "model": "jina_v3_5",
+  "model_meta": {
+    "kind": "jina_listwise",
+    "params": "0.6B",
+    "path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--jinaai--jina-reranker-v3.5/snapshots/e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+    "repo": "jinaai/jina-reranker-v3.5",
+    "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc"
+  },
+  "n_rows": 1384,
+  "raw_output_sha256": "b553d364140b516e7f4c4ad64522763898c6b0c792e37472a86e741c13e3cb18",
+  "wall_ms": 755924.352184
+}

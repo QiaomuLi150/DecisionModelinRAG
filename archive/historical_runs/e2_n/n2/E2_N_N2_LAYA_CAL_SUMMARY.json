@@ -1,0 +1,18 @@
+{
+  "actual_model_input_hash_rows": 30,
+  "cache_reuse_rows": 0,
+  "config_sha256": "b3dc198e986fa65b910f195c499b3450428e4e95c2925670767cdf05f32eb792",
+  "denominator_correction": null,
+  "downloads": 0,
+  "expected_rows": 30,
+  "jev_calls": 0,
+  "model": "laya",
+  "ok_rows": 30,
+  "paid_api_calls": 0,
+  "physical_forward_evidence_rows": 30,
+  "rows": 30,
+  "stage": "N2_CAL",
+  "status": "PASS",
+  "unique_queries": 30,
+  "valid_unique_20_candidate_rows": 30
+}

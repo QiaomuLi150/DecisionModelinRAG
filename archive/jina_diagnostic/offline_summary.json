@@ -1,0 +1,11 @@
+{
+  "first20_path": "results/v3_6_essential/followup_v2_correction/C2_jina_diagnostic/first20_differences.jsonl",
+  "fresh_replicates": "PENDING_NATIVE_RUN",
+  "list_difference_n": 254,
+  "list_equal_n": 1130,
+  "n_queries": 1384,
+  "note": "Causes are evidence-bounded; a raw score difference alone does not identify dtype, padding, batch or truncation as the cause.",
+  "set_difference_n": 104,
+  "set_equal_n": 1280,
+  "status": "PASS"
+}

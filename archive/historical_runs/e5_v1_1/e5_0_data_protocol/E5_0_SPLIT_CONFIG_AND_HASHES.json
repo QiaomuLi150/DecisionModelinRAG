@@ -1,0 +1,35 @@
+{
+  "actual_group_counts": {
+    "CAL": 234,
+    "E5_EXPLORATORY": 643,
+    "E5_F_RESERVED": 292
+  },
+  "actual_question_counts": {
+    "CAL": 703,
+    "E5_EXPLORATORY": 2028,
+    "E5_F_RESERVED": 867
+  },
+  "dataset_snapshot": "QASPER train/dev v0.3",
+  "group_key": "exact full-paper text SHA-256 connected component",
+  "historical_overlap_exact_qids": 0,
+  "historical_overlap_passage_hashes": 0,
+  "historical_overlap_question_hashes": 0,
+  "partition_order": "sha256(seed|source_group_id) ascending",
+  "partition_unit": "source_group_id",
+  "reserved_content_exported": false,
+  "retrieval_allowed": [
+    "CAL",
+    "E5_EXPLORATORY"
+  ],
+  "schema_version": "E5-0-v1.1",
+  "seed": 731,
+  "snapshot_sha256": {
+    "qasper-dev-v0.3.json": "2ae7ee62a65b1c4225791c70de80c2aad4e8998cf1fd4f09a53103db4f21af93",
+    "qasper-train-v0.3.json": "9458bfe76074a8fa8d1685af02bcc73537aa6d338ad20591dfaff1946bc88bf4"
+  },
+  "target_proportions": {
+    "CAL": 0.2,
+    "E5_EXPLORATORY": 0.55,
+    "E5_F_RESERVED": 0.25
+  }
+}

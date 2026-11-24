@@ -1,0 +1,70 @@
+{
+  "bright_domains": {
+    "aops": 111,
+    "biology": 103,
+    "earth_science": 116,
+    "economics": 103,
+    "leetcode": 142,
+    "pony": 112,
+    "psychology": 101,
+    "robotics": 101,
+    "stackoverflow": 117,
+    "sustainable_living": 108,
+    "theoremqa_questions": 194,
+    "theoremqa_theorems": 76
+  },
+  "created_by": "scripts/v1_3_prepare.py",
+  "inputs": {
+    "bright_frozen_top20_slates": {
+      "path": "results/non_jev/v2/e9_bright_v1_0/01_retrieval/BRIGHT_FROZEN_TOP20_SLATES.jsonl",
+      "records": 1384,
+      "sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2"
+    },
+    "e11v_cohort_manifest": {
+      "counts": {
+        "oversized_diagnostic": 60,
+        "representative": 240
+      },
+      "path": "results/non_jev/v2/e11v_v1_0/01_admission/V1_COHORT_MANIFEST.json",
+      "sha256": "2269ed1128a7210b024ec2e0dd0d36ed6596d54867885c00111e136186584f76"
+    },
+    "e12o_cohort_lock": {
+      "path": "results/non_jev/v2/e12_o_final_v1_0/00_protocol/E12O_COHORT_LOCK.json",
+      "serving_ids": 120,
+      "sha256": "73ee82cd8cc06a58c27e2fbd0e071bfb3660d4eaeeba130d3e94b584b51bd5d2"
+    }
+  },
+  "pinned_models": {
+    "drex_dlm": {
+      "revision": "8f6f8244ce0b186b3caa4cdbaae1c9f3986bf63e",
+      "short_revision": "8f6f824"
+    },
+    "jina_v3_5": {
+      "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+      "short_revision": "e8a93f3"
+    },
+    "kev9": {
+      "revision": "db029f08b290afd9fee4aa4bbcd9ae48602d1eb0",
+      "short_revision": "db029f0"
+    },
+    "pplx_decider": {
+      "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+      "short_revision": "14c9d90"
+    },
+    "qwen3_reranker_0_6b": {
+      "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+      "short_revision": "e61197e"
+    },
+    "winnow12": {
+      "revision": "0b5b7f98e718cf0faffd0acea3093b86ebf00b56",
+      "short_revision": "0b5b7f9"
+    }
+  },
+  "protected_inputs_not_read": [
+    "qrels",
+    "gold answers",
+    "reference answers",
+    "prior outcome labels"
+  ],
+  "schema": "decisionrag-v1.3-source-inventory-v1"
+}

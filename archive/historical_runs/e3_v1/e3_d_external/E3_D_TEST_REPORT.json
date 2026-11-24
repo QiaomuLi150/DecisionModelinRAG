@@ -1,0 +1,7 @@
+{
+  "command": "./Production_Project/MultiModalRAG/venv/bin/python -m pytest -q tests/test_e3_d_offline.py",
+  "returncode": 0,
+  "status": "PASS",
+  "stderr": "",
+  "stdout": "......                                                                   [100%]\n"
+}

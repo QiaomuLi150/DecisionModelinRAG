@@ -1,0 +1,13 @@
+benchmark,policy,valid_pct,fs5_labeled_original,difference_from_anchor,difference_lo95,difference_hi95,p95_ratio,release_R_Q_S
+enterprise,P0,100.0,0.55756208,,,,,R✓/Q?/S—
+enterprise,P1,100.0,0.58690745,,,,1.0000,R✓/Q?/S✓
+enterprise,P2,100.0,0.53273138,,,,0.5210,R✓/Q?/S✓
+enterprise,P3,100.0,0.56884876,,,,1.1921,R✓/Q?/S✓
+enterprise,P5,100.0,0.6523702,,,,6.4746,R✓/Q?/S×
+enterprise,P6,100.0,0.67042889,,,,13.8302,R✓/Q?/S×
+musique,P0,100.0,0.09921551,,,,,R✓/Q?/S—
+musique,P1,100.0,0.19704661,,,,1.0000,R✓/Q?/S✓
+musique,P2,100.0,0.19796954,,,,1.0029,R✓/Q?/S✓
+musique,P3,100.0,0.20258422,,,,1.4898,R✓/Q?/S✓
+musique,P5,100.0,0.17535764,,,,11.3140,R✓/Q?/S×
+musique,P6,100.0,0.18227965,,,,17.2757,R✓/Q?/S×

@@ -1,0 +1,4 @@
+dataset,rows,corpus_rows,exact_k15_or_equivalent,natural_corpus_present,complete_support_sets,admission
+dochop,11379,,,False,False,NOT_ADMISSIBLE_FOR_NATURAL_OR_COMPLETE_SUPPORT; supplied_context_only
+garage,2366,,2329,,False,FIXED_POOL_GROUNDING_ADMISSIBLE_CONDITIONAL; exact-K15-to-Top5 only; never natural Top20
+scifact,1109,5183,,True,False,NATURAL_RELEVANCE_ADMISSIBLE_CONDITIONAL; doc-level sparse qrels; not CSSR

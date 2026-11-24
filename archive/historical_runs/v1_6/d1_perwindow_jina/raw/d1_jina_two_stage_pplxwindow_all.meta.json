@@ -1,0 +1,8 @@
+{
+  "failed": 21,
+  "labels_joined": false,
+  "path": "results/v1_6/d1_perwindow_jina/raw/d1_jina_two_stage_pplxwindow_all.jsonl",
+  "records": 9688,
+  "sha256": "5763d6dbaabd039f45d9564249936861eb63cd54563ad972add3cd45a5a94de3",
+  "valid": 9667
+}

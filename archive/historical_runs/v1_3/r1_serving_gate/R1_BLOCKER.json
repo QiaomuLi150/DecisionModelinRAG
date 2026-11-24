@@ -1,0 +1,15 @@
+{
+  "status": "BLOCKED_DEDICATED_GPU_NOT_AVAILABLE",
+  "experiment": "R1",
+  "reason": "The protocol requires a dedicated A100-SXM4-80GB with no unrelated resident process before and after timing. The preflight snapshot showed resident processes on every visible GPU; no process was evicted.",
+  "model_calls": 0,
+  "timed_requests": 0,
+  "timing_claims_permitted": false,
+  "required_policies": [
+    "pplx_budget",
+    "jina_full",
+    "jina_pplx_budget"
+  ],
+  "resolution": "Owner must provide an actually isolated device window before R1 timing can be validly executed. Shared-GPU measurements are not substituted.",
+  "labels_joined": false
+}

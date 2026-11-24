@@ -1,0 +1,62 @@
+{
+  "all_within_0.0005": true,
+  "checks": [
+    {
+      "expected": [
+        -0.0022,
+        -0.0195,
+        0.0138
+      ],
+      "observed": [
+        -0.0022396913470355655,
+        -0.01939681171625461,
+        0.013762930856440514
+      ],
+      "policy": "pplx_single_2048",
+      "within_0.0005": true
+    },
+    {
+      "expected": [
+        0.0036,
+        -0.0139,
+        0.0203
+      ],
+      "observed": [
+        0.0035881007566660197,
+        -0.01398845556116461,
+        0.020096226418204546
+      ],
+      "policy": "pplx_single_4096",
+      "within_0.0005": true
+    },
+    {
+      "expected": [
+        0.0088,
+        -0.0121,
+        0.0295
+      ],
+      "observed": [
+        0.008760554137238844,
+        -0.012068134400534412,
+        0.02931299959560593
+      ],
+      "policy": "pplx_single_8192",
+      "within_0.0005": true
+    },
+    {
+      "expected": [
+        -0.0202,
+        -0.0401,
+        -0.0048
+      ],
+      "observed": [
+        -0.020188529756480146,
+        -0.039914237822875856,
+        -0.004720728087950342
+      ],
+      "policy": "jina_single_4096",
+      "within_0.0005": true
+    }
+  ],
+  "note": "The declared whole-domain query-weighted bootstrap is authoritative; any mismatch is reported, not tuned."
+}

@@ -1,0 +1,15 @@
+dataset,candidate_count,rows,interpretation
+dochop,3,1365,context_list
+dochop,4,1447,context_list
+dochop,5,8567,context_list
+garage,5,2,supplied_pool
+garage,6,1,supplied_pool
+garage,7,3,supplied_pool
+garage,8,2,supplied_pool
+garage,9,1,supplied_pool
+garage,10,2,supplied_pool
+garage,11,4,supplied_pool
+garage,12,7,supplied_pool
+garage,13,4,supplied_pool
+garage,14,11,supplied_pool
+garage,15,2329,supplied_pool

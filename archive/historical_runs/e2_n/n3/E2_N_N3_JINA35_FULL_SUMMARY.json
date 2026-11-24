@@ -1,0 +1,24 @@
+{
+  "cache_reuse_rows": 0,
+  "expected_rows": 4267,
+  "gpu_snapshot_after": {
+    "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,utilization.gpu --format=csv,noheader,nounits",
+    "status": "PASS",
+    "stderr": "",
+    "stdout": "0, NVIDIA A100-SXM4-80GB, 81920, 3029, 8\n1, NVIDIA A100-SXM4-80GB, 81920, 55827, 0\n2, NVIDIA A100-SXM4-80GB, 81920, 54785, 0\n3, NVIDIA A100-SXM4-80GB, 81920, 60463, 0\n4, NVIDIA A100-SXM4-80GB, 81920, 42729, 37\n5, NVIDIA A100-SXM4-80GB, 81920, 70213, 98\n6, NVIDIA A100-SXM4-80GB, 81920, 64231, 93\n7, NVIDIA A100-SXM4-80GB, 81920, 52223, 0"
+  },
+  "input_and_response_hash_rows": 4267,
+  "jev_calls": 0,
+  "model": "jinaai/jina-reranker-v3.5",
+  "ok_rows": 4267,
+  "paid_api_calls": 0,
+  "physical_forward_evidence_rows": 4267,
+  "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+  "rows": 4267,
+  "stage": "N3_FULL_HISTORICAL",
+  "status": "PASS",
+  "total_physical_forward_calls": 4267,
+  "trace_sha256": "e9472311e538cc36e70ac9ebc387e3370c9d9405a544ec86e943fa85ac4f9526",
+  "unique_queries": 4267,
+  "valid_unique_20_candidate_rows": 4267
+}

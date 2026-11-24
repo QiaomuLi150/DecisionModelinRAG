@@ -1,0 +1,61 @@
+{
+  "analysis": {
+    "intervals": "follow R3/R2 predeclared bootstrap conventions; no outcome-dependent exclusions",
+    "metrics": "offline known-positive nDCG@5 after raw-output freeze",
+    "original_order": "authenticated R3 result only",
+    "paired_orders": "same canonical query and source slate; candidate order only changed"
+  },
+  "description": "PPLX two-stage selection on the six non-original candidate orders; original order is reused from authenticated R3.",
+  "deviations": [],
+  "experiment_id": "r3_multipass_ordered",
+  "inputs": {
+    "bright_path": "results/non_jev/v2/e9_bright_v1_0/01_retrieval/BRIGHT_FROZEN_TOP20_SLATES.jsonl",
+    "bright_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+    "labels_joined": false,
+    "permutation_manifest": "results/v1_3/r2_order_sensitivity/permutation_manifest.jsonl",
+    "permutation_manifest_sha256": "75ee9bf7ab05ef9e2916dd334d3d5227cb7e038ed2061c2f4aca390f0f271255"
+  },
+  "policy": {
+    "budget": {
+      "L": 8192,
+      "question_shortening": false,
+      "redistribution": false,
+      "rho": 128
+    },
+    "contract": "two windows of ten, native Top-5 per window, native Top-5 over resulting ten",
+    "failure_rule": "any failed native call fails the request",
+    "name": "pplx_two_stage",
+    "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+    "stage_1": "two windows of ten"
+  },
+  "population": {
+    "attempts_per_order": 1384,
+    "bright_records": 1384,
+    "concurrency_per_worker": 1,
+    "native_calls_per_success": 3,
+    "orders": [
+      "reversed",
+      "perm_seed_1",
+      "perm_seed_2",
+      "perm_seed_3",
+      "perm_seed_4",
+      "perm_seed_5"
+    ],
+    "shards": {
+      "gpu3": [
+        "reversed",
+        "perm_seed_1"
+      ],
+      "gpu5": [
+        "perm_seed_2",
+        "perm_seed_3"
+      ],
+      "gpu6": [
+        "perm_seed_4",
+        "perm_seed_5"
+      ]
+    }
+  },
+  "protocol_id": "decisionrag-v1.3-r3_multipass_ordered-v1.0",
+  "status": "FROZEN_PRE_OUTCOME"
+}

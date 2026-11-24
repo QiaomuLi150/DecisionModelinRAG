@@ -1,0 +1,179 @@
+{
+  "comparisons": {
+    "Liquid_minus_Qwen0.6B": {
+      "domain_count": 12,
+      "domain_effects": [
+        {
+          "a_mean": 0.2481729687532525,
+          "b_mean": 0.16854087071806262,
+          "domain": "biology"
+        },
+        {
+          "a_mean": 0.25670725378052806,
+          "b_mean": 0.25692397579096327,
+          "domain": "earth_science"
+        },
+        {
+          "a_mean": 0.1390271748315582,
+          "b_mean": 0.14603838425869947,
+          "domain": "economics"
+        },
+        {
+          "a_mean": 0.15268395785287361,
+          "b_mean": 0.17692581889968428,
+          "domain": "psychology"
+        },
+        {
+          "a_mean": 0.14708836887219942,
+          "b_mean": 0.1566138726335308,
+          "domain": "robotics"
+        },
+        {
+          "a_mean": 0.14011696095944837,
+          "b_mean": 0.1839064709192476,
+          "domain": "stackoverflow"
+        },
+        {
+          "a_mean": 0.18252299417936826,
+          "b_mean": 0.12801796981683938,
+          "domain": "sustainable_living"
+        },
+        {
+          "a_mean": 0.09962616832829611,
+          "b_mean": 0.14054467534337575,
+          "domain": "pony"
+        },
+        {
+          "a_mean": 0.21121616301008111,
+          "b_mean": 0.28597938816259266,
+          "domain": "leetcode"
+        },
+        {
+          "a_mean": 0.04016706594474071,
+          "b_mean": 0.08321191820650863,
+          "domain": "aops"
+        },
+        {
+          "a_mean": 0.08219292853505653,
+          "b_mean": 0.14057159939811703,
+          "domain": "theoremqa_questions"
+        },
+        {
+          "a_mean": 0.08825748742943591,
+          "b_mean": 0.11846367518133523,
+          "domain": "theoremqa_theorems"
+        }
+      ],
+      "macro_domain_primary": {
+        "ci95": [
+          -0.03884249994547151,
+          0.00944420916659197
+        ],
+        "effect": -0.016496593904343163,
+        "n": 12,
+        "reps": 5000,
+        "seed": 731
+      },
+      "query_weighted_sensitivity": {
+        "ci95": [
+          -0.032279883290989395,
+          -0.00973714361950452
+        ],
+        "effect": -0.02080266176396467,
+        "n": 1384,
+        "reps": 5000,
+        "seed": 731
+      }
+    },
+    "PPLX_minus_Jina": {
+      "domain_count": 12,
+      "domain_effects": [
+        {
+          "a_mean": 0.20604808618770568,
+          "b_mean": 0.19437600232381735,
+          "domain": "biology"
+        },
+        {
+          "a_mean": 0.09397818688466465,
+          "b_mean": 0.308761577871133,
+          "domain": "earth_science"
+        },
+        {
+          "a_mean": 0.04523306719639678,
+          "b_mean": 0.18818671328280173,
+          "domain": "economics"
+        },
+        {
+          "a_mean": 0.06671875998999739,
+          "b_mean": 0.22354915889655289,
+          "domain": "psychology"
+        },
+        {
+          "a_mean": 0.08589433612615824,
+          "b_mean": 0.19040521211232592,
+          "domain": "robotics"
+        },
+        {
+          "a_mean": 0.0,
+          "b_mean": 0.18980956295786516,
+          "domain": "stackoverflow"
+        },
+        {
+          "a_mean": 0.184793344749221,
+          "b_mean": 0.1944272315888792,
+          "domain": "sustainable_living"
+        },
+        {
+          "a_mean": 0.20145710529583694,
+          "b_mean": 0.13060618036469157,
+          "domain": "pony"
+        },
+        {
+          "a_mean": 0.0,
+          "b_mean": 0.28061706321923746,
+          "domain": "leetcode"
+        },
+        {
+          "a_mean": 0.025040813652078126,
+          "b_mean": 0.07429177496092536,
+          "domain": "aops"
+        },
+        {
+          "a_mean": 0.05534483192242948,
+          "b_mean": 0.1276896560937095,
+          "domain": "theoremqa_questions"
+        },
+        {
+          "a_mean": 0.05560913665172259,
+          "b_mean": 0.09786188618360772,
+          "domain": "theoremqa_theorems"
+        }
+      ],
+      "macro_domain_primary": {
+        "ci95": [
+          -0.15381727491417288,
+          -0.0442565978717294
+        ],
+        "effect": -0.09837202926661133,
+        "n": 12,
+        "reps": 5000,
+        "seed": 731
+      },
+      "query_weighted_sensitivity": {
+        "ci95": [
+          -0.11866908935010775,
+          -0.08793649606006218
+        ],
+        "effect": -0.10311112905783595,
+        "n": 1384,
+        "reps": 5000,
+        "seed": 731
+      }
+    }
+  },
+  "cssr": "not used; BRIGHT is not a complete-support passage benchmark",
+  "factual_correctness": "not measured",
+  "known_positive_labels": "gold_ids joined after raw-output freeze",
+  "primary_endpoint": "binary known-positive operational nDCG@5, unweighted macro-domain mean; failed native calls score 0 operationally",
+  "retrieval_baseline": "retrieval_prefix5 derived from frozen Top-20 prefix"
+}

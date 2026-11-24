@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\caption{Do multi-stage reranking and its controls hold up? Follow-up experiments on BRIGHT}\label{tab:followup}
+\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}l r rr@{}}\toprule
+Contrast (nDCG@5) & $\Delta$ & $p$ & Holm $p$\\
+\midrule
+\addlinespace[2pt]\multicolumn{4}{@{}l}{\textit{Candidate order (row 3: mean over six shuffled orders)}}\\[1pt]
+\quad PPLX: BM25 $-$ shuffled order & $\mathbf{+.0131}$ & $<$.001 & 0.002\\
+\quad Jina: BM25 $-$ shuffled order & $-.0004$ & 0.848 & --\\
+\quad PPLX truncated $-$ Jina & $-.0051$ & 0.620 & --\\
+\addlinespace[2pt]\multicolumn{4}{@{}l}{\textit{Two-stage PPLX (two windows of 10, then 10 to 5)}}\\[1pt]
+\quad Two-stage $-$ Jina & $\mathbf{+.0264}$ & 0.003 & 0.010\\
+\quad Two-stage $-$ PPLX truncated & $\mathbf{+.0180}$ & 0.020 & 0.039\\
+\quad Two-stage $-$ Jina, shuffled & $\mathbf{+.0198}$ & 0.020 & 0.039\\
+\quad Two-stage: BM25 $-$ shuffled order & $+.0062$ & 0.051 & --\\
+\addlinespace[2pt]\multicolumn{4}{@{}l}{\textit{Same two-stage procedure for Jina$^b$}}\\[1pt]
+\quad PPLX two-stage $-$ Jina two-stage & $\mathbf{+.0239}$ & 0.005 & 0.016\\
+\quad \quad same, shuffled & $+.0193$ & 0.029 & 0.059\\
+\quad PPLX two-stage $-$ Jina, same text$^c$ & $\mathbf{+.0252}$ & 0.004 & 0.008\\
+\quad \quad same, shuffled & $\mathbf{+.0213}$ & 0.020 & 0.020\\
+\quad Two-stage Jina $-$ Jina & $+.0025$ & 0.232 & 0.232\\
+\bottomrule\end{tabular}
+\tabnote{Bold: Holm-adjusted $p<0.05$. Protocols were frozen before outcomes; whole-domain bootstrap and exact sign-flip test; Holm adjustment within each pre-declared family: the $^b$\,control group (four contrasts; the omitted one is two-stage PPLX minus two-stage Jina on the single-call truncated strings, $+0.0318$, Holm $p=0.004$) and the identical-text pair ($^c$\,Jina read exactly the per-window strings PPLX received). Shuffled: mean over six candidate orders. --: outside a Holm family.}
+\end{table}

@@ -1,0 +1,50 @@
+{
+  "created_by": "scripts/v1_3_prepare.py",
+  "frozen_inputs": {
+    "bright": 1384,
+    "crag": {
+      "oversized_diagnostic": 60,
+      "representative": 240
+    },
+    "leetcode": 142,
+    "serving": 120
+  },
+  "inference_status": {
+    "r1": "BLOCKED_DEDICATED_GPU_NOT_AVAILABLE",
+    "r2": "BLOCKED_SAFE_NATIVE_EXECUTION_WINDOW_NOT_AVAILABLE",
+    "r3": "BLOCKED_SAFE_NATIVE_EXECUTION_WINDOW_NOT_AVAILABLE",
+    "r4": "BLOCKED_DEDICATED_GPU_NOT_AVAILABLE",
+    "r5": "BLOCKED_SERVER_AND_GPU_GATE",
+    "r6": "BLOCKED_NATIVE_TOKENIZER_FREEZE"
+  },
+  "prepared": [
+    "R1-R6 protocol locks",
+    "BRIGHT label-blind manifest",
+    "E12-O serving manifest",
+    "R2 permutation manifest",
+    "R3 two-stage manifest",
+    "R6 candidate preparation"
+  ],
+  "protection": "No qrels, answers, reference labels or prior outcomes were read; no model runtime was imported; no model/service request was made.",
+  "source_sha256": {
+    "bright_frozen_top20_slates": {
+      "path": "results/non_jev/v2/e9_bright_v1_0/01_retrieval/BRIGHT_FROZEN_TOP20_SLATES.jsonl",
+      "records": 1384,
+      "sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2"
+    },
+    "e11v_cohort_manifest": {
+      "counts": {
+        "oversized_diagnostic": 60,
+        "representative": 240
+      },
+      "path": "results/non_jev/v2/e11v_v1_0/01_admission/V1_COHORT_MANIFEST.json",
+      "sha256": "2269ed1128a7210b024ec2e0dd0d36ed6596d54867885c00111e136186584f76"
+    },
+    "e12o_cohort_lock": {
+      "path": "results/non_jev/v2/e12_o_final_v1_0/00_protocol/E12O_COHORT_LOCK.json",
+      "serving_ids": 120,
+      "sha256": "73ee82cd8cc06a58c27e2fbd0e071bfb3660d4eaeeba130d3e94b584b51bd5d2"
+    }
+  },
+  "status": "PARTIAL_PREPARATION_BLOCKED_FOR_INFERENCE"
+}

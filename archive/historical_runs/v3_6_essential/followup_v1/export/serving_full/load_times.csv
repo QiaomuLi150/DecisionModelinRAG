@@ -1,0 +1,5 @@
+session,phase,load_ms
+A,jina_load_ms,1433.081
+A,pplx_load_ms,14992.16
+B,jina_load_ms,1511.137
+B,pplx_load_ms,15462.088

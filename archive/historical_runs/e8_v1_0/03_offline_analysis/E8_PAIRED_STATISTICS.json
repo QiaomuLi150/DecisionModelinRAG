@@ -1,0 +1,462 @@
+{
+  "bootstrap": {
+    "resamples": 5000,
+    "seed": 731,
+    "unit": "query"
+  },
+  "jev_calls": 0,
+  "labels_loaded_after_raw_freeze": true,
+  "paid_api_calls": 0,
+  "reserved_access": false,
+  "schema": "DECISIONRAG-E8-PAIRED-STATS-V1",
+  "stats": {
+    "jina_v3_5|garage": {
+      "a_valid": 40,
+      "ar_exact_set_rate": 0.275,
+      "ar_mean_jaccard": 0.6928571428571428,
+      "ar_ndcg_difference": {
+        "ci95": [
+          -0.016772216497301838,
+          0.02751112896888902
+        ],
+        "n": 40,
+        "point": 0.004901905238182359,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "ar_valid_pairs": 40,
+      "c_valid": 40,
+      "cd_exact_set_rate": 0.3,
+      "cd_mean_jaccard": 0.713095238095238,
+      "cd_ndcg_difference": {
+        "ci95": [
+          -0.018908740484630683,
+          0.022386867106787965
+        ],
+        "n": 40,
+        "point": 0.0014055662887803861,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "cd_valid_pairs": 40,
+      "common_complete_n": 40,
+      "common_jaccard_moderation": {
+        "ci95": [
+          -0.022619047619047622,
+          0.06547619047619048
+        ],
+        "n": 40,
+        "point": 0.02023809523809524,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "d_valid": 40,
+      "dataset": "garage",
+      "model": "jina_v3_5",
+      "ndcg_moderation": {
+        "ci95": [
+          -0.016310698479639126,
+          0.00804198973631919
+        ],
+        "n": 40,
+        "point": -0.0034963389494019727,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "r_valid": 40,
+      "scheduled": 40
+    },
+    "jina_v3_5|scifact": {
+      "a_valid": 40,
+      "ar_exact_set_rate": 0.225,
+      "ar_mean_jaccard": 0.6880952380952381,
+      "ar_ndcg_difference": {
+        "ci95": [
+          -0.009375167497709336,
+          0.05505084680749974
+        ],
+        "n": 40,
+        "point": 0.017357918550455837,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "ar_valid_pairs": 40,
+      "c_valid": 40,
+      "cd_exact_set_rate": 0.175,
+      "cd_mean_jaccard": 0.6773809523809524,
+      "cd_ndcg_difference": {
+        "ci95": [
+          -0.02586337745995563,
+          0.050385856514087814
+        ],
+        "n": 40,
+        "point": 0.010289393005967016,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "cd_valid_pairs": 40,
+      "common_complete_n": 40,
+      "common_jaccard_moderation": {
+        "ci95": [
+          -0.04642857142857143,
+          0.021428571428571425
+        ],
+        "n": 40,
+        "point": -0.010714285714285716,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "d_valid": 40,
+      "dataset": "scifact",
+      "model": "jina_v3_5",
+      "ndcg_moderation": {
+        "ci95": [
+          -0.027680268482140686,
+          0.004349418158167309
+        ],
+        "n": 40,
+        "point": -0.007068525544488821,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "r_valid": 40,
+      "scheduled": 40
+    },
+    "pplx_decider|garage": {
+      "a_valid": 40,
+      "ar_exact_set_rate": 0.0,
+      "ar_mean_jaccard": 0.4558531746031746,
+      "ar_ndcg_difference": {
+        "ci95": [
+          -0.01490695042959847,
+          0.04929184600103058
+        ],
+        "n": 40,
+        "point": 0.01610511061604924,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "ar_valid_pairs": 40,
+      "c_valid": 40,
+      "cd_exact_set_rate": 0.0,
+      "cd_mean_jaccard": 0.4441468253968254,
+      "cd_ndcg_difference": {
+        "ci95": [
+          -0.015056397532228694,
+          0.04518779625747012
+        ],
+        "n": 40,
+        "point": 0.014557941168085047,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "cd_valid_pairs": 40,
+      "common_complete_n": 40,
+      "common_jaccard_moderation": {
+        "ci95": [
+          -0.05793650793650793,
+          0.03888888888888888
+        ],
+        "n": 40,
+        "point": -0.011706349206349205,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "d_valid": 40,
+      "dataset": "garage",
+      "model": "pplx_decider",
+      "ndcg_moderation": {
+        "ci95": [
+          -0.018992524602187817,
+          0.015561619240047944
+        ],
+        "n": 40,
+        "point": -0.0015471694479641987,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "r_valid": 40,
+      "scheduled": 40
+    },
+    "pplx_decider|scifact": {
+      "a_valid": 26,
+      "ar_exact_set_rate": 0.07692307692307693,
+      "ar_mean_jaccard": 0.4748168498168498,
+      "ar_ndcg_difference": {
+        "ci95": [
+          -0.042585028434062595,
+          0.042585028434062595
+        ],
+        "n": 26,
+        "point": 0.0,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "ar_valid_pairs": 26,
+      "c_valid": 25,
+      "cd_exact_set_rate": 0.08,
+      "cd_mean_jaccard": 0.47349206349206346,
+      "cd_ndcg_difference": {
+        "ci95": [
+          -0.0759479565824284,
+          0.0
+        ],
+        "n": 25,
+        "point": -0.030236922146523362,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "cd_valid_pairs": 25,
+      "common_complete_n": 25,
+      "common_jaccard_moderation": {
+        "ci95": [
+          -0.0680952380952381,
+          0.04904761904761905
+        ],
+        "n": 25,
+        "point": -0.010317460317460315,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "d_valid": 25,
+      "dataset": "scifact",
+      "model": "pplx_decider",
+      "ndcg_moderation": {
+        "ci95": [
+          -0.0759479565824284,
+          0.0
+        ],
+        "n": 25,
+        "point": -0.030236922146523362,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "r_valid": 26,
+      "scheduled": 40
+    },
+    "qwen3_reranker_0_6b|garage": {
+      "a_valid": 40,
+      "ar_exact_set_rate": 1.0,
+      "ar_mean_jaccard": 1.0,
+      "ar_ndcg_difference": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 40,
+        "point": 0.0,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "ar_valid_pairs": 40,
+      "c_valid": 40,
+      "cd_exact_set_rate": 0.95,
+      "cd_mean_jaccard": 0.9833333333333334,
+      "cd_ndcg_difference": {
+        "ci95": [
+          0.0,
+          0.0017633814595576253
+        ],
+        "n": 40,
+        "point": 0.0005877938198525417,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "cd_valid_pairs": 40,
+      "common_complete_n": 40,
+      "common_jaccard_moderation": {
+        "ci95": [
+          -0.04166666666666667,
+          0.0
+        ],
+        "n": 40,
+        "point": -0.01666666666666667,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "d_valid": 40,
+      "dataset": "garage",
+      "model": "qwen3_reranker_0_6b",
+      "ndcg_moderation": {
+        "ci95": [
+          0.0,
+          0.0017633814595576253
+        ],
+        "n": 40,
+        "point": 0.0005877938198525417,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "r_valid": 40,
+      "scheduled": 40
+    },
+    "qwen3_reranker_0_6b|scifact": {
+      "a_valid": 40,
+      "ar_exact_set_rate": 1.0,
+      "ar_mean_jaccard": 1.0,
+      "ar_ndcg_difference": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 40,
+        "point": 0.0,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "ar_valid_pairs": 40,
+      "c_valid": 40,
+      "cd_exact_set_rate": 1.0,
+      "cd_mean_jaccard": 1.0,
+      "cd_ndcg_difference": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 40,
+        "point": 0.0,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "cd_valid_pairs": 40,
+      "common_complete_n": 40,
+      "common_jaccard_moderation": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 40,
+        "point": 0.0,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "d_valid": 40,
+      "dataset": "scifact",
+      "model": "qwen3_reranker_0_6b",
+      "ndcg_moderation": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 40,
+        "point": 0.0,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "r_valid": 40,
+      "scheduled": 40
+    },
+    "startlux_decision_4b|garage": {
+      "a_valid": 40,
+      "ar_exact_set_rate": 0.175,
+      "ar_mean_jaccard": 0.650595238095238,
+      "ar_ndcg_difference": {
+        "ci95": [
+          -0.0027648726787015,
+          0.03890482384260411
+        ],
+        "n": 40,
+        "point": 0.017774821371450512,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "ar_valid_pairs": 40,
+      "c_valid": 40,
+      "cd_exact_set_rate": 0.175,
+      "cd_mean_jaccard": 0.6267857142857143,
+      "cd_ndcg_difference": {
+        "ci95": [
+          -0.016400634689042723,
+          0.012648482738164152
+        ],
+        "n": 40,
+        "point": -0.0015821790655130147,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "cd_valid_pairs": 40,
+      "common_complete_n": 40,
+      "common_jaccard_moderation": {
+        "ci95": [
+          -0.07738095238095237,
+          0.030952380952380946
+        ],
+        "n": 40,
+        "point": -0.023809523809523808,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "d_valid": 40,
+      "dataset": "garage",
+      "model": "startlux_decision_4b",
+      "ndcg_moderation": {
+        "ci95": [
+          -0.03610908936422559,
+          -0.004754756825027248
+        ],
+        "n": 40,
+        "point": -0.01935700043696353,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "r_valid": 40,
+      "scheduled": 40
+    },
+    "startlux_decision_4b|scifact": {
+      "a_valid": 40,
+      "ar_exact_set_rate": 0.125,
+      "ar_mean_jaccard": 0.5580357142857142,
+      "ar_ndcg_difference": {
+        "ci95": [
+          -0.06923941593561679,
+          0.0375
+        ],
+        "n": 40,
+        "point": -0.016443693042198154,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "ar_valid_pairs": 40,
+      "c_valid": 40,
+      "cd_exact_set_rate": 0.2,
+      "cd_mean_jaccard": 0.5904761904761904,
+      "cd_ndcg_difference": {
+        "ci95": [
+          -0.08016367558072551,
+          0.03233632441927449
+        ],
+        "n": 40,
+        "point": -0.024998688957829352,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "cd_valid_pairs": 40,
+      "common_complete_n": 40,
+      "common_jaccard_moderation": {
+        "ci95": [
+          -0.012499999999999999,
+          0.07827380952380952
+        ],
+        "n": 40,
+        "point": 0.03244047619047619,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "d_valid": 40,
+      "dataset": "scifact",
+      "model": "startlux_decision_4b",
+      "ndcg_moderation": {
+        "ci95": [
+          -0.029802920088306296,
+          0.004420127028494642
+        ],
+        "n": 40,
+        "point": -0.008554995915631195,
+        "resamples": 5000,
+        "seed": 731
+      },
+      "r_valid": 40,
+      "scheduled": 40
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "results/non_jev/v2/e9_v1_0/01_benchmark_admission/trec24_retrieval_qrels.txt": "92fcf7ca4943c7913eb28b66c91ac239eb58d80ce875842c42dd6fc1dd99ebc7",
+  "results/non_jev/v2/e9_v1_0/01_benchmark_admission/trec24_test_top100.jsonl": "7f675eadda6e99fa7990c2034734e87d7380c3ac6ef9d51da0c11bdae84253f9",
+  "results/non_jev/v2/e9_v1_0/01_benchmark_admission/trec24_topics.rag24.test.txt": "6afcd66f957ddff0e5d71f8e3d82931e180a57933bc3772776c6a4ded381b2c1"
+}

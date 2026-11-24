@@ -1,0 +1,11 @@
+{
+  "status": "FROZEN",
+  "amendment": "OWNER_APPROVED_VERSIONED_INPUT_CONTRACT",
+  "original_protocol_preserved": true,
+  "protocol_v2_sha256": "9a83a3ccdbd6d8c0d260ced93d36d65d012d06e8ede5a84c12e60f6ada0c82f6",
+  "input_manifest_sha256": "5d7e6685c4cc64b6b6c0e3d6686daaeed226a8a073f87c9c155101781373454e",
+  "enterprise_rows": 500,
+  "musique_rows": 2167,
+  "archive_text_hash_checks": 10000,
+  "created_utc": "2026-10-20T20:44:11.958995+00:00"
+}

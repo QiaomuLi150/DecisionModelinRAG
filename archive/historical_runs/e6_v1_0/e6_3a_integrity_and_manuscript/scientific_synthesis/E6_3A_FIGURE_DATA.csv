@@ -1,0 +1,5 @@
+figure,workload,model,x_p95_ms,y_quality,failure_rate,memory_mib
+quality_vs_selector_latency,scifact,pplx_decider,930.4929301142693,not pooled; see E6-2 endpoint,0.0,50423.36
+quality_vs_selector_latency,garage,pplx_decider,722.5320325233039,not pooled; see E6-2 endpoint,0.0,50311.95
+quality_vs_selector_latency,scifact,jina_v3_5,345.3217082191257,not pooled; see E6-2 endpoint,0.0,2264.7
+quality_vs_selector_latency,garage,jina_v3_5,88.34899081848555,not pooled; see E6-2 endpoint,0.0,1450.88

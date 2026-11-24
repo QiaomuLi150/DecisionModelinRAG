@@ -1,0 +1,5 @@
+run,source,rows,valid,ndcg5,list_agreement_to_other
+v1.5_frozen,results/v1_5/.../jina_two_stage_pplxtext__original.jsonl,1384,1380,0.17897033929762382,1069_differing_queries
+v1.6_d1_original,results/v1_6/.../d1_jina_two_stage_pplxwindow_all.jsonl,1384,1381,0.18554663238412347,1069_differing_queries
+C2_fp32_batch1_run1,results/v3_6_essential/followup_v2_correction/C2_jina_diagnostic/raw/jina_fp32_batch1_run1.jsonl,1384,1380,0.17636409942816017,exact_with_run2
+C2_fp32_batch1_run2,results/v3_6_essential/followup_v2_correction/C2_jina_diagnostic/raw/jina_fp32_batch1_run2.jsonl,1384,1380,0.17636409942816017,exact_with_run1

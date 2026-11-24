@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Does default one-call reranking survive counting failures? Completed-only versus all-request scores (BRIGHT, $N=1{,}384$)}\label{tab:original}
+\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+ & Done & & \multicolumn{2}{c}{$\Delta$ nDCG@5 vs Jina}\\\cmidrule(l){4-5}
+Policy & (\%) & nDCG@5 & completed only & all requests\\
+\midrule
+BM25 Top-5 & 100 & 0.1330 & -- & $-.0514$\\
+Jina v3.5 & 100 & \textbf{0.1844} & -- & --\\
+PPLX Decider, default & 44.1 & 0.0813 & $\mathbf{+.0371}$ & $\mathbf{-.1031}$\\
+\quad + BM25 fallback & 100 & 0.1687 & -- & $-.0157$\\
+Winnow-12B, default & 79.6 & 0.1599 & $+.0325$ & $-.0245$\\
+\quad + BM25 fallback & 100 & 0.2011 & -- & $+.0168$\\
+Drex-v2, default & 87.6 & 0.1781 & $+.0249$ & $-.0062$\\
+\quad + BM25 fallback & 100 & 0.2005 & -- & $+.0161$\\
+\bottomrule\end{tabular}
+\tabnote{Completed only: difference from Jina on the requests the policy completed. All requests: a failed request scores zero; with fallback, it receives the BM25 Top-5 instead. Other models' BRIGHT scores are in Table~\ref{tab:overview}.}
+\end{table}

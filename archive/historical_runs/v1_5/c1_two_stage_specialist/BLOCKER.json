@@ -1,0 +1,9 @@
+{
+  "experiment_id": "v1_5_c1_two_stage_specialist",
+  "status": "BLOCKED_DEDICATED_GPU_UNAVAILABLE_AT_PREFLIGHT",
+  "required": "one dedicated A100 with no resident workload for the complete matched timing and native-inference session",
+  "observed": "all inspected devices had resident workloads or active utilization; no device satisfied the dedicated gate",
+  "model_calls": 0,
+  "historical_artifacts_modified": false,
+  "scientific_consequence": "No C1 quality or timing result is claimed."
+}

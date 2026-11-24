@@ -1,0 +1,12 @@
+{
+  "cache_reuse": false,
+  "context_overflow": 0,
+  "errors": 0,
+  "http_requests": 2154,
+  "reader_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "reader_service": "http://service.example.invalid/v1/chat/completions",
+  "real_inference": 2154,
+  "selector_unavailable": 0,
+  "status": "READER_COMPLETE_WITH_REFERENCE_PROXY_ONLY",
+  "tasks": 2154
+}

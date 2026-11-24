@@ -1,0 +1,56 @@
+{
+  "C1": {
+    "labels_joined": false,
+    "raw_shards": 21,
+    "records_per_shard": 1384,
+    "status": "COMPLETE",
+    "total_new_records": 29064
+  },
+  "C2": {
+    "labels_joined": false,
+    "source": "existing C2 exports",
+    "status": "COMPLETE_OFFLINE"
+  },
+  "C3": {
+    "d_separate": "BLOCKED_NO_SECOND_DEDICATED_A100",
+    "status": "PASS_WITH_D_BLOCKED"
+  },
+  "C4": {
+    "status": "COMPLETE",
+    "summary": {
+      "failed": 339,
+      "frozen_slate_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+      "jina_full_ndcg5_all_attempts": 0.1843690411277983,
+      "labels_joined_after_raw_freeze": true,
+      "n": 1384,
+      "operational_ndcg5_all_attempts": 0.14263602441996942,
+      "policy": "winnow12_D_budget",
+      "raw_sha256": "40228ae07718a0136c764677526654659ae6d327a5d3785cfd4b50a25b5afb3f",
+      "valid": 1045,
+      "winnow_minus_jina_full": {
+        "domain_count": 12,
+        "equal_domain": {
+          "estimate": -0.04173301670782888,
+          "hi95": 0.008381272816301319,
+          "lo95": -0.0922677968295099
+        },
+        "query_weighted": {
+          "estimate": -0.04173301670782888,
+          "hi95": -0.02874191936440529,
+          "lo95": -0.05549507001375727
+        },
+        "reps": 5000,
+        "seed": 731
+      }
+    }
+  },
+  "GPU": {
+    "gpu": 3,
+    "uuid": "<REDACTED_GPU_UUID>"
+  },
+  "gate": "V1_5_OWNER_REVIEW_READY_PARTIAL_BOUNDED_C3",
+  "historical_artifacts_modified": false,
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "protected_holdout_access": false
+}

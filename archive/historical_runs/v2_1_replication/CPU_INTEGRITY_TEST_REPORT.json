@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "CPU_ONLY_STAGE0_INTEGRITY",
+  "protocol_sha256": "b9c417a5932474941d0e1cba42687e8cae578ec2b1e8b49bb9393425b07813ab",
+  "checks": {
+    "protocol_canonical_hash_matches_receipt": true,
+    "protocol_pre_outcome_flag": true,
+    "enterprise_question_count_500": true,
+    "enterprise_question_ids_unique": true,
+    "enterprise_applicable_count_443": true,
+    "musique_selected_count_2167": true,
+    "musique_source_ids_unique": true,
+    "enterprise_exact_bm25_top20_available_false": true,
+    "musique_exact_bm25_top20_available_false": true,
+    "final_gate_blocked_under_r2": true,
+    "zero_model_calls": true,
+    "zero_gpu_workloads": true,
+    "zero_jev_calls": true,
+    "zero_paid_api_calls": true,
+    "no_new_raw_traces": true,
+    "historical_artifacts_unmodified": true,
+    "new_test_ids_hash_recorded": true,
+    "all_historical_source_hashes_match": true
+  },
+  "model_calls": 0,
+  "gpu_workloads": 0,
+  "api_calls": 0,
+  "notes": [
+    "No selector inference, retrieval, serving timing, or statistical model comparison was run.",
+    "The blocked gate is preserved because the required exact BM25-only Top-20 inputs are absent for both benchmarks."
+  ]
+}

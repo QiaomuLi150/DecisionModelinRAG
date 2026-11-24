@@ -1,0 +1,55 @@
+{
+  "bootstrap_mean": -0.01580193920119274,
+  "ci95_percentile": [
+    -0.022765040204003047,
+    -0.008965936101147882
+  ],
+  "comparison": "pplx_decider - jina_v3_5",
+  "component_sensitivity": {
+    "ci95_percentile": [
+      -0.02221339824504305,
+      -0.0072073244360878535
+    ],
+    "component_n": 925,
+    "interpretation": "exploratory exact-content component sensitivity; not independent-source inference",
+    "n_rows": 1397,
+    "point": -0.01580213691250374,
+    "resamples": 5000,
+    "seed": 731
+  },
+  "component_sensitivity_metadata": {
+    "certified_source_groups": false,
+    "component_count": 925,
+    "largest_size": 281,
+    "membership_sha256": "0b00a8730bf6b96c7973449934d93325cc0f11dd851b79375096ff8679d32142",
+    "method": "exact question/passage/pool hashes within EXPLORATORY projection only; not the full R4C 2,329-row component graph",
+    "non_singleton_rows": 554,
+    "size_distribution": {
+      "1": 843,
+      "2": 47,
+      "3": 20,
+      "4": 4,
+      "5": 4,
+      "6": 1,
+      "7": 1,
+      "9": 1,
+      "13": 1,
+      "18": 1,
+      "30": 1,
+      "281": 1
+    }
+  },
+  "jina_only_wins": 242,
+  "metric": "binary_evidence_relevant_ndcg5",
+  "n": 1397,
+  "no_positive_n": 64,
+  "operational_denominator": 1397,
+  "point": -0.01580213691250374,
+  "pplx_only_wins": 160,
+  "query_bootstrap_primary": true,
+  "resamples": 5000,
+  "seed": 731,
+  "source_independence_qualification": "No authoritative source-document identities or sealed reservation attestation; query bootstrap is exploratory and exact-content component sensitivity is lower-bound only.",
+  "ties": 995,
+  "unresolved_annotation_rows": 1
+}

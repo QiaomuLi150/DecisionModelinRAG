@@ -1,0 +1,4 @@
+policy,status,reason
+BGE,SECONDARY_UNAVAILABLE,Not executed; the prespecified primary PPLX-versus-Jina benchmark was completed first and no exact frozen-slate secondary output was available for reuse.
+Liquid,SECONDARY_UNAVAILABLE,Not executed; the prespecified primary PPLX-versus-Jina benchmark was completed first and no exact frozen-slate secondary output was available for reuse.
+zerank-2,SECONDARY_UNAVAILABLE,Not executed; the prespecified primary PPLX-versus-Jina benchmark was completed first and no exact frozen-slate secondary output was available for reuse.

@@ -1,0 +1,23 @@
+{
+  "common_valid_completed": true,
+  "created_utc": "2026-10-16T02:52:03.295644+00:00",
+  "e2_e9_ledger_written": true,
+  "fallback_sensitivity_completed": true,
+  "gate": "E9_BRIGHT_INTERPRETATION_OWNER_REVIEW_READY",
+  "jev_calls": 0,
+  "latency_failure_audit_completed": true,
+  "original_e9_experiment_rerun": false,
+  "original_primary_reproduced": true,
+  "paid_api_calls": 0,
+  "reader_status": "BRIGHT_READER_NOT_EVALUABLE",
+  "remaining_limitations": [
+    "common-valid populations are selected by native success",
+    "BRIGHT gold_ids are known positives and not complete-support labels",
+    "different GPUs and model-load-excluded timing prevent matched production claims",
+    "BRIGHT reader/factual correctness not evaluated",
+    "historical E2-E8 endpoints are heterogeneous and not pooled"
+  ],
+  "reserved_holdout_access": false,
+  "retrieval_feasibility_completed": true,
+  "trec_e9_preserved": true
+}

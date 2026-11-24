@@ -1,0 +1,11 @@
+policy,n_failed,mean_packaging_ms_failed
+jina_full,0,0.0
+jina_single_6144,24,0.016355125
+jina_single_8192,16,0.0156743125
+jina_two_stage_8192,12,0.0149265
+pplx_budget,16,0.01853075
+pplx_single_2048,280,0.017819221428571428
+pplx_single_3072,72,0.018082916666666667
+pplx_single_4096,44,0.018130886363636363
+pplx_single_6144,24,0.02257325
+pplx_two_stage_4096,44,0.018905045454545456

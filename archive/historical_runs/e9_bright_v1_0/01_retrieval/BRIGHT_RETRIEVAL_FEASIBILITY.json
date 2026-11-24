@@ -1,0 +1,111 @@
+{
+  "created_utc": "2026-10-16T01:58:09.440739+00:00",
+  "domains": 12,
+  "low_information": false,
+  "low_information_threshold": {
+    "minimum_domains": 3,
+    "minimum_positive_queries": 100
+  },
+  "per_domain": [
+    {
+      "complete_gold_top20_queries": 12,
+      "complete_gold_top20_rate": 0.11650485436893204,
+      "domain": "biology",
+      "positive_top20_queries": 54,
+      "positive_top20_rate": 0.5242718446601942,
+      "queries": 103
+    },
+    {
+      "complete_gold_top20_queries": 26,
+      "complete_gold_top20_rate": 0.22413793103448276,
+      "domain": "earth_science",
+      "positive_top20_queries": 85,
+      "positive_top20_rate": 0.7327586206896551,
+      "queries": 116
+    },
+    {
+      "complete_gold_top20_queries": 14,
+      "complete_gold_top20_rate": 0.13592233009708737,
+      "domain": "economics",
+      "positive_top20_queries": 43,
+      "positive_top20_rate": 0.4174757281553398,
+      "queries": 103
+    },
+    {
+      "complete_gold_top20_queries": 16,
+      "complete_gold_top20_rate": 0.15841584158415842,
+      "domain": "psychology",
+      "positive_top20_queries": 39,
+      "positive_top20_rate": 0.38613861386138615,
+      "queries": 101
+    },
+    {
+      "complete_gold_top20_queries": 16,
+      "complete_gold_top20_rate": 0.15841584158415842,
+      "domain": "robotics",
+      "positive_top20_queries": 42,
+      "positive_top20_rate": 0.4158415841584158,
+      "queries": 101
+    },
+    {
+      "complete_gold_top20_queries": 20,
+      "complete_gold_top20_rate": 0.17094017094017094,
+      "domain": "stackoverflow",
+      "positive_top20_queries": 57,
+      "positive_top20_rate": 0.48717948717948717,
+      "queries": 117
+    },
+    {
+      "complete_gold_top20_queries": 17,
+      "complete_gold_top20_rate": 0.1574074074074074,
+      "domain": "sustainable_living",
+      "positive_top20_queries": 51,
+      "positive_top20_rate": 0.4722222222222222,
+      "queries": 108
+    },
+    {
+      "complete_gold_top20_queries": 0,
+      "complete_gold_top20_rate": 0.0,
+      "domain": "pony",
+      "positive_top20_queries": 81,
+      "positive_top20_rate": 0.7232142857142857,
+      "queries": 112
+    },
+    {
+      "complete_gold_top20_queries": 36,
+      "complete_gold_top20_rate": 0.2535211267605634,
+      "domain": "leetcode",
+      "positive_top20_queries": 73,
+      "positive_top20_rate": 0.5140845070422535,
+      "queries": 142
+    },
+    {
+      "complete_gold_top20_queries": 0,
+      "complete_gold_top20_rate": 0.0,
+      "domain": "aops",
+      "positive_top20_queries": 33,
+      "positive_top20_rate": 0.2972972972972973,
+      "queries": 111
+    },
+    {
+      "complete_gold_top20_queries": 21,
+      "complete_gold_top20_rate": 0.10824742268041238,
+      "domain": "theoremqa_questions",
+      "positive_top20_queries": 38,
+      "positive_top20_rate": 0.1958762886597938,
+      "queries": 194
+    },
+    {
+      "complete_gold_top20_queries": 7,
+      "complete_gold_top20_rate": 0.09210526315789473,
+      "domain": "theoremqa_theorems",
+      "positive_top20_queries": 11,
+      "positive_top20_rate": 0.14473684210526316,
+      "queries": 76
+    }
+  ],
+  "positive_top20_domains": 12,
+  "positive_top20_queries": 607,
+  "queries": 1384,
+  "slate_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2"
+}

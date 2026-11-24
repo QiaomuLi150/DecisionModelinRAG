@@ -1,0 +1,9 @@
+cohort,variant,symmetric_rule,pplx_matches,pplx_n,pplx_rate,jina_matches,jina_n,jina_rate,delta_pp,post_hoc_diagnostic_only
+representative,frozen_normalized,True,18,200,0.09,17,200,0.085,0.49999999999999906,True
+representative,case_space_symmetric,True,18,200,0.09,17,200,0.085,0.49999999999999906,True
+representative,alias_symmetric,True,18,200,0.09,17,200,0.085,0.49999999999999906,True
+representative,numeric_unit_symmetric,True,1,200,0.005,1,200,0.005,0.0,True
+diagnostic_enriched,frozen_normalized,True,4,55,0.07272727272727272,2,55,0.03636363636363636,3.6363636363636362,True
+diagnostic_enriched,case_space_symmetric,True,4,55,0.07272727272727272,2,55,0.03636363636363636,3.6363636363636362,True
+diagnostic_enriched,alias_symmetric,True,4,55,0.07272727272727272,2,55,0.03636363636363636,3.6363636363636362,True
+diagnostic_enriched,numeric_unit_symmetric,True,0,55,0.0,0,55,0.0,0.0,True

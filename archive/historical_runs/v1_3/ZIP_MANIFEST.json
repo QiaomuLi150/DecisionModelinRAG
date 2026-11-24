@@ -1,0 +1,29 @@
+{
+  "path": "results/v1_3/decisionrag_v1_3_exports.zip",
+  "bytes": 1534403,
+  "sha256": "4ec5a616c01e61e572d86c54209cb9318a9f9dcabb4f44974d989e4c79c69fee",
+  "members": [
+    "r2_order_sensitivity/export/order_bootstrap.json",
+    "r2_order_sensitivity/export/order_borda.csv",
+    "r2_order_sensitivity/export/order_perquery.csv",
+    "r2_order_sensitivity/export/order_scores.csv",
+    "r2_order_sensitivity/export/order_summary.csv",
+    "r2_order_sensitivity/export/order_summary_detailed.csv",
+    "r3_multipass/export/multipass_bootstrap.json",
+    "r3_multipass/export/multipass_perquery.csv",
+    "r3_multipass/export/multipass_perquery_detailed.csv",
+    "r3_multipass/export/multipass_provenance.json",
+    "r3_multipass/export/multipass_summary.csv",
+    "r6_leetcode_trim/export/leetcode_sub_paired.json",
+    "r6_leetcode_trim/export/leetcode_sub_perquery.csv",
+    "r6_leetcode_trim/export/leetcode_sub_perquery_detailed.csv",
+    "r6_leetcode_trim/export/leetcode_sub_summary.csv",
+    "protocols/r1_serving_gate/PROTOCOL.json",
+    "protocols/r2_order_sensitivity/PROTOCOL.json",
+    "protocols/r3_multipass/PROTOCOL.json",
+    "protocols/r4_crag_reader_window/PROTOCOL.json",
+    "protocols/r5_winnow_budget/PROTOCOL.json",
+    "protocols/r6_leetcode_trim/PROTOCOL.json",
+    "RAW_TRACE_SHA256_MANIFEST.json"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "adapter": "native laya Router typed relevance",
+  "batch_size_candidates": 4,
+  "config_sha256": "b3dc198e986fa65b910f195c499b3450428e4e95c2925670767cdf05f32eb792",
+  "model_id": "convaiinnovations/laya",
+  "precision": "checkpoint native",
+  "revision": "7b928d828b7b0e022f929d9bd2e44165aa270148",
+  "score_contract": "INDEPENDENT_RELEVANCE:v2",
+  "score_direction": "higher_is_more_relevant",
+  "score_field": "answers.relevance.noul",
+  "sort_by_length": true,
+  "temperature_note": "checkpoint emits invalid/out-of-range temperature metadata; confidence calibration is uncalibrated, ordering retained",
+  "tie_break": "original_candidate_order_then_doc_id",
+  "token_max_length": 512
+}

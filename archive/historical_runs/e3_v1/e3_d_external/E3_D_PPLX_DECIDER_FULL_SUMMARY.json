@@ -1,0 +1,9 @@
+{
+  "errors": 0,
+  "gpu_id": 5,
+  "physical_forward_calls": 1009,
+  "policy": "pplx_decider",
+  "requested": 1009,
+  "stage": "full",
+  "valid": 1009
+}

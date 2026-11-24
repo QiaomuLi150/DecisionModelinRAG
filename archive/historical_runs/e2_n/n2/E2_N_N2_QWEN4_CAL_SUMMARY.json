@@ -1,0 +1,24 @@
+{
+  "cache_reuse_rows": 0,
+  "expected_rows": 30,
+  "gpu_snapshot_after": {
+    "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,utilization.gpu --format=csv,noheader,nounits",
+    "status": "PASS",
+    "stderr": "",
+    "stdout": "0, NVIDIA A100-SXM4-80GB, 81920, 13189, 91\n1, NVIDIA A100-SXM4-80GB, 81920, 55827, 0\n2, NVIDIA A100-SXM4-80GB, 81920, 54785, 0\n3, NVIDIA A100-SXM4-80GB, 81920, 60463, 0\n4, NVIDIA A100-SXM4-80GB, 81920, 28821, 0\n5, NVIDIA A100-SXM4-80GB, 81920, 70213, 100\n6, NVIDIA A100-SXM4-80GB, 81920, 4, 0\n7, NVIDIA A100-SXM4-80GB, 81920, 65198, 30"
+  },
+  "input_and_response_hash_rows": 30,
+  "jev_calls": 0,
+  "model": "Qwen/Qwen3-Reranker-4B",
+  "ok_rows": 30,
+  "paid_api_calls": 0,
+  "physical_forward_evidence_rows": 30,
+  "revision": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+  "rows": 30,
+  "stage": "N2_CAL",
+  "status": "PASS",
+  "total_physical_forward_calls": 30,
+  "trace_sha256": "b1333c27f12e3d096033bae17ef684996483c359ae83470d24b17541c3a6e0b7",
+  "unique_queries": 30,
+  "valid_unique_20_candidate_rows": 30
+}

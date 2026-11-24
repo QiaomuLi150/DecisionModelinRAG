@@ -1,0 +1,20 @@
+{
+  "alloc_p95_mib": 51345.013,
+  "attempts": 360,
+  "fail_classes": {
+    "UNBUDGETABLE_QUERY_OR_OVERHEAD": 3
+  },
+  "fail_p50_ms": 0.0,
+  "failed": 3,
+  "input_label_blind": true,
+  "latency_boundary": "request construction + native inference + score parsing + ID mapping + Top-5 packaging",
+  "load_ms": 53415.224,
+  "marginal_alloc_mib": 1072.666,
+  "marginal_p50_ms": 1482.014,
+  "p50_ms": 1606.3815,
+  "p95_ms": 2375.05365,
+  "physical_forward_count": "NOT_EXPOSED_BY_RUNTIME",
+  "policy": "pplx_budget",
+  "session": "r1_v2",
+  "valid": 357
+}

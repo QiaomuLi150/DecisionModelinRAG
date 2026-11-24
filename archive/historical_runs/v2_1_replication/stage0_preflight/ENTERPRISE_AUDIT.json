@@ -1,0 +1,28 @@
+{
+  "blocker_code": "ENTERPRISE_EXACT_BM25_TOP20_INPUT_MISSING",
+  "bm25_top100_present_in_prior_trace": true,
+  "candidate_ids_resolve_to_chunk_manifest": 9382,
+  "candidate_ids_total": 9382,
+  "dataset": "EnterpriseRAG-Bench",
+  "derived_bm25_prefix_rows_for_diagnostic_only": 500,
+  "exact_candidate_text_adapter_available": false,
+  "exact_required_bm25_top20_slate_available": false,
+  "frozen_prior_slate_rows": 500,
+  "frozen_prior_slate_unique_ids": 500,
+  "labels_not_used_for_inference": true,
+  "potentially_labeled_questions": 443,
+  "prior_candidate_order_contract": "not recorded as BM25-only; prior V11 trace is hybrid RRF Top-20",
+  "prior_slate_candidate_count": {
+    "20": 500
+  },
+  "qst_0413_status": "AMBIGUOUS_ORIGINAL_ID",
+  "questions": 500,
+  "source_files": {
+    "data/raw/vendor/enterprise_rag_bench/v1.0.0/all_documents.zip": "9d1174928696ad08bc15f3f104739519de633c1605a4ec2034e0e3c0087bc5cd",
+    "results/non_jev/v11/track_b/V11_TRACK_B_CHUNK_MANIFEST.jsonl": "0a97bedb120b14f21e8a9d16ec89707509f3dcc24ecfeef2dd604f7c450859ee",
+    "results/non_jev/v11/track_b/V11_TRACK_B_RETRIEVAL_SLATES.jsonl": "2e82fc2788398f98d6a257165718b1baa6e1ad792f63671c06458f9212326c9f",
+    "results/preflight/v11/ENTERPRISE_GOLD_SIDECAR.jsonl": "e7a7dbe71ee9e4290fe29615991c3aed90f70530ab12a63e9c1003be6bfa6b55",
+    "results/preflight/v11_remediation/ENTERPRISE_QUESTION_MANIFEST_V11R1.jsonl": "00befe74a6bd3786fd2149639f434efd574f2784f49f7f91961c3ed7091d2683"
+  },
+  "unique_question_ids": 500
+}

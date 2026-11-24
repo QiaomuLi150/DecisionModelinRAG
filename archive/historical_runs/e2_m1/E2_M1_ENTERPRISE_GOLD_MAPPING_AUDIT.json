@@ -1,0 +1,28 @@
+{
+  "accepted_exception": "V11.1R1-GOLD-ID-AMBIGUITY-qst_0413",
+  "all_500_questions_preserved_in_manifest": true,
+  "ambiguous_questions": 1,
+  "ambiguous_records": [
+    {
+      "original_doc_id": "dsid_6df52fdb96ae4edcb76464738bca3340",
+      "physical_matches": [
+        {
+          "archive_path": "jira/internal-support/dsid_6df52fdb96ae4edcb76464738bca3340__INT-7832-cleanup-stale-test-instances-and-archived-volumes-access.txt",
+          "internal_doc_id": "enterprise:v1.0.0:path-qualified-relative-archive-member:jira%2Finternal-support%2Fdsid_6df52fdb96ae4edcb76464738bca3340__INT-7832-cleanup-stale-test-instances-and-archived-volumes-access.txt"
+        },
+        {
+          "archive_path": "jira/misc-requests/dsid_6df52fdb96ae4edcb76464738bca3340__INT-7832-cleanup-old-test-instances.txt",
+          "internal_doc_id": "enterprise:v1.0.0:path-qualified-relative-archive-member:jira%2Fmisc-requests%2Fdsid_6df52fdb96ae4edcb76464738bca3340__INT-7832-cleanup-old-test-instances.txt"
+        }
+      ],
+      "question_id": "qst_0413"
+    }
+  ],
+  "mapping_source": "./results/non_jev/v11/track_b/V11_TRACK_B_ENTERPRISE_CORPUS.sqlite3",
+  "mapping_source_sha256": "68e8eceff5b622fb83b6cb4390d12df6395938607f1e8a43d9ef80470f94aa78",
+  "missing_mapping_questions": 0,
+  "missing_records": [],
+  "qst_0413_excluded_from_identity_dependent_metrics": true,
+  "sidecar_questions": 500,
+  "unique_identity_resolutions": 499
+}

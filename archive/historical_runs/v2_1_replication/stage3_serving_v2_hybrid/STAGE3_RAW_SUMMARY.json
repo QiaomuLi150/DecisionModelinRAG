@@ -1,0 +1,23 @@
+{
+  "cohort_sizes": {
+    "enterprise": 120,
+    "musique": 120
+  },
+  "created_utc": "2026-10-21T01:12:22Z",
+  "failed": 0,
+  "labels_joined": false,
+  "n_rows": 3600,
+  "paid_api_calls": 0,
+  "policies": [
+    "jina_full",
+    "jina_budget",
+    "jina_two_stage_matched",
+    "pplx_budget",
+    "pplx_two_stage"
+  ],
+  "protected_holdouts_accessed": false,
+  "protocol_sha256": "6687fd44f428074c125b340452f8ba22d76213eea33e93795bb293a8dec1412a",
+  "raw_sha256": "1c7cc9a30fc3a78f782837d27b8daddd0045f2865762de1c36508518d767e78c",
+  "status": "COMPLETE",
+  "valid": 3600
+}

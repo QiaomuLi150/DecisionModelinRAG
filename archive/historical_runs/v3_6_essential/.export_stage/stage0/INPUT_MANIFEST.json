@@ -1,0 +1,21 @@
+{
+  "bright_path": "historical E9 frozen BRIGHT Top-20",
+  "bright_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+  "candidate_count": 20,
+  "domains": [
+    "aops",
+    "biology",
+    "earth_science",
+    "economics",
+    "leetcode",
+    "pony",
+    "psychology",
+    "robotics",
+    "stackoverflow",
+    "sustainable_living",
+    "theoremqa_questions",
+    "theoremqa_theorems"
+  ],
+  "queries": 1384,
+  "source_artifact_preserved": true
+}

@@ -1,0 +1,18 @@
+{
+  "aggregate_raw_rows": 5536,
+  "aggregate_raw_sha256": "9a50fcf90f3d2a01a16db100868abe1c8f449a7dc4055483750d7fa4c23c293e",
+  "candidate_alignment_pass": true,
+  "expected_native_rows": 5536,
+  "frozen_slate_rows": 1384,
+  "model_file_hashes": {
+    "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_jina_v3_5.jsonl": "b553d364140b516e7f4c4ad64522763898c6b0c792e37472a86e741c13e3cb18",
+    "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_liquid_d1_3b.jsonl": "369c00a145436cce75e417f54fdf34cbac9fabcc50247775798c50edbf347306",
+    "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_pplx_decider.jsonl": "17ca38fa1b9c9968e98300f7e70c850249fff67f887553fd4a4fdf7022d6f24c",
+    "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_qwen3_reranker_0_6b.jsonl": "f9a37055b2b5d6d802445adac6ae6bb4f437e987655761fe54e6a1efcf602367"
+  },
+  "native_row_count_pass": true,
+  "native_rows": 5536,
+  "trec_original_gate_path": "results/non_jev/v2/e9_v1_0/06_closure/E9_FINAL_OWNER_REVIEW_GATE.json",
+  "trec_original_gate_preserved": true,
+  "trec_original_gate_sha256": "15c1fc4ccd042ae77b32f807825e6a94ac19a3ddf4a1a47609e48442428b6bad"
+}

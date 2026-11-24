@@ -1,0 +1,17 @@
+cohort,population,comparison,raw_p_sensitivity,holm_rank,holm_adjusted_p_sensitivity,interpretation
+track_a,cssr_c,liquid_joint20_binary_minus_jina35,0.0,1,0.0,exploratory multiplicity sensitivity; not confirmatory
+track_a,cssr_c,liquid_joint20_binary_minus_pplx_decider,0.0,2,0.0,exploratory multiplicity sensitivity; not confirmatory
+track_a,cssr_c,zerank2_pointwise_minus_jina35,0.0,3,0.0,exploratory multiplicity sensitivity; not confirmatory
+track_a,cssr_c,zerank2_pointwise_minus_pplx_decider,0.0,4,0.0,exploratory multiplicity sensitivity; not confirmatory
+track_a,cssr_u,liquid_joint20_binary_minus_jina35,0.0,1,0.0,exploratory multiplicity sensitivity; not confirmatory
+track_a,cssr_u,liquid_joint20_binary_minus_pplx_decider,0.0,2,0.0,exploratory multiplicity sensitivity; not confirmatory
+track_a,cssr_u,zerank2_pointwise_minus_jina35,0.0,3,0.0,exploratory multiplicity sensitivity; not confirmatory
+track_a,cssr_u,zerank2_pointwise_minus_pplx_decider,0.0,4,0.0,exploratory multiplicity sensitivity; not confirmatory
+track_b,cssr_c,liquid_joint20_binary_minus_jina35,0.0,1,0.0,exploratory multiplicity sensitivity; not confirmatory
+track_b,cssr_c,liquid_joint20_binary_minus_pplx_decider,0.0,2,0.0,exploratory multiplicity sensitivity; not confirmatory
+track_b,cssr_c,zerank2_pointwise_minus_pplx_decider,0.0024,3,0.0048,exploratory multiplicity sensitivity; not confirmatory
+track_b,cssr_c,zerank2_pointwise_minus_jina35,0.012,4,0.012,exploratory multiplicity sensitivity; not confirmatory
+track_b,cssr_u,liquid_joint20_binary_minus_jina35,0.0,1,0.0,exploratory multiplicity sensitivity; not confirmatory
+track_b,cssr_u,liquid_joint20_binary_minus_pplx_decider,0.0,2,0.0,exploratory multiplicity sensitivity; not confirmatory
+track_b,cssr_u,zerank2_pointwise_minus_pplx_decider,0.0024,3,0.0048,exploratory multiplicity sensitivity; not confirmatory
+track_b,cssr_u,zerank2_pointwise_minus_jina35,0.0128,4,0.0128,exploratory multiplicity sensitivity; not confirmatory

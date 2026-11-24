@@ -1,0 +1,12 @@
+{
+  "adapter": "transformers AutoModelForSequenceClassification",
+  "batch_size_candidates": 20,
+  "config_sha256": "dc4ca6f64fd1deed35e03f99729794a06c57928eb3cbfaca546a2641c2e8a334",
+  "model_id": "BAAI/bge-reranker-v2-m3",
+  "precision": "bfloat16",
+  "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+  "score_contract": "INDEPENDENT_RELEVANCE:v2",
+  "score_direction": "higher_is_more_relevant",
+  "tie_break": "original_candidate_order_then_doc_id",
+  "token_max_length": 512
+}

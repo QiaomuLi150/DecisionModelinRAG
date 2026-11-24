@@ -1,0 +1,21 @@
+{
+  "attempts": 640,
+  "created_utc": "2026-10-15T23:35:22.513321+00:00",
+  "failures": 30,
+  "gate": "E8_VALIDATED_EXPLANATION_AND_RECONCILIATION_READY",
+  "historical_artifacts_modified": false,
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "planned_attempts": 640,
+  "provenance_manifest_sha256": "d18b319eb97e8e67b626c1688ffb339965fc4441a555c856ca053ac881200728",
+  "reserved_access": false,
+  "schema": "DECISIONRAG-E8-FINAL-OWNER-REVIEW-GATE-V1",
+  "subgates": {
+    "R0_inputs_protocol": "PASS",
+    "R1_lineage": "PASS_WITH_LIMITATIONS",
+    "R2_rank_annotated_outputs": "PASS",
+    "R3_offline_analysis": "PASS",
+    "R4_closure": "PASS"
+  },
+  "valid": 610
+}

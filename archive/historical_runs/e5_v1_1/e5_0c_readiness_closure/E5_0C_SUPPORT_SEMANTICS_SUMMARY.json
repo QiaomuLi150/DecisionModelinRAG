@@ -1,0 +1,35 @@
+{
+  "cal_class_counts": {
+    "MULTIPLE_ALTERNATIVE_SETS": 53,
+    "PARTIAL_OR_NONEXHAUSTIVE": 95,
+    "SINGLE_DESIGNATED_SET": 371
+  },
+  "cal_flag_counts": {
+    "AMBIGUOUS_UNION": 61,
+    "ANSWER_WRAPPER_MULTIPLICITY": 132,
+    "INVALID_ID": 49,
+    "MULTIPLE_ALTERNATIVE_SETS": 61,
+    "OTHER_UNSCORABLE": 134,
+    "PARTIAL_OR_NONEXHAUSTIVE": 93,
+    "SINGLE_DESIGNATED_SET": 505,
+    "SUPPORT_GT5": 16
+  },
+  "exploratory_flag_counts": {
+    "AMBIGUOUS_UNION": 168,
+    "ANSWER_WRAPPER_MULTIPLICITY": 408,
+    "DUPLICATE_EVIDENCE": 3,
+    "INVALID_ID": 141,
+    "MULTIPLE_ALTERNATIVE_SETS": 168,
+    "OTHER_UNSCORABLE": 387,
+    "PARTIAL_OR_NONEXHAUSTIVE": 267,
+    "SINGLE_DESIGNATED_SET": 1473,
+    "SUPPORT_GT5": 47
+  },
+  "mapping_hash_mismatches": [],
+  "permitted_raw_papers_materialized": 876,
+  "raw_questions_missing": [
+    "qasper:1801.07804:2a0f14740ee14224d116d4f51dacde6863bcdc1e",
+    "qasper:1801.07804:82c7d9e92c7d7b784de2cae87fb7293034c551f4",
+    "qasper:1801.07804:6d623c96cd3898c3758338e337e9157565f34185"
+  ]
+}

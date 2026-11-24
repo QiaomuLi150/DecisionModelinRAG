@@ -1,0 +1,62 @@
+{
+  "analysis": {
+    "aggregation": "Borda across six permutations plus original",
+    "holm_family": "v1.3-order-contrasts",
+    "intervals": "40,000 whole-domain bootstrap over 12 domains plus exact 2^12 sign flip",
+    "primary": "order robustness and known-positive nDCG@5"
+  },
+  "budget_rule": {
+    "K": "number_of_candidates",
+    "L": 8192,
+    "b0_is_failure": true,
+    "backoff": "one_token_at_a_time",
+    "rho": 128
+  },
+  "description": "BRIGHT original, reverse and five seeded candidate-order permutations",
+  "determinism_rule": "20 randomly selected non-timing requests rerun after raw-output freeze",
+  "deviations": [],
+  "experiment_id": "r2_order_sensitivity",
+  "label_blind": true,
+  "pinned_models": {
+    "drex_dlm": {
+      "revision": "8f6f8244ce0b186b3caa4cdbaae1c9f3986bf63e",
+      "short_revision": "8f6f824"
+    },
+    "jina_v3_5": {
+      "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+      "short_revision": "e8a93f3"
+    },
+    "kev9": {
+      "revision": "db029f08b290afd9fee4aa4bbcd9ae48602d1eb0",
+      "short_revision": "db029f0"
+    },
+    "pplx_decider": {
+      "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+      "short_revision": "14c9d90"
+    },
+    "qwen3_reranker_0_6b": {
+      "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+      "short_revision": "e61197e"
+    },
+    "winnow12": {
+      "revision": "0b5b7f98e718cf0faffd0acea3093b86ebf00b56",
+      "short_revision": "0b5b7f9"
+    }
+  },
+  "population": {
+    "orders_per_query": 7,
+    "permutation_manifest": "r2_order_sensitivity/permutation_manifest.jsonl",
+    "records": 1384,
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "protocol_id": "decisionrag-v1.3-r2_order_sensitivity-v1.0",
+  "selection_validity": "exactly five distinct original candidate IDs; every failure retained; no silent retry/fallback",
+  "status": "FROZEN_PRE_OUTCOME",
+  "timing_rule": "dedicated A100-SXM4-80GB, no resident process before/after, one request at a time, exclude model load from latency but report it"
+}

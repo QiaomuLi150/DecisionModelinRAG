@@ -1,0 +1,76 @@
+\tikzset{
+  pics/doc/.style={code={
+    \fill[white, draw=cInk!60, line width=.45pt] (0,0) -- (0.30,0) -- (0.30,0.30) -- (0.22,0.38) -- (0,0.38) -- cycle;
+    \draw[cInk!60, line width=.45pt] (0.22,0.38) -- (0.22,0.30) -- (0.30,0.30);
+    \foreach \y/\w in {0.27/0.15,0.20/0.22,0.13/0.22,0.06/0.17} \draw[#1, line width=.7pt] (0.05,\y) -- ++(\w,0);
+  }},
+  pics/doc/.default=cInk!35,
+  pics/bars/.style={code={
+    \draw[cInk!55, line width=.45pt] (0,0) -- (0.40,0);
+    \foreach \x/\h/\c in {0.04/0.16/cInk!30,0.16/0.30/cInk!55,0.28/0.38/cInk} \fill[\c] (\x,0) rectangle ++(0.08,\h);
+  }},
+  pics/watch/.style={code={
+    \draw[cInk!75, line width=.6pt] (0.19,0.19) circle (0.17);
+    \fill[cInk!75] (0.15,0.38) rectangle (0.23,0.43);
+    \draw[cInk!75, line width=.7pt] (0.19,0.19) -- (0.19,0.31) (0.19,0.19) -- (0.27,0.15);
+  }},
+}
+\begin{tikzpicture}[font=\sffamily\fontsize{7.5}{9}\selectfont, >={Stealth[length=4pt,width=3.2pt]}, line cap=round,
+  every node/.style={inner sep=0pt, text=cInk},
+  box/.style={draw=cInk!28, line width=.5pt, rounded corners=3pt, fill=white, minimum height=9mm},
+  sbox/.style={box, draw=cSpec!70, fill=cSpec!5},
+  dbox/.style={box, draw=cDec!75, fill=cDec!5},
+  t/.style={font=\sffamily\bfseries\fontsize{7.5}{9}\selectfont, anchor=west, text=cInk},
+  st/.style={font=\sffamily\fontsize{6.5}{8}\selectfont, anchor=west, text=cInk!62},
+  sm/.style={font=\sffamily\fontsize{6.5}{8}\selectfont},
+  arr/.style={->, line width=.6pt, draw=cInk!55},
+  panel/.style={draw=#1!35, line width=.6pt, rounded corners=4pt, fill=#1!3},
+  strip/.style={fill=#1, rounded corners=4pt},
+]
+\node[box, minimum height=6.6mm, minimum width=12mm] (pq) at (0.85,0) {\textbf{Query}};
+\node[box, minimum height=6.6mm, minimum width=27mm] (pr) at (3.55,0) {\textbf{Top-N candidates}};
+\node[sbox, minimum height=7.4mm, minimum width=41mm] (ps) at (7.35,0.0) {};
+\node[font=\sffamily\bfseries\fontsize{7.5}{9}\selectfont] at ($(ps.center)+(0,0.12)$) {Dedicated reranker};
+\node[sm, text=cInk!62] at ($(ps.center)+(0,-0.17)$) {incumbent: existing component};
+\node[dbox, minimum height=7.4mm, minimum width=41mm] (pd) at (12.15,0.0) {};
+\node[font=\sffamily\bfseries\fontsize{7.5}{9}\selectfont] at ($(pd.center)+(0,0.12)$) {Decision-model policy};
+\node[sm, text=cInk!62] at ($(pd.center)+(0,-0.17)$) {System-1-style; selection + fallback};
+\node[font=\sffamily\bfseries\fontsize{9}{9}\selectfont, text=cInk!55] at (9.75,0) {or};
+\node[box, minimum height=6.6mm, minimum width=14mm] (p5) at (15.2,0) {\textbf{Top-K}};
+\node[box, dash pattern=on 2pt off 1.4pt, minimum height=6.6mm, minimum width=18mm] (pg) at (17.1,0) {\textbf{LLM}};
+\node[sm, text=cInk!62, anchor=east] at (17.98,-0.52) {(downstream; not evaluated)};
+\node[draw=cInk!45, line width=.55pt, dash pattern=on 2pt off 1.4pt, rounded corners=3pt, fit=(ps)(pd), inner xsep=1.2mm, inner ysep=1.1mm] (slot) {};
+\draw[arr] (pq) -- (pr); \draw[arr] (pr) -- (slot.west); \draw[arr] (slot.east) -- (p5); \draw[arr] (p5) -- (pg);
+\node[sm, text=cInk!55, anchor=west] at (0.05,0.62) {\textbf{Reranker replacement with a fixed retrieval stage.} Same query, same retrieved candidates; only the reranking policy (input handling, model, fallback) changes.};
+
+\foreach \xa/\xb/\c/\n/\h in {0/5.8/gOne/1/Reliability, 6.09/11.89/gTwo/2/Ranking quality, 12.18/17.98/gThree/3/Serving} {
+  \begin{scope}[on background layer]
+    \draw[panel=\c] (\xa,-3.50) rectangle (\xb,-1.25);
+    \fill[strip=\c] (\xa,-1.67) rectangle (\xb,-1.25);
+    \fill[\c] (\xa,-1.67) rectangle (\xb,-1.51);
+  \end{scope}
+  \node[circle, fill=white, minimum size=3.3mm, font=\sffamily\bfseries\fontsize{7}{8}\selectfont, anchor=west] (c\n) at (\xa+0.16,-1.46) {\n};
+  \node[font=\sffamily\bfseries\fontsize{8}{9}\selectfont, text=white, anchor=west] at ($(c\n.east)+(1.4mm,0)$) {\h};
+}
+\coordinate (m) at ($(slot.south)+(0,-0.42)$);
+\draw[arr] (slot.south) -- (m);
+\draw[arr] (m) -| (2.9,-1.25);
+\draw[arr] (m) -| (8.99,-1.25);
+\draw[arr] (m) -| (15.08,-1.25);
+
+\pic at (0.28,-2.62) {doc=cGold};
+\node[t] at (0.95,-2.30) {A valid Top-K selection};
+\node[st] at (0.95,-2.62) {for nearly every request;};
+\node[st] at (0.95,-2.92) {failed requests and fallbacks included};
+\pic at (6.30,-2.62) {bars};
+\node[t] at (7.05,-2.30) {Better than first-stage Top-K,};
+\node[st] at (7.05,-2.62) {with acceptable quality loss};
+\node[st] at (7.05,-2.92) {relative to the incumbent};
+\pic at (12.38,-2.62) {watch};
+\node[t] at (13.10,-2.30) {Tail-latency requirement met};
+\node[st] at (13.10,-2.62) {relative to the incumbent, same GPU;};
+\node[st] at (13.10,-2.92) {resource footprint reported separately};
+
+\node[box, draw=cPass, line width=.9pt, fill=cPass!8, minimum width=17.98cm, minimum height=7.2mm, align=center,
+      font=\sffamily\bfseries\fontsize{7.5}{9}\selectfont, text=cPass!55!black, anchor=north west] at (0,-3.74) {Replace the reranker only if reliability, relevance and serving checks all pass};
+\end{tikzpicture}

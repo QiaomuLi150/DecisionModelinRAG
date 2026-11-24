@@ -1,0 +1,34 @@
+{
+  "experiment_id": "v1_5_c3_concurrency",
+  "status": "BLOCKED_DEDICATED_GPU_UNAVAILABLE_AT_PREFLIGHT",
+  "purpose": "Measure PPLX routing overhead and selector concurrency under controlled colocated and separate configurations.",
+  "model_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+  "routing_population": {
+    "n_prompts": 50,
+    "source": "frozen routing prompts from the v1.3 serving protocol"
+  },
+  "configs": [
+    "routing_only",
+    "consolidated",
+    "colocated",
+    "separate"
+  ],
+  "saturation": {
+    "rmax_measurement": true,
+    "open_loop_rps": [
+      0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "warmup_seconds": 60,
+    "measure_seconds": 300,
+    "timeout_seconds": 30
+  },
+  "gate": {
+    "model_calls": 0,
+    "reason": "A dedicated A100 serving session was unavailable at preflight.",
+    "consequence": "No concurrency p95, routing-overhead, or sustainable-QPS claim is made."
+  },
+  "historical_artifacts_modified": false
+}

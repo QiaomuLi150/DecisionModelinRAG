@@ -1,0 +1,14 @@
+metric,policy,numerator,denominator,rate,source_groups,estimand,ci95_low,ci95_high
+CSSR_U,retrieval5,220,1502,0.14647137150466044,587,query-unweighted unconditional,,
+CSSR_C,retrieval5,220,355,0.6197183098591549,587,retrieval-feasible conditional,,
+CSSR_U,pplx_decider,306,1502,0.20372836218375498,587,query-unweighted unconditional,,
+CSSR_C,pplx_decider,306,355,0.8619718309859155,587,retrieval-feasible conditional,,
+CSSR_U,jina35,299,1502,0.19906790945406125,587,query-unweighted unconditional,,
+CSSR_C,jina35,299,355,0.8422535211267606,587,retrieval-feasible conditional,,
+group_macro_CSSR_U,pplx_decider,306,1502,0.20227346475217003,587,equal-source-group macro,,
+group_macro_CSSR_U,jina35,299,1502,0.19686798626321622,587,equal-source-group macro,,
+group_macro_CSSR_U,retrieval5,220,1502,0.14091898542494793,587,equal-source-group macro,,
+retrieval_feasibility_ceiling,Top20,355,1502,0.23635153129161118,587,complete valid support present in frozen Top20,,
+primary_equal_group_delta,pplx_minus_jina,,1502,0.005405478488953787,587,equal-source-group CSSR-U,-0.003585963062112977,0.01480540683053459
+paired_outcomes,pplx_vs_jina,,1502,"{""both_success"": 275, ""jina_only"": 24, ""neither"": 1172, ""pplx_only"": 31}",587,paired binary cells,,
+both_failure_decomposition,pplx_vs_jina,,1502,"{""feasible"": 25, ""retrieval_infeasible"": 1147}",587,descriptive decomposition,,

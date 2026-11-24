@@ -1,0 +1,25 @@
+model,dataset,stage,status,n,primary_metric,artifact_lineage
+pplx_decider,SciFact,E6-2 relevance,FULL_VALID,277,binary nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation
+pplx_decider,GaRAGe,E6-2 relevance,FULL_VALID,1397,evidence_relevant nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation
+pplx_decider,E7-B CAL,E7 repeatability,FULL_VALID,80,order/repeatability; nDCG sensitivity,results/non_jev/v2/e7_v1_0/02_repeatability_and_order
+liquid_d1_3b,SciFact,E6-2 relevance,FULL_VALID,277,binary nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation
+liquid_d1_3b,GaRAGe,E6-2 relevance,FULL_VALID,1397,evidence_relevant nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation
+liquid_d1_3b,E7-B CAL,E7 repeatability,NOT_RUN,80,order/repeatability; nDCG sensitivity,results/non_jev/v2/e7_v1_0/02_repeatability_and_order
+startlux_decision_4b,SciFact,E6-2 relevance,FULL_VALID,277,binary nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation
+startlux_decision_4b,GaRAGe,E6-2 relevance,FULL_VALID,1397,evidence_relevant nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation
+startlux_decision_4b,E7-B CAL,E7 repeatability,FULL_VALID,80,order/repeatability; nDCG sensitivity,results/non_jev/v2/e7_v1_0/02_repeatability_and_order
+amos_1_small_2b,SciFact,E6-2 relevance,FULL_VALID,277,binary nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation
+amos_1_small_2b,GaRAGe,E6-2 relevance,FULL_VALID,1397,evidence_relevant nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation
+amos_1_small_2b,E7-B CAL,E7 repeatability,NOT_RUN,80,order/repeatability; nDCG sensitivity,results/non_jev/v2/e7_v1_0/02_repeatability_and_order
+jina_v3_5,SciFact,E6-2 relevance,FULL_VALID,277,binary nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation
+jina_v3_5,GaRAGe,E6-2 relevance,FULL_VALID,1397,evidence_relevant nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation
+jina_v3_5,E7-B CAL,E7 repeatability,FULL_VALID,80,order/repeatability; nDCG sensitivity,results/non_jev/v2/e7_v1_0/02_repeatability_and_order
+qwen3_reranker_4b,SciFact,E6-2 relevance,FULL_VALID,277,binary nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation
+qwen3_reranker_4b,GaRAGe,E6-2 relevance,FULL_VALID,1397,evidence_relevant nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation
+qwen3_reranker_4b,E7-B CAL,E7 repeatability,NOT_RUN,80,order/repeatability; nDCG sensitivity,results/non_jev/v2/e7_v1_0/02_repeatability_and_order
+bge_reranker_v2_m3,SciFact,E6-2 relevance,FULL_VALID,277,binary nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation
+bge_reranker_v2_m3,GaRAGe,E6-2 relevance,FULL_VALID,1397,evidence_relevant nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation
+bge_reranker_v2_m3,E7-B CAL,E7 repeatability,NOT_RUN,80,order/repeatability; nDCG sensitivity,results/non_jev/v2/e7_v1_0/02_repeatability_and_order
+qwen3_reranker_0_6b,SciFact,E6-2 relevance,FULL_VALID,277,binary nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation
+qwen3_reranker_0_6b,GaRAGe,E6-2 relevance,FULL_VALID,1397,evidence_relevant nDCG@5,results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation
+qwen3_reranker_0_6b,E7-B CAL,E7 repeatability,FULL_VALID,80,order/repeatability; nDCG sensitivity,results/non_jev/v2/e7_v1_0/02_repeatability_and_order

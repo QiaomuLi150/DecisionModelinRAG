@@ -1,0 +1,6 @@
+Final release privacy scan
+
+Status: PASS
+Files scanned: 2,922. Compressed gzip payloads were decompressed and scanned.
+Findings: zero private path/user markers, credential-shaped tokens, GPU UUIDs, or captured process listings.
+Local reachable history scan: PASS (one root snapshot; tree matches checkout). GitHub stale-commit check: BLOCKED; the pre-redaction commit IDs remain API-accessible after the force update. Repository visibility remains private pending GitHub cache/reference removal.

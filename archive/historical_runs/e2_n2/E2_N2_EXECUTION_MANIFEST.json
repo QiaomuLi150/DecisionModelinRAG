@@ -1,0 +1,548 @@
+{
+  "bootstrap_repetitions": 5000,
+  "bootstrap_seed": 731,
+  "candidates_per_query": 20,
+  "execution_mode": "authenticated_e2_n_trace_reuse_plus_fresh_offline_evaluator",
+  "explicit_blocked_rows": 500,
+  "fresh_confirmatory_holdout_accessed": false,
+  "generated_utc": "2026-10-13T09:24:00Z",
+  "jev_calls": 0,
+  "limitations": [
+    "500 Intern-Decision enterprise rows fail native 8192-token context contract",
+    "CSSR is a complete-support selection proxy, not reader factual accuracy",
+    "resident Qwen service telemetry is non-promoted; direct checkpoint telemetry is used",
+    "GPU dollar cost and production maximum QPS are not measured"
+  ],
+  "milestone": "E2-N2",
+  "new_model_inference_requests_in_e2_n2": 0,
+  "output_hashes": {
+    "E2_N2_AUTHENTICITY_AUDIT.md": {
+      "bytes": 839,
+      "sha256": "73193951812f30af8ee89ac898a5d6cf9a483238c432799f874b614d74803aae"
+    },
+    "E2_N2_CAL_VALIDATION_REPORT.md": {
+      "bytes": 1827,
+      "sha256": "cf2aaeb6ffe947ddc7899081e0b84dc1515d82f8825bb092fd7d02bbcc707040"
+    },
+    "E2_N2_CHECKPOINT_AND_LICENSE_AUDIT.md": {
+      "bytes": 4315,
+      "sha256": "b5596041422b55c9fc6bf18b9c609ffd3ad7e384d6d40ce1b8efce7b6ef7d6a7"
+    },
+    "E2_N2_CONTEXT_AND_FEASIBILITY_REPORT.md": {
+      "bytes": 941,
+      "sha256": "c711eb226d06c45c50f19ec23ca7d4200df1322eb3d54328da62a34fc28b30b0"
+    },
+    "E2_N2_FINAL_REPORT.md": {
+      "bytes": 1451,
+      "sha256": "34b74f06d2c50c76bf89ae84fe3272427d1fe8adaf2632d9b4cf915af2356d19"
+    },
+    "E2_N2_FROZEN_EXPLORATORY_CONFIG.json": {
+      "bytes": 12645,
+      "sha256": "9840dc5e1851eb753d74a9ffbdb49fe8cf5fd0d653d383e63e2df6afa419b421"
+    },
+    "E2_N2_GPU_RESOURCE_AUDIT.md": {
+      "bytes": 835,
+      "sha256": "4aac2f2d1a87feabb6f5d632d9500e382496b12c1b244b1b04b56ca9b82b43fa"
+    },
+    "E2_N2_MODEL_DATASET_QUALITY_SUMMARY.csv": {
+      "bytes": 14745,
+      "sha256": "323570b237c4b960cdbba2bfb3eb7de064af5438a2e28034f2b2030c777ec88f"
+    },
+    "E2_N2_MODEL_FAMILY_ANALYSIS.md": {
+      "bytes": 938,
+      "sha256": "02b55c598dbda5b8f8ce37da0e206a9e85d5ad614b139d7b4deea59f62f21674"
+    },
+    "E2_N2_MODEL_SCORES.jsonl": {
+      "bytes": 230223074,
+      "sha256": "d5cc6ea0349dc6a5d15f331f2f9c43aff9cf629181600ae983746e5dfc8448ac"
+    },
+    "E2_N2_NATIVE_SMOKE_REPORT.md": {
+      "bytes": 2248,
+      "sha256": "9b5c19dc2ec319e9eb9edf151b7f19dc5556c101e2e0e4553da97960134212d1"
+    },
+    "E2_N2_OFFLINE_EVALUATOR_RUN.json": {
+      "bytes": 375,
+      "sha256": "311c6cb840f8a81b7a9217f776b6e9a61e556b1818adf995351660b7cbcd694e"
+    },
+    "E2_N2_OWNER_REVIEW_GATE.md": {
+      "bytes": 1010,
+      "sha256": "7db6b43c692f2e4e7f741157c28cceccd95557a5785f41d41716627a833c4a45"
+    },
+    "E2_N2_PRIMARY_EXPLORATORY_PAIRED_STATISTICS.csv": {
+      "bytes": 25488,
+      "sha256": "5aba574b018b2ea173802b16c41766d32598f007691de6bc3b2c2c26ac991ad4"
+    },
+    "E2_N2_RUNTIME_AND_GPU_REPORT.md": {
+      "bytes": 1216,
+      "sha256": "e8e280006c8f02343875593d5ba738331f2ff85ddbe3376e935e51c581deec47"
+    },
+    "E2_N2_SELECTED_DOCUMENTS.jsonl": {
+      "bytes": 116155030,
+      "sha256": "cb2a948c62bf7590bfeb37f2c254ea89e09c175dc2ce691c7f3b132f2ef84c97"
+    }
+  },
+  "paid_api_calls": 0,
+  "physical_forward_evidence_rows": 54971,
+  "production_services_modified": false,
+  "retrieval_or_indexing": false,
+  "selected_document_rows": 59738,
+  "source_meta": {
+    "policy_counts": {
+      "bge_pointwise": 4267,
+      "clef_joint": 4267,
+      "clef_pointwise": 4267,
+      "gte": 4267,
+      "intern_decision": 4267,
+      "jina35": 4267,
+      "laya_pointwise": 4267,
+      "minilm": 4267,
+      "nimble": 4267,
+      "pplx_decider": 4267,
+      "qwen06": 4267,
+      "qwen4": 4267,
+      "qwen_direct": 4267,
+      "retrieval5": 4267
+    },
+    "source_records": [
+      {
+        "source_key": "bge_pointwise",
+        "summary": {
+          "cache_reuse_rows": 0,
+          "downloads": 0,
+          "expected_rows": 4267,
+          "frozen_queries": 4267,
+          "input_and_response_hash_rows": 4267,
+          "jev_calls": 0,
+          "model": "bge",
+          "ok_rows": 4267,
+          "paid_api_calls": 0,
+          "physical_forward_evidence_rows": 4267,
+          "rows": 4267,
+          "stage": "N3_FULL_HISTORICAL",
+          "status": "PASS",
+          "trace_reused_from_e2_m1": false,
+          "trace_sha256": "645164198c69886f61f1de60e43ccb189ca57146940eb5027326ce9482c4ad5f",
+          "track_a_queries": 3767,
+          "track_b_queries": 500,
+          "unique_queries": 4267,
+          "valid_unique_20_candidate_rows": 4267
+        },
+        "trace": "results/non_jev/v2/e2_n/n3/E2_N_N3_BGE_FULL.jsonl",
+        "trace_sha256": "645164198c69886f61f1de60e43ccb189ca57146940eb5027326ce9482c4ad5f"
+      },
+      {
+        "source_key": "laya_pointwise",
+        "summary": {
+          "cache_reuse_rows": 0,
+          "downloads": 0,
+          "expected_rows": 4267,
+          "frozen_queries": 4267,
+          "input_and_response_hash_rows": 4267,
+          "jev_calls": 0,
+          "model": "laya",
+          "ok_rows": 4267,
+          "paid_api_calls": 0,
+          "physical_forward_evidence_rows": 4267,
+          "rows": 4267,
+          "stage": "N3_FULL_HISTORICAL",
+          "status": "PASS",
+          "trace_reused_from_e2_m1": false,
+          "trace_sha256": "58f03e7891e904d4b957fdd1beeb7fa7ccc6d8ccd12c77438d354598b2eb8ec5",
+          "track_a_queries": 3767,
+          "track_b_queries": 500,
+          "unique_queries": 4267,
+          "valid_unique_20_candidate_rows": 4267
+        },
+        "trace": "results/non_jev/v2/e2_n/n3/E2_N_N3_LAYA_FULL.jsonl",
+        "trace_sha256": "58f03e7891e904d4b957fdd1beeb7fa7ccc6d8ccd12c77438d354598b2eb8ec5"
+      },
+      {
+        "source_key": "clef",
+        "summary": {
+          "cache_reuse_rows": 0,
+          "downloads": 0,
+          "expected_rows": 8534,
+          "frozen_queries": 4267,
+          "input_and_response_hash_rows": 8534,
+          "jev_calls": 0,
+          "model": "clef",
+          "ok_rows": 8534,
+          "paid_api_calls": 0,
+          "physical_forward_evidence_rows": 8534,
+          "reuse_provenance": {
+            "reuse_reason": "same model revision, frozen views, score contracts, candidate slates, and input/response hashes; no incompatible cache reuse",
+            "source_joint_path": "results/non_jev/v2/e2_m1/E2_M1_JOINT_BINARY_SCORES.jsonl",
+            "source_joint_sha256": "5cc6a1bd8c2fe30c308ac40e06505a8762c05bf862052dc402a86289eeb3ecaa",
+            "source_point_path": "results/non_jev/v2/e2_m1/E2_M1_POINTWISE_SCORES.jsonl",
+            "source_point_sha256": "645e9cf3c42ccfa8b814f790fb86f406085d09039b53347ffa11ddd5d04595d8",
+            "source_rows": 8534
+          },
+          "rows": 8534,
+          "stage": "N3_FULL_HISTORICAL",
+          "status": "PASS",
+          "trace_reused_from_e2_m1": true,
+          "trace_sha256": "a447c994010ac4b6e071b86b7124592af8d2f673a5ab159767c44f8c7ba0c77b",
+          "track_a_queries": 3767,
+          "track_b_queries": 500,
+          "unique_queries": 4267,
+          "valid_unique_20_candidate_rows": 8534
+        },
+        "trace": "results/non_jev/v2/e2_n/n3/E2_N_N3_CLEF_FULL.jsonl",
+        "trace_sha256": "a447c994010ac4b6e071b86b7124592af8d2f673a5ab159767c44f8c7ba0c77b"
+      },
+      {
+        "source_key": "gte",
+        "summary": {
+          "cache_reuse_rows": 0,
+          "expected_rows": 4267,
+          "gpu_snapshot_after": {
+            "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,utilization.gpu --format=csv,noheader,nounits",
+            "status": "PASS",
+            "stderr": "",
+            "stdout": "0, NVIDIA A100-SXM4-80GB, 81920, 2003, 8\n1, NVIDIA A100-SXM4-80GB, 81920, 55827, 0\n2, NVIDIA A100-SXM4-80GB, 81920, 54785, 0\n3, NVIDIA A100-SXM4-80GB, 81920, 60463, 0\n4, NVIDIA A100-SXM4-80GB, 81920, 30341, 0\n5, NVIDIA A100-SXM4-80GB, 81920, 70213, 100\n6, NVIDIA A100-SXM4-80GB, 81920, 13769, 72\n7, NVIDIA A100-SXM4-80GB, 81920, 63426, 23"
+          },
+          "input_and_response_hash_rows": 4267,
+          "jev_calls": 0,
+          "model": "Alibaba-NLP/gte-reranker-modernbert-base",
+          "ok_rows": 4267,
+          "paid_api_calls": 0,
+          "physical_forward_evidence_rows": 4267,
+          "revision": "f7481e6055501a30fb19d090657df9ec1f79ab2c",
+          "rows": 4267,
+          "stage": "N3_FULL_HISTORICAL",
+          "status": "PASS",
+          "total_physical_forward_calls": 4267,
+          "trace_sha256": "60574a866356dd5abef003ebce6e0d5813c10beb6ee61a70da17d7c38fb8f6ae",
+          "unique_queries": 4267,
+          "valid_unique_20_candidate_rows": 4267
+        },
+        "trace": "results/non_jev/v2/e2_n/n3/E2_N_N3_GTE_FULL.jsonl",
+        "trace_sha256": "60574a866356dd5abef003ebce6e0d5813c10beb6ee61a70da17d7c38fb8f6ae"
+      },
+      {
+        "source_key": "minilm",
+        "summary": {
+          "cache_reuse_rows": 0,
+          "expected_rows": 4267,
+          "gpu_snapshot_after": {
+            "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,utilization.gpu --format=csv,noheader,nounits",
+            "status": "PASS",
+            "stderr": "",
+            "stdout": "0, NVIDIA A100-SXM4-80GB, 81920, 1513, 10\n1, NVIDIA A100-SXM4-80GB, 81920, 55827, 0\n2, NVIDIA A100-SXM4-80GB, 81920, 54785, 0\n3, NVIDIA A100-SXM4-80GB, 81920, 60463, 0\n4, NVIDIA A100-SXM4-80GB, 81920, 30341, 0\n5, NVIDIA A100-SXM4-80GB, 81920, 70213, 99\n6, NVIDIA A100-SXM4-80GB, 81920, 13769, 82\n7, NVIDIA A100-SXM4-80GB, 81920, 63426, 31"
+          },
+          "input_and_response_hash_rows": 4267,
+          "jev_calls": 0,
+          "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+          "ok_rows": 4267,
+          "paid_api_calls": 0,
+          "physical_forward_evidence_rows": 4267,
+          "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+          "rows": 4267,
+          "stage": "N3_FULL_HISTORICAL",
+          "status": "PASS",
+          "total_physical_forward_calls": 4267,
+          "trace_sha256": "151d36c2c5197b1c4889dfc39351a2eecde416822216f7099e4c8f81c4387a97",
+          "unique_queries": 4267,
+          "valid_unique_20_candidate_rows": 4267
+        },
+        "trace": "results/non_jev/v2/e2_n/n3/E2_N_N3_MINILM_FULL.jsonl",
+        "trace_sha256": "151d36c2c5197b1c4889dfc39351a2eecde416822216f7099e4c8f81c4387a97"
+      },
+      {
+        "source_key": "jina35",
+        "summary": {
+          "cache_reuse_rows": 0,
+          "expected_rows": 4267,
+          "gpu_snapshot_after": {
+            "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,utilization.gpu --format=csv,noheader,nounits",
+            "status": "PASS",
+            "stderr": "",
+            "stdout": "0, NVIDIA A100-SXM4-80GB, 81920, 3029, 8\n1, NVIDIA A100-SXM4-80GB, 81920, 55827, 0\n2, NVIDIA A100-SXM4-80GB, 81920, 54785, 0\n3, NVIDIA A100-SXM4-80GB, 81920, 60463, 0\n4, NVIDIA A100-SXM4-80GB, 81920, 42729, 37\n5, NVIDIA A100-SXM4-80GB, 81920, 70213, 98\n6, NVIDIA A100-SXM4-80GB, 81920, 64231, 93\n7, NVIDIA A100-SXM4-80GB, 81920, 52223, 0"
+          },
+          "input_and_response_hash_rows": 4267,
+          "jev_calls": 0,
+          "model": "jinaai/jina-reranker-v3.5",
+          "ok_rows": 4267,
+          "paid_api_calls": 0,
+          "physical_forward_evidence_rows": 4267,
+          "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+          "rows": 4267,
+          "stage": "N3_FULL_HISTORICAL",
+          "status": "PASS",
+          "total_physical_forward_calls": 4267,
+          "trace_sha256": "e9472311e538cc36e70ac9ebc387e3370c9d9405a544ec86e943fa85ac4f9526",
+          "unique_queries": 4267,
+          "valid_unique_20_candidate_rows": 4267
+        },
+        "trace": "results/non_jev/v2/e2_n/n3/E2_N_N3_JINA35_FULL.jsonl",
+        "trace_sha256": "e9472311e538cc36e70ac9ebc387e3370c9d9405a544ec86e943fa85ac4f9526"
+      },
+      {
+        "source_key": "nimble",
+        "summary": {
+          "base_model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+          "cache_reuse_rows": 0,
+          "expected_rows": 4267,
+          "gpu_snapshot_after": {
+            "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,utilization.gpu --format=csv,noheader,nounits",
+            "status": "PASS",
+            "stderr": "",
+            "stdout": "0, NVIDIA A100-SXM4-80GB, 81920, 54161, 100\n1, NVIDIA A100-SXM4-80GB, 81920, 55827, 0\n2, NVIDIA A100-SXM4-80GB, 81920, 54785, 0\n3, NVIDIA A100-SXM4-80GB, 81920, 61033, 0\n4, NVIDIA A100-SXM4-80GB, 81920, 42849, 31\n5, NVIDIA A100-SXM4-80GB, 81920, 70213, 99\n6, NVIDIA A100-SXM4-80GB, 81920, 23329, 0\n7, NVIDIA A100-SXM4-80GB, 81920, 52223, 0"
+          },
+          "input_and_response_hash_rows": 4267,
+          "jev_calls": 0,
+          "model": "bespokelabs/Bespoke-Nimble-9B-v2",
+          "ok_rows": 4267,
+          "paid_api_calls": 0,
+          "physical_forward_evidence_rows": 4267,
+          "revision": "4b8c04d1ac2cea3e41e5e3c4d2130bcead2c0abe",
+          "rows": 4267,
+          "stage": "N3_FULL_HISTORICAL",
+          "status": "PASS",
+          "temperature": 2.179078721266035,
+          "total_physical_forward_calls": 4267,
+          "trace_sha256": "f3f6c430db1d1198ec254b9a51b3897ed56cc6ad2520fb1b936d89407f31f011",
+          "unique_queries": 4267,
+          "valid_unique_20_candidate_rows": 4267
+        },
+        "trace": "results/non_jev/v2/e2_n/n3/E2_N_N3_NIMBLE_FULL.jsonl",
+        "trace_sha256": "f3f6c430db1d1198ec254b9a51b3897ed56cc6ad2520fb1b936d89407f31f011"
+      },
+      {
+        "source_key": "intern_decision",
+        "summary": {
+          "cache_reuse_rows": 0,
+          "expected_rows": 4267,
+          "gpu_snapshot_after": {
+            "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,utilization.gpu --format=csv,noheader,nounits",
+            "status": "PASS",
+            "stderr": "",
+            "stdout": "0, NVIDIA A100-SXM4-80GB, 81920, 54161, 100\n1, NVIDIA A100-SXM4-80GB, 81920, 55827, 0\n2, NVIDIA A100-SXM4-80GB, 81920, 54785, 0\n3, NVIDIA A100-SXM4-80GB, 81920, 61033, 0\n4, NVIDIA A100-SXM4-80GB, 81920, 42849, 34\n5, NVIDIA A100-SXM4-80GB, 81920, 70213, 100\n6, NVIDIA A100-SXM4-80GB, 81920, 35503, 72\n7, NVIDIA A100-SXM4-80GB, 81920, 52223, 0"
+          },
+          "input_and_response_hash_rows": 3767,
+          "jev_calls": 0,
+          "model": "internlm/Intern-Decision-4B",
+          "ok_rows": 3767,
+          "paid_api_calls": 0,
+          "physical_forward_evidence_rows": 3767,
+          "revision": "0e5e6aa7d6d750e2b1504ba11a8136cb58aeb3cd",
+          "rows": 4267,
+          "stage": "N3_FULL_HISTORICAL",
+          "status": "BLOCKED",
+          "temperature": 1.99241824,
+          "total_physical_forward_calls": 3767,
+          "trace_sha256": "7b856e06c74df994a9317c37ed250185e95543fe70715c751dea969405949712",
+          "unique_queries": 4267,
+          "valid_unique_20_candidate_rows": 3767
+        },
+        "trace": "results/non_jev/v2/e2_n/n3/E2_N_N3_INTERN_DECISION_FULL.jsonl",
+        "trace_sha256": "7b856e06c74df994a9317c37ed250185e95543fe70715c751dea969405949712"
+      },
+      {
+        "source_key": "pplx_decider",
+        "summary": {
+          "cache_reuse_rows": 0,
+          "expected_rows": 4267,
+          "gpu_snapshot_after": {
+            "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,utilization.gpu --format=csv,noheader,nounits",
+            "status": "PASS",
+            "stderr": "",
+            "stdout": "0, NVIDIA A100-SXM4-80GB, 81920, 56687, 0\n1, NVIDIA A100-SXM4-80GB, 81920, 55827, 0\n2, NVIDIA A100-SXM4-80GB, 81920, 54785, 0\n3, NVIDIA A100-SXM4-80GB, 81920, 61033, 0\n4, NVIDIA A100-SXM4-80GB, 81920, 42849, 32\n5, NVIDIA A100-SXM4-80GB, 81920, 8, 0\n6, NVIDIA A100-SXM4-80GB, 81920, 40447, 0\n7, NVIDIA A100-SXM4-80GB, 81920, 52223, 0"
+          },
+          "input_and_response_hash_rows": 4267,
+          "jev_calls": 0,
+          "model": "perplexity-ai/pplx-decider-v1.1-27b",
+          "ok_rows": 4267,
+          "paid_api_calls": 0,
+          "physical_forward_evidence_rows": 4267,
+          "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+          "rows": 4267,
+          "stage": "N3_FULL_HISTORICAL",
+          "status": "PASS",
+          "total_physical_forward_calls": 4267,
+          "trace_sha256": "47594515c9c74806f18143660a906ad5b4301861801a66999385ef3172aa0544",
+          "unique_queries": 4267,
+          "valid_unique_20_candidate_rows": 4267
+        },
+        "trace": "results/non_jev/v2/e2_n/n3/E2_N_N3_PPLX_DECIDER_FULL.jsonl",
+        "trace_sha256": "47594515c9c74806f18143660a906ad5b4301861801a66999385ef3172aa0544"
+      },
+      {
+        "source_key": "qwen06",
+        "summary": {
+          "cache_reuse_rows": 0,
+          "expected_rows": 4267,
+          "gpu_snapshot_after": {
+            "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,utilization.gpu --format=csv,noheader,nounits",
+            "status": "PASS",
+            "stderr": "",
+            "stdout": "0, NVIDIA A100-SXM4-80GB, 81920, 17911, 90\n1, NVIDIA A100-SXM4-80GB, 81920, 55827, 0\n2, NVIDIA A100-SXM4-80GB, 81920, 54785, 0\n3, NVIDIA A100-SXM4-80GB, 81920, 60463, 0\n4, NVIDIA A100-SXM4-80GB, 81920, 28821, 0\n5, NVIDIA A100-SXM4-80GB, 81920, 70213, 100\n6, NVIDIA A100-SXM4-80GB, 81920, 32053, 0\n7, NVIDIA A100-SXM4-80GB, 81920, 65198, 29"
+          },
+          "input_and_response_hash_rows": 4267,
+          "jev_calls": 0,
+          "model": "Qwen/Qwen3-Reranker-0.6B",
+          "ok_rows": 4267,
+          "paid_api_calls": 0,
+          "physical_forward_evidence_rows": 4267,
+          "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+          "rows": 4267,
+          "stage": "N3_FULL_HISTORICAL",
+          "status": "PASS",
+          "total_physical_forward_calls": 4267,
+          "trace_sha256": "efe9a033eced4bf5891249f48b918b78352ac1e4fc1978d4579920712fc1a3fa",
+          "unique_queries": 4267,
+          "valid_unique_20_candidate_rows": 4267
+        },
+        "trace": "results/non_jev/v2/e2_n/n3/E2_N_N3_QWEN06_FULL.jsonl",
+        "trace_sha256": "efe9a033eced4bf5891249f48b918b78352ac1e4fc1978d4579920712fc1a3fa"
+      },
+      {
+        "source_key": "qwen4",
+        "summary": {
+          "cache_reuse_rows": 0,
+          "expected_rows": 4267,
+          "gpu_snapshot_after": {
+            "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,utilization.gpu --format=csv,noheader,nounits",
+            "status": "PASS",
+            "stderr": "",
+            "stdout": "0, NVIDIA A100-SXM4-80GB, 81920, 39979, 7\n1, NVIDIA A100-SXM4-80GB, 81920, 55827, 0\n2, NVIDIA A100-SXM4-80GB, 81920, 54785, 0\n3, NVIDIA A100-SXM4-80GB, 81920, 60463, 0\n4, NVIDIA A100-SXM4-80GB, 81920, 67241, 100\n5, NVIDIA A100-SXM4-80GB, 81920, 70213, 100\n6, NVIDIA A100-SXM4-80GB, 81920, 13769, 91\n7, NVIDIA A100-SXM4-80GB, 81920, 63428, 0"
+          },
+          "input_and_response_hash_rows": 4267,
+          "jev_calls": 0,
+          "model": "Qwen/Qwen3-Reranker-4B",
+          "ok_rows": 4267,
+          "paid_api_calls": 0,
+          "physical_forward_evidence_rows": 4267,
+          "revision": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+          "rows": 4267,
+          "stage": "N3_FULL_HISTORICAL",
+          "status": "PASS",
+          "total_physical_forward_calls": 4267,
+          "trace_sha256": "6c29f217b4d2eff28d7d9fc5676fa3652bb030d3b2de2d0617b5f54adf98b928",
+          "unique_queries": 4267,
+          "valid_unique_20_candidate_rows": 4267
+        },
+        "trace": "results/non_jev/v2/e2_n/n3/E2_N_N3_QWEN4_FULL.jsonl",
+        "trace_sha256": "6c29f217b4d2eff28d7d9fc5676fa3652bb030d3b2de2d0617b5f54adf98b928"
+      },
+      {
+        "source_key": "qwen_direct",
+        "summary": {
+          "cache_reuse_rows": 0,
+          "direct_checkpoint": true,
+          "expected_rows": 4267,
+          "input_and_response_hash_rows": 4267,
+          "jev_calls": 0,
+          "model": "Qwen/Qwen3-VL-Reranker-2B",
+          "ok_rows": 4267,
+          "paid_api_calls": 0,
+          "physical_forward_evidence_rows": 4267,
+          "resident_service_modified": false,
+          "resident_service_restarted": false,
+          "revision": "4bd860ac4f15ad1897a214615cccc700f8f71818",
+          "rows": 4267,
+          "shard_count": 2,
+          "shard_paths": [
+            {
+              "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_QWEN_DIRECT_FULL.shard0.jsonl",
+              "rows": 2134,
+              "sha256": "9abaa7924043a7e34118ecc090c074195a99e6076756dbc2ea834299270eb9a8"
+            },
+            {
+              "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_QWEN_DIRECT_FULL.shard1.jsonl",
+              "rows": 2133,
+              "sha256": "1fd37b8b72a16899444e70346265937189e127f281e9bc991f898ad684892c58"
+            }
+          ],
+          "stage": "N3_FULL_HISTORICAL",
+          "status": "PASS",
+          "total_physical_forward_calls": 4267,
+          "trace_sha256": "c7fc80ab9fff480d1c0923cb73e645cb59fe8f005a6b552b1361ba581be90a76",
+          "unique_queries": 4267,
+          "valid_unique_20_candidate_rows": 4267
+        },
+        "trace": "results/non_jev/v2/e2_n/n3/E2_N_N3_QWEN_DIRECT_FULL.jsonl",
+        "trace_sha256": "c7fc80ab9fff480d1c0923cb73e645cb59fe8f005a6b552b1361ba581be90a76"
+      }
+    ],
+    "trace_hashes": {
+      "E2_N_N3_BGE_FULL.jsonl": {
+        "rows": 4267,
+        "sha256": "645164198c69886f61f1de60e43ccb189ca57146940eb5027326ce9482c4ad5f",
+        "summary_sha256": "645164198c69886f61f1de60e43ccb189ca57146940eb5027326ce9482c4ad5f",
+        "summary_status": "PASS"
+      },
+      "E2_N_N3_CLEF_FULL.jsonl": {
+        "rows": 8534,
+        "sha256": "a447c994010ac4b6e071b86b7124592af8d2f673a5ab159767c44f8c7ba0c77b",
+        "summary_sha256": "a447c994010ac4b6e071b86b7124592af8d2f673a5ab159767c44f8c7ba0c77b",
+        "summary_status": "PASS"
+      },
+      "E2_N_N3_GTE_FULL.jsonl": {
+        "rows": 4267,
+        "sha256": "60574a866356dd5abef003ebce6e0d5813c10beb6ee61a70da17d7c38fb8f6ae",
+        "summary_sha256": "60574a866356dd5abef003ebce6e0d5813c10beb6ee61a70da17d7c38fb8f6ae",
+        "summary_status": "PASS"
+      },
+      "E2_N_N3_INTERN_DECISION_FULL.jsonl": {
+        "rows": 4267,
+        "sha256": "7b856e06c74df994a9317c37ed250185e95543fe70715c751dea969405949712",
+        "summary_sha256": "7b856e06c74df994a9317c37ed250185e95543fe70715c751dea969405949712",
+        "summary_status": "BLOCKED"
+      },
+      "E2_N_N3_JINA35_FULL.jsonl": {
+        "rows": 4267,
+        "sha256": "e9472311e538cc36e70ac9ebc387e3370c9d9405a544ec86e943fa85ac4f9526",
+        "summary_sha256": "e9472311e538cc36e70ac9ebc387e3370c9d9405a544ec86e943fa85ac4f9526",
+        "summary_status": "PASS"
+      },
+      "E2_N_N3_LAYA_FULL.jsonl": {
+        "rows": 4267,
+        "sha256": "58f03e7891e904d4b957fdd1beeb7fa7ccc6d8ccd12c77438d354598b2eb8ec5",
+        "summary_sha256": "58f03e7891e904d4b957fdd1beeb7fa7ccc6d8ccd12c77438d354598b2eb8ec5",
+        "summary_status": "PASS"
+      },
+      "E2_N_N3_MINILM_FULL.jsonl": {
+        "rows": 4267,
+        "sha256": "151d36c2c5197b1c4889dfc39351a2eecde416822216f7099e4c8f81c4387a97",
+        "summary_sha256": "151d36c2c5197b1c4889dfc39351a2eecde416822216f7099e4c8f81c4387a97",
+        "summary_status": "PASS"
+      },
+      "E2_N_N3_NIMBLE_FULL.jsonl": {
+        "rows": 4267,
+        "sha256": "f3f6c430db1d1198ec254b9a51b3897ed56cc6ad2520fb1b936d89407f31f011",
+        "summary_sha256": "f3f6c430db1d1198ec254b9a51b3897ed56cc6ad2520fb1b936d89407f31f011",
+        "summary_status": "PASS"
+      },
+      "E2_N_N3_PPLX_DECIDER_FULL.jsonl": {
+        "rows": 4267,
+        "sha256": "47594515c9c74806f18143660a906ad5b4301861801a66999385ef3172aa0544",
+        "summary_sha256": "47594515c9c74806f18143660a906ad5b4301861801a66999385ef3172aa0544",
+        "summary_status": "PASS"
+      },
+      "E2_N_N3_QWEN06_FULL.jsonl": {
+        "rows": 4267,
+        "sha256": "efe9a033eced4bf5891249f48b918b78352ac1e4fc1978d4579920712fc1a3fa",
+        "summary_sha256": "efe9a033eced4bf5891249f48b918b78352ac1e4fc1978d4579920712fc1a3fa",
+        "summary_status": "PASS"
+      },
+      "E2_N_N3_QWEN4_FULL.jsonl": {
+        "rows": 4267,
+        "sha256": "6c29f217b4d2eff28d7d9fc5676fa3652bb030d3b2de2d0617b5f54adf98b928",
+        "summary_sha256": "6c29f217b4d2eff28d7d9fc5676fa3652bb030d3b2de2d0617b5f54adf98b928",
+        "summary_status": "PASS"
+      },
+      "E2_N_N3_QWEN_DIRECT_FULL.jsonl": {
+        "rows": 4267,
+        "sha256": "c7fc80ab9fff480d1c0923cb73e645cb59fe8f005a6b552b1361ba581be90a76",
+        "summary_sha256": "c7fc80ab9fff480d1c0923cb73e645cb59fe8f005a6b552b1361ba581be90a76",
+        "summary_status": "PASS"
+      }
+    }
+  },
+  "source_trace_rows": 55471,
+  "status": "E2_N2_PASS_WITH_LIMITATIONS",
+  "track_a_queries": 3767,
+  "track_b_questions": 500,
+  "training": false
+}

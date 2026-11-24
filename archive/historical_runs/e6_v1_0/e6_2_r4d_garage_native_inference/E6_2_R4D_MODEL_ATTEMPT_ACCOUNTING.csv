@@ -1,0 +1,9 @@
+model,scheduled,attempted,valid,failed,unexecuted,status,quality_scoring
+pplx_decider,1397,1397,1397,0,0,COMPLETE,NOT_RUN
+liquid_d1_3b,1397,1397,1397,0,0,COMPLETE,NOT_RUN
+startlux_decision_4b,1397,1397,1397,0,0,COMPLETE,NOT_RUN
+amos_1_small_2b,1397,1397,1397,0,0,COMPLETE,NOT_RUN
+jina_v3_5,1397,1397,1397,0,0,COMPLETE,NOT_RUN
+qwen3_reranker_4b,1397,1397,1397,0,0,COMPLETE,NOT_RUN
+bge_reranker_v2_m3,1397,1397,1397,0,0,COMPLETE,NOT_RUN
+qwen3_reranker_0_6b,1397,1397,1397,0,0,COMPLETE,NOT_RUN

@@ -1,0 +1,14 @@
+{
+  "full_regression": {
+    "cuda_disabled": true,
+    "environment": "MultiModalRAG/venv",
+    "failed": 0,
+    "passed": 302,
+    "status": "PASS"
+  },
+  "jina_gate": "PASS",
+  "n2_e": "PARTIAL",
+  "n3": "BLOCKED",
+  "status": "PASS_WITH_REMAINING_SCIENTIFIC_BLOCKERS",
+  "targeted_checks": "PASS"
+}

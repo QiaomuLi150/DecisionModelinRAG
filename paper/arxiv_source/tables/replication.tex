@@ -1,0 +1,29 @@
+\begin{table}[t]
+\centering
+\caption{Do the replacement results hold across RAG workloads? Which model ranks better depends on the workload; the latency gap does not (controlled transfer check; FS@5; hybrid first-stage lists)}\label{tab:replication}
+\scriptsize\setlength{\tabcolsep}{3.4pt}
+\begin{tabular}{@{}l rr r r@{}}\toprule
+ & Valid & & $\Delta$ vs full-text & p95\\
+ Policy & (\%) & FS@5 & Jina & ratio\\
+\midrule
+\addlinespace[2pt]\multicolumn{5}{@{}l}{\textit{EnterpriseRAG-Bench (500 requests, 443 labeled; 74.5\% reachable)}}\\[1pt]
+\quad First-stage order (hybrid) & 100 & 0.5576 & $-.0293$ & --\\
+\quad Jina v3.5, full text & 100 & 0.5869 & ref. & 1.00\\
+\quad Jina v3.5, truncated & 100 & 0.5327 & $-.0542$ & 0.52\\
+\quad Jina v3.5, two-stage & 100 & 0.5688 & $-.0181$ & 1.2\\
+\quad PPLX, default & 3.0 & 0.0226 & -- & --\\
+\quad PPLX, truncated & 100 & 0.6524 & $+.0655$ & 6.5\\
+\quad PPLX, two-stage & 100 & \textbf{0.6704} & $+.0835$ & 13.8\\
+\quad \emph{PPLX $-$ Jina, both two-stage} & & & $\mathbf{+.1016}$ & \\
+\addlinespace[2pt]\multicolumn{5}{@{}l}{\textit{MuSiQue (2,167 questions; 25.6\% reachable)}}\\[1pt]
+\quad First-stage order (hybrid) & 100 & 0.0992 & $-.0978$ & --\\
+\quad Jina v3.5, full text & 100 & 0.1970 & ref. & 1.00\\
+\quad Jina v3.5, truncated & 100 & 0.1980 & $+.0009$ & 1.00\\
+\quad Jina v3.5, two-stage & 100 & \textbf{0.2026} & $+.0055$ & 1.5\\
+\quad PPLX, default & 100 & 0.1731 & -- & --\\
+\quad PPLX, truncated & 100 & 0.1754 & $-.0217$ & 11.3\\
+\quad PPLX, two-stage & 100 & 0.1823 & $-.0148$ & 17.3\\
+\quad \emph{PPLX $-$ Jina, both two-stage} & & & $\mathbf{-.0203}$ & \\
+\bottomrule\end{tabular}
+\tabnote{Protocol frozen before outcomes. Bold FS@5: best policy on that benchmark. FS@5 is computed on labeled requests; a request is reachable when the Top-20 holds a complete support set (unreachable requests score 0 for every policy). Italic row: primary paired contrast on identical window text (Holm $p<.001$ and $p=.0003$). p95 ratio to full-text Jina in one dedicated session (120 requests $\times$ 3 per benchmark); truncated and two-stage PPLX exceed 2 on both. Lists come from a BM25 + dense fusion first stage, not BM25. Not comparable with BRIGHT nDCG@5.}
+\end{table}

@@ -1,0 +1,15 @@
+{
+  "expected_records": 3240,
+  "failed": 1083,
+  "labels_joined": false,
+  "phase": "jina",
+  "policy_counts": {
+    "jina_full": 1080,
+    "jina_pplx_budget": 1080,
+    "jina_two_stage_pplxwindow": 1080
+  },
+  "records": 3240,
+  "sha256": "ca6aa6414c3962fcfd98bfaf46d81634cdec6ecc146c8fd72e1af54cf135135c",
+  "status": "PASS",
+  "valid": 2157
+}

@@ -1,0 +1,11 @@
+{
+  "end": 692,
+  "gpu_slot_request": 3,
+  "labels_joined": false,
+  "model_kind": "pplx",
+  "model_loading_ms": 71607.16596245766,
+  "result_namespace": "stage1_quality_v2",
+  "rows": 4844,
+  "sha256": "5c650eb03bb07890ec8cfa9334d41793f519a3aa1129517bf8980446fdadee14",
+  "start": 0
+}

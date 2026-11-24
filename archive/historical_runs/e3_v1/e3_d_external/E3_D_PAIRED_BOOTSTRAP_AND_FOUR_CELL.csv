@@ -1,0 +1,21 @@
+left,right,dataset,metric,n,mean_delta,ci95_low,ci95_high,bootstrap_reps,seed,interpretation
+pplx_decider,jina35,multihop,complete_gold_in_top5,900,-0.011111111111111112,-0.04,0.01888888888888889,5000,731,paired exploratory difference; no holdout claim
+pplx_decider,jina35,multihop,any_gold_in_top5,900,-0.0033333333333333335,-0.016666666666666666,0.011111111111111112,5000,731,paired exploratory difference; no holdout claim
+pplx_decider,jina35,financebench,complete_gold_in_top5,109,-0.08256880733944955,-0.13761467889908258,-0.03669724770642202,5000,731,paired exploratory difference; no holdout claim
+pplx_decider,jina35,financebench,any_gold_in_top5,109,-0.11009174311926606,-0.1743119266055046,-0.05504587155963303,5000,731,paired exploratory difference; no holdout claim
+liquid_joint20_binary,jina35,multihop,complete_gold_in_top5,900,-0.16,-0.19,-0.1288888888888889,5000,731,paired exploratory difference; no holdout claim
+liquid_joint20_binary,jina35,multihop,any_gold_in_top5,900,-0.07333333333333333,-0.09333333333333334,-0.05333333333333334,5000,731,paired exploratory difference; no holdout claim
+liquid_joint20_binary,jina35,financebench,complete_gold_in_top5,109,-0.03669724770642202,-0.08256880733944955,0.0,5000,731,paired exploratory difference; no holdout claim
+liquid_joint20_binary,jina35,financebench,any_gold_in_top5,109,-0.06422018348623854,-0.11926605504587157,-0.009174311926605505,5000,731,paired exploratory difference; no holdout claim
+zerank2_pointwise,jina35,multihop,complete_gold_in_top5,900,-0.04111111111111111,-0.06666666666666667,-0.015555555555555555,5000,731,paired exploratory difference; no holdout claim
+zerank2_pointwise,jina35,multihop,any_gold_in_top5,900,-0.021111111111111112,-0.035555555555555556,-0.005555555555555556,5000,731,paired exploratory difference; no holdout claim
+zerank2_pointwise,jina35,financebench,complete_gold_in_top5,109,-0.009174311926605505,-0.027522935779816515,0.0,5000,731,paired exploratory difference; no holdout claim
+zerank2_pointwise,jina35,financebench,any_gold_in_top5,109,-0.009174311926605505,-0.027522935779816515,0.0,5000,731,paired exploratory difference; no holdout claim
+liquid_joint20_binary,zerank2_pointwise,multihop,complete_gold_in_top5,900,-0.11888888888888889,-0.14777777777777779,-0.09111111111111111,5000,731,paired exploratory difference; no holdout claim
+liquid_joint20_binary,zerank2_pointwise,multihop,any_gold_in_top5,900,-0.052222222222222225,-0.07333333333333333,-0.03111111111111111,5000,731,paired exploratory difference; no holdout claim
+liquid_joint20_binary,zerank2_pointwise,financebench,complete_gold_in_top5,109,-0.027522935779816515,-0.07339449541284404,0.01834862385321101,5000,731,paired exploratory difference; no holdout claim
+liquid_joint20_binary,zerank2_pointwise,financebench,any_gold_in_top5,109,-0.05504587155963303,-0.11009174311926606,0.0,5000,731,paired exploratory difference; no holdout claim
+jina35,bge_pointwise,multihop,complete_gold_in_top5,900,0.10888888888888888,0.0811111111111111,0.13666666666666666,5000,731,paired exploratory difference; no holdout claim
+jina35,bge_pointwise,multihop,any_gold_in_top5,900,0.058888888888888886,0.04111111111111111,0.07666666666666666,5000,731,paired exploratory difference; no holdout claim
+jina35,bge_pointwise,financebench,complete_gold_in_top5,109,0.07339449541284404,0.01834862385321101,0.12844036697247707,5000,731,paired exploratory difference; no holdout claim
+jina35,bge_pointwise,financebench,any_gold_in_top5,109,0.09174311926605505,0.03669724770642202,0.1559633027522936,5000,731,paired exploratory difference; no holdout claim

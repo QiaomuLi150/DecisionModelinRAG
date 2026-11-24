@@ -1,0 +1,69 @@
+{
+  "contrasts": [
+    {
+      "contrast": "pplx_budget-jina_full",
+      "delta_query_weighted": 0.0055521144323007554,
+      "domains_positive": 7,
+      "hi90": 0.020322053035440595,
+      "hi95": 0.02310167631472259,
+      "lo90": -0.009403190073856729,
+      "lo95": -0.012457319782336775,
+      "n_domains": 12,
+      "n_queries": 360,
+      "p_signflip": 0.6552734375
+    },
+    {
+      "contrast": "winnow_native-jina_full",
+      "delta_query_weighted": -0.09607665851156667,
+      "domains_positive": 2,
+      "hi90": -0.07307047080454966,
+      "hi95": -0.0691204060557157,
+      "lo90": -0.11952005954200423,
+      "lo95": -0.1241281144451219,
+      "n_domains": 12,
+      "n_queries": 360,
+      "p_signflip": 0.00830078125
+    }
+  ],
+  "counts": [
+    {
+      "attempt_records": 1080,
+      "mean_latency_ms": 460.1903722222222,
+      "mean_ndcg5_all_attempts": 0.17018081193928852,
+      "p95_query_mean_latency_ms": 1174.726833333334,
+      "policy": "jina_full",
+      "queries": 360,
+      "valid_attempt_rate": 1.0,
+      "valid_attempts": 1080
+    },
+    {
+      "attempt_records": 1080,
+      "mean_latency_ms": 1727.8568879629627,
+      "mean_ndcg5_all_attempts": 0.17573292637158927,
+      "p95_query_mean_latency_ms": 2413.2166666666667,
+      "policy": "pplx_budget",
+      "queries": 360,
+      "valid_attempt_rate": 0.9972222222222222,
+      "valid_attempts": 1077
+    },
+    {
+      "attempt_records": 1080,
+      "mean_latency_ms": 913.3461981481481,
+      "mean_ndcg5_all_attempts": 0.07410415342772186,
+      "p95_query_mean_latency_ms": 2791.7581999999998,
+      "policy": "winnow_native",
+      "queries": 360,
+      "valid_attempt_rate": 0.44722222222222224,
+      "valid_attempts": 483
+    }
+  ],
+  "labels_joined_after_raw_freeze": true,
+  "raw_sha256": "f2bc39d684faf8880c16bfbc2b7ccfb9b9c9856d5ba3e16247f229fcd0390a3a",
+  "source_paths": [
+    "results/v3_6_essential/followup_v2_n2e_repair_attempt2/shards/gpu3/raw.jsonl",
+    "results/v3_6_essential/followup_v2_n2e_repair_attempt2/shards/gpu4/raw.jsonl",
+    "results/v3_6_essential/followup_v2_n2e_repair_attempt2/shards/gpu6/raw.jsonl",
+    "results/v3_6_essential/followup_v2_n2e_repair_attempt5_gpu5/shards/gpu5/raw.jsonl"
+  ],
+  "status": "PASS_WITH_RESOURCE_CAVEAT"
+}

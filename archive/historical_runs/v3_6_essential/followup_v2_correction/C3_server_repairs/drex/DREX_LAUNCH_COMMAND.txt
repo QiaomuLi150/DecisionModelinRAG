@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=5 data/models/e12_o_runtimes/drex-llama.cpp/.build-e12o/bin/llama-server --model data/models/e12_o_checkpoints/drex_v2/drex-v2.0-Q8_0.gguf --ctx-size 16384 --batch-size 16384 --ubatch-size 16384 --n-gpu-layers 999 --parallel 1 --host <REDACTED_IP> --port 18107 --offline

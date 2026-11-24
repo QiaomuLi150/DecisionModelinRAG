@@ -1,0 +1,10 @@
+policy,model_or_source,revision,mechanism,quality_signal,hardware_gate,status
+pplx_decider,perplexity-ai/pplx-decider-v1.1-27b,14c9d90137962d300f3de95633f7b6535e80c5ce,native_slate_categorical,complete-support proxy,exclusive A100 / memory gate,READY_FOR_SEPARATE_AUTHORIZATION
+jina35,jinaai/jina-reranker-v3.5,e8a93f33f0b22108f8c2364f8484ce3422552fbc,native listwise/chunked,complete-support proxy,exclusive A100 / model-specific,READY_FOR_SEPARATE_AUTHORIZATION
+nimble,bespokelabs/Bespoke-Nimble-9B-v2,4b8c04d1ac2cea3e41e5e3c4d2130bcead2c0abe,native_slate_categorical,complete-support proxy,exclusive A100 / memory gate,READY_FOR_SEPARATE_AUTHORIZATION
+qwen06,Qwen/Qwen3-Reranker-0.6B,e61197ed45024b0ed8a2d74b80b4d909f1255473,pointwise text,complete-support proxy,exclusive A100 or approved service,READY_FOR_SEPARATE_AUTHORIZATION
+qwen4,Qwen/Qwen3-Reranker-4B,22e683669bc0f0bd69640a135a6d0aebcfeede5,official relevance-token,complete-support proxy,exclusive A100 / memory gate,READY_FOR_SEPARATE_AUTHORIZATION
+gte,Alibaba-NLP/gte-reranker-modernbert-base,f7481e6055501a30fb19d090657df9ec1f79ab2c,pointwise text,complete-support proxy,exclusive A100 or CPU baseline,READY_FOR_SEPARATE_AUTHORIZATION
+bge_pointwise,BAAI/bge-reranker-v2-m3,953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e,pointwise text,complete-support proxy,exclusive A100 or CPU baseline,READY_FOR_SEPARATE_AUTHORIZATION
+clef_joint,Cloudflare/clef-flash,8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3,native joint binary,complete-support proxy,exclusive A100 / native adapter,READY_FOR_SEPARATE_AUTHORIZATION
+retrieval5,frozen Track A/B retriever prefix,frozen slate hashes,retrieval control,baseline selection proxy,index resident; no reranker,READY_FOR_SEPARATE_AUTHORIZATION

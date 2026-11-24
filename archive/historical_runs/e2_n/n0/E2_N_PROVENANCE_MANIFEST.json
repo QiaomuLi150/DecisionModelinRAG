@@ -1,0 +1,84 @@
+{
+  "status": "E2_N_N0_PROVENANCE_COMPLETE",
+  "stage": "N0",
+  "source_files": {
+    "./DecisionRAG_v2_1_E2_N_Expanded_Model_Benchmark_Codex_Prompt.md": {
+      "bytes": 17740,
+      "sha256": "7cef7ddfb513dd29a9c40423932351e4d1d02bc6f072c7f045ff0a8996e65717"
+    },
+    "./DecisionRAG_v2_1_Revised_Research_Protocol.md": {
+      "bytes": 20208,
+      "sha256": "938be4b5078cbc660d2aadd3f72dcb4b962d821e3f4284de3b8e9da498c12f70"
+    },
+    "./results/non_jev/v2/e2_p0v2/E2_P0V2_MODEL_CAPABILITY_MATRIX.csv": {
+      "bytes": 7692,
+      "sha256": "03eddf7778070165f358635ff6f51b976998824825142fb31ecf023011736435"
+    },
+    "./results/non_jev/v2/e2_p0v2/E2_P0V2_CPU_VALIDATION_REPORT.md": {
+      "bytes": 1844,
+      "sha256": "0bcbc8553f65e27f117da795d3e714e990e12cfbb45bf22da6faff176f05e9fb"
+    },
+    "./results/non_jev/v2/e2_m1/E2_M1_RUNTIME_SUMMARY.json": {
+      "bytes": 1477,
+      "sha256": "804f90fc826ea34d8bc085067c7b59167874b392be336120dd5d501a6cabeded"
+    },
+    "./results/non_jev/v2/e2_m1/E2_M1_EXECUTION_MANIFEST.json": {
+      "bytes": 851,
+      "sha256": "b0990132fa2de45e89101c9ddd4019663cd2410865a68010fb53e0cccdfa2132"
+    },
+    "./src/decisionrag/selection.py": {
+      "bytes": 7647,
+      "sha256": "c222a36ad6388aeca2ff40a15a3670a5af37b128f89948a3994ee7ab8e595660"
+    },
+    "./scripts/e2_m1_experiment.py": {
+      "bytes": 45302,
+      "sha256": "dffb7131d3823c57e9b9d438142365285a88a9673616fcb4c3eda2d94d719f6e"
+    }
+  },
+  "created_files": {
+    "E2_N_ADAPTER_REGISTRY.json": {
+      "bytes": 2086,
+      "sha256": "f58443360d055e05d9f88dac8f5a097b38d2fc364150c8f43611b7f6e949dd64"
+    },
+    "E2_N_AUTHENTICITY_AND_SOURCE_PRESERVATION.md": {
+      "bytes": 819,
+      "sha256": "2d5db7f1a3524fdc64cac828ffffd80253b0330a6684aabaeb63b3c6359a876b"
+    },
+    "E2_N_CPU_VALIDATION_REPORT.md": {
+      "bytes": 3794,
+      "sha256": "5f48e1e4f5c6f8330ee119811290da24c02aad38109bd9bee007ba3c13c995ae"
+    },
+    "E2_N_EXECUTION_AND_PERMISSION_MANIFEST.json": {
+      "bytes": 31230,
+      "sha256": "1f5529e933777d6c5e0674ef22a97c286b6798d717548efdb4c725a183e25bd7"
+    },
+    "E2_N_GPU_WORKLOAD_PLAN.md": {
+      "bytes": 1683,
+      "sha256": "536827b6d65e7e274061bb9bbc64cad63d242013fe0c18ab87abf6194e5e12da"
+    },
+    "E2_N_MODEL_NATIVE_CAPABILITY_MATRIX.csv": {
+      "bytes": 9464,
+      "sha256": "9d5baaf59fa86b694449009602e22eb01284f84be152f15924f4e24a73e6c0f4"
+    },
+    "E2_N_N0_RUNBOOK.md": {
+      "bytes": 2260,
+      "sha256": "d2bbf960186c8464291bbb086846119300994076148ad9b6318b498ef5c7b9e0"
+    },
+    "E2_N_OWNER_REVIEW_GATE.md": {
+      "bytes": 1213,
+      "sha256": "25c4af4c35f8311d2107588a9ee370573d20de2e558619da32a0b188b8322a37"
+    },
+    "E2_N_SCORING_AND_INFORMATION_VIEW_CONTRACT.md": {
+      "bytes": 2493,
+      "sha256": "397b3c5d0ca18eaa87c99879334bae7e4f9327b29775d7016b7adc888261d6f9"
+    }
+  },
+  "preservation": {
+    "historic_artifacts_modified": false,
+    "fresh_holdout_accessed": false,
+    "gpu_inference": false,
+    "network_or_download": false,
+    "jev_calls": 0,
+    "paid_api_calls": 0
+  }
+}

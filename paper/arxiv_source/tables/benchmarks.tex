@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{Which benchmarks does the study use? Sizes, metrics and runs per benchmark}\label{tab:bench}
+\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}l l r l r@{}}\toprule
+Benchmark & Content & Queries & Metric & Runs\\
+\midrule
+BRIGHT~\cite{su2025bright} & Reasoning, 12 domains & 1,384 & nDCG@5 & 13\\
+SciFact~\cite{wadden2020scifact} & Scientific claims & 277 & nDCG@5 & 8\\
+QASPER~\cite{dasigi2021qasper} & Research papers & 1,502 & FS@5 & 2\\
+HotpotQA~\cite{yang2018hotpotqa} & Multi-hop, Wikipedia & 800 & FS@5 & 14\\
+MuSiQue~\cite{trivedi2022musique} & Multi-hop, composed & 2,167 & FS@5 & 14\\
+2WikiMultihopQA~\cite{ho2020twowiki} & Multi-hop, Wikipedia & 800 & FS@5 & 14\\
+MultiHop-RAG~\cite{tang2024multihoprag} & Multi-hop, news & 900 & FS@5 & 5\\
+GaRAGe~\cite{sorodoc2025garage} & Grounded QA & 1,397 & Rel@5 & 13\\
+EnterpriseRAG-Bench~\cite{sun2026enterpriserag} & Company documents & 443$^a$ & FS@5 & 14\\
+FinanceBench~\cite{islam2023financebench} & Financial filings & 109 & Hit@5 & 5\\
+CRAG~\cite{yang2024crag} & Web pages & 300 & F1 & 2\\
+\midrule Total & & 10,079 & & 104 runs\\
+\bottomrule\end{tabular}
+\tabnote{Fixed Top-20 list per query (GaRAGe: its supplied pool). FS@5: complete annotated support set in the Top-5; Hit@5: annotated evidence page in the Top-5; Rel@5: share of relevant candidates among the five selected. Runs: Table~\ref{tab:overview}. $^a$443 of 500 requests have resolvable labels; all 500 are run.}
+\end{table}

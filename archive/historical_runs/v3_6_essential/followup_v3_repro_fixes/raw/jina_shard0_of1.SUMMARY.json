@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "model": "jina",
+  "gpu": 4,
+  "shard": 0,
+  "shards": 1,
+  "rows": 10668,
+  "valid": 10195,
+  "failures": 473,
+  "failure_classes": {
+    "ValueError": 473
+  },
+  "elapsed_s": 1452.6471828334033,
+  "raw_sha256": "e7d6c2d7a73a4767b9fc8a0c5a5d0e013d9b5a94713358c6bb06eb1ce0499ce9",
+  "labels_joined": false,
+  "input_builder": "R1 exact serialized decrement-to-fit",
+  "no_retries": true
+}

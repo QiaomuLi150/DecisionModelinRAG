@@ -1,0 +1,9 @@
+session,policy,p95_ms,n_requests
+T2_A,jina_full,1133.0216500000004,360
+T2_A,pplx_budget,2376.2863,360
+T2_B,jina_full,1137.8525500000003,360
+T2_B,pplx_budget,2379.7143,360
+T2_C,jina_full,1133.8149000000003,360
+T2_C,pplx_budget,2378.61335,360
+T2_D,jina_full,1130.1003500000004,360
+T2_D,pplx_budget,2379.9121,360

@@ -1,0 +1,13 @@
+{
+  "attempts": 1600,
+  "created_utc": "2026-10-15T21:14:17.916822+00:00",
+  "failures": 70,
+  "input_manifest_sha256": "3e2a31e047f7365280710f2d6f84bb12e66ea8ee657ef79b6330cb41e7c765c5",
+  "jev_calls": 0,
+  "labels_joined": false,
+  "paid_api_calls": 0,
+  "raw_output_path": "results/non_jev/v2/e7_v1_0/02_repeatability_and_order/E7_B_NATIVE_OUTPUTS_CORRECTED_V2.jsonl",
+  "raw_output_sha256": "7520d102c8436145e51ca9b2f7ba3f07f26f9f598a1a0d7f111326c86bc4e521",
+  "schema": "DECISIONRAG-E7-B-RAW-FREEZE-V1",
+  "valid": 1530
+}

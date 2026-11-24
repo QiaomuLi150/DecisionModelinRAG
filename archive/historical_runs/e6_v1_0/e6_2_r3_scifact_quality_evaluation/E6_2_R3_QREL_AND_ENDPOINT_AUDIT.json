@@ -1,0 +1,31 @@
+{
+  "positive_count_distribution": {
+    "1": 254,
+    "2": 17,
+    "3": 5,
+    "5": 1
+  },
+  "positive_count_total": 308,
+  "projection_policy": "Authenticated HF Arrow split iteration with exact exploratory query-ID filter; only matching rows materialized into scoring tables; reserved rows not exported to scoring outputs",
+  "queries_with_any_qrel": 277,
+  "queries_with_positive_qrel": 277,
+  "query_count": 277,
+  "schema": "E6-2-R3-EXPLORATORY-QREL-PROJECTION-V1",
+  "source_files": [
+    {
+      "path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact-qrels/default/0.0.0/2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029/scifact-qrels-train.arrow",
+      "sha256": "26725381447f908390e967771af83f0d5e838c6d772718fda949cab94dbd230f",
+      "split": "train"
+    },
+    {
+      "path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact-qrels/default/0.0.0/2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029/scifact-qrels-test.arrow",
+      "sha256": "210ff5c601deb42f529a85299c4bf88f03d5667ae4fba030981ca8a51aefdea0",
+      "split": "test"
+    }
+  ],
+  "split_row_counts": {
+    "test": 94,
+    "train": 214
+  },
+  "unjudged_are_not_verified_negatives": true
+}

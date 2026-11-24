@@ -1,0 +1,38 @@
+{
+  "experiment_id": "decisionrag-v1.6-D2-matched-serving-timing-v1.0",
+  "status": "FROZEN_BLOCKED_BEFORE_INFERENCE",
+  "population": {
+    "cohort": "E12O frozen BRIGHT serving cohort",
+    "query_ids": 120,
+    "attempts": 3,
+    "requests_per_policy": 360,
+    "one_request_at_a_time": true
+  },
+  "policies": [
+    "jina_full",
+    "jina_two_stage_full",
+    "jina_two_stage_pplxwindow",
+    "jina_pplx_budget",
+    "pplx_budget",
+    "pplx_two_stage"
+  ],
+  "timing_boundary": "view preparation + every native call + parsing + canonical ID mapping + Top-5 packaging; model load reported separately",
+  "failure_basis": "failure elapsed time plus frozen BM25 fallback elapsed time; no retries",
+  "ratio_statistics": {
+    "unit": "p95(policy)/p95(jina_full)",
+    "bootstrap": "paired cluster bootstrap over 120 IDs",
+    "draws": 10000,
+    "seed": 731,
+    "all_request_basis": true,
+    "probability_threshold": 2.0
+  },
+  "models": {
+    "jina_v3_5_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+    "pplx_decider_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+  },
+  "dedicated_gpu_requirement": "A dedicated A100 with no resident process before and after the session",
+  "status_reason": "The required GPU3 gate was not satisfied at execution time: an active resident compute service occupied the device and free memory was insufficient for an isolated session.",
+  "deviations": [
+    "No D2 model calls were made; no latency rows or ratio estimates exist."
+  ]
+}

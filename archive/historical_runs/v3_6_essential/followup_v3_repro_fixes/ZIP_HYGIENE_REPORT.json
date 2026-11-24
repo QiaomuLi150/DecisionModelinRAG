@@ -1,0 +1,18 @@
+{
+  "results/v3_6_essential/followup_v3_repro_fixes/decisionrag_v3_6_repro_fixes_exports.zip": {
+    "bytes": 1399132,
+    "grep_matches": [],
+    "grep_status": "PASS_NO_MATCHES",
+    "member_count": 18,
+    "sha256": "d9cc71d141148f9d57916731e293275b25f5825e93c05bc71461141ed3e3e969",
+    "zip_test": true
+  },
+  "results/v3_6_essential/followup_v3_repro_fixes/decisionrag_v3_6_repro_fixes_raw_traces.zip": {
+    "bytes": 15123620,
+    "grep_matches": [],
+    "grep_status": "PASS_NO_MATCHES",
+    "member_count": 10,
+    "sha256": "8fb47267235db65af45be1015cf44309f5ad7088e36382da1b16ff09fb448a5a",
+    "zip_test": true
+  }
+}

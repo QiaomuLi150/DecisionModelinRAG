@@ -1,0 +1,14 @@
+{
+  "policy": "pplx_budget",
+  "order_id": "original",
+  "n_requests": 2167,
+  "valid": 2167,
+  "failures": 0,
+  "failure_classes": {},
+  "load_ms": 36697.274062782526,
+  "elapsed_s": 2523.6064669759944,
+  "raw_sha256": "ba297fc9b1b652132e11267eee0eb9759d548e496e368a7bab1887cb3ed68698",
+  "labels_joined": false,
+  "gpu_index_requested": 3,
+  "model_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+}

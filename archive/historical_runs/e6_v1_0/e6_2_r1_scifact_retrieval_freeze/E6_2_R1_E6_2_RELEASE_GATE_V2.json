@@ -1,0 +1,24 @@
+{
+  "contract": {
+    "corpus_documents": 5183,
+    "qrels_accessed_during_generation": false,
+    "reserved_content_accessed": false,
+    "top_k": 20,
+    "unique_candidates_all_exploratory": true
+  },
+  "created_utc": "2026-10-15T03:14:58.666690+00:00",
+  "embedding": {
+    "failed_batches": 0,
+    "model": "Qwen/Qwen3-VL-Embedding-2B",
+    "physical_requests": 376,
+    "revision": "9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda"
+  },
+  "frozen_slates": {
+    "cal": 555,
+    "exploratory_top20": 277,
+    "exploratory_top5": 277
+  },
+  "gate": "E6_2_R1_RETRIEVAL_FROZEN_READY",
+  "next_gate": "Owner must separately authorize E6-2 selector inference; R1 does not run selectors/readers.",
+  "status": "READY_FOR_SEPARATE_E6_2_SELECTOR_AUTHORIZATION"
+}

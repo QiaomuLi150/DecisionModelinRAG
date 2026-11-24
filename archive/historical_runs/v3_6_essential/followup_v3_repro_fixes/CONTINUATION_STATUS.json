@@ -1,0 +1,14 @@
+{
+  "R1": {
+    "reason": "All 10,668 PPLX accounting rows and outputs are preserved, but two in-flight boundary records were explicitly cancelled and not retried; 473 L2048 Enterprise builder failures are protocol-defined.",
+    "status": "PARTIAL"
+  },
+  "R2": {
+    "reason": "The available 1,384-query sweep/control pair has zero list or set disagreements; the stated 197-query discrepancy is not present in these exact artifacts.",
+    "status": "DONE"
+  },
+  "labels_joined_after_raw_freeze": true,
+  "no_retries": true,
+  "output_namespace": "results/v3_6_essential/followup_v3_repro_fixes",
+  "status": "R1_PARTIAL_R2_DONE"
+}

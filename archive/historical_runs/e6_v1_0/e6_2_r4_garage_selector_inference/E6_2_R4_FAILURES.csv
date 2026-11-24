@@ -1,0 +1,9 @@
+model,sample_id,failure_class,detail
+pplx_decider,,PROTOCOL_BLOCKED_BEFORE_INFERENCE,No approved GaRAGe exploratory partition
+liquid_d1_3b,,PROTOCOL_BLOCKED_BEFORE_INFERENCE,No approved GaRAGe exploratory partition
+startlux_decision_4b,,PROTOCOL_BLOCKED_BEFORE_INFERENCE,No approved GaRAGe exploratory partition
+amos_1_small_2b,,PROTOCOL_BLOCKED_BEFORE_INFERENCE,No approved GaRAGe exploratory partition
+jina_v3_5,,PROTOCOL_BLOCKED_BEFORE_INFERENCE,No approved GaRAGe exploratory partition
+qwen3_reranker_4b,,PROTOCOL_BLOCKED_BEFORE_INFERENCE,No approved GaRAGe exploratory partition
+bge_reranker_v2_m3,,PROTOCOL_BLOCKED_BEFORE_INFERENCE,No approved GaRAGe exploratory partition
+qwen3_reranker_0_6b,,PROTOCOL_BLOCKED_BEFORE_INFERENCE,No approved GaRAGe exploratory partition

@@ -1,0 +1,162 @@
+{
+  "all_artifacts_match": true,
+  "artifact_checks": [
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_ANSWER_REFERENCE_AGREEMENT.csv",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_BLINDED_EVALUATION_AND_QC.csv",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_DISCORDANT_EVIDENCE_ANSWER_CASEBOOK.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_FINAL_READER_SCIENTIFIC_REPORT.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_PAIRED_READER_STATISTICS.csv",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_READER_EXECUTION_SUMMARY.json",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_READER_INPUTS_AND_OUTPUTS.jsonl",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_REFERENCE_ANALYSIS_SUMMARY.json",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_REFERENCE_AND_GROUNDING_LIMITATIONS.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_DEVIATIONS_AND_STOP_RULES.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_EXECUTION_EVENTS.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_EXECUTION_MANIFEST_FROZEN.json",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_FROZEN_REPRESENTATIVE_AND_DIAGNOSTIC_COHORTS.csv",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_GPU_AUTHORIZATION_ISOLATION_GATE.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_H0_READINESS.json",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_INTEGRATED_REPLACEMENT_DECISION_MATRIX.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_MODEL_AND_READER_CONTRACT_MATRIX.csv",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_OWNER_REVIEW_GATE.json",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_OWNER_REVIEW_GATE.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_PREOUTCOME_FREEZE_RECEIPT.json",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_REFERENCE_AND_GROUNDING_LIMITATIONS.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_REVIEWER_EXECUTIVE_SUMMARY.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_TARGETED_AND_FULL_REGRESSION_TEST_REPORT.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_FINAL_SERVING_SCIENTIFIC_REPORT.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_FORWARD_TOKEN_MEMORY_ACCOUNTING.csv",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_LATENCY_ANALYSIS.json",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_MATCHED_LATENCY_STATISTICS.csv",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_NATIVE_SERVING_ATTEMPTS.jsonl",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_OPERATING_SCENARIOS_AND_REPLACEMENT_LIMITS.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_jina35_SUMMARY.json",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_pplx_decider_SUMMARY.json",
+      "size_match": true
+    }
+  ],
+  "historical_e5a_modified": false,
+  "source_slate_match": true
+}

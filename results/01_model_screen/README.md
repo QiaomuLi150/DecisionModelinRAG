@@ -1,0 +1,1 @@
+Table I of the paper, transcribed to CSV (scores x100). Blank = not run. * = some requests failed (scored zero), as marked in the paper. The original per-run files for this screen were not found in the workspace; these values are the paper's own table. 104 model-benchmark runs; the screen used different input policies and is not a controlled matrix.

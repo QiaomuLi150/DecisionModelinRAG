@@ -1,0 +1,74 @@
+{
+  "answer_type_field": "answer_validate is a source validation flag, not an authoritative answer-type taxonomy",
+  "citation_parse": {
+    "invalid_citation_rows": 0,
+    "parse_mode": {
+      "TAGGED": 1565
+    }
+  },
+  "cohort_counts": {
+    "disagreement_diagnostic": 60,
+    "no_positive_diagnostic": 64,
+    "representative_primary": 200
+  },
+  "factual_correctness": "NOT_VERIFIED",
+  "mismatches": [],
+  "multiple_reference_field": "NOT_AVAILABLE_IN_FROZEN_READER_SCORE_ROWS",
+  "no_positive_questions": 64,
+  "no_positive_rows": 320,
+  "non_abstaining_f1": {
+    "jina_v3_5": 0.13457553721907564,
+    "original_fixed_pool_prefix5": 0.1357377886858519,
+    "pplx_decider": 0.13148643376656485,
+    "qwen3_reranker_0_6b": 0.1311765366243384,
+    "startlux_decision_4b": 0.1319408385206511
+  },
+  "normalization": "Unicode NFKC, casefold, remove cite markers, punctuation-to-space, whitespace collapse; reproduced from E6-3 implementation",
+  "policy_means": {
+    "jina_v3_5": {
+      "abstain": 0.1,
+      "answer_nonempty": 0.89,
+      "mean_exact": 0.0,
+      "mean_f1": 0.11977222812497733,
+      "n": 200
+    },
+    "original_fixed_pool_prefix5": {
+      "abstain": 0.225,
+      "answer_nonempty": 0.77,
+      "mean_exact": 0.0,
+      "mean_f1": 0.10451809728810597,
+      "n": 200
+    },
+    "pplx_decider": {
+      "abstain": 0.12,
+      "answer_nonempty": 0.885,
+      "mean_exact": 0.0,
+      "mean_f1": 0.1163654938834099,
+      "n": 200
+    },
+    "qwen3_reranker_0_6b": {
+      "abstain": 0.135,
+      "answer_nonempty": 0.86,
+      "mean_exact": 0.0,
+      "mean_f1": 0.11281182149693102,
+      "n": 200
+    },
+    "startlux_decision_4b": {
+      "abstain": 0.1,
+      "answer_nonempty": 0.9,
+      "mean_exact": 0.0,
+      "mean_f1": 0.11874675466858599,
+      "n": 200
+    }
+  },
+  "primary_representative": {
+    "jina_mean": 0.11977222812497733,
+    "jina_n": 200,
+    "paired_mean": -0.003406734241567417,
+    "paired_n": 200,
+    "pplx_mean": 0.1163654938834099,
+    "pplx_n": 200
+  },
+  "recomputed_metric_mismatches": 0,
+  "rows": 1565
+}

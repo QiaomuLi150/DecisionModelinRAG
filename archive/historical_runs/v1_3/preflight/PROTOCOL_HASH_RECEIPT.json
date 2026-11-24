@@ -1,0 +1,20 @@
+{
+  "receipt_id": "decisionrag-v1.3-preflight-receipt-v1.0",
+  "status": "PRE_OUTCOME_PROTOCOLS_HASHED",
+  "protocol_sha256": {
+    "results/v1_3/r1_serving_gate/PROTOCOL.json": "d241b48f6a7c3d6112b825eab95ecb825693fc55e9ca610e65c1419791aeed98",
+    "results/v1_3/r2_order_sensitivity/PROTOCOL.json": "a94b082b59816fd99f3bbf920e8c2285049e9832024c68f24065f3533f2d3254",
+    "results/v1_3/r3_multipass/PROTOCOL.json": "cb594fc54d1e06305772ba474e5f34bee5840b4c7e2e3e2971a6af35cf265a6e",
+    "results/v1_3/r4_crag_reader_window/PROTOCOL.json": "e39626a7586d9685673f8b17a6abb27688d355a0119d7c0e15acdff705e546eb",
+    "results/v1_3/r5_winnow_budget/PROTOCOL.json": "8dadb477415728911314f805afb8c9d661b248f06ab97350b5b59d1b7ebcd9cc",
+    "results/v1_3/r6_leetcode_trim/PROTOCOL.json": "ae355ca36432567018fbad5141f78127f439e4d60a7cdc6928184ddb921c47be"
+  },
+  "lock_file_sha256": {
+    "results/v1_3/r2_order_sensitivity/permutation_manifest.lock.json": "ad3c23138d6f18ca16855de58958bd9b754946a45dd47d8184ddff6a6a2a5910",
+    "results/v1_3/r3_multipass/multipass_manifest.lock.json": "0a682457776c83e28e9e5c080ff2f41e484b841170071ed70a351c41e503faf7"
+  },
+  "labels_joined": false,
+  "model_calls": 0,
+  "paid_api_calls": 0,
+  "protected_holdouts_accessed": false
+}

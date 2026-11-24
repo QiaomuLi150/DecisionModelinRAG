@@ -1,0 +1,12 @@
+{
+  "commit": "d99e8391d967d4c2b3a74732530d2309e2fc92b6",
+  "file_hashes": {
+    "Dataset_documentation.md": "06207015ddc64e11639718030292cad428f994871202df03d1488314f5aff46c",
+    "LICENSE": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661",
+    "README.md": "0c161234b3746adc14ed8c3b0ea28f7dedd2252523c286c5376b6ec398dc301d",
+    "retrievers.py": "8e5ad32361956a8a6f6116931d7fae3a854ba9d38740754aecf8747cb22a6013",
+    "run.py": "281ae30cf6400adf87246018337568eac0ad0988657121572f2373a51ea4fb67"
+  },
+  "local_head": "d99e8391d967d4c2b3a74732530d2309e2fc92b6",
+  "repo": "https://github.com/xlang-ai/BRIGHT"
+}

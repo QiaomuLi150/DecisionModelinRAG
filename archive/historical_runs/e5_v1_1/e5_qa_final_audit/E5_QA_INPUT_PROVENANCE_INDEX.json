@@ -1,0 +1,860 @@
+{
+  "all_declared_hashes_match": true,
+  "all_required_present": true,
+  "created_utc": "2026-10-14T21:00:44.580766+00:00",
+  "declared_manifest_checks": [
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_CLEF_CONTRACT_COMPARISON.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_CLEF_ESTIMAND_AND_DENOMINATOR_AUDIT.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_CLEF_MATCHED_OVERLAP.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_CLEF_RECONCILIATION.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_DRAFT_RESULTS_NARRATIVE.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_E2_M1_ALIGNMENT_AUDIT.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_E2_M1_RECOMPUTED.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_E4_3_ALIGNMENT_RECHECK.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_E4_3_SCORECARD_RECHECK.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_FEASIBILITY_AND_SELECTION_AUDIT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_FINAL_SCIENTIFIC_RECONCILIATION_REPORT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_INDEPENDENT_CROSSCHECK.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_INFERENCE_SENSITIVITY.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_INPUT_HASH_AUDIT.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_INPUT_INVENTORY.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_K10_K20_PAIRED_RECHECK.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_LATENCY_EVIDENCE_TIERS.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_MASTER_CLAIMS_EVIDENCE_MATRIX.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_NEGATIVE_FINDINGS_AND_THREATS.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_OPERATIONAL_CLAIMS_AUDIT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_OWNER_REVIEW_GATE.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PAPER_READY_TABLES.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PHYSICAL_WORK_RECONCILIATION.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_GRAPH.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_REVIEWER_CONSULTATION_PACKET.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_REVIEWER_EXECUTIVE_BRIEF.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_SOURCE_GROUP_LIMITATIONS.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_SOURCE_GROUP_STRUCTURE.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_STRATUM_SENSITIVITY.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_TEST_REPORT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_TEST_RESULTS.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_ANNOTATION_MAPPING_CASES.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_CAL_RETRIEVAL_FEASIBILITY.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_E5_A_CHANGE_CONTROL_REGISTER.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_E5_A_OWNER_DECISION_GATE.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_ENDPOINT_VALIDITY_AND_AMENDMENT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_EXECUTION_EVENTS.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_EXECUTION_EVENTS.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_FEASIBILITY_BY_SOURCE_GROUP.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_FEASIBILITY_QUERY_ROWS.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_FEASIBILITY_SUMMARY.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_FINAL_READINESS_AND_SCIENTIFIC_REPORT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_FROZEN_E5_A_ESTIMAND_AND_ANALYSIS.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_GPU_AUTHORIZATION_AND_SMOKE_RECONCILIATION.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_GROUP_FEASIBILITY_SUMMARY.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_INTEGRITY_AND_PROVENANCE.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_RESERVATION_AND_ACCESS_GOVERNANCE.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_RETRIEVAL_SCOPE_SUMMARY.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_RETRIEVAL_TASK_AND_SCOPE_AUDIT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_SLATE_INTEGRITY_REPORT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_SOURCE_LINEAGE_AND_NEAR_DUP_AUDIT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_SOURCE_LINEAGE_SUMMARY.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_SOURCE_OVERLAP_EXCEPTIONS.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_SUPPORT_SEMANTICS_SUMMARY.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_SUPPORT_SET_SEMANTICS_AUDIT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_TEST_REPORT.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_TEST_REPORT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_A0_jina35_SUMMARY.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_A0_pplx_decider_SUMMARY.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_CHANGE_CONTROL_AND_DEVIATIONS.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_EXECUTION_EVENTS.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_FAILURE_AND_DISAGREEMENT_CASEBOOK.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_FINAL_SCIENTIFIC_REPORT.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_GPU_DEVICE_AUTHORIZATION_AND_ISOLATION.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_GROUP_EFFECTS_AND_SENSITIVITY.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_GROUP_EFFECTS_AND_SENSITIVITY.csv.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_H0_jina35_GPU6.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_H0_pplx_decider_GPU5.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_IMMUTABLE_EXECUTION_MANIFEST.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_MODEL_NATIVE_CONTRACT_MATRIX.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_NATIVE_ATTEMPT_AND_TELEMETRY.jsonl",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_OWNER_REVIEW_GATE.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_OWNER_REVIEW_GATE.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PAIRED_WIN_LOSS_AND_FAILURE_MATRIX.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PAPER_READY_RESULT_TABLES.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PHYSICAL_INFERENCE_AND_GPU_ACCOUNTING.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_POSTRUN_ANALYSIS_CODE_AUDIT.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PRE_OUTCOME_FREEZE_RECEIPT.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PRIMARY_GROUP_BALANCED_STATS.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PRIMARY_NATIVE_PREDICTIONS.jsonl",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROTOCOL_AND_PREOUTCOME_FREEZE.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_RETRIEVAL_CEILINGS_AND_SCORECARD.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_SECONDARY_POLICY_RESULTS.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_SELECTED_IDS_AND_SET_AWARE_OUTCOMES.csv",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_SELECTED_IDS_AND_SET_AWARE_OUTCOMES.jsonl",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_SOURCE_AND_SLATE_INTEGRITY.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_SOURCE_AND_SLATE_INTEGRITY.md",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_TEST_REPORT.json",
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "hash_match": true,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_TEST_REPORT.md",
+      "size_match": true
+    }
+  ],
+  "gpu_or_http_calls": false,
+  "items": [
+    {
+      "bytes": 5428,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+      "phase": "E4-R",
+      "role": "historical provenance manifest",
+      "sha256": "47e1dc79a2fc557f05a33df66b8858cb8b57173a085d6d10284b042532aa5916"
+    },
+    {
+      "bytes": 5158,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_FINAL_SCIENTIFIC_RECONCILIATION_REPORT.md",
+      "phase": "E4-R",
+      "role": "historical reconciliation",
+      "sha256": "8619887d80f318e21119724cb264b46c3361d7ea238c8a59a692511cf8c8c321"
+    },
+    {
+      "bytes": 6172,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "phase": "E5-0C",
+      "role": "support-semantic provenance",
+      "sha256": "5e8934964786b535fdcc9815e333444a40bc53e10928e2ab2a04e44e8c4d2d2a"
+    },
+    {
+      "bytes": 1732,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROTOCOL_AMENDMENT_V1_APPROVED.md",
+      "phase": "E5-0C",
+      "role": "approved set-aware metric amendment",
+      "sha256": "f5a1ea111bb3a22658f51e25831890a4f7fa29c1af73caec8ad8f59a540d6418"
+    },
+    {
+      "bytes": 2102,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_SUPPORT_SET_SEMANTICS_AUDIT.md",
+      "phase": "E5-0C",
+      "role": "support-set contract",
+      "sha256": "342ea8b21c5bf9197c168f320ed1cfec130b81e85694e573e6ce88b33f714246"
+    },
+    {
+      "bytes": 1696,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_INTEGRITY_AND_PROVENANCE.json",
+      "phase": "E5-0C",
+      "role": "integrity summary",
+      "sha256": "b123f3dd8ba886368fef7940c9d65e2012d15e5f553b80c3a6228c3bd22f4a0b"
+    },
+    {
+      "bytes": 4800,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_IMMUTABLE_EXECUTION_MANIFEST.json",
+      "phase": "E5-A",
+      "role": "frozen model/input contract",
+      "sha256": "f0a526aff53bd62a013694a941eb97497eb720467c52ab5d328387774230961d"
+    },
+    {
+      "bytes": 9187,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "phase": "E5-A",
+      "role": "historical artifact manifest",
+      "sha256": "bc01a613b5ae50b4ec56120fbeb1dc5053defa53aa7584f715d2700c61af15ee"
+    },
+    {
+      "bytes": 516,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_VERIFICATION.json",
+      "phase": "E5-A",
+      "role": "historical verification",
+      "sha256": "9755d543babfe7b2df390c6d2a14b82ba38f47f1ddafb8dec66ae6078beba350"
+    },
+    {
+      "bytes": 4425,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PRIMARY_GROUP_BALANCED_STATS.json",
+      "phase": "E5-A",
+      "role": "primary statistics",
+      "sha256": "f001ed0644598e8fea61aea1c249734569fb22c08a229d4ef888c15c020b5598"
+    },
+    {
+      "bytes": 998968,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_SELECTED_IDS_AND_SET_AWARE_OUTCOMES.jsonl",
+      "phase": "E5-A",
+      "role": "raw quality outcomes",
+      "sha256": "6efcb2218e7098f093d87c7667ea2416571c5725a5a7926f0fd70a6679e32cc1"
+    },
+    {
+      "bytes": 11765719,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_NATIVE_ATTEMPT_AND_TELEMETRY.jsonl",
+      "phase": "E5-A",
+      "role": "native inference provenance",
+      "sha256": "2262c0cc3fa98f8d85d83f3446a4bb12a91d480c748c85117a9c4ba155c7d493"
+    },
+    {
+      "bytes": 45777,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_EXECUTION_MANIFEST_FROZEN.json",
+      "phase": "E5-D/C",
+      "role": "cohort and reader contract",
+      "sha256": "1f338b891194be21e7d6c741a81f9c76e4a333e4e4ccbbad1ee4e0c57170ead7"
+    },
+    {
+      "bytes": 9054,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_PROVENANCE_MANIFEST.json",
+      "phase": "E5-D/C",
+      "role": "closure artifact manifest",
+      "sha256": "c29d4352b0015b458178db4aa5a098d47a91769185ad6e6dda9716a035399db2"
+    },
+    {
+      "bytes": 5628,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_PROVENANCE_VERIFICATION.json",
+      "phase": "E5-D/C",
+      "role": "closure verification",
+      "sha256": "06a80e0ef9eed339ef523c90f8ac260bcbae2e79da03dcfe51f2da25dd95e0e9"
+    },
+    {
+      "bytes": 52213,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_FROZEN_REPRESENTATIVE_AND_DIAGNOSTIC_COHORTS.csv",
+      "phase": "E5-D/C",
+      "role": "frozen cohorts",
+      "sha256": "ef378c66e2e4f89700106ab2e6cfb48e8cdd27aa09dd0789bcfccb269df38426"
+    },
+    {
+      "bytes": 1998441,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_READER_INPUTS_AND_OUTPUTS.jsonl",
+      "phase": "E5-C",
+      "role": "raw accepted reader rows",
+      "sha256": "d6b9a0937611878924ff400256fa99bb09186742dab85556db76ba8aa0e6762f"
+    },
+    {
+      "bytes": 195389,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_C_ANSWER_REFERENCE_AGREEMENT.csv",
+      "phase": "E5-C",
+      "role": "historic T1 proxy rows",
+      "sha256": "829eb31afa7e0253ae400fca21f855458904859849642aa6452dce190904587b"
+    },
+    {
+      "bytes": 1330704,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_NATIVE_SERVING_ATTEMPTS.jsonl",
+      "phase": "E5-D",
+      "role": "raw selector traces",
+      "sha256": "28d877830c55690b1b062c7831f53e7c1d73509fac6c6ac53a97318b34a557a3"
+    },
+    {
+      "bytes": 620,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_MATCHED_LATENCY_STATISTICS.csv",
+      "phase": "E5-D",
+      "role": "latency summary",
+      "sha256": "61f201306062c2d23a0bcf189c0b854d49a17fd0c44c2ac6b2f63466b47185c7"
+    },
+    {
+      "bytes": 492,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_FORWARD_TOKEN_MEMORY_ACCOUNTING.csv",
+      "phase": "E5-D",
+      "role": "memory/forward accounting",
+      "sha256": "8d00aa3c2b57642bac374a4cd302529494bd5c5c4794332d090e4d53b3216ee2"
+    },
+    {
+      "bytes": 5815,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_pplx_decider_SUMMARY.json",
+      "phase": "E5-D",
+      "role": "PPLX serving summary",
+      "sha256": "a0e15e86e418366ea6aa9a5f95f34804799d4627e53a9f550d15d87cb84dfbd3"
+    },
+    {
+      "bytes": 5796,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_D_jina35_SUMMARY.json",
+      "phase": "E5-D",
+      "role": "Jina serving summary",
+      "sha256": "0702345c64d0fb2b39f8bbe5b6b3d32a54c451fc262bddfed307144d3d3eaad9"
+    },
+    {
+      "bytes": 1781,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e2_m1/E2_M1_FINAL_REPORT.md",
+      "phase": "E2-M1",
+      "role": "historical mechanism report",
+      "sha256": "648f67528457b5e330a1c6fe664754f948606457f2f1c69f1a34e98c8627f04d"
+    },
+    {
+      "bytes": 7560,
+      "disposition": "READ_ONLY_HISTORICAL",
+      "exists": true,
+      "path": "results/non_jev/v2/e2_m1/E2_M1_PROVENANCE_MANIFEST.json",
+      "phase": "E2-M1",
+      "role": "historical mechanism provenance",
+      "sha256": "61a8e3b3c09b7b90a01254baa03ede4a5e91c05ec9eea8c1ced652d5533e21dd"
+    }
+  ],
+  "reserved_e5f_raw_content_read": false,
+  "schema": "E5-QA-PROVENANCE-V1"
+}

@@ -1,0 +1,13 @@
+policy,dataset,n_queries,valid_selector_n,retrieval_eligible_n,cssr_u,cssr_c,any_gold_top5,complete_gold_top20,finance_metric_note
+retrieval5,multihop,900,900,802,0.3888888888888889,0.43640897755610975,0.9744444444444444,0.8911111111111111,
+retrieval5,financebench,109,109,53,NOT_MEASURED,NOT_MEASURED,0.29357798165137616,0.48623853211009177,annotated evidence-page diagnostic; not an exhaustive FinanceBench qrel
+bge_pointwise,multihop,900,900,802,0.3511111111111111,0.3940149625935162,0.9133333333333333,0.8911111111111111,
+bge_pointwise,financebench,109,109,53,NOT_MEASURED,NOT_MEASURED,0.5045871559633027,0.48623853211009177,annotated evidence-page diagnostic; not an exhaustive FinanceBench qrel
+jina35,multihop,900,900,802,0.46,0.516209476309227,0.9722222222222222,0.8911111111111111,
+jina35,financebench,109,109,53,NOT_MEASURED,NOT_MEASURED,0.5963302752293578,0.48623853211009177,annotated evidence-page diagnostic; not an exhaustive FinanceBench qrel
+pplx_decider,multihop,900,900,802,0.4488888888888889,0.5037406483790524,0.9688888888888889,0.8911111111111111,
+pplx_decider,financebench,109,109,53,NOT_MEASURED,NOT_MEASURED,0.48623853211009177,0.48623853211009177,annotated evidence-page diagnostic; not an exhaustive FinanceBench qrel
+liquid_joint20_binary,multihop,900,900,802,0.3,0.33665835411471323,0.8988888888888888,0.8911111111111111,
+liquid_joint20_binary,financebench,109,109,53,NOT_MEASURED,NOT_MEASURED,0.5321100917431193,0.48623853211009177,annotated evidence-page diagnostic; not an exhaustive FinanceBench qrel
+zerank2_pointwise,multihop,900,900,802,0.41888888888888887,0.470074812967581,0.9511111111111111,0.8911111111111111,
+zerank2_pointwise,financebench,109,109,53,NOT_MEASURED,NOT_MEASURED,0.5871559633027523,0.48623853211009177,annotated evidence-page diagnostic; not an exhaustive FinanceBench qrel

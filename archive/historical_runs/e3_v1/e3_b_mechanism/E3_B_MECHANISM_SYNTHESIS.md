@@ -1,0 +1,3 @@
+# E3-B Mechanism Synthesis
+
+B1 measured order/context effects on the frozen 400-query historical cohort using `2102` successful native rows and `0` explicit failures. Order effects are canonical-ID remapped; context replacements are diagnostic and are not scored as original-slate CSSR. B2 isolates a policy constraint on identical Clef score vectors and is interpretable offline. B3 supplies transparent TF-IDF MMR and facility-location coverage controls. They are heuristic set-aware controls, not SetR and not learned SOTA. All conclusions are historical exploratory associations, not fresh confirmation or hidden-reasoning evidence.

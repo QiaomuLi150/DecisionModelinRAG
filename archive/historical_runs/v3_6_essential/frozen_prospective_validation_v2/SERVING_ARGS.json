@@ -1,0 +1,17 @@
+{
+  "batch_size": 1,
+  "builder": "equal prefix; decrement until serialized <= L-128",
+  "code_commit": "246ff54e66b178eadd350351a5544879f5484ed2",
+  "jina_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+  "labels_in_serving": false,
+  "libraries": {
+    "gensim": "4.4.0",
+    "torch": "2.13.0+cu130",
+    "transformers": "5.16.1"
+  },
+  "pplx_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+  "pplx_template": "autojev.model.decision_messages + processor.apply_chat_template(add_generation_prompt=True, enable_thinking=False)",
+  "prefix_caching": false,
+  "protocol_sha256": "f15cb0f6001327bfe47e0b1d605f73f7beefc3c6a5fc195689cd5ca1652ce86e",
+  "retries": 0
+}

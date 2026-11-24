@@ -1,0 +1,147 @@
+{
+  "e5_0_prior_manifest_preserved": true,
+  "e5_0c_cpu_only": true,
+  "e5_f_confirmation": "LOCKED",
+  "files": [
+    {
+      "bytes": 628491,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_ANNOTATION_MAPPING_CASES.csv",
+      "sha256": "1bc9e7edc2f04e24262a976549aa678be83cecafb005f9bb5cfd9da5bdb26396"
+    },
+    {
+      "bytes": 1051,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_CAL_RETRIEVAL_FEASIBILITY.md",
+      "sha256": "662b221046cb9aa8af688f19f5a95e08566185bdc38a78e378110b08171ad09c"
+    },
+    {
+      "bytes": 669,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_E5_A_CHANGE_CONTROL_REGISTER.md",
+      "sha256": "3275b79721102b86da4981f48496e8597d34125908d2eb9c3ec0770be45a0987"
+    },
+    {
+      "bytes": 1083,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_E5_A_OWNER_DECISION_GATE.md",
+      "sha256": "75118b5a316d5141c7dbd0132fdf9543d4ea6a6078f2f03b5f6183c651f80fc6"
+    },
+    {
+      "bytes": 883,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_ENDPOINT_VALIDITY_AND_AMENDMENT.md",
+      "sha256": "289ce1ac0b157a346daea80c3dde721cb03959cfb5407ab13d0049dbf5dff7bd"
+    },
+    {
+      "bytes": 1157,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_EXECUTION_EVENTS.json",
+      "sha256": "c4796503046c2bac80108dbd2aef8796c8b25374e5be45b392c6951408568ef2"
+    },
+    {
+      "bytes": 1047,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_EXECUTION_EVENTS.md",
+      "sha256": "e70d30a6b3265bb44a054eeeb4d4fa553ea456ce1920e0839ad1ceb2f39036df"
+    },
+    {
+      "bytes": 27677,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_FEASIBILITY_BY_SOURCE_GROUP.csv",
+      "sha256": "e127fafbe132fe4cf059c05fde67796e478583ec16065b892d638cb7bf3e3f8f"
+    },
+    {
+      "bytes": 166573,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_FEASIBILITY_QUERY_ROWS.csv",
+      "sha256": "ab5d1f203e94ef4d706e2abd6320c829f71bf7da0ac4fd1931640b1499660dc1"
+    },
+    {
+      "bytes": 776,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_FEASIBILITY_SUMMARY.json",
+      "sha256": "f7a4b9c83649f72995fb2aec00ba0cb21312ea359468ee00499bda09461d5601"
+    },
+    {
+      "bytes": 1997,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_FINAL_READINESS_AND_SCIENTIFIC_REPORT.md",
+      "sha256": "a43d5adc5bee9804da8c8ca2878227caed5fbb7cdf31dfd91da38fd0bfc798d3"
+    },
+    {
+      "bytes": 1816,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_FROZEN_E5_A_ESTIMAND_AND_ANALYSIS.md",
+      "sha256": "3c9a151d8ddad2d741553791eeaae67783f26c766161fa4c2be1a38c0ad9a1d5"
+    },
+    {
+      "bytes": 1047,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_GPU_AUTHORIZATION_AND_SMOKE_RECONCILIATION.md",
+      "sha256": "9a8f4d1d4a49cbe6bcdae2baa5512e1bcb200620eaecf15c109ec860d1709b5a"
+    },
+    {
+      "bytes": 93923,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_GROUP_FEASIBILITY_SUMMARY.json",
+      "sha256": "b4019dcaf31d928f86762a4c592932f57c1e62b735d551499648ca48a66dc6c3"
+    },
+    {
+      "bytes": 1696,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_INTEGRITY_AND_PROVENANCE.json",
+      "sha256": "b123f3dd8ba886368fef7940c9d65e2012d15e5f553b80c3a6228c3bd22f4a0b"
+    },
+    {
+      "bytes": 708,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_RESERVATION_AND_ACCESS_GOVERNANCE.md",
+      "sha256": "fabac77c8a354abc5b1c552e3716b8311e49b774a4bccfd8de43f870f3397846"
+    },
+    {
+      "bytes": 688,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_RETRIEVAL_SCOPE_SUMMARY.json",
+      "sha256": "911571a6c0bcdeee6881e2ea5347adf3b32d75842ebf761d9db90446f89b5c95"
+    },
+    {
+      "bytes": 1195,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_RETRIEVAL_TASK_AND_SCOPE_AUDIT.md",
+      "sha256": "a38d30ece805f7fa5a910d1b30065ed4c0bb344b232f3de3e2cc55911c6efead"
+    },
+    {
+      "bytes": 814,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_SLATE_INTEGRITY_REPORT.md",
+      "sha256": "2dce751d8ec00b369b0319930c08037ec63cc64e4947dbc3bafbe9521b7cbdb9"
+    },
+    {
+      "bytes": 874,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_SOURCE_LINEAGE_AND_NEAR_DUP_AUDIT.md",
+      "sha256": "3266f42ee3de78a59a0fbabe21cebbef9747a9fabc02b3b6752ce96f87752e5c"
+    },
+    {
+      "bytes": 18131,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_SOURCE_LINEAGE_SUMMARY.json",
+      "sha256": "f6b24b2bbbb8c92da51807258bb441cf7a8c9dcd7bb010bbe01a5dfd44b19376"
+    },
+    {
+      "bytes": 20274,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_SOURCE_OVERLAP_EXCEPTIONS.csv",
+      "sha256": "983492b756ea23ea8cc8515d95d962bed1365cba1849480354a75f2e69ae1b5d"
+    },
+    {
+      "bytes": 1038,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_SUPPORT_SEMANTICS_SUMMARY.json",
+      "sha256": "4632d564c216d99defdd572da604d7be084ba2dc6a6a5036f2822a9b4299894b"
+    },
+    {
+      "bytes": 2102,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_SUPPORT_SET_SEMANTICS_AUDIT.md",
+      "sha256": "342ea8b21c5bf9197c168f320ed1cfec130b81e85694e573e6ce88b33f714246"
+    },
+    {
+      "bytes": 596,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_TEST_REPORT.json",
+      "sha256": "03cb6d03398d6785f7d0d7828af1487788e19b536d03f8973ad1191dded022cd"
+    },
+    {
+      "bytes": 254,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_TEST_REPORT.md",
+      "sha256": "e6a7b4623a1b3582c21a6756d2b7cb8ba69837e07dafdf86ebc0c4f6858c4dd3"
+    }
+  ],
+  "gate": "E5_0C_PROTOCOL_AMENDMENT_REQUIRED",
+  "gpu5_6_status": "GPU_5_6_AUTHORIZATION_UNVERIFIED",
+  "no_gpu": true,
+  "no_http_calls": true,
+  "no_jev": true,
+  "no_model_calls": true,
+  "no_paid_api": true,
+  "no_reader": true,
+  "no_reserved_outcomes": true,
+  "schema_version": "E5-0C-provenance-v1"
+}

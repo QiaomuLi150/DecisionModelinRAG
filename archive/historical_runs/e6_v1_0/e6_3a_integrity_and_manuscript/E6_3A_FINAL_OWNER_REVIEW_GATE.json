@@ -1,0 +1,17 @@
+{
+  "corrected_serving_claims": "BOUNDED_CORRECTED_SELECTOR_DIAGNOSTICS",
+  "created_utc": "2026-10-15T17:35:59.629329+00:00",
+  "e6_4_started": false,
+  "factual_correctness": "NOT_VERIFIED",
+  "gate": "E6_3A_READY_WITH_LIMITATIONS",
+  "jev_calls": 0,
+  "original_e63_serving_claims": "INVALID_FOR_FULL_CONTENT_SCIFACT",
+  "paid_api_calls": 0,
+  "prospective_confirmation_started": false,
+  "provenance_manifest_sha256": "4591609fbcc1d9cf23749681c44e1600e1d8d41e662c047471f94111fcc73779",
+  "publication_readiness": "EXPLORATORY_MANUSCRIPT_READY_WITH_LIMITATIONS",
+  "reader_metric_validity": "REPRODUCED_LEXICAL_REFERENCE_OVERLAP_PROXY",
+  "reserved_access": false,
+  "schema": "E6-3A-FINAL-OWNER-REVIEW-GATE-V1",
+  "serving_discrepancy": "CONFIRMED_AND_CORRECTED_VERSIONED"
+}

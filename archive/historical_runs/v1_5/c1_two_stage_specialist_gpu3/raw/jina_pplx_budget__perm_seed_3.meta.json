@@ -1,0 +1,10 @@
+{
+  "batch_size": 8,
+  "failed": 32,
+  "labels_joined": false,
+  "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_pplx_budget__perm_seed_3.jsonl",
+  "records": 1384,
+  "sha256": "299c8f225d3fa970b023c5af9b1fcacf309ae9ddaa881e6bb1624114405e8055",
+  "timing_valid": false,
+  "valid": 1352
+}

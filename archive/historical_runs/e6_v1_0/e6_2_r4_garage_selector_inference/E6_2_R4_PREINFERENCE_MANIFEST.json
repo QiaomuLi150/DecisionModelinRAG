@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-15T13:16:00.629798+00:00",
+  "garage_source": {
+    "aligned_annotation_arrays": 2366,
+    "approved_exploratory_count": 0,
+    "candidate_identity": "sample_id:cite_i positional",
+    "candidate_pool_hashes_sha256": "527db51dac3164b4801f12d30931235f9def0deb349ab7892028837683c75b85",
+    "exact_k15_ids_sha256": "36778ed8e5dd4b1844ea56e960305cf3a3734dbf5e8b7dd8494e910b3f213320",
+    "exact_k15_rows": 2329,
+    "license_sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+    "path": "data/external/e6_0r_datasets/garage/GaRAGe_benchmark.jsonl",
+    "prior_garage_partition_artifacts": [],
+    "readme_sha256": "b3f7ab1186a759746e5f80cb0823aea07743acef91dedc416292cd154965a397",
+    "rows": 2366,
+    "sha256": "419e3941f6e8eb4082a74ca2140c1f9337f8b467ff76656a6b8b0290ca3f3a72",
+    "source_document_ids": "NOT_PRESENT",
+    "unique_sample_ids": 2366
+  },
+  "jev_calls": 0,
+  "models": [
+    "pplx_decider",
+    "liquid_d1_3b",
+    "startlux_decision_4b",
+    "amos_1_small_2b",
+    "jina_v3_5",
+    "qwen3_reranker_4b",
+    "bge_reranker_v2_m3",
+    "qwen3_reranker_0_6b"
+  ],
+  "native_inference_started": false,
+  "outcome_blind_cohort_proposal": {
+    "eligible_exact_k15_n": 2329,
+    "eligible_ids_sha256": "36778ed8e5dd4b1844ea56e960305cf3a3734dbf5e8b7dd8494e910b3f213320",
+    "selection_rule": "owner decision required; no outcome-dependent sampling performed",
+    "status": "PROPOSAL_ONLY_NOT_FROZEN"
+  },
+  "paid_api_calls": 0,
+  "reason": "No approved GaRAGe CAL/EXPLORATORY/RESERVED partition exists in the authenticated prior artifacts; exact-K15 eligibility alone is not an exploratory authorization.",
+  "reserved_accessed": false,
+  "schema": "E6-2-R4-PREINFERENCE-MANIFEST-V1",
+  "status": "BLOCKED_BEFORE_MODEL_LOADING"
+}

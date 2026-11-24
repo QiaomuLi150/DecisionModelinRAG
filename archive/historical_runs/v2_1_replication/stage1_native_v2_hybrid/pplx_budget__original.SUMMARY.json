@@ -1,0 +1,16 @@
+{
+  "policy": "pplx_budget",
+  "order_id": "original",
+  "n_requests": 2,
+  "valid": 0,
+  "failures": 2,
+  "failure_classes": {
+    "CUDA_OOM": 2
+  },
+  "load_ms": 22812.100807204843,
+  "elapsed_s": 0.004917077720165253,
+  "raw_sha256": "f2154133c084c21c15d9ca70cef7a5a68f78531d8188b883e1fbc286969f318f",
+  "labels_joined": false,
+  "gpu_index_requested": 3,
+  "model_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+}

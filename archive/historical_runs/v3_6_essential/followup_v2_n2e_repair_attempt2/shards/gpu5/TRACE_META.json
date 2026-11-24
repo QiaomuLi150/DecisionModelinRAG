@@ -1,0 +1,10 @@
+{
+  "expected_records": 810,
+  "failed": 477,
+  "gpu": 5,
+  "labels_joined": false,
+  "raw_sha256": "9571e1a6a9f173d334a5f5d8f4745fc4ffb0b4b1669b06313e7a9ec09bb4d0c6",
+  "records": 867,
+  "status": "INCOMPLETE",
+  "valid": 390
+}

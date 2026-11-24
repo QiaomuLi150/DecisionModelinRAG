@@ -1,0 +1,36 @@
+{
+  "after_in_process": {
+    "gpu_index": 3,
+    "memory_free_mib": 80621,
+    "memory_used_mib": 531,
+    "utilization_percent": 0
+  },
+  "before": {
+    "gpu_index": 3,
+    "memory_free_mib": 81149,
+    "memory_used_mib": 4,
+    "utilization_percent": 0
+  },
+  "gpu_index": 3,
+  "labels_joined": false,
+  "model_load_ms": 6943.925,
+  "model_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+  "n_queries": 20,
+  "orders": [
+    "original"
+  ],
+  "policies": [
+    "jina_two_stage_full"
+  ],
+  "raw_files": [
+    {
+      "failed": 0,
+      "labels_joined": false,
+      "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_full__original.jsonl",
+      "records": 20,
+      "sha256": "6b83cbae9219e42982ebafd689f14f743e72499f1cbd4f53cafc30dce8165b83",
+      "valid": 20
+    }
+  ],
+  "status": "COMPLETE"
+}

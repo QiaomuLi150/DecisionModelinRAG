@@ -1,0 +1,167 @@
+{
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "reader": {
+    "answer_type_field": "answer_validate is a source validation flag, not an authoritative answer-type taxonomy",
+    "citation_parse": {
+      "invalid_citation_rows": 0,
+      "parse_mode": {
+        "TAGGED": 1565
+      }
+    },
+    "cohort_counts": {
+      "disagreement_diagnostic": 60,
+      "no_positive_diagnostic": 64,
+      "representative_primary": 200
+    },
+    "factual_correctness": "NOT_VERIFIED",
+    "mismatches": [],
+    "multiple_reference_field": "NOT_AVAILABLE_IN_FROZEN_READER_SCORE_ROWS",
+    "no_positive_questions": 64,
+    "no_positive_rows": 320,
+    "non_abstaining_f1": {
+      "jina_v3_5": 0.13457553721907564,
+      "original_fixed_pool_prefix5": 0.1357377886858519,
+      "pplx_decider": 0.13148643376656485,
+      "qwen3_reranker_0_6b": 0.1311765366243384,
+      "startlux_decision_4b": 0.1319408385206511
+    },
+    "normalization": "Unicode NFKC, casefold, remove cite markers, punctuation-to-space, whitespace collapse; reproduced from E6-3 implementation",
+    "policy_means": {
+      "jina_v3_5": {
+        "abstain": 0.1,
+        "answer_nonempty": 0.89,
+        "mean_exact": 0.0,
+        "mean_f1": 0.11977222812497733,
+        "n": 200
+      },
+      "original_fixed_pool_prefix5": {
+        "abstain": 0.225,
+        "answer_nonempty": 0.77,
+        "mean_exact": 0.0,
+        "mean_f1": 0.10451809728810597,
+        "n": 200
+      },
+      "pplx_decider": {
+        "abstain": 0.12,
+        "answer_nonempty": 0.885,
+        "mean_exact": 0.0,
+        "mean_f1": 0.1163654938834099,
+        "n": 200
+      },
+      "qwen3_reranker_0_6b": {
+        "abstain": 0.135,
+        "answer_nonempty": 0.86,
+        "mean_exact": 0.0,
+        "mean_f1": 0.11281182149693102,
+        "n": 200
+      },
+      "startlux_decision_4b": {
+        "abstain": 0.1,
+        "answer_nonempty": 0.9,
+        "mean_exact": 0.0,
+        "mean_f1": 0.11874675466858599,
+        "n": 200
+      }
+    },
+    "primary_representative": {
+      "jina_mean": 0.11977222812497733,
+      "jina_n": 200,
+      "paired_mean": -0.003406734241567417,
+      "paired_n": 200,
+      "pplx_mean": 0.1163654938834099,
+      "pplx_n": 200
+    },
+    "recomputed_metric_mismatches": 0,
+    "rows": 1565
+  },
+  "reserved_access": false,
+  "serving": {
+    "amos_1_small_2b": {
+      "candidate_ids_hash_equal": 100,
+      "e63_failures_in_sample": 0,
+      "n": 100,
+      "native_input_hash_equal": 0,
+      "r2_failures_in_sample": 28,
+      "top5_order_agreement": 0,
+      "top5_set_agreement": 2
+    },
+    "bge_reranker_v2_m3": {
+      "candidate_ids_hash_equal": 100,
+      "e63_failures_in_sample": 0,
+      "n": 100,
+      "native_input_hash_equal": 0,
+      "r2_failures_in_sample": 0,
+      "top5_order_agreement": 0,
+      "top5_set_agreement": 0
+    },
+    "candidate_records_missing_text_field": 2000,
+    "candidate_records_with_nonempty_reconstructed_source_text": 2000,
+    "defect": "E6-3 canonical_item read c.get('text','') from R1 slate records; R1 stores candidate text in the authenticated corpus, not in each slate candidate record.",
+    "frozen_slate_contract_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+    "frozen_slate_file_sha256": "b9b2a3c3971da72f7e7aff6066c381c681f0ff6f7b4592d85b480e12cd449333",
+    "historical_amos_failures": 83,
+    "historical_amos_successes_in_sample": 72,
+    "interpretation": "E6-3 SciFact serving results are not a valid full-content replication of E6-2 R2; historical rows are preserved and excluded from corrected serving claims.",
+    "jina_v3_5": {
+      "candidate_ids_hash_equal": 100,
+      "e63_failures_in_sample": 0,
+      "n": 100,
+      "native_input_hash_equal": 0,
+      "r2_failures_in_sample": 0,
+      "top5_order_agreement": 2,
+      "top5_set_agreement": 4
+    },
+    "liquid_d1_3b": {
+      "candidate_ids_hash_equal": 100,
+      "e63_failures_in_sample": 0,
+      "n": 100,
+      "native_input_hash_equal": 0,
+      "r2_failures_in_sample": 0,
+      "top5_order_agreement": 4,
+      "top5_set_agreement": 13
+    },
+    "pplx_decider": {
+      "candidate_ids_hash_equal": 100,
+      "e63_failures_in_sample": 0,
+      "n": 100,
+      "native_input_hash_equal": 0,
+      "r2_failures_in_sample": 0,
+      "top5_order_agreement": 1,
+      "top5_set_agreement": 11
+    },
+    "qwen3_reranker_0_6b": {
+      "candidate_ids_hash_equal": 100,
+      "e63_failures_in_sample": 0,
+      "n": 100,
+      "native_input_hash_equal": 0,
+      "r2_failures_in_sample": 0,
+      "top5_order_agreement": 0,
+      "top5_set_agreement": 5
+    },
+    "qwen3_reranker_4b": {
+      "candidate_ids_hash_equal": 100,
+      "e63_failures_in_sample": 0,
+      "n": 100,
+      "native_input_hash_equal": 0,
+      "r2_failures_in_sample": 0,
+      "top5_order_agreement": 0,
+      "top5_set_agreement": 9
+    },
+    "sample_candidate_records": 2000,
+    "sample_manifest_sha256": "d08e4fae279047db954bed3f8baf7801ea656e4a3891ac1af71402f4c904b46a",
+    "sample_n": 100,
+    "sample_overlap_with_historical_amos_failures": 28,
+    "sample_population": 277,
+    "sample_rule_recomputed": true,
+    "startlux_decision_4b": {
+      "candidate_ids_hash_equal": 0,
+      "e63_failures_in_sample": 0,
+      "n": 0,
+      "native_input_hash_equal": 0,
+      "r2_failures_in_sample": 0,
+      "top5_order_agreement": 0,
+      "top5_set_agreement": 0
+    }
+  }
+}

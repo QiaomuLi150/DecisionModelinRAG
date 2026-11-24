@@ -1,0 +1,8 @@
+comparison_id,family,model_or_pair,objective,selection_policy,score_contract,population,primary_or_secondary,status,required_gate,notes
+H2a-01,context,same verified checkpoint,INDEPENDENT_RELEVANCE,unconstrained Top-5,one globally comparable score per document,new holdout only after freeze,primary mechanism,OWNER_GATE,native adapter and holdout,paired query/slate comparison
+H2a-02,context,same verified checkpoint,JOINT_BINARY_RELEVANCE,unconstrained Top-5,candidate-aligned scores with same readout,new holdout only after freeze,primary mechanism,OWNER_GATE,joint schema/readout validation,context exposure is intended treatment
+H2b-01,selection,any one model with verified global scores,INDEPENDENT_RELEVANCE or JOINT_BINARY_RELEVANCE,global Top-5,same frozen 20-score vector,new holdout,primary mechanism,OWNER_GATE,global comparability,no quartet softmax pooling
+H2b-02,selection,same as H2b-01,same,one-winner-per-recorded quartet,same frozen 20-score vector,new holdout,primary mechanism,OWNER_GATE,authenticated groups,historical Clef/Laya G5 remains separate
+H2c-01,conditional evidence,adapter permitting incremental evidence,CONDITIONAL_GAIN_ESTIMATE,documented iterative selection,gain estimate; not true utility,follow-up exploratory,exploratory,INFEASIBLE_UNTIL_ADAPTER_VERIFIED,no gold leakage and physical-pass accounting,never claim causal marginal utility
+H3-01,complexity,all feasible,model-native,native Top-5,per-model contract,CAL/DEV planning then holdout,secondary,OWNER_GATE,frozen grid,"report interactions, not post-hoc subgroup claims"
+H4-01,economics,approved primary pair,native,complete selection,validated,separate serving cohort,primary operational,OWNER_GATE,exclusive GPU and numeric SLO,load curve required

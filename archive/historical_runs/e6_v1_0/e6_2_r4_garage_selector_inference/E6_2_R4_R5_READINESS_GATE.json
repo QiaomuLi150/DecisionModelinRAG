@@ -1,0 +1,14 @@
+{
+  "blockers": [
+    "R3 Top-20 feasibility reporting defect; independent count is 254/277",
+    "No owner-approved GaRAGe CAL/EXPLORATORY/RESERVED partition; cohort proposal is not immutable"
+  ],
+  "garage_selection_frozen": false,
+  "gate": "E6_2_R4_SCIFACT_INTEGRITY_BLOCKED",
+  "jev_calls": 0,
+  "native_inference_calls": 0,
+  "paid_api_calls": 0,
+  "quality_metrics_computed": false,
+  "r4_scifact_integrity": "BLOCKED_FEASIBILITY_REPORTING_DEFECT",
+  "r5_ready": false
+}

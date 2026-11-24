@@ -1,0 +1,319 @@
+{
+  "authorization": {
+    "approved_gpu_uuids": {
+      "1": "<REDACTED_GPU_UUID>",
+      "5": "<REDACTED_GPU_UUID>",
+      "6": "<REDACTED_GPU_UUID>"
+    },
+    "fresh_device_specific_authorization_present": true,
+    "source": "current owner instruction plus live no-compute-app audit"
+  },
+  "created_utc": "2026-10-15T03:27:57.759460+00:00",
+  "execution_contract": {
+    "candidate_budget": "Top-20 -> Top-5",
+    "canonical_order_primary": true,
+    "failure_policy": "preserve context_limit, timeout, OOM, invalid_output, missing and unsupported statuses; no fallback or silent retry",
+    "models": 8,
+    "permutation_diagnostic": "deferred; no separate authorization",
+    "physical_forwards": "NOT_MEASURED unless instrumented by the native wrapper",
+    "quality_metrics": "not run",
+    "queries": 277,
+    "scheduled_attempts_if_authorized": 2216
+  },
+  "execution_plan": {
+    "assignments": {
+      "amos_1_small_2b": 6,
+      "bge_reranker_v2_m3": 5,
+      "jina_v3_5": 5,
+      "liquid_d1_3b": 5,
+      "pplx_decider": 1,
+      "qwen3_reranker_0_6b": 6,
+      "qwen3_reranker_4b": 5,
+      "startlux_decision_4b": 6
+    },
+    "candidate_k": 20,
+    "execution_order": [
+      "pplx_decider",
+      "liquid_d1_3b",
+      "startlux_decision_4b",
+      "amos_1_small_2b",
+      "jina_v3_5",
+      "qwen3_reranker_4b",
+      "bge_reranker_v2_m3",
+      "qwen3_reranker_0_6b"
+    ],
+    "quality_metrics": false,
+    "scheduled_attempts": 2216,
+    "selected_k": 5
+  },
+  "frozen_input": {
+    "checks_passed": 3624,
+    "checks_total": 3624,
+    "counts": {
+      "corpus_documents": 5183,
+      "exploratory_queries": 277,
+      "top20_candidate_records": 5540,
+      "top5_slates": 277
+    },
+    "expected_historical_e5_top20_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+    "files": {
+      "r1_gate": {
+        "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_E6_2_RELEASE_GATE_V2.json",
+        "sha256": "711752ea0c515464cf7ccd8d58d2e96bdb434d5562828c63d85b0f29d39c90bc"
+      },
+      "r1_manifest": {
+        "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_EXECUTION_MANIFEST_V2.json",
+        "sha256": "c997ea806d787c09b5c9d45a7f22f106950ed175c5e07cc64199ddc710944bc6"
+      },
+      "top20": {
+        "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_EXPLORATORY_TOP20_SLATES.jsonl",
+        "sha256": "b9b2a3c3971da72f7e7aff6066c381c681f0ff6f7b4592d85b480e12cd449333"
+      },
+      "top5": {
+        "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_EXPLORATORY_TOP5_BASELINE.jsonl",
+        "sha256": "82c7f536f85ad6ece289282a8d884658ad0bd9b267349b8b641b6ed33c3158d8"
+      }
+    },
+    "r1_contract": {
+      "bm25": {
+        "b": 0.75,
+        "k1": 1.2,
+        "tokenizer": "lowercase_regex",
+        "top_k": 100
+      },
+      "dense": {
+        "model": "Qwen/Qwen3-VL-Embedding-2B",
+        "revision": "9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda",
+        "service": "http://service.example.invalid/v1/embeddings",
+        "similarity": "exact cosine",
+        "top_k": 100
+      },
+      "rrf": {
+        "k": 60,
+        "tie_break": "scifact:<_id> ascending",
+        "top_k": 20
+      }
+    },
+    "reserved_metadata_only": {
+      "content_loaded": false,
+      "direct_id_overlap_recomputed": false,
+      "overlap_basis": "existing source-disjoint partition manifest only",
+      "qid_hash": "508dc9b095f6697aa162a8cb1488c2653c70b4e3110b64c5eff651e27e0e2c6e",
+      "qrels_loaded": false,
+      "query_count": 277
+    },
+    "status": "PASS"
+  },
+  "gate": "E6_2_R2_PREINFERENCE_FROZEN",
+  "gpu_audit_sha256": "25b1ae50372f0ce10a32166f038be493cf3153da0f08d13b3d1700ca6bc3bf98",
+  "historical_artifacts_modified": false,
+  "model_roster": [
+    {
+      "checkpoint_path_exists": "True",
+      "contract": "native DecisionModel choice probabilities; one categorical decision over canonical candidate IDs",
+      "contract_status": "VALIDATED_WITH_ORDER_SENSITIVITY",
+      "e6_2_policy": "ADMIT_WITH_ORDER_SENSITIVITY",
+      "kind": "pplx_choice",
+      "license": "apache-2.0",
+      "model": "pplx_decider",
+      "params": "27B",
+      "r2_attempts": "0",
+      "r2_status": "NOT_RUN_GPU_AUTH_PENDING",
+      "registry_source": "E6_1_MODEL_CONTRACT_REGISTRY.csv",
+      "repo": "perplexity-ai/pplx-decider-v1.1-27b",
+      "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+      "selection_output": "exactly five unique canonical IDs with deterministic tie break",
+      "snapshot_path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--perplexity-ai--pplx-decider-v1.1-27b/snapshots/14c9d90137962d300f3de95633f7b6535e80c5ce",
+      "snapshot_present": "True",
+      "validated_top15_top5": "True",
+      "validated_top20_top5": "True"
+    },
+    {
+      "checkpoint_path_exists": "True",
+      "contract": "native system_one choice probabilities over named candidate options; one shared-state decision",
+      "contract_status": "VALIDATED_WITH_ORDER_SENSITIVITY",
+      "e6_2_policy": "ADMIT_WITH_ORDER_SENSITIVITY",
+      "kind": "liquid_choice",
+      "license": "lfm1.0",
+      "model": "liquid_d1_3b",
+      "params": "3.12B",
+      "r2_attempts": "0",
+      "r2_status": "NOT_RUN_GPU_AUTH_PENDING",
+      "registry_source": "E6_1_MODEL_CONTRACT_REGISTRY.csv",
+      "repo": "LiquidAI/d1-3B",
+      "revision": "051bcc464b01b9f92942b364d9586b0ef5912432",
+      "selection_output": "exactly five unique canonical IDs with deterministic tie break",
+      "snapshot_path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--LiquidAI--d1-3B/snapshots/051bcc464b01b9f92942b364d9586b0ef5912432",
+      "snapshot_present": "True",
+      "validated_top15_top5": "True",
+      "validated_top20_top5": "True"
+    },
+    {
+      "attempts": "256",
+      "checkpoint_path": "./data/models/e6_1b/startlux_decision_v1_4b",
+      "checkpoint_path_exists": "True",
+      "checkpoint_present": "True",
+      "context_or_inference_failures": "0",
+      "contract_status": "VALIDATED",
+      "e6_2_inclusion": "INCLUDE_WITH_CONTEXT_FEASIBILITY_LIMIT",
+      "e6_2_policy": "INCLUDE_WITH_CONTEXT_FEASIBILITY_LIMIT",
+      "inference_code_revision": "BUNDLED_WITH_CHECKPOINT_SNAPSHOT",
+      "inference_code_sha256": "66c2d3d9f7e13276f2a9e4da1c2b7a43a8e82dbff9cfd93771731631e5009a90",
+      "kind": "startlux",
+      "license": "CC-BY-NC-4.0 weights; Apache-2.0 code",
+      "model": "startlux_decision_4b",
+      "native_api_calls": "256",
+      "native_contract": "official StartLuxDecision.decide typed choice probabilities",
+      "parameters": "4B",
+      "physical_forward_measurement": "DIRECT_HOOK_COUNT",
+      "physical_forwards": "256",
+      "r2_attempts": "0",
+      "r2_status": "NOT_RUN_GPU_AUTH_PENDING",
+      "registry_source": "E6_1B_MODEL_REGISTRY.csv",
+      "repo": "startlux-models/StartLux-Decision-v1-4B",
+      "revision": "9c0a32e9809d6a3f612434dd0bce150295dcc274",
+      "valid_native_top5": "256"
+    },
+    {
+      "attempts": "256",
+      "checkpoint_path": "./data/models/e6_1b/amos_1_small",
+      "checkpoint_path_exists": "True",
+      "checkpoint_present": "True",
+      "context_or_inference_failures": "6",
+      "contract_status": "VALIDATED_WITH_CONTEXT_FAILURES",
+      "e6_2_inclusion": "INCLUDE_WITH_CONTEXT_FEASIBILITY_LIMIT",
+      "e6_2_policy": "INCLUDE_WITH_CONTEXT_FEASIBILITY_LIMIT",
+      "inference_code_revision": "cd57f1762f3029565fb3a877dce9e598739b971e",
+      "inference_code_sha256": "03c1b4e46f346a3b18e0628b12af2ce22be8cfb0907397bd404c0f1fb9b1f8a7",
+      "kind": "amos",
+      "license": "Apache-2.0",
+      "model": "amos_1_small_2b",
+      "native_api_calls": "256",
+      "native_contract": "official local amos.serve.Engine /v1/systemone choice probabilities",
+      "parameters": "2B",
+      "physical_forward_measurement": "NOT_INSTRUMENTED_BY_OFFICIAL_DECODER_WRAPPER",
+      "physical_forwards": "NOT_MEASURED",
+      "r2_attempts": "0",
+      "r2_status": "NOT_RUN_GPU_AUTH_PENDING",
+      "registry_source": "E6_1B_MODEL_REGISTRY.csv",
+      "repo": "mukaddamzaid/amos-1-small",
+      "revision": "09ba3e9d8f506cfcb96ea130845d5d76d9d92028",
+      "valid_native_top5": "250"
+    },
+    {
+      "checkpoint_path_exists": "True",
+      "contract": "native listwise rerank(query, documents), index-preserving scores",
+      "contract_status": "VALIDATED_WITH_ORDER_SENSITIVITY",
+      "e6_2_policy": "ADMIT_WITH_ORDER_SENSITIVITY",
+      "kind": "jina_listwise",
+      "license": "cc-by-nc-4.0",
+      "model": "jina_v3_5",
+      "params": "0.6B",
+      "r2_attempts": "0",
+      "r2_status": "NOT_RUN_GPU_AUTH_PENDING",
+      "registry_source": "E6_1_MODEL_CONTRACT_REGISTRY.csv",
+      "repo": "jinaai/jina-reranker-v3.5",
+      "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+      "selection_output": "exactly five unique canonical IDs with deterministic tie break",
+      "snapshot_path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--jinaai--jina-reranker-v3.5/snapshots/e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+      "snapshot_present": "True",
+      "validated_top15_top5": "True",
+      "validated_top20_top5": "True"
+    },
+    {
+      "checkpoint_path_exists": "True",
+      "contract": "official CrossEncoder pair logits, higher is better, raw score",
+      "contract_status": "VALIDATED",
+      "e6_2_policy": "ADMIT",
+      "kind": "cross_encoder",
+      "license": "apache-2.0",
+      "model": "qwen3_reranker_4b",
+      "params": "4B",
+      "r2_attempts": "0",
+      "r2_status": "NOT_RUN_GPU_AUTH_PENDING",
+      "registry_source": "E6_1_MODEL_CONTRACT_REGISTRY.csv",
+      "repo": "Qwen/Qwen3-Reranker-4B",
+      "revision": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+      "selection_output": "exactly five unique canonical IDs with deterministic tie break",
+      "snapshot_path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--Qwen--Qwen3-Reranker-4B/snapshots/22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+      "snapshot_present": "True",
+      "validated_top15_top5": "True",
+      "validated_top20_top5": "True"
+    },
+    {
+      "checkpoint_path_exists": "True",
+      "contract": "official sequence-classifier pair score, higher is better, raw logit",
+      "contract_status": "VALIDATED",
+      "e6_2_policy": "ADMIT",
+      "kind": "cross_encoder",
+      "license": "apache-2.0",
+      "model": "bge_reranker_v2_m3",
+      "params": "568M",
+      "r2_attempts": "0",
+      "r2_status": "NOT_RUN_GPU_AUTH_PENDING",
+      "registry_source": "E6_1_MODEL_CONTRACT_REGISTRY.csv",
+      "repo": "BAAI/bge-reranker-v2-m3",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "selection_output": "exactly five unique canonical IDs with deterministic tie break",
+      "snapshot_path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--BAAI--bge-reranker-v2-m3/snapshots/953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "snapshot_present": "True",
+      "validated_top15_top5": "True",
+      "validated_top20_top5": "True"
+    },
+    {
+      "checkpoint_path_exists": "True",
+      "contract": "official CrossEncoder pair logits, higher is better, raw score",
+      "contract_status": "VALIDATED",
+      "e6_2_policy": "ADMIT",
+      "kind": "cross_encoder",
+      "license": "apache-2.0",
+      "model": "qwen3_reranker_0_6b",
+      "params": "0.6B",
+      "r2_attempts": "0",
+      "r2_status": "NOT_RUN_GPU_AUTH_PENDING",
+      "registry_source": "E6_1_MODEL_CONTRACT_REGISTRY.csv",
+      "repo": "Qwen/Qwen3-Reranker-0.6B",
+      "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+      "selection_output": "exactly five unique canonical IDs with deterministic tie break",
+      "snapshot_path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--Qwen--Qwen3-Reranker-0.6B/snapshots/e61197ed45024b0ed8a2d74b80b4d909f1255473",
+      "snapshot_present": "True",
+      "validated_top15_top5": "True",
+      "validated_top20_top5": "True"
+    }
+  ],
+  "model_roster_status": {
+    "all_contracts_prevalidated": true,
+    "checkpoint_paths_present_as_recorded": true,
+    "conditional_notes": {
+      "amos_1_small_2b": "Six prior strict context-limit failures; retain explicit failures and do not truncate.",
+      "order_sensitive": [
+        "pplx_decider",
+        "liquid_d1_3b",
+        "jina_v3_5",
+        "startlux_decision_4b"
+      ]
+    },
+    "inference_executed_in_preflight": false,
+    "roster_count": 8,
+    "roster_names": [
+      "pplx_decider",
+      "liquid_d1_3b",
+      "startlux_decision_4b",
+      "amos_1_small_2b",
+      "jina_v3_5",
+      "qwen3_reranker_4b",
+      "bge_reranker_v2_m3",
+      "qwen3_reranker_0_6b"
+    ],
+    "weights_loaded_in_preflight": false
+  },
+  "prohibited_access": {
+    "future_r3_outputs": false,
+    "jev": false,
+    "paid_api": false,
+    "reader": false,
+    "reserved_content": false
+  },
+  "schema": "E6-2-R2-PREINFERENCE-MANIFEST-V1",
+  "scope": "CPU-only preflight; no model loading, selector inference, quality scoring or prohibited-data access"
+}

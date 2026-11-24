@@ -1,0 +1,93 @@
+{
+  "manifest_rows": 10668,
+  "missing_pplx": [],
+  "missing_stage3": true,
+  "perquery_rows": 74676,
+  "raw_trace_keys": [
+    [
+      "jina_budget",
+      "original"
+    ],
+    [
+      "jina_budget",
+      "perm_seed_20261020"
+    ],
+    [
+      "jina_budget",
+      "perm_seed_20261021"
+    ],
+    [
+      "jina_budget",
+      "reversed"
+    ],
+    [
+      "jina_full",
+      "original"
+    ],
+    [
+      "jina_full",
+      "perm_seed_20261020"
+    ],
+    [
+      "jina_full",
+      "perm_seed_20261021"
+    ],
+    [
+      "jina_full",
+      "reversed"
+    ],
+    [
+      "jina_two_stage_matched",
+      "original"
+    ],
+    [
+      "jina_two_stage_matched",
+      "perm_seed_20261020"
+    ],
+    [
+      "jina_two_stage_matched",
+      "perm_seed_20261021"
+    ],
+    [
+      "jina_two_stage_matched",
+      "reversed"
+    ],
+    [
+      "pplx_budget",
+      "original"
+    ],
+    [
+      "pplx_budget",
+      "perm_seed_20261020"
+    ],
+    [
+      "pplx_budget",
+      "perm_seed_20261021"
+    ],
+    [
+      "pplx_budget",
+      "reversed"
+    ],
+    [
+      "pplx_native",
+      "original"
+    ],
+    [
+      "pplx_two_stage",
+      "original"
+    ],
+    [
+      "pplx_two_stage",
+      "perm_seed_20261020"
+    ],
+    [
+      "pplx_two_stage",
+      "perm_seed_20261021"
+    ],
+    [
+      "pplx_two_stage",
+      "reversed"
+    ]
+  ],
+  "status": "PARTIAL_UNTIL_PPLX_AND_STAGE3_COMPLETE"
+}

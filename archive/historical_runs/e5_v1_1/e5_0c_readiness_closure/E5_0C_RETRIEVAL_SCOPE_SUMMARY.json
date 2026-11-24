@@ -1,0 +1,23 @@
+{
+  "any_support_top20": 428,
+  "any_support_top20_rate": 0.28495339547270304,
+  "bad_slate_rows": [],
+  "candidate_total": 30040,
+  "complete_support_top20": 343,
+  "complete_support_top20_rate": 0.22836218375499334,
+  "complete_support_top5": 212,
+  "complete_support_top5_rate": 0.1411451398135819,
+  "global_search": true,
+  "paper_membership": {
+    "out_of_paper": 26128,
+    "same_paper": 3912
+  },
+  "qrels_accessed_during_generation": false,
+  "query_text_only": true,
+  "same_paper_candidate_fraction": 0.13022636484687083,
+  "slates": 1502,
+  "support_rank_count": 476,
+  "support_rank_max": 20,
+  "support_rank_p50": 4,
+  "top20_gold_rows": 1502
+}

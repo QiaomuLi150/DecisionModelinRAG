@@ -1,0 +1,30 @@
+{
+  "dataset_repository": "xlangai/BRIGHT",
+  "official_dataset_url": "https://huggingface.co/datasets/xlangai/BRIGHT",
+  "license": "CC-BY-4.0 (official dataset card, reviewed 2026-11-24)",
+  "historical_dataset_revision": null,
+  "historical_dataset_revision_status": "NOT_RECOVERED; user must supply a full immutable Hugging Face commit revision to the downloader",
+  "canonical_dataset_file_sha256": null,
+  "canonical_dataset_file_sha256_status": "NOT_RECOVERED in historical workspace; candidate-ID coverage is the available integrity cross-check",
+  "official_source_code_repository": "https://github.com/xlang-ai/BRIGHT",
+  "source_code_commit": "d99e8391d967d4c2b3a74732530d2309e2fc92b6",
+  "source_code_file_hashes": {
+    "Dataset_documentation.md": "06207015ddc64e11639718030292cad428f994871202df03d1488314f5aff46c",
+    "LICENSE": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661",
+    "README.md": "0c161234b3746adc14ed8c3b0ea28f7dedd2252523c286c5376b6ec398dc301d",
+    "retrievers.py": "8e5ad32361956a8a6f6116931d7fae3a854ba9d38740754aecf8747cb22a6013",
+    "run.py": "281ae30cf6400adf87246018337568eac0ad0988657121572f2373a51ea4fb67"
+  },
+  "released_candidate_ids": {
+    "path": "data/candidates/bright_top20_ids.jsonl.gz",
+    "sha256": "f775f360c8f73f106c816f400f0721220523cbdecfcb41084120979ef619b51f",
+    "records": 1384,
+    "candidate_count_per_query": 20
+  },
+  "download_helper": "scripts/download_bright.py",
+  "notes": [
+    "No benchmark text or qrels are redistributed.",
+    "The source code commit is not asserted to be the dataset revision.",
+    "The downloader checks the supplied immutable dataset revision and candidate ID coverage; it cannot claim byte identity without the missing historical canonical shard hashes."
+  ]
+}

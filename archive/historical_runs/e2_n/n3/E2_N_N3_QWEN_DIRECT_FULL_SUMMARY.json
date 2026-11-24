@@ -1,0 +1,34 @@
+{
+  "cache_reuse_rows": 0,
+  "direct_checkpoint": true,
+  "expected_rows": 4267,
+  "input_and_response_hash_rows": 4267,
+  "jev_calls": 0,
+  "model": "Qwen/Qwen3-VL-Reranker-2B",
+  "ok_rows": 4267,
+  "paid_api_calls": 0,
+  "physical_forward_evidence_rows": 4267,
+  "resident_service_modified": false,
+  "resident_service_restarted": false,
+  "revision": "4bd860ac4f15ad1897a214615cccc700f8f71818",
+  "rows": 4267,
+  "shard_count": 2,
+  "shard_paths": [
+    {
+      "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_QWEN_DIRECT_FULL.shard0.jsonl",
+      "rows": 2134,
+      "sha256": "9abaa7924043a7e34118ecc090c074195a99e6076756dbc2ea834299270eb9a8"
+    },
+    {
+      "path": "results/non_jev/v2/e2_n/n3/E2_N_N3_QWEN_DIRECT_FULL.shard1.jsonl",
+      "rows": 2133,
+      "sha256": "1fd37b8b72a16899444e70346265937189e127f281e9bc991f898ad684892c58"
+    }
+  ],
+  "stage": "N3_FULL_HISTORICAL",
+  "status": "PASS",
+  "total_physical_forward_calls": 4267,
+  "trace_sha256": "c7fc80ab9fff480d1c0923cb73e645cb59fe8f005a6b552b1361ba581be90a76",
+  "unique_queries": 4267,
+  "valid_unique_20_candidate_rows": 4267
+}

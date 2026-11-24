@@ -1,0 +1,11 @@
+{
+  "dense_index_built": false,
+  "embedding_requests": 0,
+  "fresh_device_specific_authorization": "ABSENT",
+  "gate": "E6_2_R1_GPU_AUTHORIZATION_PENDING",
+  "gpu_preflight": "NOT_RUN",
+  "historical_gpu5_gpu6_authorization_reused": false,
+  "model_loading": false,
+  "required_owner_action": "Provide current approved GPU UUID(s) and safe execution window.",
+  "resource_telemetry": "NOT_AVAILABLE"
+}

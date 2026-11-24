@@ -1,0 +1,9 @@
+dataset,cell,n
+multihop,both,319
+multihop,pplx_only,85
+multihop,jina_only,95
+multihop,neither,401
+financebench,both,43
+financebench,pplx_only,0
+financebench,jina_only,9
+financebench,neither,57

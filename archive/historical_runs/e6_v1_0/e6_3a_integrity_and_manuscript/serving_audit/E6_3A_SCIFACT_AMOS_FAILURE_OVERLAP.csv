@@ -1,0 +1,156 @@
+query_id,in_e63_sample,r2_amos_status,r2_amos_failure_class,r2_amos_failure,e63_status,e63_failure,e63_candidate_input_sha256,e63_native_input_sha256,empty_candidate_view_contract
+scifact:1019,1,VALID,NONE,,VALID,,823b49fc374ad1167b7fde1e9568c0c0766602c979a8e9c0934903ce68589cde,d63e4c0d87bf84cff3e1e9ea890598b3375cc44c144fbad9746b3d205e7b2aaf,1
+scifact:1029,1,VALID,NONE,,VALID,,12ebd321e2d5260e1161a263bfd699ea903c4b74b18fda0831a5c71abfcb0454,ff7789c346a2fd6af9813e3234dd310140605d77934b133bc73b3f15404bb43a,1
+scifact:1030,1,VALID,NONE,,VALID,,c4e9bcc5f0d2438148daa26ee3cd091912445eed200ec05146e8ef02f8a6afb4,1f577bb886916124546f3bbd67f225cca7c221161c5d649451393dadc75cfb11,1
+scifact:1032,1,VALID,NONE,,VALID,,9137af0919b71969cbd85bb0b299510c82538f7a2edded2b936ad9e8ea9752eb,9cc0296fffe7e43cb70ddc745cd7a06855858c10a4ebe4fd1451cd1cf6cc5db1,1
+scifact:104,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 21619 tokens, limit 16384",VALID,,aa6a77cabd3b9cb241bbf14bf6b7ece0e9f1a26baf0f4f782f84af7d9870f4ac,7094de2df07bacfca8bc33883490a62a25ebfecdcb8a130bd015a9e5204ab484,1
+scifact:1050,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 22762 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1052,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 20004 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1053,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 20145 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1081,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 24025 tokens, limit 16384",VALID,,ca31b88b302e6a43353126419262870b6bc0ced81c8524070c982253a45560bd,0a52d1fc654e6a3c8ebfd30f02fa2cac9e36cf427f79e132f8b78be811ce1450,1
+scifact:1084,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 21263 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1085,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 23239 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1086,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 19587 tokens, limit 16384",VALID,,9c9c6772182ae97370ab6e8534990675ea50990f6841c1e0b62fbd73bdb6b6e2,2b3f17b9ebda979d2c553f1b4d79dd804de7da8f4503cee93200a9deed8c90fb,1
+scifact:1087,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 21320 tokens, limit 16384",VALID,,6dfb741016c9bde8187c3aa3fa04ca8ab3c83620e78ff36787ac6334315f77ef,b9cacc58c5edc1b248c29da0b9f1d61d0a429a80c8a76e3ab98ed861d8f1375a,1
+scifact:1099,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18182 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1100,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18218 tokens, limit 16384",VALID,,35a43fdd0877eb1508b33d937e86d69fdf29072288d850c067e7bb773e7c292d,e88e09e591ec4a259611667ac156cde21699b76f25d311f5a3ecfb16bf029f2c,1
+scifact:1103,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 22799 tokens, limit 16384",VALID,,f5ce91239b09ef7edf6875cf192eaa4cb58c0def868e31273aec9ca12360b39d,53ae18039dcc4a8179b4fd26c676ed04aed134a2981e62e680c0e880f2fec268,1
+scifact:1104,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 22533 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1105,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17363 tokens, limit 16384",VALID,,89433a3ab76e791a5cabca4483a600fb64c68ad983f2f31f3ad48f080aaa90b9,1bba243950564f4713f8725ca94be511776de80dcdcee34ebb2f9440c7ff6d99,1
+scifact:1106,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17419 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1109,1,VALID,NONE,,VALID,,117e377f3d6876252c95b9b2c6c1b6201c8dc00fa0f0192f8817ab9264097b2b,97625ba8ab8a2c84a80f12fb9ab82f50996d12b44fedd936f76c26623c0849ca,1
+scifact:1110,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17084 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1115,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 19500 tokens, limit 16384",VALID,,b98ac9d8e02250a17e1a81f935ae8976229250ddb1e390f8f08ae8aff2b4e645,cc78c5d379a5524c8ebd8539e6ee0bb1e800b76135c7a6fabd713e57276e7992,1
+scifact:1139,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18090 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1140,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17882 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1141,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 19674 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1153,1,VALID,NONE,,VALID,,7d60b701a71caffa8770e8ca48a4c7372d6b73eccc1f7538aa5d40700ed2a62d,ae0bcdddd7c66f7e96920a1a2386711dde073e2ffd926bcbaa1e746fabf17679,1
+scifact:1156,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 19993 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1157,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 21971 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1158,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18831 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1159,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 19015 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:116,1,VALID,NONE,,VALID,,62ab86be02fa27efb2dad453d74864ba2562f5ee98ff06b06763ed0e2d112062,d160b9d50989a71c8df1c93bb94b6ba8a5d6302b79adedecebd00826fcc09da0,1
+scifact:1164,1,VALID,NONE,,VALID,,4d66c4ea4388c37f867b1da68754984e4d4a4a7546c96ba362a5d239435554c8,85e3889db9c7724826d8722d9c31a02992e796fcebebead0d24c70c9e41e987d,1
+scifact:1165,1,VALID,NONE,,VALID,,730a1a9d0f47a5c79c830a4c275783a8c270a9b36ccce80712372e6fa0e22363,634e97c07dda8a5c7ad2b67a53b9c76789ede06b43bcfd3924239f374f1f855e,1
+scifact:1190,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 16452 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1191,1,VALID,NONE,,VALID,,a16a49b658302057cd5362d76b625475b363c0f62c485c51d18505580a695153,8d4419e6d9cbf19dadfb14667e691e04aca5014f384d7b4a54204fdab3a92a7a,1
+scifact:12,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17889 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1205,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 21385 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1216,1,VALID,NONE,,VALID,,1faa57bc823857b6996645b89fedc249605dae3af447e2889e6b2f104fb95876,bd5767c211f60b63272216981a68f0c828f0c0952b69546d9ab06d9cf433055f,1
+scifact:1219,1,VALID,NONE,,VALID,,36ce4ff694b0f9e67ad983e037f02dcfe428a4f668a862fe4c63285e7c71d133,03b122f1820fe29e2824a336c0a7f75a71aa1b8b5fd021ed33fbc8111a9487f6,1
+scifact:1239,1,VALID,NONE,,VALID,,ac60d8b0c78031835803f98967aa1fb95612cc00f32540735ecc634072459c2c,26a7391f6715835d9dcaa40a14681af714a2c8db9aa47ecedd6c47d852fe0500,1
+scifact:1241,1,VALID,NONE,,VALID,,019efc9bfd41a950956896fad7937a707d34ab782a44f9e9639406093ae1c8ff,c0191a10f0e05c63d93fc37b4f243908705efdcb1440eda1a4990a35a8311686,1
+scifact:1244,1,VALID,NONE,,VALID,,209dd38e9e30b9e4eae055160a232170ebe25ad4fb2345030b3895f5c6a22f10,f890c4de5a2471dc2dc5b6a372bb462f4789520335d4598b5b22b91ee7f4f1d9,1
+scifact:1254,1,VALID,NONE,,VALID,,c53fb9851019c6492e49d852ffa2ec34c24764166981efab541c3519d92525b1,81c02dae0358c9f4bd97541523f321b25d447a48f8b2c3c36d44fc57e351920b,1
+scifact:1255,1,VALID,NONE,,VALID,,995f4b3903b8773092e6376b6ffd52d42a6678f1d69af5d89e251cc0f966ecfc,936367efbea6e4e9758366da8c11fdeaed72e91c28eef2ff0f207ece01bf963e,1
+scifact:1273,1,VALID,NONE,,VALID,,d1d85d88ab3542fe69eb0735170bdb145da20b377d554c6ea9d7f9a00e3d4f5b,a8a1c04c7799defc32fc9c7d1c8ad53c7cf9dbc31068230b0dd6aeabff665349,1
+scifact:1274,1,VALID,NONE,,VALID,,6b365815304f43475783b1831f906c1e71f2c04efae708a0042a5cab21fa6d68,cc891a95a1edddea8986989d29ee58ee3a4f6dcf2346e3a52fb000acbe928f1d,1
+scifact:1278,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18966 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1279,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17580 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:128,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 16500 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1284,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 21207 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:129,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 16986 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:13,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 24499 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:130,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17050 tokens, limit 16384",VALID,,26b23aac89e7677606ac1b0088540013718c4c7be707cfcb2dd73d27df788437,7c0de1b472389e143b10cd7b357f8cd9962142c5987f2b4ebdd40eba85745c3c,1
+scifact:1306,1,VALID,NONE,,VALID,,abd857d6edf039eedb0f0f60795ec9a95c98ae2df8aba4aa4c5cfa0fe4f6e4dc,44b554c07051c5750a2d89c946d59df1a842e9d393569d273a8dfa14470abe6a,1
+scifact:1307,1,VALID,NONE,,VALID,,75cf9ced56ed93fefd9a2901afa72385dfb7995694a170efa91a0d559c22a250,34b6ee6fb028e4e4e176e1ff144ef4ae44852789008f17e9e76d849156a63f23,1
+scifact:1309,1,VALID,NONE,,VALID,,b9f93512a7774bc298b96438b124fc1476fec434e05c161d5d7e804dbb47dd7f,a530302fb3d6b09e122fb1d263e560290b71f35855e2e29b4c64fb2ddca70908,1
+scifact:1353,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 16682 tokens, limit 16384",VALID,,68215e74ee98b13a7ed8c1b091e3caa68f277a0a8fbec75f328cd9724289abba,f3a47be042a6ba31825a4f8e41020795ce47724444cebecfc17317c1826033da,1
+scifact:1362,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 16934 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:1364,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17039 tokens, limit 16384",VALID,,0e94e17865f81aef6ea44c015ff3beeaba18180ec324fd8a75b193e89871b07c,36eab30022cb0cc76896d6f56d72975edba8dd7a6891b1253b95b18cd9ecb5cb,1
+scifact:1378,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18908 tokens, limit 16384",VALID,,65cd598ce223251b3a4dd4a28604104368a184c4fef3a2db66f731db4cbc739c,100de642ab763934f3150007c41f515404a001960e15dcca8470551c1d7139db,1
+scifact:1386,1,VALID,NONE,,VALID,,783a4de379a9119caefa15f8230ed55e4223c52f05febade8f6b8692dd0f83c4,503af8c9ffec4ebff0652bc2c66b9395bb1aa31f59214be07707b03220c95bbc,1
+scifact:1401,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 21541 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:164,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18643 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:165,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17682 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:168,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18627 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:169,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18144 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:17,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 23990 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:171,1,VALID,NONE,,VALID,,ed47e1f8b9e795dac852fb09bf8f30aada9e7a0f41379b71bc912050233ce663,5c20271724756c8b955cd7f304a22a143ace360afec2e4d08814984aedb49206,1
+scifact:185,1,VALID,NONE,,VALID,,c831dad811a81b3ede1418346288d6cf12e4b45a58d17ff0a6a2ce9fc8d8a51d,76f601243e00b4b1a83673e1d149bdb3b9bda90c9eeb8968ba70c5db3823bc1c,1
+scifact:208,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18576 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:21,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 19951 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:22,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17361 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:230,1,VALID,NONE,,VALID,,8b030b3d6080b2deed3e6e24c4408aee26cdfad1ac7ae532fa65e44f8d375228,94b4f774e30d9d4f0d65deb269b5ed81799244c312cba60a4947d15774a41e50,1
+scifact:262,1,VALID,NONE,,VALID,,72144d4a4929b1a3a63937a2933241bcfbec50507bba924759b9ca0e22659f20,e1c3e1785c86dd13ba8110aa1eb534c4374c826de7e57a05b5de573be584c7a1,1
+scifact:300,1,VALID,NONE,,VALID,,b83f8871798d430bd5cde8daa98ee7c65bfc950211b2e6f21de36c9f0d286c71,d7d384fcdedee42db0d2e7b941d684111de072e16568a3283a9e9db7b83037b4,1
+scifact:316,1,VALID,NONE,,VALID,,029c6bd314fde936b3580b87da4149299a29e6577bd3ab08075a6b71b21bdf10,ce1f61dd15179f62ee8b18a409651de71a4940ac772387e4854a609f016ef158,1
+scifact:317,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 20484 tokens, limit 16384",VALID,,7b6e8c856a46985474f094f5f6d8949cb2b41c2a5b2ddf4c98ea2620666a872f,97f8a75d62cd31f0c686fcee6f4284a90778cb11c225dae02444b919a5815234,1
+scifact:326,1,VALID,NONE,,VALID,,68a1d5897ac1ece94f07ba126142c30b51894df1c4a3c6406885a23bc0dc6099,a18b6297b0dcf93b9e4b8c0d423e75183f1de7d6cb32d32a32eeb4873fc0a26d,1
+scifact:346,1,VALID,NONE,,VALID,,a37554da9021c6b6b3c2fc5dd09a96ad76870415f696766f4e0935140a9df33d,9865cf1512a6536f80bdff6f0e071a347b8d3181a08ea579a31f656da449d4a6,1
+scifact:347,1,VALID,NONE,,VALID,,eb06d93116e57cc5b1ae5212cc0ee1acf57ea445636b25e2e149148265460459,5524d0b67ecba31941ab6c653d5817dd8b274b29889e38a47c420d9fdf1c712f,1
+scifact:365,1,VALID,NONE,,VALID,,fc48e0a8bda9439c5f804f6408902d7de9a3acee7977ab270a26df685ae6bca1,bccb6a847e1843529fa836b05d90ed79a0a300922854e17bf255332f18419541,1
+scifact:376,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17265 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:382,1,VALID,NONE,,VALID,,febd1ca536ea1c17792c5f3b53a9b63c6094a24463993c8a6d53372c0217f73f,3afb8616ad4211e27d3e0456792bb9fa52550314c7439e7cf01e9103affeb11a,1
+scifact:383,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 20049 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:384,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 19705 tokens, limit 16384",VALID,,8a2e6e9f001df1ff04cb10e6dc1fca6528384bb79063c08c84ec25165a8d6b74,40d623869dedec51bc031a4d488af4f0eb19576b4e6dee50df34b36b4b9fb7b8,1
+scifact:423,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18675 tokens, limit 16384",VALID,,96c07903fb1f649a95143386a58ef743e748cc5480846efae039cba2094a4336,5a3a6d989f52de0287112204dc2547e48f994805f456da3887920b0c45a5a033,1
+scifact:428,1,VALID,NONE,,VALID,,02bf21ce77d8dd54d96087fc9bea110a187ee126ccce20f3c447b7780655bf5b,1373c939ed120a69ca4ee02f1284152f8df2ea70cbe0087dd043901d436674e7,1
+scifact:431,1,VALID,NONE,,VALID,,d632785e6582888f4199a347d183ff9f5282aa8bf645d88e6e99a9fd96edb545,36d2a046b09b24063f509a6187dbb083a2a111cfa7a1c931cd710b0e68a85c5d,1
+scifact:448,1,VALID,NONE,,VALID,,478f7b267c0f65a84cf965b7ec7e60e9adc61b35759e799c590cc49d5a1cd00e,6ea9feebdc629d3e95136c7224feafd43f8f4fcd2846bf5c80a915d2aa8ab9b3,1
+scifact:46,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17202 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:47,1,VALID,NONE,,VALID,,5f5f6724543f2b9b7798bb4dd95b15c21421d949dfc7d0b827e8c06d42c8a67e,3b1cda692e1060b9f9adf8235ae91d5de7b289b2316be9e35ddce6b7386f98cb,1
+scifact:475,1,VALID,NONE,,VALID,,c6178be2df4e1961f9c4760a60482f2844f6ad555de134aba7c291ef75fb16df,a3a2f778ecb7656c954747b0852415f5dbc667cb1be4216b1148af694c8f966b,1
+scifact:485,1,VALID,NONE,,VALID,,760c2bf48a90b5037c2ea04a91aaa1faa7d186840b36391410e6485de133005b,8e9c65eb34b235ccc573fddd87c78de292dd5e853e5e5838c69236f22bbb0252,1
+scifact:486,1,VALID,NONE,,VALID,,b309be0291331105ed551418b93171733f878d9e2e2c77cab4ba33f3c754f259,edbeb59a504e11cdc1399d1c325da2525326bd7eb1c00e62740cf003a1ed26ae,1
+scifact:487,1,VALID,NONE,,VALID,,999edbb843f62ff7d77296be578100437c45debfd3184701394a06ed8b254cd5,c914e6ba9dd330822c61811dd706e6dca802f348314f54e48e3b2a24c89eca93,1
+scifact:500,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18202 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:501,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17791 tokens, limit 16384",VALID,,697c72dc3fd2e9e2416bc1ec59996b716c5c48e9c0b1ea62dedde4a7426c395a,703f859870d5c2bd621ec42551024f224fa45ddf4d35f78eee9b8da922de1e83,1
+scifact:513,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 19615 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:523,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 19155 tokens, limit 16384",VALID,,ad3e7bd37e01b6d1433fdc891f84920e8329890d2bbfcc05cd0a7573c959b0de,e01b949920c468ae7c85bd6fccda83e7db487f09337843bbc28f12738e962593,1
+scifact:524,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18821 tokens, limit 16384",VALID,,343116188d72111d20c39cc4e43319cfaa55eb9164014604b868ff70d2cdc1ac,946ae12f644276ab668683d5c5848e4ed0ad4714a3ee600d88417282cb8b7d63,1
+scifact:528,1,VALID,NONE,,VALID,,3754ba74f76032e6a4aae4015bc71428ee5d7b60c509ac090890d60fe3cdeae2,eac622678ce668ab80d2b9f4f3bf8e79b17f0718a97f4fcab3c52d4851b24a57,1
+scifact:539,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18673 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:569,1,VALID,NONE,,VALID,,403bffa235ef07b0a77452da7dd4c655618c0faf3c70bf7d33f8e2e7766a4e4f,aad636e2de3c6bc09e4f4c54cb0ca9014f6c7f0c229da5198b30d9d4f0d93e08,1
+scifact:577,1,VALID,NONE,,VALID,,1eb91dd1b09c9057ee631abdfdad7bb95580125d4db259c7d8327280c758b32a,a6de5014066a2f8c69a7831990746f142ee039a2fb85b4e6bbb657156d578986,1
+scifact:58,1,VALID,NONE,,VALID,,387de86f1bbd5f47594f2548d758ddbbb626e379e1dc5aa8c9462d852971ed88,00090d45d37546aff280f0015a83012d238a3496e8426c5fd496569471b1655d,1
+scifact:597,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 21485 tokens, limit 16384",VALID,,a6d28afe388a9388faeeb78172f40570b454cbc7edb3fe659a7779653eb90bf9,9a914f78bb8d1f65f588cdcf477dd39df0e3e2d38d60146c9f61ece4fecd755f,1
+scifact:598,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 23398 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:603,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17673 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:607,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 21059 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:64,1,VALID,NONE,,VALID,,faab0246612be0d6916389e1a8d0db2f8008aa33e491aca679241daf768053cf,577ea6abe22e52c3f9fb9a879fe78e7d186afd1764fb729e6c6f87b4e60e42f3,1
+scifact:645,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18257 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:646,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18197 tokens, limit 16384",VALID,,5a83702781bf244f02d51ffb50a22218ad8088db7060d9686c11e50947b2ad1c,7d9a38933b4daae59aa1b8213f178f0380c7a6d443dc31441d77bbdf2334b10e,1
+scifact:650,1,VALID,NONE,,VALID,,33e18ed2e77763ffd40baf08af9ea58cacd2b50eb0980e5478753b94e1593b70,e057ec555d56e24e95e486db3b43ccaa63cbc44e0948e5a40b3d3e1fb61d9be6,1
+scifact:651,1,VALID,NONE,,VALID,,3dc7a8a3ab7c8da2b27fa2db23ca3ac385fe01bd1cb42b81075299f946fc3414,2ae5e2948ae81dc3a805c69697f7fa71c42a38c34cfbf8649038dcb00446f5c9,1
+scifact:652,1,VALID,NONE,,VALID,,75aa633584ca4ecb20612593ab579ffa361e8b306a9c0e621c365ca4219b688c,f443f040289871c2db50e4d7b9e6686ab075e7393ca569f5694f31d14d0f2645,1
+scifact:66,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18132 tokens, limit 16384",VALID,,da9ca1d99b02a52d661bc5659297e0e03a8206bf714cacc15fe824147c1b3767,387f789fe93a5cf6d37e24c61e34bc6415f37f918814478ab397938f0068f966,1
+scifact:673,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18391 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:674,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17866 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:721,1,VALID,NONE,,VALID,,08cf07a38aa10de4759f8b5651545b44b362f48e38fa4e07aa24a279889a2e59,728960b0362fa45159fce1e298d3fe4bdcb9b1042b297e59d2ee225ff4be7ab6,1
+scifact:728,1,VALID,NONE,,VALID,,eb9252bc241d04573d086f8c9a5239de173137a9cb51312c739d72fb40b86861,dbeee196c999fadf2bbe07990641d4ee31cb0137d65ba1ce25fd21e76c7ad38c,1
+scifact:737,1,VALID,NONE,,VALID,,d5dc052508306f319858dfe70d008136eb9156985654da3fea66ddb813d5bf2f,74f1433afab7a2524234a1690e6ff141c26df737c608d1c56e601a4319c2bfb5,1
+scifact:738,1,VALID,NONE,,VALID,,84848ebd383fd0b8047a2dc698246ce1526ff54244c0c65411db3f498ba62b44,4167a7e89f68d0ac680b34fcdb7aa684e997b8c0771e300acd9b9b76cbb8eedd,1
+scifact:740,1,VALID,NONE,,VALID,,7c36e5da73c636361f16e80eb9cbb9c036b3a7cd375203365de5f17e042207ca,11c92e32911a51ea5a84646fbcf23dd03f3b7f7ddeccd6c06b6b77ae341a7e0d,1
+scifact:742,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 19212 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:743,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17881 tokens, limit 16384",VALID,,c917da8b68ae916a55c9d98fa8355b5ae661b715156de5bb3a313a361a6e1655,d17bd06c1f9a73c8fb1841ed85acb82fb7a81f0a787e79078132d3d0164dafc4,1
+scifact:745,1,VALID,NONE,,VALID,,dbb19a5a4268fbe272c1c43866df14c56c3b3a67a1f3f6a8e56c4906c0456e68,40f4647c2454573a27475c1b5646bbacf329aca11b87bb8c6a0494b2819d1394,1
+scifact:748,1,VALID,NONE,,VALID,,d33071ce5d52db502a74988b00718747421ae8b6150d8f935199e9800fdceb44,7692cdbbb2a50d42f0fe29c3d6a169318c7d6855622dfcd77a5004ff0f5a4071,1
+scifact:767,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 19176 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:781,1,VALID,NONE,,VALID,,f9cdc8df66127191f95d426da5eb5bd2c8d3660a8ef3d4159c0aeadc9acc7030,f1292e1b8571bfed694752c2f8f1e0ac0aac501fa26801842ae60618699bffe3,1
+scifact:80,1,VALID,NONE,,VALID,,94aeb06e42106ec998e09e7031f1d096c0ab001ecefa72dce4c581fa0d92faef,d81ca7f28228bcb74c86c2041e7b6498e0777444adbd6070d0ece03e1bb525dc,1
+scifact:811,1,VALID,NONE,,VALID,,3053f579933777e0171386f6a75eac8c6ab11dedf02726137e6bdab72adb5612,faa8f69c5322c03dee334c16460ada8667b3591fbc443e83766f24d5e0a4e626,1
+scifact:812,1,VALID,NONE,,VALID,,8c3b2f90c09bfa7d1f11b5600d153efee02b9738b10e30bd68820fde1745c52e,1d31d373c2bf1f5d8943887312190ea1448bb467dcc0aa5afb884a82c1e24ced,1
+scifact:815,1,VALID,NONE,,VALID,,dda6e7799e6ff9e8ec7638c37fd167b6db573f9852ce1ce419543979a3f886af,6e41e5dc67dcb19eb41150f19c89233716aed72d01ad978ed5ab3b28f6595dd3,1
+scifact:85,1,VALID,NONE,,VALID,,2b6618b90180e441caa10e38ffd67655a57ce1386a0603cdf7226ac9b2ed5dae,f09831371ca41215f60740ae547af82b13722d3c82ba7b34253d88a88d7e633b,1
+scifact:853,1,VALID,NONE,,VALID,,4f2d65bd06129044cf9a77ad7587914b55e697ff4b133513e2733834eaea6837,43d2e41d0ab432ab93eb5f258ba4c4dd1147968c9d7172b89331c9af232a3fa6,1
+scifact:870,1,VALID,NONE,,VALID,,3eafd0fd76397837c025298bf083a5f288821e2a174a22743dd1d2f1c75e3468,d80e0239185fa3c550ffa711e2a646ba87ce5d9489bb4d14ef360dfa95f7a461,1
+scifact:871,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 16543 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:876,1,VALID,NONE,,VALID,,dd6ffe205e4555117851f8429e0cbd1264d9059b13f207e54ecff6c645145caa,a9f628acefb4f5d84f7263baaf9ca72c5c02d14b2d19cc1296f956c8abdf69f4,1
+scifact:881,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18740 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:882,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17874 tokens, limit 16384",VALID,,2772b3abd51ef51842c0c4d504ff29977f1754de5794a4c142f81f0010274c74,37c2c6203fb1dadea30100f94542a36e4fdc89f5e9a1bf8c5a3402932edd1ecb,1
+scifact:883,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18420 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:884,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17646 tokens, limit 16384",VALID,,b37602a1613a583fc729073f5e994381dc97ce9f9bfe5a0f388890b1eb405158,38177f6b3aa96a7978fe5f59cdef60e6e83e547ea6d3b9fbf9d09b8f6de7eb4b,1
+scifact:885,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 22659 tokens, limit 16384",VALID,,02f73c2d911e292d3c4b86e29ab3cb8350d24de07c552b5dfa3d62d369e09f73,fb0cc5a58636b1efe0999a9067b3cc0b4d05dc552de880850f3952d81fb6d300,1
+scifact:886,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 22727 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:89,1,VALID,NONE,,VALID,,76058270e7612c972bd9eb49416395c470d064d8eb4867b9e3b0201ce841dc43,769e7100abf1fcf337f3c57be8a6b3ae4a010ca630dc74e86174f7d82cf5d1a4,1
+scifact:9,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 16736 tokens, limit 16384",VALID,,d58c65758b6b601e11996baab728719c1686f47612ba7200605a0936df48444a,7ed5d421019d93a88c52cf35409519d347010e11f70b78326eeac213137a9fd2,1
+scifact:900,1,VALID,NONE,,VALID,,86574b4fd4d596d6726fb9e5c212338bcc3aeda86da460b101e1d2dcd0bb628f,71e89b57f26089efaa0d04418dfa65be86353cd01f556c4ddcb6208c3a08d4ff,1
+scifact:901,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 17608 tokens, limit 16384",VALID,,0cc343e8f205de247977605934973e710c87121d6d13bbe746d09165ff3a2ed0,c719c3a9645bbb3b301f36453c17e9c64ca67f9021f290b345acf098b9b84dd0,1
+scifact:91,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 18595 tokens, limit 16384",NOT_IN_SAMPLE,,,,0
+scifact:92,1,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 16995 tokens, limit 16384",VALID,,28bbbf4a34f326f8f61c5ff63fed343fa095c175df719c419ac8416c6afd8b29,a025b81eb83df4c193c19e0e5ade86221023c2c4adf23285411fff9fe6d03237,1
+scifact:93,1,VALID,NONE,,VALID,,d4cf87c112d0fea43fc533c84c4fd09371ce4cf97e0d02c80ed0551cc7383212,00d15f67ca676094432c9670f4084534202b51889f3c8e9e0abec267b303ce52,1
+scifact:935,1,VALID,NONE,,VALID,,da894610fd92553e58e888b83feb028aa5289607a9af2dce0511cb7c5e0d870e,323be0d1313ee93c85171593d8834f8e3a652b8e9c824c9107c97dcca315957b,1
+scifact:938,1,VALID,NONE,,VALID,,d7578017ae5a50eeb51e3042c0ac362d5d230bcd5a04369279eece990340755f,51a1e47745e636bf0902748f7682f31ee2658a35f1fcc945da8c0320b2468419,1
+scifact:967,1,VALID,NONE,,VALID,,259064575c3ed450cbb28d196b486f0b9b40799593f04bcdbd4a36eb2e9bb631,79349393b88035b8f99d933da2b5a4ea7148b37b63af60d0185a5e9b86300672,1
+scifact:98,0,INFERENCE_ERROR,context_limit,"BadRequest: maximum context length: request has 19675 tokens, limit 16384",NOT_IN_SAMPLE,,,,0

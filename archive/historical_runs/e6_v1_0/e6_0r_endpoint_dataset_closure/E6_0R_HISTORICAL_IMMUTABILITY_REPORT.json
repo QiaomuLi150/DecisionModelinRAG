@@ -1,0 +1,12 @@
+{
+  "e6_0_outputs_modified": false,
+  "historical_declared_entries_checked": 91,
+  "historical_e5_top20_sha_match": true,
+  "historical_files_checked": 4,
+  "historical_hash_failures": 0,
+  "new_files": [
+    "data/external/e6_0r_datasets/*",
+    "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/*"
+  ],
+  "status": "PASS_WITH_NEW_PUBLIC_DATA_ADDED_APPEND_ONLY"
+}

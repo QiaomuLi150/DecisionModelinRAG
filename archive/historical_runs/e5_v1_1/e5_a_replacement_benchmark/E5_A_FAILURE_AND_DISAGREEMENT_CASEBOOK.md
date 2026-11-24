@@ -1,0 +1,52 @@
+# E5-A Failure and Disagreement Casebook
+
+Fixed stable-hash case selection after both primary policies completed. No cases were selected by favorable outcome.
+
+- **pplx_only** `qasper:1910.08502:871c34219eb623bde9ac3937aa0f28fc3ad69445` group `qasper_group:deb7d968c80ce483ef041596` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **pplx_only** `qasper:1906.06045:199bdb3a6b1f7c89d95ea6c6ddbbb5eff484fa1f` group `qasper_group:5530e4c63da9bf3a8d8f45c3` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **pplx_only** `qasper:2001.01269:cf171fad0bea5ab985c53d11e48e7883c23cdc44` group `qasper_group:7ab0eddfd2253757185a539c` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **pplx_only** `qasper:1911.11698:26012f57cba21ba44b9a9f7ed8b1ed9e8ee7625d` group `qasper_group:c0b3a5f07e77b449c2f30057` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **pplx_only** `qasper:2003.03044:ce0e2a8675055a5468c4c54dbb099cfd743df8a7` group `qasper_group:cf0561fca4d937fb8453e9f0` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **pplx_only** `qasper:1602.01208:d557752c4706b65dcdb7718272180c59d77fb7a7` group `qasper_group:eae7f5e63c4cf04d53f6da53` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **pplx_only** `qasper:1912.08960:509af1f11bd6f3db59284258e18fdfebe86cae47` group `qasper_group:aa05b823f809ba8e4bca8427` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **pplx_only** `qasper:1911.07555:c8541ff10c4e0c8e9eb37d9d7ea408d1914019a9` group `qasper_group:1302b3cc4b6a0e85284f5a29` support_cardinality=4 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **pplx_only** `qasper:1906.06045:58a00ca123d67b9be55021493384c0acef4c568d` group `qasper_group:5530e4c63da9bf3a8d8f45c3` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **pplx_only** `qasper:2001.07263:94bee0c58976b58b4fef9e0adf6856fe917232e5` group `qasper_group:6fbafe75f0bcc4cd9174bc65` support_cardinality=2 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **pplx_only** `qasper:1911.03597:b44ce9aae8b1479820555b99ce234443168dc1fe` group `qasper_group:4e7c2ad837233131d43b667f` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **pplx_only** `qasper:1601.06068:ad362365656b0b218ba324ae60701eb25fe664c1` group `qasper_group:0da47b961b49293953ccdef4` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **jina_only** `qasper:1912.00667:43f074bacabd0a355b4e0f91a1afd538c0a6244f` group `qasper_group:699039abc5311fb72ec44d89` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **jina_only** `qasper:1611.02550:1d791713d1aa77358f11501f05c108045f53c8aa` group `qasper_group:ccee93a1e3d4c04ebb0d5785` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **jina_only** `qasper:1911.07555:c598028815066089cc1e131b96d6966d2610467a` group `qasper_group:1302b3cc4b6a0e85284f5a29` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **jina_only** `qasper:1908.11546:b8dea4a98b4da4ef1b9c98a211210e31d6630cf3` group `qasper_group:5349d88f8747bcf4f428cd18` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **jina_only** `qasper:1809.09795:4ec538e114356f72ef82f001549accefaf85e99c` group `qasper_group:26cbefe45f76c43610419c4c` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **jina_only** `qasper:1911.03894:5471766ca7c995dd7f0f449407902b32ac9db269` group `qasper_group:28ec42df3d0c86151cf877c0` support_cardinality=3 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **jina_only** `qasper:1805.10824:22ccee453e37536ddb0c1c1d17b0dbac04c6c607` group `qasper_group:7094ce96075f7a6d760fa87f` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **jina_only** `qasper:1701.06538:0cd90e5b79ea426ada0203177c28812a7fc86be5` group `qasper_group:32047f1656396bd5d48f4722` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **jina_only** `qasper:1809.01060:6b7d76c1e1a2490beb69609ba5652476dde8831b` group `qasper_group:28b287992b416a959c72a935` support_cardinality=2 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **jina_only** `qasper:1909.05246:bd7a95b961af7caebf0430a7c9f675816c9c527f` group `qasper_group:de2adc1cde452918a4ce4eb0` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **jina_only** `qasper:1909.00326:93beae291b455e5d3ecea6ac73b83632a3ae7ec7` group `qasper_group:860470cde0b2c587806a484e` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **jina_only** `qasper:1905.12801:d4e5e3f37679ff68914b55334e822ea18e60a6cf` group `qasper_group:6de7471f148b20a9f0cb9e81` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **both** `qasper:1912.00423:5a230fe4f0204bf2eebc0e944cf8defaf33d165c` group `qasper_group:d8895210904a98dfaacec70f` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **both** `qasper:1909.06434:82a28c1ed7988513d5984f6dcacecb7e90f64792` group `qasper_group:f4edb5ffdb45b75eb02da2e0` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **both** `qasper:1909.13375:9a65cfff4d99e4f9546c72dece2520cae6231810` group `qasper_group:974ff4ed704d8eacaf15d3ac` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **both** `qasper:1704.06125:39492338e27cb90bf1763e4337c2f697cf5082ba` group `qasper_group:55556c01b986817062bd9b35` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **both** `qasper:1910.00458:9dc844f82f520daf986e83466de0c84d93953754` group `qasper_group:d22cb7faabb826678937d4d1` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **both** `qasper:1612.05270:ef8099e2bc0ac4abc4f8216740e80f2fa22f41f6` group `qasper_group:da8a4da7f7267a52020f0b09` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **both** `qasper:1911.03681:0154d8be772193bfd70194110f125813057413a4` group `qasper_group:9866dac9a5c4ded5a589918f` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **both** `qasper:1804.02233:dc28ac845602904c2522f5349374153f378c42d3` group `qasper_group:14d563f0616b0d372ff688e8` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **both** `qasper:2001.09332:3de27c81af3030eb2d9de1df5ec9bfacdef281a9` group `qasper_group:eed4197fcc540c332044af8a` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **both** `qasper:1611.08661:b49598b05358117ab1471b8ebd0b042d2f04b2a4` group `qasper_group:7aaab80da32763ed37ba6265` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **both** `qasper:1809.01541:5cb610d3d5d7d447b4cd5736d6a7d8262140af58` group `qasper_group:c8d2d106fadabd6798d6cad5` support_cardinality=2 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **both** `qasper:1910.00825:f398587b9a0008628278a5ea858e01d3f5559f65` group `qasper_group:3d416349e6382f9a591e29b0` support_cardinality=1 retrieval_feasible=1 PPLX=VALID Jina=VALID
+- **neither** `qasper:1909.06434:d4a6f5034345036dbc2d4e634a8504f79d42ca69` group `qasper_group:f4edb5ffdb45b75eb02da2e0` support_cardinality=1 retrieval_feasible=0 PPLX=VALID Jina=VALID
+- **neither** `qasper:1911.01371:33554065284110859a8ea3ca7346474ab2cab100` group `qasper_group:a82d8ab07eb58a70174bcdc8` support_cardinality=1 retrieval_feasible=0 PPLX=VALID Jina=VALID
+- **neither** `qasper:1701.00185:785c054f6ea04701f4ab260d064af7d124260ccc` group `qasper_group:841aebd093298cc02bb6d0cb` support_cardinality=4 retrieval_feasible=0 PPLX=VALID Jina=VALID
+- **neither** `qasper:1810.08732:7f2fd7ab968de720082133c42c2052d351589a67` group `qasper_group:4c4ede178634afc79d07461c` support_cardinality=2 retrieval_feasible=0 PPLX=VALID Jina=VALID
+- **neither** `qasper:1704.05572:fed230cef7c130f6040fb04304a33bbc17ca3a36` group `qasper_group:a3bde37c325ef7ffb7343ca7` support_cardinality=1 retrieval_feasible=0 PPLX=VALID Jina=VALID
+- **neither** `qasper:1907.12108:1f1a9f2dd8c4c10b671cb8affe56e181948e229e` group `qasper_group:c9983198ed2533c6dafc07e8` support_cardinality=1 retrieval_feasible=0 PPLX=VALID Jina=VALID
+- **neither** `qasper:1802.05574:63c0128935446e26eacc7418edbd9f50cba74455` group `qasper_group:da0a0e8c6b5e450ed78c95c9` support_cardinality=4 retrieval_feasible=0 PPLX=VALID Jina=VALID
+- **neither** `qasper:1702.03274:ff814793387c8f3b61f09b88c73c00360a22a60e` group `qasper_group:14b5f8dcd906da3e31ad20f6` support_cardinality=1 retrieval_feasible=0 PPLX=VALID Jina=VALID
+- **neither** `qasper:1905.10702:52e8c9ed66ace1780e41815260af1309064d20de` group `qasper_group:45ccef568e0d99ea07bf09f7` support_cardinality=1 retrieval_feasible=0 PPLX=VALID Jina=VALID
+- **neither** `qasper:1909.05890:0b54032508c96ff3320c3db613aeb25d42d00490` group `qasper_group:6eaa783b8897164303517654` support_cardinality=3 retrieval_feasible=0 PPLX=VALID Jina=VALID
+- **neither** `qasper:2004.01980:41d3750ae666ea5a9cea498ddfb973a8366cccd6` group `qasper_group:e3f95f932baa79d4ab99f948` support_cardinality=1 retrieval_feasible=0 PPLX=VALID Jina=VALID
+- **neither** `qasper:1901.01010:71a0c4f19be4ce1b1bae58a6e8f2a586e125d074` group `qasper_group:d93fb74de2ba2a3de4a85b6c` support_cardinality=2 retrieval_feasible=0 PPLX=VALID Jina=VALID

@@ -1,0 +1,30 @@
+{
+  "policies": [
+    {
+      "policy": "jina_full",
+      "rows": 1384,
+      "verified": 1384
+    },
+    {
+      "policy": "pplx_single_8192",
+      "rows": 1384,
+      "verified": 1384
+    },
+    {
+      "policy": "jina_single_8192",
+      "rows": 1384,
+      "verified": 1384
+    },
+    {
+      "policy": "pplx_two_stage_8192",
+      "rows": 1384,
+      "verified": 1384
+    },
+    {
+      "policy": "jina_two_stage_8192",
+      "rows": 1384,
+      "verified": 1384
+    }
+  ],
+  "status": "PASS"
+}

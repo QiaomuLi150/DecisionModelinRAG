@@ -1,0 +1,152 @@
+{
+  "checks": [
+    {
+      "check": "T2_A_record_count",
+      "expected": 2880,
+      "observed": 2880,
+      "status": "PASS"
+    },
+    {
+      "check": "T2_A_policy_counts",
+      "expected": "360 per policy",
+      "observed": {
+        "jina_full": 360,
+        "jina_single_1024": 360,
+        "jina_single_2048": 360,
+        "jina_two_stage_2048": 360,
+        "pplx_budget": 360,
+        "pplx_single_1024": 360,
+        "pplx_single_2048": 360,
+        "pplx_two_stage_2048": 360
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "T2_B_record_count",
+      "expected": 2880,
+      "observed": 2880,
+      "status": "PASS"
+    },
+    {
+      "check": "T2_B_policy_counts",
+      "expected": "360 per policy",
+      "observed": {
+        "jina_full": 360,
+        "jina_single_3072": 360,
+        "jina_single_4096": 360,
+        "jina_two_stage_4096": 360,
+        "pplx_budget": 360,
+        "pplx_single_3072": 360,
+        "pplx_single_4096": 360,
+        "pplx_two_stage_4096": 360
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "T2_C_record_count",
+      "expected": 2520,
+      "observed": 2520,
+      "status": "PASS"
+    },
+    {
+      "check": "T2_C_policy_counts",
+      "expected": "360 per policy",
+      "observed": {
+        "jina_full": 360,
+        "jina_single_6144": 360,
+        "jina_single_8192": 360,
+        "jina_two_stage_8192": 360,
+        "pplx_budget": 360,
+        "pplx_single_6144": 360,
+        "pplx_two_stage_8192": 360
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "T2_D_record_count",
+      "expected": 1080,
+      "observed": 1080,
+      "status": "PASS"
+    },
+    {
+      "check": "T2_D_policy_counts",
+      "expected": "360 per policy",
+      "observed": {
+        "jina_full": 360,
+        "jina_single_8192": 360,
+        "pplx_budget": 360
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "T2_total_records",
+      "expected": 9360,
+      "observed": 9360,
+      "status": "PASS"
+    },
+    {
+      "check": "T2_unique_C120_ids",
+      "observed": 120,
+      "status": "PASS"
+    },
+    {
+      "check": "valid_top5_identity",
+      "invalid_records": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "paid_api_calls",
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "protected_holdout_access",
+      "observed": false,
+      "status": "PASS"
+    }
+  ],
+  "full_regression": {
+    "collected": 302,
+    "failed": 0,
+    "passed": 302
+  },
+  "phase_manifest": {
+    "results/v3_6_essential/stage2_t2/T2_A/raw/jina/serving_perrequest_raw.jsonl": {
+      "records": 1440,
+      "sha256": "33e3c03f9ea95bda885dd52e94994a5176ec7d5b75de537f6582e4c560dd9f39"
+    },
+    "results/v3_6_essential/stage2_t2/T2_A/raw/pplx/serving_perrequest_raw.jsonl": {
+      "records": 1440,
+      "sha256": "16904965ad6b02d5f7f4a357253a6c6dbd765d20b727471e41762723732a828f"
+    },
+    "results/v3_6_essential/stage2_t2/T2_B/raw/jina/serving_perrequest_raw.jsonl": {
+      "records": 1440,
+      "sha256": "66979ea36b06e4ebb8cb9fbfd8ba79324fcee80ed7b303b2f69ac86671baf161"
+    },
+    "results/v3_6_essential/stage2_t2/T2_B/raw/pplx/serving_perrequest_raw.jsonl": {
+      "records": 1440,
+      "sha256": "9a99a9670dce2600a3fdab6ab697edf2041470c22393ec12e5ae378795176cea"
+    },
+    "results/v3_6_essential/stage2_t2/T2_C/raw/jina/serving_perrequest_raw.jsonl": {
+      "records": 1440,
+      "sha256": "744dc416e69bf6c8e5fc712b2ec28c486b51ea276fba0a8f48845b86ab6923d3"
+    },
+    "results/v3_6_essential/stage2_t2/T2_C/raw/pplx/serving_perrequest_raw.jsonl": {
+      "records": 1080,
+      "sha256": "741c92b093452c7ab38b828415a32b21bd97c77c1c2a32ca1b74895d550ca1d5"
+    },
+    "results/v3_6_essential/stage2_t2/T2_D/raw/jina/serving_perrequest_raw.jsonl": {
+      "records": 720,
+      "sha256": "ebfa1402f060d40f419d43549281423f2a0b4ca977f099efe40c63384bec80b6"
+    },
+    "results/v3_6_essential/stage2_t2/T2_D/raw/pplx/serving_perrequest_raw.jsonl": {
+      "records": 360,
+      "sha256": "89da8e4a8e434e7e5d7e834dfe44a890622d465999b27a0be2234d52c091e65c"
+    }
+  },
+  "stage": "v3.6 Stage 3",
+  "status": "PASS",
+  "targeted_checks": 13,
+  "targeted_fail": 0,
+  "targeted_pass": 13
+}

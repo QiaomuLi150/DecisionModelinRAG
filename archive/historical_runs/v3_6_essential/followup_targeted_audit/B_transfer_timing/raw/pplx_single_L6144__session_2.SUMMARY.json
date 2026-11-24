@@ -1,0 +1,26 @@
+{
+  "anchor_records": 120,
+  "gpu_index": 6,
+  "labels_joined": false,
+  "policy": "pplx_single_L6144",
+  "pre_gate": {
+    "device_row": [
+      "6",
+      "<REDACTED_GPU_UUID>",
+      "NVIDIA A100-SXM4-80GB",
+      "81920",
+      "4",
+      "81149",
+      "0"
+    ],
+    "gpu_index": 6,
+    "stderr": ""
+  },
+  "raw_sha256": "7e9db4d504a690ec4df7e0eb7eeac6d6dc97d95af77c7ad6d71ef6d5205ea56b",
+  "records": 5454,
+  "session": 2,
+  "status": "PASS",
+  "target_failed": 0,
+  "target_records": 5334,
+  "target_valid": 5334
+}

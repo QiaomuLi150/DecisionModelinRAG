@@ -1,0 +1,16 @@
+{
+  "enterprise": {
+    "mean_group_size": 1.0,
+    "n_groups": 500,
+    "n_queries": 500,
+    "rule_met": false,
+    "unit": "query"
+  },
+  "musique": {
+    "mean_group_size": 1.0,
+    "n_groups": 2167,
+    "n_queries": 2167,
+    "rule_met": false,
+    "unit": "query"
+  }
+}

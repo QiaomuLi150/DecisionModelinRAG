@@ -1,0 +1,13 @@
+{
+  "expected_records": 1080,
+  "failed": 3,
+  "labels_joined": false,
+  "phase": "jina_j2_repair",
+  "policy_counts": {
+    "jina_two_stage_pplxwindow": 1080
+  },
+  "records": 1080,
+  "sha256": "300ccc181bd4fb312b986b833199658f15400508d058b8884eb0c4c0759a9855",
+  "status": "PASS",
+  "valid": 1077
+}

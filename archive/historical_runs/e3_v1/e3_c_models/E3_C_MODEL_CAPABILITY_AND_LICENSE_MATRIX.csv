@@ -1,0 +1,3 @@
+model,repo,revision,license,interface,context_limit,score_readout,score_comparability,branch_status
+liquid_d1_3b,LiquidAI/d1-3B,051bcc464b01b9f92942b364d9586b0ef5912432,lfm1.0,Liquid native system_one typed noul,32768,P(yes),exploratory cross-head ranking; calibration not assumed,NATIVE_VALIDATED
+zerank_2,zeroentropy/zerank-2-reranker,5eae30d5ee3c6b2df2ef6d723bde45172d761c4c,apache-2.0,SentenceTransformers CrossEncoder,32768,raw Yes logit,within-policy pairwise ranking,NATIVE_VALIDATED

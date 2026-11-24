@@ -1,0 +1,10 @@
+{
+  "overall": "PARTIAL",
+  "stage1_jina": "BLOCKED_UNVERIFIED_SELECTION_GATE",
+  "stage2_n1": "PASS",
+  "stage2_n2": "PARTIAL_ANCHOR_SESSION_C_PLUS_DREX_AND_WINNOW_PROTOCOL_LIMITATION",
+  "stage3_n3": "BLOCKED_HYBRID_RRF_NOT_BM25",
+  "stage4_cpu": "PASS",
+  "stage5": "PASS_PACKAGE_HYGIENE_VERIFIED",
+  "stageF": "PASS"
+}

@@ -1,0 +1,67 @@
+{
+  "experiment_id": "decisionrag-v1.6-D1-jina-on-pplx-per-window-text-v1.0",
+  "status": "FROZEN_PRE_OUTCOME",
+  "label_blind": true,
+  "purpose": "Compare two-stage PPLX with two-stage Jina when Jina receives the exact recoverable R3 PPLX per-window strings.",
+  "population": {
+    "queries": 1384,
+    "orders": [
+      "original",
+      "reversed",
+      "perm_seed_1",
+      "perm_seed_2",
+      "perm_seed_3",
+      "perm_seed_4",
+      "perm_seed_5"
+    ],
+    "records": 9688,
+    "native_calls_per_success": 3,
+    "pplx_failure_rule": "A PPLX source failure is a D1 failure; no Jina calls are made for that request."
+  },
+  "inputs": {
+    "bright_path": "results/non_jev/v2/e9_bright_v1_0/01_retrieval/BRIGHT_FROZEN_TOP20_SLATES.jsonl",
+    "bright_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+    "r3_input_manifest": "results/v1_6/d1_perwindow_jina/D1_INPUT_MANIFEST.jsonl",
+    "r3_input_manifest_sha256": "e25619a54bcb90413af57acd8df2fb11f5235e20552be2bb4453d7308e67f8a9",
+    "source_recovery": "R3 stage hashes were matched exactly using frozen BRIGHT content, stored final caps, and stage-1-survivor carry-forward for stage 2.",
+    "labels_joined_before_inference": false
+  },
+  "models": {
+    "jina_v3_5": {
+      "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+      "native_interface": "local Jina v3.5 rerank adapter; one score per candidate text; stable score-descending then input-order tie break"
+    },
+    "pplx_source": {
+      "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+      "native_interface": "authenticated frozen R3 two-stage outputs; no PPLX calls in D1"
+    }
+  },
+  "selection": {
+    "stage_1": "Jina scores each ten-candidate PPLX stage-1 window and retains its own five highest-scoring canonical IDs.",
+    "stage_2": "If the Jina ten-ID survivor set equals the PPLX stage-2 set, use the PPLX stage-2 strings. Otherwise, use each Jina survivor's exact PPLX stage-1 string.",
+    "top_k": 5,
+    "stable_tie_break": "(-score, input_position, canonical_id)",
+    "failure_rule": "Any failed Jina stage fails the request; failures score zero offline."
+  },
+  "metrics": {
+    "primary": "known-positive nDCG@5 normalized by min(gold_count,5)",
+    "bootstrap": "whole-domain bootstrap, 40000 draws, seed 731",
+    "sign_flip": "exact 2^12 sign flip over paired query-level differences",
+    "holm_family": [
+      "pplx_two_stage_minus_jina_two_stage_pplxwindow, BM25 order",
+      "same contrast averaged over six shuffled orders"
+    ],
+    "gold_join": "offline after raw outputs are frozen and hashed"
+  },
+  "determinism": {
+    "sample_size": 20,
+    "sampling_seed": 731,
+    "rerun_after_raw_freeze": true
+  },
+  "execution": {
+    "quality_batching_allowed": true,
+    "quality_latency_not_reported": true,
+    "gpu": "shared GPU selected from pre-call availability; device identity excluded from exports"
+  },
+  "deviations": []
+}

@@ -1,0 +1,27 @@
+{
+  "cpu_preparation": {
+    "bm25_cal_validation": "PASS",
+    "corpus_partition_audit": "PASS",
+    "dense_and_rrf": "NOT_RUN"
+  },
+  "focused_tests": "PASS after package generation (tests/test_e6_2_r1_retrieval_freeze.py; 4/4)",
+  "full_regression": "PASS (shared environment pytest -q; 212/212)",
+  "gate": "E6_2_R1_GPU_AUTHORIZATION_PENDING",
+  "missing_success_artifacts": [
+    "E6_2_R1_CAL_RETRIEVAL_SLATES.jsonl",
+    "E6_2_R1_EXPLORATORY_TOP20_SLATES.jsonl",
+    "E6_2_R1_EXPLORATORY_TOP5_BASELINE.jsonl"
+  ],
+  "prohibitions": {
+    "embedding_requests": 0,
+    "gpu_calls": 0,
+    "historical_artifacts_modified": false,
+    "jev_calls": 0,
+    "model_inference": 0,
+    "paid_api_calls": 0,
+    "reader_calls": 0,
+    "reranker_calls": 0,
+    "reserved_content_access": false,
+    "retriever_quality_metrics": 0
+  }
+}

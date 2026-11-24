@@ -1,0 +1,57 @@
+{
+  "canonical_id_rule": "scifact:<Arrow _id>",
+  "checks": {
+    "cal_count": true,
+    "cal_exploratory_disjoint": true,
+    "cal_in_public_queries": true,
+    "cal_unique": true,
+    "corpus_rows": true,
+    "exploratory_count": true,
+    "exploratory_in_public_queries": true,
+    "exploratory_unique": true,
+    "nonempty_document_text": true,
+    "query_rows": true,
+    "unique_document_ids": true,
+    "unique_query_ids": true
+  },
+  "corpus": {
+    "path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact/corpus/0.0.0/b3b5335604bf5ee3c4447671af975ea25143d4f5/scifact-corpus.arrow",
+    "rows": 5183,
+    "sha256": "1abf7e91fa5278704cdf75a919f522b82e9c3711da990443efd212f7361f8394",
+    "unique_canonical_ids": 5183
+  },
+  "partition_files": {
+    "cal": {
+      "declared_qid_sha256": "63f054ac7b59999a9dbd1291073dde301b5828c79660e9b18261e3e01706a3c1",
+      "rows": 555,
+      "sha256": "1afbcb531e276d1f5c5c80ca4bd42f984dff093f7efddf7e3ed3938705d4ff50"
+    },
+    "exploratory": {
+      "declared_qid_sha256": "7afd44a498677c4d1b0486b78f149009582aff8f76378f598f4a9d9e619d0a7f",
+      "rows": 277,
+      "sha256": "dff7891ed15c87a6381796a9fab5a11b2daf0208633a07eddec70cdd6900b559"
+    },
+    "reserved": {
+      "content_loaded": false,
+      "declared_qid_sha256": "508dc9b095f6697aa162a8cb1488c2653c70b4e3110b64c5eff651e27e0e2c6e",
+      "rows": 277
+    }
+  },
+  "queries": {
+    "path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact/queries/0.0.0/b3b5335604bf5ee3c4447671af975ea25143d4f5/scifact-queries.arrow",
+    "rows": 1109,
+    "sha256": "eb72bf7b1144d3fab2368330be29d64ce0c081f613b395e47c87d148588e6d5c",
+    "unique_canonical_ids": 1109
+  },
+  "reserved_receipt": {
+    "content_loaded": false,
+    "raw_question_text_exported": false,
+    "status": "METADATA_ONLY_RESERVED_LOCK"
+  },
+  "source_component_metadata": {
+    "components": 572,
+    "seed": 731,
+    "source_disjoint_identity_graph": true
+  },
+  "status": "PASS"
+}

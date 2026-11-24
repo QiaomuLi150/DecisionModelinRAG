@@ -1,0 +1,12 @@
+{
+  "batch_size": 8,
+  "failed": 3,
+  "gpu_index": 7,
+  "labels_joined": false,
+  "model_load_ms": 1753.47,
+  "model_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+  "path": "results/v1_6/d1_perwindow_jina/raw/d1_jina_two_stage_pplxwindow__perm_seed_5.jsonl",
+  "records": 1384,
+  "sha256": "104c87a1ad6c35a77d5d098030a66b9c1026426a7d7a31c88298337eab180ea4",
+  "valid": 1381
+}

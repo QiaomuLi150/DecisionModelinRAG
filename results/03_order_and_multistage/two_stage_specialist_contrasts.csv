@@ -1,0 +1,5 @@
+contrast,left,right,n,query_weighted_effect,domain_weighted_effect,ci95_low,ci95_high,p_two_sided_sign_flip,bootstrap_seed,bootstrap_draws,domain_n,holm_adjusted_p_two_sided
+pplx_two_stage - jina_two_stage_full (original),pplx_two_stage/original,jina_two_stage_full/original,1384,0.023928499400439403,0.02485927951929999,0.010896294457117539,0.04010445980261434,0.0048828125,731,40000,12,0.0146484375
+pplx_two_stage - jina_two_stage_full (mean six shuffled),pplx_two_stage/shuffled_mean,jina_two_stage_full/shuffled_mean,1384,0.01926647874745911,0.019521635338407645,0.0047152765812198995,0.035860258890624615,0.03515625,731,40000,12,0.0703125
+pplx_two_stage - jina_two_stage_pplxtext (original),pplx_two_stage/original,jina_two_stage_pplxtext/original,1384,0.03180181704240235,0.033217875265909864,0.018442187681208623,0.04909507258648124,0.0009765625,731,40000,12,0.00390625
+jina_two_stage_full - jina_full (original),jina_two_stage_full/original,jina_full/original,1384,0.0024746158117884623,0.0018695744133712694,-0.0020171386584172516,0.005467839564477255,0.3583984375,731,40000,12,0.3583984375

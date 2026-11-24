@@ -1,0 +1,13 @@
+{
+  "all_candidate_orders_match_manifest": true,
+  "all_selected_ids_valid": true,
+  "attempts": 2400,
+  "duplicate_attempt_keys": 0,
+  "expected_attempts": 2400,
+  "jev_calls": 0,
+  "labels_loaded_after_inference_commit": true,
+  "native_input_hash_present": 2400,
+  "paid_api_calls": 0,
+  "reserved_content_loaded": false,
+  "unique_attempt_keys": 2400
+}

@@ -1,0 +1,20 @@
+{
+  "alloc_p95_mib": 1947.4386,
+  "attempts": 360,
+  "fail_classes": {
+    "UNBUDGETABLE_QUERY_OR_OVERHEAD": 3
+  },
+  "fail_p50_ms": 0.0,
+  "failed": 3,
+  "input_label_blind": true,
+  "latency_boundary": "request construction + native inference + score parsing + ID mapping + Top-5 packaging",
+  "load_ms": 1471.226,
+  "marginal_alloc_mib": null,
+  "marginal_p50_ms": null,
+  "p50_ms": 150.786,
+  "p95_ms": 244.73245,
+  "physical_forward_count": "NOT_EXPOSED_BY_RUNTIME",
+  "policy": "jina_pplx_budget",
+  "session": "r1_v2",
+  "valid": 357
+}

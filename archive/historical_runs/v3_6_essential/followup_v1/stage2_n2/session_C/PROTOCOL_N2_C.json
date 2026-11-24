@@ -1,0 +1,32 @@
+{
+  "anchors": [
+    "jina_full",
+    "pplx_budget"
+  ],
+  "attempts": 3,
+  "available_native_controls": [
+    "qwen3_reranker_0_6b",
+    "qwen3_reranker_4b",
+    "mxbai_rerank_large_v2"
+  ],
+  "bootstrap_seed": 731,
+  "cohort": "C360",
+  "cohort_sha256": "b871eaf61589542f18f827561becd79201732eaf541a055fe8aae4fc6b811ce4",
+  "cohort_size": 360,
+  "concurrency": 1,
+  "failure_policy": "no retries; failed elapsed time retained; no imputation",
+  "frozen_bright_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+  "gpu_slot": "C",
+  "labels_joined": false,
+  "policy_order": [
+    "jina_full",
+    "pplx_budget",
+    "qwen3_reranker_0_6b",
+    "qwen3_reranker_4b",
+    "mxbai_rerank_large_v2"
+  ],
+  "protected_holdouts_accessed": false,
+  "session": "C",
+  "stage": "N2_matched_C360",
+  "status": "FROZEN_PRE_OUTCOME"
+}

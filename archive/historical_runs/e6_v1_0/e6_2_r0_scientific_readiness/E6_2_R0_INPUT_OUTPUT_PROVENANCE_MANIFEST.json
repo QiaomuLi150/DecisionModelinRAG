@@ -1,0 +1,138 @@
+{
+  "created_utc": "2026-10-15T02:53:43.586077+00:00",
+  "gate": "E6_2_R0_RETRIEVAL_FREEZE_REQUIRED",
+  "gpu_calls": 0,
+  "historical_artifacts_modified": false,
+  "historical_inputs": [
+    {
+      "bytes": 7560,
+      "path": "results/non_jev/v2/e2_m1/E2_M1_PROVENANCE_MANIFEST.json",
+      "sha256": "61a8e3b3c09b7b90a01254baa03ede4a5e91c05ec9eea8c1ced652d5533e21dd"
+    },
+    {
+      "bytes": 9187,
+      "path": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "sha256": "bc01a613b5ae50b4ec56120fbeb1dc5053defa53aa7584f715d2700c61af15ee"
+    },
+    {
+      "bytes": 9054,
+      "path": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_PROVENANCE_MANIFEST.json",
+      "sha256": "c29d4352b0015b458178db4aa5a098d47a91769185ad6e6dda9716a035399db2"
+    },
+    {
+      "bytes": 10723,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_INPUT_OUTPUT_PROVENANCE_MANIFEST.json",
+      "sha256": "e15189cfcbf7cb1892e60beee73780502e8425286b1ec3631ff1834c2e2c65f8"
+    },
+    {
+      "bytes": 4740,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_PROVENANCE_MANIFEST.json",
+      "sha256": "963b07370bcc3ec580208724872c1257937eb589c742ee0fc54055f2541e853b"
+    },
+    {
+      "bytes": 18533,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1b_checkpoint_recovery/E6_1B_PROVENANCE_MANIFEST.json",
+      "sha256": "770f6e66289a8ccca8ed4e6775970dfe2a1eb996da24350225732300d20da16b"
+    }
+  ],
+  "jev_calls": 0,
+  "key_external_inputs": [
+    {
+      "bytes": 11538225,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0_data_protocol/E5_0_NATURAL_TOP20_MANIFEST.jsonl",
+      "sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7"
+    }
+  ],
+  "model_inference_calls": 0,
+  "new_outputs": [
+    {
+      "bytes": 4222,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_DATASET_ENDPOINT_REGISTRY.json",
+      "sha256": "db1554c7c7531aa61c0d87e2711d02166f274443fbdaaf4261bed25ddad2ea8f"
+    },
+    {
+      "bytes": 1414,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_E6_1_DEVIATION_RECONCILIATION.md",
+      "sha256": "9ba8504b0230a6979da262935e3eec2b3740fcf96646e58dd05a0c5f33ed672a"
+    },
+    {
+      "bytes": 2395,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_EIGHT_MODEL_ADMISSION_MATRIX.csv",
+      "sha256": "d8fc8e318e1045b13e7309d506fe9624cfac6abede0e6bf2f02f009dea3c27d4"
+    },
+    {
+      "bytes": 1600,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_EVALUATION_PROTOCOL_V1_FROZEN.md",
+      "sha256": "ee19b84f20f4fb4288ef16b16915799798664eb134a434eb1e338ae567f39108"
+    },
+    {
+      "bytes": 890,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_FAILURE_AND_MISSINGNESS_POLICY.md",
+      "sha256": "29486d796e34bcbe986cd9bfd60947dd4e3e9563ad82f6c3e113ac83bcb6be60"
+    },
+    {
+      "bytes": 2478,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_FINAL_READINESS_REPORT.md",
+      "sha256": "26d53e4fe355c9763c019eca8ac7cbdb44c6ad2acf2171189bd855875981ccc7"
+    },
+    {
+      "bytes": 918,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_GARAGE_POOL_AUTHENTICATION.md",
+      "sha256": "d9acab71f0c6059ae631c0ada455bbeb8069233aef9a7087169884cd916f5e7b"
+    },
+    {
+      "bytes": 1629,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_HISTORICAL_PROTOCOL_CROSSWALK.md",
+      "sha256": "6727e83e009d0dcdf5335abd25c7809d02da12c6b12699611bf4abe8c629f5d7"
+    },
+    {
+      "bytes": 1289,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_NATIVE_TOP5_CONTRACT_REVIEW.md",
+      "sha256": "eaca9337c991e7b20345747025104b23a6f5c2fe5056e94648a361b0e86cb8de"
+    },
+    {
+      "bytes": 726,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_ORDER_ROBUSTNESS_PROTOCOL.md",
+      "sha256": "2c0f118ade0958c2e2f7f4886c0a70a731bacc82afdadda445cf370a521cf226"
+    },
+    {
+      "bytes": 991,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_OWNER_REVIEW_GATE.json",
+      "sha256": "49449f765349f38184d7d95cc80288f0c0723a151a72011713c3e6f401af6574"
+    },
+    {
+      "bytes": 776,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_RESOURCE_AND_SERVING_HANDOFF.md",
+      "sha256": "98f8f6a213e4a29f5ea1d558c75d1e248aa70a77750252f02fa484c6309ea74f"
+    },
+    {
+      "bytes": 1505,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_SCIFACT_RETRIEVAL_READINESS.md",
+      "sha256": "d64d46f8250708b9f8ec2d29f1d745d06e7d78a53c7f60d29fb3e115903746f4"
+    },
+    {
+      "bytes": 1183,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_SOURCE_PARTITION_AND_HOLDOUT_AUDIT.md",
+      "sha256": "cc347d5cfc91a931403fa0dba6facc0e92c502d8e1f3e8a9fff04c61a5bb266c"
+    },
+    {
+      "bytes": 1213,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_STATISTICAL_ANALYSIS_PLAN.md",
+      "sha256": "8bee6698a22892af95f6ee8b25f4ced43f189bdf08b4ae26b3eab1e738d79d03"
+    },
+    {
+      "bytes": 1142,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_TEST_AND_PROVENANCE_REPORT.md",
+      "sha256": "32105886b6fd0d78f4fb756f6da01a792a03961d27757fcdc2b1672146dcf82a"
+    },
+    {
+      "bytes": 4850,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_TEST_AND_PROVENANCE_REPORT.md.json",
+      "sha256": "998d19bc67bc44c93309537b8adfa6eff9b6d21b24e962519d041734ea94db12"
+    }
+  ],
+  "paid_api_calls": 0,
+  "reserved_holdout_access": false,
+  "retrieval_construction_calls": 0,
+  "schema": "E6-2-R0-PROVENANCE-V1"
+}

@@ -1,0 +1,2 @@
+status,matched_n,reason
+NO_EXACT_OVERLAP,0,E2-M1 uses hotpot/musique/enterprise query IDs; E4-3 uses the separate E3-D multihop exploratory namespace. Exact qid + ordered candidate IDs + view hashes cannot be joined.

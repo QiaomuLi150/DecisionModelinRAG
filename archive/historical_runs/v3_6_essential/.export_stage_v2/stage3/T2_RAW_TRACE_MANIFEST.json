@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "path": "results/v3_6_essential/stage2_t2/T2_A/raw/jina/serving_perrequest_raw.jsonl",
+      "records": 1440,
+      "sha256": "33e3c03f9ea95bda885dd52e94994a5176ec7d5b75de537f6582e4c560dd9f39"
+    },
+    {
+      "path": "results/v3_6_essential/stage2_t2/T2_A/raw/pplx/serving_perrequest_raw.jsonl",
+      "records": 1440,
+      "sha256": "16904965ad6b02d5f7f4a357253a6c6dbd765d20b727471e41762723732a828f"
+    },
+    {
+      "path": "results/v3_6_essential/stage2_t2/T2_B/raw/jina/serving_perrequest_raw.jsonl",
+      "records": 1440,
+      "sha256": "66979ea36b06e4ebb8cb9fbfd8ba79324fcee80ed7b303b2f69ac86671baf161"
+    },
+    {
+      "path": "results/v3_6_essential/stage2_t2/T2_B/raw/pplx/serving_perrequest_raw.jsonl",
+      "records": 1440,
+      "sha256": "9a99a9670dce2600a3fdab6ab697edf2041470c22393ec12e5ae378795176cea"
+    },
+    {
+      "path": "results/v3_6_essential/stage2_t2/T2_C/raw/jina/serving_perrequest_raw.jsonl",
+      "records": 1440,
+      "sha256": "744dc416e69bf6c8e5fc712b2ec28c486b51ea276fba0a8f48845b86ab6923d3"
+    },
+    {
+      "path": "results/v3_6_essential/stage2_t2/T2_C/raw/pplx/serving_perrequest_raw.jsonl",
+      "records": 1080,
+      "sha256": "741c92b093452c7ab38b828415a32b21bd97c77c1c2a32ca1b74895d550ca1d5"
+    },
+    {
+      "path": "results/v3_6_essential/stage2_t2/T2_D/raw/jina/serving_perrequest_raw.jsonl",
+      "records": 720,
+      "sha256": "ebfa1402f060d40f419d43549281423f2a0b4ca977f099efe40c63384bec80b6"
+    },
+    {
+      "path": "results/v3_6_essential/stage2_t2/T2_D/raw/pplx/serving_perrequest_raw.jsonl",
+      "records": 360,
+      "sha256": "89da8e4a8e434e7e5d7e834dfe44a890622d465999b27a0be2234d52c091e65c"
+    },
+    {
+      "path": "results/v3_6_essential/stage2_t2/T2_INPUT_MANIFEST.jsonl",
+      "records": 1440,
+      "sha256": "36fd60d115b729babc309b9e1b952d845dddfb36f56f6b8a0d66b49062149eec"
+    }
+  ],
+  "labels_joined": false,
+  "paid_api_calls": 0,
+  "protected_holdouts_accessed": false,
+  "status": "PASS"
+}

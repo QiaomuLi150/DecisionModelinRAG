@@ -1,0 +1,14 @@
+{
+  "attempts": 0,
+  "created_utc": "2026-10-16T00:43:10.964393+00:00",
+  "gpu_inference": false,
+  "models": [
+    "pplx_decider",
+    "jina_v3_5",
+    "liquid_d1_3b",
+    "qwen3_reranker_0_6b"
+  ],
+  "physical_forwards": 0,
+  "reason": "TREC 2025 and authorized TREC 2024 fallback both failed prespecified admission floors",
+  "status": "NOT_STARTED_BENCHMARK_NOT_ADMITTED"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "model": "winnow",
+  "records": 1080,
+  "expected_records": 1080,
+  "valid": 483,
+  "failed": 597,
+  "http_400_bodies": 5,
+  "raw_sha256": "e2918f3af6843b88152147f1f43a9b34da8f656d6e8535a1cf30c253a0d27502",
+  "labels_joined": false
+}

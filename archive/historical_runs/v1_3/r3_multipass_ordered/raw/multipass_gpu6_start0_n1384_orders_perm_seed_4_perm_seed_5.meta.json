@@ -1,0 +1,17 @@
+{
+  "failed": 6,
+  "gpu": 6,
+  "labels_joined": false,
+  "load_ms": 16262.051,
+  "model_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+  "n_queries": 1384,
+  "n_rows": 2768,
+  "orders": [
+    "perm_seed_4",
+    "perm_seed_5"
+  ],
+  "policy": "pplx_two_stage",
+  "raw_sha256": "ec5ae1a0d822ecb1d3e1e41c34a94627ef5cd62f854b020a4772776513c71285",
+  "start": 0,
+  "valid": 2762
+}

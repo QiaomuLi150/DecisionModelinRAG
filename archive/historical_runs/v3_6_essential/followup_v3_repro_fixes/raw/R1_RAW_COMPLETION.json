@@ -1,0 +1,64 @@
+{
+  "completion_boundary": "all final JSONL traces present and suffix workers returned PASS",
+  "expected_rows_per_model": 10668,
+  "jina_accounting": {
+    "single_trace_rows": 10668
+  },
+  "labels_joined": false,
+  "model_status_counts": {
+    "jina:FAIL": 473,
+    "jina:PASS": 10195,
+    "pplx:FAIL": 475,
+    "pplx:PASS": 10193
+  },
+  "pplx_accounting": {
+    "boundary_cancellation_rows": 2,
+    "prefix_rows": 5374,
+    "suffix_rows": 5292,
+    "total_rows": 10668
+  },
+  "protocol": "R1 exact serialized decrement-to-fit; no retries; labels joined offline",
+  "raw_files": [
+    {
+      "path": "results/v3_6_essential/followup_v3_repro_fixes/raw/jina_shard0_of1.jsonl",
+      "rows": 10668,
+      "sha256": "e7d6c2d7a73a4767b9fc8a0c5a5d0e013d9b5a94713358c6bb06eb1ce0499ce9"
+    },
+    {
+      "path": "results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_boundary_cancelled.jsonl",
+      "rows": 2,
+      "sha256": "5b7cdd4efdbbee19d88288437233638edf72f337a59667168032c3ed722d7992"
+    },
+    {
+      "path": "results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_prefix_shard0_of2.jsonl",
+      "rows": 2691,
+      "sha256": "95a94a3848e4d43e6e8d47032d2ceec9788246bd2392ecf80433dabce6dbb105"
+    },
+    {
+      "path": "results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_prefix_shard1_of2.jsonl",
+      "rows": 2683,
+      "sha256": "e4f3716cece5c30967bda144cc8f2333ef6dc130a1610dd9c365fb816747caf4"
+    },
+    {
+      "path": "results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_suffix_shard0_of4.jsonl",
+      "rows": 1323,
+      "sha256": "e597477e9c11f13e3a30094c656bc34b1ee2946a017b5be6cd421c05466b1270"
+    },
+    {
+      "path": "results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_suffix_shard1_of4.jsonl",
+      "rows": 1323,
+      "sha256": "5cd43a6b7ab17aa7e3340bed6f3d6711bc231075fd13abf22a185f2b86fe64f5"
+    },
+    {
+      "path": "results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_suffix_shard2_of4.jsonl",
+      "rows": 1323,
+      "sha256": "33997de95fdf408c7eae720aa3a6cefbb25a3f223b6949d86bc2e184171ff9c4"
+    },
+    {
+      "path": "results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_suffix_shard3_of4.jsonl",
+      "rows": 1323,
+      "sha256": "1900276adf08a48be10850cb925823c360b6e355a54940aee4a5961422d747ae"
+    }
+  ],
+  "status": "PASS"
+}

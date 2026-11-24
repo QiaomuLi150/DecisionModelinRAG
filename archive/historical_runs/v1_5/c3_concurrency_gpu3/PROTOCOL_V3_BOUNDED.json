@@ -1,0 +1,35 @@
+{
+  "experiment_id": "v1_5_c3_concurrency_gpu3_bounded",
+  "supersedes_for_execution": "results/v1_5/c3_concurrency_gpu3/PROTOCOL_V2.json",
+  "status": "FROZEN_PRE_OUTCOME",
+  "reason": "Bounded GPU3 continuation to complete the reviewer-requested concurrency diagnostic without an hour-scale saturation campaign.",
+  "model_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+  "secondary_model_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+  "gpu": 3,
+  "routing_population": 50,
+  "routing_pool_source": "exact fixed R1 nonselection request repeated with stable IDs",
+  "configs": [
+    "A_routing_only",
+    "B_consolidated",
+    "C_colocated"
+  ],
+  "D_separate": "BLOCKED_NO_SECOND_DEDICATED_A100",
+  "warmup_seconds": 10,
+  "measure_seconds": 60,
+  "saturation_level_seconds": 10,
+  "rates": {
+    "routing_fraction_of_rmax": [
+      0.3,
+      0.6
+    ],
+    "selection_rps": [
+      0.0,
+      0.25,
+      0.5
+    ]
+  },
+  "native_batch_size": 1,
+  "queue": "single FIFO worker per native model instance",
+  "deviation_from_v2": "The v2 60-second warmup/300-second measurement cells were shortened to 10/60 seconds for a bounded diagnostic. Results are not a substitute for the full v2 schedule and are reported as exploratory timing evidence.",
+  "historical_artifacts_modified": false
+}

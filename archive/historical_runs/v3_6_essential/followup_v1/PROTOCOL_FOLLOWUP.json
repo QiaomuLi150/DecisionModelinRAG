@@ -1,0 +1,141 @@
+{
+  "confirmation": {
+    "equivalence_rule": "if L4096 strings hash-identical to L8192 for >=99% of requests, skip identical requests and run only differing requests",
+    "fixed_before_transfer_outcomes": true,
+    "pick": "single-call L=4096 for PPLX and Jina; unchanged L=8192 reference",
+    "transfer_pipeline": "v2.1 replication pipeline unchanged"
+  },
+  "definitions": {
+    "builder_infeasible": "budget builder error containing UNBUDGETABLE or BudgetUnavailable:UNBUDGETABLE",
+    "fallback_basis": "failed requests score ndcg5_bm25_fallback; R_fallback=100% by construction",
+    "fallback_used": "not model_valid",
+    "model_valid": "valid five distinct original candidate IDs without fallback",
+    "no_fallback_basis": "failed requests score ndcg5; R_strict=model_valid_pct"
+  },
+  "experiment": "DecisionRAG v3.6 follow-up corrections, full-population timing and frozen confirmation",
+  "freeze_statement": "All thresholds, cohort choices, policy lists, confirmation pick, seeds, bootstrap definitions and session schedules were frozen before any new outcome or transfer inference.",
+  "gpu_policy": {
+    "device_indices_excluded_from_exports": true,
+    "initial_free_slots": [
+      "A",
+      "B"
+    ],
+    "slots": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "hashes": {
+    "cohort_manifest_sha256": "d0633a1126666befd534e14ed4840618eb05e478f2864ff31ca476659fb1cf7b",
+    "old_protocol_sha256": "1547516bd21122abbce93873752bb2603c1a90c7b60055df56d0d78efb434f0e"
+  },
+  "models": {
+    "historical_models": [
+      "winnow_native",
+      "winnow_budget",
+      "drex_v2_native",
+      "liquid_d1_default",
+      "qwen3_reranker_0_6b",
+      "mxbai_rerank_large_v2",
+      "qwen3_reranker_4b"
+    ],
+    "jina_v3_5": {
+      "parameters_b": 0.6,
+      "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+      "runtime": "native local Jina reranker"
+    },
+    "pplx_decider": {
+      "parameters_b": 27,
+      "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+      "runtime": "native local decision model"
+    }
+  },
+  "policies": {
+    "n1_call": [
+      "jina_full",
+      "jina_single_8192",
+      "jina_single_6144",
+      "jina_two_stage_8192",
+      "pplx_single_2048",
+      "pplx_single_3072",
+      "pplx_single_4096",
+      "pplx_single_6144",
+      "pplx_budget",
+      "pplx_two_stage_4096"
+    ],
+    "n2": [
+      "winnow_native",
+      "winnow_budget",
+      "drex_v2_native",
+      "liquid_d1_default",
+      "qwen3_reranker_0_6b",
+      "mxbai_rerank_large_v2",
+      "qwen3_reranker_4b"
+    ]
+  },
+  "protocol_version": "v3.6-followup-v1",
+  "release_checks": {
+    "Q": "whole-domain bootstrap lower 95% bound of policy-minus-jina_full > -0.02",
+    "S": "same-session p95 ratio; upper 95% bound <=2 pass, lower >2 fail, otherwise inconclusive",
+    "latency_bootstrap": {
+      "cluster": "canonical_id",
+      "draws": 10000,
+      "seed": 731
+    },
+    "quality_bootstrap": {
+      "draws": 40000,
+      "method": "resample 12 domains with replacement, concatenate selected-domain query differences, query-weighted",
+      "seed": 731
+    },
+    "sign_flip": "exact 2^12 domain-mean sign flip; Holm within Q1/Q2 families",
+    "thresholds": [
+      1.5,
+      2.0,
+      3.0
+    ]
+  },
+  "rules": {
+    "append_only": true,
+    "failures_retained": true,
+    "no_bm25_fill_in_raw": true,
+    "no_new_downloads": true,
+    "no_new_retrieval": true,
+    "no_retries": true,
+    "paper_edited": false
+  },
+  "schedules": {
+    "n1": {
+      "anchors": [
+        "jina_full",
+        "pplx_budget"
+      ],
+      "attempts": 2,
+      "cohort": "CALL",
+      "concurrency": 1,
+      "model_order": [
+        "Jina policies then release Jina then PPLX policies"
+      ],
+      "queries": 1384,
+      "replicate_sessions": 2
+    },
+    "n2": {
+      "anchors": [
+        "jina_full",
+        "pplx_budget"
+      ],
+      "attempts": 3,
+      "cohort": "C360",
+      "concurrency": 1,
+      "hardware_reduction_if_needed": true
+    }
+  },
+  "serving_contract": {
+    "dtype_backend_cache_batch_threads": "inherit pinned model registry/runtime; record actual session receipts",
+    "failure_time_retained": true,
+    "fallback_latency_formula": "raw latency + measured fallback packaging ms on failed rows only",
+    "model_loading_excluded": true,
+    "timed_boundary": "prompt construction + native calls + parsing + original-ID mapping + Top-5 packaging"
+  },
+  "status": "FROZEN_PRE_OUTCOME"
+}

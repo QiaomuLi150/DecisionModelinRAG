@@ -1,0 +1,1646 @@
+{
+  "cohorts": {
+    "disagreement_diagnostic": [
+      "0047e489-65e0-481b-b2bc-d7aeb015601f",
+      "017e732c-02cf-47ed-ae4b-6a683462db7b",
+      "0228fb95-0cb8-45b5-ba84-3e9917769b2a",
+      "02c92324-d8d7-4153-9840-6482bad11f76",
+      "02dba27d-1219-4247-b6ef-580cae65b263",
+      "03637932-884c-4894-9ee5-bd2dad5680d9",
+      "04632144-7f90-4b8c-bdd1-b918793fc469",
+      "05383807-f633-4af7-8e4b-425a7d37c7e8",
+      "054749dd-6fcd-48c4-838d-42543b436785",
+      "06057dad-1e46-4ca2-899f-e47c595a309b",
+      "08a7d05c-913f-46d0-9b7a-fb5aef5d6e3c",
+      "08c51d53-8c34-449b-9fbd-cdba0a813cfe",
+      "0ade14e8-b3a9-411e-9a1f-79bcb1eeb044",
+      "0cfc46d7-2a91-48b6-a309-9ef086ed6184",
+      "0ec13d65-accd-4a88-ae36-88ae43fd974e",
+      "0ef343d3-84e9-4171-9bb3-45a7a18bec6b",
+      "0fdd1596-90a7-47c9-8bd6-8d8ccf1f9f91",
+      "10d09f29-8215-4c7f-bce0-61ba3a050721",
+      "16c33938-1e16-43ba-aea7-3f5f85979e01",
+      "1719fcdc-7979-4c83-89af-dbc144cdcff5",
+      "18e29e40-faf2-45a2-acbc-947a810e5586",
+      "19766447-8199-4314-86b7-777f6b162d9a",
+      "19d40258-bf5e-4da8-b295-2728c0c4706b",
+      "1a9f8c4f-c502-4726-97bc-9022c79aece2",
+      "1afa59e1-9d7b-4949-9346-1e8465569aa4",
+      "1c956b87-4a1c-4f2e-a28e-7bef2986fecf",
+      "1e93a6b2-d174-4c02-ab1c-f59520195275",
+      "200be1b1-5618-46c2-baad-7045683b0431",
+      "21c2b2ef-9c69-460a-8586-599718f80396",
+      "21cdcc55-b82d-4432-8a60-f8081cfc6b45",
+      "24181c02-22a1-47c6-b62b-66cfdd5d8ce3",
+      "25eba6ea-1b9f-4761-8858-9d50aadd74b8",
+      "25ee35a2-bfbe-4425-9ce8-f7ebfc18e580",
+      "26ff0fc6-6fa0-4d28-9d0d-3c3fc4521646",
+      "28315b9c-33f8-4853-b81d-56024d09a2b2",
+      "283c4c94-d800-4b15-84ee-3e38db8462ba",
+      "286aa8b6-345c-45d6-b30f-5aea2fda63db",
+      "2884bd52-dbc9-4628-aa18-7024f308a2de",
+      "288be030-70c7-44e4-9cf5-285ac51fa17d",
+      "295e0e4d-77b8-4ffe-a48b-666ef5728fa4",
+      "30d8c712-5623-4897-bb12-f8be57a5c6e8",
+      "314d93ba-e8fb-4f56-a56c-3b80da11408a",
+      "3e85c5e3-ac81-484f-bee3-9cba1000169f",
+      "41e2fac4-41cb-4fb7-ac47-a635985d43b9",
+      "465ab090-aea9-47c0-a8c7-145740bee5c6",
+      "4815f5c3-b85b-41cf-a9e1-58684aac4545",
+      "48513fb2-eac3-40f3-af7b-2f3c82cdc000",
+      "486e1909-64ce-448b-8849-00a00f16c81d",
+      "4b27ad47-6745-491d-8279-93de92abb995",
+      "52426fef-3670-4e1c-a874-e15007fea01c",
+      "65e29db8-867c-4f9c-b90d-50d9cbe3b4ac",
+      "7250a745-d570-4398-8efe-048a8804ad24",
+      "749f7324-c5e3-4ea4-80a2-edfb2fd024ce",
+      "7752b29b-47f8-4f8c-aa3a-3476036d4710",
+      "98c3400e-27f7-4fd9-8082-3794896fdbd3",
+      "c94b70a1-b665-4363-a4dc-ad0fc7139f53",
+      "cb270117-8e07-4cb6-b9b5-bcb8188c1adc",
+      "e39aaa94-ce43-4b0a-8701-99d737a0d066",
+      "e44adc92-4062-41ec-aa94-0eb1eb02885e",
+      "eef76626-4ce8-4c5d-be4f-b42679c944ac"
+    ],
+    "no_positive_diagnostic": [
+      "083ec936-d75c-4e17-8a93-ef5d0ed5abdd",
+      "1c46cf42-d5b3-4173-954b-8ed92ab18978",
+      "232bad2a-c5c4-4161-af98-ddd414d91eaa",
+      "25ee35a2-bfbe-4425-9ce8-f7ebfc18e580",
+      "2b242c0f-ab21-4e92-a23b-20f14f1cb8fa",
+      "3026d2c6-b1fc-47eb-b4d2-0b30b8f0bef4",
+      "37f36316-0ddb-4a30-8725-678221dbca23",
+      "386e73f0-b2df-4d0e-81d4-82d453efc143",
+      "3a66be02-221c-4bb5-974b-90bdf8deca73",
+      "3bbb64c2-260f-49d2-80be-4463498fca3b",
+      "3bc1bb92-6791-4317-9fa7-c827ca54aa07",
+      "3db194b6-0e13-45b1-a436-167171a2dc86",
+      "486e1909-64ce-448b-8849-00a00f16c81d",
+      "48eeba93-3966-4072-afae-a2772818bdb1",
+      "503f2b8a-0925-48f9-91e0-8cd455a12714",
+      "516bf839-b7cd-4e2b-9873-cbdae67bb724",
+      "57b38eeb-54a8-4b87-a9de-9130d0eb2a0d",
+      "5984c945-35e2-4256-a15f-097d6e499b93",
+      "655528f7-9193-45ba-8790-442071c88568",
+      "68b36633-95b5-453c-996b-27945b9010b7",
+      "69726b83-64ac-4d2a-b7f2-5bf5695e13a6",
+      "6cab919b-6a49-4228-b75a-015e6b987586",
+      "6ea15db0-a8e4-4716-88b4-00d2da0f9db4",
+      "700ee03d-9643-459b-8984-85c1ac5dedc1",
+      "721bab4c-ef86-4e3d-8a52-432e7df2be25",
+      "7ac45e9f-a184-40b2-8ee6-e7d518ab1b9f",
+      "7c08f2b5-619b-462c-9e12-c2566c12b9d8",
+      "7e830fa9-3aa8-40d2-8512-b9d3ebfaed3e",
+      "8208b942-4dd2-40e7-9cac-7b933ad48757",
+      "8232bccf-1a38-44b1-bfa8-23d4f69b5533",
+      "86f1780a-6c34-4bdb-99eb-382f6266f034",
+      "8b68126e-2278-4c46-abfa-65380faddc91",
+      "91758258-50c0-404a-aec3-7bec4045bfc3",
+      "95d830a6-8c16-480d-8fd3-399c4bdf7f6c",
+      "a4e5ed70-a1d6-49ef-8944-9dc7c9b9e392",
+      "a52b8c00-b735-4a1e-815a-887f0e0a6b13",
+      "a68b644b-0b1d-44a9-9922-6f753c3feaa1",
+      "a7dbd14f-7ca7-428a-93f9-b565c2b3202f",
+      "aa3e8015-10aa-4944-a128-96aae932cbdc",
+      "ac2937db-b7e4-4957-a245-e6d6a99cbabd",
+      "b33024db-0686-46fa-b7d0-d4ac45428e90",
+      "b70ae88d-4526-47b4-9659-0a421f152618",
+      "bc36db4b-289f-4b3b-906a-16331aaa531b",
+      "c0e4678d-0067-461a-b90c-26737bd3bd9a",
+      "c5fc6711-ebc0-4cc3-a7a9-a45ee106119b",
+      "c63a5374-5fcd-41da-98cb-cf33b7f86801",
+      "c906d9de-6419-4104-a847-96ccaec78ce9",
+      "c98fde4e-b757-4830-ac75-b04955003ce4",
+      "cd5b7fbd-6c59-4bcb-a642-1047dfb7e337",
+      "d4772f3d-33c3-4c4b-afe6-69aa859319e6",
+      "ddf093c7-2bdb-4267-a402-361b434f1092",
+      "ded56228-1a51-48e0-bc05-424bb2406cb8",
+      "e150f9e9-b051-4355-aa84-e95d33a4742a",
+      "e2650d9c-53b2-4c7a-ad64-d3ecf526445d",
+      "e4b49436-a878-4eaa-b8a6-324fc1340d91",
+      "e4f85daf-8cd4-451c-a820-a1fa3e3d7dd4",
+      "e5d300b6-ea51-466d-8fde-fc60028db54e",
+      "e703c8b1-f971-41a7-b55a-c0dcfd65dd47",
+      "ea4e3408-c65a-451a-9db0-87fa57c0857b",
+      "ed3486bc-327c-4418-b535-47210c73e17d",
+      "f1477fc6-0ce2-4a14-a863-fa41282d8f4e",
+      "f8de09a7-51ef-42ad-ba89-5035ce9b5ee9",
+      "fdf96cf8-53f5-499d-80e1-47ad519966ef",
+      "ff6703b2-7075-4f77-9ec8-86de80e5cbf9"
+    ],
+    "representative_primary": [
+      "0121a321-10d5-44cc-8248-880ec312420b",
+      "0215bce2-8767-4218-8678-5d03b8009322",
+      "046f9be0-82ff-4d43-a82b-5a87fa3fd0f7",
+      "068336ad-9dd9-4e12-9cbb-bba822011134",
+      "0747077d-a201-488a-b90e-743de68f211d",
+      "0af89703-0d3e-448a-8ece-c605d7a490bd",
+      "0f1da97b-638f-4d4d-bddd-d979ab2b46bd",
+      "126aac13-b935-480d-a3af-d49c9832d1fa",
+      "133820c7-b12d-4a07-8a7c-4eca2e1e6652",
+      "14126b99-2fe7-4f54-8fed-d53f3312c86a",
+      "155d8b8a-dfb7-4abf-b89d-ee220e931f05",
+      "1772af82-25e0-49d5-aba5-dd6806aafd67",
+      "17e120ae-e061-47d3-9add-12f4c9a664a8",
+      "18535d49-7527-44c9-bed2-c389e1671ad1",
+      "19dcb1da-83ae-44d3-b52e-674b181fd2f5",
+      "1ac7b846-c9f4-4efc-9c11-b960270efc15",
+      "1ba45364-7ff5-48ee-b460-9e6280ff0b6a",
+      "1ca2aa68-7031-49b3-98d9-4cb52e06571c",
+      "1d5e8434-929c-47e7-9854-78c48d7b28b8",
+      "2214e066-4ccb-4df8-bf30-81e4d33c21f5",
+      "22c3156d-31e7-43b5-8043-e5972dd5e570",
+      "2312177a-ec10-4aec-aab8-a98e937f0574",
+      "23cc2ecf-9cd1-4243-bcd1-5c59492e14c0",
+      "256c22e0-a1e3-4e71-b54c-6c79c54aea35",
+      "25f2dff0-98ff-4698-b9bf-2d852918348b",
+      "26252b67-dc4b-42b1-908f-d7f0a14b358a",
+      "269147ff-5d44-4e5e-8464-a1b878361c7e",
+      "2837c661-20bc-4358-b849-2f76c41e2af5",
+      "28737ac2-5121-4850-b6a5-d09cf4354b1b",
+      "2aadb19c-ec8d-4ea9-801a-c3a4eaaee62a",
+      "2b242c0f-ab21-4e92-a23b-20f14f1cb8fa",
+      "2cb68816-3226-4cb1-9e9b-8ea681fcdbf5",
+      "2d38b3a4-fe6e-4850-aea9-92e4832d00ef",
+      "332830aa-6729-4173-bc2b-b1884c297038",
+      "354941cd-f5d7-489a-a097-45f89cae8291",
+      "35c55f5f-aa3d-42e9-8320-05e0cf4ce487",
+      "35e61d9b-e430-41d2-bb71-1960163b12a8",
+      "37e97ee3-747d-49c3-8a08-7a642b7a7e20",
+      "382418c2-3191-4547-b287-ff9340726e1e",
+      "39950503-19dc-4baf-9d8e-122d9124d2de",
+      "3bbb64c2-260f-49d2-80be-4463498fca3b",
+      "3cf677af-a2bb-4aaf-97f6-1aa30e42ad2d",
+      "3d6169c9-0d8e-4c54-8610-74bb55313252",
+      "3de98c30-9035-43c8-87f2-89185607d2d1",
+      "3f658d63-dc9a-4028-b87a-619fb9fa2e03",
+      "40ab9b10-e42c-4f7c-82f9-46f848288a44",
+      "41c8ef07-990c-4a36-9d24-175f3bc0efb5",
+      "4334d422-1a23-411b-9635-71c7f33760f5",
+      "435535b2-fffd-4a99-b96c-fa6091427458",
+      "465da38a-5c2a-432a-bc29-3b4ae1fb41fc",
+      "474a55bf-269f-4627-85c1-ccef53577a95",
+      "48b5b329-5bf1-47a1-9988-955a29b84df0",
+      "49619ebc-7613-4fd0-9635-489ecf910327",
+      "4b44c9d8-6aea-488c-8983-b44fdac6eee1",
+      "4e26920b-c98b-4009-bd9d-569fdd772a6c",
+      "4e39df16-6b44-41b3-bfa4-101caf74e4d7",
+      "5070f4e8-ce0e-4518-a1b1-5cbd2cd7e9bc",
+      "511c2f61-33e6-415d-9d48-c42106e00821",
+      "5145b742-99a3-435d-bb35-2f5d6d14c1af",
+      "55f0967e-5622-4c77-a033-6dba5dadc781",
+      "567a684f-eeba-4ed6-b707-e06b1eadd3c7",
+      "5a865b66-bca8-44f3-9139-16f07e428129",
+      "5b526cec-d448-43fb-8d40-64790e3fea9f",
+      "5cbca5d0-0cc4-4cf1-a7bb-8dc08a2efda4",
+      "5efe4703-d3e8-41e1-8d99-a86f730a1219",
+      "5f46b5bb-9d41-41a0-ae08-865b77795c0d",
+      "605bab16-983c-43e0-949c-1f2f11131fbd",
+      "60bda698-6f07-4d39-8176-40292413ecec",
+      "60d1ff7a-251c-4ab9-8c0d-45e693fa1621",
+      "60dd8ad1-a869-4f38-9d46-f91cef613074",
+      "60f4b6af-8a06-4cc9-a6fd-4494a92d4248",
+      "619ff484-c9c8-453a-9d79-d7cb00a20955",
+      "623c691c-fc06-4cb4-8bd0-37060cf8ed58",
+      "62572398-4733-41b5-b5d7-2ea33e80045a",
+      "62fde6e5-dfe8-48a1-ac25-e349cf3c4d7f",
+      "64f129d7-8182-4a22-a628-efdd198408c6",
+      "654c136a-cd52-4474-94c2-aef2197f1d7b",
+      "6676ffe1-9c02-490c-800c-33207b70e749",
+      "68ffb7da-da81-480c-a437-cb1a22947b3b",
+      "69bcafe1-a82b-4ed5-872a-a2f5d43de665",
+      "69e7d89a-b596-40c8-9bd8-fd615cb2cebc",
+      "6a40c837-7251-437a-858a-87985a948882",
+      "6bd97d75-8991-49e2-9ce9-dc6385c774ff",
+      "6ca1446c-97c7-4bd6-82cc-2507882e4e57",
+      "6d91dc13-b1d1-4a98-abd4-47b687f30330",
+      "6d9ad6f7-a4a3-41e6-b15d-efcb44cf5c3a",
+      "6ea78c75-fd82-4578-81c7-e86d0f576656",
+      "6ef881f8-3aee-48dc-ad4a-1a361f117c5b",
+      "6f952e34-27bf-42c5-a583-65e906b82ae1",
+      "700ee03d-9643-459b-8984-85c1ac5dedc1",
+      "709d11b3-eb14-43be-9a17-d567eb7abd40",
+      "71fcef5e-4ca9-431f-bcdb-0fbd93851a9b",
+      "7222993f-ac62-4628-a8ee-8b40669df4f7",
+      "7313152a-66cf-4fdd-bad1-206d3180d689",
+      "73bdbb0e-00d8-4760-86b3-ae0b9590f46a",
+      "74e2358d-06ae-4689-9f9b-3c102c4a6866",
+      "74fd4633-264e-434b-9910-176066eff456",
+      "75a24aa7-e221-4d34-8cbd-96c71068778e",
+      "762bca07-53db-4a00-86a9-1b1c70b6900f",
+      "767b89f3-becf-473f-a676-fe200c42588a",
+      "77579935-679b-4e84-8b1a-f32be565e7a6",
+      "77d6b935-927d-4e5e-9c87-b666ce5946ea",
+      "78f28e43-0a28-410a-b1bc-9ac618d731ac",
+      "7bec2351-561e-4638-ba50-90a90d0117ef",
+      "7c645223-4c99-4339-9bac-62898e52cfdb",
+      "7dc8aab3-a684-46c1-bb8c-200ce3f92f0e",
+      "82c66762-5121-4d41-8696-b34c8aeddf25",
+      "83997b15-f6ac-4aa9-bfbf-f495f1b95582",
+      "8665d65f-70d5-49fe-bb32-9400cec93765",
+      "87859f65-66fe-4958-8fc1-58d71846d006",
+      "878fa7ac-063d-441c-b847-db147661c560",
+      "886a17be-caf5-4b6e-a3fc-44f0bbf132da",
+      "8b702329-f1ba-45e9-8466-f445695bb456",
+      "8bd9285a-e0b8-481a-a76e-0fbff1ecc58a",
+      "8c4036e0-e21e-4376-84e6-2d35ba92614e",
+      "8c9c4bcb-b4ff-4b50-945d-bf51964eadde",
+      "8d450b35-9c88-49ff-810d-be02a4b6f68f",
+      "8ebada47-8dcf-41fc-aab6-c3add7d26953",
+      "9251eb52-60cb-427a-be5b-56c61ed68d63",
+      "9454592c-eff1-4af3-994c-fc73e1f19945",
+      "9731be2e-e0e8-4f91-9f69-4f3cbacf0c78",
+      "97491e46-7f13-4083-9f07-cc6c179b16f2",
+      "97926a9c-d23d-4d34-813d-e5f32d4d9650",
+      "9be3b7cb-7520-48df-b205-f8a85953d4f1",
+      "9eb65429-78a2-4b9e-b750-6372f5403bc4",
+      "a109ce89-8dfb-40a9-b8c3-270a2438338a",
+      "a112a4ba-85d7-49a4-aa1c-5fd6f37f85ab",
+      "a4731560-f6fd-46fc-bfca-4f746a3983c1",
+      "a4e16883-7830-42f0-af19-07de4f0746ed",
+      "a4e5ed70-a1d6-49ef-8944-9dc7c9b9e392",
+      "a569a37b-6c7b-4e1d-af78-c36658d23fb6",
+      "a57d6b79-4f64-42ac-a304-1ad2244a194d",
+      "a6cada91-f159-4e30-814e-105d32c5c52e",
+      "a7009595-0a1b-431c-bfd7-4fc0114fe888",
+      "a74d2546-cb09-4a81-a866-a2cc0184367d",
+      "a78f6bd0-c2ee-4c16-8025-a878506df27d",
+      "a823e2e1-8b79-4501-97d4-2df6f5bd91d1",
+      "a9250bd1-d6ac-424f-852e-720140d88cb5",
+      "a9bbf9cf-f805-4706-98d0-76be54b508ed",
+      "aa3e8015-10aa-4944-a128-96aae932cbdc",
+      "aa81feeb-69ee-41ed-b532-8b1abee0af2d",
+      "ab66c93b-cfa3-43ec-8e5a-c4809d2ddc8d",
+      "aca02eb2-7a12-40a0-93fe-3b1a0371b6a9",
+      "b00b230b-4d47-4845-8f5d-48b0b0d221be",
+      "b33024db-0686-46fa-b7d0-d4ac45428e90",
+      "b41099f0-1fab-4e46-bf9c-aa7b5ece2187",
+      "b4886ca4-9b39-44a7-99b3-7827e27fa2c4",
+      "b896c867-b6a0-4743-9dbe-17a1e6c32421",
+      "bd865765-7b67-46f1-92cc-10ff3d5a885d",
+      "be28af04-0f4b-4698-aea7-3c8a4de63e5f",
+      "bebcb8ec-1b0c-4fde-aff3-06a6907b8528",
+      "bff37040-d3ce-4bf4-8345-95617ec6a673",
+      "c3250d64-546d-4bae-a58b-ddd1f1aaef0f",
+      "c5fc6711-ebc0-4cc3-a7a9-a45ee106119b",
+      "c7740f47-532c-45e4-8b70-0792703a7b82",
+      "c7c63eb7-3b11-42a2-ab88-591d20c7f2b5",
+      "c8d90f12-2f8e-45fd-8237-3cd6ed33ab61",
+      "ca2f10c1-2715-4a02-a716-baf92f5c80dc",
+      "cb1260d6-7d61-49ad-a92c-7112d94e31fa",
+      "cc743d4b-ce47-4002-898f-2904eeff018c",
+      "cc7870a0-a9db-4743-9f28-ab859e346e54",
+      "cce8b72c-03e0-4a39-b32c-ba82e0b10e34",
+      "d2bb4711-c5f4-4617-87d9-c568ed7f45f3",
+      "d5dc40cb-79a3-4ac5-a8a4-20c28a8cca69",
+      "d82378e3-4efc-401f-80f3-fabac700834e",
+      "d870c36e-58bc-45c8-9203-d88ff87edaa3",
+      "d885670a-ab6e-4793-af22-6626d190fcd9",
+      "d899c210-be43-4dd8-ace5-cdb30acfbed8",
+      "d9398853-5cef-4532-805d-e20183d1902b",
+      "dbeb3d1d-8a53-49aa-90b3-292902db7677",
+      "dcc3743f-f3d0-4220-8df4-6478f9ccd6dc",
+      "ded56228-1a51-48e0-bc05-424bb2406cb8",
+      "dee5e343-95a8-4bfd-82c5-a1ed3d33a743",
+      "df02f9f4-1b3b-4c20-94a2-fb3c14f0876a",
+      "e005b6f2-bb15-40d9-bac2-5c3c1ee7b0a4",
+      "e10bb772-6c4e-426f-a924-3d3ba0b23515",
+      "e3ee65fb-78b1-40f3-868e-7a472a0d43da",
+      "e44ec11b-4513-4394-b4be-c9643ff597e7",
+      "e6609687-712f-4449-ab8e-17bb0a1d13e0",
+      "e7065d7e-80a7-40dc-8150-7969d93c433a",
+      "e8d44357-5550-4d68-a7ef-34b35b631924",
+      "eab8a56e-d514-4132-9b2f-46a98e6f546d",
+      "eb247015-1d8f-40b5-86b6-17cf2add88bb",
+      "ebf18992-364a-4655-877b-c60ab674ab24",
+      "ed3486bc-327c-4418-b535-47210c73e17d",
+      "edb4c064-7860-4fdc-be08-2af695b9ef65",
+      "f036b3d7-705f-4ea3-8c05-cd640f014e4a",
+      "f0ca12e9-ae87-4087-b234-23445c8474b6",
+      "f155f5e8-3b1e-4523-aaaa-6e70d011a37c",
+      "f28e05dd-a374-426d-a54a-05e045f36a23",
+      "f3f1dfc2-8a26-40b3-9eea-e395e75d6ec5",
+      "f5d59372-91cf-48e7-893c-67cfeb324c9f",
+      "f7f7be6f-b6eb-4525-873a-755d9f88c910",
+      "f84a8e4e-80db-45ac-bae6-fff968d4ddc6",
+      "f86050bc-6409-4b66-b7c8-9e270d12806b",
+      "f8b3260e-662f-4efa-a433-e58ff7400a49",
+      "f95dd85c-bd50-49fd-a253-a632cc48988b",
+      "fc2170e2-d044-48f0-9a82-c1da776c03cf",
+      "fcdec750-7757-4930-8379-e0664ff02319",
+      "fe342600-5ebe-47bb-b031-b792fc565074"
+    ]
+  },
+  "counts": {
+    "disagreement": 60,
+    "no_positive": 64,
+    "nominal_cohort_slots": 1620,
+    "representative": 200,
+    "unique_logical_policy_question_slots": 1565,
+    "unique_union": 313
+  },
+  "frozen_utc": "2026-10-15T15:31:51.704495+00:00",
+  "jev_calls": 0,
+  "membership_flags": {
+    "0047e489-65e0-481b-b2bc-d7aeb015601f": [
+      "disagreement_diagnostic"
+    ],
+    "0121a321-10d5-44cc-8248-880ec312420b": [
+      "representative_primary"
+    ],
+    "017e732c-02cf-47ed-ae4b-6a683462db7b": [
+      "disagreement_diagnostic"
+    ],
+    "0215bce2-8767-4218-8678-5d03b8009322": [
+      "representative_primary"
+    ],
+    "0228fb95-0cb8-45b5-ba84-3e9917769b2a": [
+      "disagreement_diagnostic"
+    ],
+    "02c92324-d8d7-4153-9840-6482bad11f76": [
+      "disagreement_diagnostic"
+    ],
+    "02dba27d-1219-4247-b6ef-580cae65b263": [
+      "disagreement_diagnostic"
+    ],
+    "03637932-884c-4894-9ee5-bd2dad5680d9": [
+      "disagreement_diagnostic"
+    ],
+    "04632144-7f90-4b8c-bdd1-b918793fc469": [
+      "disagreement_diagnostic"
+    ],
+    "046f9be0-82ff-4d43-a82b-5a87fa3fd0f7": [
+      "representative_primary"
+    ],
+    "05383807-f633-4af7-8e4b-425a7d37c7e8": [
+      "disagreement_diagnostic"
+    ],
+    "054749dd-6fcd-48c4-838d-42543b436785": [
+      "disagreement_diagnostic"
+    ],
+    "06057dad-1e46-4ca2-899f-e47c595a309b": [
+      "disagreement_diagnostic"
+    ],
+    "068336ad-9dd9-4e12-9cbb-bba822011134": [
+      "representative_primary"
+    ],
+    "0747077d-a201-488a-b90e-743de68f211d": [
+      "representative_primary"
+    ],
+    "083ec936-d75c-4e17-8a93-ef5d0ed5abdd": [
+      "no_positive_diagnostic"
+    ],
+    "08a7d05c-913f-46d0-9b7a-fb5aef5d6e3c": [
+      "disagreement_diagnostic"
+    ],
+    "08c51d53-8c34-449b-9fbd-cdba0a813cfe": [
+      "disagreement_diagnostic"
+    ],
+    "0ade14e8-b3a9-411e-9a1f-79bcb1eeb044": [
+      "disagreement_diagnostic"
+    ],
+    "0af89703-0d3e-448a-8ece-c605d7a490bd": [
+      "representative_primary"
+    ],
+    "0cfc46d7-2a91-48b6-a309-9ef086ed6184": [
+      "disagreement_diagnostic"
+    ],
+    "0ec13d65-accd-4a88-ae36-88ae43fd974e": [
+      "disagreement_diagnostic"
+    ],
+    "0ef343d3-84e9-4171-9bb3-45a7a18bec6b": [
+      "disagreement_diagnostic"
+    ],
+    "0f1da97b-638f-4d4d-bddd-d979ab2b46bd": [
+      "representative_primary"
+    ],
+    "0fdd1596-90a7-47c9-8bd6-8d8ccf1f9f91": [
+      "disagreement_diagnostic"
+    ],
+    "10d09f29-8215-4c7f-bce0-61ba3a050721": [
+      "disagreement_diagnostic"
+    ],
+    "126aac13-b935-480d-a3af-d49c9832d1fa": [
+      "representative_primary"
+    ],
+    "133820c7-b12d-4a07-8a7c-4eca2e1e6652": [
+      "representative_primary"
+    ],
+    "14126b99-2fe7-4f54-8fed-d53f3312c86a": [
+      "representative_primary"
+    ],
+    "155d8b8a-dfb7-4abf-b89d-ee220e931f05": [
+      "representative_primary"
+    ],
+    "16c33938-1e16-43ba-aea7-3f5f85979e01": [
+      "disagreement_diagnostic"
+    ],
+    "1719fcdc-7979-4c83-89af-dbc144cdcff5": [
+      "disagreement_diagnostic"
+    ],
+    "1772af82-25e0-49d5-aba5-dd6806aafd67": [
+      "representative_primary"
+    ],
+    "17e120ae-e061-47d3-9add-12f4c9a664a8": [
+      "representative_primary"
+    ],
+    "18535d49-7527-44c9-bed2-c389e1671ad1": [
+      "representative_primary"
+    ],
+    "18e29e40-faf2-45a2-acbc-947a810e5586": [
+      "disagreement_diagnostic"
+    ],
+    "19766447-8199-4314-86b7-777f6b162d9a": [
+      "disagreement_diagnostic"
+    ],
+    "19d40258-bf5e-4da8-b295-2728c0c4706b": [
+      "disagreement_diagnostic"
+    ],
+    "19dcb1da-83ae-44d3-b52e-674b181fd2f5": [
+      "representative_primary"
+    ],
+    "1a9f8c4f-c502-4726-97bc-9022c79aece2": [
+      "disagreement_diagnostic"
+    ],
+    "1ac7b846-c9f4-4efc-9c11-b960270efc15": [
+      "representative_primary"
+    ],
+    "1afa59e1-9d7b-4949-9346-1e8465569aa4": [
+      "disagreement_diagnostic"
+    ],
+    "1ba45364-7ff5-48ee-b460-9e6280ff0b6a": [
+      "representative_primary"
+    ],
+    "1c46cf42-d5b3-4173-954b-8ed92ab18978": [
+      "no_positive_diagnostic"
+    ],
+    "1c956b87-4a1c-4f2e-a28e-7bef2986fecf": [
+      "disagreement_diagnostic"
+    ],
+    "1ca2aa68-7031-49b3-98d9-4cb52e06571c": [
+      "representative_primary"
+    ],
+    "1d5e8434-929c-47e7-9854-78c48d7b28b8": [
+      "representative_primary"
+    ],
+    "1e93a6b2-d174-4c02-ab1c-f59520195275": [
+      "disagreement_diagnostic"
+    ],
+    "200be1b1-5618-46c2-baad-7045683b0431": [
+      "disagreement_diagnostic"
+    ],
+    "21c2b2ef-9c69-460a-8586-599718f80396": [
+      "disagreement_diagnostic"
+    ],
+    "21cdcc55-b82d-4432-8a60-f8081cfc6b45": [
+      "disagreement_diagnostic"
+    ],
+    "2214e066-4ccb-4df8-bf30-81e4d33c21f5": [
+      "representative_primary"
+    ],
+    "22c3156d-31e7-43b5-8043-e5972dd5e570": [
+      "representative_primary"
+    ],
+    "2312177a-ec10-4aec-aab8-a98e937f0574": [
+      "representative_primary"
+    ],
+    "232bad2a-c5c4-4161-af98-ddd414d91eaa": [
+      "no_positive_diagnostic"
+    ],
+    "23cc2ecf-9cd1-4243-bcd1-5c59492e14c0": [
+      "representative_primary"
+    ],
+    "24181c02-22a1-47c6-b62b-66cfdd5d8ce3": [
+      "disagreement_diagnostic"
+    ],
+    "256c22e0-a1e3-4e71-b54c-6c79c54aea35": [
+      "representative_primary"
+    ],
+    "25eba6ea-1b9f-4761-8858-9d50aadd74b8": [
+      "disagreement_diagnostic"
+    ],
+    "25ee35a2-bfbe-4425-9ce8-f7ebfc18e580": [
+      "disagreement_diagnostic",
+      "no_positive_diagnostic"
+    ],
+    "25f2dff0-98ff-4698-b9bf-2d852918348b": [
+      "representative_primary"
+    ],
+    "26252b67-dc4b-42b1-908f-d7f0a14b358a": [
+      "representative_primary"
+    ],
+    "269147ff-5d44-4e5e-8464-a1b878361c7e": [
+      "representative_primary"
+    ],
+    "26ff0fc6-6fa0-4d28-9d0d-3c3fc4521646": [
+      "disagreement_diagnostic"
+    ],
+    "28315b9c-33f8-4853-b81d-56024d09a2b2": [
+      "disagreement_diagnostic"
+    ],
+    "2837c661-20bc-4358-b849-2f76c41e2af5": [
+      "representative_primary"
+    ],
+    "283c4c94-d800-4b15-84ee-3e38db8462ba": [
+      "disagreement_diagnostic"
+    ],
+    "286aa8b6-345c-45d6-b30f-5aea2fda63db": [
+      "disagreement_diagnostic"
+    ],
+    "28737ac2-5121-4850-b6a5-d09cf4354b1b": [
+      "representative_primary"
+    ],
+    "2884bd52-dbc9-4628-aa18-7024f308a2de": [
+      "disagreement_diagnostic"
+    ],
+    "288be030-70c7-44e4-9cf5-285ac51fa17d": [
+      "disagreement_diagnostic"
+    ],
+    "295e0e4d-77b8-4ffe-a48b-666ef5728fa4": [
+      "disagreement_diagnostic"
+    ],
+    "2aadb19c-ec8d-4ea9-801a-c3a4eaaee62a": [
+      "representative_primary"
+    ],
+    "2b242c0f-ab21-4e92-a23b-20f14f1cb8fa": [
+      "no_positive_diagnostic",
+      "representative_primary"
+    ],
+    "2cb68816-3226-4cb1-9e9b-8ea681fcdbf5": [
+      "representative_primary"
+    ],
+    "2d38b3a4-fe6e-4850-aea9-92e4832d00ef": [
+      "representative_primary"
+    ],
+    "3026d2c6-b1fc-47eb-b4d2-0b30b8f0bef4": [
+      "no_positive_diagnostic"
+    ],
+    "30d8c712-5623-4897-bb12-f8be57a5c6e8": [
+      "disagreement_diagnostic"
+    ],
+    "314d93ba-e8fb-4f56-a56c-3b80da11408a": [
+      "disagreement_diagnostic"
+    ],
+    "332830aa-6729-4173-bc2b-b1884c297038": [
+      "representative_primary"
+    ],
+    "354941cd-f5d7-489a-a097-45f89cae8291": [
+      "representative_primary"
+    ],
+    "35c55f5f-aa3d-42e9-8320-05e0cf4ce487": [
+      "representative_primary"
+    ],
+    "35e61d9b-e430-41d2-bb71-1960163b12a8": [
+      "representative_primary"
+    ],
+    "37e97ee3-747d-49c3-8a08-7a642b7a7e20": [
+      "representative_primary"
+    ],
+    "37f36316-0ddb-4a30-8725-678221dbca23": [
+      "no_positive_diagnostic"
+    ],
+    "382418c2-3191-4547-b287-ff9340726e1e": [
+      "representative_primary"
+    ],
+    "386e73f0-b2df-4d0e-81d4-82d453efc143": [
+      "no_positive_diagnostic"
+    ],
+    "39950503-19dc-4baf-9d8e-122d9124d2de": [
+      "representative_primary"
+    ],
+    "3a66be02-221c-4bb5-974b-90bdf8deca73": [
+      "no_positive_diagnostic"
+    ],
+    "3bbb64c2-260f-49d2-80be-4463498fca3b": [
+      "no_positive_diagnostic",
+      "representative_primary"
+    ],
+    "3bc1bb92-6791-4317-9fa7-c827ca54aa07": [
+      "no_positive_diagnostic"
+    ],
+    "3cf677af-a2bb-4aaf-97f6-1aa30e42ad2d": [
+      "representative_primary"
+    ],
+    "3d6169c9-0d8e-4c54-8610-74bb55313252": [
+      "representative_primary"
+    ],
+    "3db194b6-0e13-45b1-a436-167171a2dc86": [
+      "no_positive_diagnostic"
+    ],
+    "3de98c30-9035-43c8-87f2-89185607d2d1": [
+      "representative_primary"
+    ],
+    "3e85c5e3-ac81-484f-bee3-9cba1000169f": [
+      "disagreement_diagnostic"
+    ],
+    "3f658d63-dc9a-4028-b87a-619fb9fa2e03": [
+      "representative_primary"
+    ],
+    "40ab9b10-e42c-4f7c-82f9-46f848288a44": [
+      "representative_primary"
+    ],
+    "41c8ef07-990c-4a36-9d24-175f3bc0efb5": [
+      "representative_primary"
+    ],
+    "41e2fac4-41cb-4fb7-ac47-a635985d43b9": [
+      "disagreement_diagnostic"
+    ],
+    "4334d422-1a23-411b-9635-71c7f33760f5": [
+      "representative_primary"
+    ],
+    "435535b2-fffd-4a99-b96c-fa6091427458": [
+      "representative_primary"
+    ],
+    "465ab090-aea9-47c0-a8c7-145740bee5c6": [
+      "disagreement_diagnostic"
+    ],
+    "465da38a-5c2a-432a-bc29-3b4ae1fb41fc": [
+      "representative_primary"
+    ],
+    "474a55bf-269f-4627-85c1-ccef53577a95": [
+      "representative_primary"
+    ],
+    "4815f5c3-b85b-41cf-a9e1-58684aac4545": [
+      "disagreement_diagnostic"
+    ],
+    "48513fb2-eac3-40f3-af7b-2f3c82cdc000": [
+      "disagreement_diagnostic"
+    ],
+    "486e1909-64ce-448b-8849-00a00f16c81d": [
+      "disagreement_diagnostic",
+      "no_positive_diagnostic"
+    ],
+    "48b5b329-5bf1-47a1-9988-955a29b84df0": [
+      "representative_primary"
+    ],
+    "48eeba93-3966-4072-afae-a2772818bdb1": [
+      "no_positive_diagnostic"
+    ],
+    "49619ebc-7613-4fd0-9635-489ecf910327": [
+      "representative_primary"
+    ],
+    "4b27ad47-6745-491d-8279-93de92abb995": [
+      "disagreement_diagnostic"
+    ],
+    "4b44c9d8-6aea-488c-8983-b44fdac6eee1": [
+      "representative_primary"
+    ],
+    "4e26920b-c98b-4009-bd9d-569fdd772a6c": [
+      "representative_primary"
+    ],
+    "4e39df16-6b44-41b3-bfa4-101caf74e4d7": [
+      "representative_primary"
+    ],
+    "503f2b8a-0925-48f9-91e0-8cd455a12714": [
+      "no_positive_diagnostic"
+    ],
+    "5070f4e8-ce0e-4518-a1b1-5cbd2cd7e9bc": [
+      "representative_primary"
+    ],
+    "511c2f61-33e6-415d-9d48-c42106e00821": [
+      "representative_primary"
+    ],
+    "5145b742-99a3-435d-bb35-2f5d6d14c1af": [
+      "representative_primary"
+    ],
+    "516bf839-b7cd-4e2b-9873-cbdae67bb724": [
+      "no_positive_diagnostic"
+    ],
+    "52426fef-3670-4e1c-a874-e15007fea01c": [
+      "disagreement_diagnostic"
+    ],
+    "55f0967e-5622-4c77-a033-6dba5dadc781": [
+      "representative_primary"
+    ],
+    "567a684f-eeba-4ed6-b707-e06b1eadd3c7": [
+      "representative_primary"
+    ],
+    "57b38eeb-54a8-4b87-a9de-9130d0eb2a0d": [
+      "no_positive_diagnostic"
+    ],
+    "5984c945-35e2-4256-a15f-097d6e499b93": [
+      "no_positive_diagnostic"
+    ],
+    "5a865b66-bca8-44f3-9139-16f07e428129": [
+      "representative_primary"
+    ],
+    "5b526cec-d448-43fb-8d40-64790e3fea9f": [
+      "representative_primary"
+    ],
+    "5cbca5d0-0cc4-4cf1-a7bb-8dc08a2efda4": [
+      "representative_primary"
+    ],
+    "5efe4703-d3e8-41e1-8d99-a86f730a1219": [
+      "representative_primary"
+    ],
+    "5f46b5bb-9d41-41a0-ae08-865b77795c0d": [
+      "representative_primary"
+    ],
+    "605bab16-983c-43e0-949c-1f2f11131fbd": [
+      "representative_primary"
+    ],
+    "60bda698-6f07-4d39-8176-40292413ecec": [
+      "representative_primary"
+    ],
+    "60d1ff7a-251c-4ab9-8c0d-45e693fa1621": [
+      "representative_primary"
+    ],
+    "60dd8ad1-a869-4f38-9d46-f91cef613074": [
+      "representative_primary"
+    ],
+    "60f4b6af-8a06-4cc9-a6fd-4494a92d4248": [
+      "representative_primary"
+    ],
+    "619ff484-c9c8-453a-9d79-d7cb00a20955": [
+      "representative_primary"
+    ],
+    "623c691c-fc06-4cb4-8bd0-37060cf8ed58": [
+      "representative_primary"
+    ],
+    "62572398-4733-41b5-b5d7-2ea33e80045a": [
+      "representative_primary"
+    ],
+    "62fde6e5-dfe8-48a1-ac25-e349cf3c4d7f": [
+      "representative_primary"
+    ],
+    "64f129d7-8182-4a22-a628-efdd198408c6": [
+      "representative_primary"
+    ],
+    "654c136a-cd52-4474-94c2-aef2197f1d7b": [
+      "representative_primary"
+    ],
+    "655528f7-9193-45ba-8790-442071c88568": [
+      "no_positive_diagnostic"
+    ],
+    "65e29db8-867c-4f9c-b90d-50d9cbe3b4ac": [
+      "disagreement_diagnostic"
+    ],
+    "6676ffe1-9c02-490c-800c-33207b70e749": [
+      "representative_primary"
+    ],
+    "68b36633-95b5-453c-996b-27945b9010b7": [
+      "no_positive_diagnostic"
+    ],
+    "68ffb7da-da81-480c-a437-cb1a22947b3b": [
+      "representative_primary"
+    ],
+    "69726b83-64ac-4d2a-b7f2-5bf5695e13a6": [
+      "no_positive_diagnostic"
+    ],
+    "69bcafe1-a82b-4ed5-872a-a2f5d43de665": [
+      "representative_primary"
+    ],
+    "69e7d89a-b596-40c8-9bd8-fd615cb2cebc": [
+      "representative_primary"
+    ],
+    "6a40c837-7251-437a-858a-87985a948882": [
+      "representative_primary"
+    ],
+    "6bd97d75-8991-49e2-9ce9-dc6385c774ff": [
+      "representative_primary"
+    ],
+    "6ca1446c-97c7-4bd6-82cc-2507882e4e57": [
+      "representative_primary"
+    ],
+    "6cab919b-6a49-4228-b75a-015e6b987586": [
+      "no_positive_diagnostic"
+    ],
+    "6d91dc13-b1d1-4a98-abd4-47b687f30330": [
+      "representative_primary"
+    ],
+    "6d9ad6f7-a4a3-41e6-b15d-efcb44cf5c3a": [
+      "representative_primary"
+    ],
+    "6ea15db0-a8e4-4716-88b4-00d2da0f9db4": [
+      "no_positive_diagnostic"
+    ],
+    "6ea78c75-fd82-4578-81c7-e86d0f576656": [
+      "representative_primary"
+    ],
+    "6ef881f8-3aee-48dc-ad4a-1a361f117c5b": [
+      "representative_primary"
+    ],
+    "6f952e34-27bf-42c5-a583-65e906b82ae1": [
+      "representative_primary"
+    ],
+    "700ee03d-9643-459b-8984-85c1ac5dedc1": [
+      "no_positive_diagnostic",
+      "representative_primary"
+    ],
+    "709d11b3-eb14-43be-9a17-d567eb7abd40": [
+      "representative_primary"
+    ],
+    "71fcef5e-4ca9-431f-bcdb-0fbd93851a9b": [
+      "representative_primary"
+    ],
+    "721bab4c-ef86-4e3d-8a52-432e7df2be25": [
+      "no_positive_diagnostic"
+    ],
+    "7222993f-ac62-4628-a8ee-8b40669df4f7": [
+      "representative_primary"
+    ],
+    "7250a745-d570-4398-8efe-048a8804ad24": [
+      "disagreement_diagnostic"
+    ],
+    "7313152a-66cf-4fdd-bad1-206d3180d689": [
+      "representative_primary"
+    ],
+    "73bdbb0e-00d8-4760-86b3-ae0b9590f46a": [
+      "representative_primary"
+    ],
+    "749f7324-c5e3-4ea4-80a2-edfb2fd024ce": [
+      "disagreement_diagnostic"
+    ],
+    "74e2358d-06ae-4689-9f9b-3c102c4a6866": [
+      "representative_primary"
+    ],
+    "74fd4633-264e-434b-9910-176066eff456": [
+      "representative_primary"
+    ],
+    "75a24aa7-e221-4d34-8cbd-96c71068778e": [
+      "representative_primary"
+    ],
+    "762bca07-53db-4a00-86a9-1b1c70b6900f": [
+      "representative_primary"
+    ],
+    "767b89f3-becf-473f-a676-fe200c42588a": [
+      "representative_primary"
+    ],
+    "7752b29b-47f8-4f8c-aa3a-3476036d4710": [
+      "disagreement_diagnostic"
+    ],
+    "77579935-679b-4e84-8b1a-f32be565e7a6": [
+      "representative_primary"
+    ],
+    "77d6b935-927d-4e5e-9c87-b666ce5946ea": [
+      "representative_primary"
+    ],
+    "78f28e43-0a28-410a-b1bc-9ac618d731ac": [
+      "representative_primary"
+    ],
+    "7ac45e9f-a184-40b2-8ee6-e7d518ab1b9f": [
+      "no_positive_diagnostic"
+    ],
+    "7bec2351-561e-4638-ba50-90a90d0117ef": [
+      "representative_primary"
+    ],
+    "7c08f2b5-619b-462c-9e12-c2566c12b9d8": [
+      "no_positive_diagnostic"
+    ],
+    "7c645223-4c99-4339-9bac-62898e52cfdb": [
+      "representative_primary"
+    ],
+    "7dc8aab3-a684-46c1-bb8c-200ce3f92f0e": [
+      "representative_primary"
+    ],
+    "7e830fa9-3aa8-40d2-8512-b9d3ebfaed3e": [
+      "no_positive_diagnostic"
+    ],
+    "8208b942-4dd2-40e7-9cac-7b933ad48757": [
+      "no_positive_diagnostic"
+    ],
+    "8232bccf-1a38-44b1-bfa8-23d4f69b5533": [
+      "no_positive_diagnostic"
+    ],
+    "82c66762-5121-4d41-8696-b34c8aeddf25": [
+      "representative_primary"
+    ],
+    "83997b15-f6ac-4aa9-bfbf-f495f1b95582": [
+      "representative_primary"
+    ],
+    "8665d65f-70d5-49fe-bb32-9400cec93765": [
+      "representative_primary"
+    ],
+    "86f1780a-6c34-4bdb-99eb-382f6266f034": [
+      "no_positive_diagnostic"
+    ],
+    "87859f65-66fe-4958-8fc1-58d71846d006": [
+      "representative_primary"
+    ],
+    "878fa7ac-063d-441c-b847-db147661c560": [
+      "representative_primary"
+    ],
+    "886a17be-caf5-4b6e-a3fc-44f0bbf132da": [
+      "representative_primary"
+    ],
+    "8b68126e-2278-4c46-abfa-65380faddc91": [
+      "no_positive_diagnostic"
+    ],
+    "8b702329-f1ba-45e9-8466-f445695bb456": [
+      "representative_primary"
+    ],
+    "8bd9285a-e0b8-481a-a76e-0fbff1ecc58a": [
+      "representative_primary"
+    ],
+    "8c4036e0-e21e-4376-84e6-2d35ba92614e": [
+      "representative_primary"
+    ],
+    "8c9c4bcb-b4ff-4b50-945d-bf51964eadde": [
+      "representative_primary"
+    ],
+    "8d450b35-9c88-49ff-810d-be02a4b6f68f": [
+      "representative_primary"
+    ],
+    "8ebada47-8dcf-41fc-aab6-c3add7d26953": [
+      "representative_primary"
+    ],
+    "91758258-50c0-404a-aec3-7bec4045bfc3": [
+      "no_positive_diagnostic"
+    ],
+    "9251eb52-60cb-427a-be5b-56c61ed68d63": [
+      "representative_primary"
+    ],
+    "9454592c-eff1-4af3-994c-fc73e1f19945": [
+      "representative_primary"
+    ],
+    "95d830a6-8c16-480d-8fd3-399c4bdf7f6c": [
+      "no_positive_diagnostic"
+    ],
+    "9731be2e-e0e8-4f91-9f69-4f3cbacf0c78": [
+      "representative_primary"
+    ],
+    "97491e46-7f13-4083-9f07-cc6c179b16f2": [
+      "representative_primary"
+    ],
+    "97926a9c-d23d-4d34-813d-e5f32d4d9650": [
+      "representative_primary"
+    ],
+    "98c3400e-27f7-4fd9-8082-3794896fdbd3": [
+      "disagreement_diagnostic"
+    ],
+    "9be3b7cb-7520-48df-b205-f8a85953d4f1": [
+      "representative_primary"
+    ],
+    "9eb65429-78a2-4b9e-b750-6372f5403bc4": [
+      "representative_primary"
+    ],
+    "a109ce89-8dfb-40a9-b8c3-270a2438338a": [
+      "representative_primary"
+    ],
+    "a112a4ba-85d7-49a4-aa1c-5fd6f37f85ab": [
+      "representative_primary"
+    ],
+    "a4731560-f6fd-46fc-bfca-4f746a3983c1": [
+      "representative_primary"
+    ],
+    "a4e16883-7830-42f0-af19-07de4f0746ed": [
+      "representative_primary"
+    ],
+    "a4e5ed70-a1d6-49ef-8944-9dc7c9b9e392": [
+      "no_positive_diagnostic",
+      "representative_primary"
+    ],
+    "a52b8c00-b735-4a1e-815a-887f0e0a6b13": [
+      "no_positive_diagnostic"
+    ],
+    "a569a37b-6c7b-4e1d-af78-c36658d23fb6": [
+      "representative_primary"
+    ],
+    "a57d6b79-4f64-42ac-a304-1ad2244a194d": [
+      "representative_primary"
+    ],
+    "a68b644b-0b1d-44a9-9922-6f753c3feaa1": [
+      "no_positive_diagnostic"
+    ],
+    "a6cada91-f159-4e30-814e-105d32c5c52e": [
+      "representative_primary"
+    ],
+    "a7009595-0a1b-431c-bfd7-4fc0114fe888": [
+      "representative_primary"
+    ],
+    "a74d2546-cb09-4a81-a866-a2cc0184367d": [
+      "representative_primary"
+    ],
+    "a78f6bd0-c2ee-4c16-8025-a878506df27d": [
+      "representative_primary"
+    ],
+    "a7dbd14f-7ca7-428a-93f9-b565c2b3202f": [
+      "no_positive_diagnostic"
+    ],
+    "a823e2e1-8b79-4501-97d4-2df6f5bd91d1": [
+      "representative_primary"
+    ],
+    "a9250bd1-d6ac-424f-852e-720140d88cb5": [
+      "representative_primary"
+    ],
+    "a9bbf9cf-f805-4706-98d0-76be54b508ed": [
+      "representative_primary"
+    ],
+    "aa3e8015-10aa-4944-a128-96aae932cbdc": [
+      "no_positive_diagnostic",
+      "representative_primary"
+    ],
+    "aa81feeb-69ee-41ed-b532-8b1abee0af2d": [
+      "representative_primary"
+    ],
+    "ab66c93b-cfa3-43ec-8e5a-c4809d2ddc8d": [
+      "representative_primary"
+    ],
+    "ac2937db-b7e4-4957-a245-e6d6a99cbabd": [
+      "no_positive_diagnostic"
+    ],
+    "aca02eb2-7a12-40a0-93fe-3b1a0371b6a9": [
+      "representative_primary"
+    ],
+    "b00b230b-4d47-4845-8f5d-48b0b0d221be": [
+      "representative_primary"
+    ],
+    "b33024db-0686-46fa-b7d0-d4ac45428e90": [
+      "no_positive_diagnostic",
+      "representative_primary"
+    ],
+    "b41099f0-1fab-4e46-bf9c-aa7b5ece2187": [
+      "representative_primary"
+    ],
+    "b4886ca4-9b39-44a7-99b3-7827e27fa2c4": [
+      "representative_primary"
+    ],
+    "b70ae88d-4526-47b4-9659-0a421f152618": [
+      "no_positive_diagnostic"
+    ],
+    "b896c867-b6a0-4743-9dbe-17a1e6c32421": [
+      "representative_primary"
+    ],
+    "bc36db4b-289f-4b3b-906a-16331aaa531b": [
+      "no_positive_diagnostic"
+    ],
+    "bd865765-7b67-46f1-92cc-10ff3d5a885d": [
+      "representative_primary"
+    ],
+    "be28af04-0f4b-4698-aea7-3c8a4de63e5f": [
+      "representative_primary"
+    ],
+    "bebcb8ec-1b0c-4fde-aff3-06a6907b8528": [
+      "representative_primary"
+    ],
+    "bff37040-d3ce-4bf4-8345-95617ec6a673": [
+      "representative_primary"
+    ],
+    "c0e4678d-0067-461a-b90c-26737bd3bd9a": [
+      "no_positive_diagnostic"
+    ],
+    "c3250d64-546d-4bae-a58b-ddd1f1aaef0f": [
+      "representative_primary"
+    ],
+    "c5fc6711-ebc0-4cc3-a7a9-a45ee106119b": [
+      "no_positive_diagnostic",
+      "representative_primary"
+    ],
+    "c63a5374-5fcd-41da-98cb-cf33b7f86801": [
+      "no_positive_diagnostic"
+    ],
+    "c7740f47-532c-45e4-8b70-0792703a7b82": [
+      "representative_primary"
+    ],
+    "c7c63eb7-3b11-42a2-ab88-591d20c7f2b5": [
+      "representative_primary"
+    ],
+    "c8d90f12-2f8e-45fd-8237-3cd6ed33ab61": [
+      "representative_primary"
+    ],
+    "c906d9de-6419-4104-a847-96ccaec78ce9": [
+      "no_positive_diagnostic"
+    ],
+    "c94b70a1-b665-4363-a4dc-ad0fc7139f53": [
+      "disagreement_diagnostic"
+    ],
+    "c98fde4e-b757-4830-ac75-b04955003ce4": [
+      "no_positive_diagnostic"
+    ],
+    "ca2f10c1-2715-4a02-a716-baf92f5c80dc": [
+      "representative_primary"
+    ],
+    "cb1260d6-7d61-49ad-a92c-7112d94e31fa": [
+      "representative_primary"
+    ],
+    "cb270117-8e07-4cb6-b9b5-bcb8188c1adc": [
+      "disagreement_diagnostic"
+    ],
+    "cc743d4b-ce47-4002-898f-2904eeff018c": [
+      "representative_primary"
+    ],
+    "cc7870a0-a9db-4743-9f28-ab859e346e54": [
+      "representative_primary"
+    ],
+    "cce8b72c-03e0-4a39-b32c-ba82e0b10e34": [
+      "representative_primary"
+    ],
+    "cd5b7fbd-6c59-4bcb-a642-1047dfb7e337": [
+      "no_positive_diagnostic"
+    ],
+    "d2bb4711-c5f4-4617-87d9-c568ed7f45f3": [
+      "representative_primary"
+    ],
+    "d4772f3d-33c3-4c4b-afe6-69aa859319e6": [
+      "no_positive_diagnostic"
+    ],
+    "d5dc40cb-79a3-4ac5-a8a4-20c28a8cca69": [
+      "representative_primary"
+    ],
+    "d82378e3-4efc-401f-80f3-fabac700834e": [
+      "representative_primary"
+    ],
+    "d870c36e-58bc-45c8-9203-d88ff87edaa3": [
+      "representative_primary"
+    ],
+    "d885670a-ab6e-4793-af22-6626d190fcd9": [
+      "representative_primary"
+    ],
+    "d899c210-be43-4dd8-ace5-cdb30acfbed8": [
+      "representative_primary"
+    ],
+    "d9398853-5cef-4532-805d-e20183d1902b": [
+      "representative_primary"
+    ],
+    "dbeb3d1d-8a53-49aa-90b3-292902db7677": [
+      "representative_primary"
+    ],
+    "dcc3743f-f3d0-4220-8df4-6478f9ccd6dc": [
+      "representative_primary"
+    ],
+    "ddf093c7-2bdb-4267-a402-361b434f1092": [
+      "no_positive_diagnostic"
+    ],
+    "ded56228-1a51-48e0-bc05-424bb2406cb8": [
+      "no_positive_diagnostic",
+      "representative_primary"
+    ],
+    "dee5e343-95a8-4bfd-82c5-a1ed3d33a743": [
+      "representative_primary"
+    ],
+    "df02f9f4-1b3b-4c20-94a2-fb3c14f0876a": [
+      "representative_primary"
+    ],
+    "e005b6f2-bb15-40d9-bac2-5c3c1ee7b0a4": [
+      "representative_primary"
+    ],
+    "e10bb772-6c4e-426f-a924-3d3ba0b23515": [
+      "representative_primary"
+    ],
+    "e150f9e9-b051-4355-aa84-e95d33a4742a": [
+      "no_positive_diagnostic"
+    ],
+    "e2650d9c-53b2-4c7a-ad64-d3ecf526445d": [
+      "no_positive_diagnostic"
+    ],
+    "e39aaa94-ce43-4b0a-8701-99d737a0d066": [
+      "disagreement_diagnostic"
+    ],
+    "e3ee65fb-78b1-40f3-868e-7a472a0d43da": [
+      "representative_primary"
+    ],
+    "e44adc92-4062-41ec-aa94-0eb1eb02885e": [
+      "disagreement_diagnostic"
+    ],
+    "e44ec11b-4513-4394-b4be-c9643ff597e7": [
+      "representative_primary"
+    ],
+    "e4b49436-a878-4eaa-b8a6-324fc1340d91": [
+      "no_positive_diagnostic"
+    ],
+    "e4f85daf-8cd4-451c-a820-a1fa3e3d7dd4": [
+      "no_positive_diagnostic"
+    ],
+    "e5d300b6-ea51-466d-8fde-fc60028db54e": [
+      "no_positive_diagnostic"
+    ],
+    "e6609687-712f-4449-ab8e-17bb0a1d13e0": [
+      "representative_primary"
+    ],
+    "e703c8b1-f971-41a7-b55a-c0dcfd65dd47": [
+      "no_positive_diagnostic"
+    ],
+    "e7065d7e-80a7-40dc-8150-7969d93c433a": [
+      "representative_primary"
+    ],
+    "e8d44357-5550-4d68-a7ef-34b35b631924": [
+      "representative_primary"
+    ],
+    "ea4e3408-c65a-451a-9db0-87fa57c0857b": [
+      "no_positive_diagnostic"
+    ],
+    "eab8a56e-d514-4132-9b2f-46a98e6f546d": [
+      "representative_primary"
+    ],
+    "eb247015-1d8f-40b5-86b6-17cf2add88bb": [
+      "representative_primary"
+    ],
+    "ebf18992-364a-4655-877b-c60ab674ab24": [
+      "representative_primary"
+    ],
+    "ed3486bc-327c-4418-b535-47210c73e17d": [
+      "no_positive_diagnostic",
+      "representative_primary"
+    ],
+    "edb4c064-7860-4fdc-be08-2af695b9ef65": [
+      "representative_primary"
+    ],
+    "eef76626-4ce8-4c5d-be4f-b42679c944ac": [
+      "disagreement_diagnostic"
+    ],
+    "f036b3d7-705f-4ea3-8c05-cd640f014e4a": [
+      "representative_primary"
+    ],
+    "f0ca12e9-ae87-4087-b234-23445c8474b6": [
+      "representative_primary"
+    ],
+    "f1477fc6-0ce2-4a14-a863-fa41282d8f4e": [
+      "no_positive_diagnostic"
+    ],
+    "f155f5e8-3b1e-4523-aaaa-6e70d011a37c": [
+      "representative_primary"
+    ],
+    "f28e05dd-a374-426d-a54a-05e045f36a23": [
+      "representative_primary"
+    ],
+    "f3f1dfc2-8a26-40b3-9eea-e395e75d6ec5": [
+      "representative_primary"
+    ],
+    "f5d59372-91cf-48e7-893c-67cfeb324c9f": [
+      "representative_primary"
+    ],
+    "f7f7be6f-b6eb-4525-873a-755d9f88c910": [
+      "representative_primary"
+    ],
+    "f84a8e4e-80db-45ac-bae6-fff968d4ddc6": [
+      "representative_primary"
+    ],
+    "f86050bc-6409-4b66-b7c8-9e270d12806b": [
+      "representative_primary"
+    ],
+    "f8b3260e-662f-4efa-a433-e58ff7400a49": [
+      "representative_primary"
+    ],
+    "f8de09a7-51ef-42ad-ba89-5035ce9b5ee9": [
+      "no_positive_diagnostic"
+    ],
+    "f95dd85c-bd50-49fd-a253-a632cc48988b": [
+      "representative_primary"
+    ],
+    "fc2170e2-d044-48f0-9a82-c1da776c03cf": [
+      "representative_primary"
+    ],
+    "fcdec750-7757-4930-8379-e0664ff02319": [
+      "representative_primary"
+    ],
+    "fdf96cf8-53f5-499d-80e1-47ad519966ef": [
+      "no_positive_diagnostic"
+    ],
+    "fe342600-5ebe-47bb-b031-b792fc565074": [
+      "representative_primary"
+    ],
+    "ff6703b2-7075-4f77-9ec8-86de80e5cbf9": [
+      "no_positive_diagnostic"
+    ]
+  },
+  "overlap_ids": {
+    "disagreement_diagnostic__no_positive_diagnostic": [
+      "25ee35a2-bfbe-4425-9ce8-f7ebfc18e580",
+      "486e1909-64ce-448b-8849-00a00f16c81d"
+    ],
+    "representative_primary__disagreement_diagnostic": [],
+    "representative_primary__no_positive_diagnostic": [
+      "2b242c0f-ab21-4e92-a23b-20f14f1cb8fa",
+      "3bbb64c2-260f-49d2-80be-4463498fca3b",
+      "700ee03d-9643-459b-8984-85c1ac5dedc1",
+      "a4e5ed70-a1d6-49ef-8944-9dc7c9b9e392",
+      "aa3e8015-10aa-4944-a128-96aae932cbdc",
+      "b33024db-0686-46fa-b7d0-d4ac45428e90",
+      "c5fc6711-ebc0-4cc3-a7a9-a45ee106119b",
+      "ded56228-1a51-48e0-bc05-424bb2406cb8",
+      "ed3486bc-327c-4418-b535-47210c73e17d"
+    ]
+  },
+  "paid_api_calls": 0,
+  "policy_order": [
+    "pplx_decider",
+    "jina_v3_5",
+    "startlux_decision_4b",
+    "qwen3_reranker_0_6b",
+    "original_fixed_pool_prefix5"
+  ],
+  "primary_membership": {
+    "0047e489-65e0-481b-b2bc-d7aeb015601f": "disagreement_diagnostic",
+    "0121a321-10d5-44cc-8248-880ec312420b": "representative_primary",
+    "017e732c-02cf-47ed-ae4b-6a683462db7b": "disagreement_diagnostic",
+    "0215bce2-8767-4218-8678-5d03b8009322": "representative_primary",
+    "0228fb95-0cb8-45b5-ba84-3e9917769b2a": "disagreement_diagnostic",
+    "02c92324-d8d7-4153-9840-6482bad11f76": "disagreement_diagnostic",
+    "02dba27d-1219-4247-b6ef-580cae65b263": "disagreement_diagnostic",
+    "03637932-884c-4894-9ee5-bd2dad5680d9": "disagreement_diagnostic",
+    "04632144-7f90-4b8c-bdd1-b918793fc469": "disagreement_diagnostic",
+    "046f9be0-82ff-4d43-a82b-5a87fa3fd0f7": "representative_primary",
+    "05383807-f633-4af7-8e4b-425a7d37c7e8": "disagreement_diagnostic",
+    "054749dd-6fcd-48c4-838d-42543b436785": "disagreement_diagnostic",
+    "06057dad-1e46-4ca2-899f-e47c595a309b": "disagreement_diagnostic",
+    "068336ad-9dd9-4e12-9cbb-bba822011134": "representative_primary",
+    "0747077d-a201-488a-b90e-743de68f211d": "representative_primary",
+    "083ec936-d75c-4e17-8a93-ef5d0ed5abdd": "no_positive_diagnostic",
+    "08a7d05c-913f-46d0-9b7a-fb5aef5d6e3c": "disagreement_diagnostic",
+    "08c51d53-8c34-449b-9fbd-cdba0a813cfe": "disagreement_diagnostic",
+    "0ade14e8-b3a9-411e-9a1f-79bcb1eeb044": "disagreement_diagnostic",
+    "0af89703-0d3e-448a-8ece-c605d7a490bd": "representative_primary",
+    "0cfc46d7-2a91-48b6-a309-9ef086ed6184": "disagreement_diagnostic",
+    "0ec13d65-accd-4a88-ae36-88ae43fd974e": "disagreement_diagnostic",
+    "0ef343d3-84e9-4171-9bb3-45a7a18bec6b": "disagreement_diagnostic",
+    "0f1da97b-638f-4d4d-bddd-d979ab2b46bd": "representative_primary",
+    "0fdd1596-90a7-47c9-8bd6-8d8ccf1f9f91": "disagreement_diagnostic",
+    "10d09f29-8215-4c7f-bce0-61ba3a050721": "disagreement_diagnostic",
+    "126aac13-b935-480d-a3af-d49c9832d1fa": "representative_primary",
+    "133820c7-b12d-4a07-8a7c-4eca2e1e6652": "representative_primary",
+    "14126b99-2fe7-4f54-8fed-d53f3312c86a": "representative_primary",
+    "155d8b8a-dfb7-4abf-b89d-ee220e931f05": "representative_primary",
+    "16c33938-1e16-43ba-aea7-3f5f85979e01": "disagreement_diagnostic",
+    "1719fcdc-7979-4c83-89af-dbc144cdcff5": "disagreement_diagnostic",
+    "1772af82-25e0-49d5-aba5-dd6806aafd67": "representative_primary",
+    "17e120ae-e061-47d3-9add-12f4c9a664a8": "representative_primary",
+    "18535d49-7527-44c9-bed2-c389e1671ad1": "representative_primary",
+    "18e29e40-faf2-45a2-acbc-947a810e5586": "disagreement_diagnostic",
+    "19766447-8199-4314-86b7-777f6b162d9a": "disagreement_diagnostic",
+    "19d40258-bf5e-4da8-b295-2728c0c4706b": "disagreement_diagnostic",
+    "19dcb1da-83ae-44d3-b52e-674b181fd2f5": "representative_primary",
+    "1a9f8c4f-c502-4726-97bc-9022c79aece2": "disagreement_diagnostic",
+    "1ac7b846-c9f4-4efc-9c11-b960270efc15": "representative_primary",
+    "1afa59e1-9d7b-4949-9346-1e8465569aa4": "disagreement_diagnostic",
+    "1ba45364-7ff5-48ee-b460-9e6280ff0b6a": "representative_primary",
+    "1c46cf42-d5b3-4173-954b-8ed92ab18978": "no_positive_diagnostic",
+    "1c956b87-4a1c-4f2e-a28e-7bef2986fecf": "disagreement_diagnostic",
+    "1ca2aa68-7031-49b3-98d9-4cb52e06571c": "representative_primary",
+    "1d5e8434-929c-47e7-9854-78c48d7b28b8": "representative_primary",
+    "1e93a6b2-d174-4c02-ab1c-f59520195275": "disagreement_diagnostic",
+    "200be1b1-5618-46c2-baad-7045683b0431": "disagreement_diagnostic",
+    "21c2b2ef-9c69-460a-8586-599718f80396": "disagreement_diagnostic",
+    "21cdcc55-b82d-4432-8a60-f8081cfc6b45": "disagreement_diagnostic",
+    "2214e066-4ccb-4df8-bf30-81e4d33c21f5": "representative_primary",
+    "22c3156d-31e7-43b5-8043-e5972dd5e570": "representative_primary",
+    "2312177a-ec10-4aec-aab8-a98e937f0574": "representative_primary",
+    "232bad2a-c5c4-4161-af98-ddd414d91eaa": "no_positive_diagnostic",
+    "23cc2ecf-9cd1-4243-bcd1-5c59492e14c0": "representative_primary",
+    "24181c02-22a1-47c6-b62b-66cfdd5d8ce3": "disagreement_diagnostic",
+    "256c22e0-a1e3-4e71-b54c-6c79c54aea35": "representative_primary",
+    "25eba6ea-1b9f-4761-8858-9d50aadd74b8": "disagreement_diagnostic",
+    "25ee35a2-bfbe-4425-9ce8-f7ebfc18e580": "disagreement_diagnostic",
+    "25f2dff0-98ff-4698-b9bf-2d852918348b": "representative_primary",
+    "26252b67-dc4b-42b1-908f-d7f0a14b358a": "representative_primary",
+    "269147ff-5d44-4e5e-8464-a1b878361c7e": "representative_primary",
+    "26ff0fc6-6fa0-4d28-9d0d-3c3fc4521646": "disagreement_diagnostic",
+    "28315b9c-33f8-4853-b81d-56024d09a2b2": "disagreement_diagnostic",
+    "2837c661-20bc-4358-b849-2f76c41e2af5": "representative_primary",
+    "283c4c94-d800-4b15-84ee-3e38db8462ba": "disagreement_diagnostic",
+    "286aa8b6-345c-45d6-b30f-5aea2fda63db": "disagreement_diagnostic",
+    "28737ac2-5121-4850-b6a5-d09cf4354b1b": "representative_primary",
+    "2884bd52-dbc9-4628-aa18-7024f308a2de": "disagreement_diagnostic",
+    "288be030-70c7-44e4-9cf5-285ac51fa17d": "disagreement_diagnostic",
+    "295e0e4d-77b8-4ffe-a48b-666ef5728fa4": "disagreement_diagnostic",
+    "2aadb19c-ec8d-4ea9-801a-c3a4eaaee62a": "representative_primary",
+    "2b242c0f-ab21-4e92-a23b-20f14f1cb8fa": "representative_primary",
+    "2cb68816-3226-4cb1-9e9b-8ea681fcdbf5": "representative_primary",
+    "2d38b3a4-fe6e-4850-aea9-92e4832d00ef": "representative_primary",
+    "3026d2c6-b1fc-47eb-b4d2-0b30b8f0bef4": "no_positive_diagnostic",
+    "30d8c712-5623-4897-bb12-f8be57a5c6e8": "disagreement_diagnostic",
+    "314d93ba-e8fb-4f56-a56c-3b80da11408a": "disagreement_diagnostic",
+    "332830aa-6729-4173-bc2b-b1884c297038": "representative_primary",
+    "354941cd-f5d7-489a-a097-45f89cae8291": "representative_primary",
+    "35c55f5f-aa3d-42e9-8320-05e0cf4ce487": "representative_primary",
+    "35e61d9b-e430-41d2-bb71-1960163b12a8": "representative_primary",
+    "37e97ee3-747d-49c3-8a08-7a642b7a7e20": "representative_primary",
+    "37f36316-0ddb-4a30-8725-678221dbca23": "no_positive_diagnostic",
+    "382418c2-3191-4547-b287-ff9340726e1e": "representative_primary",
+    "386e73f0-b2df-4d0e-81d4-82d453efc143": "no_positive_diagnostic",
+    "39950503-19dc-4baf-9d8e-122d9124d2de": "representative_primary",
+    "3a66be02-221c-4bb5-974b-90bdf8deca73": "no_positive_diagnostic",
+    "3bbb64c2-260f-49d2-80be-4463498fca3b": "representative_primary",
+    "3bc1bb92-6791-4317-9fa7-c827ca54aa07": "no_positive_diagnostic",
+    "3cf677af-a2bb-4aaf-97f6-1aa30e42ad2d": "representative_primary",
+    "3d6169c9-0d8e-4c54-8610-74bb55313252": "representative_primary",
+    "3db194b6-0e13-45b1-a436-167171a2dc86": "no_positive_diagnostic",
+    "3de98c30-9035-43c8-87f2-89185607d2d1": "representative_primary",
+    "3e85c5e3-ac81-484f-bee3-9cba1000169f": "disagreement_diagnostic",
+    "3f658d63-dc9a-4028-b87a-619fb9fa2e03": "representative_primary",
+    "40ab9b10-e42c-4f7c-82f9-46f848288a44": "representative_primary",
+    "41c8ef07-990c-4a36-9d24-175f3bc0efb5": "representative_primary",
+    "41e2fac4-41cb-4fb7-ac47-a635985d43b9": "disagreement_diagnostic",
+    "4334d422-1a23-411b-9635-71c7f33760f5": "representative_primary",
+    "435535b2-fffd-4a99-b96c-fa6091427458": "representative_primary",
+    "465ab090-aea9-47c0-a8c7-145740bee5c6": "disagreement_diagnostic",
+    "465da38a-5c2a-432a-bc29-3b4ae1fb41fc": "representative_primary",
+    "474a55bf-269f-4627-85c1-ccef53577a95": "representative_primary",
+    "4815f5c3-b85b-41cf-a9e1-58684aac4545": "disagreement_diagnostic",
+    "48513fb2-eac3-40f3-af7b-2f3c82cdc000": "disagreement_diagnostic",
+    "486e1909-64ce-448b-8849-00a00f16c81d": "disagreement_diagnostic",
+    "48b5b329-5bf1-47a1-9988-955a29b84df0": "representative_primary",
+    "48eeba93-3966-4072-afae-a2772818bdb1": "no_positive_diagnostic",
+    "49619ebc-7613-4fd0-9635-489ecf910327": "representative_primary",
+    "4b27ad47-6745-491d-8279-93de92abb995": "disagreement_diagnostic",
+    "4b44c9d8-6aea-488c-8983-b44fdac6eee1": "representative_primary",
+    "4e26920b-c98b-4009-bd9d-569fdd772a6c": "representative_primary",
+    "4e39df16-6b44-41b3-bfa4-101caf74e4d7": "representative_primary",
+    "503f2b8a-0925-48f9-91e0-8cd455a12714": "no_positive_diagnostic",
+    "5070f4e8-ce0e-4518-a1b1-5cbd2cd7e9bc": "representative_primary",
+    "511c2f61-33e6-415d-9d48-c42106e00821": "representative_primary",
+    "5145b742-99a3-435d-bb35-2f5d6d14c1af": "representative_primary",
+    "516bf839-b7cd-4e2b-9873-cbdae67bb724": "no_positive_diagnostic",
+    "52426fef-3670-4e1c-a874-e15007fea01c": "disagreement_diagnostic",
+    "55f0967e-5622-4c77-a033-6dba5dadc781": "representative_primary",
+    "567a684f-eeba-4ed6-b707-e06b1eadd3c7": "representative_primary",
+    "57b38eeb-54a8-4b87-a9de-9130d0eb2a0d": "no_positive_diagnostic",
+    "5984c945-35e2-4256-a15f-097d6e499b93": "no_positive_diagnostic",
+    "5a865b66-bca8-44f3-9139-16f07e428129": "representative_primary",
+    "5b526cec-d448-43fb-8d40-64790e3fea9f": "representative_primary",
+    "5cbca5d0-0cc4-4cf1-a7bb-8dc08a2efda4": "representative_primary",
+    "5efe4703-d3e8-41e1-8d99-a86f730a1219": "representative_primary",
+    "5f46b5bb-9d41-41a0-ae08-865b77795c0d": "representative_primary",
+    "605bab16-983c-43e0-949c-1f2f11131fbd": "representative_primary",
+    "60bda698-6f07-4d39-8176-40292413ecec": "representative_primary",
+    "60d1ff7a-251c-4ab9-8c0d-45e693fa1621": "representative_primary",
+    "60dd8ad1-a869-4f38-9d46-f91cef613074": "representative_primary",
+    "60f4b6af-8a06-4cc9-a6fd-4494a92d4248": "representative_primary",
+    "619ff484-c9c8-453a-9d79-d7cb00a20955": "representative_primary",
+    "623c691c-fc06-4cb4-8bd0-37060cf8ed58": "representative_primary",
+    "62572398-4733-41b5-b5d7-2ea33e80045a": "representative_primary",
+    "62fde6e5-dfe8-48a1-ac25-e349cf3c4d7f": "representative_primary",
+    "64f129d7-8182-4a22-a628-efdd198408c6": "representative_primary",
+    "654c136a-cd52-4474-94c2-aef2197f1d7b": "representative_primary",
+    "655528f7-9193-45ba-8790-442071c88568": "no_positive_diagnostic",
+    "65e29db8-867c-4f9c-b90d-50d9cbe3b4ac": "disagreement_diagnostic",
+    "6676ffe1-9c02-490c-800c-33207b70e749": "representative_primary",
+    "68b36633-95b5-453c-996b-27945b9010b7": "no_positive_diagnostic",
+    "68ffb7da-da81-480c-a437-cb1a22947b3b": "representative_primary",
+    "69726b83-64ac-4d2a-b7f2-5bf5695e13a6": "no_positive_diagnostic",
+    "69bcafe1-a82b-4ed5-872a-a2f5d43de665": "representative_primary",
+    "69e7d89a-b596-40c8-9bd8-fd615cb2cebc": "representative_primary",
+    "6a40c837-7251-437a-858a-87985a948882": "representative_primary",
+    "6bd97d75-8991-49e2-9ce9-dc6385c774ff": "representative_primary",
+    "6ca1446c-97c7-4bd6-82cc-2507882e4e57": "representative_primary",
+    "6cab919b-6a49-4228-b75a-015e6b987586": "no_positive_diagnostic",
+    "6d91dc13-b1d1-4a98-abd4-47b687f30330": "representative_primary",
+    "6d9ad6f7-a4a3-41e6-b15d-efcb44cf5c3a": "representative_primary",
+    "6ea15db0-a8e4-4716-88b4-00d2da0f9db4": "no_positive_diagnostic",
+    "6ea78c75-fd82-4578-81c7-e86d0f576656": "representative_primary",
+    "6ef881f8-3aee-48dc-ad4a-1a361f117c5b": "representative_primary",
+    "6f952e34-27bf-42c5-a583-65e906b82ae1": "representative_primary",
+    "700ee03d-9643-459b-8984-85c1ac5dedc1": "representative_primary",
+    "709d11b3-eb14-43be-9a17-d567eb7abd40": "representative_primary",
+    "71fcef5e-4ca9-431f-bcdb-0fbd93851a9b": "representative_primary",
+    "721bab4c-ef86-4e3d-8a52-432e7df2be25": "no_positive_diagnostic",
+    "7222993f-ac62-4628-a8ee-8b40669df4f7": "representative_primary",
+    "7250a745-d570-4398-8efe-048a8804ad24": "disagreement_diagnostic",
+    "7313152a-66cf-4fdd-bad1-206d3180d689": "representative_primary",
+    "73bdbb0e-00d8-4760-86b3-ae0b9590f46a": "representative_primary",
+    "749f7324-c5e3-4ea4-80a2-edfb2fd024ce": "disagreement_diagnostic",
+    "74e2358d-06ae-4689-9f9b-3c102c4a6866": "representative_primary",
+    "74fd4633-264e-434b-9910-176066eff456": "representative_primary",
+    "75a24aa7-e221-4d34-8cbd-96c71068778e": "representative_primary",
+    "762bca07-53db-4a00-86a9-1b1c70b6900f": "representative_primary",
+    "767b89f3-becf-473f-a676-fe200c42588a": "representative_primary",
+    "7752b29b-47f8-4f8c-aa3a-3476036d4710": "disagreement_diagnostic",
+    "77579935-679b-4e84-8b1a-f32be565e7a6": "representative_primary",
+    "77d6b935-927d-4e5e-9c87-b666ce5946ea": "representative_primary",
+    "78f28e43-0a28-410a-b1bc-9ac618d731ac": "representative_primary",
+    "7ac45e9f-a184-40b2-8ee6-e7d518ab1b9f": "no_positive_diagnostic",
+    "7bec2351-561e-4638-ba50-90a90d0117ef": "representative_primary",
+    "7c08f2b5-619b-462c-9e12-c2566c12b9d8": "no_positive_diagnostic",
+    "7c645223-4c99-4339-9bac-62898e52cfdb": "representative_primary",
+    "7dc8aab3-a684-46c1-bb8c-200ce3f92f0e": "representative_primary",
+    "7e830fa9-3aa8-40d2-8512-b9d3ebfaed3e": "no_positive_diagnostic",
+    "8208b942-4dd2-40e7-9cac-7b933ad48757": "no_positive_diagnostic",
+    "8232bccf-1a38-44b1-bfa8-23d4f69b5533": "no_positive_diagnostic",
+    "82c66762-5121-4d41-8696-b34c8aeddf25": "representative_primary",
+    "83997b15-f6ac-4aa9-bfbf-f495f1b95582": "representative_primary",
+    "8665d65f-70d5-49fe-bb32-9400cec93765": "representative_primary",
+    "86f1780a-6c34-4bdb-99eb-382f6266f034": "no_positive_diagnostic",
+    "87859f65-66fe-4958-8fc1-58d71846d006": "representative_primary",
+    "878fa7ac-063d-441c-b847-db147661c560": "representative_primary",
+    "886a17be-caf5-4b6e-a3fc-44f0bbf132da": "representative_primary",
+    "8b68126e-2278-4c46-abfa-65380faddc91": "no_positive_diagnostic",
+    "8b702329-f1ba-45e9-8466-f445695bb456": "representative_primary",
+    "8bd9285a-e0b8-481a-a76e-0fbff1ecc58a": "representative_primary",
+    "8c4036e0-e21e-4376-84e6-2d35ba92614e": "representative_primary",
+    "8c9c4bcb-b4ff-4b50-945d-bf51964eadde": "representative_primary",
+    "8d450b35-9c88-49ff-810d-be02a4b6f68f": "representative_primary",
+    "8ebada47-8dcf-41fc-aab6-c3add7d26953": "representative_primary",
+    "91758258-50c0-404a-aec3-7bec4045bfc3": "no_positive_diagnostic",
+    "9251eb52-60cb-427a-be5b-56c61ed68d63": "representative_primary",
+    "9454592c-eff1-4af3-994c-fc73e1f19945": "representative_primary",
+    "95d830a6-8c16-480d-8fd3-399c4bdf7f6c": "no_positive_diagnostic",
+    "9731be2e-e0e8-4f91-9f69-4f3cbacf0c78": "representative_primary",
+    "97491e46-7f13-4083-9f07-cc6c179b16f2": "representative_primary",
+    "97926a9c-d23d-4d34-813d-e5f32d4d9650": "representative_primary",
+    "98c3400e-27f7-4fd9-8082-3794896fdbd3": "disagreement_diagnostic",
+    "9be3b7cb-7520-48df-b205-f8a85953d4f1": "representative_primary",
+    "9eb65429-78a2-4b9e-b750-6372f5403bc4": "representative_primary",
+    "a109ce89-8dfb-40a9-b8c3-270a2438338a": "representative_primary",
+    "a112a4ba-85d7-49a4-aa1c-5fd6f37f85ab": "representative_primary",
+    "a4731560-f6fd-46fc-bfca-4f746a3983c1": "representative_primary",
+    "a4e16883-7830-42f0-af19-07de4f0746ed": "representative_primary",
+    "a4e5ed70-a1d6-49ef-8944-9dc7c9b9e392": "representative_primary",
+    "a52b8c00-b735-4a1e-815a-887f0e0a6b13": "no_positive_diagnostic",
+    "a569a37b-6c7b-4e1d-af78-c36658d23fb6": "representative_primary",
+    "a57d6b79-4f64-42ac-a304-1ad2244a194d": "representative_primary",
+    "a68b644b-0b1d-44a9-9922-6f753c3feaa1": "no_positive_diagnostic",
+    "a6cada91-f159-4e30-814e-105d32c5c52e": "representative_primary",
+    "a7009595-0a1b-431c-bfd7-4fc0114fe888": "representative_primary",
+    "a74d2546-cb09-4a81-a866-a2cc0184367d": "representative_primary",
+    "a78f6bd0-c2ee-4c16-8025-a878506df27d": "representative_primary",
+    "a7dbd14f-7ca7-428a-93f9-b565c2b3202f": "no_positive_diagnostic",
+    "a823e2e1-8b79-4501-97d4-2df6f5bd91d1": "representative_primary",
+    "a9250bd1-d6ac-424f-852e-720140d88cb5": "representative_primary",
+    "a9bbf9cf-f805-4706-98d0-76be54b508ed": "representative_primary",
+    "aa3e8015-10aa-4944-a128-96aae932cbdc": "representative_primary",
+    "aa81feeb-69ee-41ed-b532-8b1abee0af2d": "representative_primary",
+    "ab66c93b-cfa3-43ec-8e5a-c4809d2ddc8d": "representative_primary",
+    "ac2937db-b7e4-4957-a245-e6d6a99cbabd": "no_positive_diagnostic",
+    "aca02eb2-7a12-40a0-93fe-3b1a0371b6a9": "representative_primary",
+    "b00b230b-4d47-4845-8f5d-48b0b0d221be": "representative_primary",
+    "b33024db-0686-46fa-b7d0-d4ac45428e90": "representative_primary",
+    "b41099f0-1fab-4e46-bf9c-aa7b5ece2187": "representative_primary",
+    "b4886ca4-9b39-44a7-99b3-7827e27fa2c4": "representative_primary",
+    "b70ae88d-4526-47b4-9659-0a421f152618": "no_positive_diagnostic",
+    "b896c867-b6a0-4743-9dbe-17a1e6c32421": "representative_primary",
+    "bc36db4b-289f-4b3b-906a-16331aaa531b": "no_positive_diagnostic",
+    "bd865765-7b67-46f1-92cc-10ff3d5a885d": "representative_primary",
+    "be28af04-0f4b-4698-aea7-3c8a4de63e5f": "representative_primary",
+    "bebcb8ec-1b0c-4fde-aff3-06a6907b8528": "representative_primary",
+    "bff37040-d3ce-4bf4-8345-95617ec6a673": "representative_primary",
+    "c0e4678d-0067-461a-b90c-26737bd3bd9a": "no_positive_diagnostic",
+    "c3250d64-546d-4bae-a58b-ddd1f1aaef0f": "representative_primary",
+    "c5fc6711-ebc0-4cc3-a7a9-a45ee106119b": "representative_primary",
+    "c63a5374-5fcd-41da-98cb-cf33b7f86801": "no_positive_diagnostic",
+    "c7740f47-532c-45e4-8b70-0792703a7b82": "representative_primary",
+    "c7c63eb7-3b11-42a2-ab88-591d20c7f2b5": "representative_primary",
+    "c8d90f12-2f8e-45fd-8237-3cd6ed33ab61": "representative_primary",
+    "c906d9de-6419-4104-a847-96ccaec78ce9": "no_positive_diagnostic",
+    "c94b70a1-b665-4363-a4dc-ad0fc7139f53": "disagreement_diagnostic",
+    "c98fde4e-b757-4830-ac75-b04955003ce4": "no_positive_diagnostic",
+    "ca2f10c1-2715-4a02-a716-baf92f5c80dc": "representative_primary",
+    "cb1260d6-7d61-49ad-a92c-7112d94e31fa": "representative_primary",
+    "cb270117-8e07-4cb6-b9b5-bcb8188c1adc": "disagreement_diagnostic",
+    "cc743d4b-ce47-4002-898f-2904eeff018c": "representative_primary",
+    "cc7870a0-a9db-4743-9f28-ab859e346e54": "representative_primary",
+    "cce8b72c-03e0-4a39-b32c-ba82e0b10e34": "representative_primary",
+    "cd5b7fbd-6c59-4bcb-a642-1047dfb7e337": "no_positive_diagnostic",
+    "d2bb4711-c5f4-4617-87d9-c568ed7f45f3": "representative_primary",
+    "d4772f3d-33c3-4c4b-afe6-69aa859319e6": "no_positive_diagnostic",
+    "d5dc40cb-79a3-4ac5-a8a4-20c28a8cca69": "representative_primary",
+    "d82378e3-4efc-401f-80f3-fabac700834e": "representative_primary",
+    "d870c36e-58bc-45c8-9203-d88ff87edaa3": "representative_primary",
+    "d885670a-ab6e-4793-af22-6626d190fcd9": "representative_primary",
+    "d899c210-be43-4dd8-ace5-cdb30acfbed8": "representative_primary",
+    "d9398853-5cef-4532-805d-e20183d1902b": "representative_primary",
+    "dbeb3d1d-8a53-49aa-90b3-292902db7677": "representative_primary",
+    "dcc3743f-f3d0-4220-8df4-6478f9ccd6dc": "representative_primary",
+    "ddf093c7-2bdb-4267-a402-361b434f1092": "no_positive_diagnostic",
+    "ded56228-1a51-48e0-bc05-424bb2406cb8": "representative_primary",
+    "dee5e343-95a8-4bfd-82c5-a1ed3d33a743": "representative_primary",
+    "df02f9f4-1b3b-4c20-94a2-fb3c14f0876a": "representative_primary",
+    "e005b6f2-bb15-40d9-bac2-5c3c1ee7b0a4": "representative_primary",
+    "e10bb772-6c4e-426f-a924-3d3ba0b23515": "representative_primary",
+    "e150f9e9-b051-4355-aa84-e95d33a4742a": "no_positive_diagnostic",
+    "e2650d9c-53b2-4c7a-ad64-d3ecf526445d": "no_positive_diagnostic",
+    "e39aaa94-ce43-4b0a-8701-99d737a0d066": "disagreement_diagnostic",
+    "e3ee65fb-78b1-40f3-868e-7a472a0d43da": "representative_primary",
+    "e44adc92-4062-41ec-aa94-0eb1eb02885e": "disagreement_diagnostic",
+    "e44ec11b-4513-4394-b4be-c9643ff597e7": "representative_primary",
+    "e4b49436-a878-4eaa-b8a6-324fc1340d91": "no_positive_diagnostic",
+    "e4f85daf-8cd4-451c-a820-a1fa3e3d7dd4": "no_positive_diagnostic",
+    "e5d300b6-ea51-466d-8fde-fc60028db54e": "no_positive_diagnostic",
+    "e6609687-712f-4449-ab8e-17bb0a1d13e0": "representative_primary",
+    "e703c8b1-f971-41a7-b55a-c0dcfd65dd47": "no_positive_diagnostic",
+    "e7065d7e-80a7-40dc-8150-7969d93c433a": "representative_primary",
+    "e8d44357-5550-4d68-a7ef-34b35b631924": "representative_primary",
+    "ea4e3408-c65a-451a-9db0-87fa57c0857b": "no_positive_diagnostic",
+    "eab8a56e-d514-4132-9b2f-46a98e6f546d": "representative_primary",
+    "eb247015-1d8f-40b5-86b6-17cf2add88bb": "representative_primary",
+    "ebf18992-364a-4655-877b-c60ab674ab24": "representative_primary",
+    "ed3486bc-327c-4418-b535-47210c73e17d": "representative_primary",
+    "edb4c064-7860-4fdc-be08-2af695b9ef65": "representative_primary",
+    "eef76626-4ce8-4c5d-be4f-b42679c944ac": "disagreement_diagnostic",
+    "f036b3d7-705f-4ea3-8c05-cd640f014e4a": "representative_primary",
+    "f0ca12e9-ae87-4087-b234-23445c8474b6": "representative_primary",
+    "f1477fc6-0ce2-4a14-a863-fa41282d8f4e": "no_positive_diagnostic",
+    "f155f5e8-3b1e-4523-aaaa-6e70d011a37c": "representative_primary",
+    "f28e05dd-a374-426d-a54a-05e045f36a23": "representative_primary",
+    "f3f1dfc2-8a26-40b3-9eea-e395e75d6ec5": "representative_primary",
+    "f5d59372-91cf-48e7-893c-67cfeb324c9f": "representative_primary",
+    "f7f7be6f-b6eb-4525-873a-755d9f88c910": "representative_primary",
+    "f84a8e4e-80db-45ac-bae6-fff968d4ddc6": "representative_primary",
+    "f86050bc-6409-4b66-b7c8-9e270d12806b": "representative_primary",
+    "f8b3260e-662f-4efa-a433-e58ff7400a49": "representative_primary",
+    "f8de09a7-51ef-42ad-ba89-5035ce9b5ee9": "no_positive_diagnostic",
+    "f95dd85c-bd50-49fd-a253-a632cc48988b": "representative_primary",
+    "fc2170e2-d044-48f0-9a82-c1da776c03cf": "representative_primary",
+    "fcdec750-7757-4930-8379-e0664ff02319": "representative_primary",
+    "fdf96cf8-53f5-499d-80e1-47ad519966ef": "no_positive_diagnostic",
+    "fe342600-5ebe-47bb-b031-b792fc565074": "representative_primary",
+    "ff6703b2-7075-4f77-9ec8-86de80e5cbf9": "no_positive_diagnostic"
+  },
+  "r2_scoring_started": false,
+  "reserved_rows_loaded_for_inference": false,
+  "sampling_contract": {
+    "disagreement": "sort frozen PPLX/Jina selected-ID views by descending symmetric-difference count, then descending 1-Jaccard, then sample_id; exclude representative IDs; retain first 60 with nonzero disagreement",
+    "no_positive": "the 64 IDs already frozen by R5 as prefix-control no-positive diagnostics; no new labels opened",
+    "representative": "random.Random(seed=731).sample(sorted(all_1397_sample_ids), 200); no labels, outcomes or reader data used"
+  },
+  "schema": "E6-3-R1-COHORT-FREEZE-V1",
+  "seed": 731
+}

@@ -1,0 +1,25 @@
+{
+  "enterprise_eligible_questions": 443,
+  "enterprise_identity_ambiguous_questions": 1,
+  "enterprise_identity_resolved_questions": 499,
+  "enterprise_questions": 500,
+  "enterprise_retrieval_conditional_denominator": 330,
+  "jev_calls": 0,
+  "joint_ok": 4267,
+  "joint_total": 4267,
+  "native_joint_k20": true,
+  "offline_metric_repair": "resolved Track B original dsid_ to unique path-qualified internal IDs; qst_0413 excluded",
+  "offline_regression": {
+    "command": "./Production_Project/MultiModalRAG/venv/bin/python -m pytest -q",
+    "passed": 58,
+    "status": "PASS"
+  },
+  "paid_api_calls": 0,
+  "pointwise_ok": 4267,
+  "pointwise_total": 4267,
+  "selected_rows": 4267,
+  "stage": "S2/S3/S4",
+  "status": "E2_M1_PASS",
+  "track_a_queries": 3767,
+  "track_b_queries": 500
+}

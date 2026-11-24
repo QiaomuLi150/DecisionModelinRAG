@@ -1,0 +1,12 @@
+[
+  {
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/raw/native_passB_paired_clean_pass1_gpu3_shard0_of1_pass1.jsonl",
+    "records": 8120,
+    "sha256": "a178bee5af52fd8d576004a2e2d17b19df87b0ec2b48bc02141c4ada2e00f4e1"
+  },
+  {
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/raw/native_passB_paired_clean_pass2_gpu3_shard0_of1_pass2.jsonl",
+    "records": 8120,
+    "sha256": "73b4e62ff6e680ea9f51afbcabf465275b1662b41541c8edd912e382b686720d"
+  }
+]

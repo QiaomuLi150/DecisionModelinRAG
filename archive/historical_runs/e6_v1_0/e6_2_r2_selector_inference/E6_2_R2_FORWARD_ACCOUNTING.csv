@@ -1,0 +1,9 @@
+model,successful_attempts,observed_forward_sum,observed_forward_records,not_measured_records,accounting_policy
+pplx_decider,277,277,277,0,observed native hook events only; no derived estimates
+liquid_d1_3b,277,277,277,0,observed native hook events only; no derived estimates
+startlux_decision_4b,0,0,0,0,observed native hook events only; no derived estimates
+amos_1_small_2b,194,0,0,194,observed native hook events only; no derived estimates
+jina_v3_5,277,0,0,277,observed native hook events only; no derived estimates
+qwen3_reranker_4b,277,0,0,277,observed native hook events only; no derived estimates
+bge_reranker_v2_m3,277,0,0,277,observed native hook events only; no derived estimates
+qwen3_reranker_0_6b,277,0,0,277,observed native hook events only; no derived estimates

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "model": "drex",
+  "records": 1080,
+  "expected_records": 1080,
+  "valid": 966,
+  "failed": 114,
+  "http_400_bodies": 5,
+  "raw_sha256": "04cda8bac5a8a1ea284a720b439e3b8741c49da0b103b995cccb031c7ba58836",
+  "labels_joined": false
+}

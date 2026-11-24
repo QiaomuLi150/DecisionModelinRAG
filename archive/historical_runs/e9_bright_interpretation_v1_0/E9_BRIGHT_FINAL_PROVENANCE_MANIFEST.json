@@ -1,0 +1,51 @@
+{
+  "append_only_output_root": "results/non_jev/v2/e9_bright_interpretation_v1_0",
+  "created_utc": "2026-10-16T02:52:03.300311+00:00",
+  "files": [
+    {
+      "bytes": 16276,
+      "path": "results/non_jev/v2/e9_bright_interpretation_v1_0/DECISIONRAG_E2_E9_AUTHORITATIVE_EVIDENCE_LEDGER.csv",
+      "sha256": "641fbe12dc59fb0ce3035c760e7a312f59aca9180eba21b2ffb6b2f76fad4e13"
+    },
+    {
+      "bytes": 2798,
+      "path": "results/non_jev/v2/e9_bright_interpretation_v1_0/DECISIONRAG_FINAL_SCIENTIFIC_ASSESSMENT.md",
+      "sha256": "0bda4ae6c8b5a29eebea615c1b2312521aac4d2334043f006d5bf87cc28f5341"
+    },
+    {
+      "bytes": 1521,
+      "path": "results/non_jev/v2/e9_bright_interpretation_v1_0/DECISIONRAG_PAPER_TABLES_AND_FIGURES_PLAN.md",
+      "sha256": "97fa8dc5cc80da23279475f370c5a7579c1757acf390062ef1147a23af1f1c6f"
+    },
+    {
+      "bytes": 4523,
+      "path": "results/non_jev/v2/e9_bright_interpretation_v1_0/E9_BRIGHT_COMPARISON_TABLE.csv",
+      "sha256": "0baf0ec557c205e8282392ada5fa02b4ccea29f9636811182d5038be940df130"
+    },
+    {
+      "bytes": 590,
+      "path": "results/non_jev/v2/e9_bright_interpretation_v1_0/E9_BRIGHT_FINAL_INTEGRITY_TEST_REPORT.md",
+      "sha256": "bd818158f29a5483208e78d653668e4ec0e143f91c32f098f2c66696731917cd"
+    },
+    {
+      "bytes": 2334,
+      "path": "results/non_jev/v2/e9_bright_interpretation_v1_0/E9_BRIGHT_FINAL_INTERPRETATION_REPORT.md",
+      "sha256": "b7793db5535ae86e504d5559dae084d698964fa8aa34118e15c048a9c827827a"
+    },
+    {
+      "bytes": 923,
+      "path": "results/non_jev/v2/e9_bright_interpretation_v1_0/E9_BRIGHT_FINAL_OWNER_REVIEW_GATE.json",
+      "sha256": "d8adbbccb09243a0101f3549a1519ec0076dda9c50447dcf179b4cb1cba92921"
+    },
+    {
+      "bytes": 1999,
+      "path": "results/non_jev/v2/e9_bright_interpretation_v1_0/E9_BRIGHT_LATENCY_AND_FAILURE_AUDIT.md",
+      "sha256": "8f6a0ec93247706e15f44cf1da98b7cbfe8eb9e0bc81d76d50db118ab681623c"
+    },
+    {
+      "bytes": 67001,
+      "path": "results/non_jev/v2/e9_bright_interpretation_v1_0/E9_BRIGHT_PAIRED_SENSITIVITY_STATISTICS.json",
+      "sha256": "340d68c3450991a0e1cd35469c3e03223b1b629b9965e2c1423e99ebcabedbd1"
+    }
+  ]
+}

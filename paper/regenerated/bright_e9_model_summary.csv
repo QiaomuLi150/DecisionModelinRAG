@@ -1,0 +1,6 @@
+model,n,mean_operational_ndcg5,source
+jina_v3_5,1384,0.1843690411277983,data/scores/bright_metrics.jsonl.gz
+liquid_d1_3b,1384,0.14761936165544895,data/scores/bright_metrics.jsonl.gz
+pplx_decider,1384,0.08125791206996234,data/scores/bright_metrics.jsonl.gz
+qwen3_reranker_0_6b,1384,0.16842202341941362,data/scores/bright_metrics.jsonl.gz
+retrieval_prefix5,1384,0.13296654593896795,data/scores/bright_metrics.jsonl.gz

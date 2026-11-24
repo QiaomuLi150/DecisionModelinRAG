@@ -1,0 +1,38 @@
+{
+  "blocker_code": "MUSIQUE_EXACT_BM25_TOP20_INPUT_MISSING",
+  "candidate_text_missing_count": 0,
+  "candidate_text_missing_ids": [],
+  "candidate_text_resolve_count": 20287,
+  "dataset": "MuSiQue",
+  "exact_bm25_top100_or_order_available": false,
+  "exact_candidate_text_adapter_available": true,
+  "exact_required_bm25_top20_slate_available": false,
+  "frozen_prior_slate_rows": 2167,
+  "labels_not_used_for_inference": true,
+  "official_dev_rows": 2417,
+  "prior_candidate_order_contract": {
+    "rrf_desc_then_doc_id": 2167
+  },
+  "prior_slate_candidate_count": {
+    "20": 2167
+  },
+  "prior_slate_unique_query_ids": 2167,
+  "selected_answerable_counts": {
+    "true": 2167
+  },
+  "selected_population_rows": 2167,
+  "selected_population_unique_source_ids": 2167,
+  "selected_record_missing_ids": [],
+  "selected_records_resolve": 2167,
+  "source_files": {
+    "data/corpus/passages.jsonl": "5971dc7fad1c018ef3a87e4dfddccb3b39438a190a8afc1ff928f1859871e74e",
+    "data/raw/vendor/musique/musique_ans_v1.0_dev.jsonl": "15fa63794d18a94ce12411aca6e2327e65b6e83b0b1490efab3f1962e48abf3b",
+    "results/non_jev/v11/track_a/V11_TRACK_A_RETRIEVAL_SLATES.jsonl": "1891f41e2b8614b871aa42cdbe61af3d0c193410a85041e5426c5e7eb3905f0f",
+    "results/preflight/v11/NEW_TEST_IDS.jsonl": "95bdeb7ccd76cb1aadd766ffe9384b728e63f48be9e14f97e3a4b3b4525f63fc"
+  },
+  "support_cardinality_counts": {
+    "2": 1127,
+    "3": 681,
+    "4": 359
+  }
+}

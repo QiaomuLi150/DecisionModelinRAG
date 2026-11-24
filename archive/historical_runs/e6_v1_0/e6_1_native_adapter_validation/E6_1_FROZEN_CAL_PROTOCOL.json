@@ -1,0 +1,20 @@
+{
+  "candidate_selection": "deterministic SHA-256 order; no qrels/gold/source outcomes read",
+  "candidate_source": "public SciFact corpus only",
+  "cohort": "SciFact CAL",
+  "created_at": "2026-10-14T22:50:12.923925+00:00",
+  "historical_e5_top20_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+  "holdout_access": false,
+  "input_manifest_sha256": "a1b006a79456aeba818fe3faf0059a56c1eb1c6adaf47483cac665845097f318",
+  "protocol": "DecisionRAG E6-1 v1",
+  "qrels_loaded": false,
+  "requested_questions": 120,
+  "reserved_partition_access": false,
+  "seed": 731,
+  "selected_questions": 120,
+  "selection_contract": "exactly five unique canonical IDs, descending native score, original-order then lexical ID tie break",
+  "slate_sizes": [
+    15,
+    20
+  ]
+}

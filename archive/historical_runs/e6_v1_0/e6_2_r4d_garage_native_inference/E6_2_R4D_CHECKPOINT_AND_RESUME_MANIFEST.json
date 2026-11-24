@@ -1,0 +1,56 @@
+{
+  "chunk_dir": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks",
+  "chunk_hashes": [
+    {
+      "model": "pplx_decider",
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/pplx_decider.jsonl",
+      "sha256": "8dc75cc9587d424face315609c9b362a47d08d52e46fd48bf7027f8dc6f1d297"
+    },
+    {
+      "model": "liquid_d1_3b",
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/liquid_d1_3b.jsonl",
+      "sha256": "4e833a225dcde53f4f8a163010fc805622091d7ee2b786eb7663fdb450b0beca"
+    },
+    {
+      "model": "startlux_decision_4b",
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/startlux_decision_4b.jsonl",
+      "sha256": "1311d0603aea6511ce96d81c7e1c46710c85bf2c175cf9ddfe88cec5aa168b43"
+    },
+    {
+      "model": "amos_1_small_2b",
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/amos_1_small_2b.jsonl",
+      "sha256": "30ac7b7afa1a219a99de8f0c12d60b43d56e0648009c59810207ccf5a37d58b6"
+    },
+    {
+      "model": "jina_v3_5",
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/jina_v3_5.jsonl",
+      "sha256": "2f19ad204ed6f655eae625004fd1495016be9ac477d6c937973d2eea13912dd8"
+    },
+    {
+      "model": "qwen3_reranker_4b",
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/qwen3_reranker_4b.jsonl",
+      "sha256": "611b6876c1d009df8909dab32a9824f82aecf5e1f612b78d814e6bb8d229ed24"
+    },
+    {
+      "model": "bge_reranker_v2_m3",
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/bge_reranker_v2_m3.jsonl",
+      "sha256": "656ac81ce51a223dd5ec4307ac98dac97ac6c71d5fcdd0bf307b06d848047235"
+    },
+    {
+      "model": "qwen3_reranker_0_6b",
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/qwen3_reranker_0_6b.jsonl",
+      "sha256": "4e51916d68516b9fc70e063b75976a11733b2ca5244e97dcdf9804d9d1c95151"
+    }
+  ],
+  "committed_attempts": 11176,
+  "created_utc": "2026-10-15T14:18:06.021239+00:00",
+  "expected_per_model": 1397,
+  "expected_total": 11176,
+  "final_gate": "E6_2_R4D_SELECTIONS_FROZEN_READY",
+  "input_sha256": "cbe937a1ff3425cc55c937ef32cfd99c470ec09374dfa72b855b79c4fb4935b7",
+  "missing_keys": [],
+  "preflight_excluded": true,
+  "resume_policy": "skip only keys with a committed attempt record; do not mutate committed rows",
+  "schema": "E6-2-R4D-CHECKPOINT-V1",
+  "stable_key": "model|sample_id"
+}

@@ -1,0 +1,16 @@
+{
+  "policy": "pplx_native",
+  "order_id": "original",
+  "n_requests": 20,
+  "valid": 1,
+  "failures": 19,
+  "failure_classes": {
+    "CONTEXT_LIMIT": 19
+  },
+  "load_ms": 15089.882512576878,
+  "elapsed_s": 3.3561741644516587,
+  "raw_sha256": "991ed625bb8ad4fe0ea8ee210c77bae2a42169497a2343f1851a2ea47d70fbac",
+  "labels_joined": false,
+  "gpu_index_requested": 3,
+  "model_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+}

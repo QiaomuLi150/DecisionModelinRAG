@@ -1,0 +1,53 @@
+{
+  "contract_version": "e2-n-n0-contract-v1",
+  "inference_enabled": false,
+  "adapters": [
+    {
+      "adapter_id": "clef_flash_native",
+      "model_id": "Cloudflare/clef-flash",
+      "status": "VERIFIED_LOCAL",
+      "score_contracts": [
+        "INDEPENDENT_RELEVANCE",
+        "JOINT_BINARY_RELEVANCE",
+        "LOCAL_CATEGORICAL"
+      ],
+      "native_interface": "joint_schema_model.py",
+      "revision": "8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3",
+      "checkpoint_path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--Cloudflare--clef-flash/snapshots/8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3"
+    },
+    {
+      "adapter_id": "laya_typed",
+      "model_id": "convaiinnovations/laya",
+      "status": "VERIFIED_LOCAL",
+      "score_contracts": [
+        "INDEPENDENT_RELEVANCE",
+        "LOCAL_CATEGORICAL"
+      ],
+      "native_interface": "typed decision router",
+      "revision": "7b928d828b7b0e022f929d9bd2e44165aa270148",
+      "checkpoint_path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148"
+    },
+    {
+      "adapter_id": "bge_pair",
+      "model_id": "BAAI/bge-reranker-v2-m3",
+      "status": "VERIFIED_LOCAL",
+      "score_contracts": [
+        "INDEPENDENT_RELEVANCE"
+      ],
+      "native_interface": "FlagReranker query/passage pair",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "checkpoint_path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--BAAI--bge-reranker-v2-m3/snapshots/953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e"
+    },
+    {
+      "adapter_id": "qwen3_vl_pair",
+      "model_id": "Qwen/Qwen3-VL-Reranker-2B",
+      "status": "VERIFIED_LOCAL",
+      "score_contracts": [
+        "INDEPENDENT_RELEVANCE"
+      ],
+      "native_interface": "official Qwen3-VL reranker script",
+      "revision": "4bd860ac4f15ad1897a214615cccc700f8f71818",
+      "checkpoint_path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--Qwen--Qwen3-VL-Reranker-2B/snapshots/4bd860ac4f15ad1897a214615cccc700f8f71818"
+    }
+  ]
+}

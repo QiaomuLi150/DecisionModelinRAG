@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "run_id": "run1",
+  "rows": 1384,
+  "valid": 1380,
+  "sha256": "ee0f41505613b1e5eb22aad134762be5a7e4b832241421839ccd9ca73efb0975",
+  "model_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+  "dtype": "float32",
+  "batch_size": 1,
+  "labels_joined": false
+}

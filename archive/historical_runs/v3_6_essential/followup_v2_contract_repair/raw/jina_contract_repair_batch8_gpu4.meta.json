@@ -1,0 +1,10 @@
+{
+  "batch_errors": 0,
+  "batch_size": 8,
+  "native_rows": 1352,
+  "physical_batches": 169,
+  "protocol_sha256": "b88e36a6b6f428b64b90bdeb4415664a0cae4cb43c3f861ce8ce3ee343f29431",
+  "rows": 1384,
+  "sha256": "6c61dca38735f8d4f35f1e3e2ad28cc2b79a8340e300f9b84d0d04faae80284a",
+  "status": "PASS"
+}

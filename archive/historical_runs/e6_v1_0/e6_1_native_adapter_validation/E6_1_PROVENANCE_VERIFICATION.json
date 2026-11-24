@@ -1,0 +1,116 @@
+{
+  "checked": 13,
+  "input_checked": 8,
+  "input_passed": 8,
+  "checks": [
+    {
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_ACCEPTANCE_AND_INPUT_AUTH.json",
+      "sha256_match": true
+    },
+    {
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_CAL_FEASIBILITY_SCORECARD.csv",
+      "sha256_match": true
+    },
+    {
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_CAL_INPUTS.jsonl",
+      "sha256_match": true
+    },
+    {
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_FINAL_READINESS_REPORT.md",
+      "sha256_match": true
+    },
+    {
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_FROZEN_CAL_PROTOCOL.json",
+      "sha256_match": true
+    },
+    {
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_GPU_APP_AUDIT.json",
+      "sha256_match": true
+    },
+    {
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_GPU_PREFLIGHT.json",
+      "sha256_match": true
+    },
+    {
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_GPU_PROVENANCE.json",
+      "sha256_match": true
+    },
+    {
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_INFERENCE_ACCOUNTING.json",
+      "sha256_match": true
+    },
+    {
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_MODEL_CONTRACT_REGISTRY.csv",
+      "sha256_match": true
+    },
+    {
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_NATIVE_TRACES.jsonl",
+      "sha256_match": true
+    },
+    {
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_OWNER_REVIEW_GATE.json",
+      "sha256_match": true
+    },
+    {
+      "exists": true,
+      "path": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_TARGETED_AND_REGRESSION_TEST_REPORT.json",
+      "sha256_match": true
+    }
+  ],
+  "failed": 0,
+  "input_checks": [
+    {
+      "path": "scripts/e6_1_native_adapter_validation.py",
+      "exists": true,
+      "sha256_match": true
+    },
+    {
+      "path": "tests/test_e6_1_native_adapter_validation.py",
+      "exists": true,
+      "sha256_match": true
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_EIGHT_MODEL_VERSION_LICENSE_REGISTRY.csv",
+      "exists": true,
+      "sha256_match": true
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_OWNER_REVIEW_GATE.json",
+      "exists": true,
+      "sha256_match": true
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_E6_1_CAL_ADAPTER_HANDOFF_SPEC.md",
+      "exists": true,
+      "sha256_match": true
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_SCIFACT_CAL_QIDS.jsonl",
+      "exists": true,
+      "sha256_match": true
+    },
+    {
+      "path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact/queries/0.0.0/b3b5335604bf5ee3c4447671af975ea25143d4f5/scifact-queries.arrow",
+      "exists": true,
+      "sha256_match": true
+    },
+    {
+      "path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact/corpus/0.0.0/b3b5335604bf5ee3c4447671af975ea25143d4f5/scifact-corpus.arrow",
+      "exists": true,
+      "sha256_match": true
+    }
+  ],
+  "passed": 13
+}

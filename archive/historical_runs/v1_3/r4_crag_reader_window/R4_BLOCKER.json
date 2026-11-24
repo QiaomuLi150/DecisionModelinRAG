@@ -1,0 +1,9 @@
+{
+  "status": "BLOCKED_READER_WINDOW_INPUTS_NOT_AVAILABLE",
+  "experiment": "R4",
+  "reason": "The frozen protocol requires the same fixed local reader under 256, 512 and 1024 visible-token windows. Existing authenticated outputs cover the 256-token condition only; no matching 512/1024 outputs and no valid dedicated serving window were available during this run.",
+  "new_reader_requests": 0,
+  "historical_256_outputs_reused": false,
+  "labels_joined": false,
+  "resolution": "Do not substitute 256-token results for the missing window comparison. A separately authorized, reproducible reader run is required."
+}

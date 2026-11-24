@@ -1,0 +1,14 @@
+{
+  "policies": [
+    "retrieval5",
+    "bge_pointwise",
+    "jina35",
+    "pplx_decider",
+    "liquid_joint20_binary",
+    "zerank2_pointwise"
+  ],
+  "reserved_accessed": false,
+  "selected_rows": 6054,
+  "status": "FULL_SELECTOR_MERGED",
+  "trace_rows": 6054
+}

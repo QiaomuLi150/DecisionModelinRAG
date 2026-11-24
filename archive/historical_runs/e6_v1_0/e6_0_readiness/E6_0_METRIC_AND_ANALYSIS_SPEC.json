@@ -1,0 +1,31 @@
+{
+  "bootstrap": {
+    "ci": "two-sided percentile 95%",
+    "resamples": 5000,
+    "seed": 731,
+    "unit": "source group"
+  },
+  "failure_accounting": [
+    "UNATTEMPTED",
+    "TIMEOUT",
+    "INVALID_OUTPUT",
+    "CONTRACT_FAILURE",
+    "INFRA_FAILURE"
+  ],
+  "primary": "PPLX minus Jina equal-source-group-weighted set-aware CSSR-U where complete-support contract passes",
+  "prohibited_claims": [
+    "architectural causality",
+    "superiority/equivalence/noninferiority without prespecified margin",
+    "independent factual correctness from answer F1",
+    "monetary production savings without approved cost model"
+  ],
+  "secondary": [
+    "query-weighted CSSR-U",
+    "retrieval-feasibility ceiling",
+    "graded support/citation endpoint only after amendment",
+    "selector p50/p95",
+    "peak allocated memory",
+    "physical forwards",
+    "reader reference F1 proxy"
+  ]
+}

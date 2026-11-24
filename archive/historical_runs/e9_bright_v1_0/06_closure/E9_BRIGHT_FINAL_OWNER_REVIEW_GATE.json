@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-16T02:24:25.704345+00:00",
+  "frozen_slate_count": 1384,
+  "gate": "E9_BRIGHT_VALIDATED_WITH_LIMITATIONS",
+  "jev_calls": 0,
+  "native_raw_files": [
+    "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_jina_v3_5.jsonl",
+    "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_liquid_d1_3b.jsonl",
+    "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_pplx_decider.jsonl",
+    "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_qwen3_reranker_0_6b.jsonl"
+  ],
+  "native_raw_rows": 5536,
+  "paid_api_calls": 0,
+  "reader_gate": "BRIGHT_READER_NOT_EVALUABLE",
+  "retrieval_low_information": false,
+  "trec_e9_preserved": true
+}

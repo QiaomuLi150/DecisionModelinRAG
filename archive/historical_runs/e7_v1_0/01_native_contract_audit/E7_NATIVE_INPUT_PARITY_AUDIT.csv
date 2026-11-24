@@ -1,0 +1,5 @@
+model,repo,revision,checkpoint_present,native_input_text_required,valid_attempts,attempts,validity_rate,score_id_mapping,top5_unique_valid,verdict
+pplx_decider,perplexity-ai/pplx-decider-v1.1-27b,14c9d90137962d300f3de95633f7b6535e80c5ce,True,True,330,400,0.825,E7 independent position-aligned restoration,True,PASS_WITH_LIMITATIONS
+startlux_decision_4b,startlux-models/StartLux-Decision-v1-4B,9c0a32e9809d6a3f612434dd0bce150295dcc274,True,True,400,400,1.0,E7 independent position-aligned restoration,True,PASS
+jina_v3_5,jinaai/jina-reranker-v3.5,e8a93f33f0b22108f8c2364f8484ce3422552fbc,True,True,400,400,1.0,E7 independent position-aligned restoration,True,PASS
+qwen3_reranker_0_6b,Qwen/Qwen3-Reranker-0.6B,e61197ed45024b0ed8a2d74b80b4d909f1255473,True,True,400,400,1.0,E7 independent position-aligned restoration,True,PASS

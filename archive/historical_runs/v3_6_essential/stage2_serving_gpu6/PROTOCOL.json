@@ -1,0 +1,40 @@
+{
+  "attempts": 3,
+  "cohort": "v3.6 frozen C360",
+  "cohort_sha256": "b871eaf61589542f18f827561becd79201732eaf541a055fe8aae4fc6b811ce4",
+  "cohort_size": 360,
+  "concurrency": 1,
+  "experiment": "DecisionRAG v3.6 Essential Verification",
+  "failure_policy": "no retries; failure elapsed time retained; no fallback in raw timing",
+  "gpu_index": 6,
+  "input_hashes": {
+    "bright": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+    "d1_manifest": "e25619a54bcb90413af57acd8df2fb11f5235e20552be2bb4453d7308e67f8a9",
+    "stage0_budget_manifest": "5d8182ace6538969b7286e419c87c50356c2a1b96ce08955818377be808f5a2b",
+    "stage0_protocol": "1547516bd21122abbce93873752bb2603c1a90c7b60055df56d0d78efb434f0e"
+  },
+  "labels_joined": false,
+  "models": {
+    "jina_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+    "pplx_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+  },
+  "paid_api_calls": 0,
+  "phase": "jina",
+  "policy_order": [
+    "jina_full",
+    "jina_pplx_budget",
+    "jina_two_stage_pplxwindow"
+  ],
+  "protected_holdouts_accessed": false,
+  "replication_deviation": "Only one isolated GPU was available at preflight; this is one T1 session, not three concurrent replicate sessions.",
+  "stage": "B6.1_T1_matched_serving",
+  "stage2_policy_mapping": {
+    "jina_full": "J_full",
+    "jina_pplx_budget": "J_8192",
+    "jina_two_stage_pplxwindow": "J2_8192",
+    "pplx_budget": "P_8192",
+    "pplx_two_stage": "P2_8192"
+  },
+  "status": "FROZEN_PRE_OUTCOME",
+  "timed_boundary": "view preparation + all native calls + score parsing + candidate-ID mapping + Top-5 packaging"
+}

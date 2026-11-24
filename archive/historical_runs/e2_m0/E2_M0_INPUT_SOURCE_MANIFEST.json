@@ -1,0 +1,219 @@
+{
+  "expected_hash_mismatches": [],
+  "file_count": 25,
+  "files": [
+    {
+      "bytes": 32318,
+      "expected_sha256": null,
+      "hash_matches_expected": true,
+      "path": "./DecisionRAG_v2_1_E2_M0_Structural_Oracle_SDD.md",
+      "role": "authoritative E2-M0 SDD",
+      "sha256": "5c331471483c6b85a74b064d9857fff20ffe94232203cf1a7f8a847bc1b0c35f"
+    },
+    {
+      "bytes": 23633450,
+      "expected_sha256": "1891f41e2b8614b871aa42cdbe61af3d0c193410a85041e5426c5e7eb3905f0f",
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_RETRIEVAL_SLATES.jsonl",
+      "role": "Track A frozen retrieval slates",
+      "sha256": "1891f41e2b8614b871aa42cdbe61af3d0c193410a85041e5426c5e7eb3905f0f"
+    },
+    {
+      "bytes": 92454379,
+      "expected_sha256": "87cd17c3ac6408a182d5821d3b86cfb535161d1a0b7df3e6d60a216433f303bb",
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_SELECTOR_RESULTS_FULL.jsonl",
+      "role": "Track A frozen selector results",
+      "sha256": "87cd17c3ac6408a182d5821d3b86cfb535161d1a0b7df3e6d60a216433f303bb"
+    },
+    {
+      "bytes": 3236770,
+      "expected_sha256": "5b17f0dfacceddc82952163b6fb98fcecb2d0d4ce232209c5d565f79c04d40cc",
+      "hash_matches_expected": true,
+      "path": "./results/preflight/v11/NEW_TEST_GOLD_SIDECAR.jsonl",
+      "role": "Track A evaluation-only gold sidecar",
+      "sha256": "5b17f0dfacceddc82952163b6fb98fcecb2d0d4ce232209c5d565f79c04d40cc"
+    },
+    {
+      "bytes": 10576540,
+      "expected_sha256": null,
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_LAYA_GROUPWISE_FULL.jsonl",
+      "role": "Track A Laya explicit group records",
+      "sha256": "4e8c12b333e530a77495f81fa737e0e78f77971912a235dcae4aa28f00ace8af"
+    },
+    {
+      "bytes": 10778743,
+      "expected_sha256": null,
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_CLEF_GROUPWISE_FULL.jsonl",
+      "role": "Track A Clef explicit group records",
+      "sha256": "b9279e414d880a2fe16f2827ba986b1b15257121a959a8640e4822d4abd4a424"
+    },
+    {
+      "bytes": 5730238,
+      "expected_sha256": "97cb4d5b3de284614bfdcc027f46a337a3141b39af7f003112138cab42ee227e",
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_METRICS.csv",
+      "role": "Track A summary cross-check",
+      "sha256": "97cb4d5b3de284614bfdcc027f46a337a3141b39af7f003112138cab42ee227e"
+    },
+    {
+      "bytes": 348,
+      "expected_sha256": "50c8685a75508a37a56a7c401f3172e022565d4a2a78a74f5e14f74d4123be51",
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_GROUPWISE_COLLISIONS.csv",
+      "role": "Track A historical collision cross-check",
+      "sha256": "50c8685a75508a37a56a7c401f3172e022565d4a2a78a74f5e14f74d4123be51"
+    },
+    {
+      "bytes": 2000,
+      "expected_sha256": null,
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_PROVENANCE_MANIFEST.json",
+      "role": "Track A provenance",
+      "sha256": "5ed16b5874fa522010dc2c350c0e00ba11caea6cb60cd7ede907a241c692b060"
+    },
+    {
+      "bytes": 163267,
+      "expected_sha256": null,
+      "hash_matches_expected": true,
+      "path": "./V11_TRACK_A_EXECUTION_MANIFEST.json",
+      "role": "Track A frozen cohort manifest",
+      "sha256": "096e83ba9299cd0199d05d93f19270f4e16c02d9c617c7b782307c8bf4d0b91e"
+    },
+    {
+      "bytes": 83783504,
+      "expected_sha256": "2e82fc2788398f98d6a257165718b1baa6e1ad792f63671c06458f9212326c9f",
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_RETRIEVAL_SLATES.jsonl",
+      "role": "Track B frozen retrieval slates",
+      "sha256": "2e82fc2788398f98d6a257165718b1baa6e1ad792f63671c06458f9212326c9f"
+    },
+    {
+      "bytes": 43959451,
+      "expected_sha256": "3716a91c96d3f03d42f39e529e5f50abb574b4b1219e9c6aa3a7374bf7c6e0f8",
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_SELECTOR_RESULTS.jsonl",
+      "role": "Track B frozen selector results",
+      "sha256": "3716a91c96d3f03d42f39e529e5f50abb574b4b1219e9c6aa3a7374bf7c6e0f8"
+    },
+    {
+      "bytes": 648465,
+      "expected_sha256": "e7a7dbe71ee9e4290fe29615991c3aed90f70530ab12a63e9c1003be6bfa6b55",
+      "hash_matches_expected": true,
+      "path": "./results/preflight/v11/ENTERPRISE_GOLD_SIDECAR.jsonl",
+      "role": "Track B evaluation-only gold sidecar",
+      "sha256": "e7a7dbe71ee9e4290fe29615991c3aed90f70530ab12a63e9c1003be6bfa6b55"
+    },
+    {
+      "bytes": 831571,
+      "expected_sha256": "00befe74a6bd3786fd2149639f434efd574f2784f49f7f91961c3ed7091d2683",
+      "hash_matches_expected": true,
+      "path": "./results/preflight/v11_remediation/ENTERPRISE_QUESTION_MANIFEST_V11R1.jsonl",
+      "role": "Track B identity-resolved question manifest",
+      "sha256": "00befe74a6bd3786fd2149639f434efd574f2784f49f7f91961c3ed7091d2683"
+    },
+    {
+      "bytes": 274781259,
+      "expected_sha256": null,
+      "hash_matches_expected": true,
+      "path": "./results/preflight/v11_remediation/ENTERPRISE_DOCUMENT_IDENTITY_MANIFEST.jsonl",
+      "role": "Track B physical identity manifest",
+      "sha256": "eb31c184c604efbdaf0e513860e5464782d7146cd1e151289a7044d7a9bcfd8e"
+    },
+    {
+      "bytes": 1048,
+      "expected_sha256": null,
+      "hash_matches_expected": true,
+      "path": "./results/preflight/v11_remediation/ENTERPRISE_QST_0413_ACCEPTANCE_V11R1.json",
+      "role": "Track B accepted ambiguity exception",
+      "sha256": "12f12be9db5ad11cd214b42a132370ffd2704158fa0f2ae8d159501ac3f0e176"
+    },
+    {
+      "bytes": 3195822,
+      "expected_sha256": null,
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_LAYA_GROUPWISE_FULL.jsonl",
+      "role": "Track B Laya explicit group records",
+      "sha256": "cb30aa66f8c758f691f33ee93f4773b2c87bec295a6966416daea9f8c48036a0"
+    },
+    {
+      "bytes": 3217834,
+      "expected_sha256": null,
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_CLEF_GROUPWISE_FULL.jsonl",
+      "role": "Track B Clef explicit group records",
+      "sha256": "982985887d0fa591c6feb704a4a487fda06ac3aa1c70cbce7461c603180d4fd3"
+    },
+    {
+      "bytes": 1072158,
+      "expected_sha256": "57703cb9851c80a575ba3ddb89596f40a0a1e4c3de2b93cdcae4a7f06713d7a0",
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_METRICS.csv",
+      "role": "Track B summary cross-check",
+      "sha256": "57703cb9851c80a575ba3ddb89596f40a0a1e4c3de2b93cdcae4a7f06713d7a0"
+    },
+    {
+      "bytes": 1054,
+      "expected_sha256": "e4ad654f4b4801cc2cc5f727e2c7cedd17e457b9e81f5d51ea6e3bf596f62839",
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_GROUPWISE_COLLISION_AUDIT.csv",
+      "role": "Track B historical collision cross-check",
+      "sha256": "e4ad654f4b4801cc2cc5f727e2c7cedd17e457b9e81f5d51ea6e3bf596f62839"
+    },
+    {
+      "bytes": 1759,
+      "expected_sha256": null,
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_PROVENANCE_MANIFEST.json",
+      "role": "Track B provenance",
+      "sha256": "836a9e150e607f2a7564e8cbecda298c80f6a080ea323200ad80c30a7975cfe6"
+    },
+    {
+      "bytes": 7952,
+      "expected_sha256": null,
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/herb_h1/HERB_H1_PROVENANCE_MANIFEST.json",
+      "role": "H1 frozen provenance",
+      "sha256": "516bcd1b4b2dbec3baf675adc8b44c472442eeb8bac375facfb8c01699b64626"
+    },
+    {
+      "bytes": 2573,
+      "expected_sha256": null,
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/herb_h1_owner_audit/HERB_H1_OWNER_REVIEW_CLOSURE.md",
+      "role": "H1 owner closure",
+      "sha256": "a8dc2d17d8080f0563bae4484a2781faaed8109f0945d7bd72343462684d6b7e"
+    },
+    {
+      "bytes": 2761,
+      "expected_sha256": null,
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_c/V11_TRACK_C_PROVENANCE_MANIFEST.json",
+      "role": "Original Track C provenance",
+      "sha256": "2ec02e309d4735ddce8c53f7afc6a5c0dd054eb3c34238143d5dc0e86debb664"
+    },
+    {
+      "bytes": 4122,
+      "expected_sha256": null,
+      "hash_matches_expected": true,
+      "path": "./results/non_jev/v11/track_c_r2/V11_TRACK_C_R2_PROVENANCE_MANIFEST.json",
+      "role": "Original Track C R2 provenance",
+      "sha256": "e536c402185b117161610815d506306d0b3840c062fc34c23dce9466eeff99a4"
+    }
+  ],
+  "git_commit": "246ff54e66b178eadd350351a5544879f5484ed2",
+  "git_root": "./Production_Project/AI_Search_Agent/RAG_system",
+  "manifest_version": "e2-m0-input-sources-v1",
+  "output_hashes": {
+    "E2_M0_AGGREGATE_ORACLES.csv": "9da8b628322e7ffaf1b5584630b9145436e926265200714a9c5d1196baf4a4ef",
+    "E2_M0_EXCLUSIONS_AND_INTEGRITY.csv": "4476295f5778e9fdadc10c276db8b49c7b12088588fdde79fb4e811a6c4108c4",
+    "E2_M0_OWNER_GATE.json": "29bbd0a03beeb2e16e8730bd4d4d4bf3337ebb1cafe7d5bfc86072881ada0ab7",
+    "E2_M0_OWNER_GATE.md": "9e8034b0e3803bca6e50ed14683bb259f148ff8ef1463b64c90564f32d82be94",
+    "E2_M0_P0V2_HANDOFF.md": "05295e6104a4a751487f0735c3c5941336b50d124988c91e390ab07f9141df11",
+    "E2_M0_PER_QUERY_ORACLES.csv": "23f849deba8a63685335a4961d4264a1cd331955c89dda5d8ecf2a81be114297",
+    "E2_M0_STRUCTURAL_ORACLE_REPORT.md": "214f2c12c8008e534c238bb6c5e6aeaab47a639726a4e975eb44a35ec87d392e"
+  },
+  "root": "."
+}

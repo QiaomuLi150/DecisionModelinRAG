@@ -1,0 +1,12 @@
+{
+  "collected": 58,
+  "command": "./Production_Project/MultiModalRAG/venv/bin/python -m pytest -q",
+  "exit_code": 0,
+  "failed": 0,
+  "inference_started": false,
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "passed": 58,
+  "status": "PASS",
+  "stdout_tail": "..........................................................               [100%]\n"
+}

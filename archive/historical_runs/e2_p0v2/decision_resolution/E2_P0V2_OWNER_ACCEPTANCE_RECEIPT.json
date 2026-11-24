@@ -1,0 +1,22 @@
+{
+  "accepted_utc": "2026-10-12T21:14:20.015121+00:00",
+  "freeze_marker": "P0v2_NOT_FROZEN",
+  "lock": "./results/non_jev/v2/e2_p0v2/decision_resolution/E2_P0V2_OFFLINE_DECISION_LOCK.json",
+  "owner_action": "accept_p0v2_offline_decision_resolution_only",
+  "prohibited_actions": [
+    "model_inference",
+    "gpu_workload",
+    "network",
+    "qdrant",
+    "retrieval_or_index_rebuild",
+    "training",
+    "jev",
+    "paid_api",
+    "fresh_holdout_gold_access",
+    "dataset_expansion"
+  ],
+  "report": "./results/non_jev/v2/e2_p0v2/decision_resolution/E2_P0V2_OFFLINE_DECISION_RESOLUTION.md",
+  "schema": "e2-p0v2-owner-acceptance-receipt-v1",
+  "status": "E2_P0V2_PARTIAL_BLOCKED",
+  "stop": true
+}

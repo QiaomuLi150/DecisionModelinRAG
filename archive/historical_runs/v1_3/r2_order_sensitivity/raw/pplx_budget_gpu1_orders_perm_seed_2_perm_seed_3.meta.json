@@ -1,0 +1,73 @@
+{
+  "policy": "pplx_budget",
+  "gpu": 1,
+  "orders": [
+    "perm_seed_2",
+    "perm_seed_3"
+  ],
+  "n_rows": 2768,
+  "valid": 2760,
+  "failed": 8,
+  "model_load_ms": 14851.539145223796,
+  "gpu_before": [
+    {
+      "index": 0,
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 2441,
+      "memory_free_mib": 78711,
+      "utilization_percent": 0
+    },
+    {
+      "index": 1,
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 54077,
+      "memory_free_mib": 27076,
+      "utilization_percent": 84
+    },
+    {
+      "index": 2,
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 55207,
+      "memory_free_mib": 25946,
+      "utilization_percent": 0
+    },
+    {
+      "index": 3,
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 26855,
+      "memory_free_mib": 54297,
+      "utilization_percent": 100
+    },
+    {
+      "index": 4,
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 56799,
+      "memory_free_mib": 24354,
+      "utilization_percent": 0
+    },
+    {
+      "index": 5,
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 26855,
+      "memory_free_mib": 54297,
+      "utilization_percent": 100
+    },
+    {
+      "index": 6,
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 26855,
+      "memory_free_mib": 54297,
+      "utilization_percent": 100
+    },
+    {
+      "index": 7,
+      "uuid": "<REDACTED_GPU_UUID>",
+      "memory_used_mib": 69369,
+      "memory_free_mib": 11784,
+      "utilization_percent": 100
+    }
+  ],
+  "raw_sha256": "2104fe8e808c39d7bd57fa9ac62cbc15ae5c9ecf682a038be646069068d2cb1b",
+  "labels_joined": false,
+  "historical_original_order_reused": true
+}

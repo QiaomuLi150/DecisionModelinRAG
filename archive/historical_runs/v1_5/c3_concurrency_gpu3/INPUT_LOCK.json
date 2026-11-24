@@ -1,0 +1,15 @@
+{
+  "bright_path": "results/non_jev/v2/e9_bright_v1_0/01_retrieval/BRIGHT_FROZEN_TOP20_SLATES.jsonl",
+  "bright_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+  "budget_path": "results/non_jev/v2/e11_v1_0/01_budget_policy/E11_A_FROZEN_INPUT_AND_TOKEN_MANIFEST.jsonl",
+  "budget_sha256": "c8d9299711a0c64b94ccd139e4f6329dc8779eb267f534b90c085e3d2d3f9a94",
+  "labels_joined": false,
+  "protocol": "decisionrag-v1.5-c3-v2",
+  "routing_pool_note": "The frozen R1 source contains one fixed label-free routing request; C3 repeats that exact request with stable request IDs rather than fabricating prompt variants.",
+  "routing_pool_sha256": "272c47606b3137435b645c5740e992f964cac89ef77855cd3a1b28002086a25e",
+  "routing_population": 50,
+  "routing_request_sha256": "b01a54a2a7d7801191d774e46918be26bd36aeb622486b7e792677bd182d1354",
+  "routing_source": "scripts/v1_3_r1_serving.py::fixed_nonselection_request",
+  "selection_view_ids_sha256": "85b2c027276956957e2c0f2cfe26edfc3a8641904961f046d95ea279f2bd5c83",
+  "selection_views": 1380
+}

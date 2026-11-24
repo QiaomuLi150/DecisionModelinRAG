@@ -1,0 +1,115 @@
+{
+  "cohort_independence_evidence": {
+    "formal_retrieval_score_independence_provable_from_files": false,
+    "interpretation": "provenance-supported, not an independently sealed causal guarantee",
+    "sampling_basis": "source/qrel component split; no selector scores",
+    "seed": 731,
+    "source_split_manifest": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_SOURCE_SPLIT_MANIFEST.json"
+  },
+  "corpus": {
+    "path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact/corpus/0.0.0/b3b5335604bf5ee3c4447671af975ea25143d4f5/scifact-corpus.arrow",
+    "rows": 5183,
+    "sha256": "1abf7e91fa5278704cdf75a919f522b82e9c3711da990443efd212f7361f8394",
+    "unique_ids": 5183
+  },
+  "positive_per_query": {
+    "distribution": {
+      "1": 254,
+      "2": 17,
+      "3": 5,
+      "5": 1
+    },
+    "total": 308
+  },
+  "primary_reproduction": {
+    "ci95_percentile": [
+      -0.01054864518886083,
+      0.04528112317476296
+    ],
+    "delta_values_sha256": "70bf3db8fcee4cc3f2abdc3c366ddd13f5276ee0526ea1ff788c36313f7368d7",
+    "matches_recorded": true,
+    "metric": "binary nDCG@5",
+    "n": 277,
+    "point": 0.01739960021571993,
+    "recorded_ci95": [
+      -0.01054864518886083,
+      0.04528112317476296
+    ],
+    "recorded_point": 0.01739960021571993,
+    "resamples": 5000,
+    "seed": 731
+  },
+  "query_count": 277,
+  "query_ids_sha256": "7afd44a498677c4d1b0486b78f149009582aff8f76378f598f4a9d9e619d0a7f",
+  "r3_feasibility_field_audit": {
+    "affected_r3_fields": [
+      "top20_feasible",
+      "top20_feasible_n",
+      "E6_2_R3_RETRIEVAL_FEASIBILITY_REPORT.md claim"
+    ],
+    "independent_denominator": 277,
+    "independent_n": 254,
+    "material_defect": true,
+    "r3_primary_ndcg_unaffected": true,
+    "r3_reported_n": 277
+  },
+  "retrieval_generation_flags": {
+    "pool_source_values": [
+      "BM25+Qwen3-VL-Embedding-2B+RRF60"
+    ],
+    "qrels_accessed_true": 0,
+    "reserved_content_accessed_true": 0,
+    "rows": 277
+  },
+  "top20_feasible": {
+    "candidate_id_mismatches": [],
+    "denominator": 277,
+    "missing_top20_qids": [
+      "scifact:1008",
+      "scifact:1110",
+      "scifact:1239",
+      "scifact:1241",
+      "scifact:1278",
+      "scifact:1279",
+      "scifact:13",
+      "scifact:1302",
+      "scifact:1363",
+      "scifact:17",
+      "scifact:262",
+      "scifact:376",
+      "scifact:431",
+      "scifact:434",
+      "scifact:435",
+      "scifact:63",
+      "scifact:64",
+      "scifact:870",
+      "scifact:871",
+      "scifact:876",
+      "scifact:900",
+      "scifact:91",
+      "scifact:92"
+    ],
+    "n": 254,
+    "positive_rank_distribution": {
+      "1": 186,
+      "2": 35,
+      "3": 11,
+      "4": 11,
+      "5": 2,
+      "6": 8,
+      "7": 4,
+      "8": 4,
+      "10": 2,
+      "11": 1,
+      "12": 2,
+      "13": 2,
+      "15": 2,
+      "16": 2,
+      "17": 2,
+      "18": 2,
+      "19": 2,
+      "20": 1
+    },
+    "rate": 0.9169675090252708
+  }
+}

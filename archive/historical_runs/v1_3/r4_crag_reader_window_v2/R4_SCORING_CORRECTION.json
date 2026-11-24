@@ -1,0 +1,13 @@
+{
+  "status": "CORRECTED_OFFLINE_SCORING",
+  "supersedes": "export/crag_reader_window.csv and export/crag_reader_window_summary.json",
+  "reason": "the first score pass recorded word-token offsets; the frozen R4 specification requires tokenizer-token offsets",
+  "new_outputs": [
+    "export/crag_reader_window_v3.csv",
+    "export/crag_reader_window_summary_v3.json",
+    "raw/R4_SCORED_RAW_OUTPUTS_V3.jsonl"
+  ],
+  "reader_raw_reused": true,
+  "new_inference": false,
+  "historical_artifacts_modified": false
+}

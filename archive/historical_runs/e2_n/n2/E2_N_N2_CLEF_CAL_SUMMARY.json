@@ -1,0 +1,18 @@
+{
+  "actual_model_input_hash_rows": 60,
+  "cache_reuse_rows": 0,
+  "config_sha256": "bf09d473dd30d11f7fedf098dd1819484086cd77707424bf973583384b3cdf92",
+  "denominator_correction": "Clef has two rows per query (pointwise and native_joint); expected_rows=60 is intentional and the raw trace is unchanged.",
+  "downloads": 0,
+  "expected_rows": 60,
+  "jev_calls": 0,
+  "model": "clef",
+  "ok_rows": 60,
+  "paid_api_calls": 0,
+  "physical_forward_evidence_rows": 60,
+  "rows": 60,
+  "stage": "N2_CAL",
+  "status": "PASS",
+  "unique_queries": 30,
+  "valid_unique_20_candidate_rows": 60
+}

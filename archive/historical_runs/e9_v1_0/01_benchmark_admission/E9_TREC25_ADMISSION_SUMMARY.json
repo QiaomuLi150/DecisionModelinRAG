@@ -1,0 +1,17 @@
+{
+  "admission_floors": {
+    "complete_topics_at_least_60": true,
+    "median_judged_at_least_0_5": false,
+    "positive_topics_at_least_60": false
+  },
+  "created_utc": "2026-10-16T00:38:28.589618+00:00",
+  "first_stage_bm25_artifact": "NOT_AVAILABLE_AT_DOCUMENTED_RAGNAROK_DATA_PATH",
+  "median_judged_fraction_top20": 0.0,
+  "model_outcomes_inspected": false,
+  "pool_rows": 105,
+  "qrels_loaded_for_admission_only": true,
+  "source_pool_mode": "CONDITIONAL_SELECTION_OVER_PRERANKED_POOL",
+  "topics_official": 105,
+  "valid_candidate_complete_topics": 105,
+  "valid_with_positive_somewhere_top20": 22
+}

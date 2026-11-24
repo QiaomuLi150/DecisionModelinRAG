@@ -1,0 +1,15 @@
+policy,contrast_vs,lower95,pass_b0.02,pass_b0.05,pass_b0.10
+bm25_order,bm25_order,0.0,False,False,False
+bm25_order,jina_full,-0.06772009029345373,False,False,True
+jina_full,bm25_order,-0.009029345372460496,False,False,False
+jina_full,jina_full,0.0,True,True,True
+jina_budget,bm25_order,-0.0654627539503386,False,False,False
+jina_budget,jina_full,-0.07900677200902935,False,False,True
+jina_two_stage_matched,bm25_order,-0.029345372460496615,False,False,False
+jina_two_stage_matched,jina_full,-0.03611738148984198,False,True,True
+pplx_native,bm25_order,-0.582392776523702,False,False,False
+pplx_native,jina_full,-0.6117381489841986,False,False,False
+pplx_budget,bm25_order,0.05869074492099323,True,True,True
+pplx_budget,jina_full,0.033860045146726865,True,True,True
+pplx_two_stage,bm25_order,0.07674943566591422,True,True,True
+pplx_two_stage,jina_full,0.05191873589164785,True,True,True

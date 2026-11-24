@@ -1,0 +1,34 @@
+{
+  "results/v1_5/c1_two_stage_specialist_gpu3/export/c1_perquery.csv": {
+    "record_count": 38753,
+    "sha256": "a6fc17543dc6c2349d11dad6ac27cbe16de63fb64ea5285b5f089ffb7fce9fc4"
+  },
+  "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_pplxtext__original.jsonl": {
+    "record_count": 1384,
+    "sha256": "768de37a7f770fae566e25ae46f3c06248b64efb363227ab18179c8bdc5839e7"
+  },
+  "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_pplxtext__original.meta.json": {
+    "record_count": null,
+    "sha256": "b4bf4726cfebf0b155d6ebeabdb76efdaac896a2a1a42b4c08b10205da023c8a"
+  },
+  "results/v1_6/d1_perwindow_jina/D1_INPUT_MANIFEST.jsonl": {
+    "record_count": 9688,
+    "sha256": "e25619a54bcb90413af57acd8df2fb11f5235e20552be2bb4453d7308e67f8a9"
+  },
+  "results/v1_6/d1_perwindow_jina/export/d1_perquery.csv": {
+    "record_count": 19377,
+    "sha256": "c4bdfa1244a24b65358fe408e421ea6d1bea54fb7785694f9a4e6f7b3d05a5f2"
+  },
+  "results/v1_6/d1_perwindow_jina/raw/d1_jina_two_stage_pplxwindow_all.jsonl": {
+    "record_count": 9688,
+    "sha256": "5763d6dbaabd039f45d9564249936861eb63cd54563ad972add3cd45a5a94de3"
+  },
+  "results/v1_6/d1_perwindow_jina/raw/d1_jina_two_stage_pplxwindow_all.meta.json": {
+    "record_count": null,
+    "sha256": "214af1805af5cbade83d79589f35fbdcaef11bfe21db0bf185c75cb245203602"
+  },
+  "results/v3_6_essential/followup_v2_correction/C2_jina_diagnostic/fresh_runs_perquery.csv": {
+    "record_count": 1385,
+    "sha256": "95a46076e4b44949ca6dd8c24e8fa33a09019870ecf89e5385597b7346959746"
+  }
+}

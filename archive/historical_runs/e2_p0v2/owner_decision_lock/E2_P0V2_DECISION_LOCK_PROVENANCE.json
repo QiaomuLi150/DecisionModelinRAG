@@ -1,0 +1,382 @@
+{
+  "cpu_tests": [
+    {
+      "name": "all_required_documents_present",
+      "status": "PASS"
+    },
+    {
+      "name": "original_p0v2_hashes_preserved",
+      "status": "PASS"
+    },
+    {
+      "name": "m0_zero_jev_paid_calls",
+      "status": "PASS"
+    },
+    {
+      "name": "valid_readiness_statuses",
+      "status": "PASS"
+    },
+    {
+      "name": "m1_sections_a_to_e_present",
+      "status": "PASS"
+    },
+    {
+      "name": "no_holdout_marked_sealed",
+      "status": "PASS"
+    },
+    {
+      "name": "no_gpu_authorization_inferred",
+      "status": "PASS"
+    },
+    {
+      "name": "p0v2_not_frozen",
+      "status": "PASS"
+    }
+  ],
+  "created_utc": "2026-10-12T21:21:40.393797+00:00",
+  "execution_scope": {
+    "checkpoint_loads": 0,
+    "cuda_visible_devices": "",
+    "dataset_downloads": 0,
+    "fresh_holdout_gold_opened": 0,
+    "gpu_calls": 0,
+    "jev_calls": 0,
+    "m1_or_n_executed": false,
+    "model_calls": 0,
+    "network_calls": 0,
+    "paid_api_calls": 0,
+    "qdrant_calls": 0
+  },
+  "git": {
+    "head": "246ff54e66b178eadd350351a5544879f5484ed2",
+    "root": "./Production_Project/AI_Search_Agent/RAG_system",
+    "status_line_count": 366,
+    "status_sample": [
+      " M Decision_Model_in_RAG/scripts/v11_track_c_serving.py",
+      " M api/routes/search.py",
+      " M api/schemas.py",
+      " M scripts/service_manager.py",
+      " M src/agent/schemas.py",
+      " M src/gateway/hierarchical_router.py",
+      " M src/gateway/production_controller.py",
+      " M src/serving/service_manager.py",
+      " M tests/test_qdrant_integration.py",
+      "?? Decision_Model/",
+      "?? Decision_Model_in_RAG/DecisionRAG_v2_1_E2_M0_Structural_Oracle_SDD.md",
+      "?? Decision_Model_in_RAG/DecisionRAG_v2_1_Revised_Research_Protocol.md"
+    ],
+    "status_sha256": "4fea8a136e745379cd2d98629c2ce50985c850f27310bcb9d653f991ecb5e03b"
+  },
+  "metadata_only_dataset_inventory": [
+    {
+      "bytes": 30439728,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/musique/musique_ans_v1.0_dev.jsonl",
+      "role": "MuSiQue local dev release; historical source, not fresh",
+      "sha256": "15fa63794d18a94ce12411aca6e2327e65b6e83b0b1490efab3f1962e48abf3b"
+    },
+    {
+      "bytes": 241046755,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/musique/musique_ans_v1.0_train.jsonl",
+      "role": "MuSiQue local train release; not an approved fresh holdout",
+      "sha256": "83a75b1e11e4e9bb8f8308e72ac40ca617ae4431b3a0d955b61cab259248490a"
+    },
+    {
+      "bytes": 27452575,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/hotpot/hotpot_dev_distractor_v1.parquet",
+      "role": "HotpotQA local dev release; historical source, not fresh",
+      "sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6"
+    },
+    {
+      "bytes": 165624177,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/hotpot/hotpot_train.parquet",
+      "role": "HotpotQA local train release; not an approved fresh holdout",
+      "sha256": "76d3bb3048a7cc73c1958107c0c5872a00d7e7d00c105b81e92f6769e7822e68"
+    },
+    {
+      "bytes": 55934464,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/2wiki/data/dev.json",
+      "role": "2Wiki local dev release; historical source, not fresh",
+      "sha256": "48b9bdc69654dc580fda5f935a48b88cb89f11887587310af60d406c8d0111a6"
+    },
+    {
+      "bytes": 681705246,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/2wiki/data/train.json",
+      "role": "2Wiki local train release; not an approved fresh holdout",
+      "sha256": "b3fddb4d5bb42cd797919cad67616545be51b24740e0a7dabdae7bf76b8f7bfa"
+    },
+    {
+      "bytes": 53146143,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/2wiki/data/test.json",
+      "role": "2Wiki local test release; metadata-only, gold not opened",
+      "sha256": "4f60ba6a108d3409ee039e0be9af42a6a139174fdc86c7451caca402e953fe7a"
+    },
+    {
+      "bytes": 764927,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/enterprise_rag_bench/v1.0.0/questions.jsonl",
+      "role": "EnterpriseRAG-Bench v1.0.0; historical/used source",
+      "sha256": "f9524b9157cd43aae36b99333a124738804306ea6d07f332d49faa6d3d147905"
+    }
+  ],
+  "outputs": {
+    "E2_P0V2_CPU_VALIDATION_REPORT.md": "9f2bea7d451df35d8ae635929675be2a4fc8017dac5edb3d7293617437a20a63",
+    "E2_P0V2_EXPLORATORY_VS_CONFIRMATORY_GATES.md": "97405e299259621165d359defbd2de3e2b669330257fef45b75d53c2765f75d2",
+    "E2_P0V2_FINAL_OWNER_DECISION_PACKAGE.json": "4be0e9dec99126453ad74816f4e56628d922b3e7727c6ef196ac2ffa3ae42926",
+    "E2_P0V2_FINAL_OWNER_DECISION_PACKAGE.md": "112e8ea9244a7bac0cfcb6c744a3580c01b9c6f481e806646165e9c35909c749",
+    "E2_P0V2_FINAL_READINESS_GATE.md": "689e6af92b0777a61af07274922cdae76b9bc883b99c3a8423118814ecd309c5",
+    "E2_P0V2_HOLDOUT_RECOMMENDATION.md": "03281efc44c2603bf73a16d215fac4467e06500bbef74878081ff3d6f7a75451",
+    "E2_P0V2_M1_EXECUTION_SDD.md": "f3df6b74765d351e7b501a80cd6e9d633fd9dc0daecfa0b1659b67bb7039e177",
+    "E2_P0V2_MODEL_VERIFICATION_GAPS.md": "2702401a487c78b0014b8690ff664b1902cc6b6e8229b6b8affcc7346599b67c",
+    "E2_P0V2_NONINFERIORITY_AND_POWER_PLAN.md": "29e4abb1b04b49f76a97b49f9565b49766b28f01ff83cbaeaeb53dde8954d768",
+    "E2_P0V2_OWNER_APPROVAL_CHECKLIST.md": "0d151e84b68b5211b9fd449d6fe62916177aca2f24fe209f35de6442246b0936",
+    "E2_P0V2_SERVING_SLO_PROPOSAL.md": "e83b0c720df20fd872c748d42a3e15a43c9c2bee1416068cf8fa2b41437188c5"
+  },
+  "preservation": {
+    "m0_jev_calls": 0,
+    "m0_p0v2_authorized": false,
+    "m0_paid_api_calls": 0,
+    "m0_status": "E2_M0_COMPLETE_WITH_LIMITATIONS_READY_FOR_OWNER_REVIEW",
+    "p0_manifest_final_status": "E2_P0V2_SPEC_READY_FOR_OWNER_REVIEW",
+    "p0_output_hashes": {
+      "E2_P0V2_AUTHENTICITY_AND_TELEMETRY_SPEC.md": {
+        "actual": "05161ef18b28e9115dbeebaa1b9909c5909dd91069c1c7be6291980baa057c5c",
+        "expected": "05161ef18b28e9115dbeebaa1b9909c5909dd91069c1c7be6291980baa057c5c",
+        "match": true
+      },
+      "E2_P0V2_CANDIDATE_VIEW_CONTRACT.md": {
+        "actual": "2724ece16bdf65bc125f7d9d32af354ae4edfcc0fb7e6e9a401291def300749b",
+        "expected": "2724ece16bdf65bc125f7d9d32af354ae4edfcc0fb7e6e9a401291def300749b",
+        "match": true
+      },
+      "E2_P0V2_CPU_VALIDATION_REPORT.md": {
+        "actual": "0bcbc8553f65e27f117da795d3e714e990e12cfbb45bf22da6faff176f05e9fb",
+        "expected": "0bcbc8553f65e27f117da795d3e714e990e12cfbb45bf22da6faff176f05e9fb",
+        "match": true
+      },
+      "E2_P0V2_HOLDOUT_AND_LEAKAGE_PLAN.md": {
+        "actual": "83665a0a4f5744d01c5f889e827d64e8c6377e5550d96defc3243ae79d5d9e41",
+        "expected": "83665a0a4f5744d01c5f889e827d64e8c6377e5550d96defc3243ae79d5d9e41",
+        "match": true
+      },
+      "E2_P0V2_HYPOTHESES_AND_PRIMARY_CONTRASTS.md": {
+        "actual": "12ff952421aea09b15dff8947ac576df03e74e06ba5043cf6d668a3eec60e0e1",
+        "expected": "12ff952421aea09b15dff8947ac576df03e74e06ba5043cf6d668a3eec60e0e1",
+        "match": true
+      },
+      "E2_P0V2_MECHANISM_EXPERIMENT_MATRIX.csv": {
+        "actual": "f34079e8d56e31f6001f42b292d671d985b955aa450a5bc1643b29c4c15cfb23",
+        "expected": "f34079e8d56e31f6001f42b292d671d985b955aa450a5bc1643b29c4c15cfb23",
+        "match": true
+      },
+      "E2_P0V2_MODEL_CAPABILITY_MATRIX.csv": {
+        "actual": "03eddf7778070165f358635ff6f51b976998824825142fb31ecf023011736435",
+        "expected": "03eddf7778070165f358635ff6f51b976998824825142fb31ecf023011736435",
+        "match": true
+      },
+      "E2_P0V2_OWNER_DECISION_REGISTER.md": {
+        "actual": "9ab6b62b1ebe58b47987b321f83e8ff4040379e84013f195d7b28529b7b11854",
+        "expected": "9ab6b62b1ebe58b47987b321f83e8ff4040379e84013f195d7b28529b7b11854",
+        "match": true
+      },
+      "E2_P0V2_OWNER_GATE.md": {
+        "actual": "7c89429b2010fb42cf82c0939381d344dbd309e1782dacdf9dcda9aae5a9b2ee",
+        "expected": "7c89429b2010fb42cf82c0939381d344dbd309e1782dacdf9dcda9aae5a9b2ee",
+        "match": true
+      },
+      "E2_P0V2_RESEARCH_PROTOCOL.md": {
+        "actual": "2d0ff4784ba5fa156cb632bb990ed654479afb95b0b225eb5105dafa7b507550",
+        "expected": "2d0ff4784ba5fa156cb632bb990ed654479afb95b0b225eb5105dafa7b507550",
+        "match": true
+      },
+      "E2_P0V2_SCORING_CONTRACTS.md": {
+        "actual": "ee798ceadc82fb1d606434ed6c4ad894faba2922dcbd139151853fef44455fd7",
+        "expected": "ee798ceadc82fb1d606434ed6c4ad894faba2922dcbd139151853fef44455fd7",
+        "match": true
+      },
+      "E2_P0V2_SERVING_BENCHMARK_SDD.md": {
+        "actual": "7bb1486dd8553cd63c090c852ea6e05468695cc5e6d672f4a0bd0908ac210b9d",
+        "expected": "7bb1486dd8553cd63c090c852ea6e05468695cc5e6d672f4a0bd0908ac210b9d",
+        "match": true
+      },
+      "E2_P0V2_STATISTICAL_ANALYSIS_PLAN.md": {
+        "actual": "4ec382c8647d9199f4837b0781906d7b4796c2940564880d3dc241f5f1c5efd9",
+        "expected": "4ec382c8647d9199f4837b0781906d7b4796c2940564880d3dc241f5f1c5efd9",
+        "match": true
+      }
+    },
+    "p0_output_hashes_match": true
+  },
+  "project_root": ".",
+  "schema": "e2-p0v2-decision-lock-provenance-v1",
+  "sources": [
+    {
+      "bytes": 14085,
+      "exists": true,
+      "path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.codex/attachments/5923f24b-e042-4085-adde-8c2738a2f995/Pasted text.txt",
+      "role": "authoritative E2-P0v2-DL owner-lock instructions",
+      "sha256": "49e5680e5062bd77d2c8f0cde833b12e3e90eba3e31662fb566870386b03453e"
+    },
+    {
+      "bytes": 20208,
+      "exists": true,
+      "path": "./DecisionRAG_v2_1_Revised_Research_Protocol.md",
+      "role": "authoritative v2.1 research protocol",
+      "sha256": "938be4b5078cbc660d2aadd3f72dcb4b962d821e3f4284de3b8e9da498c12f70"
+    },
+    {
+      "bytes": 32318,
+      "exists": true,
+      "path": "./DecisionRAG_v2_1_E2_M0_Structural_Oracle_SDD.md",
+      "role": "E2-M0 execution contract",
+      "sha256": "5c331471483c6b85a74b064d9857fff20ffe94232203cf1a7f8a847bc1b0c35f"
+    },
+    {
+      "bytes": 25586,
+      "exists": true,
+      "path": "./DecisionRAG_Industry_Experimental_Plan_v1_1_PRE_REGISTRATION.md",
+      "role": "prior preregistration",
+      "sha256": "a9d1d68168f6304df74d0e2d3cb540aeb6398491fb35ec41644b4acd2873ebf7"
+    },
+    {
+      "bytes": 3088,
+      "exists": true,
+      "path": "./results/non_jev/v2/e2_p0v2/E2_P0V2_RESEARCH_PROTOCOL.md",
+      "role": "P0v2 protocol package",
+      "sha256": "2d0ff4784ba5fa156cb632bb990ed654479afb95b0b225eb5105dafa7b507550"
+    },
+    {
+      "bytes": 2014,
+      "exists": true,
+      "path": "./results/non_jev/v2/e2_p0v2/E2_P0V2_HYPOTHESES_AND_PRIMARY_CONTRASTS.md",
+      "role": "P0v2 hypotheses",
+      "sha256": "12ff952421aea09b15dff8947ac576df03e74e06ba5043cf6d668a3eec60e0e1"
+    },
+    {
+      "bytes": 1913,
+      "exists": true,
+      "path": "./results/non_jev/v2/e2_p0v2/E2_P0V2_SCORING_CONTRACTS.md",
+      "role": "P0v2 scoring contracts",
+      "sha256": "ee798ceadc82fb1d606434ed6c4ad894faba2922dcbd139151853fef44455fd7"
+    },
+    {
+      "bytes": 1436,
+      "exists": true,
+      "path": "./results/non_jev/v2/e2_p0v2/E2_P0V2_CANDIDATE_VIEW_CONTRACT.md",
+      "role": "P0v2 candidate-view contract",
+      "sha256": "2724ece16bdf65bc125f7d9d32af354ae4edfcc0fb7e6e9a401291def300749b"
+    },
+    {
+      "bytes": 1300,
+      "exists": true,
+      "path": "./results/non_jev/v2/e2_p0v2/E2_P0V2_HOLDOUT_AND_LEAKAGE_PLAN.md",
+      "role": "P0v2 holdout plan",
+      "sha256": "83665a0a4f5744d01c5f889e827d64e8c6377e5550d96defc3243ae79d5d9e41"
+    },
+    {
+      "bytes": 1847,
+      "exists": true,
+      "path": "./results/non_jev/v2/e2_p0v2/E2_P0V2_STATISTICAL_ANALYSIS_PLAN.md",
+      "role": "P0v2 statistical plan",
+      "sha256": "4ec382c8647d9199f4837b0781906d7b4796c2940564880d3dc241f5f1c5efd9"
+    },
+    {
+      "bytes": 1732,
+      "exists": true,
+      "path": "./results/non_jev/v2/e2_p0v2/E2_P0V2_SERVING_BENCHMARK_SDD.md",
+      "role": "P0v2 serving plan",
+      "sha256": "7bb1486dd8553cd63c090c852ea6e05468695cc5e6d672f4a0bd0908ac210b9d"
+    },
+    {
+      "bytes": 7692,
+      "exists": true,
+      "path": "./results/non_jev/v2/e2_p0v2/E2_P0V2_MODEL_CAPABILITY_MATRIX.csv",
+      "role": "P0v2 capability matrix",
+      "sha256": "03eddf7778070165f358635ff6f51b976998824825142fb31ecf023011736435"
+    },
+    {
+      "bytes": 1193,
+      "exists": true,
+      "path": "./results/non_jev/v2/e2_p0v2/E2_P0V2_OWNER_GATE.md",
+      "role": "original P0v2 owner gate",
+      "sha256": "7c89429b2010fb42cf82c0939381d344dbd309e1782dacdf9dcda9aae5a9b2ee"
+    },
+    {
+      "bytes": 6071,
+      "exists": true,
+      "path": "./results/non_jev/v2/e2_p0v2/decision_resolution/E2_P0V2_OFFLINE_DECISION_RESOLUTION.md",
+      "role": "offline decision-resolution report",
+      "sha256": "57163479ae40b127eb0a9b04d93f90d0049baca57f2402416f1cf38f18fc73f9"
+    },
+    {
+      "bytes": 14461,
+      "exists": true,
+      "path": "./results/non_jev/v2/e2_p0v2/decision_resolution/E2_P0V2_OFFLINE_DECISION_LOCK.json",
+      "role": "offline decision lock",
+      "sha256": "c6d48611b1de7378fe5edff306b933c73abc772c7cdc831f52d478b4e1c74a68"
+    },
+    {
+      "bytes": 6644,
+      "exists": true,
+      "path": "./results/non_jev/v2/e2_m0/E2_M0_STRUCTURAL_ORACLE_REPORT.md",
+      "role": "M0 structural findings",
+      "sha256": "214f2c12c8008e534c238bb6c5e6aeaab47a639726a4e975eb44a35ec87d392e"
+    },
+    {
+      "bytes": 1605,
+      "exists": true,
+      "path": "./results/non_jev/v2/e2_m0/E2_M0_OWNER_GATE.json",
+      "role": "M0 owner gate",
+      "sha256": "29bbd0a03beeb2e16e8730bd4d4d4bf3337ebb1cafe7d5bfc86072881ada0ab7"
+    },
+    {
+      "bytes": 6631,
+      "exists": true,
+      "path": "./results/non_jev/v11/track_a/V11_TRACK_A_OWNER_REVIEW_CLOSURE.md",
+      "role": "Track A closure",
+      "sha256": "18ed3520618903cfb90a597281f67bbf6e256c83190b636f6aef321413b6eb5f"
+    },
+    {
+      "bytes": 17106,
+      "exists": true,
+      "path": "./results/non_jev/v11/track_b/V11_TRACK_B_OWNER_REVIEW_CLOSURE.md",
+      "role": "Track B closure",
+      "sha256": "cb1b3d491555f93957843aa2134aebb2faad7682027d56dc687b71b84813c83a"
+    },
+    {
+      "bytes": 2573,
+      "exists": true,
+      "path": "./results/non_jev/herb_h1_owner_audit/HERB_H1_OWNER_REVIEW_CLOSURE.md",
+      "role": "HERB closure",
+      "sha256": "a8dc2d17d8080f0563bae4484a2781faaed8109f0945d7bd72343462684d6b7e"
+    },
+    {
+      "bytes": 11939,
+      "exists": true,
+      "path": "./results/non_jev/v11/track_c_r2/V11_TRACK_C_R2_OWNER_REVIEW_CLOSURE.md",
+      "role": "Track C R2 closure",
+      "sha256": "64e2fd33b9049cd1f7465f79e89a07cacb407434e036ef9bff82dc9b886dca1d"
+    }
+  ],
+  "status": {
+    "jev": "NOT_AUTHORIZED",
+    "m1": "M1_PARTIAL_BLOCKED",
+    "n": "N_BLOCKED",
+    "p0v2": "P0v2_NOT_FROZEN"
+  },
+  "stop": true
+}

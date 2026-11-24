@@ -1,0 +1,3 @@
+dataset,evidence_unit,identity_fields,alternative_sets,complete_support_justified,endpoint,blocker
+DocHop-QA,paragraph/table context item,pmc_id + section/subsection + type + content,not established from metadata-only audit,False,"graded support coverage / paragraph recall, after source reconstruction",original PMC corpus and row-level mapping not locally present
+GaRAGe,grounding passage/citation,sample_id + provider + date + citation marker + passage text,grounding list is not proven exhaustive,False,citation/grounding coverage only,private/Web source corpus and annotation license/identity not independently reconstructible

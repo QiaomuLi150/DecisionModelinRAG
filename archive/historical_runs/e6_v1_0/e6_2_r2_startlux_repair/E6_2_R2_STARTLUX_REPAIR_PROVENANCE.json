@@ -1,0 +1,38 @@
+{
+  "schema": "E6-2-R2-STARTLUX-REPAIR-PROVENANCE-V1",
+  "gate": "E6_2_R2_STARTLUX_REPAIRED_VALIDATED",
+  "original_r2_preserved": true,
+  "quality_metrics": false,
+  "qrels_accessed": false,
+  "reserved_content_accessed": false,
+  "reader_calls": 0,
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "files": [
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r2_startlux_repair/E6_2_R2_STARTLUX_REPAIR_REPORT.md",
+      "sha256": "c7a1fc2466c5fc8f97165b9cdd040f976a80f27867caf24ea0e2ecd75999613c"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r2_startlux_repair/E6_2_R2_STARTLUX_REPAIR_SUMMARY.json",
+      "sha256": "e715cbeb72486fd3a7d945519d486a224b4482bdcbacf0823b37cba98a24f8b2"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r2_startlux_repair/_work/startlux_decision_4b.jsonl",
+      "sha256": "eb118db268bcb3fc1cbb4b09bb5bdb286fac013dcc83486104d6060f338c5f57"
+    },
+    {
+      "path": "data/models/e6_1b/startlux_decision_v1_4b/startlux_decision/model.py",
+      "sha256": "93fa62c4b447587cd28d4e8c22979674b7ede0153e5312da12887a1e7ec40bb3"
+    },
+    {
+      "path": "tests/test_startlux_runtime.py",
+      "sha256": "8c28508993ac22ff106c9a11f86106f811fa4f0a8e5a36a18fff54147f9f117a"
+    }
+  ],
+  "model_revision": "9c0a32e9809d6a3f612434dd0bce150295dcc274",
+  "gpu": 5,
+  "valid": 277,
+  "failed": 0,
+  "physical_forwards": 277
+}

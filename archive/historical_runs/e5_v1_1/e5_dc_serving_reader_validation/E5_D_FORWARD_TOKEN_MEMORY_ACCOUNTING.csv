@@ -1,0 +1,3 @@
+policy,assigned_n,valid_n,failure_n,physical_forward_calls,peak_memory_allocated_max_bytes,peak_memory_reserved_max_bytes,token_measurement,allocation_seconds_proxy,monetary_cost
+pplx_decider,200,200,0,200,53188925952,54509174784,native adapter input_tokens where exposed; null otherwise,NOT_COMPUTED; no approved cost model,NOT_MEASURED
+jina35,200,200,0,200,1551129600,1769996288,native adapter input_tokens where exposed; null otherwise,NOT_COMPUTED; no approved cost model,NOT_MEASURED

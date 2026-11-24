@@ -1,0 +1,122 @@
+{
+  "results/v3_6_essential/followup_targeted_audit/A1_A3_SUMMARY.json": {
+    "bytes": 644,
+    "sha256": "d2ef304549671d6c9bc563d1793d19ae23ce29b1a73aa0fe68b825fc553ca39c"
+  },
+  "results/v3_6_essential/followup_targeted_audit/A_twostage_jina/A2_EXISTING_RUN_SUMMARY.csv": {
+    "bytes": 631,
+    "sha256": "1801d6e5974e5c77d6c5a1a7e0aa13ba60e7a0ddb30f6a3b6b7490d60cf32e25"
+  },
+  "results/v3_6_essential/followup_targeted_audit/A_twostage_jina/A2_SETTINGS_AUDIT.json": {
+    "bytes": 1341,
+    "sha256": "3d93f2a4e9a0debe276694d15fda8ec1dac72a745d4826815af3156c4eaf2c42"
+  },
+  "results/v3_6_essential/followup_targeted_audit/A_twostage_jina/twostage_jina_diff.csv": {
+    "bytes": 3505946,
+    "sha256": "56c9ce3f2970045d886911f8ba0f203c01de22df5100f826b0e43940ffd2127e"
+  },
+  "results/v3_6_essential/followup_targeted_audit/A_twostage_jina/twostage_jina_first30_causes.csv": {
+    "bytes": 2543,
+    "sha256": "7fc0afd416af61988e398a6d0d51f96e8e965305cf198b6e79ffc829342dda6e"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B1_B2_REPORT.md": {
+    "bytes": 2777,
+    "sha256": "5014f78a686fd6f445597f82d26c9a920207b066a25bfdffd5b3cbc17f80c8b1"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/EXECUTION_EVENTS.json": {
+    "bytes": 1531,
+    "sha256": "1754f92c969e2e1dad3882536d4e12cb36e29850364efc1a7389fbe410075ea5"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/PROTOCOL.json": {
+    "bytes": 3870,
+    "sha256": "ff3725cb0e86f68954c86fd1b08db935d312116de562fe6d576f00acf7c65dbf"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/PROTOCOL_PREVIEW.json": {
+    "bytes": 3870,
+    "sha256": "30212926a7506ec254ef1946dcdb30103fc8f0204488c815181e3da5d29400b0"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/export_d2_latency_perrequest.csv": {
+    "bytes": 8140670,
+    "sha256": "64c91325bf414f820ab258885251bc14edbfe088b146b15daa9ed6a957b74dc9"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/export_d2_latency_ratios.csv": {
+    "bytes": 1450,
+    "sha256": "5324ebc59b7f00d3ea30e054146d17c007cd6e1b5498cf377103af2679ca079e"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/jina_full__session_1.SUMMARY.json": {
+    "bytes": 683,
+    "sha256": "e7decb13676877bd2150771f5c5fa253a0e01c1a1e8c4422398cfd6fc347a829"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/jina_full__session_1.jsonl": {
+    "bytes": 14003056,
+    "sha256": "87ed9372a040c906c636f41c70d1b224c17101228789bb3cf5a67e5132b085fe"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/jina_full__session_2.SUMMARY.json": {
+    "bytes": 683,
+    "sha256": "f322187e92fe06f11edce554470a6ee71f13dc27399ce7bcb0cf032035768271"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/jina_full__session_2.jsonl": {
+    "bytes": 14003088,
+    "sha256": "af7c8e607cda54e8e07a92ecddb9feda889c5982ff650d37fd9f4548f8d701e2"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/jina_truncated_L8192__session_1.SUMMARY.json": {
+    "bytes": 694,
+    "sha256": "d08111b0a76a700e18d41c29020f1f4669e40cdec757d4af97ced2a50f1e15cb"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/jina_truncated_L8192__session_1.jsonl": {
+    "bytes": 14081220,
+    "sha256": "a11788fa578219c1a7e3c4fcf608424ae7f4686d22768c714591e2bdee4111f4"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/jina_truncated_L8192__session_2.SUMMARY.json": {
+    "bytes": 694,
+    "sha256": "caf353c89f8dc71a5ea252cc4a9d4c023380d015837f9e8225b688cae979e43a"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/jina_truncated_L8192__session_2.jsonl": {
+    "bytes": 14081376,
+    "sha256": "906acd0b9014ef5deccbfa4382c838a0c62b2f71abb77ba060e683ad12f78abd"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/pplx_single_L4096__session_1.SUMMARY.json": {
+    "bytes": 691,
+    "sha256": "066a524f350ae59c8113f9a49f7c0dba0e3c1e1c1373c9240ed0c7b34a370a8d"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/pplx_single_L4096__session_1.jsonl": {
+    "bytes": 14149250,
+    "sha256": "6e4c7e64b16c11d7e407870918755c3f2c03ba164aad1024605b2eb2d6872dc5"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/pplx_single_L4096__session_2.SUMMARY.json": {
+    "bytes": 691,
+    "sha256": "c45d19f196df01bd5d6aab7e8892bd69db90cb1938c2fe0709a3edd96e2bcf60"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/pplx_single_L4096__session_2.jsonl": {
+    "bytes": 14149322,
+    "sha256": "af850e53c04a1b9edd6c120779a78708b1177898713895b6d7cc67cffb6f0077"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/pplx_single_L6144__session_1.SUMMARY.json": {
+    "bytes": 691,
+    "sha256": "e7ef09cbd97751d6e0d98400dd73a46fef7f08142ad748106db85402223f285c"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/pplx_single_L6144__session_1.jsonl": {
+    "bytes": 14154408,
+    "sha256": "dbed22b43b61a83e9afc2b6aa36d8485927040a6a7dbb8dff90d8c2532d5c848"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/pplx_single_L6144__session_2.SUMMARY.json": {
+    "bytes": 691,
+    "sha256": "208150635f98f06d3c98ea01eb3ac2ec85fb2f38cc545bdde337fbf204f234a0"
+  },
+  "results/v3_6_essential/followup_targeted_audit/B_transfer_timing/raw/pplx_single_L6144__session_2.jsonl": {
+    "bytes": 14154508,
+    "sha256": "7e9db4d504a690ec4df7e0eb7eeac6d6dc97d95af77c7ad6d71ef6d5205ea56b"
+  },
+  "results/v3_6_essential/followup_targeted_audit/PROTOCOL_OFFLINE.json": {
+    "bytes": 491,
+    "sha256": "c031edf978833cbd1e95efad5b4519203d60a2380d96cffe568ccf7ac439f77d"
+  },
+  "results/v3_6_essential/followup_targeted_audit/RAW_TRACE_SHA256_MANIFEST.json": {
+    "bytes": 1548,
+    "sha256": "b8b3946ef1b671333a2c13026cdb2c13f29c7f01f13743093caab85e0bb55172"
+  },
+  "results/v3_6_essential/followup_targeted_audit/STATUS.md": {
+    "bytes": 1257,
+    "sha256": "247eb469e0ea25232e64a2ba525fb1f05019dd1977d2f99a8f80f27f287c7282"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "bootstrap": {
+    "ci": "percentile two-sided 95%",
+    "resamples": 5000,
+    "seed": 731
+  },
+  "diagnostic_disagreement": {
+    "cohort": "disagreement_diagnostic",
+    "jina_mean": 0.09799218117175526,
+    "metric": "normalized_token_f1",
+    "missing_ids": [],
+    "missing_or_invalid_pairs": 0,
+    "paired_n": 60,
+    "pplx_mean": 0.12002723573014522,
+    "pplx_minus_jina": {
+      "ci95": [
+        0.005472401524058452,
+        0.04141735656359265
+      ],
+      "mean": 0.022035054558389947,
+      "n": 60,
+      "resamples": 5000,
+      "seed": 731
+    },
+    "requested_questions": 60
+  },
+  "diagnostic_no_positive": {
+    "cohort": "no_positive_diagnostic",
+    "jina_mean": 0.008309038674500634,
+    "metric": "normalized_token_f1",
+    "missing_ids": [
+      "57b38eeb-54a8-4b87-a9de-9130d0eb2a0d"
+    ],
+    "missing_or_invalid_pairs": 1,
+    "paired_n": 63,
+    "pplx_mean": 0.010994536594409469,
+    "pplx_minus_jina": {
+      "ci95": [
+        -0.002886220662463888,
+        0.008440321159872474
+      ],
+      "mean": 0.002685497919908835,
+      "n": 63,
+      "resamples": 5000,
+      "seed": 731
+    },
+    "requested_questions": 64
+  },
+  "policy_means": {
+    "jina_v3_5": {
+      "answer_rate": 0.89,
+      "citation_rate": 0.91,
+      "exact_match": 0.0,
+      "n": 200,
+      "token_f1": 0.11977222812497733
+    },
+    "original_fixed_pool_prefix5": {
+      "answer_rate": 0.77,
+      "citation_rate": 0.785,
+      "exact_match": 0.0,
+      "n": 200,
+      "token_f1": 0.10451809728810596
+    },
+    "pplx_decider": {
+      "answer_rate": 0.885,
+      "citation_rate": 0.885,
+      "exact_match": 0.0,
+      "n": 200,
+      "token_f1": 0.1163654938834099
+    },
+    "qwen3_reranker_0_6b": {
+      "answer_rate": 0.86,
+      "citation_rate": 0.875,
+      "exact_match": 0.0,
+      "n": 200,
+      "token_f1": 0.11281182149693102
+    },
+    "startlux_decision_4b": {
+      "answer_rate": 0.9,
+      "citation_rate": 0.905,
+      "exact_match": 0.0,
+      "n": 200,
+      "token_f1": 0.118746754668586
+    }
+  },
+  "primary_contrast": "PPLX-Jina",
+  "primary_metric": "normalized_token_f1",
+  "representative": {
+    "cohort": "representative_primary",
+    "jina_mean": 0.11977222812497733,
+    "metric": "normalized_token_f1",
+    "missing_ids": [],
+    "missing_or_invalid_pairs": 0,
+    "paired_n": 200,
+    "pplx_mean": 0.1163654938834099,
+    "pplx_minus_jina": {
+      "ci95": [
+        -0.009224723093481825,
+        0.0026508974716292887
+      ],
+      "mean": -0.0034067342415674173,
+      "n": 200,
+      "resamples": 5000,
+      "seed": 731
+    },
+    "requested_questions": 200
+  },
+  "representative_exact_match": {
+    "cohort": "representative_primary",
+    "jina_mean": 0.0,
+    "metric": "normalized_exact_match",
+    "missing_ids": [],
+    "missing_or_invalid_pairs": 0,
+    "paired_n": 200,
+    "pplx_mean": 0.0,
+    "pplx_minus_jina": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "n": 200,
+      "resamples": 5000,
+      "seed": 731
+    },
+    "requested_questions": 200
+  }
+}

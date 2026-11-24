@@ -1,0 +1,31 @@
+{
+  "evidence": [
+    "./results/non_jev/v2/e2_m0/E2_M0_STRUCTURAL_ORACLE_REPORT.md",
+    "./results/non_jev/v2/e2_m0/E2_M0_PER_QUERY_ORACLES.csv",
+    "./results/non_jev/v2/e2_m0/E2_M0_AGGREGATE_ORACLES.csv",
+    "./results/non_jev/v2/e2_m0/E2_M0_EXCLUSIONS_AND_INTEGRITY.csv",
+    "./results/non_jev/v2/e2_m0/E2_M0_PROVENANCE_MANIFEST.json"
+  ],
+  "gates": {
+    "M0_DENOMINATORS": "PASS",
+    "M0_GOLD_AND_IDENTITY": "PASS",
+    "M0_GROUP_AUTHENTICITY": "PASS",
+    "M0_INPUT_HASHES": "PASS",
+    "M0_NO_INFERENCE": "PASS",
+    "M0_ORACLE_INVARIANTS": "PASS",
+    "M0_ORIGINAL_PRESERVATION": "PASS",
+    "M0_POLICY_RECONSTRUCTION": "PASS",
+    "M0_REPORTING": "PASS",
+    "M0_SCORE_ABLATION": "NOT_RUN_OPTIONAL"
+  },
+  "jev_calls": 0,
+  "limitations": [
+    "same-score ablation not run",
+    "HERB citation diagnostic not applicable to required A/B core",
+    "gold support sets are benchmark annotations, not exhaustive necessary-evidence proofs"
+  ],
+  "p0v2_authorized": false,
+  "paid_api_calls": 0,
+  "status": "E2_M0_COMPLETE_WITH_LIMITATIONS_READY_FOR_OWNER_REVIEW",
+  "stop": true
+}

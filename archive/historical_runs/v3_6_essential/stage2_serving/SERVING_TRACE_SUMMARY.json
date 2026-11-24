@@ -1,0 +1,18 @@
+{
+  "complete_sessions": [
+    "T1_GPU3",
+    "T1_GPU6"
+  ],
+  "gpu_isolation": "GPU3 and GPU6 sessions were executed in separate namespaces; foreign-workload GPUs were not used",
+  "policies": {
+    "jina_full": 3240,
+    "jina_pplx_budget": 3240,
+    "jina_two_stage_pplxwindow": 2160,
+    "pplx_budget": 2160,
+    "pplx_two_stage": 2160
+  },
+  "records": 12960,
+  "required_sessions": 3,
+  "sessions": 3,
+  "status": "PARTIAL_2_OF_3_COMPLETE_SESSIONS"
+}

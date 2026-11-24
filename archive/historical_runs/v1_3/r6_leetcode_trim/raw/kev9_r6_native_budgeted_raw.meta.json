@@ -1,0 +1,10 @@
+{
+  "model": "kev9",
+  "rows": 284,
+  "valid": 271,
+  "failed": 13,
+  "load_ms": 14332.222956232727,
+  "raw_sha256": "e92c2e5573250bf52e7943aeb0bd04a0026edf06db5027b9d61b6b80c5ab8469",
+  "labels_joined": false,
+  "model_revision": "E12 authenticated local checkpoint"
+}

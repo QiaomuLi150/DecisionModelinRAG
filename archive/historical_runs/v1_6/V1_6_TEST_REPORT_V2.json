@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "d1_determinism": true,
+    "d1_input_lock": true,
+    "d2_exact_2160_rows": true,
+    "d2_export_perrequest_schema": true,
+    "d2_export_ratio_schema": true,
+    "d2_failure_rows_retained": true,
+    "d2_no_labels": true,
+    "d2_protocol_preoutcome": true,
+    "d2_raw_hash_manifest": true,
+    "d2_six_policy_counts": true,
+    "d2_unique_policy_id_attempt": true,
+    "historical_zip_preserved": true,
+    "python_compile": true,
+    "v2_zip_hygiene": true
+  },
+  "new_zip_sha256": "6279c388dfeb2a98c9d527dc3cb7242662d9d254260eec83480bacf19202e331",
+  "raw_sha256": "9f7a043a2b87019d7bd021b9f68cc82e0b75f5a55fc314d4b8242605ec131bae",
+  "status": "PASS"
+}

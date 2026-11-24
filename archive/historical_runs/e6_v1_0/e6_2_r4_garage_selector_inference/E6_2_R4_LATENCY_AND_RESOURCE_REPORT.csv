@@ -1,0 +1,9 @@
+model,status,attempts,p50_ms,p95_ms,peak_memory_mib,physical_forwards,gpu
+pplx_decider,NOT_MEASURED,0,,,,,
+liquid_d1_3b,NOT_MEASURED,0,,,,,
+startlux_decision_4b,NOT_MEASURED,0,,,,,
+amos_1_small_2b,NOT_MEASURED,0,,,,,
+jina_v3_5,NOT_MEASURED,0,,,,,
+qwen3_reranker_4b,NOT_MEASURED,0,,,,,
+bge_reranker_v2_m3,NOT_MEASURED,0,,,,,
+qwen3_reranker_0_6b,NOT_MEASURED,0,,,,,

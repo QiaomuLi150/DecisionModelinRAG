@@ -1,0 +1,20 @@
+{
+  "e6_0r_gate": {
+    "confirmation_locked": true,
+    "e6_1_started": false,
+    "e6_2_authorized": false,
+    "jev_calls": 0,
+    "paid_api_calls": 0,
+    "primary_dataset": "BEIR/SciFact",
+    "primary_track": "N-REL",
+    "secondary_dataset": "GaRAGe",
+    "secondary_track": "F-GRD-K15",
+    "status": "E6_0R_OWNER_APPROVAL_READY"
+  },
+  "endpoint_amendment": "approved by current owner instruction",
+  "historical_e5_slate_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+  "input_manifest_sha256": "a1b006a79456aeba818fe3faf0059a56c1eb1c6adaf47483cac665845097f318",
+  "owner_acceptance": "accepted by current owner instruction",
+  "qrels_loaded": false,
+  "reserved_access": false
+}

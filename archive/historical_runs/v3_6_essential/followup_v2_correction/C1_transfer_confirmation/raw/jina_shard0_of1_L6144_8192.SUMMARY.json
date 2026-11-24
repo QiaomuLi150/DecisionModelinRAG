@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "model": "jina",
+  "gpu": 3,
+  "shard": 0,
+  "shards": 1,
+  "rows": 5334,
+  "valid": 5334,
+  "failures": 0,
+  "failure_classes": {},
+  "elapsed_s": 531.7455082694069,
+  "raw_sha256": "44be3d5b63789e9fd0f57a7c607128bed32d505f200d50655c1d4cd4f0600cf2",
+  "labels_joined": false,
+  "Ls": [
+    6144,
+    8192
+  ]
+}

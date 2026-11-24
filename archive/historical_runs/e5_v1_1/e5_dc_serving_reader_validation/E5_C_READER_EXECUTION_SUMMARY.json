@@ -1,0 +1,15 @@
+{
+  "cache_disabled": true,
+  "diagnostic_tasks": 96,
+  "endpoint": "http://service.example.invalid/v1/chat/completions",
+  "errors": 0,
+  "fresh_http_requests": 496,
+  "historical_exact_reuse": 0,
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "reader_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "representative_tasks": 400,
+  "status": "E5_C_READER_UTILITY_READY",
+  "tasks": 496,
+  "valid": 496
+}

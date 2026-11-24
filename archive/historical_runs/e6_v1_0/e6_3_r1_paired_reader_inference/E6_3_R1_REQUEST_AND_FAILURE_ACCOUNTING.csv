@@ -1,0 +1,17 @@
+scope,policy,cohort,logical_slots,physical_calls,successes,failures,cache_reuses,context_failures,answer_scoring_calls
+policy_cohort,pplx_decider,representative_primary,200,200,200,0,0,0,0
+policy_cohort,pplx_decider,disagreement_diagnostic,60,60,60,0,0,0,0
+policy_cohort,pplx_decider,no_positive_diagnostic,64,64,64,0,0,0,0
+policy_cohort,jina_v3_5,representative_primary,200,200,200,0,0,0,0
+policy_cohort,jina_v3_5,disagreement_diagnostic,60,60,60,0,0,0,0
+policy_cohort,jina_v3_5,no_positive_diagnostic,64,64,64,0,0,0,0
+policy_cohort,startlux_decision_4b,representative_primary,200,200,200,0,0,0,0
+policy_cohort,startlux_decision_4b,disagreement_diagnostic,60,60,60,0,0,0,0
+policy_cohort,startlux_decision_4b,no_positive_diagnostic,64,64,64,0,0,0,0
+policy_cohort,qwen3_reranker_0_6b,representative_primary,200,200,200,0,0,0,0
+policy_cohort,qwen3_reranker_0_6b,disagreement_diagnostic,60,60,60,0,0,0,0
+policy_cohort,qwen3_reranker_0_6b,no_positive_diagnostic,64,64,64,0,0,0,0
+policy_cohort,original_fixed_pool_prefix5,representative_primary,200,200,200,0,0,0,0
+policy_cohort,original_fixed_pool_prefix5,disagreement_diagnostic,60,60,60,0,0,0,0
+policy_cohort,original_fixed_pool_prefix5,no_positive_diagnostic,64,64,64,0,0,0,0
+overall,ALL,UNION_DEDUPLICATED,1565,1565,1565,0,0,0,0

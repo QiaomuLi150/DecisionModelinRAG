@@ -1,0 +1,17 @@
+{
+  "expected_records": 1440,
+  "failed": 12,
+  "gpu_index": 6,
+  "labels_joined": false,
+  "model_load_ms": 16694.011,
+  "policies": [
+    "pplx_budget",
+    "pplx_single_3072",
+    "pplx_single_4096",
+    "pplx_two_stage_4096"
+  ],
+  "records": 1440,
+  "sha256": "9a99a9670dce2600a3fdab6ab697edf2041470c22393ec12e5ae378795176cea",
+  "status": "PASS",
+  "valid": 1428
+}

@@ -1,0 +1,4 @@
+tier,status,description
+T1,MEASURED,Deterministic normalized reference agreement against prespecified QASPER answer-form sets.
+T2,NOT_MEASURED,No separately pinned local evaluator was available under this execution scope.
+T3,INDEPENDENT_FACTUAL_CORRECTNESS_NOT_MEASURED,No human double-review or authoritative executable verification was authorized.

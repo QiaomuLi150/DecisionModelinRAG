@@ -1,0 +1,18 @@
+{
+  "gate": "V2_1_REPLICATION_OWNER_REVIEW_BLOCKED",
+  "status": "BLOCKED",
+  "decision_rule": "A3-R2",
+  "reason": "Both EnterpriseRAG-Bench and MuSiQue lack the exact existing BM25-only Top-20 candidate slate required by the frozen specification.",
+  "stage0_completed": true,
+  "stage1_model_inference": false,
+  "stage2_order_robustness": false,
+  "stage3_serving_timing": false,
+  "stage4_statistics": false,
+  "stage5_export": false,
+  "model_calls": 0,
+  "gpu_workloads": 0,
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "next_owner_decision": "Provide exact BM25 Top-20 slate/text manifests or approve a versioned protocol amendment explicitly permitting the historical hybrid RRF slates.",
+  "resume_command": "python3 scripts/v2_1_replication_stage0.py"
+}

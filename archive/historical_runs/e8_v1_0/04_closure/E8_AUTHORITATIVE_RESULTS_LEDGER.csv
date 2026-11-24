@@ -1,0 +1,2 @@
+claim_id,status,scope,metric,source,provenance_sha256,manuscript_safe_wording
+E8_RANK_METADATA_DIAGNOSTIC,VALIDATED_WITH_SCOPE_LIMITS,E7 CAL 80 questions; four policies; C/D,set stability and conditional nDCG,results/non_jev/v2/e8_v1_0/03_offline_analysis/E8_PAIRED_STATISTICS.json,e3ba1f80b33d0ea5ff26ea8987c888905dd7571a440fd7cad321ece7635e20fd,Fixed rank tags were evaluated as an exploratory input-format intervention.

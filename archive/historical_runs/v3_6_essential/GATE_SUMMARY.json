@@ -1,0 +1,8 @@
+{
+  "overall": "PARTIAL",
+  "stage0": "PASS",
+  "stage1_quality": "PASS",
+  "stage2_serving": "PARTIAL_2_OF_3_COMPLETE_REPLICATES",
+  "stage3": "PARTIAL_PENDING_T2_AND_OPTIONAL",
+  "stage4": "NOT_RUN"
+}

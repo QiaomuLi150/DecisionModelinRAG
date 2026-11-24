@@ -1,0 +1,76 @@
+{
+  "cross_pass_input_mismatch_examples": [],
+  "cross_pass_input_mismatch_n": 0,
+  "cross_pass_selected_ids_mismatch_examples": [],
+  "cross_pass_selected_ids_mismatch_n": 0,
+  "fallback_latency_substituted": false,
+  "labels_joined": false,
+  "latency_cohort_n": 2000,
+  "latency_cohort_sha256": "5d5f34e3b3a9cfd1b547744e1e4417c992e97b86a81edd94f8f175645652961c",
+  "protocol_sha256": "f15cb0f6001327bfe47e0b1d605f73f7beefc3c6a5fc195689cd5ca1652ce86e",
+  "qrels_read": false,
+  "raw_files_preserved": true,
+  "raw_manifest": [
+    {
+      "path": "results/v3_6_essential/frozen_prospective_validation_v2/raw/native_passB_paired_gpu3_shard0_of1_pass1.jsonl.part",
+      "records": 1426,
+      "sha256": "87114050c0ce271059e89a1ec3aa3fc2c4a64cdea15c779cd2464f1401e546ca"
+    },
+    {
+      "path": "results/v3_6_essential/frozen_prospective_validation_v2/raw/native_passB_paired_split_resume_gpu4_shard0_of1_pass1.jsonl",
+      "records": 6694,
+      "sha256": "056544eaa89b7638568deba69dafa6c02380b2fa42ede2695f1a29345646a7fa"
+    },
+    {
+      "path": "results/v3_6_essential/frozen_prospective_validation_v2/raw/native_passB_paired_reverse_pass_gpu3_shard0_of1_pass2.jsonl",
+      "records": 8120,
+      "sha256": "f8a9dce41e2794a73e87172cf1c0d3b405386137995cd31472028a107fb9f10a"
+    }
+  ],
+  "reverse_order_mismatch_examples": [],
+  "reverse_order_mismatch_n": 0,
+  "validations": {
+    "pass1": {
+      "anchor_counts": {
+        "end|jina_full_text|PASS": 60,
+        "start|jina_full_text|PASS": 60
+      },
+      "data_records": 8000,
+      "duplicate_data_keys": [],
+      "error_counts": {},
+      "expected_ids_exact": true,
+      "gpu_requested": {
+        "3": 1426,
+        "4": 6694
+      },
+      "missing_or_nonunique_data_keys": [],
+      "records": 8120,
+      "status_counts": {
+        "PASS": 8120
+      },
+      "unique_data_ids": 2000
+    },
+    "pass2": {
+      "anchor_counts": {
+        "end|jina_full_text|PASS": 60,
+        "start|jina_full_text|PASS": 60
+      },
+      "data_records": 8000,
+      "duplicate_data_keys": [],
+      "error_counts": {
+        "CUDA_OOM": 1
+      },
+      "expected_ids_exact": true,
+      "gpu_requested": {
+        "3": 8120
+      },
+      "missing_or_nonunique_data_keys": [],
+      "records": 8120,
+      "status_counts": {
+        "FAIL": 1,
+        "PASS": 8119
+      },
+      "unique_data_ids": 2000
+    }
+  }
+}

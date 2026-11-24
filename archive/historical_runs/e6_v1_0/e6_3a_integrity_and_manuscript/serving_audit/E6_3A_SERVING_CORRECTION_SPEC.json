@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-10-15T17:06:23.226820+00:00",
+  "frozen_slate": {
+    "contract_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+    "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_EXPLORATORY_TOP20_SLATES.jsonl",
+    "sha256": "b9b2a3c3971da72f7e7aff6066c381c681f0ff6f7b4592d85b480e12cd449333"
+  },
+  "garage_input_restore": "Reuse the frozen E6-3 label-blind K15 input records unchanged; no labels or outcomes are loaded.",
+  "gpu_policy": "Use physical GPU 1 only when it is live-audited idle/safe; no process eviction; sequential one-model subprocesses.",
+  "jev_calls": 0,
+  "labels_in_input": false,
+  "models": {
+    "amos_1_small_2b": "09ba3e9d8f506cfcb96ea130845d5d76d9d92028",
+    "bge_reranker_v2_m3": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+    "jina_v3_5": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+    "liquid_d1_3b": "051bcc464b01b9f92942b364d9586b0ef5912432",
+    "pplx_decider": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+    "qwen3_reranker_0_6b": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+    "qwen3_reranker_4b": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+    "startlux_decision_4b": "9c0a32e9809d6a3f612434dd0bce150295dcc274"
+  },
+  "paid_api_calls": 0,
+  "reason": "Restore the E6-2 native SciFact candidate content contract; historical E6-3 rows are preserved and never overwritten.",
+  "reserved_access": false,
+  "sample_manifest": {
+    "garage_n": 100,
+    "path": "results/non_jev/v2/e6_v1_0/e6_3_integrated_completion/matched_serving/E6_3_SERVING_SAMPLE_MANIFEST.json",
+    "repetitions": 2,
+    "scifact_n": 100,
+    "seed": 731,
+    "sha256": "d08e4fae279047db954bed3f8baf7801ea656e4a3891ac1af71402f4c904b46a",
+    "warmups": 16
+  },
+  "schema": "E6-3A-SERVING-CORRECTION-SPEC-V1",
+  "scifact_input_restore": "Use E6-2 R2 load_items() against the authenticated SciFact corpus; preserve frozen candidate IDs/order/content hashes; reconstruct title + newline + text exactly as E6-2.",
+  "source_code_hashes": {
+    "scripts/e6_1_native_adapter_validation.py": "a042f8a464c3e74c9384e4152a96160cb7ec7646e7d027bb1982d31f85eb0b33",
+    "scripts/e6_1b_checkpoint_recovery.py": "242c60e79d2c727dc172bb4920b390710339405ee19fdefa730816ddd0abfb8d",
+    "scripts/e6_2_r2_selector_inference.py": "26c08ba8114c99f36894ba9afc938c9479e55fb448190c548d2cb4f610a772c7",
+    "scripts/e6_3_integrated_completion.py": "94fd7ea9fc8b04461db5d56469b6c0f48f4a29be6e6d333acdbfa39d81d6eb50"
+  },
+  "status": "FROZEN_BEFORE_CORRECTED_INFERENCE",
+  "timed_boundary": "Corrected E6-3 selector boundary: synchronization, candidate view lookup, native adapter serialization/tokenization/inference/readout, synchronization, stable Top-5 selection; persistence outside timer. This is explicitly narrower than full end-to-end retrieval."
+}

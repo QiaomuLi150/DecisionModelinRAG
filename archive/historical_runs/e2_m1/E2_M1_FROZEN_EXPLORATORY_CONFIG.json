@@ -1,0 +1,50 @@
+{
+  "bootstrap_reps": 5000,
+  "bootstrap_seed": 731,
+  "checkpoint": {
+    "model_id": "Cloudflare/clef-flash",
+    "precision": "bfloat16",
+    "revision": "8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3"
+  },
+  "created_utc": "2026-10-12T21:38:31.480803+00:00",
+  "gpu_audit": {
+    "authorized_gpu_ids": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "checkpoint": {
+      "local_snapshot": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--Cloudflare--clef-flash/snapshots/8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3",
+      "model_id": "Cloudflare/clef-flash",
+      "revision": "8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3"
+    },
+    "precision": "bfloat16",
+    "selected_gpu_ids": [
+      0
+    ],
+    "selected_gpu_reason": "GPU0 had approximately 81 GiB free and no compute process at inspection; GPUs1/2 host active services, GPU4 was busy, and other devices were not authorized by the attached task.",
+    "service_restarts": 0,
+    "telemetry_note": "Actual GPU utilization/memory samples are recorded per inference call by torch; device inventory was inspected outside the sandbox before this run.",
+    "unrelated_services_interrupted": false
+  },
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "policies": [
+    "clef_pointwise_top5",
+    "clef_joint_top5",
+    "clef_pointwise_quartet_top5",
+    "clef_joint_quartet_top5",
+    "historical_clef_g5"
+  ],
+  "random_seed": 20261011,
+  "stage": "full",
+  "status": "RUNNING",
+  "study": "DecisionRAG v2.1 E2-M1 accelerated controlled mechanism experiment",
+  "view_contract": {
+    "candidate_count": 20,
+    "joint_max_length": 16384,
+    "passage_tokens": 128,
+    "question_tokens": 64
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-16T00:43:11.007410+00:00",
+  "e10_started": false,
+  "jev_calls": 0,
+  "manuscript_started": false,
+  "model_inference_started": false,
+  "paid_api_calls": 0,
+  "reader_calls": 0,
+  "reserved_holdout_access": false,
+  "status": "E9_BENCHMARK_ADMISSION_BLOCKED"
+}

@@ -1,0 +1,13 @@
+{
+  "deterministic": true,
+  "max_result_length": 100,
+  "min_result_length": 100,
+  "nonempty_result_queries": 555,
+  "queries": 555,
+  "relevance_metrics_run": false,
+  "run1_rank_digest": "633d3d3f3bb752d021c044c3d813a6dd6fb38ff2d501066ecd38bbdc3424cc06",
+  "run2_rank_digest": "633d3d3f3bb752d021c044c3d813a6dd6fb38ff2d501066ecd38bbdc3424cc06",
+  "scope": "CAL only; no qrels or RESERVED content loaded",
+  "status": "PASS",
+  "top_k": 100
+}

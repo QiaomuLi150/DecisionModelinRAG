@@ -1,0 +1,59 @@
+{
+  "audit_status": "PARTIAL_REPRODUCIBILITY",
+  "whole_project_reproducible_from_public_tree": false,
+  "release_integrity": {
+    "checksum_entries": 2921,
+    "source_crosswalk_rows": 73,
+    "trace_projection_rows": 29,
+    "frozen_protocol_hashes": "PASS"
+  },
+  "tests": {
+    "bounded_release_integrity": {
+      "passed": 8,
+      "failed": 0
+    },
+    "packaged_python_syntax": {
+      "checked": 257,
+      "passed": 257
+    },
+    "historical_suite": {
+      "collected": 297,
+      "passed": 70,
+      "failed": 225,
+      "skipped": 2,
+      "exit_code": 1
+    },
+    "known_missing_artifact_example": "code/results/non_jev/v2/e2_m0/E2_M0_OWNER_GATE.json"
+  },
+  "privacy_and_publication": {
+    "working_tree_content_scan": {
+      "status": "PASS",
+      "files": 2922,
+      "compressed_payloads": "scanned"
+    },
+    "release_redaction": {
+      "files_changed": 32,
+      "gzip_payloads_changed": 6,
+      "path_pattern_substitutions": 28621,
+      "username_substitutions": 0,
+      "credential_substitutions": 0,
+      "gpu_uuid_substitutions": 0,
+      "numeric_scores_or_metric_fields_intentionally_changed": false
+    },
+    "reachable_git_history": {
+      "status": "PASS",
+      "mode": "single_root_snapshot",
+      "commits": 1,
+      "tree_scan": "PASS"
+    },
+    "github_visibility": "PRIVATE",
+    "public_gate": "BLOCKED_OLD_COMMITS_STILL_API_ACCESSIBLE",
+    "reason": "GitHub authenticated commit endpoints still return pre-redaction commit IDs after the force update; Support cache/reference purge is required before public visibility."
+  },
+  "scope": {
+    "model_inference_run": false,
+    "historical_metrics_intentionally_modified": false,
+    "release_payload_string_redactions_applied": true,
+    "benchmark_or_model_assets_added": false
+  }
+}

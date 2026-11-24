@@ -1,0 +1,45 @@
+{
+  "e5_0_hash_audit": {
+    "e5_0_gate": "E5_0_CONDITIONAL_READY",
+    "e5_0_historical_audit": {
+      "checked": 31,
+      "clean": true,
+      "manifest_present": true,
+      "mismatches": [],
+      "missing": []
+    },
+    "e5_0_manifest_files": 36,
+    "e5_0_mismatches": [],
+    "e5_0_missing": [],
+    "expected_slate_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+    "slate_file_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+    "slate_hash_exact_match": true
+  },
+  "e5_0c_did_not": [
+    "model inference",
+    "embedding inference",
+    "HTTP/API requests",
+    "GPU use",
+    "reader generation",
+    "Jev",
+    "paid API",
+    "reserved raw-content access"
+  ],
+  "execution_mode": "CPU_OFFLINE",
+  "git": {
+    "branch": "main",
+    "dirty": true,
+    "head": "246ff54e66b178eadd350351a5544879f5484ed2",
+    "status_sha256": "3505b98a49e41a2691ed8934e58d9c7454175192669039f8d68d003b37c97a22"
+  },
+  "input_snapshot_hashes": {
+    "qasper-dev-v0.3.json": "2ae7ee62a65b1c4225791c70de80c2aad4e8998cf1fd4f09a53103db4f21af93",
+    "qasper-train-v0.3.json": "9458bfe76074a8fa8d1685af02bcc73537aa6d338ad20591dfaff1946bc88bf4"
+  },
+  "platform": "Linux-6.8.0-137-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "read_root": ".",
+  "status": "PASS_WITH_GOVERNANCE_QUALIFICATIONS",
+  "user": "<REDACTED_USER>",
+  "write_root": "./results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure"
+}

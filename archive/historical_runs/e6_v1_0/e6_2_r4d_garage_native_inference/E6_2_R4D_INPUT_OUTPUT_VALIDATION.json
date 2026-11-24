@@ -1,0 +1,22 @@
+{
+  "all_valid_ids_in_pool": true,
+  "attempt_keys": 11176,
+  "duplicate_keys": [],
+  "input_population": {
+    "canonical_item_manifest_sha256": "10c05f30a75b7630f84a2bcb8d90d3ce0a00f9bd6456f619c5ef3cb2f0fd2092",
+    "forbidden_fields_seen": false,
+    "input_file_sha256": "cbe937a1ff3425cc55c937ef32cfd99c470ec09374dfa72b855b79c4fb4935b7",
+    "partition_manifest_sha256": "98c81a492c45e1e69b56101b721c5f852e75d10c0cc4bc3fdc8774e2a1c309c8",
+    "reserved_content_loaded": false,
+    "rows": 1397,
+    "sample_ids_sha256": "255e4473c5e2d00f370be29a9b9ed77554c419e957f31ad70c5d810e437b9097"
+  },
+  "jev_calls": 0,
+  "labels_or_answers_in_loader": false,
+  "missing_keys": [],
+  "paid_api_calls": 0,
+  "quality_scoring": false,
+  "reserved_content_loaded": false,
+  "scheduled_keys": 11176,
+  "valid_rows": 11176
+}

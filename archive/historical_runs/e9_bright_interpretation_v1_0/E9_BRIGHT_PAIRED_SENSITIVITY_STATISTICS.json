@@ -1,0 +1,1526 @@
+{
+  "bootstrap_resamples": 5000,
+  "common_valid": {
+    "Liquid_Qwen0.6B": {
+      "comparison": {
+        "a_macro_ndcg5": 0.14925101286923964,
+        "b_macro_ndcg5": 0.16572535892853416,
+        "ci95_domain_resample": "[-0.03891565796651629, 0.008673748468179152]",
+        "ci95_fixed_domain_query_resample": "[-0.02772055514503887, -0.005043420909683997]",
+        "ci95_hierarchical_domain_query_resample": "[-0.04191790646266499, 0.012263593981909616]",
+        "ci95_query_resample": "[-0.03234381551523372, -0.010138350125435095]",
+        "comparison": "Liquid_minus_Qwen0.6B",
+        "delta_macro_a_minus_b": -0.016474346059294535,
+        "delta_query_weighted": -0.02083276691847113,
+        "domain_count": 12,
+        "model_a": "Liquid",
+        "model_b": "Qwen0.6B",
+        "n": 1382,
+        "paired_losses_a": 244,
+        "paired_ties": 954,
+        "paired_wins_a": 184,
+        "population": "common_valid",
+        "selection_note": "common-valid and fallback populations are post-hoc diagnostics; the operational row is the frozen E9 primary"
+      },
+      "domains": 12,
+      "n": 1382
+    },
+    "PPLX_Jina": {
+      "comparison": {
+        "a_macro_ndcg5": 0.16991190802413425,
+        "b_macro_ndcg5": 0.1429265249319946,
+        "ci95_domain_resample": "[0.012703323343232098, 0.04142335168989296]",
+        "ci95_fixed_domain_query_resample": "[0.016242046439180667, 0.0375727587542815]",
+        "ci95_hierarchical_domain_query_resample": "[0.00985150133102251, 0.044828770329711734]",
+        "ci95_query_resample": "[0.025852780050449813, 0.04924790401420552]",
+        "comparison": "PPLX_minus_Jina",
+        "delta_macro_a_minus_b": 0.02698538309213968,
+        "delta_query_weighted": 0.037135037021109256,
+        "domain_count": 11,
+        "model_a": "PPLX",
+        "model_b": "Jina",
+        "n": 611,
+        "paired_losses_a": 48,
+        "paired_ties": 434,
+        "paired_wins_a": 129,
+        "population": "common_valid",
+        "selection_note": "common-valid and fallback populations are post-hoc diagnostics; the operational row is the frozen E9 primary"
+      },
+      "domains": 11,
+      "n": 611
+    }
+  },
+  "created_utc": "2026-10-16T02:49:21.822320+00:00",
+  "failure_casebook_count": 775,
+  "fallback_policy": {
+    "comparisons": [
+      {
+        "a_macro_ndcg5": 0.1683349299072522,
+        "b_macro_ndcg5": 0.18338183498796223,
+        "ci95_domain_resample": "[-0.037459801723018944, 0.009020055524622431]",
+        "ci95_fixed_domain_query_resample": "[-0.026032464353709872, -0.004214510963407284]",
+        "ci95_hierarchical_domain_query_resample": "[-0.040305058259753654, 0.010564377000573996]",
+        "ci95_query_resample": "[-0.02690464866387579, -0.004888965057921777]",
+        "comparison": "PPLX_fallback_minus_Jina",
+        "delta_macro_a_minus_b": -0.015046905080710021,
+        "delta_query_weighted": -0.01565348432882371,
+        "domain_count": 12,
+        "model_a": "PPLX_fallback",
+        "model_b": "Jina",
+        "n": 1384,
+        "paired_losses_a": 220,
+        "paired_ties": 956,
+        "paired_wins_a": 208,
+        "population": "posthoc_failure_fallback_all_queries",
+        "selection_note": "common-valid and fallback populations are post-hoc diagnostics; the operational row is the frozen E9 primary"
+      },
+      {
+        "a_macro_ndcg5": 0.16547821827741305,
+        "b_macro_ndcg5": 0.18338183498796223,
+        "ci95_domain_resample": "[-0.03423529743522099, -0.0018713080503476981]",
+        "ci95_fixed_domain_query_resample": "[-0.025389810567114902, -0.010607511869221344]",
+        "ci95_hierarchical_domain_query_resample": "[-0.03588692655678575, -0.0003794139944012737]",
+        "ci95_query_resample": "[-0.02334426372473387, -0.008746456847991161]",
+        "comparison": "Qwen_fallback_minus_Jina",
+        "delta_macro_a_minus_b": -0.01790361671054918,
+        "delta_query_weighted": -0.015947017708384675,
+        "domain_count": 12,
+        "model_a": "Qwen0.6B_fallback",
+        "model_b": "Jina",
+        "n": 1384,
+        "paired_losses_a": 199,
+        "paired_ties": 1045,
+        "paired_wins_a": 140,
+        "population": "posthoc_failure_fallback_all_queries",
+        "selection_note": "common-valid and fallback populations are post-hoc diagnostics; the operational row is the frozen E9 primary"
+      },
+      {
+        "a_macro_ndcg5": 0.1683349299072522,
+        "b_macro_ndcg5": 0.13016223566151536,
+        "ci95_domain_resample": "[0.018633759609045248, 0.06067033254064973]",
+        "ci95_fixed_domain_query_resample": "[0.030785548923253567, 0.045825681240964054]",
+        "ci95_hierarchical_domain_query_resample": "[0.0171698533178043, 0.06239738199804124]",
+        "ci95_query_resample": "[0.0285979113377796, 0.0432382630845776]",
+        "comparison": "PPLX_fallback_minus_Retrieval",
+        "delta_macro_a_minus_b": 0.038172694245736875,
+        "delta_query_weighted": 0.03574901086000664,
+        "domain_count": 12,
+        "model_a": "PPLX_fallback",
+        "model_b": "RetrievalPrefix5",
+        "n": 1384,
+        "paired_losses_a": 35,
+        "paired_ties": 1175,
+        "paired_wins_a": 174,
+        "population": "posthoc_failure_fallback_all_queries",
+        "selection_note": "common-valid and fallback populations are post-hoc diagnostics; the operational row is the frozen E9 primary"
+      },
+      {
+        "a_macro_ndcg5": 0.16547821827741305,
+        "b_macro_ndcg5": 0.13016223566151536,
+        "ci95_domain_resample": "[0.021739923366559086, 0.050195818343793115]",
+        "ci95_fixed_domain_query_resample": "[0.022975005198916962, 0.04789357788427288]",
+        "ci95_hierarchical_domain_query_resample": "[0.0164666031003363, 0.05420426694256949]",
+        "ci95_query_resample": "[0.023487411629364924, 0.04756619608737895]",
+        "comparison": "Qwen_fallback_minus_Retrieval",
+        "delta_macro_a_minus_b": 0.03531598261589772,
+        "delta_query_weighted": 0.035455477480445675,
+        "domain_count": 12,
+        "model_a": "Qwen0.6B_fallback",
+        "model_b": "RetrievalPrefix5",
+        "n": 1384,
+        "paired_losses_a": 168,
+        "paired_ties": 939,
+        "paired_wins_a": 277,
+        "population": "posthoc_failure_fallback_all_queries",
+        "selection_note": "common-valid and fallback populations are post-hoc diagnostics; the operational row is the frozen E9 primary"
+      }
+    ],
+    "definition": "model Top-5 when status=ok; frozen retrieval Prefix-5 after failure",
+    "not_free": true
+  },
+  "feasible_intersection_comparisons": [
+    {
+      "a_macro_ndcg5": 0.47284092005817774,
+      "b_macro_ndcg5": 0.3956769364150894,
+      "ci95_domain_resample": "[0.04450025224975117, 0.10629216128548795]",
+      "ci95_fixed_domain_query_resample": "[0.050085623915833835, 0.10538776743308359]",
+      "ci95_hierarchical_domain_query_resample": "[0.03313516799959225, 0.11912227771587656]",
+      "ci95_query_resample": "[0.06266773026968754, 0.11238955883764554]",
+      "comparison": "PPLX_minus_Jina",
+      "delta_macro_a_minus_b": 0.07716398364308835,
+      "delta_query_weighted": 0.08726733699960676,
+      "domain_count": 11,
+      "model_a": "PPLX",
+      "model_b": "Jina",
+      "n": 260,
+      "paired_losses_a": 48,
+      "paired_ties": 83,
+      "paired_wins_a": 129,
+      "population": "common_valid_and_retrieval_feasible",
+      "selection_note": "common-valid and fallback populations are post-hoc diagnostics; the operational row is the frozen E9 primary"
+    },
+    {
+      "a_macro_ndcg5": 0.3584012408594006,
+      "b_macro_ndcg5": 0.4231154382215359,
+      "ci95_domain_resample": "[-0.13362591264949233, 0.00398570743705021]",
+      "ci95_fixed_domain_query_resample": "[-0.09625428375941458, -0.034272046241057084]",
+      "ci95_hierarchical_domain_query_resample": "[-0.14051731787469035, 0.010467055420985515]",
+      "ci95_query_resample": "[-0.07381272030310952, -0.021159471655740388]",
+      "comparison": "Liquid_minus_Qwen0.6B",
+      "delta_macro_a_minus_b": -0.06471419736213532,
+      "delta_query_weighted": -0.04750970937512723,
+      "domain_count": 12,
+      "model_a": "Liquid",
+      "model_b": "Qwen0.6B",
+      "n": 606,
+      "paired_losses_a": 244,
+      "paired_ties": 178,
+      "paired_wins_a": 184,
+      "population": "common_valid_and_retrieval_feasible",
+      "selection_note": "common-valid and fallback populations are post-hoc diagnostics; the operational row is the frozen E9 primary"
+    }
+  ],
+  "known_positive_contract": "gold_ids are known positives and not exhaustive verified negatives or complete-support sets; no gold values entered model inputs",
+  "latency_failure_audit": {
+    "jina_v3_5": {
+      "all_attempts": {
+        "duration_p50_ms": 382.141571,
+        "duration_p95_ms": 1422.2969771999979,
+        "input_tokens_n": 1384,
+        "input_tokens_p50": 8299.0,
+        "input_tokens_p95": 20433.3,
+        "memory_p50_mib": 2109.24658203125,
+        "memory_p95_mib": 4497.824902343747,
+        "n": 1384
+      },
+      "device_allocation": {
+        "gpu_after": {
+          "captured_at": "2026-10-16T02:11:08.576640+00:00",
+          "devices": [
+            {
+              "index": 0,
+              "memory_free_mib": 63033,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 18119,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 56,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 1,
+              "memory_free_mib": 28195,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 52957,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 86,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 2,
+              "memory_free_mib": 26367,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 54785,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 3,
+              "memory_free_mib": 43977,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 37175,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 100,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 4,
+              "memory_free_mib": 24570,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 56583,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 5,
+              "memory_free_mib": 38852,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 42301,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 51,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 6,
+              "memory_free_mib": 15521,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 65631,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 100,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 7,
+              "memory_free_mib": 65436,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 15717,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            }
+          ],
+          "status": "ok"
+        },
+        "gpu_before": {
+          "captured_at": "2026-10-16T01:58:32.797992+00:00",
+          "devices": [
+            {
+              "index": 0,
+              "memory_free_mib": 63033,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 18119,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 29,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 1,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 2,
+              "memory_free_mib": 26367,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 54785,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 3,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 4,
+              "memory_free_mib": 24570,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 56583,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 5,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 6,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 7,
+              "memory_free_mib": 65436,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 15717,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            }
+          ],
+          "status": "ok"
+        },
+        "gpu_id": 5
+      },
+      "failed_attempts": {
+        "duration_p50_ms": null,
+        "duration_p95_ms": null,
+        "input_tokens_n": 0,
+        "input_tokens_p50": null,
+        "input_tokens_p95": null,
+        "memory_p50_mib": null,
+        "memory_p95_mib": null,
+        "n": 0
+      },
+      "failure_reasons": {},
+      "measurement_boundary": "runner timer starts after CUDA synchronize/reset_peak_memory_stats and before request construction/native scoring; ends after score extraction/Top-5 packaging; model loading is excluded; candidate lookup is outside the timer",
+      "successful_attempts": {
+        "duration_p50_ms": 382.141571,
+        "duration_p95_ms": 1422.2969771999979,
+        "input_tokens_n": 1384,
+        "input_tokens_p50": 8299.0,
+        "input_tokens_p95": 20433.3,
+        "memory_p50_mib": 2109.24658203125,
+        "memory_p95_mib": 4497.824902343747,
+        "n": 1384
+      }
+    },
+    "liquid_d1_3b": {
+      "all_attempts": {
+        "duration_p50_ms": 602.7278779999999,
+        "duration_p95_ms": 1734.2709429499998,
+        "input_tokens_n": 1384,
+        "input_tokens_p50": 16622.5,
+        "input_tokens_p95": 41909.49999999999,
+        "memory_p50_mib": 7259.474609375,
+        "memory_p95_mib": 9210.712890625,
+        "n": 1384
+      },
+      "device_allocation": {
+        "gpu_after": {
+          "captured_at": "2026-10-16T02:16:53.858865+00:00",
+          "devices": [
+            {
+              "index": 0,
+              "memory_free_mib": 63033,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 18119,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 72,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 1,
+              "memory_free_mib": 27696,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 53457,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 100,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 2,
+              "memory_free_mib": 26367,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 54785,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 3,
+              "memory_free_mib": 43458,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 37695,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 100,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 4,
+              "memory_free_mib": 24570,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 56583,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 5,
+              "memory_free_mib": 80629,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 523,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 22,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 6,
+              "memory_free_mib": 80629,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 523,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 19,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 7,
+              "memory_free_mib": 65436,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 15717,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            }
+          ],
+          "status": "ok"
+        },
+        "gpu_before": {
+          "captured_at": "2026-10-16T01:58:32.720895+00:00",
+          "devices": [
+            {
+              "index": 0,
+              "memory_free_mib": 63033,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 18119,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 59,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 1,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 2,
+              "memory_free_mib": 26367,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 54785,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 3,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 4,
+              "memory_free_mib": 24570,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 56583,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 5,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 6,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 7,
+              "memory_free_mib": 65436,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 15717,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            }
+          ],
+          "status": "ok"
+        },
+        "gpu_id": 3
+      },
+      "failed_attempts": {
+        "duration_p50_ms": null,
+        "duration_p95_ms": null,
+        "input_tokens_n": 0,
+        "input_tokens_p50": null,
+        "input_tokens_p95": null,
+        "memory_p50_mib": null,
+        "memory_p95_mib": null,
+        "n": 0
+      },
+      "failure_reasons": {},
+      "measurement_boundary": "runner timer starts after CUDA synchronize/reset_peak_memory_stats and before request construction/native scoring; ends after score extraction/Top-5 packaging; model loading is excluded; candidate lookup is outside the timer",
+      "successful_attempts": {
+        "duration_p50_ms": 602.7278779999999,
+        "duration_p95_ms": 1734.2709429499998,
+        "input_tokens_n": 1384,
+        "input_tokens_p50": 16622.5,
+        "input_tokens_p95": 41909.49999999999,
+        "memory_p50_mib": 7259.474609375,
+        "memory_p95_mib": 9210.712890625,
+        "n": 1384
+      }
+    },
+    "pplx_decider": {
+      "all_attempts": {
+        "duration_p50_ms": 82.879796,
+        "duration_p95_ms": 2419.5117656499997,
+        "input_tokens_n": 0,
+        "input_tokens_p50": null,
+        "input_tokens_p95": null,
+        "memory_p50_mib": 50824.259765625,
+        "memory_p95_mib": 51334.747314453125,
+        "n": 1384
+      },
+      "device_allocation": {
+        "gpu_after": {
+          "captured_at": "2026-10-16T02:18:12.564462+00:00",
+          "devices": [
+            {
+              "index": 0,
+              "memory_free_mib": 63033,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 18119,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 63,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 1,
+              "memory_free_mib": 27676,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 53477,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 91,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 2,
+              "memory_free_mib": 26367,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 54785,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 3,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 4,
+              "memory_free_mib": 24570,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 56583,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 5,
+              "memory_free_mib": 80629,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 523,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 15,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 6,
+              "memory_free_mib": 80629,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 523,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 18,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 7,
+              "memory_free_mib": 65436,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 15717,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            }
+          ],
+          "status": "ok"
+        },
+        "gpu_before": {
+          "captured_at": "2026-10-16T01:58:32.787653+00:00",
+          "devices": [
+            {
+              "index": 0,
+              "memory_free_mib": 63033,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 18119,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 29,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 1,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 2,
+              "memory_free_mib": 26367,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 54785,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 3,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 4,
+              "memory_free_mib": 24570,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 56583,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 5,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 6,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 7,
+              "memory_free_mib": 65436,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 15717,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            }
+          ],
+          "status": "ok"
+        },
+        "gpu_id": 1
+      },
+      "failed_attempts": {
+        "duration_p50_ms": 55.793531,
+        "duration_p95_ms": 98.77215899999999,
+        "input_tokens_n": 0,
+        "input_tokens_p50": null,
+        "input_tokens_p95": null,
+        "memory_p50_mib": null,
+        "memory_p95_mib": null,
+        "n": 773
+      },
+      "failure_reasons": {
+        "ValueError: Question branch exceeds the 8192-token limit; no input was truncated.": 773
+      },
+      "measurement_boundary": "runner timer starts after CUDA synchronize/reset_peak_memory_stats and before request construction/native scoring; ends after score extraction/Top-5 packaging; model loading is excluded; candidate lookup is outside the timer",
+      "successful_attempts": {
+        "duration_p50_ms": 1764.997916,
+        "duration_p95_ms": 2677.1878895,
+        "input_tokens_n": 0,
+        "input_tokens_p50": null,
+        "input_tokens_p95": null,
+        "memory_p50_mib": 50824.259765625,
+        "memory_p95_mib": 51334.747314453125,
+        "n": 611
+      }
+    },
+    "qwen3_reranker_0_6b": {
+      "all_attempts": {
+        "duration_p50_ms": 323.2234465,
+        "duration_p95_ms": 1524.2218250999988,
+        "input_tokens_n": 0,
+        "input_tokens_p50": null,
+        "input_tokens_p95": null,
+        "memory_p50_mib": 12909.385009765625,
+        "memory_p95_mib": 33618.5220703125,
+        "n": 1384
+      },
+      "device_allocation": {
+        "gpu_after": {
+          "captured_at": "2026-10-16T02:12:32.256104+00:00",
+          "devices": [
+            {
+              "index": 0,
+              "memory_free_mib": 63033,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 18119,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 1,
+              "memory_free_mib": 28195,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 52957,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 100,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 2,
+              "memory_free_mib": 26367,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 54785,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 3,
+              "memory_free_mib": 43977,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 37175,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 100,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 4,
+              "memory_free_mib": 24570,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 56583,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 5,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 6,
+              "memory_free_mib": 15521,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 65631,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 99,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 7,
+              "memory_free_mib": 65436,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 15717,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            }
+          ],
+          "status": "ok"
+        },
+        "gpu_before": {
+          "captured_at": "2026-10-16T01:58:32.735130+00:00",
+          "devices": [
+            {
+              "index": 0,
+              "memory_free_mib": 63033,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 18119,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 59,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 1,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 2,
+              "memory_free_mib": 26367,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 54785,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 3,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 4,
+              "memory_free_mib": 24570,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 56583,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 5,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 6,
+              "memory_free_mib": 81149,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 4,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            },
+            {
+              "index": 7,
+              "memory_free_mib": 65436,
+              "memory_total_mib": 81920,
+              "memory_used_mib": 15717,
+              "name": "NVIDIA A100-SXM4-80GB",
+              "utilization_percent": 0,
+              "uuid": "<REDACTED_GPU_UUID>"
+            }
+          ],
+          "status": "ok"
+        },
+        "gpu_id": 6
+      },
+      "failed_attempts": {
+        "duration_p50_ms": 16191.298291,
+        "duration_p95_ms": 29036.988318999996,
+        "input_tokens_n": 0,
+        "input_tokens_p50": null,
+        "input_tokens_p95": null,
+        "memory_p50_mib": null,
+        "memory_p95_mib": null,
+        "n": 2
+      },
+      "failure_reasons": {
+        "OutOfMemoryError: CUDA out of memory. Tried to allocate 15.70 GiB. GPU 0 has a total capacity of 79.25 GiB of which 13.33 GiB is free. Including non-PyTorch memory, this process has 63.78 GiB memory in use. Process 340707 has 2.13 GiB memory in use. Of the allocated memory 45.98 GiB is allocated by PyTorch, and 17.30 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)": 1,
+        "OutOfMemoryError: CUDA out of memory. Tried to allocate 16.00 GiB. GPU 0 has a total capacity of 79.25 GiB of which 15.16 GiB is free. Including non-PyTorch memory, this process has 64.08 GiB memory in use. Of the allocated memory 44.80 GiB is allocated by PyTorch, and 18.78 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)": 1
+      },
+      "measurement_boundary": "runner timer starts after CUDA synchronize/reset_peak_memory_stats and before request construction/native scoring; ends after score extraction/Top-5 packaging; model loading is excluded; candidate lookup is outside the timer",
+      "successful_attempts": {
+        "duration_p50_ms": 322.25375399999996,
+        "duration_p95_ms": 1505.1584703000003,
+        "input_tokens_n": 0,
+        "input_tokens_p50": null,
+        "input_tokens_p95": null,
+        "memory_p50_mib": 12909.385009765625,
+        "memory_p95_mib": 33618.5220703125,
+        "n": 1382
+      }
+    }
+  },
+  "original_operational_reproduction": {
+    "absolute_ci_difference": [
+      -0.0012142733815587725,
+      0.0008066767101364974
+    ],
+    "absolute_effect_difference": 0.0,
+    "computed": {
+      "ci95_domain_resample": [
+        -0.15503154829573165,
+        -0.0434499211615929
+      ],
+      "ci95_fixed_domain_query_resample": [
+        -0.11302516171339956,
+        -0.08406319526671639
+      ],
+      "ci95_hierarchical_domain_query_resample": [
+        -0.15698445118510918,
+        -0.042030114628066696
+      ],
+      "ci95_query_resample": [
+        -0.11865682686774454,
+        -0.08793644071686169
+      ],
+      "domain_count": 12,
+      "domain_effects": [
+        {
+          "domain": "aops",
+          "effect": -0.04925096130884723,
+          "n": 111
+        },
+        {
+          "domain": "biology",
+          "effect": 0.011672083863888343,
+          "n": 103
+        },
+        {
+          "domain": "earth_science",
+          "effect": -0.21478339098646837,
+          "n": 116
+        },
+        {
+          "domain": "economics",
+          "effect": -0.14295364608640493,
+          "n": 103
+        },
+        {
+          "domain": "leetcode",
+          "effect": -0.28061706321923746,
+          "n": 142
+        },
+        {
+          "domain": "pony",
+          "effect": 0.07085092493114538,
+          "n": 112
+        },
+        {
+          "domain": "psychology",
+          "effect": -0.1568303989065555,
+          "n": 101
+        },
+        {
+          "domain": "robotics",
+          "effect": -0.10451087598616769,
+          "n": 101
+        },
+        {
+          "domain": "stackoverflow",
+          "effect": -0.18980956295786516,
+          "n": 117
+        },
+        {
+          "domain": "sustainable_living",
+          "effect": -0.009633886839658221,
+          "n": 108
+        },
+        {
+          "domain": "theoremqa_questions",
+          "effect": -0.07234482417128003,
+          "n": 194
+        },
+        {
+          "domain": "theoremqa_theorems",
+          "effect": -0.04225274953188513,
+          "n": 76
+        }
+      ],
+      "estimate_macro_domain": -0.09837202926661133,
+      "estimate_query_weighted": -0.10311112905783597,
+      "n": 1384,
+      "paired_losses_a": 334,
+      "paired_ties": 921,
+      "paired_wins_a": 129,
+      "resamples": 5000,
+      "seed": 731
+    },
+    "source": {
+      "ci95": [
+        -0.15381727491417288,
+        -0.0442565978717294
+      ],
+      "effect": -0.09837202926661133,
+      "n": 12,
+      "reps": 5000,
+      "seed": 731
+    }
+  },
+  "population": {
+    "all_queries": 1384,
+    "common_valid_liquid_qwen": 1382,
+    "common_valid_liquid_qwen_feasible": 606,
+    "common_valid_pplx_jina": 611,
+    "common_valid_pplx_jina_feasible": 260,
+    "domains": 12,
+    "retrieval_feasible": 607,
+    "retrieval_feasible_domains": 12
+  },
+  "regression": {
+    "command": "python -m pytest -q --disable-warnings",
+    "returncode": 0,
+    "status": "PASS",
+    "summary_tail": "........................................................................ [ 23%]\n........................................................................ [ 47%]\n........................................................................ [ 71%]\n........................................................................ [ 95%]\n.............                                                            [100%]\n"
+  },
+  "retrieval_feasibility_by_domain": [
+    {
+      "complete_gold_not_claimed": true,
+      "domain": "biology",
+      "fraction": 0.5242718446601942,
+      "known_positive_top20": 54,
+      "n": 103
+    },
+    {
+      "complete_gold_not_claimed": true,
+      "domain": "earth_science",
+      "fraction": 0.7327586206896551,
+      "known_positive_top20": 85,
+      "n": 116
+    },
+    {
+      "complete_gold_not_claimed": true,
+      "domain": "economics",
+      "fraction": 0.4174757281553398,
+      "known_positive_top20": 43,
+      "n": 103
+    },
+    {
+      "complete_gold_not_claimed": true,
+      "domain": "psychology",
+      "fraction": 0.38613861386138615,
+      "known_positive_top20": 39,
+      "n": 101
+    },
+    {
+      "complete_gold_not_claimed": true,
+      "domain": "robotics",
+      "fraction": 0.4158415841584158,
+      "known_positive_top20": 42,
+      "n": 101
+    },
+    {
+      "complete_gold_not_claimed": true,
+      "domain": "stackoverflow",
+      "fraction": 0.48717948717948717,
+      "known_positive_top20": 57,
+      "n": 117
+    },
+    {
+      "complete_gold_not_claimed": true,
+      "domain": "sustainable_living",
+      "fraction": 0.4722222222222222,
+      "known_positive_top20": 51,
+      "n": 108
+    },
+    {
+      "complete_gold_not_claimed": true,
+      "domain": "pony",
+      "fraction": 0.7232142857142857,
+      "known_positive_top20": 81,
+      "n": 112
+    },
+    {
+      "complete_gold_not_claimed": true,
+      "domain": "leetcode",
+      "fraction": 0.5140845070422535,
+      "known_positive_top20": 73,
+      "n": 142
+    },
+    {
+      "complete_gold_not_claimed": true,
+      "domain": "aops",
+      "fraction": 0.2972972972972973,
+      "known_positive_top20": 33,
+      "n": 111
+    },
+    {
+      "complete_gold_not_claimed": true,
+      "domain": "theoremqa_questions",
+      "fraction": 0.1958762886597938,
+      "known_positive_top20": 38,
+      "n": 194
+    },
+    {
+      "complete_gold_not_claimed": true,
+      "domain": "theoremqa_theorems",
+      "fraction": 0.14473684210526316,
+      "known_positive_top20": 11,
+      "n": 76
+    }
+  ],
+  "seed": 731,
+  "source_hash_audit": {
+    "e9_checked": [
+      {
+        "actual_sha256": "891d8073956a13e1eb2142088e896c89b5065ed56c6007ef1dd9cbe6609eb590",
+        "exists": true,
+        "expected_sha256": "891d8073956a13e1eb2142088e896c89b5065ed56c6007ef1dd9cbe6609eb590",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/00_admission/BRIGHT_ADMISSION_REPORT.md"
+      },
+      {
+        "actual_sha256": "a780cdd489bbd5b908c4e3f6d085aaae4bd08084f96c8407c40dd343a0d2eda1",
+        "exists": true,
+        "expected_sha256": "a780cdd489bbd5b908c4e3f6d085aaae4bd08084f96c8407c40dd343a0d2eda1",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/00_admission/BRIGHT_DATASET_SCHEMA_AND_COUNTS.json"
+      },
+      {
+        "actual_sha256": "23c74d513a2b7d9c42886339d8b48a6fdc76a8c7430721b9a959c35875b96112",
+        "exists": true,
+        "expected_sha256": "23c74d513a2b7d9c42886339d8b48a6fdc76a8c7430721b9a959c35875b96112",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/00_admission/BRIGHT_EXAMPLE_ID_MANIFEST.json"
+      },
+      {
+        "actual_sha256": "0d2530e25ff587a050466c72f5be9c62b5dd13761b80461c38b6ae93d31fafd5",
+        "exists": true,
+        "expected_sha256": "0d2530e25ff587a050466c72f5be9c62b5dd13761b80461c38b6ae93d31fafd5",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/00_admission/BRIGHT_GPU_PRE_MODEL_SNAPSHOT.json"
+      },
+      {
+        "actual_sha256": "ce73c6e614b68b79cd6f0a0a97b2e94a2d78af82360431bfc2e0f1a1cb2884b8",
+        "exists": true,
+        "expected_sha256": "ce73c6e614b68b79cd6f0a0a97b2e94a2d78af82360431bfc2e0f1a1cb2884b8",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/00_admission/BRIGHT_REPOSITORY_REVISION_MANIFEST.json"
+      },
+      {
+        "actual_sha256": "4726084b622671f65eed1c9e799b5facd1b478bbc4838d0036177fe7023dd6bf",
+        "exists": true,
+        "expected_sha256": "4726084b622671f65eed1c9e799b5facd1b478bbc4838d0036177fe7023dd6bf",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/01_retrieval/BRIGHT_DOCUMENT_DOMAIN_SUMMARY.json"
+      },
+      {
+        "actual_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+        "exists": true,
+        "expected_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/01_retrieval/BRIGHT_FROZEN_TOP20_SLATES.jsonl"
+      },
+      {
+        "actual_sha256": "d121945d9ab367c3cb92c894db2f4b52f62c6aa2f1586db071df4ccba1c0cb9d",
+        "exists": true,
+        "expected_sha256": "d121945d9ab367c3cb92c894db2f4b52f62c6aa2f1586db071df4ccba1c0cb9d",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/01_retrieval/BRIGHT_POSTFREEZE_KNOWN_POSITIVE_COVERAGE.jsonl"
+      },
+      {
+        "actual_sha256": "08a8c6a46a3b331569fba595c311021ed2fe79971e5c97277728fae3d35ed0b9",
+        "exists": true,
+        "expected_sha256": "08a8c6a46a3b331569fba595c311021ed2fe79971e5c97277728fae3d35ed0b9",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/01_retrieval/BRIGHT_RETRIEVAL_AND_FEASIBILITY_REPORT.md"
+      },
+      {
+        "actual_sha256": "fcf0e9dbd325bea45466e342ad96818d776c0a6b3f64a857e9a16bb492bb40cd",
+        "exists": true,
+        "expected_sha256": "fcf0e9dbd325bea45466e342ad96818d776c0a6b3f64a857e9a16bb492bb40cd",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/01_retrieval/BRIGHT_RETRIEVAL_FEASIBILITY.json"
+      },
+      {
+        "actual_sha256": "9a50fcf90f3d2a01a16db100868abe1c8f449a7dc4055483750d7fa4c23c293e",
+        "exists": true,
+        "expected_sha256": "9a50fcf90f3d2a01a16db100868abe1c8f449a7dc4055483750d7fa4c23c293e",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS.jsonl"
+      },
+      {
+        "actual_sha256": "b553d364140b516e7f4c4ad64522763898c6b0c792e37472a86e741c13e3cb18",
+        "exists": true,
+        "expected_sha256": "b553d364140b516e7f4c4ad64522763898c6b0c792e37472a86e741c13e3cb18",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_jina_v3_5.jsonl"
+      },
+      {
+        "actual_sha256": "369c00a145436cce75e417f54fdf34cbac9fabcc50247775798c50edbf347306",
+        "exists": true,
+        "expected_sha256": "369c00a145436cce75e417f54fdf34cbac9fabcc50247775798c50edbf347306",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_liquid_d1_3b.jsonl"
+      },
+      {
+        "actual_sha256": "17ca38fa1b9c9968e98300f7e70c850249fff67f887553fd4a4fdf7022d6f24c",
+        "exists": true,
+        "expected_sha256": "17ca38fa1b9c9968e98300f7e70c850249fff67f887553fd4a4fdf7022d6f24c",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_pplx_decider.jsonl"
+      },
+      {
+        "actual_sha256": "f9a37055b2b5d6d802445adac6ae6bb4f437e987655761fe54e6a1efcf602367",
+        "exists": true,
+        "expected_sha256": "f9a37055b2b5d6d802445adac6ae6bb4f437e987655761fe54e6a1efcf602367",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_qwen3_reranker_0_6b.jsonl"
+      },
+      {
+        "actual_sha256": "cafaeffbc95929aa82c161bab1a410080843c8f5b41e61819422ddc11bfa9801",
+        "exists": true,
+        "expected_sha256": "cafaeffbc95929aa82c161bab1a410080843c8f5b41e61819422ddc11bfa9801",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RUN_jina_v3_5.json"
+      },
+      {
+        "actual_sha256": "7dfb5498dbc289524b435194c9f89a5ac0aa8019188d11ec94c8ecf17dc1c098",
+        "exists": true,
+        "expected_sha256": "7dfb5498dbc289524b435194c9f89a5ac0aa8019188d11ec94c8ecf17dc1c098",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RUN_liquid_d1_3b.json"
+      },
+      {
+        "actual_sha256": "37e4bcd18b12cac8ea7c4bb94652d3efe708339f00108df4f3f180d9f47a0f58",
+        "exists": true,
+        "expected_sha256": "37e4bcd18b12cac8ea7c4bb94652d3efe708339f00108df4f3f180d9f47a0f58",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RUN_pplx_decider.json"
+      },
+      {
+        "actual_sha256": "980040190e37df440ec04c0fcb1f3699ef26b80de2de68a67b8b5c603fc46b81",
+        "exists": true,
+        "expected_sha256": "980040190e37df440ec04c0fcb1f3699ef26b80de2de68a67b8b5c603fc46b81",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RUN_qwen3_reranker_0_6b.json"
+      },
+      {
+        "actual_sha256": "d37b2ba0d44184a2ef8718d87d473e10f67b3943a4b3393b7312d40f52f8d773",
+        "exists": true,
+        "expected_sha256": "d37b2ba0d44184a2ef8718d87d473e10f67b3943a4b3393b7312d40f52f8d773",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/03_analysis/BRIGHT_NATIVE_FAILURE_CASEBOOK.jsonl"
+      },
+      {
+        "actual_sha256": "b06546640de93482ab30641e818cd45c760539d9d4c1c63df5eba5622ce230d2",
+        "exists": true,
+        "expected_sha256": "b06546640de93482ab30641e818cd45c760539d9d4c1c63df5eba5622ce230d2",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/03_analysis/BRIGHT_PER_QUERY_METRICS.jsonl"
+      },
+      {
+        "actual_sha256": "9c72cfa4cec2b3f6dca1c6222b0a98db23aeaf0164e6c07be2ffa2eafb352b11",
+        "exists": true,
+        "expected_sha256": "9c72cfa4cec2b3f6dca1c6222b0a98db23aeaf0164e6c07be2ffa2eafb352b11",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/03_analysis/BRIGHT_PRIMARY_PAIRED_STATISTICS.json"
+      },
+      {
+        "actual_sha256": "921f7ddbf15246c378d1b5d1aca3a614af4cae45e966404770ad407332f3e895",
+        "exists": true,
+        "expected_sha256": "921f7ddbf15246c378d1b5d1aca3a614af4cae45e966404770ad407332f3e895",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/03_analysis/BRIGHT_SCORECARD_BY_DOMAIN.csv"
+      },
+      {
+        "actual_sha256": "b490e0b7ffb36e8934232d228b656b73b64d7d0daa5321171f5d4320a34f8c87",
+        "exists": true,
+        "expected_sha256": "b490e0b7ffb36e8934232d228b656b73b64d7d0daa5321171f5d4320a34f8c87",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/04_resources/BRIGHT_MATCHED_SELECTOR_RESOURCE_REPORT.md"
+      },
+      {
+        "actual_sha256": "5bd6587e73c99f2bf050507d0245b2dd4eaaf0ff04cc43f05af4e36937623a4c",
+        "exists": true,
+        "expected_sha256": "5bd6587e73c99f2bf050507d0245b2dd4eaaf0ff04cc43f05af4e36937623a4c",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/04_resources/BRIGHT_SELECTOR_RESOURCE_SUMMARY.csv"
+      },
+      {
+        "actual_sha256": "0d2f1695ce98e112d97f499e315a20f0797d1281e6ae02d7d0da3d5985337441",
+        "exists": true,
+        "expected_sha256": "0d2f1695ce98e112d97f499e315a20f0797d1281e6ae02d7d0da3d5985337441",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/05_reader/BRIGHT_READER_ADMISSION.json"
+      },
+      {
+        "actual_sha256": "360c9325587837ce6584c38780ce30b9fee71efb1e1b2fde51dd8a4a14c42da2",
+        "exists": true,
+        "expected_sha256": "360c9325587837ce6584c38780ce30b9fee71efb1e1b2fde51dd8a4a14c42da2",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/05_reader/BRIGHT_READER_ADMISSION.md"
+      },
+      {
+        "actual_sha256": "7157d5891a4e359410f8d9dbff6a51e6b0ecc3a7194f60814bf103c6a9f3b2bf",
+        "exists": true,
+        "expected_sha256": "7157d5891a4e359410f8d9dbff6a51e6b0ecc3a7194f60814bf103c6a9f3b2bf",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/06_closure/BRIGHT_INTEGRITY_CHECKS.json"
+      },
+      {
+        "actual_sha256": "24a854ecbe42cbcc29eae705338b9d75981339c833caab5349171730bc5bbd8e",
+        "exists": true,
+        "expected_sha256": "24a854ecbe42cbcc29eae705338b9d75981339c833caab5349171730bc5bbd8e",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/06_closure/BRIGHT_RAW_OUTPUT_FREEZE_MANIFEST.json"
+      },
+      {
+        "actual_sha256": "4ae2f540778abae6eef3d3ff144780c8b2112cb8ed2032c3ee39e4644008edff",
+        "exists": true,
+        "expected_sha256": "4ae2f540778abae6eef3d3ff144780c8b2112cb8ed2032c3ee39e4644008edff",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/06_closure/E9_BRIGHT_FINAL_OWNER_REVIEW_GATE.json"
+      },
+      {
+        "actual_sha256": "792e54a38875df2ce3221ae495cfac112b7e0bb1a33d6fc044704e70e6263170",
+        "exists": true,
+        "expected_sha256": "792e54a38875df2ce3221ae495cfac112b7e0bb1a33d6fc044704e70e6263170",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/06_closure/E9_BRIGHT_FINAL_SCIENTIFIC_REPORT.md"
+      },
+      {
+        "actual_sha256": "c88516824a329331851296aeaab9bd4499377a7f2ea0f654dc24384e681214ca",
+        "exists": true,
+        "expected_sha256": "c88516824a329331851296aeaab9bd4499377a7f2ea0f654dc24384e681214ca",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/06_closure/E9_BRIGHT_TEST_AND_REGRESSION_REPORT.json"
+      },
+      {
+        "actual_sha256": "77ac12fcf2c0a7aa30cf79256f81eb7386190b57f460f1a5e93fcee1fc738cb8",
+        "exists": true,
+        "expected_sha256": "77ac12fcf2c0a7aa30cf79256f81eb7386190b57f460f1a5e93fcee1fc738cb8",
+        "hash_match": true,
+        "path": "results/non_jev/v2/e9_bright_v1_0/06_closure/E9_BRIGHT_TEST_AND_REGRESSION_REPORT.md"
+      }
+    ],
+    "e9_entries": 33,
+    "e9_hash_mismatches": [],
+    "e9_manifest": "results/non_jev/v2/e9_bright_v1_0/06_closure/E9_BRIGHT_PROVENANCE_MANIFEST.json",
+    "historical_manifests": [
+      {
+        "bytes": 7560,
+        "exists": true,
+        "path": "results/non_jev/v2/e2_m1/E2_M1_PROVENANCE_MANIFEST.json",
+        "sha256": "61a8e3b3c09b7b90a01254baa03ede4a5e91c05ec9eea8c1ced652d5533e21dd"
+      },
+      {
+        "bytes": 21144,
+        "exists": true,
+        "path": "results/non_jev/v2/e3_v1/e3_f0_protocol_review/E3_F0_PROVENANCE_MANIFEST.json",
+        "sha256": "853f0a5bc1007ed6f6c59e939bd6df351bc3eb0c3daa6a1c6cd62ed2d6f9ed08"
+      },
+      {
+        "bytes": 5428,
+        "exists": true,
+        "path": "results/non_jev/v2/e4_v1_1/e4_r_reconciliation/E4_R_PROVENANCE_MANIFEST.json",
+        "sha256": "47e1dc79a2fc557f05a33df66b8858cb8b57173a085d6d10284b042532aa5916"
+      },
+      {
+        "bytes": 5545,
+        "exists": true,
+        "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_PROVENANCE_MANIFEST.json",
+        "sha256": "8ae2215d58bb9cfe6efd9363097f9970e813a22dcd777ca23270b73bdea9e7fa"
+      },
+      {
+        "bytes": 11086,
+        "exists": true,
+        "path": "results/non_jev/v2/e6_v1_0/e6_4_integrated_robustness_and_paper/E6_4_PROVENANCE_MANIFEST.json",
+        "sha256": "83a00b69e0aa7cac151a8d38feb9da52df55ff8f416e3601b868a5f33d587274"
+      },
+      {
+        "bytes": 7892,
+        "exists": true,
+        "path": "results/non_jev/v2/e7_v1_0/04_closure/E7_PROVENANCE_MANIFEST.json",
+        "sha256": "309ca991583e2cba4298909ada82b5933e758b593d0b9bb0d674091b532ef986"
+      },
+      {
+        "bytes": 5364,
+        "exists": true,
+        "path": "results/non_jev/v2/e8_v1_0/04_closure/E8_PROVENANCE_MANIFEST.json",
+        "sha256": "d18b319eb97e8e67b626c1688ffb339965fc4441a555c856ca053ac881200728"
+      }
+    ]
+  },
+  "source_metrics": {
+    "jina_v3_5": {
+      "conditional_inpool_n": 607,
+      "conditional_inpool_ndcg5": 0.555312557937687,
+      "domains": 12,
+      "fallback_used_n": 0,
+      "hit5": 0.34826589595375723,
+      "macro_domain_full_gold_ndcg5": 0.18338183498796223,
+      "n": 1384,
+      "query_weighted_full_gold_ndcg5": 0.1843690411277983,
+      "retrieval_feasible_fraction": 0.43858381502890176,
+      "retrieval_feasible_n": 607,
+      "valid_n": 1384,
+      "valid_only_full_gold_ndcg5": 0.1843690411277983
+    },
+    "liquid_d1_3b": {
+      "conditional_inpool_n": 607,
+      "conditional_inpool_ndcg5": 0.43845669917973745,
+      "domains": 12,
+      "fallback_used_n": 0,
+      "hit5": 0.2911849710982659,
+      "macro_domain_full_gold_ndcg5": 0.1489816243730699,
+      "n": 1384,
+      "query_weighted_full_gold_ndcg5": 0.14761936165544895,
+      "retrieval_feasible_fraction": 0.43858381502890176,
+      "retrieval_feasible_n": 607,
+      "valid_n": 1384,
+      "valid_only_full_gold_ndcg5": 0.14761936165544895
+    },
+    "pplx_decider": {
+      "conditional_inpool_n": 260,
+      "conditional_inpool_ndcg5": 0.6435869752786223,
+      "domains": 12,
+      "fallback_used_n": 0,
+      "hit5": 0.16401734104046242,
+      "macro_domain_full_gold_ndcg5": 0.0850098057213509,
+      "n": 1384,
+      "query_weighted_full_gold_ndcg5": 0.08125791206996234,
+      "retrieval_feasible_fraction": 0.43858381502890176,
+      "retrieval_feasible_n": 607,
+      "valid_n": 611,
+      "valid_only_full_gold_ndcg5": 0.1840604751306512
+    },
+    "qwen3_reranker_0_6b": {
+      "conditional_inpool_n": 606,
+      "conditional_inpool_ndcg5": 0.5127026057115349,
+      "domains": 12,
+      "fallback_used_n": 0,
+      "hit5": 0.319364161849711,
+      "macro_domain_full_gold_ndcg5": 0.16547821827741305,
+      "n": 1384,
+      "query_weighted_full_gold_ndcg5": 0.16842202341941362,
+      "retrieval_feasible_fraction": 0.43858381502890176,
+      "retrieval_feasible_n": 607,
+      "valid_n": 1382,
+      "valid_only_full_gold_ndcg5": 0.16866576006690917
+    },
+    "retrieval_prefix5": {
+      "conditional_inpool_n": 607,
+      "conditional_inpool_ndcg5": 0.3901066256266601,
+      "domains": 12,
+      "fallback_used_n": 0,
+      "hit5": 0.273121387283237,
+      "macro_domain_full_gold_ndcg5": 0.13016223566151536,
+      "n": 1384,
+      "query_weighted_full_gold_ndcg5": 0.13296654593896795,
+      "retrieval_feasible_fraction": 0.43858381502890176,
+      "retrieval_feasible_n": 607,
+      "valid_n": 1384,
+      "valid_only_full_gold_ndcg5": 0.13296654593896795
+    }
+  }
+}

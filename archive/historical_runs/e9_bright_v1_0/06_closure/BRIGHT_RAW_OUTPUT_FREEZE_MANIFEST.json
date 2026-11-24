@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-16T02:19:45.155160+00:00",
+  "native_files": [
+    {
+      "bytes": 3168778,
+      "path": "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_jina_v3_5.jsonl",
+      "sha256": "b553d364140b516e7f4c4ad64522763898c6b0c792e37472a86e741c13e3cb18"
+    },
+    {
+      "bytes": 3227446,
+      "path": "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_liquid_d1_3b.jsonl",
+      "sha256": "369c00a145436cce75e417f54fdf34cbac9fabcc50247775798c50edbf347306"
+    },
+    {
+      "bytes": 2657707,
+      "path": "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_pplx_decider.jsonl",
+      "sha256": "17ca38fa1b9c9968e98300f7e70c850249fff67f887553fd4a4fdf7022d6f24c"
+    },
+    {
+      "bytes": 2791833,
+      "path": "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_qwen3_reranker_0_6b.jsonl",
+      "sha256": "f9a37055b2b5d6d802445adac6ae6bb4f437e987655761fe54e6a1efcf602367"
+    }
+  ]
+}

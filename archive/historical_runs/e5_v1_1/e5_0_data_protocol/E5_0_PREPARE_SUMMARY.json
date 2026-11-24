@@ -1,0 +1,22 @@
+{
+  "eligible_cal": 519,
+  "eligible_exploratory": 1502,
+  "groups": {
+    "CAL": 234,
+    "E5_EXPLORATORY": 643,
+    "E5_F_RESERVED": 292
+  },
+  "out": "./results/non_jev/v2/e5_v1_1/e5_0_data_protocol",
+  "papers": 1169,
+  "paragraphs": 60148,
+  "permitted_corpus": 45497,
+  "questions": 3598,
+  "statuses": {
+    "DUPLICATE_AMBIGUITY": 205,
+    "NON_TEXT_DEPENDENCE": 179,
+    "NO_GOLD_OR_UNANSWERABLE": 331,
+    "SUPPORT_COUNT_GT5": 51,
+    "UNCERTAIN_MAPPING": 148,
+    "VALID_DESIGNATED_SUPPORT": 2684
+  }
+}

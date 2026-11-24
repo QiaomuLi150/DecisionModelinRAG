@@ -1,0 +1,23 @@
+# Missing or unavailable release inputs
+
+These gaps are preserved as gaps; no numbers or source artifacts were reconstructed from memory.
+
+| Item | Status | Consequence |
+|---|---|---|
+| Exact identity between the supplied TeX source bundle/PDF and the current arXiv source archive | Owner-supplied TeX source, bibliography, figures/tables, and `paper/DecisionRAG_paper_v6_6.pdf` are included. The PDF was not independently byte-compared with an arXiv download, and the TeX tree was not regenerated. | The included files are available for inspection, but an exact source-archive identity and reproducible PDF build are not established. |
+| Authenticated complete Table I source for 21 models × 11 benchmarks, 104 runs | Not found. E2-N is a distinct 12-policy study and is not substituted. | Table I score matrix cannot be regenerated; `NOT_VERIFIABLE` checks identify this. |
+| Full set of all 11 benchmark source manifests and all paper-screen per-run configurations | Partial/absent across historical directories; full 21-model roster and exact model pins are not available as one authenticated source. | License and provenance audit for all 21 screen models is incomplete. |
+| Full raw score traces for every model and every 11 benchmark screen run | Not located as a complete matrix. | Tier 1 full paper re-scoring unavailable. |
+| Some frozen BRIGHT and CQADupStack score inputs used in the paper | Candidate IDs and metrics are available; literal text and some raw serving inputs are withheld to avoid redistributing third-party benchmark text. | Re-scoring requires official dataset download; completeness depends on trace fields and qrels availability. |
+| MuSiQue complete transfer candidate pool | Only 2,167 requests were frozen; 333 of the nominal 2,500 were never frozen. | Do not represent this release as 3,000-request transfer coverage. |
+| 333 MuSiQue slates and associated model outputs | Not present. | No fill-in permitted. |
+| Original paper figure-generation source and all plotting parameters | Not located. | Figure 1–3 pixels cannot be reproduced exactly. Figure data can be partially regenerated. |
+| Full Table II and historical benchmark source licenses for the broad screen | The paper names 11 benchmarks, but not all source manifests and benchmark pins were found locally. | Unknown licenses are treated as non-redistributable; only permitted IDs/hashes/scores are released. |
+| Exact recorded package/environment lock corresponding to every historical run | Incomplete and split across logs/manifests. | `environment/HARDWARE_AND_SOFTWARE.md` distinguishes recorded values from unavailable values. |
+| Canonical BRIGHT HF dataset revision and SHA-256 for the exact benchmark shards | The local evidence pins the BRIGHT source-code repository to commit `d99e8391d967d4c2b3a74732530d2309e2fc92b6`, but does not identify the immutable `xlangai/BRIGHT` dataset revision or canonical shard hashes. | `scripts/download_bright.py` requires an immutable revision supplied by the user and validates candidate-ID coverage, but cannot certify byte-identical historical data. |
+| Full historical GPU runner entry points as a portable Tier-2 reproduction package | Relevant source scripts exist in the experiment workspace but depend on omitted weights, tokenizer files, machine-specific launch/runtime details, and large private/intermediate inputs. Only selected CPU source utilities and sanitized offline analysis source are shipped. | Tier 2 remains documentation-only/blocked; do not treat this package as a turnkey inference runner. |
+| Exact historical Jina full model revision | Only abbreviated pin `e8a93f3` was recovered; full object revision is not in one authenticated source manifest. | `MODEL_PINS.md` flags the unresolved pin; a new inference run cannot be considered exact reproduction until resolved. |
+| Matched pooled transfer-serving p95 source traces | The selected workspace exports contain transfer quality rows and an older 120-request-anchor timing branch, but not the exact same-query full-text-Jina pooled timing records used for the paper's 3.6×/5.6× point estimates. | Those printed transfer timing values are marked `NOT_VERIFIABLE`; the wrong-denominator ratios remain archived and are not substituted. |
+| Complete source trace payloads containing query/document text | Excluded from public package. | Sanitized ID/score projections and source hashes are used where present; original source files are unchanged. |
+
+Paper assertions that could not be checked against source artifacts remain explicitly `NOT_VERIFIABLE` in `verify/expected_numbers.json` and the verification log.

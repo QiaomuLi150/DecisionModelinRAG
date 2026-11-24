@@ -1,0 +1,125 @@
+{
+  "all_artifacts_match": true,
+  "checks": [
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_ANSWER_CASEBOOK.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_ANSWER_CONTRACT_AUDIT.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_ANSWER_TYPE_AND_FORMAT_SCORECARD.csv",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_BLINDED_ADJUDICATION_PACKET.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_DETERMINISTIC_SCORER_SENSITIVITY.csv",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_EXTERNAL_REVIEWER_PACKET.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_FINAL_SCIENTIFIC_VALIDITY_REPORT.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_INPUT_AUTHENTICATION_REPORT.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_INPUT_PROVENANCE_INDEX.json",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_LIMITATIONS_AND_OPEN_ISSUES.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_MANUSCRIPT_DRAFT.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_MASTER_CLAIMS_EVIDENCE_LEDGER.csv",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_NEXT_RESEARCH_DECISION.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_OWNER_REVIEW_GATE.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_PAIRED_SAMPLE_INTEGRITY.json",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_PAPER_READY_TABLES.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_PRIMARY_EVIDENCE_REPRODUCTION.csv",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_READER_REQUEST_RECONCILIATION.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_READER_SLOT_LEDGER.csv",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_READER_VALIDITY_VERDICT.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_REPLACEMENT_DECISION_MATRIX.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_REVIEWER_EXECUTIVE_BRIEF.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_SERVING_COMPARABILITY_AUDIT.md",
+      "size_match": true
+    },
+    {
+      "hash_match": true,
+      "path": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_TARGETED_AND_REGRESSION_TEST_REPORT.md",
+      "size_match": true
+    }
+  ]
+}

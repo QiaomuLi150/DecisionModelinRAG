@@ -1,0 +1,20 @@
+{
+  "all_candidate_ids_resolve": true,
+  "all_slates_exactly_20_unique": true,
+  "candidate_view_hashes_sha256": "b220afa1e6778b890fe8b50502c91569c9668990f3d702847dd5bfe8af588453",
+  "eligible_groups": 587,
+  "eligible_questions": 1502,
+  "full_exploratory_groups": 643,
+  "reserved_payload_accessed": false,
+  "slate_hash_match": true,
+  "slate_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+  "source_artifacts": {
+    "./results/non_jev/v2/e5_v1_1/e5_0_data_protocol/E5_0_EXPLORATORY_GOLD_INTERNAL.jsonl": "cead3cd600860634a9f10d63acc7c3a664862a72dbfd4d12ab6c508134784b6a",
+    "./results/non_jev/v2/e5_v1_1/e5_0_data_protocol/E5_0_NATURAL_TOP20_MANIFEST.jsonl": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+    "./results/non_jev/v2/e5_v1_1/e5_0_data_protocol/E5_0_PERMITTED_CORPUS.jsonl": "7a5d089a0d2da4a72aa986084219cdff602cf033be600268b03f1565991b320e",
+    "./results/non_jev/v2/e5_v1_1/e5_0_data_protocol/E5_0_PERMITTED_QUERIES.jsonl": "d9bd99959d6f406f1a5e0e70f32b93857536ad9ef914b92cbebc909c81dde07c",
+    "./results/non_jev/v2/e5_v1_1/e5_0_data_protocol/E5_0_PROVENANCE_MANIFEST.json": "a5ea7963b29448e1ee360f753116c1c3950123cdef055365e5ab6c867bc7c712",
+    "./results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROTOCOL_AMENDMENT_V1_APPROVED.md": "f5a1ea111bb3a22658f51e25831890a4f7fa29c1af73caec8ad8f59a540d6418"
+  },
+  "status": "PASS"
+}

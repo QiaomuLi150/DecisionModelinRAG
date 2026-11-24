@@ -1,0 +1,5 @@
+policy,budget_L,n_compared,n_identical_selection
+jina_single_8192,8192,20,20
+jina_single_6144,8192,20,20
+jina_single_4096,8192,0,0
+jina_two_stage_8192,8192,20,20

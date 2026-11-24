@@ -1,0 +1,8 @@
+{
+  "error": "'NoneType' object is not iterable",
+  "error_class": "TypeError",
+  "policy": "pplx_budget",
+  "rows_recorded_before_fatal": 57,
+  "status": "FATAL_MODEL_OR_RUNNER_ERROR",
+  "unattempted_rows_not_filled": true
+}

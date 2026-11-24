@@ -1,0 +1,62 @@
+[
+  {
+    "candidate_generation": "official_bright_bm25",
+    "domain": "biology",
+    "queries": 103
+  },
+  {
+    "candidate_generation": "official_bright_bm25",
+    "domain": "earth_science",
+    "queries": 116
+  },
+  {
+    "candidate_generation": "official_bright_bm25",
+    "domain": "economics",
+    "queries": 103
+  },
+  {
+    "candidate_generation": "official_bright_bm25",
+    "domain": "psychology",
+    "queries": 101
+  },
+  {
+    "candidate_generation": "official_bright_bm25",
+    "domain": "robotics",
+    "queries": 101
+  },
+  {
+    "candidate_generation": "official_bright_bm25",
+    "domain": "stackoverflow",
+    "queries": 117
+  },
+  {
+    "candidate_generation": "official_bright_bm25",
+    "domain": "sustainable_living",
+    "queries": 108
+  },
+  {
+    "candidate_generation": "official_bright_bm25",
+    "domain": "pony",
+    "queries": 112
+  },
+  {
+    "candidate_generation": "official_bright_bm25",
+    "domain": "leetcode",
+    "queries": 142
+  },
+  {
+    "candidate_generation": "official_bright_bm25",
+    "domain": "aops",
+    "queries": 111
+  },
+  {
+    "candidate_generation": "official_bright_bm25",
+    "domain": "theoremqa_questions",
+    "queries": 194
+  },
+  {
+    "candidate_generation": "official_bright_bm25",
+    "domain": "theoremqa_theorems",
+    "queries": 76
+  }
+]

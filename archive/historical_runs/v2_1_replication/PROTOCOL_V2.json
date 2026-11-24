@@ -1,0 +1,64 @@
+{
+  "amendment_reason": "Owner approved use of the existing preserved hybrid-RRF Top-20 slates because exact BM25-only Top-20 slates are unavailable; original blocked Stage 0 remains immutable.",
+  "amendment_status": "OWNER_APPROVED_VERSIONED_INPUT_CONTRACT",
+  "candidate_contract": "existing historical hybrid BM25-top100 + dense-top100 + RRF@60 Top-20 slates; exact original RRF ordering and archived source text; no retrieval rerun",
+  "created_utc": "2026-10-20T20:44:11.954934+00:00",
+  "fixed_before_outcomes": true,
+  "input_manifest": "stage0_preflight_v2_hybrid/INPUT_MANIFEST_V2_HYBRID.jsonl",
+  "input_manifest_sha256": "5d7e6685c4cc64b6b6c0e3d6686daaeed226a8a073f87c9c155101781373454e",
+  "labels_joined_after_raw_trace_freeze": true,
+  "models": {
+    "jina_v3_5": {
+      "native_contract": "frozen Jina listwise rerank interface",
+      "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc"
+    },
+    "pplx_decider": {
+      "native_contract": "frozen PPLX two-stage and single-choice interfaces",
+      "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+    }
+  },
+  "no_retries_or_fill_in": true,
+  "orders": [
+    "original",
+    "reversed",
+    "perm_seed_20261020",
+    "perm_seed_20261021"
+  ],
+  "policies": [
+    "P0_bm25_order",
+    "P1_jina_full",
+    "P2_jina_budget",
+    "P3_jina_two_stage_matched",
+    "P4_pplx_native",
+    "P5_pplx_budget",
+    "P6_pplx_two_stage"
+  ],
+  "populations": {
+    "enterprise_quality_labeled": 443,
+    "enterprise_requests": 500,
+    "musique_requests": 2167
+  },
+  "protocol_id": "decisionrag-v2.1-controlled-replication",
+  "protocol_version": "V2-HYBRID-RRF-AMENDMENT-1",
+  "seeds": {
+    "bootstrap": 731,
+    "cohort_enterprise": 20261020,
+    "cohort_musique": 20261021,
+    "determinism": 20261022,
+    "shuffle_1": 20261020,
+    "shuffle_2": 20261021
+  },
+  "source_hashes": {
+    "data/corpus/passages.jsonl": "5971dc7fad1c018ef3a87e4dfddccb3b39438a190a8afc1ff928f1859871e74e",
+    "data/raw/vendor/enterprise_rag_bench/v1.0.0/all_documents.zip": "9d1174928696ad08bc15f3f104739519de633c1605a4ec2034e0e3c0087bc5cd",
+    "data/raw/vendor/musique/musique_ans_v1.0_dev.jsonl": "15fa63794d18a94ce12411aca6e2327e65b6e83b0b1490efab3f1962e48abf3b",
+    "results/non_jev/v11/track_a/V11_TRACK_A_RETRIEVAL_SLATES.jsonl": "1891f41e2b8614b871aa42cdbe61af3d0c193410a85041e5426c5e7eb3905f0f",
+    "results/non_jev/v11/track_b/V11_TRACK_B_CHUNK_MANIFEST.jsonl": "0a97bedb120b14f21e8a9d16ec89707509f3dcc24ecfeef2dd604f7c450859ee",
+    "results/non_jev/v11/track_b/V11_TRACK_B_RETRIEVAL_SLATES.jsonl": "2e82fc2788398f98d6a257165718b1baa6e1ad792f63671c06458f9212326c9f",
+    "results/preflight/v11/ENTERPRISE_GOLD_SIDECAR.jsonl": "e7a7dbe71ee9e4290fe29615991c3aed90f70530ab12a63e9c1003be6bfa6b55",
+    "results/preflight/v11/NEW_TEST_IDS.jsonl": "95bdeb7ccd76cb1aadd766ffe9384b728e63f48be9e14f97e3a4b3b4525f63fc",
+    "results/preflight/v11_remediation/ENTERPRISE_QUESTION_MANIFEST_V11R1.jsonl": "00befe74a6bd3786fd2149639f434efd574f2784f49f7f91961c3ed7091d2683"
+  },
+  "source_text_contract": "Enterprise archive member UTF-8 bytes mapped by path-qualified internal_doc_id; MuSiQue passages.jsonl full_text",
+  "stage2_text_rule": "Each selector chooses its own five survivors per 10-candidate window using the shared PPLX-generated window strings; final stage uses the PPLX-generated strings for the selected survivors, preserving candidate IDs and original order tie breaks."
+}

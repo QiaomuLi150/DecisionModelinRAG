@@ -1,0 +1,17 @@
+{
+  "benchmark": "TREC_RAG_2024",
+  "candidate_complete_topics": 301,
+  "candidate_provenance": "published RANK_ZEPHYR fs4 multi-stage Top100; not verified pure BM25",
+  "created_utc": "2026-10-16T00:40:09.251390+00:00",
+  "floors": {
+    "complete_topics_at_least_60": true,
+    "median_judged_at_least_0_5": false,
+    "positive_topics_at_least_60": true
+  },
+  "median_judged_fraction_top20": 0.0,
+  "model_outcomes_inspected": false,
+  "official_topics": 301,
+  "pool_rows": 301,
+  "positive_somewhere_top20": 84,
+  "source_pool_mode": "CONDITIONAL_SELECTION_OVER_PRERANKED_POOL"
+}

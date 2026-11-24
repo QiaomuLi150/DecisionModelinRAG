@@ -1,0 +1,262 @@
+[
+  {
+    "contrast": "pplx_two_stage - jina_two_stage_full (original)",
+    "left": "pplx_two_stage/original",
+    "right": "jina_two_stage_full/original",
+    "n": 1384,
+    "query_weighted_effect": 0.023928499400439403,
+    "domain_weighted_effect": 0.02485927951929999,
+    "ci95_low": 0.010896294457117539,
+    "ci95_high": 0.04010445980261434,
+    "p_two_sided_sign_flip": 0.0048828125,
+    "bootstrap_seed": 731,
+    "bootstrap_draws": 40000,
+    "domain_n": 12,
+    "domain_effects": {
+      "aops": {
+        "n": 111,
+        "mean": 0.021976071166619496
+      },
+      "biology": {
+        "n": 103,
+        "mean": 0.06551974089489059
+      },
+      "earth_science": {
+        "n": 116,
+        "mean": 0.028415841347644223
+      },
+      "economics": {
+        "n": 103,
+        "mean": 0.013332722327705175
+      },
+      "leetcode": {
+        "n": 142,
+        "mean": 0.03262231357745057
+      },
+      "pony": {
+        "n": 112,
+        "mean": 0.08115706297686819
+      },
+      "psychology": {
+        "n": 101,
+        "mean": -0.019174214128676457
+      },
+      "robotics": {
+        "n": 101,
+        "mean": 0.024673476373354163
+      },
+      "stackoverflow": {
+        "n": 117,
+        "mean": -0.0005210371648584987
+      },
+      "sustainable_living": {
+        "n": 108,
+        "mean": 0.026637246831025706
+      },
+      "theoremqa_questions": {
+        "n": 194,
+        "mean": 0.003112963581605496
+      },
+      "theoremqa_theorems": {
+        "n": 76,
+        "mean": 0.020559166447971226
+      }
+    },
+    "holm_adjusted_p_two_sided": 0.0146484375
+  },
+  {
+    "contrast": "pplx_two_stage - jina_two_stage_full (mean six shuffled)",
+    "left": "pplx_two_stage/shuffled_mean",
+    "right": "jina_two_stage_full/shuffled_mean",
+    "n": 1384,
+    "query_weighted_effect": 0.01926647874745911,
+    "domain_weighted_effect": 0.019521635338407645,
+    "ci95_low": 0.0047152765812198995,
+    "ci95_high": 0.035860258890624615,
+    "p_two_sided_sign_flip": 0.03515625,
+    "bootstrap_seed": 731,
+    "bootstrap_draws": 40000,
+    "domain_n": 12,
+    "domain_effects": {
+      "aops": {
+        "n": 111,
+        "mean": 0.00620636735165111
+      },
+      "biology": {
+        "n": 103,
+        "mean": 0.06012738764937196
+      },
+      "earth_science": {
+        "n": 116,
+        "mean": 0.001391768245734784
+      },
+      "economics": {
+        "n": 103,
+        "mean": -0.011282999852051374
+      },
+      "leetcode": {
+        "n": 142,
+        "mean": 0.03663225593238103
+      },
+      "pony": {
+        "n": 112,
+        "mean": 0.08042431061664337
+      },
+      "psychology": {
+        "n": 101,
+        "mean": -0.02104432021433309
+      },
+      "robotics": {
+        "n": 101,
+        "mean": 0.02143629259168159
+      },
+      "stackoverflow": {
+        "n": 117,
+        "mean": 0.0008071802513703414
+      },
+      "sustainable_living": {
+        "n": 108,
+        "mean": 0.031191314466836734
+      },
+      "theoremqa_questions": {
+        "n": 194,
+        "mean": 0.007757315794710368
+      },
+      "theoremqa_theorems": {
+        "n": 76,
+        "mean": 0.020612751226894904
+      }
+    },
+    "holm_adjusted_p_two_sided": 0.0703125
+  },
+  {
+    "contrast": "pplx_two_stage - jina_two_stage_pplxtext (original)",
+    "left": "pplx_two_stage/original",
+    "right": "jina_two_stage_pplxtext/original",
+    "n": 1384,
+    "query_weighted_effect": 0.03180181704240235,
+    "domain_weighted_effect": 0.033217875265909864,
+    "ci95_low": 0.018442187681208623,
+    "ci95_high": 0.04909507258648124,
+    "p_two_sided_sign_flip": 0.0009765625,
+    "bootstrap_seed": 731,
+    "bootstrap_draws": 40000,
+    "domain_n": 12,
+    "domain_effects": {
+      "aops": {
+        "n": 111,
+        "mean": 0.010458445982734108
+      },
+      "biology": {
+        "n": 103,
+        "mean": 0.07880053175068925
+      },
+      "earth_science": {
+        "n": 116,
+        "mean": 0.06236664122762183
+      },
+      "economics": {
+        "n": 103,
+        "mean": 0.031823409503077715
+      },
+      "leetcode": {
+        "n": 142,
+        "mean": 0.01703179726323878
+      },
+      "pony": {
+        "n": 112,
+        "mean": 0.08140833534352354
+      },
+      "psychology": {
+        "n": 101,
+        "mean": -0.0005668232454233671
+      },
+      "robotics": {
+        "n": 101,
+        "mean": 0.04275903636448074
+      },
+      "stackoverflow": {
+        "n": 117,
+        "mean": 0.01818719428781672
+      },
+      "sustainable_living": {
+        "n": 108,
+        "mean": 0.04134893811529595
+      },
+      "theoremqa_questions": {
+        "n": 194,
+        "mean": 0.005872964971320136
+      },
+      "theoremqa_theorems": {
+        "n": 76,
+        "mean": 0.009124031626543037
+      }
+    },
+    "holm_adjusted_p_two_sided": 0.00390625
+  },
+  {
+    "contrast": "jina_two_stage_full - jina_full (original)",
+    "left": "jina_two_stage_full/original",
+    "right": "jina_full/original",
+    "n": 1384,
+    "query_weighted_effect": 0.0024746158117884623,
+    "domain_weighted_effect": 0.0018695744133712694,
+    "ci95_low": -0.0020171386584172516,
+    "ci95_high": 0.005467839564477255,
+    "p_two_sided_sign_flip": 0.3583984375,
+    "bootstrap_seed": 731,
+    "bootstrap_draws": 40000,
+    "domain_n": 12,
+    "domain_effects": {
+      "aops": {
+        "n": 111,
+        "mean": -0.00790623722431451
+      },
+      "biology": {
+        "n": 103,
+        "mean": -0.005507103938803785
+      },
+      "earth_science": {
+        "n": 116,
+        "mean": -0.005139772985896715
+      },
+      "economics": {
+        "n": 103,
+        "mean": 0.008396779304076384
+      },
+      "leetcode": {
+        "n": 142,
+        "mean": 0.005803628527497509
+      },
+      "pony": {
+        "n": 112,
+        "mean": 0.00826667226108528
+      },
+      "psychology": {
+        "n": 101,
+        "mean": 0.005588649218027544
+      },
+      "robotics": {
+        "n": 101,
+        "mean": 0.008563301664993798
+      },
+      "stackoverflow": {
+        "n": 117,
+        "mean": -0.001702678906831761
+      },
+      "sustainable_living": {
+        "n": 108,
+        "mean": 0.006453181508979732
+      },
+      "theoremqa_questions": {
+        "n": 194,
+        "mean": 0.00807605064871578
+      },
+      "theoremqa_theorems": {
+        "n": 76,
+        "mean": -0.008457577117074023
+      }
+    },
+    "holm_adjusted_p_two_sided": 0.3583984375
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "failed": 0,
+  "labels_joined": false,
+  "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_full__original.jsonl",
+  "records": 1384,
+  "sha256": "b779a67540307b64fa3eebe4f868cd79120618221e3a59b088c56b7d137a8de3",
+  "valid": 1384
+}

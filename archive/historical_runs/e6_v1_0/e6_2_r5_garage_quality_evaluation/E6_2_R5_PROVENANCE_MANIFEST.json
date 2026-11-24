@@ -1,0 +1,223 @@
+{
+  "code": [
+    {
+      "bytes": 51589,
+      "path": "scripts/e6_2_r5_garage_quality_evaluation.py",
+      "sha256": "2b23c0ac0ee6b9d83f29045e61a8ddeb2695c29bcfa7c1d0758339eee5258507"
+    },
+    {
+      "bytes": 5055,
+      "path": "tests/test_e6_2_r5_garage_quality_evaluation.py",
+      "sha256": "260c15bb7265b2ca3a47300b070e5eaf6f835f940741b090e3d0b95af8124420"
+    }
+  ],
+  "created_utc": "2026-10-15T15:19:46.723555+00:00",
+  "gate": "E6_2_R5_SCIENTIFIC_RESULTS_READY_WITH_LIMITATIONS",
+  "gpu_calls": 0,
+  "historical_artifacts_modified": false,
+  "historical_inputs": [
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_INPUT_OUTPUT_PROVENANCE_MANIFEST.json",
+      "sha256": "f9cfd4c759e0870e375d57452dc1a04c39e93b6ae6a6774b3b67ecb0daf9e3ef"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_PROVENANCE_MANIFEST.json",
+      "sha256": "7f7a3d45e7a9900755ae4fe18dfea7d5a9c9ec56988bcb26ed8b7154316112d0"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_PROVENANCE_MANIFEST.json",
+      "sha256": "a4dbe446573241e9b91daa158c00c83cdb9b785751a869c62f0f45bb8000adcc"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_PROVENANCE_MANIFEST.json",
+      "sha256": "cda53c10c0e2b98d57bbff430c6a4c70c04c94640d167c5393b570ff4ad93cf5"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_EXPLORATORY_INPUTS.jsonl",
+      "sha256": "cbe937a1ff3425cc55c937ef32cfd99c470ec09374dfa72b855b79c4fb4935b7"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_PARTITION_MANIFEST.json",
+      "sha256": "98c81a492c45e1e69b56101b721c5f852e75d10c0cc4bc3fdc8774e2a1c309c8"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_LABEL_PROJECTION.json",
+      "sha256": "3e0449d76701198cc53c27670dacf8d1f67ef6316b3976b7a618938f002bf062"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_NATIVE_SELECTIONS.jsonl",
+      "sha256": "bc1cfcada22068be33764f97fe46fc444fc51b4fc0416463d03d33ffb307cc8c"
+    }
+  ],
+  "jev_calls": 0,
+  "native_inference_calls": 0,
+  "outputs": [
+    {
+      "bytes": 1290,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_ANNOTATION_AND_ENDPOINT_AUDIT.md",
+      "sha256": "f28eab30c5a04adf761c86e871394efa848b1ab740239a24e37308e09407e3e9"
+    },
+    {
+      "bytes": 22919929,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_COMBINED_SELECTION_REGISTRY.json",
+      "sha256": "ba6d61130c615968ce4ee8ef1d0a81aace0a2f88b503680b45b17f8b4e470331"
+    },
+    {
+      "bytes": 1008,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_CROSS_WORKLOAD_SYNTHESIS.md",
+      "sha256": "e4841177e8c20e5a67f8e2dfc729baa47ecaf18a87bfb75f9e9c1f60778c26cf"
+    },
+    {
+      "bytes": 650,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_E6_3_HANDOFF_GATE.json",
+      "sha256": "5f3084a9dc75d1ff2283efd79661009945140dd814d93be6131a1ef952fd7616"
+    },
+    {
+      "bytes": 1406438,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_EXPLORATORY_LABEL_PROJECTION.json",
+      "sha256": "c77e4254357c91b9d5d0c3fd232676fd11766b9dd2e5ffcff378d1994deec108"
+    },
+    {
+      "bytes": 2307,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_FINAL_SCIENTIFIC_REPORT.md",
+      "sha256": "26d446d47a7c33d95ac97506b9d3c23a6afaeeb1e8077b8ae9b5e9dea516bc21"
+    },
+    {
+      "bytes": 6284,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_INPUT_AUTHENTICATION.json",
+      "sha256": "b5b226f30b4c68131a95e3604942f1ebd1881c97d5c8be4760c6ef252610949a"
+    },
+    {
+      "bytes": 1039,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_LIMITATIONS_AND_THREATS_TO_VALIDITY.md",
+      "sha256": "942df5ee7616f3fa70829dc0ebe0348c8c8709359751f6c1ba1342c4473926b6"
+    },
+    {
+      "bytes": 4326,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_MODEL_QUALITY_SCORECARD.csv",
+      "sha256": "3f241b52cde854b99da88d1cfdac49d4f3fb2d532c25216b00e0f498d270f967"
+    },
+    {
+      "bytes": 1132,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_NO_POSITIVE_AND_RELEVANCE_DENSITY.md",
+      "sha256": "04cfc201a264893757135910e3361096bd7b266994a8e01748de5f19ef4e5da7"
+    },
+    {
+      "bytes": 14838430,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_PER_SAMPLE_RESULTS.csv",
+      "sha256": "0c3874629736fd206300c036f96ceed7c9491b41cc782c626db64157d5cef98c"
+    },
+    {
+      "bytes": 1626013,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_PREFIX5_BASELINE.csv",
+      "sha256": "5979cf58c3643f1be2199224bc277902e770345fc8d307867bae3333fac248f9"
+    },
+    {
+      "bytes": 680,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_PREOUTCOME_FREEZE_RECEIPT.json",
+      "sha256": "414ca1d71f8bc8bea97047daabd9696e3b83ada0d143c9710621b43e73d32d3a"
+    },
+    {
+      "bytes": 123496,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_PRIMARY_PPLX_VS_JINA.csv",
+      "sha256": "a982f5166368ca860b865d11998379c8e632045b3f2ed2913a4bfe4337ec7479"
+    },
+    {
+      "bytes": 1650,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_PRIMARY_STATISTICS.json",
+      "sha256": "0bdf1b9ec90385cd7cccc9c57c541b26c7cabc02aa8a837d739753677193dbbc"
+    },
+    {
+      "bytes": 2096,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_QUALITY_RESOURCE_DIAGNOSTICS.csv",
+      "sha256": "5e9189ce54a6bcfdb50b1e4981789f2f4bd8498bd4c041bd8b3a5035e5ccb0ce"
+    },
+    {
+      "bytes": 5227,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_SECONDARY_MODEL_COMPARISONS.csv",
+      "sha256": "6ea72213a42c9877d0484f0ecd2ff910c7d8cf32f6ac36b520ff246e8e64ba83"
+    },
+    {
+      "bytes": 5610047,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_SELECTION_OVERLAP_AND_DISAGREEMENT.csv",
+      "sha256": "ed75f9af832200ebf6a39f130043204b1e6d2dcd489c2b521fe8b13ed929e5a9"
+    },
+    {
+      "bytes": 1033,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_SOURCE_OVERLAP_AND_UNCERTAINTY.md",
+      "sha256": "d7c07228a388df9d494502db2ca75457d8bd1037837da5e338d83f398155385d"
+    },
+    {
+      "bytes": 642,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_TEST_AND_REGRESSION_REPORT.md",
+      "sha256": "b72482cb5973ad50c8950ac041c23d94d7f269bf38e05df55a5a480700934d25"
+    },
+    {
+      "bytes": 335,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_TEST_STATUS_PENDING.json",
+      "sha256": "efcbd54cc4ffac936612564bf7e9d174489a53de2140d534c3e7e5fbf71dd895"
+    }
+  ],
+  "paid_api_calls": 0,
+  "primary_statistics": {
+    "bootstrap_mean": -0.01580193920119274,
+    "ci95_percentile": [
+      -0.022765040204003047,
+      -0.008965936101147882
+    ],
+    "comparison": "pplx_decider - jina_v3_5",
+    "component_sensitivity": {
+      "ci95_percentile": [
+        -0.02221339824504305,
+        -0.0072073244360878535
+      ],
+      "component_n": 925,
+      "interpretation": "exploratory exact-content component sensitivity; not independent-source inference",
+      "n_rows": 1397,
+      "point": -0.01580213691250374,
+      "resamples": 5000,
+      "seed": 731
+    },
+    "component_sensitivity_metadata": {
+      "certified_source_groups": false,
+      "component_count": 925,
+      "largest_size": 281,
+      "membership_sha256": "0b00a8730bf6b96c7973449934d93325cc0f11dd851b79375096ff8679d32142",
+      "method": "exact question/passage/pool hashes within EXPLORATORY projection only; not the full R4C 2,329-row component graph",
+      "non_singleton_rows": 554,
+      "size_distribution": {
+        "1": 843,
+        "2": 47,
+        "3": 20,
+        "4": 4,
+        "5": 4,
+        "6": 1,
+        "7": 1,
+        "9": 1,
+        "13": 1,
+        "18": 1,
+        "30": 1,
+        "281": 1
+      }
+    },
+    "jina_only_wins": 242,
+    "metric": "binary_evidence_relevant_ndcg5",
+    "n": 1397,
+    "no_positive_n": 64,
+    "operational_denominator": 1397,
+    "point": -0.01580213691250374,
+    "pplx_only_wins": 160,
+    "query_bootstrap_primary": true,
+    "resamples": 5000,
+    "seed": 731,
+    "source_independence_qualification": "No authoritative source-document identities or sealed reservation attestation; query bootstrap is exploratory and exact-content component sensitivity is lower-bound only.",
+    "ties": 995,
+    "unresolved_annotation_rows": 1
+  },
+  "quality_scoring_calls": 0,
+  "reader_calls": 0,
+  "reserved_content_accessed": false,
+  "reserved_labels_exported": false,
+  "retrieval_calls": 0,
+  "schema": "E6-2-R5-PROVENANCE-V1"
+}

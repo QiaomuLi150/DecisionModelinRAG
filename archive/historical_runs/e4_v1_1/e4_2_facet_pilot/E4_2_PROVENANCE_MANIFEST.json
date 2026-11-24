@@ -1,0 +1,39 @@
+{
+  "artifact_sha256": {
+    "e4_2_facet_pilot/E4_2_CAL_AND_SMOKE_REPORT.md": "2abf57670cc486135fe7ff3ed758d7167dd409dfbf53c9725b0c21f9d0973af8",
+    "e4_2_facet_pilot/E4_2_ENTITY_CHAIN_AND_FAILURE_CASEBOOK.md": "8f81c2ec810cb6e6711c0977f3e093c093b45b1aac95e1ff98d9a80c87ce13d8",
+    "e4_2_facet_pilot/E4_2_EXECUTION_EVENTS.md": "d8758073464263b8bb13e72d836ddfcbf02a41111e04335db6e2d16ecf195422",
+    "e4_2_facet_pilot/E4_2_FACETS.jsonl": "4bd5be8153f0b274c3d29dcab1076b3c89910be5823b946be02259a301a44c1f",
+    "e4_2_facet_pilot/E4_2_FACET_VALIDITY_AND_NATIVE_CONTRACT.md": "498797de1ccf54c5fe2b9a1105728e200aff6a1ab0d38c266cda4076d57764e2",
+    "e4_2_facet_pilot/E4_2_FINAL_SCIENTIFIC_REPORT.md": "94b0c86d53341e1f95611ce6b77ec92bb1f8e68977ae713457ea32de19df3201",
+    "e4_2_facet_pilot/E4_2_FROZEN_EXPLORATORY_PROTOCOL.json": "29ad68ee78aa425dfcf89081ef84700930e3306fe1874ceb44425ac488ce1ccf",
+    "e4_2_facet_pilot/E4_2_FROZEN_TOP5.jsonl": "a97752f5f9ad8a44b3e564383a723aad72ef19b52d8b9fd2e2094b24a5619cfd",
+    "e4_2_facet_pilot/E4_2_INFERENCE_TELEMETRY_CAL.json": "bdf9f0a87a4e37114ea41e4bb64f4e271908b4d3b931e924628a89b26413f46a",
+    "e4_2_facet_pilot/E4_2_INFERENCE_TELEMETRY_FULL.json": "db46533541d130b66a0c66a34f7923708e3874efc97aa43f3c0bf130a9eb738b",
+    "e4_2_facet_pilot/E4_2_INFERENCE_TELEMETRY_SMOKE.json": "07ea191990fe8ef5647b1a98dc2cad1b31f688af2ed16b8d6199f72760da8328",
+    "e4_2_facet_pilot/E4_2_INFERENCE_WORK_AND_LATENCY.csv": "594dd7323c5dee95974f7551ab9754f05477ca2d31f837a623149cd44f1e2990",
+    "e4_2_facet_pilot/E4_2_INPUT_AND_COHORT_MANIFEST.json": "333107471bea556f848bbfd64c0dac54d558128befddfe7e299ce051ae579fa0",
+    "e4_2_facet_pilot/E4_2_NATIVE_SCORING_RAW.jsonl": "ae95bf11ebf1d222c3bd14b31b525ff592291b0af151c47256825ac3dc1a7ba5",
+    "e4_2_facet_pilot/E4_2_NATIVE_SCORING_RAW_failed_system_python.jsonl": "9efb085d1e72f11da066cd3cd1a9f97ccabac4e1740fbbcca27ac2cebfbac6b8",
+    "e4_2_facet_pilot/E4_2_OWNER_REVIEW_CLOSURE.json": "4ccef646544cc1599abb52dbd552360a14058fe4d7c6f519a8dcc9a1b70fe4bc",
+    "e4_2_facet_pilot/E4_2_OWNER_REVIEW_GATE.md": "6a17e26d7e1f843288e36e0d12f9e584220b5278407e53e4256bd5ed46627aeb",
+    "e4_2_facet_pilot/E4_2_QUALITY_AND_PAIRED_STATS.csv": "8735dc74e0e403de1dc3fd498a748ea2f5c8219a0ce38c70ee153b7113ee9f5f",
+    "e4_2_facet_pilot/E4_2_SOURCE_GROUP_SENSITIVITY.csv": "da6f555cf9e0ff0a38d14ddd650367f99e65a2b0cff00014e41dd516337b9c0f",
+    "e4_2_facet_pilot/E4_2_TEST_REPORT.md": "1276efcdbb32f293a3e63906985a2603a8e7bf385bbf98f8989bae8e6c4c059d"
+  },
+  "future_phases": {
+    "E4_3": "NOT_RUN",
+    "E4_5": "NOT_RUN"
+  },
+  "input_sha256": {
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_PROVENANCE_MANIFEST.json": "985aa0d0c94b8559619057852d0c6e5d421691b34cf0ac096623f798507dbb90",
+    "results/non_jev/v2/e3_v1/e3_d_external/E3_D_PROVENANCE_MANIFEST.json": "9dbe4c24206d234330f658a7b0e976f6d63eeed2be77032212212d2aa44b5c28",
+    "results/non_jev/v2/e4_v1_1/e4_0_foundation/E4_0_COHORT_AND_ARMS_MANIFEST.json": "652b3430a94c9e9d7c607ab416442f4e2404b03e67babd4d384d6bf69f55624c",
+    "results/non_jev/v2/e4_v1_1/e4_2_facet_pilot/E4_2_FROZEN_EXPLORATORY_PROTOCOL.json": "29ad68ee78aa425dfcf89081ef84700930e3306fe1874ceb44425ac488ce1ccf",
+    "results/non_jev/v2/e4_v1_1/e4_2_facet_pilot/E4_2_INPUT_AND_COHORT_MANIFEST.json": "333107471bea556f848bbfd64c0dac54d558128befddfe7e299ce051ae579fa0"
+  },
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "reserved_outcomes_accessed": false,
+  "status": "E4_2_PILOT_OWNER_REVIEW_READY"
+}

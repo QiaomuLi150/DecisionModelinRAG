@@ -1,0 +1,26 @@
+{
+  "stage": "N1",
+  "model": "laya",
+  "rows": 10,
+  "ok_or_limited": 10,
+  "strict_telemetry_ok": 10,
+  "unique_queries": 10,
+  "candidate_count_per_query": 20,
+  "gpu_snapshot_before": {
+    "status": "PASS",
+    "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,utilization.gpu --format=csv,noheader,nounits",
+    "stdout": "0, NVIDIA A100-SXM4-80GB, 81920, 669, 8\n1, NVIDIA A100-SXM4-80GB, 81920, 55827, 0\n2, NVIDIA A100-SXM4-80GB, 81920, 54785, 0\n3, NVIDIA A100-SXM4-80GB, 81920, 60463, 0\n4, NVIDIA A100-SXM4-80GB, 81920, 28821, 0\n5, NVIDIA A100-SXM4-80GB, 81920, 70213, 100\n6, NVIDIA A100-SXM4-80GB, 81920, 4, 0\n7, NVIDIA A100-SXM4-80GB, 81920, 65198, 39",
+    "stderr": ""
+  },
+  "gpu_snapshot_after": {
+    "status": "PASS",
+    "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,utilization.gpu --format=csv,noheader,nounits",
+    "stdout": "0, NVIDIA A100-SXM4-80GB, 81920, 665, 4\n1, NVIDIA A100-SXM4-80GB, 81920, 55827, 0\n2, NVIDIA A100-SXM4-80GB, 81920, 54785, 0\n3, NVIDIA A100-SXM4-80GB, 81920, 60463, 0\n4, NVIDIA A100-SXM4-80GB, 81920, 28821, 0\n5, NVIDIA A100-SXM4-80GB, 81920, 70213, 100\n6, NVIDIA A100-SXM4-80GB, 81920, 3145, 30\n7, NVIDIA A100-SXM4-80GB, 81920, 65198, 58",
+    "stderr": ""
+  },
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "downloads": 0,
+  "network": false,
+  "status": "PASS"
+}

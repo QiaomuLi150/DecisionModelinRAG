@@ -1,0 +1,11 @@
+{
+  "end": 692,
+  "gpu_slot_request": 4,
+  "labels_joined": false,
+  "model_kind": "jina",
+  "model_loading_ms": 1480.113821104169,
+  "result_namespace": "stage1_quality_v2",
+  "rows": 4844,
+  "sha256": "bb35ad9312f804d55a6cb73c42dceaa9544591990765eede1dfce25486589d32",
+  "start": 0
+}

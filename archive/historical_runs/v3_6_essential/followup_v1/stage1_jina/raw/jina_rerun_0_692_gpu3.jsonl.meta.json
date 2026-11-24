@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "gpu_slot": "A",
+  "gpu_index": 3,
+  "start": 0,
+  "end": 692,
+  "policies": [
+    "jina_single_4096",
+    "jina_single_6144",
+    "jina_single_8192",
+    "jina_two_stage_2048",
+    "jina_two_stage_4096",
+    "jina_two_stage_8192"
+  ],
+  "rows": 4152,
+  "sha256": "1bcc951d8b858be4adabc7b510f1e10eb3bc3a1ef74b223621e91847eb75cfbc",
+  "labels_joined": false,
+  "protected_holdouts_accessed": false
+}

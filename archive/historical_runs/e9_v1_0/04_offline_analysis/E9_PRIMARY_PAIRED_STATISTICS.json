@@ -1,0 +1,13 @@
+{
+  "bootstrap_resamples": 5000,
+  "created_utc": "2026-10-16T00:43:10.980210+00:00",
+  "models": [
+    "pplx_decider",
+    "jina_v3_5",
+    "liquid_d1_3b",
+    "qwen3_reranker_0_6b"
+  ],
+  "reason": "No valid admitted candidate/qrel population",
+  "seed": 731,
+  "status": "NOT_COMPUTED_BENCHMARK_NOT_ADMITTED"
+}

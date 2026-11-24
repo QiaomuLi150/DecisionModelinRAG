@@ -1,0 +1,48 @@
+{
+  "attempts": 3,
+  "bootstrap": {
+    "cluster": "canonical_id",
+    "draws": 10000,
+    "seed": 731
+  },
+  "cohort": "C120 from frozen v3.6 cohort manifest",
+  "cohort_size": 120,
+  "concurrency": 1,
+  "experiment": "DecisionRAG v3.6 Essential Verification",
+  "failure_policy": "no retries; failure elapsed time retained; no fallback in raw timing",
+  "gpu_index": 3,
+  "input_hashes": {
+    "bright": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+    "stage0_protocol": "1547516bd21122abbce93873752bb2603c1a90c7b60055df56d0d78efb434f0e",
+    "t2_input_manifest": "36fd60d115b729babc309b9e1b952d845dddfb36f56f6b8a0d66b49062149eec"
+  },
+  "labels_joined": false,
+  "models": {
+    "jina_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+    "pplx_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+  },
+  "paid_api_calls": 0,
+  "policy_order": {
+    "jina": [
+      "jina_full",
+      "jina_single_6144",
+      "jina_single_8192",
+      "jina_two_stage_8192"
+    ],
+    "pplx": [
+      "pplx_budget",
+      "pplx_single_6144",
+      "pplx_two_stage_8192"
+    ]
+  },
+  "protected_holdouts_accessed": false,
+  "reduced_hardware_schedule": "Sessions run sequentially on GPUs 3/6 because only two free dedicated GPUs were available at preflight; no foreign process was evicted.",
+  "session": "C",
+  "stage": "B6.3_T2_frontier_timing",
+  "status": "FROZEN_PRE_OUTCOME",
+  "t2_anchor_policy": [
+    "jina_full",
+    "pplx_budget"
+  ],
+  "timed_boundary": "view preparation + all native calls + score parsing + ID mapping + Top-5 packaging"
+}

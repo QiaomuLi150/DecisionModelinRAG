@@ -1,0 +1,17 @@
+{
+  "jev_calls": 0,
+  "models": [
+    "pplx_decider",
+    "liquid_d1_3b",
+    "startlux_decision_4b",
+    "amos_1_small_2b",
+    "jina_v3_5",
+    "qwen3_reranker_4b",
+    "bge_reranker_v2_m3",
+    "qwen3_reranker_0_6b"
+  ],
+  "paid_api_calls": 0,
+  "rows": 3232,
+  "timed_attempts": 3200,
+  "warmups": 16
+}

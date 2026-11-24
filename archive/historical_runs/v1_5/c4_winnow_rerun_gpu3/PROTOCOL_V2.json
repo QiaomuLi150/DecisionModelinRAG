@@ -1,0 +1,47 @@
+{
+  "experiment_id": "v1_5_c4_winnow_rerun_gpu3",
+  "protocol_version": "decisionrag-v1.5-c4-r5-continuation-v2",
+  "status": "FROZEN_PRE_OUTCOME",
+  "source_protocol": "results/v1_3/r5_winnow_budget_v2/PROTOCOL_V2.json",
+  "source_protocol_sha256": "5ea8ea34e9906f6965c3452c76a712caee3e549c52d40f6d26e8c3205d2a3e02",
+  "resource_gate_source": "results/v1_3/r5_winnow_budget_v2/R5_RESOURCE_GATE.json",
+  "resource_gate_sha256": "891b218da5d03cf530520af752f58a9162c35cb5f490f675492aa7d77f9f232d",
+  "population": {
+    "dataset": "BRIGHT",
+    "queries": 1384,
+    "candidate_count": 20,
+    "candidate_order": "frozen original BM25 order",
+    "input_slate_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2"
+  },
+  "policies": [
+    "winnow12_D_budget"
+  ],
+  "winnow": {
+    "model_revision": "0b5b7f98e718cf0faffd0acea3093b86ebf00b56",
+    "model_path": "data/models/e12_o_checkpoints/winnow12/gguf/Winnow-12B-Q8_0.gguf",
+    "model_sha256": "b710efc4c0d048ee61eed92c5fef5ce323a4d17e7c51f9f0533cc72ae50818ea",
+    "tokenizer_sha256": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "native_endpoint": "POST /v1/systemone",
+    "native_readout": "typed choice probabilities",
+    "alias": "Winnow-12B"
+  },
+  "runtime": {
+    "source_repository": "EldanRing/winnow-inference",
+    "source_commit": "6c2b3c04e248a319f2cb43832628eba03e55fe38",
+    "runtime_lock_sha256": "21e6e69d8e43e318089e77459d102f05ee2cad266999c7860e64048f69c89e84",
+    "binary": "<REDACTED_PATH>",
+    "binary_sha256": "2f729cd3f59b34dc5b3a9a7cd0c5096e59075fe8dcd246529e9b34753f273993",
+    "server_command": "serve.py --model <pinned-Winnow-Q8_0> --context 8192 --decision-parallel 4 --chat-parallel 1 --cache q8_0 --memory exclusive --gpu 3 --server <pinned-binary> --port 18092",
+    "port_deviation": "8091 was occupied; 18092 was used without changing the endpoint path or model contract"
+  },
+  "measurement": {
+    "one_request_at_a_time": true,
+    "model_load_excluded_from_latency": true,
+    "model_load_reported_separately": true,
+    "peak_allocator_memory_required": true,
+    "server_stderr_required_for_http_errors": true,
+    "labels_joined_before_inference": false,
+    "dedicated_gpu": 3
+  },
+  "historical_artifacts_modified": false
+}

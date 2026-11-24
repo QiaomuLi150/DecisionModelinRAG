@@ -1,0 +1,49 @@
+{
+  "stage": "preflight_native_smoke",
+  "policy": "pplx_budget",
+  "gpu": 0,
+  "gpu_before": {
+    "index": 0,
+    "uuid": "<REDACTED_GPU_UUID>",
+    "memory_free_mib": 78711,
+    "memory_used_mib": 2441
+  },
+  "model_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+  "source_row": {
+    "domain": "aops",
+    "query_id": "aops_1959_IMO_Problems/Problem_1",
+    "slate_sha256": "dc5964633b34164bb02ab8f4a875c60b96437efb295b4f7d297435775bac800b",
+    "pplx_request_sha256": "c1095c3e265130394d2916428b2413ba0580c4db3f06a492cd517fe84521cc2d",
+    "budgeted_candidate_ids": [
+      "aqua_rat_63035",
+      "aqua_rat_4073",
+      "math_test_intermediate_algebra_161",
+      "math_train_prealgebra_749",
+      "camel_49478",
+      "camel_37319",
+      "aqua_rat_2440",
+      "aqua_rat_31779",
+      "aqua_rat_55688",
+      "aqua_rat_82762",
+      "aqua_rat_50408",
+      "aqua_rat_69423",
+      "camel_49423",
+      "camel_19931",
+      "math_train_counting_and_probability_5010",
+      "camel_49997",
+      "camel_48706",
+      "camel_19965",
+      "camel_49920",
+      "camel_49812"
+    ]
+  },
+  "labels_joined": false,
+  "status": "FAIL",
+  "error": "ModuleNotFoundError:No module named 'torch'",
+  "gpu_after": {
+    "index": 0,
+    "uuid": "<REDACTED_GPU_UUID>",
+    "memory_free_mib": 78711,
+    "memory_used_mib": 2441
+  }
+}

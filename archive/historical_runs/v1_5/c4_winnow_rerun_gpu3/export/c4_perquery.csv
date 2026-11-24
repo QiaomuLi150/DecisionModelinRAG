@@ -1,0 +1,1385 @@
+canonical_id,domain,policy,valid,metric,jina_metric,elapsed_ms,error
+aops:aops_1959_IMO_Problems/Problem_1,aops,winnow12_D_budget,True,0.0,0.0,2609.761,
+aops:aops_1971_AHSME_Problems/Problem_26,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_1971_Canadian_MO_Problems/Problem_1,aops,winnow12_D_budget,True,0.21398626473452756,0.0,1889.199,
+aops:aops_1981_IMO_Problems/Problem_3,aops,winnow12_D_budget,True,0.0,0.0,2264.619,
+aops:aops_1985_AIME_Problems/Problem_6,aops,winnow12_D_budget,True,0.3391602052736161,0.3391602052736161,2483.006,
+aops:aops_1987_IMO_Problems/Problem_1,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_1988_AIME_Problems/Problem_12,aops,winnow12_D_budget,True,0.3391602052736161,0.3391602052736161,2576.944,
+aops:aops_1990_AIME_Problems/Problem_9,aops,winnow12_D_budget,True,0.0,0.0,2485.032,
+aops:aops_1994_AIME_Problems/Problem_9,aops,winnow12_D_budget,True,0.0,0.0,2914.082,
+aops:aops_1998_AIME_Problems/Problem_2,aops,winnow12_D_budget,True,0.0,0.0,2765.599,
+aops:aops_2000_AIME_I_Problems/Problem_9,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2000_AMC_12_Problems/Problem_14,aops,winnow12_D_budget,True,0.7039180890341347,0.46927872602275644,2202.601,
+aops:aops_2000_AMC_12_Problems/Problem_4,aops,winnow12_D_budget,True,0.0,0.0,2612.952,
+aops:aops_2001_AMC_10_Problems/Problem_19,aops,winnow12_D_budget,True,0.3391602052736161,0.0,2542.793,
+aops:aops_2002_AIME_I_Problems/Problem_10,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2002_AIME_I_Problems/Problem_6,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2004_AIME_I_Problems/Problem_10,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2005_AMC_12A_Problems/Problem_18,aops,winnow12_D_budget,True,0.0,0.0,2564.61,
+aops:aops_2005_IMO_Problems/Problem_4,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2005_USAMO_Problems/Problem_2,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2007_AIME_II_Problems/Problem_10,aops,winnow12_D_budget,True,0.0,0.0,2725.876,
+aops:aops_2007_AIME_I_Problems/Problem_10,aops,winnow12_D_budget,True,0.0,0.0,2958.295,
+aops:aops_2007_iTest_Problems/Problem_6,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2008_AMC_12A_Problems/Problem_15,aops,winnow12_D_budget,True,0.0,0.0,2765.017,
+aops:aops_2008_AMC_12A_Problems/Problem_16,aops,winnow12_D_budget,True,0.0,0.0,2528.397,
+aops:aops_2008_AMC_12B_Problems/Problem_16,aops,winnow12_D_budget,True,0.0,0.0,2908.566,
+aops:aops_2009_AMC_12A_Problems/Problem_17,aops,winnow12_D_budget,True,0.0,0.0,2858.464,
+aops:aops_2011_AMC_8_Problems/Problem_6,aops,winnow12_D_budget,True,0.0,0.0,2413.963,
+aops:aops_2013_AMC_12A_Problems/Problem_13,aops,winnow12_D_budget,True,0.0,0.0,2898.15,
+aops:aops_2015_AIME_I_Problems/Problem_4,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2015_AMC_10B_Problems/Problem_15,aops,winnow12_D_budget,True,0.0,0.0,2373.538,
+aops:aops_2015_AMC_12A_Problems/Problem_22,aops,winnow12_D_budget,True,0.0,0.0,2679.012,
+aops:aops_2016_AIME_II_Problems/Problem_10,aops,winnow12_D_budget,False,0.0,0.5531464700081437,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2016_AIME_I_Problems/Problem_15,aops,winnow12_D_budget,False,0.0,0.3391602052736161,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2016_AMC_10A_Problems/Problem_19,aops,winnow12_D_budget,True,0.16958010263680806,0.0,2736.998,
+aops:aops_2016_AMC_10A_Problems/Problem_7,aops,winnow12_D_budget,True,0.46927872602275644,0.46927872602275644,2673.433,
+aops:aops_2017_AIME_II_Problems/Problem_1,aops,winnow12_D_budget,True,0.0,0.0,2326.682,
+aops:aops_2017_AIME_II_Problems/Problem_3,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2017_AMC_10B_Problems/Problem_13,aops,winnow12_D_budget,True,0.0,0.0,2704.816,
+aops:aops_2017_AMC_10B_Problems/Problem_14,aops,winnow12_D_budget,True,0.0,0.0,2661.001,
+aops:aops_2018_AMC_10A_Problems/Problem_11,aops,winnow12_D_budget,True,0.0,0.16958010263680806,2629.945,
+aops:aops_2018_AMC_8_Problems/Problem_23,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2019_AIME_I_Problems/Problem_3,aops,winnow12_D_budget,True,0.0,0.0,2048.406,
+aops:aops_2019_AMC_10A_Problems/Problem_12,aops,winnow12_D_budget,True,0.7039180890341347,0.5307212739772434,2821.24,
+aops:aops_2019_AMC_12A_Problems/Problem_17,aops,winnow12_D_budget,True,0.0,0.0,2907.854,
+aops:aops_2019_AMC_8_Problems/Problem_25,aops,winnow12_D_budget,True,0.3391602052736161,0.5531464700081437,2424.896,
+aops:aops_2020_AIME_II_Problems/Problem_9,aops,winnow12_D_budget,True,0.0,0.0,2343.241,
+aops:aops_2020_AIME_I_Problems/Problem_15,aops,winnow12_D_budget,False,0.0,0.5296347172140421,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2020_AMC_10A_Problems/Problem_24,aops,winnow12_D_budget,True,0.19519002499605084,0.19519002499605084,2640.447,
+aops:aops_2020_AMC_10B_Problems/Problem_25,aops,winnow12_D_budget,True,0.14606834984270645,0.14606834984270645,2789.356,
+aops:aops_2020_AMC_8_Problems/Problem_12,aops,winnow12_D_budget,True,0.0,0.0,2885.945,
+aops:aops_2021_AIME_II_Problems/Problem_9,aops,winnow12_D_budget,True,0.19519002499605084,0.0,2079.414,
+aops:aops_2021_AIME_I_Problems/Problem_10,aops,winnow12_D_budget,True,0.0,0.0,2917.37,
+aops:aops_2021_AIME_I_Problems/Problem_14,aops,winnow12_D_budget,True,0.21398626473452756,0.16958010263680806,2946.711,
+aops:aops_2021_AMC_12B_Problems/Problem_9,aops,winnow12_D_budget,True,0.0,0.0,2432.645,
+aops:aops_2021_Fall_AMC_12A_Problems/Problem_12,aops,winnow12_D_budget,True,0.0,0.0,2824.849,
+aops:aops_2022_AIME_I_Problems/Problem_11,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2022_AMC_10B_Problems/Problem_9,aops,winnow12_D_budget,True,0.0,0.0,2745.222,
+aops:aops_2023_AIME_II_Problems/Problem_9,aops,winnow12_D_budget,False,0.0,0.5531464700081437,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2023_AIME_I_Problems/Problem_5,aops,winnow12_D_budget,True,0.0,0.0,2287.032,
+aops:aops_2024_AIME_I_Problems/Problem_10,aops,winnow12_D_budget,False,0.0,0.5531464700081437,,HTTPError: HTTP Error 400: Bad Request
+aops:aops_2024_AIME_I_Problems/Problem_13,aops,winnow12_D_budget,True,0.3391602052736161,0.0,2940.106,
+aops:math_test_algebra_1208,aops,winnow12_D_budget,True,0.0,0.0,2888.561,
+aops:math_test_counting_and_probability_1003,aops,winnow12_D_budget,True,0.0,0.0,2029.284,
+aops:math_test_counting_and_probability_1009,aops,winnow12_D_budget,True,0.0,0.0,1572.441,
+aops:math_test_counting_and_probability_430,aops,winnow12_D_budget,True,0.0,0.0,2398.04,
+aops:math_test_counting_and_probability_838,aops,winnow12_D_budget,True,0.0,0.0,2859.56,
+aops:math_test_geometry_454,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:math_test_intermediate_algebra_1179,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:math_test_intermediate_algebra_1812,aops,winnow12_D_budget,True,0.0,0.0,2351.359,
+aops:math_test_intermediate_algebra_951,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:math_test_prealgebra_1987,aops,winnow12_D_budget,True,0.0,0.0,2357.189,
+aops:math_train_algebra_2521,aops,winnow12_D_budget,True,0.0,0.0,2625.677,
+aops:math_train_algebra_2826,aops,winnow12_D_budget,True,0.5307212739772434,0.23463936301137822,2880.328,
+aops:math_train_counting_and_probability_5011,aops,winnow12_D_budget,True,0.0,0.0,1572.791,
+aops:math_train_counting_and_probability_5024,aops,winnow12_D_budget,True,0.0,0.0,2021.297,
+aops:math_train_counting_and_probability_5035,aops,winnow12_D_budget,True,0.0,0.0,1798.512,
+aops:math_train_counting_and_probability_5045,aops,winnow12_D_budget,True,0.0,0.0,1556.259,
+aops:math_train_counting_and_probability_5047,aops,winnow12_D_budget,True,0.0,0.0,2520.018,
+aops:math_train_counting_and_probability_5048,aops,winnow12_D_budget,True,0.0,0.0,1722.057,
+aops:math_train_counting_and_probability_5064,aops,winnow12_D_budget,True,0.0,0.0,2566.358,
+aops:math_train_counting_and_probability_5111,aops,winnow12_D_budget,True,0.0,0.0,2811.886,
+aops:math_train_counting_and_probability_5131,aops,winnow12_D_budget,True,0.0,0.0,2317.528,
+aops:math_train_counting_and_probability_822,aops,winnow12_D_budget,True,0.38685280723454163,0.38685280723454163,2757.4,
+aops:math_train_geometry_317,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:math_train_geometry_6018,aops,winnow12_D_budget,True,0.0,0.0,2328.073,
+aops:math_train_geometry_6022,aops,winnow12_D_budget,True,0.0,0.0,2948.78,
+aops:math_train_geometry_6051,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:math_train_geometry_6060,aops,winnow12_D_budget,True,0.0,0.0,2885.15,
+aops:math_train_geometry_6078,aops,winnow12_D_budget,True,0.0,0.0,2926.969,
+aops:math_train_geometry_6092,aops,winnow12_D_budget,True,0.14606834984270645,0.3391602052736161,2927.447,
+aops:math_train_geometry_6105,aops,winnow12_D_budget,True,0.0,0.0,2703.872,
+aops:math_train_geometry_6112,aops,winnow12_D_budget,True,0.0,0.0,2913.668,
+aops:math_train_geometry_6115,aops,winnow12_D_budget,False,0.0,0.13120507751234178,,HTTPError: HTTP Error 400: Bad Request
+aops:math_train_geometry_6116,aops,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+aops:math_train_geometry_6173,aops,winnow12_D_budget,True,0.0,0.0,2726.716,
+aops:math_train_geometry_747,aops,winnow12_D_budget,True,0.0,0.3065735963827292,2772.414,
+aops:math_train_intermediate_algebra_1268,aops,winnow12_D_budget,True,0.46927872602275644,0.46927872602275644,2920.782,
+aops:math_train_intermediate_algebra_1822,aops,winnow12_D_budget,True,0.2960819109658652,0.46927872602275644,2162.267,
+aops:math_train_intermediate_algebra_2060,aops,winnow12_D_budget,True,0.0,0.0,2520.944,
+aops:math_train_intermediate_algebra_477,aops,winnow12_D_budget,True,0.0,0.0,2526.353,
+aops:math_train_intermediate_algebra_513,aops,winnow12_D_budget,True,0.0,0.0,1807.58,
+aops:math_train_intermediate_algebra_659,aops,winnow12_D_budget,True,0.0,0.0,2463.047,
+aops:math_train_number_theory_7003,aops,winnow12_D_budget,True,0.0,0.0,2880.25,
+aops:math_train_number_theory_7012,aops,winnow12_D_budget,True,0.0,0.0,1286.627,
+aops:math_train_number_theory_7016,aops,winnow12_D_budget,True,0.0,0.0,1930.454,
+aops:math_train_number_theory_7030,aops,winnow12_D_budget,True,0.0,0.0,2855.699,
+aops:math_train_number_theory_7066,aops,winnow12_D_budget,True,0.0,0.0,2769.256,
+aops:math_train_number_theory_7078,aops,winnow12_D_budget,True,0.20210734650054757,0.0,2800.41,
+aops:math_train_number_theory_7095,aops,winnow12_D_budget,True,0.0,0.0,1731.68,
+aops:math_train_number_theory_839,aops,winnow12_D_budget,True,0.0,0.0,2857.184,
+biology:0,biology,winnow12_D_budget,True,0.0,0.0,1110.274,
+biology:1,biology,winnow12_D_budget,True,0.0,0.0,1015.5,
+biology:10,biology,winnow12_D_budget,True,0.7039180890341347,0.7653606369886217,1323.096,
+biology:100,biology,winnow12_D_budget,True,0.8772153153380493,0.6934264036172708,1316.16,
+biology:101,biology,winnow12_D_budget,True,0.0,0.0,984.776,
+biology:102,biology,winnow12_D_budget,True,0.0,0.0,1051.412,
+biology:11,biology,winnow12_D_budget,True,0.3391602052736161,0.21398626473452756,1090.938,
+biology:12,biology,winnow12_D_budget,True,0.3903800499921017,0.0,1054.279,
+biology:13,biology,winnow12_D_budget,True,0.639945385422766,0.7227265726449519,1841.998,
+biology:14,biology,winnow12_D_budget,True,0.6992148198508501,0.4703652827859579,1497.496,
+biology:15,biology,winnow12_D_budget,True,0.0,0.0,992.046,
+biology:16,biology,winnow12_D_budget,True,0.0,0.0,1054.843,
+biology:17,biology,winnow12_D_budget,True,0.0,0.0,1055.933,
+biology:18,biology,winnow12_D_budget,True,0.0,0.0,1085.58,
+biology:19,biology,winnow12_D_budget,True,1.0,0.6309297535714575,1162.373,
+biology:2,biology,winnow12_D_budget,True,0.0,0.0,1082.766,
+biology:20,biology,winnow12_D_budget,True,0.27727342735504823,0.3391602052736161,1356.464,
+biology:21,biology,winnow12_D_budget,True,0.6992148198508501,0.6164336326286644,1374.511,
+biology:22,biology,winnow12_D_budget,True,0.0,0.0,1002.508,
+biology:23,biology,winnow12_D_budget,True,0.0,0.0,1056.581,
+biology:24,biology,winnow12_D_budget,True,0.0,0.46927872602275644,1166.859,
+biology:25,biology,winnow12_D_budget,True,0.0,0.0,1027.568,
+biology:26,biology,winnow12_D_budget,True,1.0,1.0,1061.088,
+biology:27,biology,winnow12_D_budget,True,0.0,0.0,1180.788,
+biology:28,biology,winnow12_D_budget,True,0.0,0.6309297535714575,1197.208,
+biology:29,biology,winnow12_D_budget,True,0.6131471927654584,0.0,2216.04,
+biology:3,biology,winnow12_D_budget,True,1.0,1.0,1187.919,
+biology:30,biology,winnow12_D_budget,True,0.5531464700081437,0.5531464700081437,1174.846,
+biology:31,biology,winnow12_D_budget,True,0.46927872602275644,0.0,1184.768,
+biology:32,biology,winnow12_D_budget,True,0.0,0.0,1104.068,
+biology:33,biology,winnow12_D_budget,True,0.38685280723454163,0.38685280723454163,1170.854,
+biology:34,biology,winnow12_D_budget,True,0.0,0.0,1868.942,
+biology:35,biology,winnow12_D_budget,True,0.0,0.0,1089.609,
+biology:36,biology,winnow12_D_budget,True,0.0,0.0,996.679,
+biology:37,biology,winnow12_D_budget,True,0.0,0.0,1183.279,
+biology:38,biology,winnow12_D_budget,True,0.0,0.0,1098.608,
+biology:39,biology,winnow12_D_budget,True,0.0,0.0,1214.572,
+biology:4,biology,winnow12_D_budget,True,0.0,0.23463936301137822,1383.076,
+biology:40,biology,winnow12_D_budget,True,0.0,0.0,1140.553,
+biology:41,biology,winnow12_D_budget,True,0.20210734650054757,0.0,1523.659,
+biology:42,biology,winnow12_D_budget,True,0.3903800499921017,0.15101961822780524,1206.264,
+biology:43,biology,winnow12_D_budget,True,0.0,0.0,1093.213,
+biology:44,biology,winnow12_D_budget,True,0.0,0.0,1125.025,
+biology:45,biology,winnow12_D_budget,True,0.0,0.0,997.661,
+biology:46,biology,winnow12_D_budget,True,0.0,0.0,992.112,
+biology:47,biology,winnow12_D_budget,True,0.0,0.0,1024.479,
+biology:48,biology,winnow12_D_budget,True,0.0,0.0,1053.917,
+biology:49,biology,winnow12_D_budget,True,0.0,0.0,1111.012,
+biology:5,biology,winnow12_D_budget,True,0.3903800499921017,0.24630238874073,1085.16,
+biology:50,biology,winnow12_D_budget,True,0.0,0.0,811.548,
+biology:51,biology,winnow12_D_budget,True,0.0,0.0,1031.02,
+biology:52,biology,winnow12_D_budget,True,0.0,0.0,1291.27,
+biology:53,biology,winnow12_D_budget,True,0.0,0.0,1041.477,
+biology:54,biology,winnow12_D_budget,True,0.7653606369886217,0.23463936301137822,1199.207,
+biology:55,biology,winnow12_D_budget,True,0.0,0.0,1115.011,
+biology:56,biology,winnow12_D_budget,True,0.0,0.0,1032.237,
+biology:57,biology,winnow12_D_budget,True,0.3903800499921017,0.3903800499921017,1324.622,
+biology:58,biology,winnow12_D_budget,True,0.7653606369886217,0.2960819109658652,1271.54,
+biology:59,biology,winnow12_D_budget,True,0.0,0.0,1146.351,
+biology:6,biology,winnow12_D_budget,True,0.3391602052736161,0.0,1038.586,
+biology:60,biology,winnow12_D_budget,True,0.0,0.0,1697.061,
+biology:61,biology,winnow12_D_budget,True,0.6366824387328317,0.6096199500078984,1426.759,
+biology:62,biology,winnow12_D_budget,True,0.0,0.20210734650054757,1400.686,
+biology:63,biology,winnow12_D_budget,True,0.15101961822780524,0.15101961822780524,1234.037,
+biology:64,biology,winnow12_D_budget,True,0.0,0.0,1045.99,
+biology:65,biology,winnow12_D_budget,True,0.21398626473452756,0.21398626473452756,1209.71,
+biology:66,biology,winnow12_D_budget,True,0.3391602052736161,0.16958010263680806,1189.187,
+biology:67,biology,winnow12_D_budget,True,0.0,0.0,1037.608,
+biology:68,biology,winnow12_D_budget,True,0.3391602052736161,0.0,1225.622,
+biology:69,biology,winnow12_D_budget,True,0.16812753627111746,0.0,871.56,
+biology:7,biology,winnow12_D_budget,True,0.7039180890341347,0.7653606369886217,1034.666,
+biology:70,biology,winnow12_D_budget,True,0.3903800499921017,0.3903800499921017,1305.614,
+biology:71,biology,winnow12_D_budget,True,0.16812753627111746,0.0,1084.576,
+biology:72,biology,winnow12_D_budget,True,0.8687949224876582,0.8687949224876582,1600.418,
+biology:73,biology,winnow12_D_budget,True,0.0,0.0,1171.799,
+biology:74,biology,winnow12_D_budget,True,0.3903800499921017,0.0,1237.425,
+biology:75,biology,winnow12_D_budget,True,0.0,0.0,949.405,
+biology:76,biology,winnow12_D_budget,True,0.0,0.0,1149.628,
+biology:77,biology,winnow12_D_budget,True,0.0,0.0,1089.821,
+biology:78,biology,winnow12_D_budget,True,0.5307212739772434,0.6508205185601091,1253.462,
+biology:79,biology,winnow12_D_budget,True,0.3391602052736161,0.21398626473452756,1363.79,
+biology:8,biology,winnow12_D_budget,True,0.0,0.0,1370.801,
+biology:80,biology,winnow12_D_budget,True,0.0,0.0,1026.637,
+biology:81,biology,winnow12_D_budget,True,0.0,0.0,1268.581,
+biology:82,biology,winnow12_D_budget,True,0.0,0.0,962.383,
+biology:83,biology,winnow12_D_budget,True,0.43067655807339306,0.5,1030.716,
+biology:84,biology,winnow12_D_budget,True,0.16812753627111746,0.24630238874073,1058.216,
+biology:85,biology,winnow12_D_budget,True,0.0,0.0,882.839,
+biology:86,biology,winnow12_D_budget,True,0.3156484524795145,0.13120507751234178,1573.916,
+biology:87,biology,winnow12_D_budget,True,0.0,0.0,1127.018,
+biology:88,biology,winnow12_D_budget,True,0.23463936301137822,0.0,946.033,
+biology:89,biology,winnow12_D_budget,True,0.46927872602275644,0.2960819109658652,1128.036,
+biology:9,biology,winnow12_D_budget,True,0.3391602052736161,0.0,1836.015,
+biology:90,biology,winnow12_D_budget,True,0.0,0.0,860.487,
+biology:91,biology,winnow12_D_budget,True,0.0,0.0,903.593,
+biology:92,biology,winnow12_D_budget,True,0.6131471927654584,0.6131471927654584,1208.741,
+biology:93,biology,winnow12_D_budget,True,1.0,1.0,1081.342,
+biology:94,biology,winnow12_D_budget,True,0.3903800499921017,0.3903800499921017,908.458,
+biology:95,biology,winnow12_D_budget,True,1.0,0.3065735963827292,1206.53,
+biology:96,biology,winnow12_D_budget,True,0.38685280723454163,0.5706417189553201,1336.461,
+biology:97,biology,winnow12_D_budget,True,0.6934264036172708,0.9197207891481876,1049.004,
+biology:98,biology,winnow12_D_budget,True,0.0,0.0,780.13,
+biology:99,biology,winnow12_D_budget,True,0.7653606369886217,0.7653606369886217,1263.973,
+earth_science:0,earth_science,winnow12_D_budget,True,0.2640681225725909,0.2640681225725909,1886.4,
+earth_science:1,earth_science,winnow12_D_budget,True,0.0,0.6309297535714575,1201.451,
+earth_science:10,earth_science,winnow12_D_budget,True,0.14606834984270645,0.0,1665.64,
+earth_science:100,earth_science,winnow12_D_budget,True,0.0,0.0,1442.221,
+earth_science:101,earth_science,winnow12_D_budget,True,1.0,1.0,1905.127,
+earth_science:102,earth_science,winnow12_D_budget,True,0.0,0.0,1128.576,
+earth_science:103,earth_science,winnow12_D_budget,True,0.2640681225725909,0.0,2787.424,
+earth_science:104,earth_science,winnow12_D_budget,False,0.0,0.23719771276929622,,HTTPError: HTTP Error 400: Bad Request
+earth_science:105,earth_science,winnow12_D_budget,True,0.46927872602275644,0.0,2648.817,
+earth_science:106,earth_science,winnow12_D_budget,True,0.21398626473452756,0.3391602052736161,2113.323,
+earth_science:107,earth_science,winnow12_D_budget,True,0.3391602052736161,0.21398626473452756,2380.159,
+earth_science:108,earth_science,winnow12_D_budget,True,0.0,0.0,1424.426,
+earth_science:109,earth_science,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+earth_science:11,earth_science,winnow12_D_budget,True,0.15101961822780524,0.16812753627111746,1899.893,
+earth_science:110,earth_science,winnow12_D_budget,True,0.0,0.0,1869.412,
+earth_science:111,earth_science,winnow12_D_budget,True,0.3065735963827292,0.3065735963827292,2188.538,
+earth_science:112,earth_science,winnow12_D_budget,True,0.0,0.3065735963827292,1492.611,
+earth_science:113,earth_science,winnow12_D_budget,True,0.30078518014914984,0.13120507751234178,1591.917,
+earth_science:114,earth_science,winnow12_D_budget,True,0.24630238874073,0.15101961822780524,1717.301,
+earth_science:115,earth_science,winnow12_D_budget,True,0.13120507751234178,0.0,2552.179,
+earth_science:12,earth_science,winnow12_D_budget,True,0.30078518014914984,0.21398626473452756,2599.679,
+earth_science:13,earth_science,winnow12_D_budget,True,0.0,0.16958010263680806,1161.159,
+earth_science:14,earth_science,winnow12_D_budget,True,0.0,0.0,2207.828,
+earth_science:15,earth_science,winnow12_D_budget,True,0.5855700749881525,0.19519002499605084,1389.459,
+earth_science:16,earth_science,winnow12_D_budget,True,0.5087403079104241,0.0,1660.859,
+earth_science:17,earth_science,winnow12_D_budget,True,0.0,0.0,1296.843,
+earth_science:18,earth_science,winnow12_D_budget,True,0.5654495432396527,0.5654495432396527,1732.284,
+earth_science:19,earth_science,winnow12_D_budget,True,0.3391602052736161,0.7860137352654724,2458.924,
+earth_science:2,earth_science,winnow12_D_budget,True,0.21398626473452756,0.0,1225.254,
+earth_science:20,earth_science,winnow12_D_budget,True,0.48522855511632257,0.21398626473452756,2525.058,
+earth_science:21,earth_science,winnow12_D_budget,True,0.27727342735504823,0.14606834984270645,1338.724,
+earth_science:22,earth_science,winnow12_D_budget,True,0.0,0.0,1290.115,
+earth_science:23,earth_science,winnow12_D_budget,True,0.0,0.0,1954.559,
+earth_science:24,earth_science,winnow12_D_budget,True,0.36005461457723403,0.3391602052736161,1562.066,
+earth_science:25,earth_science,winnow12_D_budget,True,0.6992148198508501,0.6992148198508501,1767.807,
+earth_science:26,earth_science,winnow12_D_budget,True,0.5087403079104241,0.16958010263680806,1346.569,
+earth_science:27,earth_science,winnow12_D_budget,True,0.7860137352654724,0.4703652827859579,2522.844,
+earth_science:28,earth_science,winnow12_D_budget,True,0.5531464700081437,0.38356636737133565,2074.1,
+earth_science:29,earth_science,winnow12_D_budget,True,0.14606834984270645,0.0,2493.979,
+earth_science:3,earth_science,winnow12_D_budget,True,0.2640681225725909,0.38685280723454163,1198.499,
+earth_science:30,earth_science,winnow12_D_budget,True,0.0,0.0,1671.468,
+earth_science:31,earth_science,winnow12_D_budget,True,0.3391602052736161,0.3391602052736161,1950.545,
+earth_science:32,earth_science,winnow12_D_budget,True,0.0,0.0,1355.818,
+earth_science:33,earth_science,winnow12_D_budget,True,0.5531464700081437,0.16958010263680806,1609.879,
+earth_science:34,earth_science,winnow12_D_budget,True,0.46927872602275644,0.0,2134.709,
+earth_science:35,earth_science,winnow12_D_budget,True,0.6548086577531307,0.36005461457723403,2300.18,
+earth_science:36,earth_science,winnow12_D_budget,True,0.6131471927654584,0.6131471927654584,1185.364,
+earth_science:37,earth_science,winnow12_D_budget,True,0.5531464700081437,0.5087403079104241,2003.079,
+earth_science:38,earth_science,winnow12_D_budget,True,0.0,0.0,1189.768,
+earth_science:39,earth_science,winnow12_D_budget,True,0.8772153153380493,0.9197207891481876,1582.0,
+earth_science:4,earth_science,winnow12_D_budget,True,0.43067655807339306,0.6309297535714575,1671.379,
+earth_science:40,earth_science,winnow12_D_budget,True,0.0,0.0,1337.081,
+earth_science:41,earth_science,winnow12_D_budget,True,0.6131471927654584,0.6131471927654584,2297.006,
+earth_science:42,earth_science,winnow12_D_budget,True,0.0,0.0,1447.068,
+earth_science:43,earth_science,winnow12_D_budget,True,1.0,1.0,2276.48,
+earth_science:44,earth_science,winnow12_D_budget,True,0.6131471927654584,0.23719771276929622,1281.834,
+earth_science:45,earth_science,winnow12_D_budget,True,0.3391602052736161,0.3391602052736161,2115.416,
+earth_science:46,earth_science,winnow12_D_budget,True,0.18154179253735267,0.20210734650054757,1924.605,
+earth_science:47,earth_science,winnow12_D_budget,True,0.48522855511632257,1.0,1610.079,
+earth_science:48,earth_science,winnow12_D_budget,True,0.0,0.0,2600.527,
+earth_science:49,earth_science,winnow12_D_budget,True,1.0,0.43067655807339306,1386.775,
+earth_science:5,earth_science,winnow12_D_budget,True,0.0,0.0,1755.099,
+earth_science:50,earth_science,winnow12_D_budget,True,1.0,0.6309297535714575,1317.314,
+earth_science:51,earth_science,winnow12_D_budget,True,0.6509209298071326,0.9197207891481876,1768.762,
+earth_science:52,earth_science,winnow12_D_budget,True,0.0,0.0,2026.928,
+earth_science:53,earth_science,winnow12_D_budget,True,0.2640681225725909,0.6131471927654584,1466.131,
+earth_science:54,earth_science,winnow12_D_budget,True,1.0,1.0,1158.058,
+earth_science:55,earth_science,winnow12_D_budget,True,0.0,0.0,1584.562,
+earth_science:56,earth_science,winnow12_D_budget,True,0.3391602052736161,0.3391602052736161,1289.988,
+earth_science:57,earth_science,winnow12_D_budget,True,0.5531464700081437,0.5531464700081437,2090.876,
+earth_science:58,earth_science,winnow12_D_budget,True,0.0,0.0,1154.975,
+earth_science:59,earth_science,winnow12_D_budget,True,0.6713860725233041,0.5307212739772434,1639.496,
+earth_science:6,earth_science,winnow12_D_budget,True,0.6713860725233041,0.6508205185601091,2155.919,
+earth_science:60,earth_science,winnow12_D_budget,True,0.0,0.0,1168.386,
+earth_science:61,earth_science,winnow12_D_budget,True,0.0,0.0,2255.185,
+earth_science:62,earth_science,winnow12_D_budget,True,1.0,1.0,1965.238,
+earth_science:63,earth_science,winnow12_D_budget,True,0.0,0.0,1303.036,
+earth_science:64,earth_science,winnow12_D_budget,True,0.0,0.0,2262.839,
+earth_science:65,earth_science,winnow12_D_budget,True,1.0,1.0,2445.075,
+earth_science:66,earth_science,winnow12_D_budget,True,0.6309297535714575,0.43067655807339306,1614.525,
+earth_science:67,earth_science,winnow12_D_budget,True,0.0,0.3903800499921017,1912.92,
+earth_science:68,earth_science,winnow12_D_budget,True,0.3391602052736161,0.3391602052736161,1434.787,
+earth_science:69,earth_science,winnow12_D_budget,True,0.0,0.0,1654.696,
+earth_science:7,earth_science,winnow12_D_budget,True,0.5706417189553201,0.38685280723454163,1808.913,
+earth_science:70,earth_science,winnow12_D_budget,True,0.16958010263680806,0.27727342735504823,1596.914,
+earth_science:71,earth_science,winnow12_D_budget,True,0.4703652827859579,0.5087403079104241,2584.866,
+earth_science:72,earth_science,winnow12_D_budget,True,0.6366824387328317,1.0,2260.746,
+earth_science:73,earth_science,winnow12_D_budget,True,0.0,0.0,1096.153,
+earth_science:74,earth_science,winnow12_D_budget,True,0.6131471927654584,0.0,2722.139,
+earth_science:75,earth_science,winnow12_D_budget,True,0.787702056960637,1.0,2941.849,
+earth_science:76,earth_science,winnow12_D_budget,True,0.0,0.4776237035032179,1989.493,
+earth_science:77,earth_science,winnow12_D_budget,True,0.0,0.0,1179.107,
+earth_science:78,earth_science,winnow12_D_budget,True,0.6548086577531307,0.6992148198508501,2050.487,
+earth_science:79,earth_science,winnow12_D_budget,True,0.0,0.0,1602.243,
+earth_science:8,earth_science,winnow12_D_budget,True,0.0,0.0,1362.149,
+earth_science:80,earth_science,winnow12_D_budget,True,0.3391602052736161,0.5531464700081437,1541.408,
+earth_science:81,earth_science,winnow12_D_budget,True,0.43067655807339306,1.0,1781.39,
+earth_science:82,earth_science,winnow12_D_budget,True,1.0,0.6131471927654584,1416.354,
+earth_science:83,earth_science,winnow12_D_budget,True,1.0,1.0,2388.503,
+earth_science:84,earth_science,winnow12_D_budget,True,0.0,0.0,1420.41,
+earth_science:85,earth_science,winnow12_D_budget,True,0.3391602052736161,0.16958010263680806,1642.418,
+earth_science:86,earth_science,winnow12_D_budget,True,0.3391602052736161,0.14606834984270645,1146.27,
+earth_science:87,earth_science,winnow12_D_budget,True,1.0,1.0,1116.006,
+earth_science:88,earth_science,winnow12_D_budget,True,0.5585075862632192,0.6366824387328317,2449.059,
+earth_science:89,earth_science,winnow12_D_budget,True,0.0,0.0,2887.906,
+earth_science:9,earth_science,winnow12_D_budget,True,0.0,0.13120507751234178,1956.675,
+earth_science:90,earth_science,winnow12_D_budget,True,0.7653606369886217,0.0,2374.597,
+earth_science:91,earth_science,winnow12_D_budget,True,0.23463936301137822,0.20210734650054757,1306.811,
+earth_science:92,earth_science,winnow12_D_budget,True,0.0,0.0,1679.463,
+earth_science:93,earth_science,winnow12_D_budget,True,0.23463936301137822,0.5307212739772434,2199.508,
+earth_science:94,earth_science,winnow12_D_budget,True,0.0,0.0,2128.198,
+earth_science:95,earth_science,winnow12_D_budget,True,0.0,0.0,1268.013,
+earth_science:96,earth_science,winnow12_D_budget,True,0.0,0.0,1238.982,
+earth_science:97,earth_science,winnow12_D_budget,True,0.2960819109658652,0.23463936301137822,2578.51,
+earth_science:98,earth_science,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+earth_science:99,earth_science,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:0,economics,winnow12_D_budget,True,0.0,0.0,2972.552,
+economics:1,economics,winnow12_D_budget,True,0.0,0.0,1302.64,
+economics:10,economics,winnow12_D_budget,True,0.0,0.0,2030.93,
+economics:100,economics,winnow12_D_budget,True,0.0,0.0,2637.957,
+economics:101,economics,winnow12_D_budget,True,0.0,0.0,2525.547,
+economics:102,economics,winnow12_D_budget,True,0.0,0.0,2787.769,
+economics:11,economics,winnow12_D_budget,True,0.0,0.0,2934.531,
+economics:12,economics,winnow12_D_budget,True,0.0,0.0,1602.679,
+economics:13,economics,winnow12_D_budget,True,0.6992148198508501,0.36005461457723403,2906.358,
+economics:14,economics,winnow12_D_budget,True,0.0,0.0,2336.658,
+economics:15,economics,winnow12_D_budget,True,1.0,0.5,2523.773,
+economics:16,economics,winnow12_D_budget,True,0.0,0.0,2642.584,
+economics:17,economics,winnow12_D_budget,False,0.0,0.639945385422766,,HTTPError: HTTP Error 400: Bad Request
+economics:18,economics,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+economics:19,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:2,economics,winnow12_D_budget,True,0.46927872602275644,0.46927872602275644,2058.461,
+economics:20,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:21,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:22,economics,winnow12_D_budget,True,0.38685280723454163,0.3065735963827292,1999.052,
+economics:23,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:24,economics,winnow12_D_budget,True,0.0,0.0,2909.072,
+economics:25,economics,winnow12_D_budget,True,1.0,0.8687949224876582,2604.757,
+economics:26,economics,winnow12_D_budget,True,0.30078518014914984,0.5296347172140421,2876.352,
+economics:27,economics,winnow12_D_budget,True,1.0,1.0,2140.436,
+economics:28,economics,winnow12_D_budget,True,0.7227265726449519,0.7227265726449519,2489.751,
+economics:29,economics,winnow12_D_budget,False,0.0,0.46927872602275644,,HTTPError: HTTP Error 400: Bad Request
+economics:3,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:30,economics,winnow12_D_budget,True,0.0,0.0,2405.319,
+economics:31,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:32,economics,winnow12_D_budget,True,0.21398626473452756,0.21398626473452756,2948.955,
+economics:33,economics,winnow12_D_budget,True,1.0,0.6309297535714575,1369.567,
+economics:34,economics,winnow12_D_budget,True,0.0,0.0,1338.349,
+economics:35,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:36,economics,winnow12_D_budget,True,0.0,0.0,1636.989,
+economics:37,economics,winnow12_D_budget,True,0.0,0.0,1518.271,
+economics:38,economics,winnow12_D_budget,True,0.8318724637288826,0.8048099750039491,1681.603,
+economics:39,economics,winnow12_D_budget,True,0.21398626473452756,0.27727342735504823,2727.405,
+economics:4,economics,winnow12_D_budget,True,0.0,0.0,2966.179,
+economics:40,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:41,economics,winnow12_D_budget,True,0.21398626473452756,0.5531464700081437,2652.995,
+economics:42,economics,winnow12_D_budget,True,0.0,0.0,2221.714,
+economics:43,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:44,economics,winnow12_D_budget,True,0.0,0.0,2836.925,
+economics:45,economics,winnow12_D_budget,True,0.0,0.0,966.404,
+economics:46,economics,winnow12_D_budget,True,0.46927872602275644,0.46927872602275644,2832.886,
+economics:47,economics,winnow12_D_budget,True,0.0,0.0,2929.987,
+economics:48,economics,winnow12_D_budget,True,0.0,0.0,1849.461,
+economics:49,economics,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+economics:5,economics,winnow12_D_budget,True,0.0,0.0,2424.866,
+economics:50,economics,winnow12_D_budget,True,0.0,0.0,2950.133,
+economics:51,economics,winnow12_D_budget,True,0.23719771276929622,0.0,1849.949,
+economics:52,economics,winnow12_D_budget,True,0.4144299250118475,0.44149241373678083,2119.164,
+economics:53,economics,winnow12_D_budget,True,0.0,0.0,2798.03,
+economics:54,economics,winnow12_D_budget,True,0.0,0.0,1227.534,
+economics:55,economics,winnow12_D_budget,True,0.0,0.0,2756.03,
+economics:56,economics,winnow12_D_budget,True,1.0,0.6309297535714575,2505.699,
+economics:57,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:58,economics,winnow12_D_budget,True,0.0,0.0,2784.059,
+economics:59,economics,winnow12_D_budget,True,1.0,0.5,2591.191,
+economics:6,economics,winnow12_D_budget,True,0.0,0.0,1408.353,
+economics:60,economics,winnow12_D_budget,True,0.0,0.0,2787.463,
+economics:61,economics,winnow12_D_budget,True,0.0,0.0,1429.512,
+economics:62,economics,winnow12_D_budget,True,0.23719771276929622,0.0,1332.834,
+economics:63,economics,winnow12_D_budget,True,0.0,0.0,1630.779,
+economics:64,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:65,economics,winnow12_D_budget,True,0.16958010263680806,0.0,2629.72,
+economics:66,economics,winnow12_D_budget,True,0.6131471927654584,0.6131471927654584,1260.011,
+economics:67,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:68,economics,winnow12_D_budget,True,0.0,0.0,2859.744,
+economics:69,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:7,economics,winnow12_D_budget,True,0.0,0.0,2727.789,
+economics:70,economics,winnow12_D_budget,True,0.2640681225725909,0.23719771276929622,2708.216,
+economics:71,economics,winnow12_D_budget,True,0.0,0.0,2487.391,
+economics:72,economics,winnow12_D_budget,True,0.0,0.0,2585.078,
+economics:73,economics,winnow12_D_budget,False,0.0,0.48522855511632257,,HTTPError: HTTP Error 400: Bad Request
+economics:74,economics,winnow12_D_budget,True,0.0,0.0,2891.442,
+economics:75,economics,winnow12_D_budget,True,0.0,0.0,2988.161,
+economics:76,economics,winnow12_D_budget,True,0.0,0.0,2448.76,
+economics:77,economics,winnow12_D_budget,True,0.0,0.0,2818.039,
+economics:78,economics,winnow12_D_budget,True,0.6131471927654584,0.23719771276929622,2630.247,
+economics:79,economics,winnow12_D_budget,False,0.0,0.8539316501572937,,HTTPError: HTTP Error 400: Bad Request
+economics:8,economics,winnow12_D_budget,True,0.0,0.18154179253735267,2195.822,
+economics:80,economics,winnow12_D_budget,True,0.0,0.0,2540.996,
+economics:81,economics,winnow12_D_budget,True,0.0,0.0,2449.783,
+economics:82,economics,winnow12_D_budget,True,0.0,0.0,2928.022,
+economics:83,economics,winnow12_D_budget,False,0.0,0.16958010263680806,,HTTPError: HTTP Error 400: Bad Request
+economics:84,economics,winnow12_D_budget,True,0.0,0.0,2157.161,
+economics:85,economics,winnow12_D_budget,True,1.0,1.0,2078.07,
+economics:86,economics,winnow12_D_budget,True,0.0,0.0,2050.461,
+economics:87,economics,winnow12_D_budget,True,0.0,0.0,1878.292,
+economics:88,economics,winnow12_D_budget,True,0.0,0.0,1856.739,
+economics:89,economics,winnow12_D_budget,True,1.0,1.0,1589.898,
+economics:9,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:90,economics,winnow12_D_budget,True,0.0,0.0,2099.433,
+economics:91,economics,winnow12_D_budget,True,0.0,0.0,2300.67,
+economics:92,economics,winnow12_D_budget,True,0.6843515475204855,0.4912596920895758,2673.032,
+economics:93,economics,winnow12_D_budget,True,0.23719771276929622,0.38685280723454163,2883.882,
+economics:94,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:95,economics,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+economics:96,economics,winnow12_D_budget,True,0.3391602052736161,0.3391602052736161,1649.939,
+economics:97,economics,winnow12_D_budget,True,0.0,0.0,2446.478,
+economics:98,economics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+economics:99,economics,winnow12_D_budget,True,0.0,0.0,2882.525,
+leetcode:0,leetcode,winnow12_D_budget,False,0.0,0.7653606369886217,,HTTPError: HTTP Error 400: Bad Request
+leetcode:1,leetcode,winnow12_D_budget,False,0.0,0.6131471927654584,,HTTPError: HTTP Error 400: Bad Request
+leetcode:10,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:100,leetcode,winnow12_D_budget,False,0.0,0.3391602052736161,,HTTPError: HTTP Error 400: Bad Request
+leetcode:101,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:102,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:103,leetcode,winnow12_D_budget,False,0.0,0.5,,HTTPError: HTTP Error 400: Bad Request
+leetcode:104,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:105,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:106,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:107,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:108,leetcode,winnow12_D_budget,False,0.0,0.18154179253735267,,HTTPError: HTTP Error 400: Bad Request
+leetcode:109,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:11,leetcode,winnow12_D_budget,False,0.0,0.5,,HTTPError: HTTP Error 400: Bad Request
+leetcode:110,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:111,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:112,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:113,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:114,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:115,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:116,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:117,leetcode,winnow12_D_budget,False,0.0,0.5,,HTTPError: HTTP Error 400: Bad Request
+leetcode:118,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:119,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:12,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:120,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:121,leetcode,winnow12_D_budget,False,0.0,0.6131471927654584,,HTTPError: HTTP Error 400: Bad Request
+leetcode:122,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:123,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:124,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:125,leetcode,winnow12_D_budget,False,0.0,0.6131471927654584,,HTTPError: HTTP Error 400: Bad Request
+leetcode:126,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:127,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:128,leetcode,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+leetcode:129,leetcode,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+leetcode:13,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:130,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:131,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:132,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:133,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:134,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:135,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:136,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:137,leetcode,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+leetcode:138,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:139,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:14,leetcode,winnow12_D_budget,False,0.0,0.3903800499921017,,HTTPError: HTTP Error 400: Bad Request
+leetcode:140,leetcode,winnow12_D_budget,False,0.0,0.6509209298071326,,HTTPError: HTTP Error 400: Bad Request
+leetcode:141,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:15,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:16,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:17,leetcode,winnow12_D_budget,False,0.0,0.46927872602275644,,HTTPError: HTTP Error 400: Bad Request
+leetcode:18,leetcode,winnow12_D_budget,False,0.0,0.6713860725233041,,HTTPError: HTTP Error 400: Bad Request
+leetcode:19,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:2,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:20,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:21,leetcode,winnow12_D_budget,False,0.0,0.6508205185601091,,HTTPError: HTTP Error 400: Bad Request
+leetcode:22,leetcode,winnow12_D_budget,False,0.0,0.6131471927654584,,HTTPError: HTTP Error 400: Bad Request
+leetcode:23,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:24,leetcode,winnow12_D_budget,False,0.0,0.5,,HTTPError: HTTP Error 400: Bad Request
+leetcode:25,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:26,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:27,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:28,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:29,leetcode,winnow12_D_budget,False,0.0,0.6131471927654584,,HTTPError: HTTP Error 400: Bad Request
+leetcode:3,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:30,leetcode,winnow12_D_budget,False,0.0,0.2960819109658652,,HTTPError: HTTP Error 400: Bad Request
+leetcode:31,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:32,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:33,leetcode,winnow12_D_budget,False,0.0,0.5855700749881525,,HTTPError: HTTP Error 400: Bad Request
+leetcode:34,leetcode,winnow12_D_budget,False,0.0,0.46927872602275644,,HTTPError: HTTP Error 400: Bad Request
+leetcode:35,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:36,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:37,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:38,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:39,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:4,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:40,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:41,leetcode,winnow12_D_budget,False,0.0,0.46927872602275644,,HTTPError: HTTP Error 400: Bad Request
+leetcode:42,leetcode,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+leetcode:43,leetcode,winnow12_D_budget,False,0.0,0.6509209298071326,,HTTPError: HTTP Error 400: Bad Request
+leetcode:44,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:45,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:46,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:47,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:48,leetcode,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+leetcode:49,leetcode,winnow12_D_budget,False,0.0,0.6131471927654584,,HTTPError: HTTP Error 400: Bad Request
+leetcode:5,leetcode,winnow12_D_budget,False,0.0,0.5855700749881525,,HTTPError: HTTP Error 400: Bad Request
+leetcode:50,leetcode,winnow12_D_budget,False,0.0,0.16812753627111746,,HTTPError: HTTP Error 400: Bad Request
+leetcode:51,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:52,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:53,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:54,leetcode,winnow12_D_budget,False,0.0,0.6131471927654584,,HTTPError: HTTP Error 400: Bad Request
+leetcode:55,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:56,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:57,leetcode,winnow12_D_budget,False,0.0,0.5,,HTTPError: HTTP Error 400: Bad Request
+leetcode:58,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:59,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:6,leetcode,winnow12_D_budget,False,0.0,0.6164336326286644,,HTTPError: HTTP Error 400: Bad Request
+leetcode:60,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:61,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:62,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:63,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:64,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:65,leetcode,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+leetcode:66,leetcode,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+leetcode:67,leetcode,winnow12_D_budget,False,0.0,0.8687949224876582,,HTTPError: HTTP Error 400: Bad Request
+leetcode:68,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:69,leetcode,winnow12_D_budget,False,0.0,0.5,,HTTPError: HTTP Error 400: Bad Request
+leetcode:7,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:70,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:71,leetcode,winnow12_D_budget,False,0.0,0.6131471927654584,,HTTPError: HTTP Error 400: Bad Request
+leetcode:72,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:73,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:74,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:75,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:76,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:77,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:78,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:79,leetcode,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+leetcode:8,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:80,leetcode,winnow12_D_budget,False,0.0,0.6366824387328317,,HTTPError: HTTP Error 400: Bad Request
+leetcode:81,leetcode,winnow12_D_budget,False,0.0,0.6131471927654584,,HTTPError: HTTP Error 400: Bad Request
+leetcode:82,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:83,leetcode,winnow12_D_budget,False,0.0,0.6131471927654584,,HTTPError: HTTP Error 400: Bad Request
+leetcode:84,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:85,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:86,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:87,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:88,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:89,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:9,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:90,leetcode,winnow12_D_budget,False,0.0,0.2960819109658652,,HTTPError: HTTP Error 400: Bad Request
+leetcode:91,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:92,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:93,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:94,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:95,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:96,leetcode,winnow12_D_budget,False,0.0,0.46927872602275644,,HTTPError: HTTP Error 400: Bad Request
+leetcode:97,leetcode,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+leetcode:98,leetcode,winnow12_D_budget,False,0.0,0.3903800499921017,,HTTPError: HTTP Error 400: Bad Request
+leetcode:99,leetcode,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+pony:0,pony,winnow12_D_budget,True,0.16958010263680806,0.3391602052736161,1684.89,
+pony:1,pony,winnow12_D_budget,True,0.38356636737133565,0.0,1702.425,
+pony:10,pony,winnow12_D_budget,True,0.16958010263680806,0.21398626473452756,2128.446,
+pony:100,pony,winnow12_D_budget,True,0.0,0.0,1466.45,
+pony:101,pony,winnow12_D_budget,True,0.48522855511632257,0.38356636737133565,2081.049,
+pony:102,pony,winnow12_D_budget,True,0.27727342735504823,0.5531464700081437,1958.039,
+pony:103,pony,winnow12_D_budget,True,0.3391602052736161,0.3391602052736161,1900.655,
+pony:104,pony,winnow12_D_budget,True,0.3391602052736161,0.3391602052736161,1310.541,
+pony:105,pony,winnow12_D_budget,True,0.0,0.0,1839.656,
+pony:106,pony,winnow12_D_budget,True,0.0,0.21398626473452756,1728.491,
+pony:107,pony,winnow12_D_budget,True,0.38356636737133565,0.36005461457723403,2092.204,
+pony:108,pony,winnow12_D_budget,True,0.38356636737133565,0.27727342735504823,1776.936,
+pony:109,pony,winnow12_D_budget,True,0.5296347172140421,0.0,1916.552,
+pony:11,pony,winnow12_D_budget,True,0.0,0.0,1413.839,
+pony:110,pony,winnow12_D_budget,True,0.0,0.16958010263680806,1890.522,
+pony:111,pony,winnow12_D_budget,True,0.21398626473452756,0.14606834984270645,2075.11,
+pony:12,pony,winnow12_D_budget,True,0.21398626473452756,0.0,1848.543,
+pony:13,pony,winnow12_D_budget,True,0.0,0.0,1720.072,
+pony:14,pony,winnow12_D_budget,True,0.13120507751234178,0.16958010263680806,1921.315,
+pony:15,pony,winnow12_D_budget,True,0.16958010263680806,0.14606834984270645,1929.023,
+pony:16,pony,winnow12_D_budget,True,0.0,0.16958010263680806,1701.85,
+pony:17,pony,winnow12_D_budget,True,0.14606834984270645,0.16958010263680806,1646.988,
+pony:18,pony,winnow12_D_budget,True,0.0,0.0,1862.524,
+pony:19,pony,winnow12_D_budget,True,0.0,0.0,1609.098,
+pony:2,pony,winnow12_D_budget,True,0.0,0.0,1950.61,
+pony:20,pony,winnow12_D_budget,True,0.48522855511632257,0.5531464700081437,1518.245,
+pony:21,pony,winnow12_D_budget,True,0.0,0.0,1597.388,
+pony:22,pony,winnow12_D_budget,True,0.21398626473452756,0.0,1673.543,
+pony:23,pony,winnow12_D_budget,True,0.0,0.0,1638.117,
+pony:24,pony,winnow12_D_budget,True,0.13120507751234178,0.0,1775.308,
+pony:25,pony,winnow12_D_budget,True,0.0,0.0,1806.188,
+pony:26,pony,winnow12_D_budget,True,0.0,0.0,1864.212,
+pony:27,pony,winnow12_D_budget,True,0.0,0.0,1909.679,
+pony:28,pony,winnow12_D_budget,True,0.0,0.0,1554.908,
+pony:29,pony,winnow12_D_budget,True,0.0,0.0,1740.912,
+pony:3,pony,winnow12_D_budget,True,0.0,0.14606834984270645,1581.115,
+pony:30,pony,winnow12_D_budget,True,0.14606834984270645,0.21398626473452756,1516.102,
+pony:31,pony,winnow12_D_budget,True,0.5087403079104241,0.13120507751234178,2252.4,
+pony:32,pony,winnow12_D_budget,True,0.0,0.21398626473452756,1977.12,
+pony:33,pony,winnow12_D_budget,True,0.3391602052736161,0.3391602052736161,1741.732,
+pony:34,pony,winnow12_D_budget,True,0.0,0.0,1826.029,
+pony:35,pony,winnow12_D_budget,True,0.3391602052736161,0.21398626473452756,1793.443,
+pony:36,pony,winnow12_D_budget,True,0.0,0.0,1858.04,
+pony:37,pony,winnow12_D_budget,True,0.0,0.0,1460.746,
+pony:38,pony,winnow12_D_budget,True,0.0,0.0,1852.504,
+pony:39,pony,winnow12_D_budget,True,0.16958010263680806,0.14606834984270645,1510.115,
+pony:4,pony,winnow12_D_budget,True,0.0,0.3156484524795145,1793.999,
+pony:40,pony,winnow12_D_budget,True,0.3391602052736161,0.21398626473452756,1902.182,
+pony:41,pony,winnow12_D_budget,True,0.0,0.21398626473452756,1752.737,
+pony:42,pony,winnow12_D_budget,True,0.30078518014914984,0.0,1738.484,
+pony:43,pony,winnow12_D_budget,True,0.13120507751234178,0.0,1717.969,
+pony:44,pony,winnow12_D_budget,True,0.0,0.0,1928.861,
+pony:45,pony,winnow12_D_budget,True,0.21398626473452756,0.0,1824.877,
+pony:46,pony,winnow12_D_budget,True,0.0,0.0,1772.712,
+pony:47,pony,winnow12_D_budget,True,0.6843515475204855,0.21398626473452756,1773.06,
+pony:48,pony,winnow12_D_budget,True,0.5531464700081437,0.3391602052736161,1634.602,
+pony:49,pony,winnow12_D_budget,True,0.0,0.0,1835.13,
+pony:5,pony,winnow12_D_budget,True,0.0,0.0,1689.668,
+pony:50,pony,winnow12_D_budget,True,0.0,0.0,1781.486,
+pony:51,pony,winnow12_D_budget,True,0.3391602052736161,0.3391602052736161,1976.169,
+pony:52,pony,winnow12_D_budget,True,0.0,0.0,1942.011,
+pony:53,pony,winnow12_D_budget,True,0.13120507751234178,0.0,1801.214,
+pony:54,pony,winnow12_D_budget,True,0.0,0.0,1711.4,
+pony:55,pony,winnow12_D_budget,True,0.0,0.0,1710.734,
+pony:56,pony,winnow12_D_budget,True,0.0,0.0,1991.053,
+pony:57,pony,winnow12_D_budget,True,0.21398626473452756,0.0,1972.774,
+pony:58,pony,winnow12_D_budget,True,0.16958010263680806,0.16958010263680806,1833.294,
+pony:59,pony,winnow12_D_budget,True,0.0,0.0,1893.189,
+pony:6,pony,winnow12_D_budget,True,0.0,0.0,1930.523,
+pony:60,pony,winnow12_D_budget,True,0.0,0.21398626473452756,1908.816,
+pony:61,pony,winnow12_D_budget,True,0.14606834984270645,0.14606834984270645,1795.05,
+pony:62,pony,winnow12_D_budget,True,0.0,0.0,1309.793,
+pony:63,pony,winnow12_D_budget,True,0.30078518014914984,0.27727342735504823,1800.193,
+pony:64,pony,winnow12_D_budget,True,0.30078518014914984,0.3391602052736161,2172.492,
+pony:65,pony,winnow12_D_budget,True,0.0,0.0,1850.245,
+pony:66,pony,winnow12_D_budget,True,0.38356636737133565,0.16958010263680806,2079.439,
+pony:67,pony,winnow12_D_budget,True,0.4703652827859579,0.16958010263680806,1815.358,
+pony:68,pony,winnow12_D_budget,True,0.0,0.0,2117.663,
+pony:69,pony,winnow12_D_budget,True,0.0,0.3156484524795145,1672.739,
+pony:7,pony,winnow12_D_budget,True,0.0,0.13120507751234178,2067.066,
+pony:70,pony,winnow12_D_budget,True,0.14606834984270645,0.0,2030.047,
+pony:71,pony,winnow12_D_budget,True,0.6164336326286644,0.34519134224686937,2021.719,
+pony:72,pony,winnow12_D_budget,True,0.16958010263680806,0.3391602052736161,2031.656,
+pony:73,pony,winnow12_D_budget,True,0.0,0.16958010263680806,2123.568,
+pony:74,pony,winnow12_D_budget,True,0.30078518014914984,0.36005461457723403,2114.143,
+pony:75,pony,winnow12_D_budget,True,0.0,0.0,1876.768,
+pony:76,pony,winnow12_D_budget,True,0.5147714448836774,0.8687949224876582,2323.86,
+pony:77,pony,winnow12_D_budget,True,0.0,0.0,1411.279,
+pony:78,pony,winnow12_D_budget,True,0.16958010263680806,0.13120507751234178,1804.541,
+pony:79,pony,winnow12_D_budget,True,0.0,0.0,1968.763,
+pony:8,pony,winnow12_D_budget,True,0.0,0.0,1782.489,
+pony:80,pony,winnow12_D_budget,True,0.3391602052736161,0.21398626473452756,2107.243,
+pony:81,pony,winnow12_D_budget,True,0.21398626473452756,0.3391602052736161,2054.181,
+pony:82,pony,winnow12_D_budget,True,0.0,0.0,1724.722,
+pony:83,pony,winnow12_D_budget,True,0.0,0.0,1809.156,
+pony:84,pony,winnow12_D_budget,True,0.3156484524795145,0.5531464700081437,2055.639,
+pony:85,pony,winnow12_D_budget,True,0.0,0.0,1526.005,
+pony:86,pony,winnow12_D_budget,True,0.0,0.0,2021.045,
+pony:87,pony,winnow12_D_budget,True,0.0,0.0,1884.6,
+pony:88,pony,winnow12_D_budget,True,0.0,0.0,1931.809,
+pony:89,pony,winnow12_D_budget,True,0.5531464700081437,0.13120507751234178,1904.037,
+pony:9,pony,winnow12_D_budget,True,0.5087403079104241,0.21398626473452756,2012.077,
+pony:90,pony,winnow12_D_budget,True,0.16958010263680806,0.3391602052736161,2081.275,
+pony:91,pony,winnow12_D_budget,True,0.0,0.0,1658.063,
+pony:92,pony,winnow12_D_budget,True,0.3391602052736161,0.21398626473452756,1552.227,
+pony:93,pony,winnow12_D_budget,True,0.0,0.0,1503.857,
+pony:94,pony,winnow12_D_budget,True,0.3391602052736161,0.14606834984270645,2005.549,
+pony:95,pony,winnow12_D_budget,True,0.0,0.13120507751234178,1784.062,
+pony:96,pony,winnow12_D_budget,True,0.0,0.0,1542.649,
+pony:97,pony,winnow12_D_budget,True,0.16958010263680806,0.14606834984270645,1760.27,
+pony:98,pony,winnow12_D_budget,True,0.16958010263680806,0.4703652827859579,2008.675,
+pony:99,pony,winnow12_D_budget,True,0.14606834984270645,0.0,1907.512,
+psychology:0,psychology,winnow12_D_budget,True,0.0,0.0,2453.151,
+psychology:1,psychology,winnow12_D_budget,True,0.3391602052736161,0.5087403079104241,1969.827,
+psychology:10,psychology,winnow12_D_budget,True,0.0,0.0,2212.146,
+psychology:100,psychology,winnow12_D_budget,True,0.0,0.0,2705.549,
+psychology:11,psychology,winnow12_D_budget,True,0.0,0.0,2180.302,
+psychology:12,psychology,winnow12_D_budget,True,0.0,0.0,1750.359,
+psychology:13,psychology,winnow12_D_budget,True,0.21398626473452756,0.30078518014914984,2062.135,
+psychology:14,psychology,winnow12_D_budget,True,0.0,0.0,2254.224,
+psychology:15,psychology,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+psychology:16,psychology,winnow12_D_budget,True,0.0,0.0,2328.936,
+psychology:17,psychology,winnow12_D_budget,True,0.0,0.0,1954.892,
+psychology:18,psychology,winnow12_D_budget,True,0.3391602052736161,0.3391602052736161,1360.102,
+psychology:19,psychology,winnow12_D_budget,True,0.8048099750039491,0.7095272044910244,2339.113,
+psychology:2,psychology,winnow12_D_budget,True,0.38685280723454163,1.0,2033.834,
+psychology:20,psychology,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+psychology:21,psychology,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+psychology:22,psychology,winnow12_D_budget,True,0.0,0.0,1431.939,
+psychology:23,psychology,winnow12_D_budget,True,0.0,0.0,1791.712,
+psychology:24,psychology,winnow12_D_budget,True,0.0,0.0,2543.243,
+psychology:25,psychology,winnow12_D_budget,True,0.6131471927654584,0.38685280723454163,2432.724,
+psychology:26,psychology,winnow12_D_budget,True,0.0,0.0,1875.399,
+psychology:27,psychology,winnow12_D_budget,True,0.0,0.0,2314.801,
+psychology:28,psychology,winnow12_D_budget,False,0.0,0.46927872602275644,,HTTPError: HTTP Error 400: Bad Request
+psychology:29,psychology,winnow12_D_budget,True,0.0,0.0,2802.437,
+psychology:3,psychology,winnow12_D_budget,True,0.0,0.0,2384.63,
+psychology:30,psychology,winnow12_D_budget,True,0.19519002499605084,0.5855700749881525,2187.746,
+psychology:31,psychology,winnow12_D_budget,True,0.46927872602275644,0.46927872602275644,2224.665,
+psychology:32,psychology,winnow12_D_budget,True,0.0,0.0,2571.701,
+psychology:33,psychology,winnow12_D_budget,True,0.0,0.0,2463.728,
+psychology:34,psychology,winnow12_D_budget,True,0.0,0.0,2864.403,
+psychology:35,psychology,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+psychology:36,psychology,winnow12_D_budget,True,0.0,0.0,2062.274,
+psychology:37,psychology,winnow12_D_budget,True,0.0,0.0,2453.495,
+psychology:38,psychology,winnow12_D_budget,True,1.0,1.0,2747.811,
+psychology:39,psychology,winnow12_D_budget,True,0.0,0.0,1466.04,
+psychology:4,psychology,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+psychology:40,psychology,winnow12_D_budget,True,0.38685280723454163,0.0,1699.949,
+psychology:41,psychology,winnow12_D_budget,True,0.23463936301137822,0.20210734650054757,2475.768,
+psychology:42,psychology,winnow12_D_budget,True,0.7227265726449519,0.6548086577531307,2678.244,
+psychology:43,psychology,winnow12_D_budget,True,0.0,0.0,2585.295,
+psychology:44,psychology,winnow12_D_budget,True,1.0,1.0,2566.366,
+psychology:45,psychology,winnow12_D_budget,True,0.0,0.0,1947.437,
+psychology:46,psychology,winnow12_D_budget,True,0.3391602052736161,0.21398626473452756,2757.107,
+psychology:47,psychology,winnow12_D_budget,True,0.0,0.0,2406.013,
+psychology:48,psychology,winnow12_D_budget,True,0.0,0.0,1369.975,
+psychology:49,psychology,winnow12_D_budget,True,0.0,0.0,2448.28,
+psychology:5,psychology,winnow12_D_budget,True,0.0,0.0,2862.013,
+psychology:50,psychology,winnow12_D_budget,True,0.3391602052736161,0.0,2393.876,
+psychology:51,psychology,winnow12_D_budget,True,1.0,1.0,1538.991,
+psychology:52,psychology,winnow12_D_budget,True,0.0,0.0,2743.912,
+psychology:53,psychology,winnow12_D_budget,True,0.0,0.0,2498.079,
+psychology:54,psychology,winnow12_D_budget,True,0.0,0.0,2291.54,
+psychology:55,psychology,winnow12_D_budget,True,0.0,0.0,2545.859,
+psychology:56,psychology,winnow12_D_budget,True,0.0,0.0,2918.017,
+psychology:57,psychology,winnow12_D_budget,True,0.9197207891481876,1.0,2495.645,
+psychology:58,psychology,winnow12_D_budget,True,0.0,0.0,2185.598,
+psychology:59,psychology,winnow12_D_budget,True,0.4144299250118475,0.19519002499605084,2827.04,
+psychology:6,psychology,winnow12_D_budget,True,0.0,0.0,2070.23,
+psychology:60,psychology,winnow12_D_budget,True,0.24630238874073,0.24630238874073,2633.577,
+psychology:61,psychology,winnow12_D_budget,True,1.0,1.0,2016.448,
+psychology:62,psychology,winnow12_D_budget,True,0.0,0.0,2657.103,
+psychology:63,psychology,winnow12_D_budget,True,0.0,0.0,2823.352,
+psychology:64,psychology,winnow12_D_budget,True,0.0,0.0,1105.907,
+psychology:65,psychology,winnow12_D_budget,True,0.0,0.0,2022.614,
+psychology:66,psychology,winnow12_D_budget,True,0.0,0.0,2388.497,
+psychology:67,psychology,winnow12_D_budget,True,0.6509209298071326,0.9197207891481876,2771.307,
+psychology:68,psychology,winnow12_D_budget,True,1.0,0.5,1201.04,
+psychology:69,psychology,winnow12_D_budget,True,0.0,1.0,2303.791,
+psychology:7,psychology,winnow12_D_budget,True,0.0,0.0,2498.829,
+psychology:70,psychology,winnow12_D_budget,True,0.0,0.0,2385.846,
+psychology:71,psychology,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+psychology:72,psychology,winnow12_D_budget,True,0.830419897363192,0.7227265726449519,2475.142,
+psychology:73,psychology,winnow12_D_budget,True,0.0,0.0,2121.674,
+psychology:74,psychology,winnow12_D_budget,True,0.46927872602275644,0.46927872602275644,1873.585,
+psychology:75,psychology,winnow12_D_budget,True,0.0,0.0,2720.848,
+psychology:76,psychology,winnow12_D_budget,True,0.36005461457723403,0.5531464700081437,2632.56,
+psychology:77,psychology,winnow12_D_budget,True,0.0,0.0,2567.864,
+psychology:78,psychology,winnow12_D_budget,True,0.0,0.0,2222.463,
+psychology:79,psychology,winnow12_D_budget,True,0.0,0.0,2323.259,
+psychology:8,psychology,winnow12_D_budget,True,0.38685280723454163,0.38685280723454163,2298.647,
+psychology:80,psychology,winnow12_D_budget,True,0.0,0.0,2431.961,
+psychology:81,psychology,winnow12_D_budget,True,0.5,1.0,2428.893,
+psychology:82,psychology,winnow12_D_budget,True,0.0,0.46927872602275644,1625.792,
+psychology:83,psychology,winnow12_D_budget,True,0.0,0.0,2146.037,
+psychology:84,psychology,winnow12_D_budget,True,1.0,1.0,2951.735,
+psychology:85,psychology,winnow12_D_budget,True,0.0,0.0,2236.292,
+psychology:86,psychology,winnow12_D_budget,True,0.5531464700081437,0.5531464700081437,1986.25,
+psychology:87,psychology,winnow12_D_budget,True,0.6309297535714575,1.0,2726.861,
+psychology:88,psychology,winnow12_D_budget,True,0.0,0.0,2411.997,
+psychology:89,psychology,winnow12_D_budget,True,0.0,0.0,1975.048,
+psychology:9,psychology,winnow12_D_budget,True,0.5531464700081437,0.5531464700081437,2545.037,
+psychology:90,psychology,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+psychology:91,psychology,winnow12_D_budget,True,0.3391602052736161,0.830419897363192,1491.771,
+psychology:92,psychology,winnow12_D_budget,True,0.3391602052736161,0.3391602052736161,2429.429,
+psychology:93,psychology,winnow12_D_budget,True,0.0,0.0,2733.92,
+psychology:94,psychology,winnow12_D_budget,True,0.0,0.0,1539.586,
+psychology:95,psychology,winnow12_D_budget,True,0.0,0.0,2220.25,
+psychology:96,psychology,winnow12_D_budget,True,0.0,0.0,2238.402,
+psychology:97,psychology,winnow12_D_budget,True,0.0,0.0,2080.095,
+psychology:98,psychology,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+psychology:99,psychology,winnow12_D_budget,True,0.0,0.0,1562.508,
+robotics:0,robotics,winnow12_D_budget,True,0.0,0.0,1745.401,
+robotics:1,robotics,winnow12_D_budget,True,0.0,0.0,2976.4,
+robotics:10,robotics,winnow12_D_budget,True,0.0,0.0,1890.065,
+robotics:100,robotics,winnow12_D_budget,True,0.0,0.0,2442.888,
+robotics:11,robotics,winnow12_D_budget,True,0.0,0.0,2280.921,
+robotics:12,robotics,winnow12_D_budget,True,0.0,0.0,2897.939,
+robotics:13,robotics,winnow12_D_budget,True,0.0,0.0,1229.985,
+robotics:14,robotics,winnow12_D_budget,True,0.0,0.0,2488.392,
+robotics:15,robotics,winnow12_D_budget,True,0.0,0.0,1331.227,
+robotics:16,robotics,winnow12_D_budget,True,0.6548086577531307,0.13120507751234178,2244.711,
+robotics:17,robotics,winnow12_D_budget,True,0.21398626473452756,0.0,1924.575,
+robotics:18,robotics,winnow12_D_budget,True,0.6131471927654584,0.6131471927654584,2116.482,
+robotics:19,robotics,winnow12_D_budget,True,0.0,0.0,2607.105,
+robotics:2,robotics,winnow12_D_budget,False,0.0,0.8318724637288826,,HTTPError: HTTP Error 400: Bad Request
+robotics:20,robotics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+robotics:21,robotics,winnow12_D_budget,True,0.0,0.0,2066.907,
+robotics:22,robotics,winnow12_D_budget,True,1.0,0.0,1865.497,
+robotics:23,robotics,winnow12_D_budget,True,0.0,0.0,2911.253,
+robotics:24,robotics,winnow12_D_budget,True,0.3391602052736161,0.3391602052736161,2506.468,
+robotics:25,robotics,winnow12_D_budget,True,0.0,0.0,1722.316,
+robotics:26,robotics,winnow12_D_budget,True,0.0,0.0,1556.46,
+robotics:27,robotics,winnow12_D_budget,True,0.9197207891481876,0.6131471927654584,2044.545,
+robotics:28,robotics,winnow12_D_budget,True,0.0,0.0,1781.255,
+robotics:29,robotics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+robotics:3,robotics,winnow12_D_budget,True,0.0,0.0,1721.76,
+robotics:30,robotics,winnow12_D_budget,True,0.0,0.0,1296.772,
+robotics:31,robotics,winnow12_D_budget,True,0.0,0.0,2843.525,
+robotics:32,robotics,winnow12_D_budget,True,0.0,0.0,2433.884,
+robotics:33,robotics,winnow12_D_budget,True,0.0,0.0,2939.122,
+robotics:34,robotics,winnow12_D_budget,True,0.0,0.0,978.316,
+robotics:35,robotics,winnow12_D_budget,True,0.0,0.0,2430.833,
+robotics:36,robotics,winnow12_D_budget,True,0.38685280723454163,0.38685280723454163,2124.832,
+robotics:37,robotics,winnow12_D_budget,True,0.0,0.0,2818.898,
+robotics:38,robotics,winnow12_D_budget,False,0.0,0.14606834984270645,,HTTPError: HTTP Error 400: Bad Request
+robotics:39,robotics,winnow12_D_budget,True,0.21398626473452756,0.27727342735504823,2450.122,
+robotics:4,robotics,winnow12_D_budget,False,0.0,0.6309297535714575,,HTTPError: HTTP Error 400: Bad Request
+robotics:40,robotics,winnow12_D_budget,False,0.0,0.16958010263680806,,HTTPError: HTTP Error 400: Bad Request
+robotics:41,robotics,winnow12_D_budget,True,0.0,0.0,2067.272,
+robotics:42,robotics,winnow12_D_budget,True,0.0,0.0,2224.169,
+robotics:43,robotics,winnow12_D_budget,True,0.8687949224876582,0.48522855511632257,2631.351,
+robotics:44,robotics,winnow12_D_budget,True,0.0,0.0,2451.705,
+robotics:45,robotics,winnow12_D_budget,True,0.6131471927654584,0.6131471927654584,2826.763,
+robotics:46,robotics,winnow12_D_budget,True,0.0,0.0,2020.649,
+robotics:47,robotics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+robotics:48,robotics,winnow12_D_budget,False,0.0,0.5706417189553201,,HTTPError: HTTP Error 400: Bad Request
+robotics:49,robotics,winnow12_D_budget,True,1.0,1.0,2114.818,
+robotics:5,robotics,winnow12_D_budget,True,0.0,0.0,1676.404,
+robotics:50,robotics,winnow12_D_budget,True,0.3156484524795145,0.13120507751234178,2162.706,
+robotics:51,robotics,winnow12_D_budget,True,0.0,0.0,1604.489,
+robotics:52,robotics,winnow12_D_budget,True,0.0,0.0,1606.711,
+robotics:53,robotics,winnow12_D_budget,True,0.38685280723454163,0.0,2670.685,
+robotics:54,robotics,winnow12_D_budget,True,0.3391602052736161,0.16958010263680806,1646.567,
+robotics:55,robotics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+robotics:56,robotics,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+robotics:57,robotics,winnow12_D_budget,True,1.0,1.0,2154.0,
+robotics:58,robotics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+robotics:59,robotics,winnow12_D_budget,True,0.0,0.0,2878.686,
+robotics:6,robotics,winnow12_D_budget,True,0.0,0.0,1218.357,
+robotics:60,robotics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+robotics:61,robotics,winnow12_D_budget,True,0.0,0.0,2388.063,
+robotics:62,robotics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+robotics:63,robotics,winnow12_D_budget,True,1.0,1.0,1384.908,
+robotics:64,robotics,winnow12_D_budget,True,0.0,0.24630238874073,2582.542,
+robotics:65,robotics,winnow12_D_budget,True,0.0,0.0,2942.388,
+robotics:66,robotics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+robotics:67,robotics,winnow12_D_budget,True,0.6309297535714575,0.0,2104.635,
+robotics:68,robotics,winnow12_D_budget,True,0.6548086577531307,0.6992148198508501,2139.568,
+robotics:69,robotics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+robotics:7,robotics,winnow12_D_budget,False,0.0,0.8687949224876582,,HTTPError: HTTP Error 400: Bad Request
+robotics:70,robotics,winnow12_D_budget,False,0.0,0.3391602052736161,,HTTPError: HTTP Error 400: Bad Request
+robotics:71,robotics,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+robotics:72,robotics,winnow12_D_budget,True,0.0,0.0,1786.851,
+robotics:73,robotics,winnow12_D_budget,True,0.21398626473452756,0.3391602052736161,1512.539,
+robotics:74,robotics,winnow12_D_budget,True,0.0,0.0,2410.77,
+robotics:75,robotics,winnow12_D_budget,True,0.0,0.6509209298071326,2374.199,
+robotics:76,robotics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+robotics:77,robotics,winnow12_D_budget,True,0.0,0.0,1963.582,
+robotics:78,robotics,winnow12_D_budget,True,0.5531464700081437,0.7227265726449519,2614.29,
+robotics:79,robotics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+robotics:8,robotics,winnow12_D_budget,True,0.3903800499921017,0.3903800499921017,1687.644,
+robotics:80,robotics,winnow12_D_budget,True,0.0,0.0,1730.453,
+robotics:81,robotics,winnow12_D_budget,True,0.0,0.0,2023.529,
+robotics:82,robotics,winnow12_D_budget,True,0.0,0.0,2395.284,
+robotics:83,robotics,winnow12_D_budget,True,1.0,1.0,2633.699,
+robotics:84,robotics,winnow12_D_budget,False,0.0,0.8687949224876582,,HTTPError: HTTP Error 400: Bad Request
+robotics:85,robotics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+robotics:86,robotics,winnow12_D_budget,True,0.0,0.0,2622.249,
+robotics:87,robotics,winnow12_D_budget,True,0.0,0.0,1537.098,
+robotics:88,robotics,winnow12_D_budget,True,0.0,0.0,2186.989,
+robotics:89,robotics,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+robotics:9,robotics,winnow12_D_budget,True,0.0,0.0,1474.012,
+robotics:90,robotics,winnow12_D_budget,True,0.3391602052736161,0.0,2154.678,
+robotics:91,robotics,winnow12_D_budget,True,0.5,1.0,2082.876,
+robotics:92,robotics,winnow12_D_budget,True,1.0,0.5,1396.141,
+robotics:93,robotics,winnow12_D_budget,False,0.0,0.7227265726449519,,HTTPError: HTTP Error 400: Bad Request
+robotics:94,robotics,winnow12_D_budget,True,1.0,1.0,2025.962,
+robotics:95,robotics,winnow12_D_budget,True,0.0,0.0,2036.056,
+robotics:96,robotics,winnow12_D_budget,True,0.0,0.0,2045.749,
+robotics:97,robotics,winnow12_D_budget,True,0.0,0.0,2962.981,
+robotics:98,robotics,winnow12_D_budget,True,0.0,0.0,2180.101,
+robotics:99,robotics,winnow12_D_budget,True,0.0,0.0,2146.206,
+stackoverflow:0,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:1,stackoverflow,winnow12_D_budget,True,0.0,0.0,2749.626,
+stackoverflow:10,stackoverflow,winnow12_D_budget,False,0.0,0.36005461457723403,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:100,stackoverflow,winnow12_D_budget,True,0.0,0.0,2101.739,
+stackoverflow:101,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:102,stackoverflow,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:103,stackoverflow,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:104,stackoverflow,winnow12_D_budget,True,0.0,0.0,2911.378,
+stackoverflow:105,stackoverflow,winnow12_D_budget,True,0.30078518014914984,0.3391602052736161,2823.953,
+stackoverflow:106,stackoverflow,winnow12_D_budget,True,0.23719771276929622,0.9197207891481876,2860.755,
+stackoverflow:107,stackoverflow,winnow12_D_budget,True,0.5,1.0,2819.937,
+stackoverflow:108,stackoverflow,winnow12_D_budget,False,0.0,0.16958010263680806,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:109,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:11,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:110,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:111,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:112,stackoverflow,winnow12_D_budget,True,0.7227265726449519,0.34519134224686937,2766.594,
+stackoverflow:113,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:114,stackoverflow,winnow12_D_budget,False,0.0,0.46927872602275644,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:115,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:116,stackoverflow,winnow12_D_budget,True,0.0,0.0,2274.487,
+stackoverflow:12,stackoverflow,winnow12_D_budget,False,0.0,0.48522855511632257,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:13,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:14,stackoverflow,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:15,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:16,stackoverflow,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:17,stackoverflow,winnow12_D_budget,True,0.24630238874073,0.24630238874073,2855.386,
+stackoverflow:18,stackoverflow,winnow12_D_budget,True,0.3391602052736161,0.0,2562.088,
+stackoverflow:19,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:2,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:20,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:21,stackoverflow,winnow12_D_budget,False,0.0,0.639945385422766,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:22,stackoverflow,winnow12_D_budget,True,0.0,0.0,2326.415,
+stackoverflow:23,stackoverflow,winnow12_D_budget,True,0.0,0.0,2905.08,
+stackoverflow:24,stackoverflow,winnow12_D_budget,True,0.0,0.0,1896.425,
+stackoverflow:25,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:26,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:27,stackoverflow,winnow12_D_budget,True,0.0,0.2640681225725909,2404.895,
+stackoverflow:28,stackoverflow,winnow12_D_budget,True,0.0,0.0,2434.505,
+stackoverflow:29,stackoverflow,winnow12_D_budget,True,0.0,0.0,2733.403,
+stackoverflow:3,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:30,stackoverflow,winnow12_D_budget,True,0.3391602052736161,0.0,2994.089,
+stackoverflow:31,stackoverflow,winnow12_D_budget,False,0.0,0.46927872602275644,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:32,stackoverflow,winnow12_D_budget,True,0.0,0.0,2765.97,
+stackoverflow:33,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:34,stackoverflow,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:35,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:36,stackoverflow,winnow12_D_budget,True,0.0,0.0,1927.257,
+stackoverflow:37,stackoverflow,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:38,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:39,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:4,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:40,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:41,stackoverflow,winnow12_D_budget,False,0.0,0.4703652827859579,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:42,stackoverflow,winnow12_D_budget,False,0.0,0.5307212739772434,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:43,stackoverflow,winnow12_D_budget,False,0.0,0.21398626473452756,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:44,stackoverflow,winnow12_D_budget,True,0.46927872602275644,0.46927872602275644,2920.256,
+stackoverflow:45,stackoverflow,winnow12_D_budget,False,0.0,0.5706417189553201,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:46,stackoverflow,winnow12_D_budget,True,0.0,0.0,2719.497,
+stackoverflow:47,stackoverflow,winnow12_D_budget,False,0.0,0.38685280723454163,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:48,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:49,stackoverflow,winnow12_D_budget,False,0.0,0.5531464700081437,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:5,stackoverflow,winnow12_D_budget,False,0.0,0.6131471927654584,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:50,stackoverflow,winnow12_D_budget,False,0.0,0.43067655807339306,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:51,stackoverflow,winnow12_D_budget,True,0.0,0.0,2912.433,
+stackoverflow:52,stackoverflow,winnow12_D_budget,False,0.0,0.8687949224876582,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:53,stackoverflow,winnow12_D_budget,True,0.9674679834891693,0.20210734650054757,2196.715,
+stackoverflow:54,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:55,stackoverflow,winnow12_D_budget,True,0.0,0.0,2209.538,
+stackoverflow:56,stackoverflow,winnow12_D_budget,True,0.21398626473452756,0.0,1958.88,
+stackoverflow:57,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:58,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:59,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:6,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:60,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:61,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:62,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:63,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:64,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:65,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:66,stackoverflow,winnow12_D_budget,True,0.0,0.0,2461.112,
+stackoverflow:67,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:68,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:69,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:7,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:70,stackoverflow,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:71,stackoverflow,winnow12_D_budget,False,0.0,0.16958010263680806,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:72,stackoverflow,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:73,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:74,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:75,stackoverflow,winnow12_D_budget,False,0.0,0.6131471927654584,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:76,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:77,stackoverflow,winnow12_D_budget,False,0.0,0.6309297535714575,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:78,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:79,stackoverflow,winnow12_D_budget,False,0.0,0.19519002499605084,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:8,stackoverflow,winnow12_D_budget,False,0.0,0.5087403079104241,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:80,stackoverflow,winnow12_D_budget,True,0.2640681225725909,0.0,1594.276,
+stackoverflow:81,stackoverflow,winnow12_D_budget,True,0.0,0.0,2175.983,
+stackoverflow:82,stackoverflow,winnow12_D_budget,True,1.0,0.9197207891481876,1892.224,
+stackoverflow:83,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:84,stackoverflow,winnow12_D_budget,False,0.0,0.7860137352654724,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:85,stackoverflow,winnow12_D_budget,False,0.0,0.6608397947263839,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:86,stackoverflow,winnow12_D_budget,True,0.0,0.0,2056.123,
+stackoverflow:87,stackoverflow,winnow12_D_budget,False,0.0,0.16812753627111746,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:88,stackoverflow,winnow12_D_budget,False,0.0,0.5143371794949736,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:89,stackoverflow,winnow12_D_budget,True,0.0,0.0,2905.558,
+stackoverflow:9,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:90,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:91,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:92,stackoverflow,winnow12_D_budget,False,0.0,0.16958010263680806,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:93,stackoverflow,winnow12_D_budget,True,0.0,0.0,2675.842,
+stackoverflow:94,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:95,stackoverflow,winnow12_D_budget,True,0.0,0.0,1828.671,
+stackoverflow:96,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:97,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:98,stackoverflow,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+stackoverflow:99,stackoverflow,winnow12_D_budget,False,0.0,0.3065735963827292,,HTTPError: HTTP Error 400: Bad Request
+sustainable_living:0,sustainable_living,winnow12_D_budget,True,0.16958010263680806,0.14606834984270645,1443.315,
+sustainable_living:1,sustainable_living,winnow12_D_budget,True,0.6309297535714575,0.0,1809.095,
+sustainable_living:10,sustainable_living,winnow12_D_budget,True,0.0,0.0,1495.225,
+sustainable_living:100,sustainable_living,winnow12_D_budget,True,0.0,0.0,1820.586,
+sustainable_living:101,sustainable_living,winnow12_D_budget,True,0.5413996682199069,0.3903800499921017,1963.249,
+sustainable_living:102,sustainable_living,winnow12_D_budget,True,0.0,0.0,1852.491,
+sustainable_living:103,sustainable_living,winnow12_D_budget,True,0.6366824387328317,0.6366824387328317,2200.836,
+sustainable_living:104,sustainable_living,winnow12_D_budget,True,0.0,0.0,1637.115,
+sustainable_living:105,sustainable_living,winnow12_D_budget,True,0.6309297535714575,1.0,1247.865,
+sustainable_living:106,sustainable_living,winnow12_D_budget,True,0.0,0.0,2259.299,
+sustainable_living:107,sustainable_living,winnow12_D_budget,True,0.0,0.0,1768.588,
+sustainable_living:11,sustainable_living,winnow12_D_budget,True,0.0,0.0,2650.664,
+sustainable_living:12,sustainable_living,winnow12_D_budget,True,0.0,0.0,1245.179,
+sustainable_living:13,sustainable_living,winnow12_D_budget,True,0.0,0.0,2248.203,
+sustainable_living:14,sustainable_living,winnow12_D_budget,True,0.0,0.0,2280.799,
+sustainable_living:15,sustainable_living,winnow12_D_budget,True,0.21398626473452756,0.14606834984270645,1927.416,
+sustainable_living:16,sustainable_living,winnow12_D_budget,True,1.0,0.43067655807339306,2070.916,
+sustainable_living:17,sustainable_living,winnow12_D_budget,True,0.0,0.0,1418.407,
+sustainable_living:18,sustainable_living,winnow12_D_budget,True,0.0,0.0,1988.793,
+sustainable_living:19,sustainable_living,winnow12_D_budget,True,0.0,0.0,2870.695,
+sustainable_living:2,sustainable_living,winnow12_D_budget,True,0.6131471927654584,0.6131471927654584,2045.228,
+sustainable_living:20,sustainable_living,winnow12_D_budget,True,0.3903800499921017,0.15101961822780524,1478.07,
+sustainable_living:21,sustainable_living,winnow12_D_budget,True,0.0,0.0,1738.105,
+sustainable_living:22,sustainable_living,winnow12_D_budget,True,0.0,0.0,1860.151,
+sustainable_living:23,sustainable_living,winnow12_D_budget,True,0.7653606369886217,0.46927872602275644,2218.072,
+sustainable_living:24,sustainable_living,winnow12_D_budget,True,0.0,0.0,1132.776,
+sustainable_living:25,sustainable_living,winnow12_D_budget,True,0.0,0.0,2177.936,
+sustainable_living:26,sustainable_living,winnow12_D_budget,True,0.14606834984270645,0.16958010263680806,1927.801,
+sustainable_living:27,sustainable_living,winnow12_D_budget,True,1.0,1.0,1869.058,
+sustainable_living:28,sustainable_living,winnow12_D_budget,True,0.0,0.0,1526.246,
+sustainable_living:29,sustainable_living,winnow12_D_budget,True,0.3391602052736161,0.16958010263680806,1225.053,
+sustainable_living:3,sustainable_living,winnow12_D_budget,True,0.0,0.0,1344.552,
+sustainable_living:30,sustainable_living,winnow12_D_budget,True,0.5307212739772434,0.5307212739772434,2293.434,
+sustainable_living:31,sustainable_living,winnow12_D_budget,True,0.0,0.0,1517.249,
+sustainable_living:32,sustainable_living,winnow12_D_budget,True,0.46927872602275644,0.46927872602275644,1419.051,
+sustainable_living:33,sustainable_living,winnow12_D_budget,True,0.0,0.0,1499.278,
+sustainable_living:34,sustainable_living,winnow12_D_budget,True,0.0,0.0,1666.105,
+sustainable_living:35,sustainable_living,winnow12_D_budget,True,0.3391602052736161,0.0,1273.125,
+sustainable_living:36,sustainable_living,winnow12_D_budget,True,0.14606834984270645,0.16958010263680806,1761.228,
+sustainable_living:37,sustainable_living,winnow12_D_budget,True,0.0,0.0,1150.317,
+sustainable_living:38,sustainable_living,winnow12_D_budget,True,0.14606834984270645,0.0,1858.616,
+sustainable_living:39,sustainable_living,winnow12_D_budget,True,0.38356636737133565,0.38356636737133565,2273.321,
+sustainable_living:4,sustainable_living,winnow12_D_budget,True,0.0,0.0,1355.265,
+sustainable_living:40,sustainable_living,winnow12_D_budget,True,0.38685280723454163,0.38685280723454163,1334.866,
+sustainable_living:41,sustainable_living,winnow12_D_budget,True,0.0,0.0,1594.858,
+sustainable_living:42,sustainable_living,winnow12_D_budget,True,0.0,0.0,2101.967,
+sustainable_living:43,sustainable_living,winnow12_D_budget,True,0.0,0.0,1223.775,
+sustainable_living:44,sustainable_living,winnow12_D_budget,True,1.0,1.0,2040.756,
+sustainable_living:45,sustainable_living,winnow12_D_budget,True,1.0,1.0,1811.597,
+sustainable_living:46,sustainable_living,winnow12_D_budget,True,0.0,0.0,2061.094,
+sustainable_living:47,sustainable_living,winnow12_D_budget,True,0.0,0.0,1468.121,
+sustainable_living:48,sustainable_living,winnow12_D_budget,True,0.3391602052736161,0.21398626473452756,1331.664,
+sustainable_living:49,sustainable_living,winnow12_D_budget,True,0.38685280723454163,0.2640681225725909,1445.703,
+sustainable_living:5,sustainable_living,winnow12_D_budget,True,0.6131471927654584,0.0,1677.689,
+sustainable_living:50,sustainable_living,winnow12_D_budget,True,0.6131471927654584,0.0,1079.134,
+sustainable_living:51,sustainable_living,winnow12_D_budget,True,0.5,0.38685280723454163,1647.602,
+sustainable_living:52,sustainable_living,winnow12_D_budget,True,0.0,0.0,1444.023,
+sustainable_living:53,sustainable_living,winnow12_D_budget,True,0.0,0.0,2475.047,
+sustainable_living:54,sustainable_living,winnow12_D_budget,True,1.0,1.0,1573.389,
+sustainable_living:55,sustainable_living,winnow12_D_budget,True,0.6992148198508501,0.7227265726449519,1867.261,
+sustainable_living:56,sustainable_living,winnow12_D_budget,True,0.0,0.0,2574.071,
+sustainable_living:57,sustainable_living,winnow12_D_budget,True,0.0,0.3191471544989227,2432.467,
+sustainable_living:58,sustainable_living,winnow12_D_budget,True,0.639945385422766,0.7227265726449519,1583.598,
+sustainable_living:59,sustainable_living,winnow12_D_budget,True,0.0,0.0,1623.659,
+sustainable_living:6,sustainable_living,winnow12_D_budget,True,0.5531464700081437,0.4703652827859579,1452.505,
+sustainable_living:60,sustainable_living,winnow12_D_budget,True,0.0,0.0,1143.631,
+sustainable_living:61,sustainable_living,winnow12_D_budget,True,0.0,0.0,1344.065,
+sustainable_living:62,sustainable_living,winnow12_D_budget,True,0.0,0.0,2019.206,
+sustainable_living:63,sustainable_living,winnow12_D_budget,True,0.0,0.0,1802.883,
+sustainable_living:64,sustainable_living,winnow12_D_budget,True,0.0,0.0,1954.626,
+sustainable_living:65,sustainable_living,winnow12_D_budget,True,0.24630238874073,0.6366824387328317,1209.239,
+sustainable_living:66,sustainable_living,winnow12_D_budget,True,0.0,0.0,2060.223,
+sustainable_living:67,sustainable_living,winnow12_D_budget,True,0.0,0.0,1510.757,
+sustainable_living:68,sustainable_living,winnow12_D_budget,True,0.0,0.0,840.483,
+sustainable_living:69,sustainable_living,winnow12_D_budget,True,0.0,0.0,1106.908,
+sustainable_living:7,sustainable_living,winnow12_D_budget,True,0.0,0.0,1837.173,
+sustainable_living:70,sustainable_living,winnow12_D_budget,True,0.4703652827859579,0.3391602052736161,1393.848,
+sustainable_living:71,sustainable_living,winnow12_D_budget,True,0.0,0.0,1407.811,
+sustainable_living:72,sustainable_living,winnow12_D_budget,True,0.6608397947263839,0.7860137352654724,1203.814,
+sustainable_living:73,sustainable_living,winnow12_D_budget,True,0.0,0.0,1096.832,
+sustainable_living:74,sustainable_living,winnow12_D_budget,True,0.0,0.0,1848.805,
+sustainable_living:75,sustainable_living,winnow12_D_budget,True,0.0,0.0,855.183,
+sustainable_living:76,sustainable_living,winnow12_D_budget,True,0.0,0.13120507751234178,1770.611,
+sustainable_living:77,sustainable_living,winnow12_D_budget,True,0.0,0.0,1999.745,
+sustainable_living:78,sustainable_living,winnow12_D_budget,True,0.6992148198508501,0.5147714448836774,2628.98,
+sustainable_living:79,sustainable_living,winnow12_D_budget,True,1.0,0.6309297535714575,1449.31,
+sustainable_living:8,sustainable_living,winnow12_D_budget,True,0.0,0.0,1212.069,
+sustainable_living:80,sustainable_living,winnow12_D_budget,True,0.0,0.0,1843.524,
+sustainable_living:81,sustainable_living,winnow12_D_budget,True,0.0,0.0,1389.113,
+sustainable_living:82,sustainable_living,winnow12_D_budget,True,0.38364913903790027,0.7653606369886217,1681.408,
+sustainable_living:83,sustainable_living,winnow12_D_budget,True,0.36005461457723403,0.16958010263680806,2646.991,
+sustainable_living:84,sustainable_living,winnow12_D_budget,True,0.5531464700081437,0.5087403079104241,1829.287,
+sustainable_living:85,sustainable_living,winnow12_D_budget,True,0.43067655807339306,0.43067655807339306,2041.544,
+sustainable_living:86,sustainable_living,winnow12_D_budget,True,0.6309297535714575,0.0,1363.892,
+sustainable_living:87,sustainable_living,winnow12_D_budget,True,0.0,0.0,2429.921,
+sustainable_living:88,sustainable_living,winnow12_D_budget,True,1.0,1.0,1558.252,
+sustainable_living:89,sustainable_living,winnow12_D_budget,True,0.0,0.0,2264.577,
+sustainable_living:9,sustainable_living,winnow12_D_budget,True,0.5087403079104241,0.21398626473452756,2237.195,
+sustainable_living:90,sustainable_living,winnow12_D_budget,True,0.5,0.0,1819.544,
+sustainable_living:91,sustainable_living,winnow12_D_budget,True,0.0,0.0,1016.083,
+sustainable_living:92,sustainable_living,winnow12_D_budget,True,0.0,0.0,1611.61,
+sustainable_living:93,sustainable_living,winnow12_D_budget,True,0.0,0.0,1324.789,
+sustainable_living:94,sustainable_living,winnow12_D_budget,True,0.0,0.0,2261.506,
+sustainable_living:95,sustainable_living,winnow12_D_budget,True,1.0,1.0,2093.51,
+sustainable_living:96,sustainable_living,winnow12_D_budget,True,0.6131471927654584,0.3065735963827292,756.195,
+sustainable_living:97,sustainable_living,winnow12_D_budget,True,0.0,0.0,1660.615,
+sustainable_living:98,sustainable_living,winnow12_D_budget,True,0.2960819109658652,0.20210734650054757,1640.833,
+sustainable_living:99,sustainable_living,winnow12_D_budget,True,0.0,0.0,1526.014,
+theoremqa_questions:TheoremQA_elainewan/econ_micro_11.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1727.024,
+theoremqa_questions:TheoremQA_elainewan/econ_micro_14_3.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_elainewan/econ_micro_18.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.6131471927654584,2106.108,
+theoremqa_questions:TheoremQA_elainewan/econ_micro_7.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1887.903,
+theoremqa_questions:TheoremQA_elainewan/econ_micro_7_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2175.398,
+theoremqa_questions:TheoremQA_elainewan/math_abstact_algebra_7.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2253.826,
+theoremqa_questions:TheoremQA_elainewan/math_abstact_algebra_7_3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2267.574,
+theoremqa_questions:TheoremQA_elainewan/math_abstact_algebra_7_5.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1687.999,
+theoremqa_questions:TheoremQA_elainewan/math_abstact_algebra_7_8.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1927.966,
+theoremqa_questions:TheoremQA_elainewan/math_algebra_1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2706.733,
+theoremqa_questions:TheoremQA_elainewan/math_algebra_1_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1598.942,
+theoremqa_questions:TheoremQA_elainewan/math_algebra_3_2.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_elainewan/math_algebra_4.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2314.32,
+theoremqa_questions:TheoremQA_elainewan/math_algebra_4_3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1501.577,
+theoremqa_questions:TheoremQA_elainewan/math_algebra_5.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2953.592,
+theoremqa_questions:TheoremQA_elainewan/math_algebra_7_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2121.486,
+theoremqa_questions:TheoremQA_elainewan/math_calculus_11.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2616.855,
+theoremqa_questions:TheoremQA_elainewan/math_calculus_12.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_elainewan/math_calculus_2_11.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1982.773,
+theoremqa_questions:TheoremQA_elainewan/math_calculus_2_5.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2964.146,
+theoremqa_questions:TheoremQA_elainewan/math_calculus_2_6.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2854.946,
+theoremqa_questions:TheoremQA_elainewan/math_calculus_2_7.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2373.937,
+theoremqa_questions:TheoremQA_elainewan/math_calculus_3_8.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_elainewan/math_calculus_5.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1469.691,
+theoremqa_questions:TheoremQA_elainewan/math_calculus_5_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1328.038,
+theoremqa_questions:TheoremQA_jianyu_xu/Binomial_1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2089.62,
+theoremqa_questions:TheoremQA_jianyu_xu/Binomial_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1931.614,
+theoremqa_questions:TheoremQA_jianyu_xu/Binomial_3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1482.567,
+theoremqa_questions:TheoremQA_jianyu_xu/Binomial_4.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1963.863,
+theoremqa_questions:TheoremQA_jianyu_xu/Binomial_5.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1572.417,
+theoremqa_questions:TheoremQA_jianyu_xu/Binomial_6.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2022.762,
+theoremqa_questions:TheoremQA_jianyu_xu/Catalan_1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2499.967,
+theoremqa_questions:TheoremQA_jianyu_xu/Catalan_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2919.278,
+theoremqa_questions:TheoremQA_jianyu_xu/Cayley_3.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_jianyu_xu/Graph_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2927.557,
+theoremqa_questions:TheoremQA_jianyu_xu/Multinomial_1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1924.905,
+theoremqa_questions:TheoremQA_jianyu_xu/Multinomial_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2022.746,
+theoremqa_questions:TheoremQA_jianyu_xu/Multinomial_3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1772.798,
+theoremqa_questions:TheoremQA_jianyu_xu/Multinomial_4.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1813.585,
+theoremqa_questions:TheoremQA_jianyu_xu/Multinomial_6.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1544.649,
+theoremqa_questions:TheoremQA_jianyu_xu/Ramsey_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1331.514,
+theoremqa_questions:TheoremQA_jianyu_xu/Ramsey_3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1446.345,
+theoremqa_questions:TheoremQA_jianyu_xu/Ramsey_4.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1718.93,
+theoremqa_questions:TheoremQA_jianyu_xu/Ramsey_5.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1583.172,
+theoremqa_questions:TheoremQA_jianyu_xu/Ramsey_6.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1979.138,
+theoremqa_questions:TheoremQA_jianyu_xu/Stirling_number_first_kind_5.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1299.737,
+theoremqa_questions:TheoremQA_jianyu_xu/Stirling_number_first_kind_6.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1444.677,
+theoremqa_questions:TheoremQA_jianyu_xu/Stirling_number_second_kind_3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1947.032,
+theoremqa_questions:TheoremQA_jianyu_xu/Stirling_number_second_kind_5.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1528.608,
+theoremqa_questions:TheoremQA_jianyu_xu/Stirling_number_second_kind_6.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1571.538,
+theoremqa_questions:TheoremQA_jianyu_xu/combination_1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2003.168,
+theoremqa_questions:TheoremQA_jianyu_xu/pigeonhole_1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2841.555,
+theoremqa_questions:TheoremQA_jianyu_xu/pigeonhole_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1390.863,
+theoremqa_questions:TheoremQA_jianyu_xu/pigeonhole_3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1620.155,
+theoremqa_questions:TheoremQA_jianyu_xu/pigeonhole_4.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1587.259,
+theoremqa_questions:TheoremQA_maxku/cv-cnn1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2554.815,
+theoremqa_questions:TheoremQA_maxku/cv-cnn4.json,theoremqa_questions,winnow12_D_budget,True,0.6131471927654584,0.0,2801.104,
+theoremqa_questions:TheoremQA_maxku/cv-colorsci1-rgb.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2701.142,
+theoremqa_questions:TheoremQA_maxku/cv-colorsci2-hsi.json,theoremqa_questions,winnow12_D_budget,True,0.46927872602275644,0.46927872602275644,2332.483,
+theoremqa_questions:TheoremQA_maxku/cv-colorsci3-rgb.json,theoremqa_questions,winnow12_D_budget,True,0.46927872602275644,0.0,1939.97,
+theoremqa_questions:TheoremQA_maxku/cv-imageprocessing2-morphology.json,theoremqa_questions,winnow12_D_budget,True,1.0,1.0,2128.943,
+theoremqa_questions:TheoremQA_maxku/cv-imageprocessing6-histogram.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2686.627,
+theoremqa_questions:TheoremQA_maxku/cv-imageprocessing8-fourier2.json,theoremqa_questions,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_maxku/cv-imageprocessing9-digital-image.json,theoremqa_questions,winnow12_D_budget,True,1.0,1.0,2234.309,
+theoremqa_questions:TheoremQA_maxku/fourier1-FS.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.21398626473452756,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_maxku/fourier6-FT.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2136.339,
+theoremqa_questions:TheoremQA_maxku/graphtheory10-shortestpath.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2053.628,
+theoremqa_questions:TheoremQA_maxku/graphtheory11-shortestpath-hard.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2402.671,
+theoremqa_questions:TheoremQA_maxku/graphtheory2-vertexcover.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2531.877,
+theoremqa_questions:TheoremQA_maxku/graphtheory3-vertexcover.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2052.807,
+theoremqa_questions:TheoremQA_maxku/graphtheory4-vertexcover.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1798.877,
+theoremqa_questions:TheoremQA_maxku/graphtheory5-vertexcover.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1835.196,
+theoremqa_questions:TheoremQA_maxku/graphtheory6-shortestpath.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2560.689,
+theoremqa_questions:TheoremQA_maxku/graphtheory7-shortestpath.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2011.616,
+theoremqa_questions:TheoremQA_maxku/ipnetwork13-hammingdist.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2848.235,
+theoremqa_questions:TheoremQA_maxku/ipnetwork14-hammingdist.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2771.92,
+theoremqa_questions:TheoremQA_maxku/ipnetwork21-ip-2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2941.113,
+theoremqa_questions:TheoremQA_maxku/ipnetwork4-mac.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2913.942,
+theoremqa_questions:TheoremQA_maxku/ipnetwork5-mac.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_maxku/signalprocessing11-nyquist.json,theoremqa_questions,winnow12_D_budget,True,0.7653606369886217,0.6713860725233041,2492.369,
+theoremqa_questions:TheoremQA_maxku/signalprocessing13-Ztransform.json,theoremqa_questions,winnow12_D_budget,True,0.6366824387328317,0.6366824387328317,2633.196,
+theoremqa_questions:TheoremQA_maxku/signalprocessing14-Ztransform.json,theoremqa_questions,winnow12_D_budget,True,0.6366824387328317,0.8318724637288826,2618.409,
+theoremqa_questions:TheoremQA_maxku/signalprocessing15-DB.json,theoremqa_questions,winnow12_D_budget,True,0.6309297535714575,0.5,1931.509,
+theoremqa_questions:TheoremQA_maxku/signalprocessing19-period.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1900.253,
+theoremqa_questions:TheoremQA_maxku/signalprocessing2-DB.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1384.906,
+theoremqa_questions:TheoremQA_maxku/signalprocessing5-nyquist.json,theoremqa_questions,winnow12_D_budget,True,0.49818925746641285,0.7039180890341347,2315.744,
+theoremqa_questions:TheoremQA_maxku/signalprocessing6-Ztransform.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2507.118,
+theoremqa_questions:TheoremQA_maxku/signalprocessing7-phaseshift.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1897.583,
+theoremqa_questions:TheoremQA_maxku/signalprocessing9-signalrep.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2246.92,
+theoremqa_questions:TheoremQA_mingyin/Fundamental-Theorem-of-Calculus3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2859.346,
+theoremqa_questions:TheoremQA_mingyin/Lebesgue-measure1.json,theoremqa_questions,winnow12_D_budget,True,1.0,1.0,2477.118,
+theoremqa_questions:TheoremQA_mingyin/Limit-of-sequence2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1687.432,
+theoremqa_questions:TheoremQA_mingyin/Limit-of-sequence3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2135.649,
+theoremqa_questions:TheoremQA_mingyin/cauchy-integral-theorem1.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_mingyin/convexity1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1889.912,
+theoremqa_questions:TheoremQA_mingyin/series2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2813.959,
+theoremqa_questions:TheoremQA_mingyin/stopping-time1.json,theoremqa_questions,winnow12_D_budget,True,1.0,1.0,2642.592,
+theoremqa_questions:TheoremQA_panlu/angular_frequency3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2810.06,
+theoremqa_questions:TheoremQA_panlu/gravitational_force1.json,theoremqa_questions,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_panlu/gravitational_force2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2832.13,
+theoremqa_questions:TheoremQA_panlu/molar_heat_capacity1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2056.251,
+theoremqa_questions:TheoremQA_panlu/molar_heat_capacity2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1968.603,
+theoremqa_questions:TheoremQA_panlu/rigid-body3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2532.121,
+theoremqa_questions:TheoremQA_panlu/similarity2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1669.0,
+theoremqa_questions:TheoremQA_panlu/similarity3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2357.366,
+theoremqa_questions:TheoremQA_panlu/trapezoid1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2410.571,
+theoremqa_questions:TheoremQA_panlu/wave_length1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2245.877,
+theoremqa_questions:TheoremQA_tonyxia/euler-graph2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1700.055,
+theoremqa_questions:TheoremQA_tonyxia/euler-graph3.json,theoremqa_questions,winnow12_D_budget,True,1.0,1.0,2033.61,
+theoremqa_questions:TheoremQA_tonyxia/maxplanar1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2398.135,
+theoremqa_questions:TheoremQA_tonyxia/maxplanar3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1747.296,
+theoremqa_questions:TheoremQA_tonyxia/particle4.json,theoremqa_questions,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_tonyxia/particle6.json,theoremqa_questions,winnow12_D_budget,True,1.0,0.9197207891481876,2208.727,
+theoremqa_questions:TheoremQA_tonyxia/semiconductor1.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_tonyxia/semiconductor2.json,theoremqa_questions,winnow12_D_budget,True,0.46927872602275644,0.46927872602275644,2891.937,
+theoremqa_questions:TheoremQA_tonyxia/semiconductor3.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.46927872602275644,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_tonyxia/semiconductor5.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1747.705,
+theoremqa_questions:TheoremQA_tonyxia/statisticalphysics2.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_tonyxia/wave2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2026.782,
+theoremqa_questions:TheoremQA_wenhuchen/L'Hôpital_rule1.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_wenhuchen/L'Hôpital_rule2.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_wenhuchen/Liouville’s_theorem1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2272.057,
+theoremqa_questions:TheoremQA_wenhuchen/Liouville’s_theorem2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2782.264,
+theoremqa_questions:TheoremQA_wenhuchen/ODE2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2828.805,
+theoremqa_questions:TheoremQA_wenhuchen/ODE3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2298.071,
+theoremqa_questions:TheoremQA_wenhuchen/Poisson_process2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2194.7,
+theoremqa_questions:TheoremQA_wenhuchen/Poisson_process3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2319.748,
+theoremqa_questions:TheoremQA_wenhuchen/Rolle's_theorem.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_wenhuchen/cauchy_integral1.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_wenhuchen/definite_matrix1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2883.118,
+theoremqa_questions:TheoremQA_wenhuchen/determinant1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1582.995,
+theoremqa_questions:TheoremQA_wenhuchen/determinant2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1832.217,
+theoremqa_questions:TheoremQA_wenhuchen/double_integral2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2630.336,
+theoremqa_questions:TheoremQA_wenhuchen/eigen_value1.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_wenhuchen/euler's_method1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2421.193,
+theoremqa_questions:TheoremQA_wenhuchen/euler's_method2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2662.22,
+theoremqa_questions:TheoremQA_wenhuchen/gauss_lemma.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1535.189,
+theoremqa_questions:TheoremQA_wenhuchen/gauss_lemma2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2036.727,
+theoremqa_questions:TheoremQA_wenhuchen/infinite_series_sum3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2962.929,
+theoremqa_questions:TheoremQA_wenhuchen/jensen1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2637.849,
+theoremqa_questions:TheoremQA_wenhuchen/jensen2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2044.91,
+theoremqa_questions:TheoremQA_wenhuchen/kepler's_law1.json,theoremqa_questions,winnow12_D_budget,True,0.6131471927654584,0.3065735963827292,2383.88,
+theoremqa_questions:TheoremQA_wenhuchen/kepler's_law3.json,theoremqa_questions,winnow12_D_budget,True,0.3065735963827292,0.38685280723454163,2057.812,
+theoremqa_questions:TheoremQA_wenhuchen/newton2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2887.004,
+theoremqa_questions:TheoremQA_wenhuchen/optics2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1835.858,
+theoremqa_questions:TheoremQA_wenhuchen/optics3.json,theoremqa_questions,winnow12_D_budget,True,1.0,1.0,2080.95,
+theoremqa_questions:TheoremQA_wenhuchen/optics7.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1898.652,
+theoremqa_questions:TheoremQA_wenhuchen/optics8.json,theoremqa_questions,winnow12_D_budget,True,0.6309297535714575,1.0,2952.273,
+theoremqa_questions:TheoremQA_wenhuchen/p_value2.json,theoremqa_questions,winnow12_D_budget,True,1.0,1.0,2298.682,
+theoremqa_questions:TheoremQA_wenhuchen/series_convergen2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2933.297,
+theoremqa_questions:TheoremQA_wenhuchen/series_convergen3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2914.282,
+theoremqa_questions:TheoremQA_wenhuchen/t_test1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1619.734,
+theoremqa_questions:TheoremQA_wenhuchen/t_test2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1818.513,
+theoremqa_questions:TheoremQA_wenhuchen/t_test3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1602.453,
+theoremqa_questions:TheoremQA_wenhuchen/trapezoidal_rule2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1590.147,
+theoremqa_questions:TheoremQA_wenhuchen/trapezoidal_rule3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2455.955,
+theoremqa_questions:TheoremQA_wenhuchen/viterbi1.json,theoremqa_questions,winnow12_D_budget,True,1.0,1.0,2924.504,
+theoremqa_questions:TheoremQA_wenhuchen/viterbi2.json,theoremqa_questions,winnow12_D_budget,True,1.0,1.0,2391.667,
+theoremqa_questions:TheoremQA_xinyi/channel_capacity_1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2822.129,
+theoremqa_questions:TheoremQA_xinyi/channel_capacity_3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1622.487,
+theoremqa_questions:TheoremQA_xinyi/cramer_rao_lower_bound_2.json,theoremqa_questions,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_xinyi/dag_1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2443.361,
+theoremqa_questions:TheoremQA_xinyi/dag_2.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_xinyi/dag_3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1767.754,
+theoremqa_questions:TheoremQA_xinyi/distortion_rate_function_2.json,theoremqa_questions,winnow12_D_budget,True,0.5855700749881525,0.5585075862632192,2892.434,
+theoremqa_questions:TheoremQA_xinyi/huffman_code_1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2661.973,
+theoremqa_questions:TheoremQA_xinyi/huffman_code_3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2160.307,
+theoremqa_questions:TheoremQA_xinyi/kernel_1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2808.914,
+theoremqa_questions:TheoremQA_xinyi/linear_projection.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.6309297535714575,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_xinyi/maximum_entropy_2.json,theoremqa_questions,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_xinyi/neural_networks.json,theoremqa_questions,winnow12_D_budget,True,0.6240505200038379,0.0,2296.134,
+theoremqa_questions:TheoremQA_xinyi/rate_distortion_function_1.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_xinyi/rate_distortion_function_2.json,theoremqa_questions,winnow12_D_budget,True,0.3903800499921017,0.3903800499921017,2656.705,
+theoremqa_questions:TheoremQA_xinyi/rotation.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1942.282,
+theoremqa_questions:TheoremQA_xinyi/sum_product_algorithm.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2682.542,
+theoremqa_questions:TheoremQA_xueguangma/binomial_model_1.json,theoremqa_questions,winnow12_D_budget,True,0.5,0.0,2356.679,
+theoremqa_questions:TheoremQA_xueguangma/binomial_model_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2743.008,
+theoremqa_questions:TheoremQA_xueguangma/dividend_discount_model_1.json,theoremqa_questions,winnow12_D_budget,True,0.46927872602275644,0.0,2277.962,
+theoremqa_questions:TheoremQA_xueguangma/dividend_discount_model_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2115.376,
+theoremqa_questions:TheoremQA_xueguangma/dividend_discount_model_4.json,theoremqa_questions,winnow12_D_budget,True,0.46927872602275644,0.0,1660.242,
+theoremqa_questions:TheoremQA_xueguangma/dividend_discount_model_5.json,theoremqa_questions,winnow12_D_budget,False,0.0,1.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_xueguangma/effective_rates_1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2071.604,
+theoremqa_questions:TheoremQA_xueguangma/forward_price_1.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_xueguangma/forward_price_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2682.595,
+theoremqa_questions:TheoremQA_xueguangma/forward_price_3.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1958.83,
+theoremqa_questions:TheoremQA_xueguangma/forward_rate_1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2279.784,
+theoremqa_questions:TheoremQA_xueguangma/future_value_1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1933.272,
+theoremqa_questions:TheoremQA_xueguangma/future_value_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2035.251,
+theoremqa_questions:TheoremQA_xueguangma/geometric_brownian_motion.json,theoremqa_questions,winnow12_D_budget,False,0.0,0.0,,HTTPError: HTTP Error 400: Bad Request
+theoremqa_questions:TheoremQA_xueguangma/intermediate_value_theorem.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2499.385,
+theoremqa_questions:TheoremQA_xueguangma/present_value_1.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,1809.951,
+theoremqa_questions:TheoremQA_xueguangma/present_value_2.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2381.463,
+theoremqa_questions:TheoremQA_xueguangma/spot_rate.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2274.431,
+theoremqa_questions:TheoremQA_xueguangma/taylors_approximation_theorem.json,theoremqa_questions,winnow12_D_budget,True,0.0,0.0,2426.38,
+theoremqa_theorems:TheoremQA_elainewan/econ_micro_7.json,theoremqa_theorems,winnow12_D_budget,True,1.0,1.0,1640.731,
+theoremqa_theorems:TheoremQA_elainewan/math_algebra_1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1470.366,
+theoremqa_theorems:TheoremQA_elainewan/math_algebra_1_2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2053.003,
+theoremqa_theorems:TheoremQA_elainewan/math_algebra_3_2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2717.743,
+theoremqa_theorems:TheoremQA_elainewan/math_algebra_4.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2204.387,
+theoremqa_theorems:TheoremQA_elainewan/math_algebra_4_3.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2319.312,
+theoremqa_theorems:TheoremQA_elainewan/math_algebra_5.json,theoremqa_theorems,winnow12_D_budget,True,0.6131471927654584,0.38685280723454163,2525.528,
+theoremqa_theorems:TheoremQA_elainewan/math_algebra_7_2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2121.046,
+theoremqa_theorems:TheoremQA_elainewan/math_calculus_12.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2241.184,
+theoremqa_theorems:TheoremQA_elainewan/math_calculus_2_11.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2194.721,
+theoremqa_theorems:TheoremQA_elainewan/math_calculus_2_7.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1695.971,
+theoremqa_theorems:TheoremQA_elainewan/math_calculus_3_8.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2566.714,
+theoremqa_theorems:TheoremQA_jianyu_xu/Binomial_2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2034.943,
+theoremqa_theorems:TheoremQA_jianyu_xu/Binomial_3.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2330.944,
+theoremqa_theorems:TheoremQA_jianyu_xu/Binomial_4.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2155.83,
+theoremqa_theorems:TheoremQA_jianyu_xu/Binomial_5.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2076.426,
+theoremqa_theorems:TheoremQA_jianyu_xu/Binomial_6.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1981.775,
+theoremqa_theorems:TheoremQA_jianyu_xu/Catalan_1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1470.799,
+theoremqa_theorems:TheoremQA_jianyu_xu/Catalan_2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2523.123,
+theoremqa_theorems:TheoremQA_jianyu_xu/Cayley_3.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1948.889,
+theoremqa_theorems:TheoremQA_jianyu_xu/Graph_2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2112.72,
+theoremqa_theorems:TheoremQA_jianyu_xu/Multinomial_1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1967.732,
+theoremqa_theorems:TheoremQA_jianyu_xu/Multinomial_2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1542.359,
+theoremqa_theorems:TheoremQA_jianyu_xu/Multinomial_3.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2428.043,
+theoremqa_theorems:TheoremQA_jianyu_xu/Multinomial_4.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2513.598,
+theoremqa_theorems:TheoremQA_jianyu_xu/Multinomial_6.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1971.835,
+theoremqa_theorems:TheoremQA_jianyu_xu/Ramsey_2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1827.942,
+theoremqa_theorems:TheoremQA_jianyu_xu/Ramsey_3.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2096.234,
+theoremqa_theorems:TheoremQA_jianyu_xu/Ramsey_4.json,theoremqa_theorems,winnow12_D_budget,True,0.6131471927654584,0.6131471927654584,2055.929,
+theoremqa_theorems:TheoremQA_jianyu_xu/Ramsey_5.json,theoremqa_theorems,winnow12_D_budget,True,0.6131471927654584,0.6131471927654584,2242.291,
+theoremqa_theorems:TheoremQA_jianyu_xu/Ramsey_6.json,theoremqa_theorems,winnow12_D_budget,True,0.6131471927654584,0.6131471927654584,1930.421,
+theoremqa_theorems:TheoremQA_jianyu_xu/Stirling_number_first_kind_5.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2008.07,
+theoremqa_theorems:TheoremQA_jianyu_xu/Stirling_number_second_kind_3.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2027.233,
+theoremqa_theorems:TheoremQA_jianyu_xu/Stirling_number_second_kind_5.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1996.873,
+theoremqa_theorems:TheoremQA_jianyu_xu/pigeonhole_1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1823.763,
+theoremqa_theorems:TheoremQA_jianyu_xu/pigeonhole_2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1948.266,
+theoremqa_theorems:TheoremQA_jianyu_xu/pigeonhole_3.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2399.203,
+theoremqa_theorems:TheoremQA_jianyu_xu/pigeonhole_4.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2089.218,
+theoremqa_theorems:TheoremQA_maxku/ipnetwork13-hammingdist.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2407.486,
+theoremqa_theorems:TheoremQA_maxku/signalprocessing11-nyquist.json,theoremqa_theorems,winnow12_D_budget,True,1.0,1.0,2345.991,
+theoremqa_theorems:TheoremQA_mingyin/Fundamental-Theorem-of-Calculus3.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2039.869,
+theoremqa_theorems:TheoremQA_mingyin/Lebesgue-measure1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2357.551,
+theoremqa_theorems:TheoremQA_mingyin/cauchy-integral-theorem1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2472.486,
+theoremqa_theorems:TheoremQA_mingyin/convexity1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2416.372,
+theoremqa_theorems:TheoremQA_mingyin/series2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2519.147,
+theoremqa_theorems:TheoremQA_panlu/gravitational_force2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1715.032,
+theoremqa_theorems:TheoremQA_panlu/rigid-body3.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1732.124,
+theoremqa_theorems:TheoremQA_panlu/similarity2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2675.513,
+theoremqa_theorems:TheoremQA_panlu/similarity3.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2296.347,
+theoremqa_theorems:TheoremQA_tonyxia/maxplanar1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2507.364,
+theoremqa_theorems:TheoremQA_tonyxia/maxplanar3.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2257.204,
+theoremqa_theorems:TheoremQA_wenhuchen/L'Hôpital_rule1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2034.451,
+theoremqa_theorems:TheoremQA_wenhuchen/Liouville’s_theorem1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1900.031,
+theoremqa_theorems:TheoremQA_wenhuchen/Liouville’s_theorem2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2560.986,
+theoremqa_theorems:TheoremQA_wenhuchen/ODE2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2405.076,
+theoremqa_theorems:TheoremQA_wenhuchen/ODE3.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1860.52,
+theoremqa_theorems:TheoremQA_wenhuchen/Rolle's_theorem.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2271.991,
+theoremqa_theorems:TheoremQA_wenhuchen/cauchy_integral1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2231.551,
+theoremqa_theorems:TheoremQA_wenhuchen/definite_matrix1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2490.815,
+theoremqa_theorems:TheoremQA_wenhuchen/eigen_value1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2717.546,
+theoremqa_theorems:TheoremQA_wenhuchen/jensen1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2278.839,
+theoremqa_theorems:TheoremQA_wenhuchen/kepler's_law1.json,theoremqa_theorems,winnow12_D_budget,True,1.0,0.6309297535714575,1741.36,
+theoremqa_theorems:TheoremQA_wenhuchen/kepler's_law3.json,theoremqa_theorems,winnow12_D_budget,True,1.0,0.6934264036172708,1379.276,
+theoremqa_theorems:TheoremQA_wenhuchen/series_convergen2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2920.963,
+theoremqa_theorems:TheoremQA_wenhuchen/t_test1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1854.572,
+theoremqa_theorems:TheoremQA_wenhuchen/t_test2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2951.615,
+theoremqa_theorems:TheoremQA_wenhuchen/t_test3.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1822.922,
+theoremqa_theorems:TheoremQA_wenhuchen/trapezoidal_rule3.json,theoremqa_theorems,winnow12_D_budget,True,1.0,1.0,2562.547,
+theoremqa_theorems:TheoremQA_wenhuchen/viterbi2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2336.776,
+theoremqa_theorems:TheoremQA_xinyi/dag_1.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2138.564,
+theoremqa_theorems:TheoremQA_xinyi/dag_2.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1870.399,
+theoremqa_theorems:TheoremQA_xinyi/dag_3.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1955.785,
+theoremqa_theorems:TheoremQA_xinyi/linear_projection.json,theoremqa_theorems,winnow12_D_budget,True,1.0,0.38685280723454163,2441.584,
+theoremqa_theorems:TheoremQA_xinyi/maximum_entropy_2.json,theoremqa_theorems,winnow12_D_budget,True,0.43067655807339306,0.5,2593.439,
+theoremqa_theorems:TheoremQA_xueguangma/intermediate_value_theorem.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,1792.987,
+theoremqa_theorems:TheoremQA_xueguangma/taylors_approximation_theorem.json,theoremqa_theorems,winnow12_D_budget,True,0.0,0.0,2015.18,

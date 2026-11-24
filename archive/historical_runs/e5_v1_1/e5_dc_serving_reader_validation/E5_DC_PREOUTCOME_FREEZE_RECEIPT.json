@@ -1,0 +1,11 @@
+{
+  "cohort_sha256": "ef378c66e2e4f89700106ab2e6cfb48e8cdd27aa09dd0789bcfccb269df38426",
+  "contract_sha256": "6ed7c705770683039a0dc921b3a3cb4f93e70e2b613770fac113a6fc915b5219",
+  "freeze_utc": "2026-10-14T18:53:44.785585+00:00",
+  "manifest_sha256": "1f338b891194be21e7d6c741a81f9c76e4a333e4e4ccbbad1ee4e0c57170ead7",
+  "new_d_or_c_outcomes_read": false,
+  "representative_draw_before_e5a_success_labels": true,
+  "reserved_e5f_accessed": false,
+  "source_slate_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+  "status": "PRE_OUTCOME_FREEZE_PASS"
+}

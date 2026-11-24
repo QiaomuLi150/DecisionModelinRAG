@@ -1,0 +1,177 @@
+{
+  "code": [
+    {
+      "path": "scripts/e6_2_r4c_erratum_garage_freeze.py",
+      "sha256": "5d13a384ddc5f86a1b51c549cf8237ca7803d98423e8f7d4f3cbf0c360c4f0be"
+    },
+    {
+      "path": "tests/test_e6_2_r4c_erratum_garage_freeze.py",
+      "sha256": "4cbb1db7a8af2271d9f2f391d9ccae5f8a1503adac6f2d45f9efa38ec3784c98"
+    }
+  ],
+  "created_utc": "2026-10-15T13:32:39.945108+00:00",
+  "gate": "E6_2_R4C_GARAGE_READY_WITH_INDEPENDENCE_LIMITATIONS",
+  "gpu_used": false,
+  "historical_manifest_checks": [
+    {
+      "listed": 24,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_INPUT_OUTPUT_PROVENANCE_MANIFEST.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 24
+    },
+    {
+      "listed": 41,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_INPUT_OUTPUT_PROVENANCE_MANIFEST.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 41
+    },
+    {
+      "listed": 27,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_PROVENANCE_MANIFEST_V3.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 27
+    },
+    {
+      "listed": 30,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r2_selector_inference/E6_2_R2_PROVENANCE_MANIFEST.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 30
+    },
+    {
+      "listed": 5,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r2_startlux_repair/E6_2_R2_STARTLUX_REPAIR_PROVENANCE.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 5
+    },
+    {
+      "listed": 22,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_PROVENANCE_MANIFEST.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 22
+    },
+    {
+      "listed": 16,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_PROVENANCE_MANIFEST.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 16
+    }
+  ],
+  "jev_calls": 0,
+  "native_inference_calls": 0,
+  "outputs": [
+    {
+      "bytes": 2519,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_FINAL_REPORT.md",
+      "sha256": "0795789271a5bd2a7a06dd3f4581999a4252fdee012e060869747423fc313f82"
+    },
+    {
+      "bytes": 674,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_FOCUSED_TEST_RESULTS.json",
+      "sha256": "a1a178a8e4035809108dd0a473214d527d778fd4dc85bfb0c3887dc6423cd995"
+    },
+    {
+      "bytes": 1271,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_DATASET_AUDIT.md",
+      "sha256": "b75af45f07e8a7f62f30a869de6a3f03e999bb8842ada49d408e46f422c5f5c7"
+    },
+    {
+      "bytes": 707,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_ELIGIBILITY_MANIFEST.json",
+      "sha256": "9c7d5eb91bad258bff12313b7d7bb864db90c89071939e4337b5740d8552f4a1"
+    },
+    {
+      "bytes": 1777,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_ENDPOINT_PROTOCOL.md",
+      "sha256": "21597ad04094877b44110a3ffdd73ff17e029c4f345afa197bda6644ce852fd2"
+    },
+    {
+      "bytes": 21004525,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_EXPLORATORY_INPUTS.jsonl",
+      "sha256": "cbe937a1ff3425cc55c937ef32cfd99c470ec09374dfa72b855b79c4fb4935b7"
+    },
+    {
+      "bytes": 2347499,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_LABEL_PROJECTION.json",
+      "sha256": "3e0449d76701198cc53c27670dacf8d1f67ef6316b3976b7a618938f002bf062"
+    },
+    {
+      "bytes": 4305,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_NATIVE_CONTRACTS.json",
+      "sha256": "797bd9ebe1a9041612962208470b4305547182794e3d5eed3ad1f3f883158a9d"
+    },
+    {
+      "bytes": 2005,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_OVERLAP_GRAPH_REPORT.json",
+      "sha256": "a73061f4f427e505eb1cd54271c7e3b12591e6dcd53f5945659581b3aeaab53e"
+    },
+    {
+      "bytes": 126179,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_PARTITION_MANIFEST.json",
+      "sha256": "98c81a492c45e1e69b56101b721c5f852e75d10c0cc4bc3fdc8774e2a1c309c8"
+    },
+    {
+      "bytes": 985,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_R4_INFERENCE_RELEASE_GATE.json",
+      "sha256": "17459609b9ca4b0ea11a20187d0cfeb613ba392b4fe09292d26e192b4ad7bcec"
+    },
+    {
+      "bytes": 749,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_RESERVED_ACCESS_REPORT.md",
+      "sha256": "d923b3fe1b7a51f0aa27f6f001b2761f50bbd499c5af435dfca080a2de99ed34"
+    },
+    {
+      "bytes": 445,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_SCIFACT_DEPENDENCY_AUDIT.md",
+      "sha256": "17aad0080cc021056de8452ba1cc1005935c1d6667b6bd1da7b2f835e3882815"
+    },
+    {
+      "bytes": 1152,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_SCIFACT_ERRATUM.md",
+      "sha256": "01b236a4f9b570236971a8bbfe38683adf02560c99fc9b1368d7e9c212c3f9ce"
+    },
+    {
+      "bytes": 17109,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_SCIFACT_FEASIBILITY_PER_QUERY.csv",
+      "sha256": "78a2558757bb7f45ec4740fcb21606a4bdfffcad3754d4c62bd1fd36136c6dbf"
+    },
+    {
+      "bytes": 3319,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_SCIFACT_PRIMARY_REPRODUCTION.json",
+      "sha256": "7080284047c0d398fa3a37d2646150bd5d07ad02e77e0f52de8d8109cc42e345"
+    },
+    {
+      "bytes": 683,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_TEST_AND_REGRESSION_REPORT.md",
+      "sha256": "20651075a821f6962e23896a279c34a0b540c4eeccb59ee6e9101d59cd1406ad"
+    }
+  ],
+  "paid_api_calls": 0,
+  "focused_tests": "13/13",
+  "committed_r4c_tests": "8/8",
+  "full_regression": "245/245",
+  "physical_forwards": 0,
+  "quality_metrics_computed": false,
+  "reserved_raw_content_accessed": false,
+  "schema": "E6-2-R4C-PROVENANCE-V1",
+  "source_inputs": [
+    {
+      "path": "data/external/e6_0r_datasets/garage/GaRAGe_benchmark.jsonl",
+      "sha256": "419e3941f6e8eb4082a74ca2140c1f9337f8b467ff76656a6b8b0290ca3f3a72"
+    },
+    {
+      "path": "data/external/e6_0r_datasets/garage/LICENSE",
+      "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    },
+    {
+      "path": "data/external/e6_0r_datasets/garage/README.md",
+      "sha256": "b3f7ab1186a759746e5f80cb0823aea07743acef91dedc416292cd154965a397"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "drex_v2": {
+    "historical_registry": "results/non_jev/v2/e12_o_sources",
+    "new_model_load": false
+  },
+  "jina_v3_5": {
+    "native_contract": "listwise relevance scores by original index",
+    "parameters": "0.6B",
+    "path_available": true,
+    "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc"
+  },
+  "liquid_d1_3b": {
+    "historical_registry": "historical E9/E6 artifacts",
+    "new_model_load": false
+  },
+  "pplx_decider": {
+    "native_contract": "choice probabilities in insertion order",
+    "parameters": "27B",
+    "path_available": true,
+    "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+  },
+  "winnow_12b": {
+    "historical_registry": "results/v1_5/c4_winnow_rerun_gpu3",
+    "new_model_load": false
+  }
+}

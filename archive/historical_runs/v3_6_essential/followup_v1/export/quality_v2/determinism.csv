@@ -1,0 +1,11 @@
+policy,order_id,n_rechecked,n_mismatch,status
+jina_full,original,20,0,PASS
+jina_single_6144,original,20,0,PASS
+jina_single_8192,original,20,0,PASS
+jina_two_stage_8192,original,20,0,PASS
+pplx_budget,original,20,0,PASS
+pplx_single_2048,original,19,0,PASS
+pplx_single_3072,original,20,0,PASS
+pplx_single_4096,original,20,0,PASS
+pplx_single_6144,original,20,0,PASS
+pplx_two_stage_4096,original,20,0,PASS

@@ -1,0 +1,107 @@
+{
+  "('jina_budget', 'original')": {
+    "path": "results/v2_1_replication/stage1_native_v2_hybrid/jina_budget__original__full.jsonl",
+    "records": 2667,
+    "sha256": "64ab8cb0cbfbb2bdacba6ed0962b3db0cb95c0e47cdb21038df7cc4a15afc656"
+  },
+  "('jina_budget', 'perm_seed_20261020')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/jina_budget__perm_seed_20261020__full.jsonl",
+    "records": 2667,
+    "sha256": "008df2433e1211c1b191c03369bdc9435af586a6f88321173e5cc4ba20e9993c"
+  },
+  "('jina_budget', 'perm_seed_20261021')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/jina_budget__perm_seed_20261021__full.jsonl",
+    "records": 2667,
+    "sha256": "aec298c24cd5cdbe0f3dcd05f73cd52715e9f46307c9679eebab2be42856cb48"
+  },
+  "('jina_budget', 'reversed')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/jina_budget__reversed__full.jsonl",
+    "records": 2667,
+    "sha256": "6ce2118b3cc6970151e6d5d549fb56f2d772f425cd7971bc8df85a85ef41f7e4"
+  },
+  "('jina_full', 'original')": {
+    "path": "results/v2_1_replication/stage1_native_v2_hybrid/jina_full__original__full.jsonl",
+    "records": 2667,
+    "sha256": "55e9bbd3363fb16824b0f04e923ae96fee12d48efe70ae629c3a188d18a61a2b"
+  },
+  "('jina_full', 'perm_seed_20261020')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/jina_full__perm_seed_20261020__full.jsonl",
+    "records": 2667,
+    "sha256": "f1dc044009bd3453a517e9fd6b6532dd179301b504e856cbb1f0aa3126150c62"
+  },
+  "('jina_full', 'perm_seed_20261021')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/jina_full__perm_seed_20261021__full.jsonl",
+    "records": 2667,
+    "sha256": "4464257ef791732dbb32037bd8e76641713b26d03717ab35b0bd2648bcd7951a"
+  },
+  "('jina_full', 'reversed')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/jina_full__reversed__full.jsonl",
+    "records": 2667,
+    "sha256": "94f17504eec9db41e30c91e7a57b5411fa596f960c1bb674fee8bf5563243c42"
+  },
+  "('jina_two_stage_matched', 'original')": {
+    "path": "results/v2_1_replication/stage1_native_v2_hybrid/jina_two_stage_matched__original__full.jsonl",
+    "records": 2667,
+    "sha256": "c212b89dd1c93f21ebd480270dee0d91610fe8819055b942c41838b0a60b4e91"
+  },
+  "('jina_two_stage_matched', 'perm_seed_20261020')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/jina_two_stage_matched__perm_seed_20261020__full.jsonl",
+    "records": 2667,
+    "sha256": "140b765cb2f4e52509f1e085f926fe43cac011e21de6692d9ad33a6e4632d0a4"
+  },
+  "('jina_two_stage_matched', 'perm_seed_20261021')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/jina_two_stage_matched__perm_seed_20261021__full.jsonl",
+    "records": 2667,
+    "sha256": "8c47e50e5edf5c00b5f960c08d02a3781b6c58a3f0b701dff2c6fb6e2d057889"
+  },
+  "('jina_two_stage_matched', 'reversed')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/jina_two_stage_matched__reversed__full.jsonl",
+    "records": 2667,
+    "sha256": "b3ee23a80d9fbf4d5eaeee067e8ea898cc84eca83a5f946d8024ce5fbb605be4"
+  },
+  "('pplx_budget', 'original')": {
+    "path": "results/v2_1_replication/stage1_native_v2_hybrid/pplx_budget__original__full.jsonl",
+    "records": 2667,
+    "sha256": "05c9e13562419cd9781462bdddef7272004167b5860e6a8290f626ac994233ba"
+  },
+  "('pplx_budget', 'perm_seed_20261020')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/pplx_budget__perm_seed_20261020__full.jsonl",
+    "records": 2667,
+    "sha256": "cd1c778838753d9496066d3a7d14c70ad2dded6edf6f411db9c9e87c7fea2212"
+  },
+  "('pplx_budget', 'perm_seed_20261021')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/pplx_budget__perm_seed_20261021__full.jsonl",
+    "records": 2667,
+    "sha256": "ca6f7fee482bb4b0141093f657b79c0b234dfa850a3628326b997d0ae081cf1a"
+  },
+  "('pplx_budget', 'reversed')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/pplx_budget__reversed__full.jsonl",
+    "records": 2667,
+    "sha256": "c936e2831f169381364d2fc8b95df749b187d832db41bfd040bbb75f71134104"
+  },
+  "('pplx_native', 'original')": {
+    "path": "results/v2_1_replication/stage1_native_v2_hybrid/pplx_native__original__full.jsonl",
+    "records": 2667,
+    "sha256": "9860f0e39499e799e6ff9c63393eb07eec20f9b81b9f1b668f2b2b2ee4ddc8ec"
+  },
+  "('pplx_two_stage', 'original')": {
+    "path": "results/v2_1_replication/stage1_native_v2_hybrid/pplx_two_stage__original__full.jsonl",
+    "records": 2667,
+    "sha256": "6725e5532f927ea5fdebbb3bc0fb1fd7cd609ac57f2cbc25f6c341e44aa58609"
+  },
+  "('pplx_two_stage', 'perm_seed_20261020')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/pplx_two_stage__perm_seed_20261020__full.jsonl",
+    "records": 2667,
+    "sha256": "7649be50f74a892274f0437358af9323c0251793bcd83b0522a55d62c85addc1"
+  },
+  "('pplx_two_stage', 'perm_seed_20261021')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/pplx_two_stage__perm_seed_20261021__full.jsonl",
+    "records": 2667,
+    "sha256": "c7a58e3336ac22a139f368f3cf482f765f71702672411d6a5a90729b84d94677"
+  },
+  "('pplx_two_stage', 'reversed')": {
+    "path": "results/v2_1_replication/stage2_orders_v2_hybrid/pplx_two_stage__reversed__full.jsonl",
+    "records": 2667,
+    "sha256": "39548dcc1d1a39c2ece169d48998b90cb45d0163d99fd84f389404cb46b96636"
+  }
+}

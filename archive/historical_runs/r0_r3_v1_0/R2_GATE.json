@@ -1,0 +1,8 @@
+{
+  "gate": "R2_NOT_ADMISSIBLE",
+  "model_inference_calls": 0,
+  "protected_holdout_opened": false,
+  "reader_calls": 0,
+  "reason": "R1_NO_ADMISSIBLE_POPULATION",
+  "status": "SKIPPED_BY_R1"
+}

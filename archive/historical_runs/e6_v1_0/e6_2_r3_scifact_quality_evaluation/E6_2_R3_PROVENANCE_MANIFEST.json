@@ -1,0 +1,176 @@
+{
+  "combined_registry_sha256": "7ccea4925c5163001f9a88912aaca96fd39b055d5d5a76085aa0f54654488dcd",
+  "created_utc": "2026-10-15T12:48:24.885377+00:00",
+  "executed": 2216,
+  "failed": 83,
+  "gate": "E6_2_R3_SCIENTIFIC_RESULTS_READY_WITH_LIMITATIONS",
+  "code": [
+    {
+      "path": "scripts/e6_2_r3_scifact_quality.py",
+      "sha256": "ae4ab54caec55662486374e9121b63441981ad74f9efe7d003a4fcf4398e6394"
+    },
+    {
+      "path": "tests/test_e6_2_r3_scifact_quality.py",
+      "sha256": "21a2f9cfca36cbd81172960673b439ab172ba739ac7b0b6ae95d03a7e79c71f5"
+    }
+  ],
+  "historical_manifest_checks": [
+    {
+      "listed": 24,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_INPUT_OUTPUT_PROVENANCE_MANIFEST.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 24
+    },
+    {
+      "listed": 27,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_PROVENANCE_MANIFEST_V3.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 27
+    },
+    {
+      "listed": 30,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r2_selector_inference/E6_2_R2_PROVENANCE_MANIFEST.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 30
+    },
+    {
+      "listed": 5,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r2_startlux_repair/E6_2_R2_STARTLUX_REPAIR_PROVENANCE.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 5
+    }
+  ],
+  "input_files": [
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_EXPLORATORY_TOP20_SLATES.jsonl",
+      "sha256": "b9b2a3c3971da72f7e7aff6066c381c681f0ff6f7b4592d85b480e12cd449333"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_EXPLORATORY_TOP5_BASELINE.jsonl",
+      "sha256": "82c7f536f85ad6ece289282a8d884658ad0bd9b267349b8b641b6ed33c3158d8"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r2_selector_inference/E6_2_R2_NATIVE_SELECTIONS.jsonl",
+      "sha256": "d05b22c141129556c497b001aa4321b01449cef41bb785143833d03b6ef7fcd1"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r2_startlux_repair/_work/startlux_decision_4b.jsonl",
+      "sha256": "eb118db268bcb3fc1cbb4b09bb5bdb286fac013dcc83486104d6060f338c5f57"
+    }
+  ],
+  "jev_calls": 0,
+  "new_inference": 0,
+  "outputs": [
+    {
+      "bytes": 784,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_AMOS_FAILURE_AND_SENSITIVITY.md",
+      "sha256": "4bd0d7786ccb940c12568600c52e20cec7dda751b33e678b836cbb302d328df6"
+    },
+    {
+      "bytes": 1925599,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_COMBINED_R2_SELECTION_REGISTRY.json",
+      "sha256": "45cdd9c673e1268256e5976f2c62238f049748613ad6891459fe2e755e47e3f3"
+    },
+    {
+      "bytes": 361,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_E6_3_HANDOFF_GATE.json",
+      "sha256": "7f3c28a570e22ea3df53d9bc919646cfda884a978912c4c63c4d98f1ba7de12e"
+    },
+    {
+      "bytes": 2190,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_FINAL_SCIENTIFIC_REPORT.md",
+      "sha256": "f1b2b6d137289d2449ec61a48ba1fa06f6db0f5b6f76de7c5942f34e1d13ccd7"
+    },
+    {
+      "bytes": 1847,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_INPUT_AUTHENTICATION.json",
+      "sha256": "6b528515cecf996b5b3aeb15ef23e1a8c9293165ae341a685f8f93fa4c893e13"
+    },
+    {
+      "bytes": 1165,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_LIMITATIONS_AND_VALIDITY_THREATS.md",
+      "sha256": "155062c1eaa1cc680742be918d7bd3b4eab08726cfbce9bdfbed5c8db4e8f119"
+    },
+    {
+      "bytes": 1508,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_MODEL_QUALITY_SCORECARD.csv",
+      "sha256": "322b10ea3ef479d698b083f7c5eee78521fb5178bad801dacbc854eb352dd292"
+    },
+    {
+      "bytes": 747361,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_PER_QUERY_RESULTS.csv",
+      "sha256": "67e746eb7af2a9e21280e8914030bca47a490cd8f5c06b856d36f221c10aec84"
+    },
+    {
+      "bytes": 27169,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_PRIMARY_PPLX_VS_JINA.csv",
+      "sha256": "261c9bb649cdc51a02de36aa3d42947ffac38d6f1223b3ac85d5501a57ac21fa"
+    },
+    {
+      "bytes": 641,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_PRIMARY_STATISTICAL_ANALYSIS.json",
+      "sha256": "85f9c87f955d3889f55cc3ef99d159b6e5790d1972a4efde45c0d0503db3f4ec"
+    },
+    {
+      "bytes": 1305,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_QREL_AND_ENDPOINT_AUDIT.json",
+      "sha256": "df203b765ba26c3a89330c3b263d4db278e0f96177288562402774c3c0267210"
+    },
+    {
+      "bytes": 921,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_QREL_AND_ENDPOINT_AUDIT.md",
+      "sha256": "6a662921963bdbde7988a44e386fe5dbbf821390d68886ae0b6ac795e97d9937"
+    },
+    {
+      "bytes": 1317,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_QUALITY_RESOURCE_DIAGNOSTICS.csv",
+      "sha256": "dd72947e8c9284e325b3bcbcc34bfa95b61ca823154e3ddc9ff4fa98aac73b78"
+    },
+    {
+      "bytes": 3811,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_RESOURCE_DIAGNOSTICS.json",
+      "sha256": "60f826bcafdf56d54042e862e3a2a8aaadb73d36209a91441b78b59e7f78ab30"
+    },
+    {
+      "bytes": 558,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_RETRIEVAL_FEASIBILITY_REPORT.md",
+      "sha256": "ec382c7c24b0688b7bd1a5a5c48c751d1343f5147453fb5207661541eaaa1708"
+    },
+    {
+      "bytes": 86912,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_RETRIEVAL_TOP5_BASELINE.csv",
+      "sha256": "987dafe781fc2a5cc00a06e01ed0b3529dfa96010376212ca59b9e13b796d88a"
+    },
+    {
+      "bytes": 3768,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_SECONDARY_MODEL_COMPARISONS.csv",
+      "sha256": "eda40a0c7cacd7d319ff69b50735ad42cfcb16ff3a4703a1c44d0cf9d405fa88"
+    },
+    {
+      "bytes": 4142,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_SELECTION_OVERLAP_AND_DISAGREEMENT.csv",
+      "sha256": "9c66aea645d84b1c0c14dfaff231860da40474ff670ba558ef111a7a922f1b3e"
+    },
+    {
+      "bytes": 5416,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_SOURCE_GROUP_AUDIT.json",
+      "sha256": "b4fcd94e98200320e9356d3081310b77a8cc26294ccd45c64db0f485407f5bec"
+    },
+    {
+      "bytes": 630,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_TEST_AND_REGRESSION_REPORT.md",
+      "sha256": "2700307b7b302c97431c539f57515c9e4572cf01f71d616ed54a5c35c4d3cedb"
+    }
+  ],
+  "paid_api_calls": 0,
+  "planned": 2216,
+  "reader_calls": 0,
+  "reserved_content_accessed": false,
+  "schema": "E6-2-R3-PROVENANCE-V1",
+  "unexecuted": 0,
+  "valid": 2133
+}

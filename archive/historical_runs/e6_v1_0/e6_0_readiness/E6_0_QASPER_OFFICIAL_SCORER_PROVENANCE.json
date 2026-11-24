@@ -1,0 +1,9 @@
+{
+  "algorithm": "official QASPER token_f1_score; max over annotation references; extractive spans joined with ', '; unanswerable='Unanswerable'; no evidence F1 computed",
+  "normalization": "lowercase, remove ASCII punctuation, remove articles a/an/the, collapse whitespace",
+  "post_hoc": true,
+  "source_commit": "NOT_PINNED_BY_LOCAL_RELEASE; raw source inspected 2026-10-14",
+  "source_file_sha256": "NOT_PINNED",
+  "source_url": "https://github.com/allenai/qasper-led-baseline/blob/main/scripts/evaluator.py",
+  "weighting": "question macro and equal-source-group bootstrap"
+}

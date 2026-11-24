@@ -1,0 +1,6 @@
+policy,p95_solo_ms,p95_t1_session_ms,rel_diff,status
+jina_full,NOT_RUN,NOT_MEASURED,NOT_MEASURED,NOT_RUN
+jina_pplx_budget,NOT_RUN,NOT_MEASURED,NOT_MEASURED,NOT_RUN
+jina_two_stage_pplxwindow,NOT_RUN,NOT_MEASURED,NOT_MEASURED,NOT_RUN
+pplx_budget,NOT_RUN,NOT_MEASURED,NOT_MEASURED,NOT_RUN
+pplx_two_stage,NOT_RUN,NOT_MEASURED,NOT_MEASURED,NOT_RUN

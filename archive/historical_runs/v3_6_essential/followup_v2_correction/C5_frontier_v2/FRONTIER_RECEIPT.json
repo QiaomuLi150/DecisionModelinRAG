@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "source_quality": "results/v3_6_essential/followup_v1/export/quality_v2/q_perquery_v2.csv",
+  "source_summary": "results/v3_6_essential/followup_v1/export/quality_v2/q_summary_v2.csv",
+  "source_serving": "results/v3_6_essential/followup_v1/export/serving_full/serving_ratios_pooled.csv",
+  "bm25_source": "results/non_jev/v2/e9_bright_v1_0/01_retrieval/BRIGHT_FROZEN_TOP20_SLATES.jsonl",
+  "rows": 15,
+  "draws": 40000,
+  "seed": 731,
+  "notes": "PPLX Q verdicts use same-budget paired contrast and independently recomputed BM25 bootstrap; lenient means an offline fallback score is available, not model validity."
+}

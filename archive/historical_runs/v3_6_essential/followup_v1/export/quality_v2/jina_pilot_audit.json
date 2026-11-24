@@ -1,0 +1,29 @@
+{
+  "historical_error_rows": 32,
+  "historical_none_unpack_domains": {
+    "robotics": 32
+  },
+  "historical_none_unpack_rows": 32,
+  "historical_rows": 1384,
+  "historical_trace": "results/v3_6_essential/stage1_quality/raw/jina_single_8192__8192_reuse.jsonl",
+  "historical_trace_sha256": "e7aa837d2a011b98c1a2aae373e24ab99002d8ca41030d00a4b0393c243bbf33",
+  "interpretation": "The historical records preserve no model return payload and report a wrapper-level unpack error for 32 rows; they do not establish that the native Jina method returned None. The instrumented pilot explicitly checks None before unpacking and observed no errors or None returns.",
+  "labels_joined": false,
+  "pilot_error_rows": 0,
+  "pilot_model_return_none_rows": 0,
+  "pilot_policies": [
+    "jina_single_4096",
+    "jina_single_6144",
+    "jina_single_8192",
+    "jina_two_stage_2048",
+    "jina_two_stage_4096",
+    "jina_two_stage_8192"
+  ],
+  "pilot_return_types": {
+    "None": 60,
+    "list": 60
+  },
+  "pilot_rows": 120,
+  "pilot_trace": "results/v3_6_essential/followup_v1/stage1_jina/raw/jina_rerun_pilot_gpu3.jsonl",
+  "pilot_trace_sha256": "fc2df5cea3b7bf772379d0638e2f2fc4e89f259b4b5b94ad99290ef66adbd37c"
+}

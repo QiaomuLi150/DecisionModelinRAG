@@ -1,0 +1,87 @@
+{
+  "bootstrap_repetitions": 5000,
+  "candidate_contract": "E3-D original Top-20 order; K10 is first ten; K20 is full twenty; no new retrieval",
+  "cohort_counts": {
+    "diagnostic": 80,
+    "representative": 300
+  },
+  "cohort_qids_sha256": "f5075f6e6e56b5cffe14e30f2108807780fb94c23d8c17628aa8f6770440f326",
+  "dataset_counts": {
+    "multihop": 380
+  },
+  "gpu_authorization": {
+    "approved": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "selected_for_new_inference": 1,
+    "timing_requirement": "truly isolated approved GPU; otherwise blocked"
+  },
+  "input_leakage_policy": {
+    "support_ids_in_policy_input": false
+  },
+  "jev_calls": 0,
+  "native_view_contracts": {
+    "bge": "E3-D model_text title+first-12000-char passage; tokenizer pair max 512",
+    "clef": "E2-M1 make_views: question 64 tokens, passage 128-token view plus title retention; pointwise independent binary and shared-state joint binary",
+    "jina": "E3-D model_text; native rerank; question 64-token and passage 512-token deterministic cap",
+    "liquid": "question 64-token and candidate 256-token deterministic cap; native system_one binary decisions",
+    "pplx": "question 64-token and candidate 128-token deterministic cap; native categorical DecisionModel readout"
+  },
+  "new_retrieval": false,
+  "paid_api_calls": 0,
+  "policies": {
+    "bge_pointwise": {
+      "historical": "bge_pointwise",
+      "kind": "bge_native",
+      "model_id": "BAAI/bge-reranker-v2-m3",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e"
+    },
+    "clef_joint_binary": {
+      "historical": null,
+      "kind": "clef_joint",
+      "model_id": "Cloudflare/clef-flash",
+      "revision": "8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3"
+    },
+    "clef_pointwise_binary": {
+      "historical": null,
+      "kind": "clef_pointwise",
+      "model_id": "Cloudflare/clef-flash",
+      "revision": "8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3"
+    },
+    "jina35_native": {
+      "historical": "jina35",
+      "kind": "jina_native",
+      "model_id": "jinaai/jina-reranker-v3.5",
+      "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc"
+    },
+    "liquid_native_joint": {
+      "historical": "liquid_joint20_binary",
+      "kind": "liquid_native",
+      "model_id": "LiquidAI/d1-3B",
+      "revision": "051bcc464b01b9f92942b364d9586b0ef5912432"
+    },
+    "pplx_decider_native": {
+      "historical": "pplx_decider",
+      "kind": "pplx_native",
+      "model_id": "perplexity-ai/pplx-decider-v1.1-27b",
+      "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+    }
+  },
+  "protocol": "DecisionRAG E4-3 v1.0",
+  "reader_calls": 0,
+  "redundancy": {
+    "calibration": "unsupervised E3-D exploratory candidate-text distribution before quality",
+    "cutpoints": {
+      "high_lower": 0.28823529411764703,
+      "low_upper": 0.26819541375872386
+    },
+    "measure": "maximum pairwise token-set Jaccard over title+full_text first 12000 chars"
+  },
+  "seed": 731,
+  "status": "FROZEN_EXPLORATORY_NONRESERVED",
+  "top5_contract": "exactly five distinct canonical candidate IDs; stable sort by descending score, original rank, ID",
+  "training": false
+}

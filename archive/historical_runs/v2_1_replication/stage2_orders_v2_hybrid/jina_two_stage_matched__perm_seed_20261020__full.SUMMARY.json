@@ -1,0 +1,14 @@
+{
+  "policy": "jina_two_stage_matched",
+  "order_id": "perm_seed_20261020",
+  "n_requests": 2667,
+  "valid": 2667,
+  "failures": 0,
+  "failure_classes": {},
+  "load_ms": 18802.841658703983,
+  "elapsed_s": 986.507880974561,
+  "raw_sha256": "140b765cb2f4e52509f1e085f926fe43cac011e21de6692d9ad33a6e4632d0a4",
+  "labels_joined": false,
+  "gpu_index_requested": 1,
+  "model_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc"
+}

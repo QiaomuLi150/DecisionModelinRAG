@@ -1,0 +1,96 @@
+{
+  "contrasts": [
+    {
+      "contrast": "pplx_two_stage_minus_jina_two_stage_pplxwindow__original",
+      "delta_query_weighted": 0.025225523955902697,
+      "domain_effects": {
+        "aops": 0.016085387389794106,
+        "biology": 0.06894146039895707,
+        "earth_science": 0.026309476850985516,
+        "economics": 0.018575409330009368,
+        "leetcode": 0.029432654712613165,
+        "pony": 0.08314487320185268,
+        "psychology": -0.00797563836457568,
+        "robotics": 0.03737645958879109,
+        "stackoverflow": -0.00513520842395911,
+        "sustainable_living": 0.03184583791957653,
+        "theoremqa_questions": 0.004335632204127642,
+        "theoremqa_theorems": 0.012101589330897205
+      },
+      "domains_positive": 10,
+      "hi90": 0.03908792842276782,
+      "hi95": 0.04185100310471335,
+      "lo90": 0.01430017182015489,
+      "lo95": 0.012332673099107263,
+      "n_domains": 12,
+      "n_queries": 1384,
+      "p_holm": 0.0078125,
+      "p_signflip": 0.00390625
+    },
+    {
+      "contrast": "pplx_two_stage_minus_jina_two_stage_pplxwindow__six_shuffled_mean",
+      "delta_query_weighted": 0.021345244199778193,
+      "domain_effects": {
+        "aops": 0.003776150095962756,
+        "biology": 0.06176702498990896,
+        "earth_science": 0.005407334530691892,
+        "economics": -0.013693200857575449,
+        "leetcode": 0.032141647830794345,
+        "pony": 0.08133264732300567,
+        "psychology": -0.010993796104919263,
+        "robotics": 0.03626580684868903,
+        "stackoverflow": 0.0047216999558437785,
+        "sustainable_living": 0.03643410438350431,
+        "theoremqa_questions": 0.007369613388324926,
+        "theoremqa_theorems": 0.018433419444646597
+      },
+      "domains_positive": 10,
+      "hi90": 0.03539897299653473,
+      "hi95": 0.037993536336394094,
+      "lo90": 0.009300977686714963,
+      "lo95": 0.007313378489015091,
+      "n_domains": 12,
+      "n_queries": 1384,
+      "p_holm": 0.01953125,
+      "p_signflip": 0.01953125
+    }
+  ],
+  "d1_failed": 21,
+  "d1_records": 9688,
+  "d1_valid": 9667,
+  "input_manifest_sha256": "e25619a54bcb90413af57acd8df2fb11f5235e20552be2bb4453d7308e67f8a9",
+  "labels_joined_after_raw_freeze": true,
+  "pplx_original_valid": 1381,
+  "raw_trace_manifest_sha256": "7e4256c7d0d8855ca3c041d80181f7e45c64b832fd66fbd3195f841578f3fc33",
+  "status": "COMPLETE_OFFLINE_ANALYSIS",
+  "survivor_set_matches": {
+    "original": {
+      "matches": 8,
+      "n_valid": 1381
+    },
+    "perm_seed_1": {
+      "matches": 7,
+      "n_valid": 1381
+    },
+    "perm_seed_2": {
+      "matches": 4,
+      "n_valid": 1381
+    },
+    "perm_seed_3": {
+      "matches": 7,
+      "n_valid": 1381
+    },
+    "perm_seed_4": {
+      "matches": 5,
+      "n_valid": 1381
+    },
+    "perm_seed_5": {
+      "matches": 10,
+      "n_valid": 1381
+    },
+    "reversed": {
+      "matches": 6,
+      "n_valid": 1381
+    }
+  }
+}

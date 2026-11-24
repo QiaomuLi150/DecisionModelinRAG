@@ -1,0 +1,133 @@
+{
+  "generated_by": "scripts/v1_3_finalize.py",
+  "raw_traces": [
+    {
+      "path": "results/v1_3/r2_order_sensitivity/raw/jina_full_gpu3_orders_reversed.jsonl",
+      "sha256": "e1081a31319180160c35dab7d73a529297e6f60e244f6893c69384e3252c856f",
+      "records": 1,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r2_order_sensitivity/raw/jina_full_gpu3_orders_reversed_perm_seed_1_perm_seed_2.jsonl",
+      "sha256": "f7de7c6546c88e640573b5250a71f6a60f72be1bad695926ec09b62cfa3b3884",
+      "records": 4152,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r2_order_sensitivity/raw/jina_full_gpu5_orders_perm_seed_3_perm_seed_4_perm_seed_5.jsonl",
+      "sha256": "a6bc95836c54378823387204110e6f6a023f5c5e7435d54aa949c2b7bda3f603",
+      "records": 4152,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r2_order_sensitivity/raw/pplx_budget_gpu0_orders_reversed.jsonl",
+      "sha256": "22b613af9c3715d14d3d6aae69e455a8c39ab1b36081ac53a0881d12ed51db91",
+      "records": 1,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r2_order_sensitivity/raw/pplx_budget_gpu0_orders_reversed_perm_seed_1.jsonl",
+      "sha256": "3904479941daf81ad55f2aa0e4a12a88518247b7bd82370aa61fb99ee168943c",
+      "records": 2768,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r2_order_sensitivity/raw/pplx_budget_gpu1_orders_perm_seed_2_perm_seed_3.jsonl",
+      "sha256": "2104fe8e808c39d7bd57fa9ac62cbc15ae5c9ecf682a038be646069068d2cb1b",
+      "records": 2768,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r2_order_sensitivity/raw/pplx_budget_gpu7_orders_perm_seed_4_perm_seed_5.jsonl",
+      "sha256": "15b86d1ccdc535435bd94ea4fee80ac7ee3c0f6d9c1aa10b144ce859364bff60",
+      "records": 2768,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r2_order_sensitivity/raw/qwen3_reranker_0_6b_reused.jsonl",
+      "sha256": "ab10a13effe49f0a5226f20a4cf11296376304851546e060babecba99969fbfb",
+      "records": 9688,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r3_multipass/multipass_manifest.jsonl",
+      "sha256": "0657b569731e8d260f14a234c366aa043050fcb2616570d2af8fef4e51d387af",
+      "records": 1384,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r3_multipass/multipass_raw.jsonl",
+      "sha256": "3cd4d2c7f945b6471908f2497aa104e68dbfce3e0de66062af825baf0930bd94",
+      "records": 1,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r3_multipass/multipass_raw_start0_n462.jsonl",
+      "sha256": "ff6bcddd0b4fd81035b27c1f7d200fcd174d5014b18f18785bbc756062d50434",
+      "records": 462,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r3_multipass/multipass_raw_start462_n461.jsonl",
+      "sha256": "30151a17338eb9d075d869fdfc5483a48e74a9e7892644819d9c1d664b095b61",
+      "records": 461,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r3_multipass/multipass_raw_start923_n461.jsonl",
+      "sha256": "e83c3c13d563270e53eb0842aedc9039bc447b9a5157e6fc42391a94f0b6dd42",
+      "records": 461,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r6_leetcode_trim/raw/drex_dlm_r6_native_budgeted_raw.jsonl",
+      "sha256": "22588f8f49bbb6a57bdc8fd18f9ec7f637242e18b09041d1e735e4f50ccf7ff4",
+      "records": 284,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r6_leetcode_trim/raw/jina_r6_native_budgeted_raw.jsonl",
+      "sha256": "3e09ad4daf30187438c1548fc3b3f6b2bb082c774e63aff9797d3eb9f1ce9d83",
+      "records": 568,
+      "labels_joined_values": [
+        false
+      ]
+    },
+    {
+      "path": "results/v1_3/r6_leetcode_trim/raw/kev9_r6_native_budgeted_raw.jsonl",
+      "sha256": "e92c2e5573250bf52e7943aeb0bd04a0026edf06db5027b9d61b6b80c5ab8469",
+      "records": 284,
+      "labels_joined_values": [
+        false
+      ]
+    }
+  ]
+}

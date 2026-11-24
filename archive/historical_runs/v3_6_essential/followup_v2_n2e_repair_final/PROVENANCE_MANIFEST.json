@@ -1,0 +1,23 @@
+{
+  "output_hashes": {
+    "N2E_CONTRASTS.csv": "6039e307e59fa02fd2326ba04c455d02c5cd914172baef1e7b84aa1b7acb0c62",
+    "N2E_PERQUERY.csv": "49a027868cb7ca79de5995abf2126403bc2730c8afca2e51bf97648aa1e998c6",
+    "RAW_N2E_REPAIR_FINAL.jsonl": "f2bc39d684faf8880c16bfbc2b7ccfb9b9c9856d5ba3e16247f229fcd0390a3a"
+  },
+  "source_hashes": {
+    "results/v3_6_essential/followup_v2_n2e_repair_attempt2/shards/gpu3/raw.jsonl": "f0d292df7175df89c08f691655e03f600b708133471ac9527266ab3f30ae9e39",
+    "results/v3_6_essential/followup_v2_n2e_repair_attempt2/shards/gpu4/raw.jsonl": "8a9879a8088b2330631374c230c691409ae472cdf74a0274af20b07a97f621c2",
+    "results/v3_6_essential/followup_v2_n2e_repair_attempt2/shards/gpu6/raw.jsonl": "4706d1410d2ae18812fd3e9ee8e84cbfd8bf5d469cb2d81f94bc593b90241c92",
+    "results/v3_6_essential/followup_v2_n2e_repair_attempt5_gpu5/shards/gpu5/raw.jsonl": "1c1a079dbf9a9875e37eecb7268c45e228399cd52c36a12d19bac97a4302330b"
+  },
+  "validation": {
+    "counts": {
+      "jina_full": 1080,
+      "pplx_budget": 1080,
+      "winnow_native": 1080
+    },
+    "duplicate_keys": false,
+    "protected_holdouts_accessed": false,
+    "query_coverage": 360
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "blockers": [
+    "Fresh owner-approved device-specific GPU authorization is absent; historical GPU5/GPU6 permissions are not reused."
+  ],
+  "completed": {
+    "corpus_audit": true,
+    "cpu_bm25_mechanical_validation": true,
+    "dense_inference": false,
+    "partition_audit": true,
+    "retriever_contract_freeze": true,
+    "rrf_freeze": false
+  },
+  "created_utc": "2026-10-15T03:08:51.323569+00:00",
+  "frozen_slates": {
+    "cal": 0,
+    "exploratory_top20": 0,
+    "exploratory_top5": 0
+  },
+  "gate": "E6_2_R1_GPU_AUTHORIZATION_PENDING",
+  "prohibitions_observed": {
+    "embedding_requests": 0,
+    "gpu_calls": 0,
+    "historical_artifacts_modified": false,
+    "jev_calls": 0,
+    "model_inference_calls": 0,
+    "paid_api_calls": 0,
+    "reserved_content_access": false
+  },
+  "required_next_action": "Owner provides approved GPU UUID(s), occupancy/memory check window, and confirms safe use of the pinned embedding service/checkpoint.",
+  "status": "BLOCKED_BEFORE_DENSE_RETRIEVAL"
+}

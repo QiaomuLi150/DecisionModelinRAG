@@ -1,0 +1,9 @@
+model,kind,revision,checkpoint_present,attempts,valid,failure,validity_rate,top15_valid,top20_valid,latency_p50_ms,latency_p95_ms,physical_forward_count,native_api_calls,order_invariance_checks,order_invariance_set_pass,status,order_checks,order_invariant_set_pass,order_invariant_set_rate
+pplx_decider,pplx_choice,14c9d90137962d300f3de95633f7b6535e80c5ce,True,256,256,0,1.0,125,131,1701.8271445,1741.91456,256,256,6,0,VALIDATED_WITH_ORDER_SENSITIVITY,3,0,0.0
+liquid_d1_3b,liquid_choice,051bcc464b01b9f92942b364d9586b0ef5912432,True,256,256,0,1.0,125,131,300.7221085,338.23189325,256,256,6,0,VALIDATED_WITH_ORDER_SENSITIVITY,3,0,0.0
+startlux_decision_4b,missing,UNPINNED,False,1,0,1,0.0,0,0,,,0,0,0,0,BLOCKED_MISSING_CHECKPOINT,0,0,
+amos_1_small_2b,missing,UNPINNED,False,1,0,1,0.0,0,0,,,0,0,0,0,BLOCKED_MISSING_CHECKPOINT,0,0,
+jina_v3_5,jina_listwise,e8a93f33f0b22108f8c2364f8484ce3422552fbc,True,256,256,0,1.0,125,131,183.055657,259.62515525,256,256,6,0,VALIDATED_WITH_ORDER_SENSITIVITY,3,0,0.0
+qwen3_reranker_4b,cross_encoder,22e683669bc0f0bd69640a1354a6d0aebcfeede5,True,256,256,0,1.0,125,131,561.6329935,770.7012012499999,643,256,6,3,VALIDATED,3,3,1.0
+bge_reranker_v2_m3,cross_encoder,953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e,True,256,256,0,1.0,125,131,403.8609575,547.2926055,643,256,6,3,VALIDATED,3,3,1.0
+qwen3_reranker_0_6b,cross_encoder,e61197ed45024b0ed8a2d74b80b4d909f1255473,True,256,256,0,1.0,125,131,183.9206045,258.957725,643,256,6,3,VALIDATED,3,3,1.0

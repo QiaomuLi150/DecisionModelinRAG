@@ -1,0 +1,39 @@
+{
+  "attempts": 2,
+  "bootstrap": {
+    "cluster": "canonical_id",
+    "draws": 10000,
+    "seed": 731
+  },
+  "cohort": "CALL",
+  "cohort_size": 1384,
+  "concurrency": 1,
+  "failure_policy": "no retries; failed elapsed time retained; all-request basis adds measured fallback packaging",
+  "gpu_slot": "B",
+  "input_hashes": {
+    "bright": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+    "n1_manifest": "90063d90dd1ac2100840a12e3bd9890e6ac4062ca5a4157dbf1465a1a401f0d4"
+  },
+  "labels_joined": false,
+  "models": {
+    "jina_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+    "pplx_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+  },
+  "policy_order": [
+    "jina_full",
+    "jina_single_8192",
+    "jina_single_6144",
+    "jina_two_stage_8192",
+    "pplx_single_2048",
+    "pplx_single_3072",
+    "pplx_single_4096",
+    "pplx_single_6144",
+    "pplx_budget",
+    "pplx_two_stage_4096"
+  ],
+  "protected_holdouts_accessed": false,
+  "session": "B",
+  "stage": "N1_full_CALL_timing",
+  "status": "FROZEN_PRE_OUTCOME",
+  "timed_boundary": "view preparation + all native calls + score parsing + ID mapping + Top-5 packaging"
+}

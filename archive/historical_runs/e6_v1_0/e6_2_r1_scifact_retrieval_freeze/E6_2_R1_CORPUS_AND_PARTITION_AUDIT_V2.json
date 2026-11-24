@@ -1,0 +1,13 @@
+{
+  "all_exploratory_top20_valid": true,
+  "cal_rows": 555,
+  "corpus_rows": 5183,
+  "corpus_sha256": "1abf7e91fa5278704cdf75a919f522b82e9c3711da990443efd212f7361f8394",
+  "embedding_matrix_sha256": "8a7dd758e27f0da484cffec42318d7330abd36c05253705500303d3655325d2c",
+  "exploratory_rows": 277,
+  "qrels_accessed_during_generation": false,
+  "query_embedding_matrix_sha256": "b39ce9774d6c585737ac041425ff0aeeeeedec09723b564a4ce6a9683804f886",
+  "query_sha256": "eb72bf7b1144d3fab2368330be29d64ce0c081f613b395e47c87d148588e6d5c",
+  "reserved_content_accessed": false,
+  "unique_corpus_ids": 2507
+}

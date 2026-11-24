@@ -1,0 +1,135 @@
+{
+  "cpu_only": true,
+  "e5_qasper_slate_sha256": {
+    "actual": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+    "expected": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+    "match": true
+  },
+  "e6_1b_trace_audit": {
+    "by_model": {
+      "amos_1_small_2b": {
+        "failure_rows": 6,
+        "trace_rows": 256,
+        "valid_rows": 250
+      },
+      "startlux_decision_4b": {
+        "failure_rows": 0,
+        "trace_rows": 256,
+        "valid_rows": 256
+      }
+    },
+    "schedule_rows": 512,
+    "total_trace_rows": 517
+  },
+  "focused_tests": "PASS 5/5 (tests/test_e6_2_r0_readiness.py)",
+  "full_regression": "PASS (shared environment python -m pytest -q; completed 100%)",
+  "garage_audit": {
+    "aligned_grounding_arrays": 2366,
+    "candidate_identity": "sample_id:cite_i (positional supplied-pool identity)",
+    "endpoint": "fixed-pool graded grounding only; not natural retrieval and not CSSR-U",
+    "evidence_correct_label_counts": {
+      "ANSWER-THE-QUESTION": 11015,
+      "EMPTY": 9402,
+      "OUTDATED": 2771,
+      "RELATED-INFORMATION": 9337,
+      "UNKNOWN": 2826
+    },
+    "exact_k15_pools": 2329,
+    "path": "data/external/e6_0r_datasets/garage/GaRAGe_benchmark.jsonl",
+    "rows": 2366,
+    "sha256": "419e3941f6e8eb4082a74ca2140c1f9337f8b467ff76656a6b8b0290ca3f3a72",
+    "source_document_ids": "NOT_PRESENT_IN_LOCAL_RELEASE",
+    "source_group_bootstrap": "NOT_DEFENSIBLE",
+    "status": "PASS",
+    "unique_sample_ids": 2366
+  },
+  "gpu_calls": 0,
+  "historical_artifacts_modified": false,
+  "historical_manifest_verification": [
+    {
+      "checked": 41,
+      "manifest": "results/non_jev/v2/e2_m1/E2_M1_PROVENANCE_MANIFEST.json",
+      "mismatched": [],
+      "missing": [],
+      "passed": 41,
+      "status": "PASS"
+    },
+    {
+      "checked": 32,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "mismatched": [],
+      "missing": [],
+      "passed": 32,
+      "status": "PASS"
+    },
+    {
+      "checked": 31,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_PROVENANCE_MANIFEST.json",
+      "mismatched": [],
+      "missing": [],
+      "passed": 31,
+      "status": "PASS"
+    },
+    {
+      "checked": 41,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_INPUT_OUTPUT_PROVENANCE_MANIFEST.json",
+      "mismatched": [],
+      "missing": [],
+      "passed": 41,
+      "status": "PASS"
+    },
+    {
+      "checked": 21,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_1_native_adapter_validation/E6_1_PROVENANCE_MANIFEST.json",
+      "mismatched": [],
+      "missing": [],
+      "passed": 21,
+      "status": "PASS"
+    },
+    {
+      "checked": 16,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_1b_checkpoint_recovery/E6_1B_PROVENANCE_MANIFEST.json",
+      "mismatched": [],
+      "missing": [],
+      "passed": 16,
+      "status": "PASS"
+    }
+  ],
+  "holdout_access": false,
+  "jev_calls": 0,
+  "model_inference_calls": 0,
+  "paid_api_calls": 0,
+  "retrieval_construction_calls": 0,
+  "scifact_audit": {
+    "candidate_slate_status": "NOT_FOUND_AUTHENTIC_SCIFACT_TOP20",
+    "join_audit": {
+      "queries_without_qrels": 0
+    },
+    "paths": {
+      "corpus": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact/corpus/0.0.0/b3b5335604bf5ee3c4447671af975ea25143d4f5/scifact-corpus.arrow",
+      "queries": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact/queries/0.0.0/b3b5335604bf5ee3c4447671af975ea25143d4f5/scifact-queries.arrow",
+      "test_qrels": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact-qrels/default/0.0.0/2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029/scifact-qrels-test.arrow",
+      "train_qrels": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact-qrels/default/0.0.0/2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029/scifact-qrels-train.arrow"
+    },
+    "rows": {
+      "corpus": 5183,
+      "positive_qrels": 1258,
+      "queries": 1109,
+      "test_qrels": 339,
+      "total_qrels": 1258,
+      "train_qrels": 919
+    },
+    "sha256": {
+      "corpus": "1abf7e91fa5278704cdf75a919f522b82e9c3711da990443efd212f7361f8394",
+      "queries": "eb72bf7b1144d3fab2368330be29d64ce0c081f613b395e47c87d148588e6d5c",
+      "test_qrels": "210ff5c601deb42f529a85299c4bf88f03d5667ae4fba030981ca8a51aefdea0",
+      "train_qrels": "26725381447f908390e967771af83f0d5e838c6d772718fda949cab94dbd230f"
+    },
+    "status": "PASS",
+    "unique_ids": {
+      "corpus": 5183,
+      "queries": 1109
+    }
+  },
+  "status": "PASS_WITH_GATE_BLOCKER"
+}

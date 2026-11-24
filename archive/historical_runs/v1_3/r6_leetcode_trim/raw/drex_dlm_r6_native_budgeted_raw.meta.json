@@ -1,0 +1,10 @@
+{
+  "model": "drex_dlm",
+  "rows": 284,
+  "valid": 266,
+  "failed": 18,
+  "load_ms": 17225.92586092651,
+  "raw_sha256": "22588f8f49bbb6a57bdc8fd18f9ec7f637242e18b09041d1e735e4f50ccf7ff4",
+  "labels_joined": false,
+  "model_revision": "E12 authenticated local checkpoint"
+}

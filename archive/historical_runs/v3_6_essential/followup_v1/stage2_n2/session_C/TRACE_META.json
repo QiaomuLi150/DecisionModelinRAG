@@ -1,0 +1,10 @@
+{
+  "expected_records": 5400,
+  "failed": 9,
+  "gpu_slot": "C",
+  "labels_joined": false,
+  "records": 5400,
+  "sha256": "26c01f157ae0079f42bb8d3a315391d7492c4a8a957f8da19662a9f321daef4b",
+  "status": "PASS",
+  "valid": 5391
+}

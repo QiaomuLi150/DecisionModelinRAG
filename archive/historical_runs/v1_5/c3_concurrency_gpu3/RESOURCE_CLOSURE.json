@@ -1,0 +1,12 @@
+{
+  "apps": [
+    "<REDACTED_GPU_UUID>, 4012163, <WORKSPACE_ROOT>/Production_Project/MultiModalRAG/venv/bin/python, 52780"
+  ],
+  "post": {
+    "index": 3,
+    "memory_free_mib": 28363,
+    "memory_used_mib": 52789,
+    "utilization_percent": 89,
+    "uuid": "<REDACTED_GPU_UUID>"
+  }
+}

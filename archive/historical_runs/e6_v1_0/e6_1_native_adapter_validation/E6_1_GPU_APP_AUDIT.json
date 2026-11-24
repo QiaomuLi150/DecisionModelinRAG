@@ -1,0 +1,12 @@
+{
+  "purpose": "Supported-field GPU process audit for E6-1 completion",
+  "captured_at": "2026-10-14T23:16:55Z",
+  "approved_gpu_uuids": {
+    "5": "<REDACTED_GPU_UUID>",
+    "6": "<REDACTED_GPU_UUID>"
+  },
+  "matching_compute_apps_on_gpu_5_or_6": [],
+  "interpretation": "No compute application was listed on GPU 5 or GPU 6 in the supported query. The initial preflight memory snapshot showed 8 MiB and 4 MiB used; the earlier index-based compute-app query was unsupported by this host and is retained as a limitation in the report.",
+  "process_eviction": false,
+  "resident_services_modified": false
+}

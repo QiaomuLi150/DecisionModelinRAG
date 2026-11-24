@@ -1,0 +1,41 @@
+{
+  "endpoint": "deterministic answer/reference overlap proxy; not factual correctness",
+  "rows": [
+    {
+      "empty_or_invalid_answer_n": 0,
+      "exact_proxy_n": 47,
+      "exact_proxy_rate": 0.15666666666666668,
+      "n": 300,
+      "policy": "R0_RETRIEVAL_TOP5_VISIBLE_TEXT",
+      "reader_ok_n": 300,
+      "token_f1_proxy_mean": 0.24753525949717178
+    },
+    {
+      "empty_or_invalid_answer_n": 0,
+      "exact_proxy_n": 53,
+      "exact_proxy_rate": 0.17666666666666667,
+      "n": 300,
+      "policy": "P1_PPLX_BUDGETED_VISIBLE_TEXT",
+      "reader_ok_n": 300,
+      "token_f1_proxy_mean": 0.2888230139744386
+    },
+    {
+      "empty_or_invalid_answer_n": 0,
+      "exact_proxy_n": 54,
+      "exact_proxy_rate": 0.18,
+      "n": 300,
+      "policy": "S1_JINA_FULL_VISIBLE_TEXT",
+      "reader_ok_n": 300,
+      "token_f1_proxy_mean": 0.2774494597780488
+    },
+    {
+      "empty_or_invalid_answer_n": 0,
+      "exact_proxy_n": 53,
+      "exact_proxy_rate": 0.17666666666666667,
+      "n": 300,
+      "policy": "S2_JINA_BUDGETED_VISIBLE_TEXT",
+      "reader_ok_n": 300,
+      "token_f1_proxy_mean": 0.28707868037197953
+    }
+  ]
+}

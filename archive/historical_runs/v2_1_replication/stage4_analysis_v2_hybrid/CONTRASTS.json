@@ -1,0 +1,58 @@
+[
+  {
+    "contrast": "pplx_two_stage-jina_two_stage_matched",
+    "dataset": "enterprise",
+    "delta": 0.10158013544018059,
+    "family": "primary",
+    "hi95": 0.13544018058690746,
+    "lo95": 0.06997742663656885,
+    "n_units": 443,
+    "order_scope": "original",
+    "p_holm": 9.999950000249999e-06,
+    "p_randomization": 4.9999750001249995e-06,
+    "unit_type": "query",
+    "units_positive": ""
+  },
+  {
+    "contrast": "pplx_two_stage-jina_two_stage_matched",
+    "dataset": "enterprise",
+    "delta": 0.13243039879608728,
+    "family": "secondary",
+    "hi95": 0.16252821670428894,
+    "lo95": 0.1038374717832957,
+    "n_units": 443,
+    "order_scope": "non_original_mean",
+    "p_holm": 9.999950000249999e-06,
+    "p_randomization": 4.9999750001249995e-06,
+    "unit_type": "query",
+    "units_positive": ""
+  },
+  {
+    "contrast": "pplx_two_stage-jina_two_stage_matched",
+    "dataset": "musique",
+    "delta": -0.02030456852791878,
+    "family": "primary",
+    "hi95": -0.009690816797415782,
+    "lo95": -0.03091832025842178,
+    "n_units": 2167,
+    "order_scope": "original",
+    "p_holm": 0.00028999855000724995,
+    "p_randomization": 0.00028999855000724995,
+    "unit_type": "query",
+    "units_positive": ""
+  },
+  {
+    "contrast": "pplx_two_stage-jina_two_stage_matched",
+    "dataset": "musique",
+    "delta": -0.012921089063221047,
+    "family": "secondary",
+    "hi95": -0.003384094754653132,
+    "lo95": -0.02230426088294109,
+    "n_units": 2167,
+    "order_scope": "non_original_mean",
+    "p_holm": 0.006529967350163249,
+    "p_randomization": 0.006529967350163249,
+    "unit_type": "query",
+    "units_positive": ""
+  }
+]

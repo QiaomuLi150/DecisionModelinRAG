@@ -1,0 +1,91 @@
+cohort,dataset,policy,population,n,success,cssr,interpretation,comparison,difference,wins,losses,ties,ci95_low,ci95_high,bootstrap_reps,bootstrap_seed
+track_a,hotpot,bge_top5,all_identity_eligible,800,550,0.6875,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,hotpot,bge_top5,retrieval_conditional,598,550,0.919732441471572,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,hotpot,bge_mmr,all_identity_eligible,800,550,0.6875,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,hotpot,bge_mmr,retrieval_conditional,598,550,0.919732441471572,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,hotpot,bge_coverage,all_identity_eligible,800,550,0.6875,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,hotpot,bge_coverage,retrieval_conditional,598,550,0.919732441471572,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,hotpot,jina35,all_identity_eligible,800,582,0.7275,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,hotpot,jina35,retrieval_conditional,598,582,0.9732441471571907,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,hotpot,pplx_decider,all_identity_eligible,800,570,0.7125,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,hotpot,pplx_decider,retrieval_conditional,598,570,0.9531772575250836,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,hotpot,clef_joint,all_identity_eligible,800,344,0.43,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,hotpot,clef_joint,retrieval_conditional,598,344,0.5752508361204013,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,hotpot,clef_pointwise,all_identity_eligible,800,221,0.27625,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,hotpot,clef_pointwise,retrieval_conditional,598,221,0.3695652173913043,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,musique,bge_top5,all_identity_eligible,2167,364,0.16797415782187355,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,musique,bge_top5,retrieval_conditional,555,364,0.6558558558558558,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,musique,bge_mmr,all_identity_eligible,2167,364,0.16797415782187355,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,musique,bge_mmr,retrieval_conditional,555,364,0.6558558558558558,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,musique,bge_coverage,all_identity_eligible,2167,364,0.16797415782187355,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,musique,bge_coverage,retrieval_conditional,555,364,0.6558558558558558,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,musique,jina35,all_identity_eligible,2167,433,0.19981541301338257,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,musique,jina35,retrieval_conditional,555,433,0.7801801801801802,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,musique,pplx_decider,all_identity_eligible,2167,409,0.18874019381633594,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,musique,pplx_decider,retrieval_conditional,555,409,0.736936936936937,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,musique,clef_joint,all_identity_eligible,2167,151,0.0696815874480849,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,musique,clef_joint,retrieval_conditional,555,151,0.27207207207207207,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,musique,clef_pointwise,all_identity_eligible,2167,77,0.03553299492385787,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,musique,clef_pointwise,retrieval_conditional,555,77,0.13873873873873874,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,wiki2,bge_top5,all_identity_eligible,800,272,0.34,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,wiki2,bge_top5,retrieval_conditional,337,272,0.8071216617210683,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,wiki2,bge_mmr,all_identity_eligible,800,272,0.34,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,wiki2,bge_mmr,retrieval_conditional,337,272,0.8071216617210683,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,wiki2,bge_coverage,all_identity_eligible,800,272,0.34,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,wiki2,bge_coverage,retrieval_conditional,337,272,0.8071216617210683,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,wiki2,jina35,all_identity_eligible,800,308,0.385,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,wiki2,jina35,retrieval_conditional,337,308,0.913946587537092,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,wiki2,pplx_decider,all_identity_eligible,800,329,0.41125,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,wiki2,pplx_decider,retrieval_conditional,337,329,0.9762611275964391,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,wiki2,clef_joint,all_identity_eligible,800,191,0.23875,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,wiki2,clef_joint,retrieval_conditional,337,191,0.5667655786350149,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,wiki2,clef_pointwise,all_identity_eligible,800,175,0.21875,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,wiki2,clef_pointwise,retrieval_conditional,337,175,0.5192878338278932,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,__pooled__,bge_top5,all_identity_eligible,3767,1186,0.314839394743828,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,__pooled__,bge_top5,retrieval_conditional,1490,1186,0.7959731543624161,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,__pooled__,bge_mmr,all_identity_eligible,3767,1186,0.314839394743828,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,__pooled__,bge_mmr,retrieval_conditional,1490,1186,0.7959731543624161,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,__pooled__,bge_coverage,all_identity_eligible,3767,1186,0.314839394743828,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,__pooled__,bge_coverage,retrieval_conditional,1490,1186,0.7959731543624161,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,__pooled__,jina35,all_identity_eligible,3767,1323,0.35120785771170693,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,__pooled__,jina35,retrieval_conditional,1490,1323,0.8879194630872483,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,__pooled__,pplx_decider,all_identity_eligible,3767,1308,0.3472259092115742,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,__pooled__,pplx_decider,retrieval_conditional,1490,1308,0.8778523489932886,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,__pooled__,clef_joint,all_identity_eligible,3767,686,0.18210777807273693,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,__pooled__,clef_joint,retrieval_conditional,1490,686,0.4604026845637584,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,__pooled__,clef_pointwise,all_identity_eligible,3767,473,0.12556410937085213,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,__pooled__,clef_pointwise,retrieval_conditional,1490,473,0.3174496644295302,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_b,enterprise,bge_top5,all_identity_eligible,443,238,0.5372460496613995,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_b,enterprise,bge_top5,retrieval_conditional,330,238,0.7212121212121212,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_b,enterprise,bge_mmr,all_identity_eligible,443,238,0.5372460496613995,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_b,enterprise,bge_mmr,retrieval_conditional,330,238,0.7212121212121212,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_b,enterprise,bge_coverage,all_identity_eligible,443,238,0.5372460496613995,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_b,enterprise,bge_coverage,retrieval_conditional,330,238,0.7212121212121212,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_b,enterprise,jina35,all_identity_eligible,443,263,0.5936794582392777,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_b,enterprise,jina35,retrieval_conditional,330,263,0.796969696969697,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_b,enterprise,pplx_decider,all_identity_eligible,443,304,0.6862302483069977,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_b,enterprise,pplx_decider,retrieval_conditional,330,304,0.9212121212121213,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_b,enterprise,clef_joint,all_identity_eligible,443,202,0.45598194130925507,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_b,enterprise,clef_joint,retrieval_conditional,330,202,0.6121212121212121,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_b,enterprise,clef_pointwise,all_identity_eligible,443,136,0.30699774266365687,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_b,enterprise,clef_pointwise,retrieval_conditional,330,136,0.4121212121212121,"complete-support selection proxy; BGE_MMR/COVERAGE are TF-IDF heuristics, not SetR",,,,,,,,,
+track_a,hotpot,,all_identity_eligible,800,,,exploratory paired heuristic contrast,bge_mmr_minus_bge_top5,0.0,0,0,800,0.0,0.0,5000,731
+track_a,hotpot,,all_identity_eligible,800,,,exploratory paired heuristic contrast,bge_coverage_minus_bge_top5,0.0,0,0,800,0.0,0.0,5000,731
+track_a,hotpot,,retrieval_conditional,598,,,exploratory paired heuristic contrast,bge_mmr_minus_bge_top5,0.0,0,0,598,0.0,0.0,5000,731
+track_a,hotpot,,retrieval_conditional,598,,,exploratory paired heuristic contrast,bge_coverage_minus_bge_top5,0.0,0,0,598,0.0,0.0,5000,731
+track_a,musique,,all_identity_eligible,2167,,,exploratory paired heuristic contrast,bge_mmr_minus_bge_top5,0.0,0,0,2167,0.0,0.0,5000,731
+track_a,musique,,all_identity_eligible,2167,,,exploratory paired heuristic contrast,bge_coverage_minus_bge_top5,0.0,0,0,2167,0.0,0.0,5000,731
+track_a,musique,,retrieval_conditional,555,,,exploratory paired heuristic contrast,bge_mmr_minus_bge_top5,0.0,0,0,555,0.0,0.0,5000,731
+track_a,musique,,retrieval_conditional,555,,,exploratory paired heuristic contrast,bge_coverage_minus_bge_top5,0.0,0,0,555,0.0,0.0,5000,731
+track_a,wiki2,,all_identity_eligible,800,,,exploratory paired heuristic contrast,bge_mmr_minus_bge_top5,0.0,0,0,800,0.0,0.0,5000,731
+track_a,wiki2,,all_identity_eligible,800,,,exploratory paired heuristic contrast,bge_coverage_minus_bge_top5,0.0,0,0,800,0.0,0.0,5000,731
+track_a,wiki2,,retrieval_conditional,337,,,exploratory paired heuristic contrast,bge_mmr_minus_bge_top5,0.0,0,0,337,0.0,0.0,5000,731
+track_a,wiki2,,retrieval_conditional,337,,,exploratory paired heuristic contrast,bge_coverage_minus_bge_top5,0.0,0,0,337,0.0,0.0,5000,731
+track_a,__pooled__,,all_identity_eligible,3767,,,exploratory paired heuristic contrast,bge_mmr_minus_bge_top5,0.0,0,0,3767,0.0,0.0,5000,731
+track_a,__pooled__,,all_identity_eligible,3767,,,exploratory paired heuristic contrast,bge_coverage_minus_bge_top5,0.0,0,0,3767,0.0,0.0,5000,731
+track_a,__pooled__,,retrieval_conditional,1490,,,exploratory paired heuristic contrast,bge_mmr_minus_bge_top5,0.0,0,0,1490,0.0,0.0,5000,731
+track_a,__pooled__,,retrieval_conditional,1490,,,exploratory paired heuristic contrast,bge_coverage_minus_bge_top5,0.0,0,0,1490,0.0,0.0,5000,731
+track_b,enterprise,,all_identity_eligible,443,,,exploratory paired heuristic contrast,bge_mmr_minus_bge_top5,0.0,0,0,443,0.0,0.0,5000,731
+track_b,enterprise,,all_identity_eligible,443,,,exploratory paired heuristic contrast,bge_coverage_minus_bge_top5,0.0,0,0,443,0.0,0.0,5000,731
+track_b,enterprise,,retrieval_conditional,330,,,exploratory paired heuristic contrast,bge_mmr_minus_bge_top5,0.0,0,0,330,0.0,0.0,5000,731
+track_b,enterprise,,retrieval_conditional,330,,,exploratory paired heuristic contrast,bge_coverage_minus_bge_top5,0.0,0,0,330,0.0,0.0,5000,731

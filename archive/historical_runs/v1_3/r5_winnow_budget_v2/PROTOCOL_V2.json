@@ -1,0 +1,53 @@
+{
+  "experiment_id": "r5_winnow_budget_v2",
+  "protocol_version": "decisionrag-v1.3-r5-v2",
+  "status": "FROZEN_PRE_OUTCOME_EXECUTION_BLOCKED",
+  "population": {
+    "dataset": "BRIGHT",
+    "queries": 1384,
+    "candidate_count": 20,
+    "candidate_order": "frozen original BM25 order",
+    "input_slate_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2"
+  },
+  "policies": [
+    "winnow_budget",
+    "jina_winnow_budget"
+  ],
+  "budget": {
+    "max_context_tokens": 8192,
+    "safety_margin_tokens": 128,
+    "candidate_count": 20,
+    "allocation": "equal prefix in Winnow tokenizer",
+    "backoff": "one token at a time after exact native re-tokenization",
+    "zero_budget": "failure"
+  },
+  "winnow": {
+    "model_revision": "0b5b7f98e718cf0faffd0acea3093b86ebf00b56",
+    "model_path": "data/models/e12_o_checkpoints/winnow12/gguf/Winnow-12B-Q8_0.gguf",
+    "model_sha256": "b710efc4c0d048ee61eed92c5fef5ce323a4d17e7c51f9f0533cc72ae50818ea",
+    "tokenizer_sha256": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "native_endpoint": "POST /v1/systemone",
+    "native_readout": "typed choice probabilities",
+    "alias": "Winnow-12B"
+  },
+  "runtime": {
+    "source_repository": "EldanRing/winnow-inference",
+    "source_commit": "6c2b3c04e248a319f2cb43832628eba03e55fe38",
+    "runtime_lock_sha256": "21e6e69d8e43e318089e77459d102f05ee2cad266999c7860e64048f69c89e84",
+    "llama_cpp_commit": "911f6cdc8ab8a530b2bee09ee61471a6f3178eeb",
+    "binary": "<REDACTED_PATH>",
+    "binary_sha256": "2f729cd3f59b34dc5b3a9a7cd0c5096e59075fe8dcd246529e9b34753f273993",
+    "build_command": "env PATH=/usr/bin:/bin:/usr/local/cuda/bin <WORKSPACE_ROOT>/Production_Project/MultiModalRAG/venv/bin/python <REDACTED_PATH> --jobs 8 --backend cuda --cuda-arch 80 --build-dir <REDACTED_PATH>",
+    "server_command": "python <REDACTED_PATH> --model data/models/e12_o_checkpoints/winnow12/gguf/Winnow-12B-Q8_0.gguf --context 8192 --decision-parallel 4 --chat-parallel 1 --cache q8_0 --memory exclusive --gpu <dedicated-A100> --server <REDACTED_PATH> --port 8091"
+  },
+  "measurement": {
+    "one_request_at_a_time": true,
+    "model_load_excluded_from_latency": true,
+    "model_load_reported_separately": true,
+    "peak_allocator_memory_required": true,
+    "server_stderr_required_for_http_errors": true,
+    "labels_joined_before_inference": false,
+    "dedicated_a100_required": true
+  },
+  "decision": "Do not execute while every available A100 has a resident process; use a newly verified dedicated window and preserve this protocol unchanged."
+}

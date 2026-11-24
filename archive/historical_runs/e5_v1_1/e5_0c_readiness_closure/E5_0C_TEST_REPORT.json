@@ -1,0 +1,27 @@
+{
+  "cpu_only": true,
+  "created_utc": "2026-10-14T17:13:52.472486+00:00",
+  "focused_suite": {
+    "collected": 7,
+    "command": "pytest -q tests/test_e5_0c_readiness.py",
+    "failed": 0,
+    "passed": 7,
+    "skipped": 0
+  },
+  "full_regression": {
+    "collected": 157,
+    "command": "CUDA_VISIBLE_DEVICES='' HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 pytest -q",
+    "failed": 0,
+    "passed": 157,
+    "skipped": 0
+  },
+  "phase_order": {
+    "e5_a": "NOT_RUN",
+    "e5_b": "NOT_RUN",
+    "e5_c": "NOT_RUN",
+    "e5_d": "NOT_RUN",
+    "e5_f": "LOCKED",
+    "jev": 0,
+    "paid_api": 0
+  }
+}

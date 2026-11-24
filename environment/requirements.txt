@@ -1,0 +1,2 @@
+# Tier 0/1 release verification uses Python standard library only.
+# No model or GPU packages are installed by these commands.

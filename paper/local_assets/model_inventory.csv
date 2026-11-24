@@ -1,0 +1,8 @@
+model_id,deployment,revision,input_contract,calls_per_query,gpu_topology
+bm25,local_cpu,pinned implementation,lowercase_regex,local,CPU
+Qwen3-VL-Embedding-2B,existing_service:8001,service-pinned,query embedding,1,service GPU; not per-request attributed
+BAAI/bge-reranker-v2-m3,local_gpu0,953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e,20 pointwise pairs,20 pairs,A100 GPU0
+Qwen/Qwen3-VL-Reranker-2B,existing_service:8002,4bd860ac4f15ad1897a214615cccc700f8f71818,20 pointwise documents,1 batched request,service GPU; not per-request attributed
+convaiinnovations/laya,local_gpu0,7b928d828b7b0e022f929d9bd2e44165aa270148,typed 512-token max,20 or 5 quartet,A100 GPU0
+Cloudflare/clef-flash,local_gpu0,8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3,typed local SystemOne schema,20 or 5 quartet,A100 GPU0
+Qwen/Qwen3-VL-8B-Instruct,existing_service:8003,0c351dd01ed87e9c1b53cbc748cba10e6187ff3b,text-only fixed reader,1,service GPU; not per-request attributed

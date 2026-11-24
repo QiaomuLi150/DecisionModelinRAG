@@ -1,0 +1,10 @@
+{
+  "batch_size": 8,
+  "failed": 32,
+  "labels_joined": false,
+  "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_pplx_budget__reversed.jsonl",
+  "records": 1384,
+  "sha256": "18cc9db37e58a890b3a9d7c0cb1b1eaea7a7c7c96be2d31c1323f78d8d197e7e",
+  "timing_valid": false,
+  "valid": 1352
+}

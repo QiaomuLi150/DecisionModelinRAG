@@ -1,0 +1,58 @@
+study_id: decisionrag-frozen-A4-B3-C4-D3-E3-F1-G2
+schema_version: 1
+seed: 20261011
+bootstrap:
+  replicates: 5000
+  seed: 731
+datasets:
+  hotpot:
+    source: hotpotqa
+    cal: 50
+    test: 200
+    debug: 10
+  musique:
+    source: musique_ans_v1.0_dev
+    cal: 50
+    test: 200
+    debug: 10
+  wiki2:
+    source: 2wikimultihopqa
+    cal: 50
+    test: 200
+    debug: 10
+retrieval:
+  bm25_top_k: 100
+  dense_top_k: 100
+  rrf_k: 60
+  slate_k: 20
+  tokenizer: lowercase_regex
+views:
+  question_laya_tokens: 64
+  pointwise_paragraph_laya_tokens: 128
+  groupwise_paragraph_laya_tokens: 64
+  reader_paragraph_generator_tokens: 256
+  laya_max_tokens: 512
+serving:
+  concurrency: 10
+  requests_per_policy: 100
+  disable_response_cache: true
+policies:
+  - raw20
+  - retrieval5
+  - bge_p5
+  - qwen_p5
+  - laya_p5
+  - clef_p5
+  - laya_g5
+  - clef_g5
+  - bge_rescue5
+  - qwen_rescue5
+  - laya_rescue5
+  - clef_rescue5
+jev:
+  enabled: false
+  execution_allowed: false
+  request_mode: DENY
+  smoke_approval_required: true
+  bulk_approval_required: true
+

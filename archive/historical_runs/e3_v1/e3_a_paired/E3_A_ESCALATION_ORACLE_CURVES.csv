@@ -1,0 +1,37 @@
+population,dataset,rate,policy,eligible_n,escalated_n,quality,quality_delta_vs_jina,quality_metric,ci_low,ci_high,work_accounting_type,latency_status
+track_a_pooled,pooled,0,oracle,3767,0,0.35120785771170693,0.0,CSSR_complete_support,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_a_pooled,pooled,0,random,3767,0,0.35120785771170693,0.0,CSSR_complete_support,0.35120785771170693,0.35120785771170693,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_a_pooled,pooled,0.05,oracle,3767,86,0.3740376957791346,0.022829838067427666,CSSR_complete_support,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_a_pooled,pooled,0.05,random,3767,188,0.35101805149986726,-0.0001898062118396715,CSSR_complete_support,0.34934961507831164,0.3525351738784178,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_a_pooled,pooled,0.1,oracle,3767,86,0.3740376957791346,0.022829838067427666,CSSR_complete_support,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_a_pooled,pooled,0.1,random,3767,376,0.350819856649854,-0.00038800106185293837,CSSR_complete_support,0.3488186886116273,0.3530661003451022,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_a_pooled,pooled,0.2,oracle,3767,86,0.3740376957791346,0.022829838067427666,CSSR_complete_support,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_a_pooled,pooled,0.2,random,3767,753,0.35044656225112825,-0.0007612954605786815,CSSR_complete_support,0.34775683567825855,0.35333156357844436,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_a_pooled,pooled,0.5,oracle,3767,86,0.3740376957791346,0.022829838067427666,CSSR_complete_support,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_a_pooled,pooled,0.5,random,3767,1883,0.349210246880807,-0.001997610830899943,CSSR_complete_support,0.3456331298115211,0.35280063711176,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_a_pooled,pooled,1.0,oracle,3767,86,0.3740376957791346,0.022829838067427666,CSSR_complete_support,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_a_pooled,pooled,1.0,random,3767,3767,0.3472259092115742,-0.003981948500132726,CSSR_complete_support,0.3472259092115742,0.3472259092115742,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_b,enterprise,0,oracle,443,0,0.5936794582392777,0.0,CSSR_complete_support,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_b,enterprise,0,random,443,0,0.5936794582392777,0.0,CSSR_complete_support,0.5936794582392777,0.5936794582392777,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_b,enterprise,0.05,oracle,443,22,0.6433408577878104,0.04966139954853266,CSSR_complete_support,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_b,enterprise,0.05,random,443,22,0.5983115124153499,0.004632054176072153,CSSR_complete_support,0.5914221218961625,0.6049661399548533,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_b,enterprise,0.1,oracle,443,44,0.6930022573363431,0.09932279909706543,CSSR_complete_support,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_b,enterprise,0.1,random,443,44,0.6028948081264108,0.009215349887133129,CSSR_complete_support,0.5936794582392777,0.6117381489841986,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_b,enterprise,0.2,oracle,443,47,0.6997742663656885,0.10609480812641081,CSSR_complete_support,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_b,enterprise,0.2,random,443,88,0.6121837471783296,0.01850428893905187,CSSR_complete_support,0.600451467268623,0.6252821670428894,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_b,enterprise,0.5,oracle,443,47,0.6997742663656885,0.10609480812641081,CSSR_complete_support,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_b,enterprise,0.5,random,443,221,0.6399119638826185,0.046232505643340804,CSSR_complete_support,0.6230248306997742,0.654627539503386,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_b,enterprise,1.0,oracle,443,47,0.6997742663656885,0.10609480812641081,CSSR_complete_support,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+track_b,enterprise,1.0,random,443,443,0.6862302483069977,0.09255079006772005,CSSR_complete_support,0.6862302483069977,0.6862302483069977,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+reader_reference_valid,track_a_public,0,oracle,240,0,0.37916666666666665,0.0,normalized_EM_proxy,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+reader_reference_valid,track_a_public,0,random,240,0,0.37916666666666665,0.0,normalized_EM_proxy,0.37916666666666665,0.37916666666666665,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+reader_reference_valid,track_a_public,0.05,oracle,240,6,0.4041666666666667,0.025000000000000022,normalized_EM_proxy,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+reader_reference_valid,track_a_public,0.05,random,240,12,0.3774808333333333,-0.0016858333333333309,normalized_EM_proxy,0.37083333333333335,0.38333333333333336,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+reader_reference_valid,track_a_public,0.1,oracle,240,6,0.4041666666666667,0.025000000000000022,normalized_EM_proxy,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+reader_reference_valid,track_a_public,0.1,random,240,24,0.37576583333333335,-0.0034008333333332974,normalized_EM_proxy,0.36666666666666664,0.3875,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+reader_reference_valid,track_a_public,0.2,oracle,240,6,0.4041666666666667,0.025000000000000022,normalized_EM_proxy,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+reader_reference_valid,track_a_public,0.2,random,240,48,0.372535,-0.006631666666666647,normalized_EM_proxy,0.35833333333333334,0.3875,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+reader_reference_valid,track_a_public,0.5,oracle,240,6,0.4041666666666667,0.025000000000000022,normalized_EM_proxy,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+reader_reference_valid,track_a_public,0.5,random,240,120,0.36259916666666664,-0.016567500000000013,normalized_EM_proxy,0.3458333333333333,0.37916666666666665,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED
+reader_reference_valid,track_a_public,1.0,oracle,240,6,0.4041666666666667,0.025000000000000022,normalized_EM_proxy,,,Jina always + oracle PPLX quota,TAIL_LATENCY_NOT_MEASURED
+reader_reference_valid,track_a_public,1.0,random,240,240,0.3458333333333333,-0.033333333333333326,normalized_EM_proxy,0.3458333333333333,0.3458333333333333,Jina always + seeded random PPLX quota,TAIL_LATENCY_NOT_MEASURED

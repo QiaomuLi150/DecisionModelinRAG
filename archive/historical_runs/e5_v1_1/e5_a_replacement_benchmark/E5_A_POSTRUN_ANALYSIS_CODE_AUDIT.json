@@ -1,0 +1,14 @@
+{
+  "analysis_script_sha256_at_closure": "39ef49c7b1e4e4c5b8bf078ff7ffc7e25a657b094009c93683e9ce9cacf7fc60",
+  "audit_version": "E5-A-POSTRUN-ANALYSIS-AUDIT-V1",
+  "frozen_manifest_sha256": "f0a526aff53bd62a013694a941eb97497eb720467c52ab5d328387774230961d",
+  "inference_rerun_after_freeze": false,
+  "interpretation": "These are reporting/integrity additions after A0; they do not constitute protocol tuning or outcome-dependent reranking.",
+  "native_inputs_or_selection_contract_altered": false,
+  "native_outcomes_altered": false,
+  "post_outcome_changes": [
+    "Added CPU-only leave-largest-group and support-cardinality diagnostics to S0.",
+    "Extended V0 test timeout so the existing full regression suite could finish.",
+    "Added CSV export, explicit secondary-control non-execution status, test-count reporting, and provenance closure."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "policy_id": "winnow12_D_budget",
+  "n": 1384,
+  "pass": 1045,
+  "fail": 339,
+  "raw_output_sha256": "40228ae07718a0136c764677526654659ae6d327a5d3785cfd4b50a25b5afb3f",
+  "url": "http://service.example.invalid/v1/systemone",
+  "gpu": 3,
+  "labels_joined": false,
+  "started_unix": 1792472234.0598187,
+  "finished_unix": 1792474504.3173914
+}

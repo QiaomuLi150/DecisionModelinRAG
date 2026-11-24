@@ -1,0 +1,29 @@
+\begin{table*}[t]
+\centering
+\caption{Which policies pass the three replacement checks? Summary of BRIGHT policies against the dedicated reranker (1,384 queries)}\label{tab:decision}
+\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}l r r r r r r ccc l@{}}\toprule
+ & Valid & & $\Delta$ vs & p95 & p95 & Mem. & \multicolumn{3}{c}{Checks} & \\\cmidrule(lr){8-10}
+Reranking policy & (\%) & nDCG@5 & Jina & (ms) & ratio & (GiB) & Rel. & Qual. & Serv. & Takeaway\\
+\midrule
+\addlinespace[2pt]\multicolumn{11}{@{}l}{\textit{Baseline and dedicated reranker (Jina v3.5)}}\\[1pt]
+BM25 Top-5 (no reranker) & 100 & 0.1330 & $-.0514$ & -- & -- & -- & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{black!40}{--} & \textcolor{black!40}{--} & Baseline to beat\\
+Jina v3.5, full text (dedicated) & 100 & 0.1844 & ref. & 1,211 & 1.0 & 4.3 & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cPass!70!black}{$\checkmark$} & Dedicated reranker\\
+Jina v3.5, truncated to 8,192 & 99.7 & 0.1765 & $-.0079$ & 245 & 0.20 & 1.9 & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cPass!70!black}{$\checkmark$} & Tuned Jina; passes all\\
+\addlinespace[2pt]\multicolumn{11}{@{}l}{\textit{Main case, PPLX Decider: default input, then input budget and multi-stage reranking}}\\[1pt]
+PPLX, default input & 44.1 & 0.0813 & $-.1031$ & -- & -- & -- & \textcolor{cFail}{$\times$} & \textcolor{cFail}{$\times$} & \textcolor{black!40}{--} & Fails 56\% of requests\\
+PPLX, default + BM25 fallback & 100 & 0.1687 & $-.0157$ & -- & -- & -- & \textcolor{cPass!70!black}{($\checkmark$)} & \textcolor{cFail}{$\times$} & \textcolor{black!40}{--} & Non-inferiority not shown\\
+\textbf{PPLX, single call, 4,096} & \textbf{99.2} & \textbf{0.1875} & $\mathbf{+.0031}$ & \textbf{1,101} & \textbf{0.91} & 49.4 & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cPass!70!black}{$\checkmark$} & Passes all three checks\\
+\textbf{PPLX, single call, 6,144} & \textbf{99.6} & \textbf{0.1886} & $\mathbf{+.0042}$ & \textbf{1,735} & \textbf{1.4} & 49.7 & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cPass!70!black}{$\checkmark$} & Passes all three; slower\\
+PPLX, single call, 8,192 & 99.7 & 0.1928 & $+.0084$ & 2,397 & 2.0 & 50.1 & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{black!55}{?} & At the latency limit\\
+\quad same, shuffled order & 99.7 & 0.1797 & $-.0051$ &  &  &  & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cFail}{$\times$} & \textcolor{black!55}{?} & Relies on candidate order\\
+PPLX, two-stage (3 calls), 4,096 & 99.2 & 0.2013 & $+.0169$ & 3,352 & 2.8 & 49.4 & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cFail}{$\times$} & Better quality; too slow\\
+PPLX, two-stage (3 calls), 8,192 & 99.8 & 0.2108 & $+.0264$ & 6,700 & 5.9 & 50.1 & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cFail}{$\times$} & Best quality; slowest\\
+\quad same, shuffled order & 99.8 & 0.2046 & $+.0198$ &  &  &  & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cFail}{$\times$} & Keeps its lead\\
+\addlinespace[2pt]\multicolumn{11}{@{}l}{\textit{Other decision models}}\\[1pt]
+Winnow-12B, default + fallback & 100 & 0.2011 & $+.0168$ & 5,374$^b$ & 4.6$^b$ & -- & \textcolor{cPass!70!black}{($\checkmark$)} & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cFail}{$\times$} & Too slow\\
+Winnow-12B, truncated + fallback & 100 & 0.1875 & $+.0031$ & 2,892$^c$ & -- & -- & \textcolor{cPass!70!black}{($\checkmark$)} & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{black!55}{?} & Serving unverified\\
+Kev-9B, truncated & 100 & 0.1213 & $-.0630$ & -- & -- & -- & \textcolor{cPass!70!black}{$\checkmark$} & \textcolor{cFail}{$\times$} & \textcolor{black!40}{--} & No gain over BM25\\
+\bottomrule\end{tabular}
+\tabnote{Rel.: $\ge$99\% of requests return a valid Top-5 from the model itself; ($\checkmark$) passes only if a BM25 fallback counts as completion. Qual.: beats the BM25 Top-5 and stays within 0.02 nDCG@5 of full-text Jina (lower 95\% bound above $-0.02$). Serv.: p95 at most $2\times$ full-text Jina's ($\checkmark$); ? = interval spans 2, not shown to pass; $\times$ = clearly above 2. Bold rows: PPLX policies passing all three. Latency of the budget-sweep rows: all 1,384 queries, two sessions with two passes each, one request at a time on an A100, next to a same-session full-text Jina anchor (two-stage 8,192: 120-query cohort); it includes failures and fallback time. Shuffled: mean over six candidate orders (measured at 8,192 tokens only). $^b$\,earlier shared session. $^c$\,p95 over completed requests only (failure times not recorded). --: not measured or not applicable. Tables~\ref{tab:sweep} and \ref{tab:original} give the full sweep and the default behavior.}
+\end{table*}

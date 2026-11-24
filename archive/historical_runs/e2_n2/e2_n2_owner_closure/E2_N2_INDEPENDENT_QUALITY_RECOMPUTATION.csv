@@ -1,0 +1,85 @@
+cohort,dataset,policy,n_total,n_eligible,n_conditional,n_any_gold,success_unconditional,success_conditional,cssr_unconditional,cssr_conditional,any_gold_coverage,blocked_rows,interpretation
+track_a,hotpot,retrieval5,800,800,598,791,398,398,0.4975,0.6655518394648829,0.98875,0,complete-support selection proxy; not reader factual accuracy
+track_a,hotpot,bge_pointwise,800,800,598,791,550,550,0.6875,0.919732441471572,0.98875,0,complete-support selection proxy; not reader factual accuracy
+track_a,hotpot,laya_pointwise,800,800,598,791,86,86,0.1075,0.14381270903010032,0.98875,0,complete-support selection proxy; not reader factual accuracy
+track_a,hotpot,clef_pointwise,800,800,598,791,221,221,0.27625,0.3695652173913043,0.98875,0,complete-support selection proxy; not reader factual accuracy
+track_a,hotpot,clef_joint,800,800,598,791,344,344,0.43,0.5752508361204013,0.98875,0,complete-support selection proxy; not reader factual accuracy
+track_a,hotpot,gte,800,800,598,791,547,547,0.68375,0.9147157190635451,0.98875,0,complete-support selection proxy; not reader factual accuracy
+track_a,hotpot,minilm,800,800,598,791,476,476,0.595,0.7959866220735786,0.98875,0,complete-support selection proxy; not reader factual accuracy
+track_a,hotpot,jina35,800,800,598,791,582,582,0.7275,0.9732441471571907,0.98875,0,complete-support selection proxy; not reader factual accuracy
+track_a,hotpot,nimble,800,800,598,791,535,535,0.66875,0.8946488294314381,0.98875,0,complete-support selection proxy; not reader factual accuracy
+track_a,hotpot,intern_decision,800,800,598,791,460,460,0.575,0.7692307692307693,0.98875,0,complete-support selection proxy; not reader factual accuracy
+track_a,hotpot,pplx_decider,800,800,598,791,570,570,0.7125,0.9531772575250836,0.98875,0,complete-support selection proxy; not reader factual accuracy
+track_a,hotpot,qwen06,800,800,598,791,531,531,0.66375,0.8879598662207357,0.98875,0,complete-support selection proxy; not reader factual accuracy
+track_a,hotpot,qwen4,800,800,598,791,560,560,0.7,0.9364548494983278,0.98875,0,complete-support selection proxy; not reader factual accuracy
+track_a,hotpot,qwen_direct,800,800,598,791,553,553,0.69125,0.9247491638795987,0.98875,0,complete-support selection proxy; not reader factual accuracy
+track_a,musique,retrieval5,2167,2167,555,2000,215,215,0.09921550530687587,0.38738738738738737,0.9229349330872173,0,complete-support selection proxy; not reader factual accuracy
+track_a,musique,bge_pointwise,2167,2167,555,2000,364,364,0.16797415782187355,0.6558558558558558,0.9229349330872173,0,complete-support selection proxy; not reader factual accuracy
+track_a,musique,laya_pointwise,2167,2167,555,2000,27,27,0.012459621596677434,0.04864864864864865,0.9229349330872173,0,complete-support selection proxy; not reader factual accuracy
+track_a,musique,clef_pointwise,2167,2167,555,2000,77,77,0.03553299492385787,0.13873873873873874,0.9229349330872173,0,complete-support selection proxy; not reader factual accuracy
+track_a,musique,clef_joint,2167,2167,555,2000,151,151,0.0696815874480849,0.27207207207207207,0.9229349330872173,0,complete-support selection proxy; not reader factual accuracy
+track_a,musique,gte,2167,2167,555,2000,327,327,0.15089986155976004,0.5891891891891892,0.9229349330872173,0,complete-support selection proxy; not reader factual accuracy
+track_a,musique,minilm,2167,2167,555,2000,310,310,0.1430549146285187,0.5585585585585585,0.9229349330872173,0,complete-support selection proxy; not reader factual accuracy
+track_a,musique,jina35,2167,2167,555,2000,433,433,0.19981541301338257,0.7801801801801802,0.9229349330872173,0,complete-support selection proxy; not reader factual accuracy
+track_a,musique,nimble,2167,2167,555,2000,347,347,0.1601292108906322,0.6252252252252253,0.9229349330872173,0,complete-support selection proxy; not reader factual accuracy
+track_a,musique,intern_decision,2167,2167,555,2000,296,296,0.13659437009690817,0.5333333333333333,0.9229349330872173,0,complete-support selection proxy; not reader factual accuracy
+track_a,musique,pplx_decider,2167,2167,555,2000,409,409,0.18874019381633594,0.736936936936937,0.9229349330872173,0,complete-support selection proxy; not reader factual accuracy
+track_a,musique,qwen06,2167,2167,555,2000,347,347,0.1601292108906322,0.6252252252252253,0.9229349330872173,0,complete-support selection proxy; not reader factual accuracy
+track_a,musique,qwen4,2167,2167,555,2000,377,377,0.17397323488694047,0.6792792792792792,0.9229349330872173,0,complete-support selection proxy; not reader factual accuracy
+track_a,musique,qwen_direct,2167,2167,555,2000,392,392,0.1808952468850946,0.7063063063063063,0.9229349330872173,0,complete-support selection proxy; not reader factual accuracy
+track_a,wiki2,retrieval5,800,800,337,797,195,195,0.24375,0.5786350148367952,0.99625,0,complete-support selection proxy; not reader factual accuracy
+track_a,wiki2,bge_pointwise,800,800,337,797,272,272,0.34,0.8071216617210683,0.99625,0,complete-support selection proxy; not reader factual accuracy
+track_a,wiki2,laya_pointwise,800,800,337,797,33,33,0.04125,0.09792284866468842,0.99625,0,complete-support selection proxy; not reader factual accuracy
+track_a,wiki2,clef_pointwise,800,800,337,797,175,175,0.21875,0.5192878338278932,0.99625,0,complete-support selection proxy; not reader factual accuracy
+track_a,wiki2,clef_joint,800,800,337,797,191,191,0.23875,0.5667655786350149,0.99625,0,complete-support selection proxy; not reader factual accuracy
+track_a,wiki2,gte,800,800,337,797,255,255,0.31875,0.7566765578635015,0.99625,0,complete-support selection proxy; not reader factual accuracy
+track_a,wiki2,minilm,800,800,337,797,261,261,0.32625,0.7744807121661721,0.99625,0,complete-support selection proxy; not reader factual accuracy
+track_a,wiki2,jina35,800,800,337,797,308,308,0.385,0.913946587537092,0.99625,0,complete-support selection proxy; not reader factual accuracy
+track_a,wiki2,nimble,800,800,337,797,296,296,0.37,0.8783382789317508,0.99625,0,complete-support selection proxy; not reader factual accuracy
+track_a,wiki2,intern_decision,800,800,337,797,263,263,0.32875,0.7804154302670623,0.99625,0,complete-support selection proxy; not reader factual accuracy
+track_a,wiki2,pplx_decider,800,800,337,797,329,329,0.41125,0.9762611275964391,0.99625,0,complete-support selection proxy; not reader factual accuracy
+track_a,wiki2,qwen06,800,800,337,797,265,265,0.33125,0.7863501483679525,0.99625,0,complete-support selection proxy; not reader factual accuracy
+track_a,wiki2,qwen4,800,800,337,797,282,282,0.3525,0.8367952522255193,0.99625,0,complete-support selection proxy; not reader factual accuracy
+track_a,wiki2,qwen_direct,800,800,337,797,278,278,0.3475,0.8249258160237388,0.99625,0,complete-support selection proxy; not reader factual accuracy
+track_a,__equal_dataset_macro__,retrieval5,3767,3767,1490,3588,808,808,0.28015516843562527,0.5438580805630219,0.9693116443624058,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_a,__equal_dataset_macro__,bge_pointwise,3767,3767,1490,3588,1186,1186,0.3984913859406245,0.7942366530161653,0.9693116443624058,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_a,__equal_dataset_macro__,laya_pointwise,3767,3767,1490,3588,146,146,0.05373654053222581,0.09679473544781246,0.9693116443624058,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_a,__equal_dataset_macro__,clef_pointwise,3767,3767,1490,3588,473,473,0.17684433164128596,0.3425305966526454,0.9693116443624058,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_a,__equal_dataset_macro__,clef_joint,3767,3767,1490,3588,686,686,0.24614386248269496,0.4713628289424961,0.9693116443624058,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_a,__equal_dataset_macro__,gte,3767,3767,1490,3588,1129,1129,0.38446662051992,0.7535271553720786,0.9693116443624058,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_a,__equal_dataset_macro__,minilm,3767,3767,1490,3588,1047,1047,0.3547683048761729,0.7096752975994364,0.9693116443624058,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_a,__equal_dataset_macro__,jina35,3767,3767,1490,3588,1323,1323,0.43743847100446087,0.8891236382914877,0.9693116443624058,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_a,__equal_dataset_macro__,nimble,3767,3767,1490,3588,1178,1178,0.39962640363021074,0.7994041111961381,0.9693116443624058,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_a,__equal_dataset_macro__,intern_decision,3767,3767,1490,3588,1019,1019,0.34678145669896937,0.6943265109437217,0.9693116443624058,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_a,__equal_dataset_macro__,pplx_decider,3767,3767,1490,3588,1308,1308,0.43749673127211197,0.8887917740194866,0.9693116443624058,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_a,__equal_dataset_macro__,qwen06,3767,3767,1490,3588,1143,1143,0.3850430702968774,0.7665117466046378,0.9693116443624058,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_a,__equal_dataset_macro__,qwen4,3767,3767,1490,3588,1219,1219,0.40882441162898014,0.8175097936677088,0.9693116443624058,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_a,__equal_dataset_macro__,qwen_direct,3767,3767,1490,3588,1223,1223,0.40654841562836486,0.818660428736548,0.9693116443624058,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_b,enterprise,retrieval5,500,443,330,370,247,247,0.5575620767494357,0.7484848484848485,0.74,0,complete-support selection proxy; not reader factual accuracy
+track_b,enterprise,bge_pointwise,500,443,330,370,238,238,0.5372460496613995,0.7212121212121212,0.74,0,complete-support selection proxy; not reader factual accuracy
+track_b,enterprise,laya_pointwise,500,443,330,370,120,120,0.2708803611738149,0.36363636363636365,0.74,0,complete-support selection proxy; not reader factual accuracy
+track_b,enterprise,clef_pointwise,500,443,330,370,136,136,0.30699774266365687,0.4121212121212121,0.74,0,complete-support selection proxy; not reader factual accuracy
+track_b,enterprise,clef_joint,500,443,330,370,202,202,0.45598194130925507,0.6121212121212121,0.74,0,complete-support selection proxy; not reader factual accuracy
+track_b,enterprise,gte,500,443,330,370,251,251,0.5665914221218962,0.7606060606060606,0.74,0,complete-support selection proxy; not reader factual accuracy
+track_b,enterprise,minilm,500,443,330,370,241,241,0.5440180586907449,0.7303030303030303,0.74,0,complete-support selection proxy; not reader factual accuracy
+track_b,enterprise,jina35,500,443,330,370,263,263,0.5936794582392777,0.796969696969697,0.74,0,complete-support selection proxy; not reader factual accuracy
+track_b,enterprise,nimble,500,443,330,370,271,271,0.6117381489841986,0.8212121212121212,0.74,0,complete-support selection proxy; not reader factual accuracy
+track_b,enterprise,intern_decision,0,0,0,0,0,0,,,,500,complete-support selection proxy; not reader factual accuracy
+track_b,enterprise,pplx_decider,500,443,330,370,304,304,0.6862302483069977,0.9212121212121213,0.74,0,complete-support selection proxy; not reader factual accuracy
+track_b,enterprise,qwen06,500,443,330,370,233,233,0.5259593679458239,0.706060606060606,0.74,0,complete-support selection proxy; not reader factual accuracy
+track_b,enterprise,qwen4,500,443,330,370,205,205,0.46275395033860045,0.6212121212121212,0.74,0,complete-support selection proxy; not reader factual accuracy
+track_b,enterprise,qwen_direct,500,443,330,370,244,244,0.5507900677200903,0.7393939393939394,0.74,0,complete-support selection proxy; not reader factual accuracy
+track_b,__equal_dataset_macro__,retrieval5,500,443,330,370,247,247,0.5575620767494357,0.7484848484848485,0.74,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_b,__equal_dataset_macro__,bge_pointwise,500,443,330,370,238,238,0.5372460496613995,0.7212121212121212,0.74,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_b,__equal_dataset_macro__,laya_pointwise,500,443,330,370,120,120,0.2708803611738149,0.36363636363636365,0.74,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_b,__equal_dataset_macro__,clef_pointwise,500,443,330,370,136,136,0.30699774266365687,0.4121212121212121,0.74,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_b,__equal_dataset_macro__,clef_joint,500,443,330,370,202,202,0.45598194130925507,0.6121212121212121,0.74,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_b,__equal_dataset_macro__,gte,500,443,330,370,251,251,0.5665914221218962,0.7606060606060606,0.74,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_b,__equal_dataset_macro__,minilm,500,443,330,370,241,241,0.5440180586907449,0.7303030303030303,0.74,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_b,__equal_dataset_macro__,jina35,500,443,330,370,263,263,0.5936794582392777,0.796969696969697,0.74,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_b,__equal_dataset_macro__,nimble,500,443,330,370,271,271,0.6117381489841986,0.8212121212121212,0.74,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_b,__equal_dataset_macro__,intern_decision,0,0,0,0,0,0,,,,500,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_b,__equal_dataset_macro__,pplx_decider,500,443,330,370,304,304,0.6862302483069977,0.9212121212121213,0.74,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_b,__equal_dataset_macro__,qwen06,500,443,330,370,233,233,0.5259593679458239,0.706060606060606,0.74,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_b,__equal_dataset_macro__,qwen4,500,443,330,370,205,205,0.46275395033860045,0.6212121212121212,0.74,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate
+track_b,__equal_dataset_macro__,qwen_direct,500,443,330,370,244,244,0.5507900677200903,0.7393939393939394,0.74,0,equal-dataset macro of dataset-level complete-support proxies; not a pooled query estimate

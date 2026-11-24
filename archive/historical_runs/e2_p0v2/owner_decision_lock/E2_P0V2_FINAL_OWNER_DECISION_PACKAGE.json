@@ -1,0 +1,141 @@
+{
+  "confirmatory_n_readiness": "N_BLOCKED",
+  "decisions": {
+    "A_m1_primary_mechanism": {
+      "alternatives": [
+        "Do not run M1-B if native joint interface is not verified",
+        "Use an explicitly approved different decision checkpoint only after adapter audit"
+      ],
+      "approval_status": "PROPOSED",
+      "limitations": "Not a pure architecture ablation; native joint context and score semantics are not yet verified.",
+      "rationale": "Same checkpoint/objective and frozen candidates isolate shared candidate context as a model-policy difference.",
+      "recommendation": "Clef-Flash pointwise binary relevance vs Clef-Flash native joint binary relevance"
+    },
+    "B_selection_policy": {
+      "alternatives": [
+        "Report only the unconstrained policy if the global score contract fails",
+        "Retain historical Clef-G5 as reference only"
+      ],
+      "approval_status": "PROPOSED",
+      "limitations": "Historical quartet-normalized probabilities cannot be used; a verified global score vector is required.",
+      "rationale": "The same scores and partitions isolate selection policy.",
+      "recommendation": "Global Top-5 vs one-winner-per-authenticated-quartet Top-5 from one globally comparable score vector"
+    },
+    "C_conditional_evidence_gain": {
+      "alternatives": [
+        "Defer if native iterative readout is unavailable"
+      ],
+      "approval_status": "PROPOSED",
+      "limitations": "Gold-blind model estimate, not true utility; repeated physical work must be charged.",
+      "rationale": "Can probe mechanism without turning model output into gold marginal utility.",
+      "recommendation": "Exploratory secondary after interface and budget validation"
+    },
+    "D_confirmatory_h1": {
+      "alternatives": [
+        "Use Qwen3-VL-Reranker-2B only after explicit owner-approved substitution and adapter verification",
+        "Use a fully specified CAL-only selector if one model is not selected in advance"
+      ],
+      "approval_status": "PROPOSED_BLOCKED_ON_VERIFICATION",
+      "limitations": "Qwen3-Reranker-4B checkpoint/interface is not locally verified.",
+      "rationale": "Matches the requested replacement question while preserving pre-TEST selection.",
+      "recommendation": "Predeclare one decision-model configuration against Qwen3-Reranker-4B"
+    },
+    "E_noninferiority_epsilon": {
+      "alternatives": [
+        "Owner may choose a smaller margin such as 0.03 with application justification"
+      ],
+      "approval_status": "PROPOSED_NOT_APPROVED",
+      "limitations": "May be too loose or strict by use case; no margin is frozen.",
+      "rationale": "Five percentage points is interpretable and allows an explicit quality/efficiency tradeoff.",
+      "recommendation": "epsilon=0.05 absolute complete-support probability"
+    },
+    "F_power_multiplicity": {
+      "alternatives": [
+        "Owner may define another prespecified family/correction before TEST"
+      ],
+      "approval_status": "BLOCKED_ON_OWNER_VALUES",
+      "limitations": "Confirmatory power is not estimable until epsilon, holdout n, alpha, power and paired discordance are supplied.",
+      "rationale": "Preserves pairing and controls multiplicity without pooling incompatible datasets.",
+      "recommendation": "Query-paired bootstrap; one primary H1 family; Holm for approved secondary family"
+    },
+    "G_fresh_holdout": {
+      "alternatives": [
+        "Official separately versioned HotpotQA/MuSiQue/2Wiki release with protected labels"
+      ],
+      "approval_status": "PROPOSED_CANDIDATE_BLOCKED",
+      "limitations": "Release identity, document overlap, near duplicates, annotation integrity and sealing are unverified.",
+      "rationale": "Best local unused-looking candidate without opening fresh labels.",
+      "recommendation": "Candidate: local 2Wiki test release, metadata-only until release and independence checks pass"
+    },
+    "H_serving": {
+      "alternatives": [
+        "Owner may set a different numeric p95 and arrival-rate regime"
+      ],
+      "approval_status": "PROPOSED_NOT_APPROVED",
+      "limitations": "No load test or plausibility measurement was authorized; this is not a performance claim.",
+      "rationale": "A concrete initial boundary is needed for later capacity testing.",
+      "recommendation": "Candidate 1.0 s p95 warm Top-5 selection SLO"
+    },
+    "I_model_roster": {
+      "alternatives": [
+        "Defer models lacking official checkpoint/interface evidence"
+      ],
+      "approval_status": "PARTIAL_EVIDENCE",
+      "limitations": "Most roster entries require external checkpoint, license, revision, native interface and VRAM verification.",
+      "rationale": "Preserves difficult checkpoints without fabricating capabilities.",
+      "recommendation": "Retain full declared roster; prioritize already evidenced Clef-Flash for M1"
+    },
+    "J_gpu_authorization": {
+      "alternatives": [
+        "Owner may authorize another isolated equivalent resource"
+      ],
+      "approval_status": "BLOCKED_NOT_AUTHORIZED",
+      "limitations": "No device was reserved or used in this phase.",
+      "rationale": "M1 pointwise/joint comparison requires controlled hardware and physical-work attribution.",
+      "recommendation": "One exclusive A100 80GB for future bounded M1, with telemetry and abort gates"
+    }
+  },
+  "execution_scope": {
+    "checkpoint_loads": 0,
+    "cuda_visible_devices": "",
+    "fresh_holdout_gold_opened": 0,
+    "gpu_calls": 0,
+    "jev_calls": 0,
+    "model_calls": 0,
+    "network_calls": 0,
+    "paid_api_calls": 0,
+    "qdrant_calls": 0
+  },
+  "freeze_marker": "P0v2_NOT_FROZEN",
+  "m1_readiness": "M1_PARTIAL_BLOCKED",
+  "owner_scope": {
+    "does_not_authorize": [
+      "GPU inference",
+      "checkpoint loading",
+      "model serving",
+      "network",
+      "Qdrant",
+      "dataset download",
+      "fresh holdout gold access",
+      "M1 execution",
+      "N",
+      "S/P",
+      "Jev",
+      "paid APIs"
+    ],
+    "meaning": "The current task authorizes only offline package construction and CPU validation.",
+    "status": "APPROVED"
+  },
+  "preserved_m0_findings": {
+    "quartet_normalized_scores_globally_comparable": false,
+    "track_a_clef_g5_observed": 689,
+    "track_a_conditional_n": 1490,
+    "track_a_quota_oracle": 1196,
+    "track_b_clef_g5_observed": 206,
+    "track_b_conditional_n": 330,
+    "track_b_quota_oracle": 318
+  },
+  "schema": "decisionrag-e2-p0v2-final-owner-decision-package-v1",
+  "status": "E2_P0V2_PARTIAL_BLOCKED",
+  "stop": true
+}

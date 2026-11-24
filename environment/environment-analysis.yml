@@ -1,0 +1,4 @@
+name: decisionrag-analysis
+channels: []
+dependencies:
+  - python=3.12.3

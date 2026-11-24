@@ -1,0 +1,25 @@
+{
+  "bright_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+  "e11_budget_manifest_sha256": "c8d9299711a0c64b94ccd139e4f6329dc8779eb267f534b90c085e3d2d3f9a94",
+  "gpu_snapshot": {
+    "error": "Command '['nvidia-smi', '--query-gpu=index,uuid,memory.used,memory.free,utilization.gpu', '--format=csv,noheader,nounits']' returned non-zero exit status 9.",
+    "error_class": "CalledProcessError",
+    "status": "UNOBSERVABLE"
+  },
+  "historical_jina_trace_sha256": "5418cc21b56d04536d602c7dcb436fb8686b78f3003bf25be568d4e76f1dbab1",
+  "input_manifest_sha256": "b31bac68707eeec451e9c5d67818d4437f2fe8926a44d78ae7dce7d98fa4ecb9",
+  "jina_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+  "labels_joined": false,
+  "native_inference_executed": false,
+  "population_counts": {
+    "candidate_id_exact": 1356,
+    "historical_fail": 32,
+    "historical_pass": 1352,
+    "historical_request_hash_exact": 1352,
+    "native_replay_eligible": 1352,
+    "population": 1384
+  },
+  "protected_holdouts_accessed": false,
+  "repair_reason": "v3.6 used documents; historical Jina uses candidate_texts",
+  "status": "PASS"
+}

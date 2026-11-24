@@ -1,0 +1,110 @@
+{
+  "before": {
+    "gpu_index": 3,
+    "memory_free_mib": 81149,
+    "memory_used_mib": 4,
+    "utilization_percent": 0
+  },
+  "gpu_index": 3,
+  "labels_joined": false,
+  "model_load_ms": 6127.432,
+  "model_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+  "n_queries": 1384,
+  "orders": [
+    "original",
+    "reversed",
+    "perm_seed_1",
+    "perm_seed_2",
+    "perm_seed_3",
+    "perm_seed_4",
+    "perm_seed_5"
+  ],
+  "policies": [
+    "jina_two_stage_full",
+    "jina_two_stage_pplxtext",
+    "jina_pplx_budget"
+  ],
+  "raw_files": [
+    {
+      "failed": 0,
+      "labels_joined": false,
+      "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_full__original.jsonl",
+      "records": 1384,
+      "sha256": "b779a67540307b64fa3eebe4f868cd79120618221e3a59b088c56b7d137a8de3",
+      "valid": 1384
+    },
+    {
+      "failed": 0,
+      "labels_joined": false,
+      "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_full__reversed.jsonl",
+      "records": 1384,
+      "sha256": "37afc330a3498abbe58ab7b003064053a0107a71ef8e4868ab4582f019a19769",
+      "valid": 1384
+    },
+    {
+      "failed": 0,
+      "labels_joined": false,
+      "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_full__perm_seed_1.jsonl",
+      "records": 1384,
+      "sha256": "c23c4059f8f3b755d3f038fca0255a032b16d9c465367597086c464251186851",
+      "valid": 1384
+    },
+    {
+      "failed": 0,
+      "labels_joined": false,
+      "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_full__perm_seed_2.jsonl",
+      "records": 1384,
+      "sha256": "2f4c8a145019eef525a8c69936eb2561df46d8b26c482374fb028a4101ca8417",
+      "valid": 1384
+    },
+    {
+      "failed": 0,
+      "labels_joined": false,
+      "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_full__perm_seed_3.jsonl",
+      "records": 1384,
+      "sha256": "1a971f890e85e334d29b007a9f36fcee1ccc3996784a5e472e9e431e8312233b",
+      "valid": 1384
+    },
+    {
+      "failed": 0,
+      "labels_joined": false,
+      "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_full__perm_seed_4.jsonl",
+      "records": 1384,
+      "sha256": "79c9ea43779f5d7d9956e08c850b4249cb7b136f35b533b9c74a36c134452383",
+      "valid": 1384
+    },
+    {
+      "failed": 0,
+      "labels_joined": false,
+      "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_full__perm_seed_5.jsonl",
+      "records": 1384,
+      "sha256": "d939e7db2f0cbdd82576ef8aff3814cca3366fe312c1acb4214e3e9fbcba987a",
+      "valid": 1384
+    },
+    {
+      "failed": 4,
+      "labels_joined": false,
+      "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_pplxtext__original.jsonl",
+      "records": 1384,
+      "sha256": "768de37a7f770fae566e25ae46f3c06248b64efb363227ab18179c8bdc5839e7",
+      "valid": 1380
+    },
+    {
+      "failed": 4,
+      "labels_joined": false,
+      "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_pplxtext__reversed.jsonl",
+      "records": 1384,
+      "sha256": "5bce6fbf5033c25b73449cff897ac99fcdf700b84c4c5ab377c4ce43c6a2d15e",
+      "valid": 1380
+    },
+    {
+      "failed": 4,
+      "labels_joined": false,
+      "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_pplxtext__perm_seed_1.jsonl",
+      "records": 1384,
+      "sha256": "7a700c11cc4f8d1364aa9aa435eb11f523b757567a5a6536e0c2ec7ed31fe895",
+      "valid": 1380
+    }
+  ],
+  "status": "RUNNING"
+}

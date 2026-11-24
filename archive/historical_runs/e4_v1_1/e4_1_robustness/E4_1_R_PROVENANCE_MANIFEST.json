@@ -1,0 +1,18 @@
+{
+  "artifact_sha256": {
+    "e4_1_robustness/E4_1_R_BOOTSTRAP_SENSITIVITY.csv": "d803839daeaa2bc4b15ceaaaf74f39eb87f4a85f26e17a3a7a4af50c26bb4833",
+    "e4_1_robustness/E4_1_R_FINAL_REPORT.md": "846779f06a18a25594f6107449e954bed8fdcb4cbe19a8da6ed371f53cd41916",
+    "e4_1_robustness/E4_1_R_PLACEBO_AND_ORACLE_AUDIT.md": "e46209e221389244da54f7db0c2f17977a62108a708bce4315bd6a8b6b1baee1",
+    "e4_1_robustness/E4_1_R_SOURCE_GROUP_DISTRIBUTION.csv": "604a3175eae4973fbbb4bdb86ad22fdecd7776803176128654a71014b264ccda"
+  },
+  "input_sha256": {
+    "results/non_jev/v2/e3_v1/e3_d_external/E3_D_PROVENANCE_MANIFEST.json": "9dbe4c24206d234330f658a7b0e976f6d63eeed2be77032212212d2aa44b5c28",
+    "results/non_jev/v2/e4_v1_1/e4_0_foundation/E4_0_COHORT_AND_ARMS_MANIFEST.json": "652b3430a94c9e9d7c607ab416442f4e2404b03e67babd4d384d6bf69f55624c",
+    "results/non_jev/v2/e4_v1_1/e4_1_interventions/E4_1_ARM_CONSTRUCTION.jsonl": "54fa8b999c0a15cc9ccd41caab77e674c24b20257f4f6e6edd18026e7432a428",
+    "results/non_jev/v2/e4_v1_1/e4_1_interventions/E4_1_NATIVE_READER_RAW.jsonl": "17a3f4c17dfc6b64675828b4fb61e0d93dd6c6f8452f4e0b796f6079fd1a57cc"
+  },
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "reserved_outcomes_accessed": false,
+  "status": "E4_1_ROBUSTNESS_ACCEPTED_WITH_LIMITATIONS"
+}

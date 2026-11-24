@@ -1,0 +1,8 @@
+cohort,contrast,k,population,matched_n,joint_success,pointwise_success,wins,losses,ties,difference,ci95_low,ci95_high,seed,reps
+representative,clef_joint_minus_pointwise_cssr_u,10,all_k_valid,300,99,109,24,34,242,-0.03333333333333333,-0.08333333333333333,0.016666666666666666,731,5000
+representative,clef_joint_minus_pointwise_cssr_c,10,common_k10_feasible,206,99,109,24,34,148,-0.04854368932038835,-0.11650485436893204,0.019417475728155338,731,5000
+representative,clef_joint_minus_pointwise_cssr_u,20,all_k_valid,300,79,92,27,40,233,-0.043333333333333335,-0.1,0.01,731,5000
+diagnostic,clef_joint_minus_pointwise_cssr_u,10,all_k_valid,80,16,16,6,6,68,0.0,-0.0875,0.0875,731,5000
+diagnostic,clef_joint_minus_pointwise_cssr_c,10,common_k10_feasible,47,16,16,6,6,35,0.0,-0.14893617021276595,0.14893617021276595,731,5000
+diagnostic,clef_joint_minus_pointwise_cssr_u,20,all_k_valid,80,13,14,9,10,61,-0.0125,-0.125,0.0875,731,5000
+representative,difference_in_differences_D20_minus_D10,10_to_20,identical_k10_feasible,206,,,16,18,172,0.0,-0.05825242718446602,0.05825242718446602,731,5000

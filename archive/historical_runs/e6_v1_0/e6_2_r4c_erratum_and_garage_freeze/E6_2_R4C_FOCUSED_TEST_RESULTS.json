@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "component_disjoint_partitions": true,
+    "deterministic_partition": true,
+    "garage_annotation_alignment": true,
+    "garage_k15_eligibility": true,
+    "input_label_isolation": true,
+    "no_inference_in_r4c": true,
+    "no_jev_or_paid_calls": true,
+    "outcome_blind_allocation": true,
+    "reserved_raw_content_not_loaded": true,
+    "scifact_254_of_277": true,
+    "scifact_primary_reproduced": true,
+    "scifact_top20_membership_logic": true,
+    "transitive_components": true
+  },
+  "focused_passed": 13,
+  "focused_total": 13,
+  "full_regression": "RUN_SEPARATELY",
+  "gpu_calls": 0,
+  "model_calls": 0,
+  "quality_scores_computed": false
+}

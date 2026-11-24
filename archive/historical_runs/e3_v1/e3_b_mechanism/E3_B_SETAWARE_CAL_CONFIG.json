@@ -1,0 +1,68 @@
+{
+  "cal_source": "authenticated E2-N2 BGE CAL traces; no new inference",
+  "grid": [
+    {
+      "cal_cssr": 0.5909090909090909,
+      "cal_n": 22,
+      "lambda": 0.5,
+      "mode": "mmr"
+    },
+    {
+      "cal_cssr": 0.7727272727272727,
+      "cal_n": 22,
+      "lambda": 0.5,
+      "mode": "coverage"
+    },
+    {
+      "cal_cssr": 0.7727272727272727,
+      "cal_n": 22,
+      "lambda": 0.7,
+      "mode": "mmr"
+    },
+    {
+      "cal_cssr": 0.7727272727272727,
+      "cal_n": 22,
+      "lambda": 0.7,
+      "mode": "coverage"
+    },
+    {
+      "cal_cssr": 0.7727272727272727,
+      "cal_n": 22,
+      "lambda": 0.85,
+      "mode": "mmr"
+    },
+    {
+      "cal_cssr": 0.7727272727272727,
+      "cal_n": 22,
+      "lambda": 0.85,
+      "mode": "coverage"
+    },
+    {
+      "cal_cssr": 0.7727272727272727,
+      "cal_n": 22,
+      "lambda": 1.0,
+      "mode": "mmr"
+    },
+    {
+      "cal_cssr": 0.7727272727272727,
+      "cal_n": 22,
+      "lambda": 1.0,
+      "mode": "coverage"
+    }
+  ],
+  "selected": {
+    "coverage": {
+      "cal_cssr": 0.7727272727272727,
+      "cal_n": 22,
+      "lambda": 1.0,
+      "mode": "coverage"
+    },
+    "mmr": {
+      "cal_cssr": 0.7727272727272727,
+      "cal_n": 22,
+      "lambda": 1.0,
+      "mode": "mmr"
+    }
+  },
+  "selection_metric": "CAL conditional complete-support CSSR; ties choose larger lambda"
+}

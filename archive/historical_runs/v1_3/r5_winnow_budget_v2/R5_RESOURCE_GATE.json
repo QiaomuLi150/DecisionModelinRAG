@@ -1,0 +1,43 @@
+{
+  "status": "BLOCKED_DEDICATED_GPU_UNAVAILABLE",
+  "required": "one dedicated A100-SXM4-80GB with no resident process before and after",
+  "observed_snapshot": {
+    "gpu0": {
+      "memory_used_mib": 33827,
+      "utilization_percent": 100
+    },
+    "gpu1": {
+      "memory_used_mib": 27277,
+      "utilization_percent": 100
+    },
+    "gpu2": {
+      "memory_used_mib": 68147,
+      "utilization_percent": 98
+    },
+    "gpu3": {
+      "memory_used_mib": 14107,
+      "utilization_percent": 100,
+      "process_attribution": "python3 process not owned by this run"
+    },
+    "gpu4": {
+      "memory_used_mib": 56799,
+      "utilization_percent": 0,
+      "process_attribution": "resident VLLM services"
+    },
+    "gpu5": {
+      "memory_used_mib": 26855,
+      "utilization_percent": 100
+    },
+    "gpu6": {
+      "memory_used_mib": 26855,
+      "utilization_percent": 100
+    },
+    "gpu7": {
+      "memory_used_mib": 79431,
+      "utilization_percent": 100
+    }
+  },
+  "action": "No process was terminated, evicted, or shared for the R5 timing experiment.",
+  "model_calls": 0,
+  "labels_joined": false
+}

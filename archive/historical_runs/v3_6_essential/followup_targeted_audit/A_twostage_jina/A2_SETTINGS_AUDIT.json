@@ -1,0 +1,20 @@
+{
+  "existing_fp32_batch1_reused": true,
+  "existing_fp32_run1_meta": "results/v3_6_essential/followup_v2_correction/C2_jina_diagnostic/raw/jina_fp32_batch1_run1.meta.json",
+  "existing_fp32_run1_ndcg5": 0.17636409942816017,
+  "existing_fp32_run2_meta": "results/v3_6_essential/followup_v2_correction/C2_jina_diagnostic/raw/jina_fp32_batch1_run2.meta.json",
+  "existing_fp32_run2_ndcg5": 0.17636409942816017,
+  "fp32_run1_batch_size": 1,
+  "fp32_run1_dtype": "float32",
+  "fp32_run1_rows": 1384,
+  "fp32_run1_valid": 1380,
+  "fp32_run2_rows": 1384,
+  "fp32_run2_valid": 1380,
+  "historical_v15_ndcg5": 0.17897033929762382,
+  "historical_v16_d1_ndcg5": 0.18554663238412347,
+  "setting_explanation": "NOT_IDENTIFIABLE_FROM_RECORDED_EVIDENCE; neither historical setting receipt is complete and the existing fp32 batch-1 diagnostic does not reproduce either historical value.",
+  "v15_reason": "PROTOCOL_V2 records native interface and batching allowance but not tokenizer, dtype, batch size, attention implementation, or library versions used for the frozen row.",
+  "v15_settings_recoverable": false,
+  "v18_reason": "D1 PROTOCOL records the native interface and quality batching allowance but not the actual tokenizer, dtype, batch size, attention implementation, or library versions used for the row.",
+  "v18_settings_recoverable": false
+}

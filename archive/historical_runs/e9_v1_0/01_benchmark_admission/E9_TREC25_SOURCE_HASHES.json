@@ -1,0 +1,5 @@
+{
+  "results/non_jev/v2/e9_v1_0/01_benchmark_admission/2025-rag-qrels.txt": "c4b2c4c305a4fa75dba0c2993936ef071520a570753ee5552cde6b9f75f4771c",
+  "results/non_jev/v2/e9_v1_0/01_benchmark_admission/trec25_narratives_final.json": "807ba59ed85da320de82884a065d865349b207a75af3ba8a4dc0b2958b090668",
+  "results/non_jev/v2/e9_v1_0/01_benchmark_admission/trec25_rankqwen3_32b_top100.jsonl": "6f2b8f63504a199601a8266711db1d4ef09d1e537cf5d3695eb97af45eef8f49"
+}

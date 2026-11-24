@@ -1,0 +1,158 @@
+{
+  "created_utc": "2026-10-15T16:17:14.183360+00:00",
+  "historical_authentication": {
+    "expected_original_frozen_slate_contract_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+    "historical_inputs": [
+      {
+        "bytes": 65651,
+        "path": "results/non_jev/v2/e6_v1_0/e6_3_r1_paired_reader_inference/E6_3_R1_COHORT_FREEZE_MANIFEST.json",
+        "sha256": "142e749b1d71ce0605f40370fd1762ed9ed2823262fcaaee5d65b61d5f778a8c"
+      },
+      {
+        "bytes": 1645542,
+        "path": "results/non_jev/v2/e6_v1_0/e6_3_r1_paired_reader_inference/E6_3_R1_READER_PARSED_OUTPUTS.jsonl",
+        "sha256": "2a946bb7121bc3a391b8ca8d10321532ecb0c37e1448dcd38f090ed98f051a50"
+      },
+      {
+        "bytes": 24894093,
+        "path": "results/non_jev/v2/e6_v1_0/e6_3_r1_paired_reader_inference/E6_3_R1_NATIVE_EVIDENCE_INPUTS.jsonl",
+        "sha256": "d48ef7db4d037a5153cde2c95e3a1479fa1ae1df54f175b9587fbb1d62895a72"
+      },
+      {
+        "bytes": 400,
+        "path": "results/non_jev/v2/e6_v1_0/e6_3_r1_paired_reader_inference/E6_3_R1_R2_RELEASE_GATE.json",
+        "sha256": "726e3baa915d03712a0ce80766dfeb0378fc0f5e7a9b125a4c30253d3d972f51"
+      },
+      {
+        "bytes": 985,
+        "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_R4_INFERENCE_RELEASE_GATE.json",
+        "sha256": "17459609b9ca4b0ea11a20187d0cfeb613ba392b4fe09292d26e192b4ad7bcec"
+      },
+      {
+        "bytes": 2764662,
+        "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_EXPLORATORY_TOP20_SLATES.jsonl",
+        "sha256": "b9b2a3c3971da72f7e7aff6066c381c681f0ff6f7b4592d85b480e12cd449333"
+      },
+      {
+        "bytes": 21004525,
+        "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_EXPLORATORY_INPUTS.jsonl",
+        "sha256": "cbe937a1ff3425cc55c937ef32cfd99c470ec09374dfa72b855b79c4fb4935b7"
+      },
+      {
+        "bytes": 126179,
+        "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_PARTITION_MANIFEST.json",
+        "sha256": "98c81a492c45e1e69b56101b721c5f852e75d10c0cc4bc3fdc8774e2a1c309c8"
+      },
+      {
+        "bytes": 9228,
+        "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_PREINFERENCE_MANIFEST.json",
+        "sha256": "2c36b5f204a77e55e1f877e9382edffc8a9561e08b8334ddf78bfa519ee34939"
+      },
+      {
+        "bytes": 1650,
+        "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_PRIMARY_STATISTICS.json",
+        "sha256": "0bdf1b9ec90385cd7cccc9c57c541b26c7cabc02aa8a837d739753677193dbbc"
+      },
+      {
+        "bytes": 14838430,
+        "path": "results/non_jev/v2/e6_v1_0/e6_2_r5_garage_quality_evaluation/E6_2_R5_PER_SAMPLE_RESULTS.csv",
+        "sha256": "0c3874629736fd206300c036f96ceed7c9491b41cc782c626db64157d5cef98c"
+      }
+    ],
+    "jev_calls": 0,
+    "paid_api_calls": 0,
+    "r1_cohort_counts": {
+      "disagreement_diagnostic": 60,
+      "no_positive_diagnostic": 64,
+      "representative_primary": 200
+    },
+    "r1_gate": {
+      "answer_scoring_started": false,
+      "failures": 0,
+      "gate": "E6_3_R1_READER_OUTPUTS_FROZEN_READY",
+      "jev_calls": 0,
+      "logical_requests": 1565,
+      "paid_api_calls": 0,
+      "physical_requests": 1565,
+      "reader_outputs_frozen": true,
+      "relevance_labels_loaded_for_inference": false,
+      "reserved_accessed": false,
+      "schema": "E6-3-R1-R2-GATE-V1"
+    },
+    "r1_parsed_rows": 1565,
+    "r1_union_count": 313,
+    "r4c_gate": {
+      "endpoint_frozen": true,
+      "focused_tests": "13/13",
+      "full_regression": "245/245",
+      "garage": {
+        "component_count": 1701,
+        "eligible_exact_k15": 2329,
+        "exploratory_inputs": 1397,
+        "full_rows": 2366,
+        "partition_counts": {
+          "CAL": 466,
+          "EXPLORATORY": 1397,
+          "RESERVED": 466
+        },
+        "reservation_sealed": false,
+        "source_identity_established": false
+      },
+      "gate": "E6_2_R4C_GARAGE_READY_WITH_INDEPENDENCE_LIMITATIONS",
+      "gpu_used": false,
+      "historical_artifacts_preserved": true,
+      "jev_calls": 0,
+      "native_contracts_prepared": true,
+      "native_inference_calls": 0,
+      "next_action": "separate owner authorization required for explicitly exploratory GaRAGe inference; no R5 start",
+      "paid_api_calls": 0,
+      "quality_metrics_computed": false,
+      "schema": "E6-2-R4C-RELEASE-GATE-V1",
+      "scifact_corrected_feasible": {
+        "denominator": 277,
+        "n": 254
+      },
+      "scifact_erratum": "SCIFACT_ERRATUM_VERIFIED"
+    },
+    "reserved_access": "not performed by this script",
+    "scifact_slate_file_sha256": "b9b2a3c3971da72f7e7aff6066c381c681f0ff6f7b4592d85b480e12cd449333",
+    "slate_contract_note": "The expected value is the authenticated protocol/slate contract hash; the JSONL file hash is recorded separately."
+  },
+  "holdout_access": false,
+  "jev_calls": 0,
+  "model_revisions": {
+    "amos_1_small_2b": "09ba3e9d8f506cfcb96ea130845d5d76d9d92028",
+    "bge_reranker_v2_m3": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+    "jina_v3_5": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+    "liquid_d1_3b": "051bcc464b01b9f92942b364d9586b0ef5912432",
+    "pplx_decider": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+    "qwen3_reranker_0_6b": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+    "qwen3_reranker_4b": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+    "startlux_decision_4b": "9c0a32e9809d6a3f612434dd0bce150295dcc274"
+  },
+  "model_roster": [
+    "pplx_decider",
+    "liquid_d1_3b",
+    "startlux_decision_4b",
+    "amos_1_small_2b",
+    "jina_v3_5",
+    "qwen3_reranker_4b",
+    "bge_reranker_v2_m3",
+    "qwen3_reranker_0_6b"
+  ],
+  "paid_api_calls": 0,
+  "protocol": {
+    "bytes": 3165,
+    "path": "results/non_jev/v2/e6_v1_0/e6_3_integrated_completion/E6_3_INTEGRATED_PREEXECUTION_PROTOCOL.md",
+    "sha256": "69987f7c929a9d66cd553926d1dd8b6b2476b447d585b2d2a561039b70215200"
+  },
+  "reader_calls_authorized": false,
+  "schema": "E6-3-PREEXECUTION-RECEIPT-V1",
+  "serving_calls_authorized": true,
+  "serving_sample_manifest": {
+    "bytes": 6974,
+    "path": "results/non_jev/v2/e6_v1_0/e6_3_integrated_completion/matched_serving/E6_3_SERVING_SAMPLE_MANIFEST.json",
+    "sha256": "d08e4fae279047db954bed3f8baf7801ea656e4a3891ac1af71402f4c904b46a"
+  },
+  "status": "FROZEN"
+}

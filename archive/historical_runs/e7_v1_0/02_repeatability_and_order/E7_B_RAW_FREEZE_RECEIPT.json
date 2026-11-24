@@ -1,0 +1,12 @@
+{
+  "attempts": 1600,
+  "created_utc": "2026-10-15T21:08:24.208144+00:00",
+  "failures": 870,
+  "input_manifest_sha256": "3e2a31e047f7365280710f2d6f84bb12e66ea8ee657ef79b6330cb41e7c765c5",
+  "jev_calls": 0,
+  "labels_joined": false,
+  "paid_api_calls": 0,
+  "raw_output_sha256": "4fc8b4465f721bef17e8fbfd295286c5218ea17a68cb4c6c7f1a55dffbe3c811",
+  "schema": "DECISIONRAG-E7-B-RAW-FREEZE-V1",
+  "valid": 730
+}

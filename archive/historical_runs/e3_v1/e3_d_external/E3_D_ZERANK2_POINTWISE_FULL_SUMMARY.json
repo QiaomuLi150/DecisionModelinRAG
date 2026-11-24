@@ -1,0 +1,9 @@
+{
+  "errors": 0,
+  "gpu_id": 2,
+  "physical_forward_calls": 3027,
+  "policy": "zerank2_pointwise",
+  "requested": 1009,
+  "stage": "full",
+  "valid": 1009
+}

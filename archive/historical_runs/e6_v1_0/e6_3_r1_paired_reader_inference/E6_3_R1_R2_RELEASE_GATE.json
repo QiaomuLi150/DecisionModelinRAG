@@ -1,0 +1,13 @@
+{
+  "answer_scoring_started": false,
+  "failures": 0,
+  "gate": "E6_3_R1_READER_OUTPUTS_FROZEN_READY",
+  "jev_calls": 0,
+  "logical_requests": 1565,
+  "paid_api_calls": 0,
+  "physical_requests": 1565,
+  "reader_outputs_frozen": true,
+  "relevance_labels_loaded_for_inference": false,
+  "reserved_accessed": false,
+  "schema": "E6-3-R1-R2-GATE-V1"
+}

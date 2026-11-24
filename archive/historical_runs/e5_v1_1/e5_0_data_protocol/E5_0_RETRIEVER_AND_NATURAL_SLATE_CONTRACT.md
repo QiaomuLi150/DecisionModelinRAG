@@ -1,0 +1,3 @@
+# E5-0 Retriever and Natural Slate Contract
+
+Natural slates use the authenticated historical design: lowercase-regex BM25 (k1=1.2, b=0.75, Top-100) plus Qwen/Qwen3-VL-Embedding-2B dense Top-100, combined with RRF(k=60), stable canonical passage-ID tie breaking, Top-20 output, and duplicate suppression. New-data indexing uses a local exact cosine matrix to avoid mutating production Qdrant; this is the same dense ranking contract but not an ANN/Qdrant timing result. Only CAL and E5_EXPLORATORY corpus/query records are processed. No qrels, supports, answers, reranker scores or reader outputs enter requests.

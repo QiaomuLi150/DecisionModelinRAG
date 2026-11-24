@@ -1,0 +1,17 @@
+{
+  "component_assignment_conflicts": [],
+  "exploratory_query_count": 2511,
+  "historical_pending_audit_present": true,
+  "integrity_status": "PASS",
+  "interpretation": "Metadata partition is structurally disjoint and outcome-free, but no immutable reservation-before-analysis timestamp/commit was found; do not call this an independent confirmatory holdout.",
+  "manifest_status": "HOLDOUT_RESERVED_METADATA_ONLY",
+  "reservation_before_analysis_timestamp": "NOT_VERIFIED",
+  "reserved_answers_opened": false,
+  "reserved_content_accessed_by_this_audit": false,
+  "reserved_exploratory_overlap": 0,
+  "reserved_model_outcomes_opened": false,
+  "reserved_query_count": 195,
+  "reserved_used_by_e3_d": 0,
+  "source_document_disjointness": "STRUCTURALLY_REPORTED_PASS_IN_EXISTING_GRAPH_AUDIT",
+  "status": "E3_0_QUERY_HELD_OUT_ONLY"
+}

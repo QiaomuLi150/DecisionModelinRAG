@@ -1,0 +1,208 @@
+{
+  "artifact_sha256": {
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_AUTHENTICITY_AND_INTEGRITY_AUDIT.md": "74274e81506339b43dd8b24fee64514c287297eb93b0949c2736554e2f5c3d75",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_CAL_VALIDATION_AND_FROZEN_CONFIG.json": "0f43c127f0c10853a8b4c641a7d2099a49ab4af99790d9878abb6abedd671953",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_CONTEXT_FEASIBILITY_AND_FAILURES.csv": "c53f42e6ae9b78cea7e881954ffdfd29271745890aba58f1e24e3c604ccf87ec",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_DATASET_QUALITY_SUMMARY.csv": "e3e3349069aa4622890db4ad32bdebb013d04f5c928c103ce3580a7bed34ee6f",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_FINAL_SCIENTIFIC_REPORT.md": "b8946fd5cbe5d1285b7e308072594cb5c4efa8bcd89f7d9f8f458a0a33076858",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_FROZEN_EXPLORATORY_PROTOCOL.json": "f749663d1f7615b79999836f7d830043937f7511dc1f3155e7d1571b343d2bfa",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_GPU_AVAILABILITY_AND_ISOLATION_AUDIT.md": "c92b32aa0b367879b0ee4cdd83b3808b1271e854b87cda4b2d6b6916f0d60160",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_HOLM_EXPLORATORY_SENSITIVITY.csv": "cbd95769ac6b702c35a58d1899949934af749b76cf23cc6e1ee34f364622e286",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_MODEL_CAPABILITY_AND_LICENSE_MATRIX.csv": "198eb4d4cb0c159b9e38b1c2055ac50440c2354adb26781ddd4fd0ae903579ff",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_NATIVE_SCORING_CONTRACTS.md": "26b00396cfa6e7be15e52279f1dab1ecd746b06ac489567622e550e6daf0a566",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_NATIVE_SMOKE_REPORT.md": "56026f2b881e1a29a7a81cc81a084605374f2e07a24fb38177517abee098464a",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_OWNER_REVIEW_GATE.md": "ffb31e6f446e32c258132c7a3c4ca1b2a40dd89c390a06e14b6ca1ffe77a86db",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_PER_QUERY_DISAGREEMENT_AND_STRATA.csv": "ac211823ef7ad370d711b220eb3bff7b6be358a701574540adb352d6b391b171",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_PRIMARY_PAIRED_STATISTICS.csv": "7541d5c0f011d28f55bdaf47ceb86025958151e9ffcaa10be09c3100e1a4401a",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_RAW_NATIVE_SCORES.jsonl": "e346289fc9bc0dee0363319d931d5747f3abcf6513acde4b64c30443c1280a7b",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_SELECTED_TOP5.jsonl": "953b9f967369081adad9732ee755f0aa90badb572967e1491aa9e2abe35f38ea",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_SELECTOR_LATENCY_AND_RESOURCE_REPORT.md": "5936c872805974f8bca8bff8619e400ba7088e01265578e9771195b69f8e9ed2",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_SELECTOR_LATENCY_RAW.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/non_jev/v2/e3_v1/e3_c_models/E3_C_SOURCE_AND_MODEL_AUDIT.md": "b8e50859fe48388ad2371e51c1325874a99b44da748152f421e7fa236db28bf5"
+  },
+  "c0": "C0_PASS",
+  "c1": {
+    "liquid": "VALID_WITH_EXPLORATORY_CROSS_HEAD_LIMITATION",
+    "zerank2": "VALID_RAW_LOGIT"
+  },
+  "c2": {
+    "cal": [
+      {
+        "context_infeasible": 0,
+        "errors": 0,
+        "model": "liquid_d1_3b",
+        "n": 30,
+        "physical_forwards": 30,
+        "valid": 30
+      },
+      {
+        "context_infeasible": 0,
+        "errors": 0,
+        "model": "zerank_2",
+        "n": 30,
+        "physical_forwards": 90,
+        "valid": 30
+      }
+    ],
+    "smoke": [
+      {
+        "context_infeasible": 0,
+        "errors": 0,
+        "model": "liquid_d1_3b",
+        "n": 12,
+        "physical_forwards": 12,
+        "valid": 12
+      },
+      {
+        "context_infeasible": 0,
+        "errors": 0,
+        "model": "zerank_2",
+        "n": 12,
+        "physical_forwards": 36,
+        "valid": 12
+      }
+    ]
+  },
+  "c3": {
+    "logical_rows_per_model": 4267,
+    "physical_full": {
+      "liquid_d1_3b": 4267,
+      "zerank_2": 12801
+    },
+    "valid_full": {
+      "liquid_d1_3b": 4267,
+      "zerank_2": 4267
+    }
+  },
+  "c5": "TIMING_BLOCKED_SHARED_GPU",
+  "e3_0_status": "E3_0_HOLDOUT_RESERVATION_PENDING_METADATA",
+  "gpu_id": 1,
+  "gpu_preflight": {
+    "approved": [
+      {
+        "index": 0,
+        "memory_free_mib": 81147,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 6,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 1,
+        "memory_free_mib": 80577,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 575,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 2,
+        "memory_free_mib": 26367,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 54785,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 4,
+        "memory_free_mib": 24570,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 56583,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      }
+    ],
+    "devices": [
+      {
+        "index": 0,
+        "memory_free_mib": 81147,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 6,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 1,
+        "memory_free_mib": 80577,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 575,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 2,
+        "memory_free_mib": 26367,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 54785,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 3,
+        "memory_free_mib": 20689,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 60463,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 4,
+        "memory_free_mib": 24570,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 56583,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 5,
+        "memory_free_mib": 67630,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 13523,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 47,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 6,
+        "memory_free_mib": 6293,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 74859,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 99,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 7,
+        "memory_free_mib": 28930,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 52223,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      }
+    ],
+    "status": "ok"
+  },
+  "holdout_access": false,
+  "jev_calls": 0,
+  "multimodal": false,
+  "owner_review_gate": "E3_C_OWNER_REVIEW_READY",
+  "paid_api_calls": 0,
+  "setr": "NOT_RUN",
+  "source_trace_sha256": {
+    "bge_pointwise": "645164198c69886f61f1de60e43ccb189ca57146940eb5027326ce9482c4ad5f",
+    "jina35": "e9472311e538cc36e70ac9ebc387e3370c9d9405a544ec86e943fa85ac4f9526",
+    "pplx_decider": "47594515c9c74806f18143660a906ad5b4301861801a66999385ef3172aa0544"
+  },
+  "status": "E3_C_PASS_WITH_LIMITATIONS",
+  "training": false
+}

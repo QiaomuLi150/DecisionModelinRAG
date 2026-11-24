@@ -1,0 +1,136 @@
+{
+  "attempt": {
+    "api_invocation_count": 1,
+    "backend": null,
+    "candidate_ids": [
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_1",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_2",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_3",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_4",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_5",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_6",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_7",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_8",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_9",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_10",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_11",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_12",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_13",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_14",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_15"
+    ],
+    "candidate_ids_sha256": "43341e5567262e32852f482b5263b17be20476234b3e857d7ee40bc818b6c283",
+    "candidate_k": 15,
+    "checkpoint_revision": "9c0a32e9809d6a3f612434dd0bce150295dcc274",
+    "created_utc": "2026-10-15T14:18:50.377475+00:00",
+    "dataset": "garage",
+    "duration_ms": 422.81636595726013,
+    "failure": null,
+    "gpu_id": 6,
+    "input_manifest_sha256": "54ee2bcbfb5ff0d853c90c5e5266182a32a8aba3b92673ef03e99f208fefd434",
+    "input_tokens": 6470,
+    "model": "startlux_decision_4b",
+    "native_input_sha256": "0eabf4641cf360ffdcd21b9010544ccb5d23cfd2ec0a5615f59f4596b622a8a8",
+    "native_response_sha256": "ab040eb144eb91d8777a768d34731d69848475b39455bcb2d5c8dc686f93d172",
+    "peak_memory_allocated_mib": 9852.1484375,
+    "peak_memory_reserved_mib": 11614.0,
+    "physical_forward_count": 1,
+    "physical_forward_count_method": "adapter_native_or_not_measured",
+    "readout": "native categorical choice probabilities; Top-5 sorted by probability",
+    "sample_id": "00210446-3db2-4ac0-8450-3cdf50d2c32d",
+    "score_sha256": "54d0ecf2de8312184d05d4939bb2e39773b6ce87399425a3595a7ff0b06e8152",
+    "scores": [
+      0.00872047059237957,
+      0.015024718828499317,
+      0.006986609660089016,
+      0.6511752605438232,
+      0.015131471678614616,
+      0.010413424111902714,
+      0.18342386186122894,
+      0.006781924050301313,
+      0.07005535811185837,
+      0.0048582833260297775,
+      0.008191381581127644,
+      0.003483301494270563,
+      0.005243861582130194,
+      0.0043604266829788685,
+      0.006149563007056713
+    ],
+    "selected_ids": [
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_4",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_7",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_9",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_5",
+      "00210446-3db2-4ac0-8450-3cdf50d2c32d:cite_2"
+    ],
+    "selected_ids_sha256": "50e3cdf373f36de8244b12a2048f5318489570931a1cf16944ef69abb33d0520",
+    "stage": "exploratory",
+    "status": "ATTEMPTED_VALID"
+  },
+  "created_utc": "2026-10-15T14:18:51.424862+00:00",
+  "elapsed_ms": 37278.601022437215,
+  "labels_loaded": false,
+  "load_meta": {
+    "adapter": "e6_1b_checkpoint_recovery.NativeAdapter",
+    "backend": "startlux",
+    "checkpoint_revision": "9c0a32e9809d6a3f612434dd0bce150295dcc274",
+    "kernel_dispatch": {
+      "bindings": {
+        "causal_conv1d_fn": [
+          {
+            "causal_extension": true,
+            "module": "causal_conv1d.causal_conv1d_interface",
+            "name": "causal_conv1d_fn"
+          },
+          {
+            "causal_extension": false,
+            "module": "transformers.models.qwen3_5.modeling_qwen3_5",
+            "name": "causal_conv1d_fn"
+          }
+        ],
+        "causal_conv1d_update": [
+          {
+            "causal_extension": true,
+            "module": "causal_conv1d.causal_conv1d_interface",
+            "name": "causal_conv1d_update"
+          },
+          {
+            "causal_extension": false,
+            "module": "transformers.models.qwen3_5.modeling_qwen3_5",
+            "name": "causal_conv1d_update"
+          }
+        ],
+        "torch_chunk_gated_delta_rule": [
+          {
+            "causal_extension": false,
+            "module": "fla.ops.gated_delta_rule.chunk",
+            "name": "chunk_gated_delta_rule"
+          },
+          {
+            "causal_extension": false,
+            "module": "transformers.models.qwen3_5.modeling_qwen3_5",
+            "name": "torch_chunk_gated_delta_rule"
+          }
+        ],
+        "torch_recurrent_gated_delta_rule": [
+          {
+            "causal_extension": false,
+            "module": "fla.ops.gated_delta_rule.fused_recurrent",
+            "name": "fused_recurrent_gated_delta_rule"
+          },
+          {
+            "causal_extension": false,
+            "module": "transformers.models.qwen3_5.modeling_qwen3_5",
+            "name": "torch_recurrent_gated_delta_rule"
+          }
+        ]
+      },
+      "bundled_startlux_checker": "returns NOT active because it tests removed Transformers is_fast_path_available marker",
+      "guard_override": "STARTLUX_ALLOW_SLOW=1 used only to bypass stale marker; actual dispatch verified above",
+      "verified": true
+    }
+  },
+  "model": "startlux_decision_4b",
+  "quality_metrics": false,
+  "status": "PASS"
+}

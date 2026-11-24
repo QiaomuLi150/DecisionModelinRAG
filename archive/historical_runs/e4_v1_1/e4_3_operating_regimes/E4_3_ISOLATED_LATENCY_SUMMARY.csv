@@ -1,0 +1,13 @@
+policy,k,status,reason,requested_queries,completed_queries,p50_ms,p95_ms,p99_ms,sustainable_qps,cost,gpu_id
+clef_pointwise_binary,10,TIMING_BLOCKED_SHARED_GPU,No approved GPU was isolated: approved devices had resident processes or active utilization at audit; no timings are presented as isolated.,200,0,,,,,NOT_MODELED,1
+clef_pointwise_binary,20,TIMING_BLOCKED_SHARED_GPU,No approved GPU was isolated: approved devices had resident processes or active utilization at audit; no timings are presented as isolated.,200,0,,,,,NOT_MODELED,1
+clef_joint_binary,10,TIMING_BLOCKED_SHARED_GPU,No approved GPU was isolated: approved devices had resident processes or active utilization at audit; no timings are presented as isolated.,200,0,,,,,NOT_MODELED,1
+clef_joint_binary,20,TIMING_BLOCKED_SHARED_GPU,No approved GPU was isolated: approved devices had resident processes or active utilization at audit; no timings are presented as isolated.,200,0,,,,,NOT_MODELED,1
+liquid_native_joint,10,TIMING_BLOCKED_SHARED_GPU,No approved GPU was isolated: approved devices had resident processes or active utilization at audit; no timings are presented as isolated.,200,0,,,,,NOT_MODELED,1
+liquid_native_joint,20,TIMING_BLOCKED_SHARED_GPU,No approved GPU was isolated: approved devices had resident processes or active utilization at audit; no timings are presented as isolated.,200,0,,,,,NOT_MODELED,1
+jina35_native,10,TIMING_BLOCKED_SHARED_GPU,No approved GPU was isolated: approved devices had resident processes or active utilization at audit; no timings are presented as isolated.,200,0,,,,,NOT_MODELED,1
+jina35_native,20,TIMING_BLOCKED_SHARED_GPU,No approved GPU was isolated: approved devices had resident processes or active utilization at audit; no timings are presented as isolated.,200,0,,,,,NOT_MODELED,1
+pplx_decider_native,10,TIMING_BLOCKED_SHARED_GPU,No approved GPU was isolated: approved devices had resident processes or active utilization at audit; no timings are presented as isolated.,200,0,,,,,NOT_MODELED,1
+pplx_decider_native,20,TIMING_BLOCKED_SHARED_GPU,No approved GPU was isolated: approved devices had resident processes or active utilization at audit; no timings are presented as isolated.,200,0,,,,,NOT_MODELED,1
+bge_pointwise,10,TIMING_BLOCKED_SHARED_GPU,No approved GPU was isolated: approved devices had resident processes or active utilization at audit; no timings are presented as isolated.,200,0,,,,,NOT_MODELED,1
+bge_pointwise,20,TIMING_BLOCKED_SHARED_GPU,No approved GPU was isolated: approved devices had resident processes or active utilization at audit; no timings are presented as isolated.,200,0,,,,,NOT_MODELED,1

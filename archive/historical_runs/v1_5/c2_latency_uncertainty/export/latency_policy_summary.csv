@@ -1,0 +1,12 @@
+session,policy,n_requests,n_completed,n_failed,n_timed,n_untimed,p50_ms_all_request_timed,p95_ms_all_request_timed,p50_ms_completed,p95_ms_completed,failure_accounting
+e12_o3,drex_dlm8,360,180,180,360,0,222.6318025,1049.2750000000003,626.738,1123.8571499999998,failed timed requests include latency plus BM25 fallback; untimed failures are retained and excluded from percentiles
+e12_o3,jina_v3_5,360,360,0,360,0,290.6325,1169.58805,290.6325,1169.58805,failed timed requests include latency plus BM25 fallback; untimed failures are retained and excluded from percentiles
+e12_o3,kev9,360,174,186,360,0,69.106162,818.72185,564.6324999999999,864.155,failed timed requests include latency plus BM25 fallback; untimed failures are retained and excluded from percentiles
+e12_o3,mxbai_v2,360,360,0,360,0,365.9755,1330.1557000000028,365.9755,1330.1557000000028,failed timed requests include latency plus BM25 fallback; untimed failures are retained and excluded from percentiles
+e12_o3,qwen3_reranker_0_6b,360,357,3,360,0,302.5085,1225.0166500000018,300.09,922.0162,failed timed requests include latency plus BM25 fallback; untimed failures are retained and excluded from percentiles
+e12_o3,winnow12,360,297,63,360,0,2394.1305,5374.397400000001,2887.712,5561.4896,failed timed requests include latency plus BM25 fallback; untimed failures are retained and excluded from percentiles
+r1_v2,jina_full,360,360,0,360,0,285.6645,1130.2588000000003,285.6645,1130.2588000000003,failed timed requests include latency plus BM25 fallback; untimed failures are retained and excluded from percentiles
+r1_v2,jina_pplx_budget,360,357,3,360,0,150.786,244.73245,150.809,244.7368,failed timed requests include latency plus BM25 fallback; untimed failures are retained and excluded from percentiles
+r1_v2,pplx_budget,360,357,3,360,0,1608.9814999999999,2378.9435,1610.925,2378.9629999999997,failed timed requests include latency plus BM25 fallback; untimed failures are retained and excluded from percentiles
+r1_v2,pplx_two_stage,360,357,3,360,0,3461.201,6786.64645,3479.883,6787.0738,failed timed requests include latency plus BM25 fallback; untimed failures are retained and excluded from percentiles
+reviewer_liquid,liquid_d1_3b,360,360,0,360,0,1122.292,3479.833450000003,1122.292,3479.833450000003,failed timed requests include latency plus BM25 fallback; untimed failures are retained and excluded from percentiles

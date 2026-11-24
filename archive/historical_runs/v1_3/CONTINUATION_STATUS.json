@@ -1,0 +1,14 @@
+{
+  "milestone": "DecisionRAG-v1.3-priority-continuation",
+  "status": "PARTIAL_COMPLETE_R5_RESOURCE_BLOCKED",
+  "r1": "COMPLETE",
+  "r3_ordered": "COMPLETE",
+  "r4": "COMPLETE_WITH_VERSIONED_SCORING_CORRECTION",
+  "r5": "RUNTIME_READY_BENCHMARK_BLOCKED_DEDICATED_GPU_UNAVAILABLE",
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "reserved_holdout_accessed": false,
+  "historical_artifacts_modified": false,
+  "r5_model_calls": 0,
+  "next_required_condition": "owner-provided dedicated A100 window with no resident process before and after R5"
+}

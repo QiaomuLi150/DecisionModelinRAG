@@ -1,0 +1,7 @@
+# E4-R Draft Results Narrative
+
+Across the exploratory sequence, specialized and decision-model policies were evaluated under heterogeneous candidate and native-interface contracts. E2-M1 reported positive Clef joint-minus-pointwise conditional contrasts, while E4-3 independently reproduced negative, inconclusive contrasts on a separate E3-D MultiHop cohort. The exact-overlap audit found no common query IDs or candidate-view joins, so the discrepancy is reconciled as heterogeneous exploratory evidence rather than a causal reversal.
+
+E4-3 quality was measurable: on 300 representative questions, Jina and PPLX had the highest descriptive CSSR-U at K20 (0.537), while Clef joint was 0.263 and pointwise 0.307. These are annotated evidence-retention proxies and do not establish factual answer quality. Source-group sensitivity is substantial because one component contains 261 representative questions.
+
+Reader interventions suggest that removing supporting evidence harms a deterministic reference-agreement proxy, but the reader/reference pipeline does not provide independently verified factual correctness. Serving evidence is fragmented across isolated-but-nonmatched historical workloads, and matched E4-3 isolated timing was blocked. The scientifically defensible conclusion is an exploratory mechanism-aware empirical result with a clear need for an independent prospective confirmation study before deployment or confirmatory claims.

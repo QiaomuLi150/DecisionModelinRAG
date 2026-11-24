@@ -1,0 +1,48 @@
+{
+  "amendment_proposed": null,
+  "blocked_rows": 500,
+  "bootstrap": {
+    "repetitions": 5000,
+    "seed": 731
+  },
+  "fresh_confirmatory_holdout_accessed": false,
+  "gold": {
+    "accepted_exception": "qst_0413",
+    "ambiguous_or_unresolved_ids": 1,
+    "resolved_ids": 4266
+  },
+  "jev_calls": 0,
+  "limitations": [
+    "500 Intern-Decision enterprise rows are native context-blocked above the frozen 8192-token contract.",
+    "CSSR is complete-support selection proxy, not independently verified reader factual accuracy.",
+    "API request counts, timestamps, queue intervals, and monetary GPU cost are not recorded in E2-N2 traces.",
+    "Raw serialized candidate-view text is not embedded; per-view hashes and actual input hashes are preserved."
+  ],
+  "milestone": "E2-N2-R",
+  "new_inference_requests": 0,
+  "new_model_requests": 0,
+  "next_gate": "E2_SP_READY_FOR_GPU_AUTHORIZATION",
+  "normalized_rows": 55471,
+  "offline_only": true,
+  "paid_api_calls": 0,
+  "paired_rows": 108,
+  "physical_forward_calls": 72039,
+  "physical_forward_evidence_rows": 54971,
+  "population": {
+    "policies": 14,
+    "total_items": 4267,
+    "track_a": 3767,
+    "track_b": 500
+  },
+  "production_services_modified": 0,
+  "quality_published_row_mismatch_count": 0,
+  "retrieval_or_indexing": false,
+  "score_alignment_error_count": 0,
+  "selection_mismatch_count": 0,
+  "selection_missing_keys": 0,
+  "selection_rows": 59738,
+  "source_hash_error_count": 0,
+  "status": "E2_N2_OWNER_ACCEPTED_WITH_LIMITATIONS",
+  "successful_rows": 54971,
+  "training_runs": 0
+}

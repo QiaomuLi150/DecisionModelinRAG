@@ -1,0 +1,94 @@
+{
+  "e5_b_c_d": "NOT_EXECUTED",
+  "e5_f": "LOCKED",
+  "gate": "E5_A_OWNER_REVIEW_READY",
+  "jev": 0,
+  "paid_api": 0,
+  "primary": {
+    "bootstrap_reps": 5000,
+    "ci95": [
+      -0.003585963062112977,
+      0.01480540683053459
+    ],
+    "delta": 0.005405478488953786,
+    "estimand": "PPLX minus Jina equal-source-group set-aware CSSR-U",
+    "group_contribution_max": 1.0,
+    "group_contribution_median": 0.0,
+    "group_contribution_min": -0.5,
+    "group_contribution_p90": 0.0,
+    "groups": 587,
+    "largest_group": {
+      "delta": 0.1111111111111111,
+      "jina_mean": 0.2222222222222222,
+      "n": 9,
+      "pplx_mean": 0.3333333333333333,
+      "retrieval5_mean": 0.1111111111111111,
+      "source_group_id": "qasper_group:ef8b6b07bef60c540dac2898"
+    },
+    "leave_largest_group_out": {
+      "ci95": [
+        -0.00371018202502844,
+        0.014878920851617097
+      ],
+      "delta": 0.005225093450349423,
+      "excluded_group": "qasper_group:ef8b6b07bef60c540dac2898",
+      "excluded_n": 9,
+      "remaining_groups": 586
+    },
+    "queries": 1502,
+    "seed": 731,
+    "top_10_group_shares": [
+      {
+        "n": 9,
+        "share": 0.005992010652463382,
+        "source_group_id": "qasper_group:ef8b6b07bef60c540dac2898"
+      },
+      {
+        "n": 8,
+        "share": 0.005326231691078562,
+        "source_group_id": "qasper_group:1302b3cc4b6a0e85284f5a29"
+      },
+      {
+        "n": 8,
+        "share": 0.005326231691078562,
+        "source_group_id": "qasper_group:288ebe08fc0cd372c68c7d4f"
+      },
+      {
+        "n": 8,
+        "share": 0.005326231691078562,
+        "source_group_id": "qasper_group:70964afe6b488bae1bc178ad"
+      },
+      {
+        "n": 8,
+        "share": 0.005326231691078562,
+        "source_group_id": "qasper_group:a3587f96415ec35f54bccea7"
+      },
+      {
+        "n": 7,
+        "share": 0.004660452729693742,
+        "source_group_id": "qasper_group:3d416349e6382f9a591e29b0"
+      },
+      {
+        "n": 7,
+        "share": 0.004660452729693742,
+        "source_group_id": "qasper_group:540711ab51ed6c2a7b563ca3"
+      },
+      {
+        "n": 7,
+        "share": 0.004660452729693742,
+        "source_group_id": "qasper_group:62ad88affe71f55d7dc48ff0"
+      },
+      {
+        "n": 7,
+        "share": 0.004660452729693742,
+        "source_group_id": "qasper_group:79647a658e69749b7631bdf5"
+      },
+      {
+        "n": 7,
+        "share": 0.004660452729693742,
+        "source_group_id": "qasper_group:a3bde37c325ef7ffb7343ca7"
+      }
+    ]
+  },
+  "reserved_accessed": false
+}

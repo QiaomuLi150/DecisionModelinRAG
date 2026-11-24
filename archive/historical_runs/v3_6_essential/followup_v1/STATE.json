@@ -1,0 +1,24 @@
+{
+  "stage1": {
+    "status": "BLOCKED_UNVERIFIED_SELECTION_GATE"
+  },
+  "stage2": {
+    "n1_records": 55360,
+    "n2_records": 9720,
+    "status": "PASS"
+  },
+  "stage3": {
+    "status": "BLOCKED_HYBRID_RRF_NOT_BM25"
+  },
+  "stage4": {
+    "status": "done"
+  },
+  "stage5": {
+    "hygiene": "PASS",
+    "package": "decisionrag_v3_6_followup_v1.zip",
+    "status": "complete"
+  },
+  "stageF": {
+    "status": "done"
+  }
+}

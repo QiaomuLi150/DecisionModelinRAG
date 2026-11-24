@@ -1,0 +1,47 @@
+{
+  "milestone": "E2-N2",
+  "stage": "N2-0",
+  "manifest_sha256": "b9a4bb881757e0d09562efba4a0edf456fefa7fd38f0beb593878a7ee3c397f7",
+  "source_prompt_sha256": "88683e779bea4264dd64a29721666e7f4bfd9a1f9e50facfb9fe9f1d79ae478c",
+  "output_hashes": {
+    "E2_N2_AUTHENTICITY_AUDIT.md": {
+      "bytes": 678,
+      "sha256": "eb961e6d9c8d22850d1bd610097bad2486d55441b02b571fb1406c82fa117faa"
+    },
+    "E2_N2_CAL_VALIDATION_REPORT.md": {
+      "bytes": 168,
+      "sha256": "f0a4f9f8f99d2a2833fedcc26548b098232b67389268d6522dc1bd2d62f61db6"
+    },
+    "E2_N2_CHECKPOINT_AND_LICENSE_AUDIT.md": {
+      "bytes": 4315,
+      "sha256": "b5596041422b55c9fc6bf18b9c609ffd3ad7e384d6d40ce1b8efce7b6ef7d6a7"
+    },
+    "E2_N2_CONTEXT_AND_FEASIBILITY_REPORT.md": {
+      "bytes": 750,
+      "sha256": "53b3b7953a84ce3c55503cb29c18b6bcde32ba30bad9b779c4fe5e4808509766"
+    },
+    "E2_N2_FINAL_REPORT.md": {
+      "bytes": 664,
+      "sha256": "6362a8ce870b8245e76b823eec2a0d13f9ae0ec1c7b5a80b9056047f9f959840"
+    },
+    "E2_N2_GPU_RESOURCE_AUDIT.md": {
+      "bytes": 835,
+      "sha256": "4aac2f2d1a87feabb6f5d632d9500e382496b12c1b244b1b04b56ca9b82b43fa"
+    },
+    "E2_N2_MODEL_CAPABILITY_MATRIX.csv": {
+      "bytes": 4749,
+      "sha256": "e52228c81134580f95435392d7eb1d7bb03c83c8fa2da087a05f54070ab22c83"
+    },
+    "E2_N2_NATIVE_SMOKE_REPORT.md": {
+      "bytes": 340,
+      "sha256": "fa1141ceaf36e7c7ff2ed0eef8437f18c5601cf7145c42494049f741f2e89a6f"
+    },
+    "E2_N2_OWNER_REVIEW_GATE.md": {
+      "bytes": 1334,
+      "sha256": "93d73153fc2882ade0e3607655700df4ffa32564e54b350eacc4bd619b3eb17d"
+    }
+  },
+  "inference_calls": 0,
+  "jev_calls": 0,
+  "paid_api_calls": 0
+}

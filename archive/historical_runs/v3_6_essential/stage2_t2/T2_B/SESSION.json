@@ -1,0 +1,18 @@
+{
+  "gpu": 6,
+  "labels_joined": false,
+  "phase_hashes": {
+    "jina": {
+      "records": 1440,
+      "sha256": "66979ea36b06e4ebb8cb9fbfd8ba79324fcee80ed7b303b2f69ac86671baf161"
+    },
+    "pplx": {
+      "records": 1440,
+      "sha256": "9a99a9670dce2600a3fdab6ab697edf2041470c22393ec12e5ae378795176cea"
+    }
+  },
+  "protected_holdouts_accessed": false,
+  "records": 2880,
+  "session": "B",
+  "status": "PASS"
+}

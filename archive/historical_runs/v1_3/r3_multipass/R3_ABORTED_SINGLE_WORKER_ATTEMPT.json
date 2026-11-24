@@ -1,0 +1,7 @@
+{
+  "status": "ABORTED_BEFORE_RAW_COMMIT",
+  "reason": "A single-worker full-population run was stopped after approximately 125 completed queries because the 27B two-stage workload was materially slower than the safe execution estimate. The process was interrupted before writing a raw output file; no partial model result was promoted.",
+  "labels_joined": false,
+  "replacement": "The same frozen population is rerun in deterministic non-overlapping shards with identical code, revision, budget rule and label-blind inputs.",
+  "model_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+}

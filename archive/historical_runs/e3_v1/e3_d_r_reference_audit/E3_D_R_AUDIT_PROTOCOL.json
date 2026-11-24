@@ -1,0 +1,63 @@
+{
+  "bootstrap": {
+    "replicates": 5000,
+    "seed": 731,
+    "unit": "query"
+  },
+  "cohorts": {
+    "financebench_reader": 109,
+    "multihop_reader": 250,
+    "multihop_selector": 900
+  },
+  "finance_endpoints": [
+    "EXACT_RAW",
+    "NORMALIZED_EXACT",
+    "NUMERIC_EQUIVALENT",
+    "REFERENCE_SUPPORTED_DETERMINISTIC",
+    "AMBIGUOUS_REQUIRES_ADJUDICATION"
+  ],
+  "labels": [
+    "REFERENCE_PROXY",
+    "DETERMINISTIC_EQUIVALENCE",
+    "MANUAL_VERIFIED",
+    "NOT_VERIFIABLE",
+    "POST_HOC_EXPLORATORY"
+  ],
+  "policies": [
+    "retrieval5",
+    "bge_pointwise",
+    "jina35",
+    "pplx_decider",
+    "liquid_joint20_binary",
+    "zerank2_pointwise"
+  ],
+  "primary_pairs": [
+    [
+      "pplx_decider",
+      "jina35"
+    ],
+    [
+      "jina35",
+      "retrieval5"
+    ]
+  ],
+  "prohibitions": [
+    "no new inference",
+    "no reserved outcomes",
+    "no Jev",
+    "no paid API",
+    "no historical mutation"
+  ],
+  "protocol_version": "E3-D-R-v1.0",
+  "secondary_pairs": [
+    [
+      "zerank2_pointwise",
+      "jina35"
+    ],
+    [
+      "liquid_joint20_binary",
+      "jina35"
+    ]
+  ],
+  "status": "FROZEN_POST_HOC_EXPLORATORY"
+}

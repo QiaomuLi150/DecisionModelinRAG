@@ -1,0 +1,14 @@
+{
+  "expected_records": 2160,
+  "failed": 6,
+  "labels_joined": false,
+  "phase": "pplx",
+  "policy_counts": {
+    "pplx_budget": 1080,
+    "pplx_two_stage": 1080
+  },
+  "records": 2160,
+  "sha256": "b10feb7ea764d47053b44dffcda68c9ab06cdb4d3dcdbe8a74cf01eae58e3803",
+  "status": "PASS",
+  "valid": 2154
+}

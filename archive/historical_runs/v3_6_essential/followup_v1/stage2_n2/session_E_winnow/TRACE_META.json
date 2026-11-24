@@ -1,0 +1,9 @@
+{
+  "status": "INCOMPLETE",
+  "records": 3240,
+  "expected_records": 1080,
+  "valid": 2640,
+  "failed": 600,
+  "labels_joined": false,
+  "gpu_slot": "D"
+}

@@ -1,0 +1,8 @@
+{
+  "experiment_id": "v1_5_c3_concurrency",
+  "status": "BLOCKED_DEDICATED_GPU_UNAVAILABLE_AT_PREFLIGHT",
+  "required": "dedicated A100 for the full warmup and open-loop measurement schedule",
+  "observed": "no inspected device satisfied the zero-resident-workload gate",
+  "model_calls": 0,
+  "scientific_consequence": "Concurrency response remains unmeasured in v1.5."
+}

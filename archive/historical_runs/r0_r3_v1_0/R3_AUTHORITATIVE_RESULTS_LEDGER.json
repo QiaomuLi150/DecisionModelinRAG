@@ -1,0 +1,15 @@
+{
+  "full_regression": "PASS",
+  "gate": "R3_FINAL_LOCAL_MODEL_EVIDENCE_FROZEN",
+  "historical_artifacts_modified": false,
+  "jev_calls": 0,
+  "milestone": "DecisionRAG R0-R3",
+  "new_inference_calls": 0,
+  "paid_api_calls": 0,
+  "protected_holdout_opened": false,
+  "r0_gate": "R0_VALID_BUT_LOW_INFORMATION",
+  "r1_gate": "R1_NO_ADMISSIBLE_POPULATION",
+  "r2_gate": "R2_NOT_ADMISSIBLE",
+  "r3_status": "COMPLETE_WITH_LIMITATIONS",
+  "reader_calls": 0
+}

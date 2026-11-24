@@ -1,0 +1,123 @@
+{
+  "artifact_sha256": {
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_AUTHENTICITY_AND_INDEPENDENT_REPLAY.md": "255cc6244a7d272672d94c40c1a248c7e55099f8580eadb9515dbcff774fefa6",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_CONTEXT_INTERVENTION_NATIVE_DETAIL.jsonl": "9696969a0ef4f201c821b701749e66741bba5ce8b28037a509654864c04d6fa3",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_CONTEXT_INTERVENTION_NATIVE_DETAIL_ATTEMPT_WRAPPER_BUG.jsonl": "1f25db96188f3bfcfdff3a3967170caa34395b747ce9a7bbf18da9379d7e7318",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_CONTEXT_INTERVENTION_RAW_TRACES.jsonl": "841d111aca1984c780c59f772a746e3ea3ffdbf9ee66e2a1a041657325d483fe",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_CONTEXT_STABILITY_AND_EFFECTS.csv": "714f3b9ef39ab67159d93c7674ed45f41a427246192659752785a9a23b1d761d",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_FINAL_SCIENTIFIC_REPORT.md": "dda04216d18d3ee671e08ab4178c4ab47c78c8071ec9ae94e627a1c0d8d52746",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_FROZEN_INTERVENTION_PROTOCOL.json": "f24debf7b655dfb208c91636c8c242f3103aaf0533f1a4cf26598159691a33bc",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_GPU_RESOURCE_AND_FORWARD_ACCOUNTING.md": "e56389b24daf9e7915945d4bb6b69aee985b72a14768fc00d93bb6928e544254",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_MECHANISM_SYNTHESIS.md": "8e68f5b0db43fef301f0b720e0449d9b720bddce17b9645b9141abf2c7d31fa0",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_NATIVE_CLEF_CONTRACT_REPORT.md": "32855553cd568129e01317a788d10b1561e2f9581cfffa68e439fdcb72d067d1",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_OWNER_REVIEW_GATE.md": "30f5cc50120f4e0b60521ebb48f1bb05db541cf49a6db7e9a3faa84180b709f7",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_SAME_SCORE_QUOTA_PAIRED_STATS.csv": "d3ed14b69ff951405e8541f549e14118e7131b1a0f846e95755cd21691ad3886",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_SAME_SCORE_QUOTA_RESULTS.csv": "6a11794dbfc2288034fc709a097b67cfea961b8dcf8d353d8497336981947682",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_SAMPLE_AND_PANEL_MANIFEST.jsonl": "bdc6a4e8cca111b0a4dc65911c94da78364a1ad5c6ecb916fc7cc0be3bed97da",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_SETAWARE_CAL_CONFIG.json": "90cdac83dbd6de947c5ddcc3b0d0ca9e69de5195ce7636c0826071fcdaf61b3d",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_SETAWARE_QUALITY_AND_PAIRED_STATS.csv": "31f15319fa72d2a5a5b48690c2a8253384c76c676c0789991e3ebb5a562c94c4",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_SETAWARE_SELECTED_IDS.jsonl": "71a9af8cf7cb6e550298732c059d14b281c12a8fda23d83da1652e13cfb82cfc",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_SETR_FEASIBILITY_AUDIT.md": "9fd2c8ac6ff16283ef5b2aa8d91b622a588fd8a52dc218a204b2471119ae5841",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_SMOKE_AND_CAL_REPORT.md": "b801f411daf8889740b6b3a3ab059f5c842d35dd1e4a5bf284f336ae4b4b5007",
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_SOURCE_AND_AUTHORIZATION_AUDIT.md": "e67b54da91ead531dfc1664d0dd2870841197171fe7080801c1c88d7b9aca063"
+  },
+  "b0_sample_counts": {
+    "enterprise": 100,
+    "hotpot": 100,
+    "musique": 100,
+    "wiki2": 100
+  },
+  "b1_counts": {
+    "base_reused": 400,
+    "cal_rows": 30,
+    "gpu_id": 0,
+    "gpu_ids_used": [
+      0,
+      1
+    ],
+    "host_snapshot": {
+      "status": "reused_from_completed_native_detail"
+    },
+    "manifest_rows": 2400,
+    "native_detail_path": "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_CONTEXT_INTERVENTION_NATIVE_DETAIL.jsonl",
+    "native_errors": 0,
+    "native_ok": 2102,
+    "new_physical_forward_calls": 2102,
+    "new_rows": 2000,
+    "smoke_rows": 12
+  },
+  "b1_status": "B1_NATIVE_COMPLETE_WITH_EXPLICIT_SHARED_GPU_AUTHORIZATION",
+  "b2_rows": 8534,
+  "b3_selection_rows": 29869,
+  "clef_revision": "8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3",
+  "e3_0_status": "E3_0_HOLDOUT_RESERVATION_PENDING_METADATA",
+  "git_commit": "246ff54e66b178eadd350351a5544879f5484ed2",
+  "gpu_snapshot": {
+    "actual_pre_run": {
+      "status": "reused_from_completed_native_detail"
+    },
+    "resident_workloads_interrupted": false,
+    "selected_gpu_ids": [
+      0,
+      1
+    ],
+    "static_precheck": {
+      "approved_gpu_ids": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "decision": "B1_GPU_BLOCKED_NO_APPROVED_IDLE_DEVICE",
+      "devices": [
+        {
+          "index": 0,
+          "memory_free_mib": 57582,
+          "memory_used_mib": 23571,
+          "utilization_percent": 28,
+          "uuid": "<REDACTED_GPU_UUID>"
+        },
+        {
+          "index": 1,
+          "memory_free_mib": 69555,
+          "memory_used_mib": 11598,
+          "utilization_percent": 100,
+          "uuid": "<REDACTED_GPU_UUID>"
+        },
+        {
+          "index": 2,
+          "memory_free_mib": 26367,
+          "memory_used_mib": 54785,
+          "utilization_percent": 0,
+          "uuid": "<REDACTED_GPU_UUID>"
+        },
+        {
+          "index": 4,
+          "memory_free_mib": 24570,
+          "memory_used_mib": 56583,
+          "utilization_percent": 0,
+          "uuid": "<REDACTED_GPU_UUID>"
+        }
+      ],
+      "safe_idle_approved_gpu_ids": [],
+      "safety_check_mode": "host_read_only_nvidia_smi_after_sandbox_failure",
+      "unrelated_workloads_interrupted": false
+    }
+  },
+  "input_sha256": {
+    "results/non_jev/v2/e2_m1/E2_M1_JOINT_BINARY_SCORES.jsonl": "5cc6a1bd8c2fe30c308ac40e06505a8762c05bf862052dc402a86289eeb3ecaa",
+    "results/non_jev/v2/e2_m1/E2_M1_POINTWISE_SCORES.jsonl": "645e9cf3c42ccfa8b814f790fb86f406085d09039b53347ffa11ddd5d04595d8",
+    "results/non_jev/v2/e2_m1/E2_M1_SELECTED_DOCUMENTS.jsonl": "1689e5b126b5c2f4c6127f2e0d349bb022eddf189c3699479f117382349075d8",
+    "results/non_jev/v2/e2_n/n3/E2_N_N3_BGE_FULL.jsonl": "645164198c69886f61f1de60e43ccb189ca57146940eb5027326ce9482c4ad5f",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_QUERY_LEVEL_EVIDENCE_STATES.csv": "bc8bbff40ead4284bfd6cede3b9710fe8a49f1c34e1842acc1977b8e426d850c"
+  },
+  "jev_calls": 0,
+  "new_model_inference_requests": 2000,
+  "new_physical_forward_calls": 2102,
+  "note": "E3_B_OWNER_REVIEW_READY is the terminal review gate; native B1 completed under the updated owner GPU authorization.",
+  "owner_review_gate": "E3_B_OWNER_REVIEW_READY",
+  "paid_api_calls": 0,
+  "setr_status": "SETR_NOT_REPRODUCIBLE",
+  "status": "E3_B_PASS_WITH_LIMITATIONS",
+  "training": false
+}

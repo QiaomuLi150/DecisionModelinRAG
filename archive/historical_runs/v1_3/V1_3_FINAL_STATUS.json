@@ -1,0 +1,104 @@
+{
+  "gate": "V1_3_PARTIAL_BLOCKED",
+  "scope": "DecisionRAG v1.3 six follow-up experiments",
+  "frozen_population": {
+    "bright": 1384,
+    "e12o_serving": 120,
+    "e11v_crag": 300,
+    "leetcode": 142
+  },
+  "protocols_hashed_before_inference": true,
+  "labels_joined_only_offline": true,
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "training": false,
+  "protected_holdout_access": false,
+  "experiments": {
+    "R1": {
+      "status": "BLOCKED",
+      "attempted": 0,
+      "valid": 0,
+      "failed": 0,
+      "reason": "No dedicated A100 with zero resident processes; no timing substitute."
+    },
+    "R2": {
+      "status": "COMPLETE",
+      "attempted_per_policy": 9688,
+      "valid": {
+        "pplx_budget": 9660,
+        "jina_full": 9688,
+        "qwen3_reranker_0_6b": 9674
+      },
+      "failed": {
+        "pplx_budget": 28,
+        "jina_full": 0,
+        "qwen3_reranker_0_6b": 14
+      }
+    },
+    "R3": {
+      "status": "COMPLETE_QUALITY_PARTIAL_TIMING",
+      "attempted": 1384,
+      "valid": 1381,
+      "failed": 3,
+      "reason": "Shared-GPU run; dedicated timing gate not passed."
+    },
+    "R4": {
+      "status": "BLOCKED",
+      "attempted": 0,
+      "valid": 0,
+      "failed": 0,
+      "reason": "Only existing 256-token reader outputs were available; 512/1024 rerun not validly executable."
+    },
+    "R5": {
+      "status": "BLOCKED",
+      "attempted": 0,
+      "valid": 0,
+      "failed": 0,
+      "reason": "Pinned Winnow runtime binary unavailable; no substitute built."
+    },
+    "R6": {
+      "status": "PARTIAL",
+      "attempted": {
+        "kev": 284,
+        "drex": 284,
+        "jina_controls": 568
+      },
+      "valid": {
+        "kev": 271,
+        "drex": 266,
+        "jina_native_controls": 279
+      },
+      "failed_or_blocked": {
+        "kev": 13,
+        "drex": 18,
+        "jina_native_controls": 5,
+        "jina_budget_controls": 284
+      },
+      "reason": "Exact Jina budget strings were not persisted in the frozen R6 manifest."
+    }
+  },
+  "integrity_checks": {
+    "bright_records": 1384,
+    "r2_full_shard_rows": 16608,
+    "r2_full_unique_keys": 16608,
+    "r3_shard_rows": 1384,
+    "r3_unique_ids": 1384,
+    "r3_shards": 3,
+    "r6_raw_files": 3,
+    "r2_expected_nonoriginal_rows": 16608,
+    "r3_expected_rows": 1384,
+    "pass": true
+  },
+  "raw_trace_manifest": "results/v1_3/RAW_TRACE_SHA256_MANIFEST.json",
+  "claim_changes": {
+    "pplx_p95_le_2x_jina": "NOT_MEASURED",
+    "order_sensitivity": "PPLX and Jina Top-5 sets are order-sensitive; PPLX-vs-Jina quality sign is uncertain under domain-aware inference",
+    "leetcode_native_deficit": "persists for Kev and Drex against matched native Jina controls"
+  },
+  "known_failed_attempts": [
+    "R3 single-worker interrupted before raw commit",
+    "R6 Drex first loader path used wrong package precedence",
+    "R6 first Jina control script bookkeeping error"
+  ],
+  "next_owner_decision": "Provide a genuinely isolated GPU and the missing Winnow/Jina-budget inputs if the blocked branches are required; do not treat this partial gate as a full serving certification."
+}

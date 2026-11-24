@@ -1,0 +1,59 @@
+{
+  "artifact_index": [
+    {
+      "bytes": 519,
+      "path": "results/non_jev/v2/e2_n/n4_specialists_v2/E2_N4_OWNER_REVIEW_GATE.md",
+      "sha256": "037d223161eb089fd2c3ff9b5a18fddf2e2ffd2413a6ae3de27873cfcdbdacb7"
+    },
+    {
+      "bytes": 1178,
+      "path": "results/non_jev/v2/e2_n/n4_specialists_v2/E2_N_CONTEXT_AND_MECHANISM_ANALYSIS.md",
+      "sha256": "1415fd9595ec176e6ee183f7a5b6b7bf56fc96327da1da3c12dfe0c701adde59"
+    },
+    {
+      "bytes": 10649,
+      "path": "results/non_jev/v2/e2_n/n4_specialists_v2/E2_N_MODEL_DATASET_QUALITY_SUMMARY.csv",
+      "sha256": "614d29708f28745bebfc43407ce15fce73ae890e27d2c96e56ebcd48c2004a3c"
+    },
+    {
+      "bytes": 17853,
+      "path": "results/non_jev/v2/e2_n/n4_specialists_v2/E2_N_PRIMARY_EXPLORATORY_PAIRED_STATISTICS.csv",
+      "sha256": "1c880c2de2f5f40b25cbe393c8a2878fb60b0659f11f757243cb44185d1a102f"
+    },
+    {
+      "bytes": 1696,
+      "path": "results/non_jev/v2/e2_n/n4_specialists_v2/E2_N_RAW_SCORES_AND_TRACE_INDEX.jsonl",
+      "sha256": "04b5c5877dd805565405bc95ed832679c64b74247ee6e86ed7d110153f013fef"
+    },
+    {
+      "bytes": 1615,
+      "path": "results/non_jev/v2/e2_n/n4_specialists_v2/E2_N_RUNTIME_GPU_AND_COST_DIAGNOSTICS.md",
+      "sha256": "78638807d8354094adff9aabd15352ac19aae9f13bfc26db1efbfba131c28702"
+    },
+    {
+      "bytes": 69990774,
+      "path": "results/non_jev/v2/e2_n/n4_specialists_v2/E2_N_TOP5_SELECTIONS.jsonl",
+      "sha256": "89ea4e7a622f251513220d6ee2650fa988b1bf462675fbbfbb09714c36c79f6a"
+    }
+  ],
+  "blocked_or_limited": [
+    "resident Qwen service telemetry remains non-instrumented",
+    "additional official checkpoints not yet adapter-validated",
+    "monetary GPU cost",
+    "reader factual accuracy"
+  ],
+  "completed": [
+    "independent offline selection",
+    "Track A quality summaries",
+    "Track B quality summaries",
+    "paired bootstrap intervals",
+    "runtime/context diagnostics",
+    "trace hash index"
+  ],
+  "created_at_utc": "2026-10-13T04:46:30.833010+00:00",
+  "fresh_confirmatory_holdout_accessed": false,
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "stage": "N4",
+  "status": "PASS_WITH_LIMITATIONS"
+}

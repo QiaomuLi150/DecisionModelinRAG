@@ -1,0 +1,3 @@
+model,repo,revision,attempts,valid,failures,top15_valid,top20_valid,physical_forwards,native_api_calls,order_checks,order_exact_set_matches,validity_rate,load_events,status,native_top5_contract,probability_alignment,selection_coverage,physical_forward_measurement,fallback_used,quality_analysis
+startlux_decision_4b,startlux-models/StartLux-Decision-v1-4B,9c0a32e9809d6a3f612434dd0bce150295dcc274,256,256,0,125,131,256,256,3,0,1.0,2,VALIDATED,PASS,PASS,1.0,DIRECT_HOOK_COUNT,False,NOT_RUN
+amos_1_small_2b,mukaddamzaid/amos-1-small,09ba3e9d8f506cfcb96ea130845d5d76d9d92028,256,250,6,125,125,NOT_MEASURED,256,3,0,0.9765625,3,VALIDATED_WITH_CONTEXT_FAILURES,PASS,PASS,0.9765625,NOT_INSTRUMENTED_BY_OFFICIAL_DECODER_WRAPPER,False,NOT_RUN

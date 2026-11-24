@@ -1,0 +1,14 @@
+{
+  "policy": "jina_budget",
+  "order_id": "original",
+  "n_requests": 20,
+  "valid": 20,
+  "failures": 0,
+  "failure_classes": {},
+  "load_ms": 2251.318977214396,
+  "elapsed_s": 4.056824756786227,
+  "raw_sha256": "393ec21cdfe9cccbf2277633b57ec52fd6cf245a9e2c3219ca37af4b79cc1cab",
+  "labels_joined": false,
+  "gpu_index_requested": 3,
+  "model_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc"
+}

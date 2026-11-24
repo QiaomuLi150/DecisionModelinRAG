@@ -1,0 +1,9 @@
+{
+  "labels_joined": false,
+  "policy": "jina_single_8192",
+  "rows": 1384,
+  "sha256": "e7aa837d2a011b98c1a2aae373e24ab99002d8ca41030d00a4b0393c243bbf33",
+  "source": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_pplx_budget__original.jsonl",
+  "status": "PASS",
+  "verified_input_hashes": 1384
+}

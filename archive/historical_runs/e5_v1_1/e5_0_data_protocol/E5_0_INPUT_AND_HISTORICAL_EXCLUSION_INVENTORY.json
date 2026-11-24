@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-10-14T16:15:10.334447+00:00",
+  "dataset_files": [
+    {
+      "bytes": 10835856,
+      "path": "./data/external/e5_qasper/qasper-train-dev-v0.3.tgz",
+      "sha256": "a28fdf966db827bcee3d873107d6b6669864fb7ca8fbf73a192f5e39191bdb5a"
+    },
+    {
+      "bytes": 11398686,
+      "path": "./data/external/e5_qasper/snapshot/qasper-dev-v0.3.json",
+      "sha256": "2ae7ee62a65b1c4225791c70de80c2aad4e8998cf1fd4f09a53103db4f21af93"
+    },
+    {
+      "bytes": 31969387,
+      "path": "./data/external/e5_qasper/snapshot/qasper-train-v0.3.json",
+      "sha256": "9458bfe76074a8fa8d1685af02bcc73537aa6d338ad20591dfaff1946bc88bf4"
+    },
+    {
+      "bytes": 4099,
+      "path": "./data/external/e5_qasper/snapshot/README.md",
+      "sha256": "199ab78533b6155efd0af39614e61fb24c1d5ef6d907a5990dede570fd629b75"
+    }
+  ],
+  "git": {
+    "head": "246ff54e66b178eadd350351a5544879f5484ed2",
+    "status_sha256": "e5757466c54faca32da3d3fc439e92d4489ab7cc353237af6c4c20ae05cc9632"
+  },
+  "historical_passage_hash_overlap": 0,
+  "historical_qid_overlap": 0,
+  "historical_question_hash_overlap": 0,
+  "historical_roots_excluded": [
+    "results/non_jev/v2/e2_*",
+    "results/non_jev/v2/e3_v1",
+    "results/non_jev/v2/e4_v1_1",
+    "data/manifests/questions.jsonl",
+    "data/corpus/passages.jsonl"
+  ],
+  "official_counts": {
+    "papers": 1169,
+    "paragraphs": 60148,
+    "questions": 3598
+  }
+}

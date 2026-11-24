@@ -1,0 +1,16 @@
+{
+  "answer_scoring_calls": 0,
+  "failures": {},
+  "focused_tests": "8/8",
+  "full_regression": "267/267",
+  "jev_calls": 0,
+  "logical_requests": 1565,
+  "paid_api_calls": 0,
+  "provenance_hashes_written": true,
+  "provenance_outputs": 16,
+  "reserved_accessed": false,
+  "selector_reruns": 0,
+  "successful": 1565,
+  "test_command": "python -m pytest -q",
+  "warnings": "Pre-existing StartLux CPU/Triton warnings only; no failures"
+}

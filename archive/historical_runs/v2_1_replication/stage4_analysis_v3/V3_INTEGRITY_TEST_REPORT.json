@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "test": "v2_1_replication_v3_integrity",
+  "failures": [],
+  "checks": {
+    "manifest_rows": {
+      "pass": true,
+      "count": 10668
+    },
+    "perquery_enterprise": {
+      "pass": true,
+      "rows": 12500,
+      "expected": 12500
+    },
+    "summary_enterprise": {
+      "pass": true,
+      "rows": 28,
+      "not_run_cells": 3
+    },
+    "serving_enterprise": {
+      "pass": true,
+      "perrequest_rows": 1800,
+      "ratio_rows": 10
+    },
+    "survivor_enterprise": {
+      "pass": true,
+      "rows": 2000
+    },
+    "determinism_enterprise": {
+      "pass": true,
+      "rows": 7
+    },
+    "length_enterprise": {
+      "pass": true,
+      "rows": 3
+    },
+    "budget_enterprise": {
+      "pass": true,
+      "rows": 14
+    },
+    "nonempty_csv_enterprise": {
+      "pass": true
+    },
+    "perquery_musique": {
+      "pass": true,
+      "rows": 54175,
+      "expected": 54175
+    },
+    "summary_musique": {
+      "pass": true,
+      "rows": 28,
+      "not_run_cells": 3
+    },
+    "serving_musique": {
+      "pass": true,
+      "perrequest_rows": 1800,
+      "ratio_rows": 10
+    },
+    "survivor_musique": {
+      "pass": true,
+      "rows": 8668
+    },
+    "determinism_musique": {
+      "pass": true,
+      "rows": 7
+    },
+    "length_musique": {
+      "pass": true,
+      "rows": 3
+    },
+    "budget_musique": {
+      "pass": true,
+      "rows": 14
+    },
+    "nonempty_csv_musique": {
+      "pass": true
+    },
+    "stage3_raw": {
+      "pass": true,
+      "rows": 3600
+    },
+    "cohort_ids": {
+      "pass": true
+    },
+    "reconciliation": {
+      "pass": true,
+      "rows": 19
+    },
+    "order_application": {
+      "pass": true,
+      "rows": 56
+    },
+    "no_protocol_change": {
+      "pass": true
+    },
+    "package_hygiene": {
+      "pass": true,
+      "members": 33,
+      "matches": []
+    }
+  },
+  "package_sha256": "d838c02a2a8b7ad81e4a60f33d94c7e12728aac4014f953ea9d0eb332706b41a"
+}

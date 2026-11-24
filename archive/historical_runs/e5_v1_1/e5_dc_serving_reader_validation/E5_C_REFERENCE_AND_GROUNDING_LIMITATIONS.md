@@ -1,0 +1,3 @@
+# E5-C Reference and Grounding Limitations
+
+T1 compares normalized reader output with a prespecified set of QASPER answer forms (free-form, extractive and yes/no) and is a reproducible reference-agreement proxy. It is not factual verification. Numeric equivalence, paraphrase equivalence, units and multi-claim entailment are not comprehensively resolved. The reader prompt has no citation contract, so citation grounding is not measured. T2 was not measured because no separately pinned evaluator was available; T3 independent factual correctness was not measured because no human or authoritative executable verification was authorized. Abstentions, ambiguous/invalid references, failures and truncation remain explicit.

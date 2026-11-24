@@ -1,0 +1,43 @@
+{
+  "authorization_version": "E2-N-AUTH-V2",
+  "recorded_utc": "2026-10-13T00:00:00Z",
+  "owner_authorization_text": "authorize checkpoint downloads and Qwen telemetry remediation",
+  "scope": {
+    "official_public_checkpoint_downloads": true,
+    "qwen_local_telemetry_remediation": true,
+    "gpu_ids_priority": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "other_idle_gpu_fallback": true,
+    "jev_calls": false,
+    "paid_api_calls": false,
+    "training": false,
+    "fresh_confirmatory_holdout": false,
+    "production_service_replacement": false
+  },
+  "resource_safety_rules": {
+    "use_idle_or_explicitly_authorized_gpu_only": true,
+    "do_not_restart_or_relocate_existing_services": true,
+    "do_not_disturb_unrelated_workloads": true,
+    "27b_candidate_requires_explicit_feasibility_and_memory_gate": true,
+    "download_source": "official Hugging Face repositories only",
+    "preserve_previous_e2_n_results": true
+  },
+  "authorized_core_downloads": [
+    "internlm/Intern-Decision-4B",
+    "bespokelabs/Bespoke-Nimble-9B-v2",
+    "perplexity-ai/pplx-decider-v1.1-27b",
+    "Qwen/Qwen3-Reranker-0.6B",
+    "Qwen/Qwen3-Reranker-4B",
+    "jinaai/jina-reranker-v3.5",
+    "Alibaba-NLP/gte-reranker-modernbert-base",
+    "cross-encoder/ms-marco-MiniLM-L6-v2"
+  ],
+  "not_authorized": [
+    "TypeSafe/Jev"
+  ],
+  "status": "AUTHORIZED_FOR_DOWNLOAD_AND_QWEN_TELEMETRY_REMEDIATION"
+}

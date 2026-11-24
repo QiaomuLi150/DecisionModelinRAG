@@ -1,0 +1,24 @@
+{
+  "stage0": {
+    "attempted": 1384,
+    "failed": {},
+    "resume_command": "python scripts/v3_6_essential.py stage1 --gpu 3",
+    "status": "done",
+    "valid": 1384
+  },
+  "stage1": {
+    "status": "pending"
+  },
+  "stage2": {
+    "status": "pending"
+  },
+  "stage3": {
+    "status": "pending"
+  },
+  "stage4": {
+    "status": "pending"
+  },
+  "stage5": {
+    "status": "pending"
+  }
+}

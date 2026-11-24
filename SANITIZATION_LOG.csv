@@ -1,0 +1,6 @@
+release_relative_path,removed_field_names
+results/05_latency_and_memory/two_stage_perrequest.csv,gpu_index
+data/latency/cqadupstack_clean_perrequest.csv,gpu_index_requested
+archive/cqadupstack_contended/contended_passb_perrequest.csv,gpu_index_requested
+src/decisionrag/e2_n_contracts.py,local checkpoint cache path fields
+data/scores/e2_n_top5_ids.jsonl.gz; raw_traces/e2_n_native_scores.jsonl.gz,"path-like, private-marker, or credential-shaped candidate ID values replaced by stable id_sha256 pseudonyms; originals not retained"

@@ -1,0 +1,290 @@
+{
+  "archive": {
+    "official_url": "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/cqadupstack.zip",
+    "path": "cqadupstack.zip",
+    "sha256": "6072f7d345496387d24194c8af35c5fb6c2f0e5f9130c5b4a78b98bbfac88558"
+  },
+  "forum_order": [
+    "android",
+    "english",
+    "gaming",
+    "gis",
+    "mathematica",
+    "physics",
+    "programmers",
+    "stats",
+    "tex",
+    "unix",
+    "webmasters",
+    "wordpress"
+  ],
+  "forums": {
+    "android": {
+      "corpus": {
+        "bytes": 16002547,
+        "lines": 22998,
+        "path": "cqadupstack/android/corpus.jsonl",
+        "sha256": "aa1bad1bd193e374da8bf30299487d24059c7555a2d437f33e15b7e071cbae95"
+      },
+      "qrels": {
+        "bytes": 24781,
+        "lines": 1697,
+        "path": "cqadupstack/android/qrels/test.tsv",
+        "sha256": "8965c2259e76144f857a36b197f2dedf073e838c5196e6720990ba10251e322b",
+        "unique_query_ids": 699
+      },
+      "queries": {
+        "bytes": 264625137,
+        "lines": 699,
+        "path": "cqadupstack/android/queries.jsonl",
+        "sha256": "bb3bf827bc5d295297ce311ff3e6a3c48b0df4384688c8a3d762993ff3926997"
+      }
+    },
+    "english": {
+      "corpus": {
+        "bytes": 23731230,
+        "lines": 40221,
+        "path": "cqadupstack/english/corpus.jsonl",
+        "sha256": "1ba0eed2fc9c0f4afe93325bff8bddca52004884e2969c8a157604b6ecbfcfc8"
+      },
+      "qrels": {
+        "bytes": 58782,
+        "lines": 3766,
+        "path": "cqadupstack/english/qrels/test.tsv",
+        "sha256": "d9377c26abd502f470a5ff331e36209662fc5d091fe824201e663620b5434b6a",
+        "unique_query_ids": 1570
+      },
+      "queries": {
+        "bytes": 1185708115,
+        "lines": 1570,
+        "path": "cqadupstack/english/queries.jsonl",
+        "sha256": "14b88f22dcde18c39251cfd0fb2623ec37027e590d8f8b30e7102732ae0a4cb2"
+      }
+    },
+    "gaming": {
+      "corpus": {
+        "bytes": 26104990,
+        "lines": 45301,
+        "path": "cqadupstack/gaming/corpus.jsonl",
+        "sha256": "48c63ce9f5bdff61344693de5b5b0e8657ecd08daa87d7cbb95ad77c074b8a78"
+      },
+      "qrels": {
+        "bytes": 35653,
+        "lines": 2264,
+        "path": "cqadupstack/gaming/qrels/test.tsv",
+        "sha256": "a39736b2be1cf8922ed3a7c56017c02a5492131cc75156d77c6c3825124ba4dc",
+        "unique_query_ids": 1595
+      },
+      "queries": {
+        "bytes": 1158874756,
+        "lines": 1595,
+        "path": "cqadupstack/gaming/queries.jsonl",
+        "sha256": "79f97273e43617f1992c7c580f13df85a2554cbcd5cc1a3f58321b37858d11f2"
+      }
+    },
+    "gis": {
+      "corpus": {
+        "bytes": 42255382,
+        "lines": 37637,
+        "path": "cqadupstack/gis/corpus.jsonl",
+        "sha256": "18d89c9f82284310ec1438076c28c7411e098b55d23ecfa48915e74014d0e5f3"
+      },
+      "qrels": {
+        "bytes": 16724,
+        "lines": 1115,
+        "path": "cqadupstack/gis/qrels/test.tsv",
+        "sha256": "45a27e08f2371d72dcffff27a7d5d66e282fa2f022e6f46e2b7dc3f1dbf66b2e",
+        "unique_query_ids": 885
+      },
+      "queries": {
+        "bytes": 679075758,
+        "lines": 885,
+        "path": "cqadupstack/gis/queries.jsonl",
+        "sha256": "83d8cdaab8c27c8a5fbed9414a7c95a5fe583ee7dea6d311f38c0d62b155f528"
+      }
+    },
+    "mathematica": {
+      "corpus": {
+        "bytes": 21093382,
+        "lines": 16705,
+        "path": "cqadupstack/mathematica/corpus.jsonl",
+        "sha256": "8d8824a0c7f8ee2aff8bc889d628e97d6d110b90253d6a5a23b8f70023cf9f63"
+      },
+      "qrels": {
+        "bytes": 19779,
+        "lines": 1359,
+        "path": "cqadupstack/mathematica/qrels/test.tsv",
+        "sha256": "328d123124f9cffde8508a39c05954ec8dce81fd1eae8658b729022c374cd342",
+        "unique_query_ids": 804
+      },
+      "queries": {
+        "bytes": 619972259,
+        "lines": 804,
+        "path": "cqadupstack/mathematica/queries.jsonl",
+        "sha256": "07f298db74fc7cdc3aadcd48493ae902828f71b25f0d17d05cd073e955cbbe76"
+      }
+    },
+    "physics": {
+      "corpus": {
+        "bytes": 36133047,
+        "lines": 38316,
+        "path": "cqadupstack/physics/corpus.jsonl",
+        "sha256": "7c42540150ef9100e0b69d26d9908f8ee6d374020d3f12bbc4c7aa7d6988ab64"
+      },
+      "qrels": {
+        "bytes": 29572,
+        "lines": 1934,
+        "path": "cqadupstack/physics/qrels/test.tsv",
+        "sha256": "3550c476a608c75550dfdda2a9d9551416f514660e6268b8153131d80df393df",
+        "unique_query_ids": 1039
+      },
+      "queries": {
+        "bytes": 743197349,
+        "lines": 1039,
+        "path": "cqadupstack/physics/queries.jsonl",
+        "sha256": "15bc00ecfcbeaed367b1088f5eb8f47246bcd5d6ae56244b4c07e7a4a19c8692"
+      }
+    },
+    "programmers": {
+      "corpus": {
+        "bytes": 37360424,
+        "lines": 32176,
+        "path": "cqadupstack/programmers/corpus.jsonl",
+        "sha256": "c652ce07f0040a7ee4edad8d63d13e93170665dd0f412ab65eb607c80e1a583f"
+      },
+      "qrels": {
+        "bytes": 27053,
+        "lines": 1676,
+        "path": "cqadupstack/programmers/qrels/test.tsv",
+        "sha256": "ed69afa873c64d34298792d694c82c4293e4b7e3c6ea3edc7a73662d4b0cba76",
+        "unique_query_ids": 876
+      },
+      "queries": {
+        "bytes": 774354135,
+        "lines": 876,
+        "path": "cqadupstack/programmers/queries.jsonl",
+        "sha256": "d77878ec5129d85dd37e2109182f3df5459e288c3346610d59699ab2d6e4241e"
+      }
+    },
+    "stats": {
+      "corpus": {
+        "bytes": 49455084,
+        "lines": 42269,
+        "path": "cqadupstack/stats/corpus.jsonl",
+        "sha256": "cb1e8ba2193dc71ce0efa878a068a7b7cae16bb00ad8e504c71282301beecb85"
+      },
+      "qrels": {
+        "bytes": 13648,
+        "lines": 914,
+        "path": "cqadupstack/stats/qrels/test.tsv",
+        "sha256": "819b62de1d83923cf83def7f161726e7bff88f69c0840cb391b50c2f7f0f89e8",
+        "unique_query_ids": 652
+      },
+      "queries": {
+        "bytes": 388240208,
+        "lines": 652,
+        "path": "cqadupstack/stats/queries.jsonl",
+        "sha256": "aa78e7a1f50f147f30a167849099798bc18c1f0cf30102af743c18990ce987ce"
+      }
+    },
+    "tex": {
+      "corpus": {
+        "bytes": 97411100,
+        "lines": 68184,
+        "path": "cqadupstack/tex/corpus.jsonl",
+        "sha256": "4a233f5bfe30a9d8afbf6a1fd3c62292407c5eb6fb97943c78bc2bb1b6e9b5aa"
+      },
+      "qrels": {
+        "bytes": 80904,
+        "lines": 5155,
+        "path": "cqadupstack/tex/qrels/test.tsv",
+        "sha256": "ec6952e95a549782a8d3b304ef0effaf12f24c567a7cbc0ae9f6d6328a43ff04",
+        "unique_query_ids": 2906
+      },
+      "queries": {
+        "bytes": 8380324468,
+        "lines": 2906,
+        "path": "cqadupstack/tex/queries.jsonl",
+        "sha256": "4eb19d78c35de473a3495013029764a5ea6a7fac2336ab5f30da125ffed7a55a"
+      }
+    },
+    "unix": {
+      "corpus": {
+        "bytes": 52466222,
+        "lines": 47382,
+        "path": "cqadupstack/unix/corpus.jsonl",
+        "sha256": "a52e7fb1f7370613eae79143b75ce0ea0a4be1bb2c908c6d9f83431fe2cf9a1a"
+      },
+      "qrels": {
+        "bytes": 26039,
+        "lines": 1694,
+        "path": "cqadupstack/unix/qrels/test.tsv",
+        "sha256": "a7bd24ce081b0bb892602e9b0067017dc66fd03e7593563ad095cb3cd05e92ed",
+        "unique_query_ids": 1072
+      },
+      "queries": {
+        "bytes": 826061363,
+        "lines": 1072,
+        "path": "cqadupstack/unix/queries.jsonl",
+        "sha256": "c79432ddf7f86c1a30a2ea0d9622844e106aa6fd7674a3aaa6e9664d6e739711"
+      }
+    },
+    "webmasters": {
+      "corpus": {
+        "bytes": 14080720,
+        "lines": 17405,
+        "path": "cqadupstack/webmasters/corpus.jsonl",
+        "sha256": "b9c00bb5ce58c648442e80f2d05d619b63567bf2cafede2979dba3282446abb5"
+      },
+      "qrels": {
+        "bytes": 20452,
+        "lines": 1396,
+        "path": "cqadupstack/webmasters/qrels/test.tsv",
+        "sha256": "6b56b9ff5ee60346934d12453dab985648c01ad2b2c67abec1d225e08ecc28de",
+        "unique_query_ids": 506
+      },
+      "queries": {
+        "bytes": 176865650,
+        "lines": 506,
+        "path": "cqadupstack/webmasters/queries.jsonl",
+        "sha256": "564199829cfa1c41525817c65ef888d136d626a2b53c6b35f27e008376740833"
+      }
+    },
+    "wordpress": {
+      "corpus": {
+        "bytes": 59742319,
+        "lines": 48605,
+        "path": "cqadupstack/wordpress/corpus.jsonl",
+        "sha256": "4820c9b476a9d48b9a915741941650203baf737a71a984ed591df3007d09ba5e"
+      },
+      "qrels": {
+        "bytes": 11727,
+        "lines": 745,
+        "path": "cqadupstack/wordpress/qrels/test.tsv",
+        "sha256": "bfd319c103eac106e054399160f874466a018b54548b6a474645ed80a2281b78",
+        "unique_query_ids": 541
+      },
+      "queries": {
+        "bytes": 292892072,
+        "lines": 541,
+        "path": "cqadupstack/wordpress/queries.jsonl",
+        "sha256": "5508719e89c8dc54669e014adce47e1ff9fa5c6c6d2b91a991835e899dbe53e6"
+      }
+    }
+  },
+  "qrel_query_counts": {
+    "android": 699,
+    "english": 1570,
+    "gaming": 1595,
+    "gis": 885,
+    "mathematica": 804,
+    "physics": 1039,
+    "programmers": 876,
+    "stats": 652,
+    "tex": 2906,
+    "unix": 1072,
+    "webmasters": 506,
+    "wordpress": 541
+  },
+  "total_queries": 13145
+}

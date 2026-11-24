@@ -1,0 +1,13 @@
+policy_id,n_requests,request_p50_ms,request_p95_ms,selector_wall_seconds_per_1k_proxy,gpu_seconds_per_1k,gpu_peak_vram_gib_max,reader_input_tokens_mean,paid_usd_per_1k,local_compute_usd_per_1k,scenario_total_usd_per_1k,cost_status
+raw20,100,10856.731433,15845.07587855,0.00495866,NOT_MEASURED,0.0,3082.37,0.0,NOT_ESTIMATED,NOT_ESTIMATED,paid portion measured; local/scenario portion not priced
+retrieval5,100,10673.441449,15845.582554699999,0.00532219,NOT_MEASURED,0.0,819.96,0.0,NOT_ESTIMATED,NOT_ESTIMATED,paid portion measured; local/scenario portion not priced
+bge_p5,100,11470.545591,14758.325950049999,2672.9356332199995,NOT_MEASURED,1.217942714691162,904.58,0.0,NOT_ESTIMATED,NOT_ESTIMATED,paid portion measured; local/scenario portion not priced
+qwen_p5,100,10790.167454999999,15482.456863899999,2359.7285767999997,NOT_MEASURED,0.0,830.44,0.0,NOT_ESTIMATED,NOT_ESTIMATED,paid portion measured; local/scenario portion not priced
+laya_p5,100,13012.7346545,17812.51135735,10629.63437988,NOT_MEASURED,0.0,878.32,0.0,NOT_ESTIMATED,NOT_ESTIMATED,paid portion measured; local/scenario portion not priced
+clef_p5,100,30341.632891499998,32212.26620525,27097.22159854,NOT_MEASURED,18.267765522003174,817.66,0.0,NOT_ESTIMATED,NOT_ESTIMATED,paid portion measured; local/scenario portion not priced
+laya_g5,100,14412.209601,19786.705510699994,12048.07701464,NOT_MEASURED,0.0,818.97,0.0,NOT_ESTIMATED,NOT_ESTIMATED,paid portion measured; local/scenario portion not priced
+clef_g5,100,37057.1541475,39820.4583439,34652.62615269,NOT_MEASURED,18.88232946395874,889.9,0.0,NOT_ESTIMATED,NOT_ESTIMATED,paid portion measured; local/scenario portion not priced
+bge_rescue5,100,11154.969283,18991.5792133,3023.6112733400005,NOT_MEASURED,1.217942714691162,911.05,0.0,NOT_ESTIMATED,NOT_ESTIMATED,paid portion measured; local/scenario portion not priced
+qwen_rescue5,100,10657.187696,14871.1282547,2346.16824584,NOT_MEASURED,0.0,831.92,0.0,NOT_ESTIMATED,NOT_ESTIMATED,paid portion measured; local/scenario portion not priced
+laya_rescue5,100,12720.08062,17786.753733699996,10540.354274520001,NOT_MEASURED,0.0,887.33,0.0,NOT_ESTIMATED,NOT_ESTIMATED,paid portion measured; local/scenario portion not priced
+clef_rescue5,100,28764.354397,31530.11383895,26219.036241970003,NOT_MEASURED,18.267765522003174,827.8,0.0,NOT_ESTIMATED,NOT_ESTIMATED,paid portion measured; local/scenario portion not priced

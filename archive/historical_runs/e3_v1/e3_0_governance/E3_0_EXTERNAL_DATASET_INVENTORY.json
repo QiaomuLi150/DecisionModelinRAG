@@ -1,0 +1,139 @@
+{
+  "dataset_audits": {
+    "financebench": {
+      "component_size_distribution": {
+        "1": 52,
+        "2": 14,
+        "3": 12,
+        "4": 2,
+        "5": 1,
+        "7": 3
+      },
+      "component_size_max": 7,
+      "dataset": "FinanceBench",
+      "document_metadata_records": 361,
+      "metadata_source": "doc_name/evidence document/company/period metadata only; answer and evidence text not used for partition",
+      "public_question_records": 150,
+      "query_components": 84,
+      "question_types": {
+        "domain-relevant": 50,
+        "metrics-generated": 50,
+        "novel-generated": 50
+      },
+      "repository_revision": "c1c1287aa60a94acf9c4d20c891c9cd611a0f6e8",
+      "source_ids": 84,
+      "unique_question_source_documents": 84
+    },
+    "multihop": {
+      "component_size_distribution": {
+        "1": 322,
+        "2": 29,
+        "3": 14,
+        "4": 5,
+        "5": 5,
+        "6": 2,
+        "7": 4,
+        "8": 2,
+        "9": 1,
+        "10": 2,
+        "11": 1,
+        "15": 1,
+        "16": 1,
+        "24": 1,
+        "43": 1,
+        "1895": 1
+      },
+      "component_size_max": 1895,
+      "corpus_records": 609,
+      "dataset": "MultiHop-RAG",
+      "identity_mapping_failure_ids": [],
+      "identity_mapping_failures": 0,
+      "metadata_source": "evidence_list source/title/url metadata only; answer strings not used for partition",
+      "null_query_records": 301,
+      "query_components": 392,
+      "query_records": 2556,
+      "release_revision": "71ac0d0bd1f951d2d6b70311f7d2ae404e1ffa82",
+      "repository_revision": "c1c1287aa60a94acf9c4d20c891c9cd611a0f6e8",
+      "source_ids": 609,
+      "support_cardinality": {
+        "0": 301,
+        "2": 1169,
+        "3": 774,
+        "4": 312
+      },
+      "valid_identity_records": 2255
+    }
+  },
+  "generated_by": "scripts/e3_d_governance.py",
+  "historical_exposure": {
+    "interpretation": "Presence of protocol/report mentions is not treated as question or source exposure; no prior external benchmark data package was found in the pre-existing E3-0 inventory.",
+    "repository_text_search_file_counts": {
+      "FinanceBench": 8,
+      "MultiHop-RAG": 8,
+      "MultiHopRAG": 1,
+      "financebench_id": 2
+    }
+  },
+  "protocol": "DecisionRAG E3 v1.0 E3-0 + E3-D",
+  "reservation_rule": "connected components over canonical source-document IDs; stable SHA-256 bucket 0 of 4 reserved; seed 731; no outcome-based resampling",
+  "seed": 731,
+  "source_file_inventory": {
+    "results/non_jev/v2/e3_v1/e3_0_governance/source/financebench/README.md": {
+      "bytes": 5094,
+      "sha256": "ab1b914821c5f6329836d0f2c503dbaaa6504721bd0b1d0f70f43fbb23987cec"
+    },
+    "results/non_jev/v2/e3_v1/e3_0_governance/source/financebench/financebench_document_information.jsonl": {
+      "bytes": 88781,
+      "sha256": "1c69127783879de8cdadb159d2181f39bc3123b8e0ebf74031c3969d69189575"
+    },
+    "results/non_jev/v2/e3_v1/e3_0_governance/source/financebench/financebench_open_source.jsonl": {
+      "bytes": 929848,
+      "sha256": "a5a2aa673e573e55675fc3c0f9aa38c1cf59d2abc91edb077534f71f10a71877"
+    },
+    "results/non_jev/v2/e3_v1/e3_0_governance/source/multihop/MultiHopRAG.json": {
+      "bytes": 5171312,
+      "sha256": "03cfb4926461f868684903aadc8024447bdda5bb3f6804741424cce338515bff"
+    },
+    "results/non_jev/v2/e3_v1/e3_0_governance/source/multihop/README.md": {
+      "bytes": 1312,
+      "sha256": "f671db44cf1802f359451e466d82c68c5059d58451b8976ce8329b74d8b89001"
+    },
+    "results/non_jev/v2/e3_v1/e3_0_governance/source/multihop/corpus.json": {
+      "bytes": 6785567,
+      "sha256": "20b61b5ab84de84a927420c5d265b7ec8d859ae49980699958a787ade9e4d28f"
+    }
+  },
+  "sources": {
+    "financebench_hf_reference": {
+      "status": "not used as a second source; official GitHub release is pinned",
+      "url": "https://huggingface.co/datasets/PatronusAI/financebench"
+    },
+    "financebench_repository": {
+      "document_metadata_records": 361,
+      "files": {
+        "financebench_document_information.jsonl": "1c69127783879de8cdadb159d2181f39bc3123b8e0ebf74031c3969d69189575",
+        "financebench_open_source.jsonl": "a5a2aa673e573e55675fc3c0f9aa38c1cf59d2abc91edb077534f71f10a71877"
+      },
+      "license": "repository README; public sample only",
+      "question_records": 150,
+      "revision": "c1c1287aa60a94acf9c4d20c891c9cd611a0f6e8",
+      "url": "https://github.com/patronus-ai/financebench"
+    },
+    "multihop_hf": {
+      "corpus_records": 609,
+      "files": {
+        "MultiHopRAG.json": "03cfb4926461f868684903aadc8024447bdda5bb3f6804741424cce338515bff",
+        "corpus.json": "20b61b5ab84de84a927420c5d265b7ec8d859ae49980699958a787ade9e4d28f"
+      },
+      "license": "ODC-BY",
+      "query_records": 2556,
+      "revision": "71ac0d0bd1f951d2d6b70311f7d2ae404e1ffa82",
+      "url": "https://huggingface.co/datasets/yixuantt/MultiHopRAG"
+    },
+    "multihop_repository": {
+      "license": "ODC-BY",
+      "revision": "c1c1287aa60a94acf9c4d20c891c9cd611a0f6e8",
+      "url": "https://github.com/yixuantt/MultiHop-RAG"
+    }
+  }
+}

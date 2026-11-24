@@ -1,0 +1,8 @@
+{
+  "failed": 0,
+  "labels_joined": false,
+  "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_full__perm_seed_2.jsonl",
+  "records": 1384,
+  "sha256": "2f4c8a145019eef525a8c69936eb2561df46d8b26c482374fb028a4101ca8417",
+  "valid": 1384
+}

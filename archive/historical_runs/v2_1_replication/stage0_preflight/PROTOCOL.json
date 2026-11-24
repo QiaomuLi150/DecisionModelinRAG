@@ -1,0 +1,65 @@
+{
+  "benchmark_audits": {
+    "enterprise": "ENTERPRISE_EXACT_BM25_TOP20_INPUT_MISSING",
+    "musique": "MUSIQUE_EXACT_BM25_TOP20_INPUT_MISSING"
+  },
+  "candidate_contract": "existing exact BM25 Top-20 slates, 20 unique canonical IDs, frozen original order",
+  "code_revision": "scripts/v2_1_replication_stage0.py",
+  "created_utc": "2026-10-20T19:56:39.873711+00:00",
+  "gate": {
+    "reason": "R2_BOTH_BENCHMARKS_BLOCKED",
+    "stage0": "BLOCKED",
+    "stage1": "NOT_STARTED",
+    "stage2": "NOT_STARTED",
+    "stage3": "NOT_STARTED",
+    "stage4": "CPU_ANALYSIS_NOT_APPLICABLE_WITHOUT_MODEL_OUTPUTS",
+    "stage5": "BLOCKED"
+  },
+  "labels_joined_after_raw_trace_freeze": true,
+  "metric": "FS@5 complete annotated support set contained in selected Top-5; failed labeled requests score 0",
+  "models": {
+    "jina_v3_5": {
+      "native_contract": "frozen Jina native scoring and deterministic Top-5",
+      "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc"
+    },
+    "pplx_decider": {
+      "native_contract": "frozen PPLX two-stage selector",
+      "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+    }
+  },
+  "no_retries_or_fill_in": true,
+  "orders": [
+    "original",
+    "reversed",
+    "perm_seed_20261020",
+    "perm_seed_20261021"
+  ],
+  "populations": {
+    "enterprise_quality_requested": 443,
+    "enterprise_requested": 500,
+    "musique_requested": 2167
+  },
+  "protocol_id": "decisionrag-v2.1-controlled-replication",
+  "resampling_unit": "query; no qualifying pre-existing group identifier was found in the admissible frozen manifests",
+  "seeds": {
+    "bootstrap": 731,
+    "cohort_enterprise": 20261020,
+    "cohort_musique": 20261021,
+    "determinism": 20261022,
+    "shuffle_1": 20261020,
+    "shuffle_2": 20261021
+  },
+  "source_hashes": {
+    "data/corpus/passages.jsonl": "5971dc7fad1c018ef3a87e4dfddccb3b39438a190a8afc1ff928f1859871e74e",
+    "data/raw/vendor/enterprise_rag_bench/v1.0.0/all_documents.zip": "9d1174928696ad08bc15f3f104739519de633c1605a4ec2034e0e3c0087bc5cd",
+    "data/raw/vendor/musique/musique_ans_v1.0_dev.jsonl": "15fa63794d18a94ce12411aca6e2327e65b6e83b0b1490efab3f1962e48abf3b",
+    "results/non_jev/v11/track_a/V11_TRACK_A_RETRIEVAL_SLATES.jsonl": "1891f41e2b8614b871aa42cdbe61af3d0c193410a85041e5426c5e7eb3905f0f",
+    "results/non_jev/v11/track_b/V11_TRACK_B_CHUNK_MANIFEST.jsonl": "0a97bedb120b14f21e8a9d16ec89707509f3dcc24ecfeef2dd604f7c450859ee",
+    "results/non_jev/v11/track_b/V11_TRACK_B_RETRIEVAL_SLATES.jsonl": "2e82fc2788398f98d6a257165718b1baa6e1ad792f63671c06458f9212326c9f",
+    "results/non_jev/v2/e11_v1_0/01_budget_policy/E11_A_BUDGET_POLICY_CONFIG.json": "6933bfb3c0f69791c8af4d0858dff9d924f714dba4dab740e02e988d96e57a69",
+    "results/preflight/v11/ENTERPRISE_GOLD_SIDECAR.jsonl": "e7a7dbe71ee9e4290fe29615991c3aed90f70530ab12a63e9c1003be6bfa6b55",
+    "results/preflight/v11/NEW_TEST_IDS.jsonl": "95bdeb7ccd76cb1aadd766ffe9384b728e63f48be9e14f97e3a4b3b4525f63fc",
+    "results/preflight/v11_remediation/ENTERPRISE_QUESTION_MANIFEST_V11R1.jsonl": "00befe74a6bd3786fd2149639f434efd574f2784f49f7f91961c3ed7091d2683"
+  },
+  "status": "FROZEN_PRE_OUTCOME_STAGE0_BLOCKED_BOTH_BENCHMARKS"
+}

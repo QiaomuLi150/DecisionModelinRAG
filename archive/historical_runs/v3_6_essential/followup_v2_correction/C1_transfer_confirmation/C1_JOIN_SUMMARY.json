@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "raw_rows": 21336,
+  "perquery_rows": 21336,
+  "summary_rows": 16,
+  "contrast_rows": 8,
+  "observed_lengths": [
+    2048,
+    4096,
+    6144,
+    8192
+  ],
+  "labels_joined_after_raw_freeze": true,
+  "seed": 731,
+  "draws": 40000,
+  "source_manifest": "results/v2_1_replication/stage0_preflight_v2_hybrid/INPUT_MANIFEST_V2_HYBRID.jsonl",
+  "note": "C1 S is NOT_MEASURED because this is a quality run; C1 Q compares PPLX/Jina only and does not claim equivalence."
+}

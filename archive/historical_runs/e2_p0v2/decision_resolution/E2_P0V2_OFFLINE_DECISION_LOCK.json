@@ -1,0 +1,377 @@
+{
+  "checks": [
+    {
+      "check": "p0v2_required_artifacts",
+      "status": "PASS"
+    },
+    {
+      "check": "p0v2_recorded_hashes",
+      "status": "PASS"
+    },
+    {
+      "check": "m0_preserved_no_paid_or_jev_calls",
+      "status": "PASS"
+    },
+    {
+      "check": "id_only_overlap_audit_completed",
+      "status": "PASS"
+    },
+    {
+      "check": "fresh_holdout_gold_not_opened",
+      "status": "PASS"
+    },
+    {
+      "check": "no_inference_or_service_request",
+      "status": "PASS"
+    },
+    {
+      "check": "no_p0v2_scientific_freeze",
+      "status": "PASS"
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "owner_scope_acceptance",
+      "resolution": "Owner accepted P0v2 for offline decision-resolution only; no execution or freeze authorization.",
+      "status": "ACCEPTED_OFFLINE_ONLY"
+    },
+    {
+      "decision": "scoring_and_view_contract",
+      "resolution": "Use the existing explicit score-contract and candidate-view rules; native feasibility remains model-specific and unverified until authorized audit.",
+      "status": "RESOLVED_FOR_PLANNING"
+    },
+    {
+      "decision": "primary_H1_pair",
+      "resolution": "The existing Clef-Flash-versus-one-specialist recommendation remains a recommendation, not a frozen contrast.",
+      "status": "OWNER_VALUE_REQUIRED"
+    },
+    {
+      "decision": "H2b_policy_contrast",
+      "resolution": "If approved, use one globally comparable score vector with global Top-5 versus fixed authenticated-quota Top-5; no historical quartet probabilities are pooled.",
+      "status": "RESOLVED_FOR_PLANNING"
+    },
+    {
+      "decision": "fresh_confirmatory_holdout",
+      "resolution": "No locally verified, untouched release/revision/label lock is available. Local files are inventoried metadata-only; 2Wiki test gold was not opened.",
+      "status": "BLOCKED"
+    },
+    {
+      "decision": "noninferiority_epsilon",
+      "resolution": "No numeric epsilon was supplied; no margin is selected or frozen.",
+      "status": "OWNER_VALUE_REQUIRED"
+    },
+    {
+      "decision": "power_and_sample_size",
+      "resolution": "Cannot freeze power/sample size without approved epsilon, alpha, target power, discordance assumptions and holdout identity/n.",
+      "status": "BLOCKED_ON_EPSILON_AND_HOLDOUT"
+    },
+    {
+      "decision": "multiplicity",
+      "resolution": "Holm remains a recommendation only; primary family and alpha are not frozen.",
+      "status": "OWNER_VALUE_REQUIRED"
+    },
+    {
+      "decision": "numeric_p95_SLO_and_load",
+      "resolution": "No numeric serving SLO or load regime is frozen. The prior 2-second proposal remains non-binding.",
+      "status": "OWNER_VALUE_REQUIRED"
+    },
+    {
+      "decision": "core_model_roster",
+      "resolution": "Only four locally evidenced model revisions remain eligible for future audit planning; all additional roster entries require external verification.",
+      "status": "PARTIAL_EVIDENCE"
+    },
+    {
+      "decision": "GPU_execution_window",
+      "resolution": "This user authorization covers offline work only; no GPU window is opened.",
+      "status": "BLOCKED"
+    },
+    {
+      "decision": "Jev",
+      "resolution": "Jev remains last and untouched; zero calls.",
+      "status": "NOT_AUTHORIZED"
+    }
+  ],
+  "environment": {
+    "platform": "Linux-6.8.0-137-generic-x86_64-with-glibc2.39",
+    "project_root": ".",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+  },
+  "execution_scope": {
+    "checkpoint_loads": 0,
+    "cuda_visible_devices": "",
+    "fresh_holdout_gold_opened": 0,
+    "gpu_calls": 0,
+    "jev_calls": 0,
+    "model_calls": 0,
+    "network_calls": 0,
+    "note": "standard-library metadata and hash checks only",
+    "paid_api_calls": 0,
+    "qdrant_calls": 0,
+    "retrieval_or_index_runs": 0
+  },
+  "freeze_marker": "P0v2_NOT_FROZEN",
+  "m0_gate_status": "E2_M0_COMPLETE_WITH_LIMITATIONS_READY_FOR_OWNER_REVIEW",
+  "m0_no_calls_and_p0v2_not_previously_authorized": true,
+  "owner_acceptance": {
+    "accepted": true,
+    "accepted_utc": "2026-10-12T21:14:20.015121+00:00",
+    "freeze_marker": "P0v2_NOT_FROZEN",
+    "scientific_freeze": false,
+    "scope": "offline_decision_resolution_only"
+  },
+  "p0v2_package": {
+    "all_recorded_hashes_match": true,
+    "all_required_present": true,
+    "checks": [
+      {
+        "name": "required:E2_P0V2_RESEARCH_PROTOCOL.md",
+        "status": "PASS"
+      },
+      {
+        "name": "required:E2_P0V2_HYPOTHESES_AND_PRIMARY_CONTRASTS.md",
+        "status": "PASS"
+      },
+      {
+        "name": "required:E2_P0V2_SCORING_CONTRACTS.md",
+        "status": "PASS"
+      },
+      {
+        "name": "required:E2_P0V2_MODEL_CAPABILITY_MATRIX.csv",
+        "status": "PASS"
+      },
+      {
+        "name": "required:E2_P0V2_MECHANISM_EXPERIMENT_MATRIX.csv",
+        "status": "PASS"
+      },
+      {
+        "name": "required:E2_P0V2_CANDIDATE_VIEW_CONTRACT.md",
+        "status": "PASS"
+      },
+      {
+        "name": "required:E2_P0V2_HOLDOUT_AND_LEAKAGE_PLAN.md",
+        "status": "PASS"
+      },
+      {
+        "name": "required:E2_P0V2_STATISTICAL_ANALYSIS_PLAN.md",
+        "status": "PASS"
+      },
+      {
+        "name": "required:E2_P0V2_SERVING_BENCHMARK_SDD.md",
+        "status": "PASS"
+      },
+      {
+        "name": "required:E2_P0V2_AUTHENTICITY_AND_TELEMETRY_SPEC.md",
+        "status": "PASS"
+      },
+      {
+        "name": "required:E2_P0V2_CPU_VALIDATION_REPORT.md",
+        "status": "PASS"
+      },
+      {
+        "name": "required:E2_P0V2_PROVENANCE_MANIFEST.json",
+        "status": "PASS"
+      },
+      {
+        "name": "required:E2_P0V2_OWNER_DECISION_REGISTER.md",
+        "status": "PASS"
+      },
+      {
+        "name": "required:E2_P0V2_OWNER_GATE.md",
+        "status": "PASS"
+      },
+      {
+        "actual": "05161ef18b28e9115dbeebaa1b9909c5909dd91069c1c7be6291980baa057c5c",
+        "name": "hash:E2_P0V2_AUTHENTICITY_AND_TELEMETRY_SPEC.md",
+        "recorded": "05161ef18b28e9115dbeebaa1b9909c5909dd91069c1c7be6291980baa057c5c",
+        "status": "PASS"
+      },
+      {
+        "actual": "2724ece16bdf65bc125f7d9d32af354ae4edfcc0fb7e6e9a401291def300749b",
+        "name": "hash:E2_P0V2_CANDIDATE_VIEW_CONTRACT.md",
+        "recorded": "2724ece16bdf65bc125f7d9d32af354ae4edfcc0fb7e6e9a401291def300749b",
+        "status": "PASS"
+      },
+      {
+        "actual": "0bcbc8553f65e27f117da795d3e714e990e12cfbb45bf22da6faff176f05e9fb",
+        "name": "hash:E2_P0V2_CPU_VALIDATION_REPORT.md",
+        "recorded": "0bcbc8553f65e27f117da795d3e714e990e12cfbb45bf22da6faff176f05e9fb",
+        "status": "PASS"
+      },
+      {
+        "actual": "83665a0a4f5744d01c5f889e827d64e8c6377e5550d96defc3243ae79d5d9e41",
+        "name": "hash:E2_P0V2_HOLDOUT_AND_LEAKAGE_PLAN.md",
+        "recorded": "83665a0a4f5744d01c5f889e827d64e8c6377e5550d96defc3243ae79d5d9e41",
+        "status": "PASS"
+      },
+      {
+        "actual": "12ff952421aea09b15dff8947ac576df03e74e06ba5043cf6d668a3eec60e0e1",
+        "name": "hash:E2_P0V2_HYPOTHESES_AND_PRIMARY_CONTRASTS.md",
+        "recorded": "12ff952421aea09b15dff8947ac576df03e74e06ba5043cf6d668a3eec60e0e1",
+        "status": "PASS"
+      },
+      {
+        "actual": "f34079e8d56e31f6001f42b292d671d985b955aa450a5bc1643b29c4c15cfb23",
+        "name": "hash:E2_P0V2_MECHANISM_EXPERIMENT_MATRIX.csv",
+        "recorded": "f34079e8d56e31f6001f42b292d671d985b955aa450a5bc1643b29c4c15cfb23",
+        "status": "PASS"
+      },
+      {
+        "actual": "03eddf7778070165f358635ff6f51b976998824825142fb31ecf023011736435",
+        "name": "hash:E2_P0V2_MODEL_CAPABILITY_MATRIX.csv",
+        "recorded": "03eddf7778070165f358635ff6f51b976998824825142fb31ecf023011736435",
+        "status": "PASS"
+      },
+      {
+        "actual": "9ab6b62b1ebe58b47987b321f83e8ff4040379e84013f195d7b28529b7b11854",
+        "name": "hash:E2_P0V2_OWNER_DECISION_REGISTER.md",
+        "recorded": "9ab6b62b1ebe58b47987b321f83e8ff4040379e84013f195d7b28529b7b11854",
+        "status": "PASS"
+      },
+      {
+        "actual": "7c89429b2010fb42cf82c0939381d344dbd309e1782dacdf9dcda9aae5a9b2ee",
+        "name": "hash:E2_P0V2_OWNER_GATE.md",
+        "recorded": "7c89429b2010fb42cf82c0939381d344dbd309e1782dacdf9dcda9aae5a9b2ee",
+        "status": "PASS"
+      },
+      {
+        "actual": "2d0ff4784ba5fa156cb632bb990ed654479afb95b0b225eb5105dafa7b507550",
+        "name": "hash:E2_P0V2_RESEARCH_PROTOCOL.md",
+        "recorded": "2d0ff4784ba5fa156cb632bb990ed654479afb95b0b225eb5105dafa7b507550",
+        "status": "PASS"
+      },
+      {
+        "actual": "ee798ceadc82fb1d606434ed6c4ad894faba2922dcbd139151853fef44455fd7",
+        "name": "hash:E2_P0V2_SCORING_CONTRACTS.md",
+        "recorded": "ee798ceadc82fb1d606434ed6c4ad894faba2922dcbd139151853fef44455fd7",
+        "status": "PASS"
+      },
+      {
+        "actual": "7bb1486dd8553cd63c090c852ea6e05468695cc5e6d672f4a0bd0908ac210b9d",
+        "name": "hash:E2_P0V2_SERVING_BENCHMARK_SDD.md",
+        "recorded": "7bb1486dd8553cd63c090c852ea6e05468695cc5e6d672f4a0bd0908ac210b9d",
+        "status": "PASS"
+      },
+      {
+        "actual": "4ec382c8647d9199f4837b0781906d7b4796c2940564880d3dc241f5f1c5efd9",
+        "name": "hash:E2_P0V2_STATISTICAL_ANALYSIS_PLAN.md",
+        "recorded": "4ec382c8647d9199f4837b0781906d7b4796c2940564880d3dc241f5f1c5efd9",
+        "status": "PASS"
+      }
+    ],
+    "expected_artifact_count": 14,
+    "manifest_final_status": "E2_P0V2_SPEC_READY_FOR_OWNER_REVIEW",
+    "manifest_output_count": 14
+  },
+  "required_final_state": "P0v2_NOT_FROZEN",
+  "resolution_artifacts": {
+    "E2_P0V2_OFFLINE_DECISION_RESOLUTION.md": "57163479ae40b127eb0a9b04d93f90d0049baca57f2402416f1cf38f18fc73f9",
+    "E2_P0V2_OWNER_ACCEPTANCE_RECEIPT.json": "0665b2ac3fefdb27ebef97ffaece61a36f9e07840c86bd74cf3d928b87b9d02e"
+  },
+  "schema": "e2-p0v2-offline-decision-lock-v1",
+  "source_inventory_metadata_only": [
+    {
+      "bytes": 30439728,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/musique/musique_ans_v1.0_dev.jsonl",
+      "role": "MuSiQue local dev release; historical source, not fresh",
+      "sha256": "15fa63794d18a94ce12411aca6e2327e65b6e83b0b1490efab3f1962e48abf3b"
+    },
+    {
+      "bytes": 241046755,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/musique/musique_ans_v1.0_train.jsonl",
+      "role": "MuSiQue local train release; not an approved fresh holdout",
+      "sha256": "83a75b1e11e4e9bb8f8308e72ac40ca617ae4431b3a0d955b61cab259248490a"
+    },
+    {
+      "bytes": 27452575,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/hotpot/hotpot_dev_distractor_v1.parquet",
+      "role": "HotpotQA local dev release; historical source, not fresh",
+      "sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6"
+    },
+    {
+      "bytes": 165624177,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/hotpot/hotpot_train.parquet",
+      "role": "HotpotQA local train release; not an approved fresh holdout",
+      "sha256": "76d3bb3048a7cc73c1958107c0c5872a00d7e7d00c105b81e92f6769e7822e68"
+    },
+    {
+      "bytes": 55934464,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/2wiki/data/dev.json",
+      "role": "2Wiki local dev release; historical source, not fresh",
+      "sha256": "48b9bdc69654dc580fda5f935a48b88cb89f11887587310af60d406c8d0111a6"
+    },
+    {
+      "bytes": 681705246,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/2wiki/data/train.json",
+      "role": "2Wiki local train release; not an approved fresh holdout",
+      "sha256": "b3fddb4d5bb42cd797919cad67616545be51b24740e0a7dabdae7bf76b8f7bfa"
+    },
+    {
+      "bytes": 53146143,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/2wiki/data/test.json",
+      "role": "2Wiki local test release; metadata-only, gold not opened",
+      "sha256": "4f60ba6a108d3409ee039e0be9af42a6a139174fdc86c7451caca402e953fe7a"
+    },
+    {
+      "bytes": 764927,
+      "content_inspected": false,
+      "exists": true,
+      "path": "./data/raw/vendor/enterprise_rag_bench/v1.0.0/questions.jsonl",
+      "role": "EnterpriseRAG-Bench v1.0.0; historical/used source",
+      "sha256": "f9524b9157cd43aae36b99333a124738804306ea6d07f332d49faa6d3d147905"
+    }
+  ],
+  "source_record_overlap": [
+    {
+      "all_three_intersection_n": 0,
+      "cal_debug_intersection_n": 0,
+      "cal_new_test_intersection_n": 0,
+      "cal_or_prior_test_n": 250,
+      "dataset": "hotpot",
+      "debug_n": 10,
+      "debug_new_test_intersection_n": 0,
+      "new_test_n": 800,
+      "new_test_status": "PASS",
+      "new_test_unique_n": 800
+    },
+    {
+      "all_three_intersection_n": 0,
+      "cal_debug_intersection_n": 0,
+      "cal_new_test_intersection_n": 0,
+      "cal_or_prior_test_n": 250,
+      "dataset": "musique",
+      "debug_n": 10,
+      "debug_new_test_intersection_n": 0,
+      "new_test_n": 2167,
+      "new_test_status": "PASS",
+      "new_test_unique_n": 2167
+    },
+    {
+      "all_three_intersection_n": 0,
+      "cal_debug_intersection_n": 0,
+      "cal_new_test_intersection_n": 0,
+      "cal_or_prior_test_n": 250,
+      "dataset": "wiki2",
+      "debug_n": 10,
+      "debug_new_test_intersection_n": 0,
+      "new_test_n": 800,
+      "new_test_status": "PASS",
+      "new_test_unique_n": 800
+    }
+  ],
+  "status": "E2_P0V2_PARTIAL_BLOCKED",
+  "stop": true
+}

@@ -1,0 +1,34 @@
+models:
+  bm25:
+    id: bm25
+    deployment: local_cpu
+  dense:
+    id: Qwen3-VL-Embedding-2B
+    endpoint: http://service.example.invalid/v1/embeddings
+    deployment: existing_service
+  vecdb:
+    id: qdrant
+    endpoint: http://service.example.invalid
+    deployment: existing_service
+  bge:
+    id: BAAI/bge-reranker-v2-m3
+    deployment: local_gpu
+  qwen_rerank:
+    id: Qwen/Qwen3-VL-Reranker-2B
+    endpoint: http://service.example.invalid
+    deployment: existing_service
+  laya:
+    id: convaiinnovations/laya
+    deployment: local_gpu
+  clef_flash:
+    id: Cloudflare/clef-flash
+    deployment: local_gpu
+  reader:
+    id: Qwen3-VL-8B-Instruct
+    endpoint: http://service.example.invalid/v1/chat/completions
+    deployment: existing_service
+  jev:
+    id: TypeSafe/Jev
+    deployment: remote_paid
+    enabled: false
+

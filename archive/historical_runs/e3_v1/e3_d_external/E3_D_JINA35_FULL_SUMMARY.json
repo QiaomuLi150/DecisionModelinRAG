@@ -1,0 +1,9 @@
+{
+  "errors": 0,
+  "gpu_id": 0,
+  "physical_forward_calls": 1009,
+  "policy": "jina35",
+  "requested": 1009,
+  "stage": "full",
+  "valid": 1009
+}

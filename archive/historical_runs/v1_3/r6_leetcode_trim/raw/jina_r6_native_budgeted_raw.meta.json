@@ -1,0 +1,9 @@
+{
+  "rows": 568,
+  "valid": 279,
+  "failed": 289,
+  "load_ms": 2520.190770737827,
+  "raw_sha256": "3e09ad4daf30187438c1548fc3b3f6b2bb082c774e63aff9797d3eb9f1ce9d83",
+  "labels_joined": false,
+  "note": "Budget controls are explicitly blocked because the frozen sub-slate manifest stores token metadata but not budgeted strings."
+}

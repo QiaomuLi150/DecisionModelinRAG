@@ -1,0 +1,3 @@
+contrast,family,order_scope,delta,lo95,hi95,p_randomization,p_holm,units_positive,unit_type,n_units
+pplx_two_stage-jina_two_stage_matched,primary,original,-0.02030456852791878,-0.03091832025842178,-0.009690816797415782,0.00028999855000724995,0.00028999855000724995,,query,2167
+pplx_two_stage-jina_two_stage_matched,secondary,non_original_mean,-0.012921089063221047,-0.02230426088294109,-0.003384094754653132,0.006529967350163249,0.006529967350163249,,query,2167

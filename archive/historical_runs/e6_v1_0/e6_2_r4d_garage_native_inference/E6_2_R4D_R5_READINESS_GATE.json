@@ -1,0 +1,15 @@
+{
+  "attempted": 11176,
+  "failed": 0,
+  "gate": "E6_2_R4D_SELECTIONS_FROZEN_READY",
+  "jev_calls": 0,
+  "native_selections_frozen": true,
+  "paid_api_calls": 0,
+  "quality_scoring_started": false,
+  "recommendation": "R5 may read only frozen R4D selections and approved scoring labels after owner authorization",
+  "reserved_accessed": false,
+  "scheduled": 11176,
+  "schema": "E6-2-R4D-R5-GATE-V1",
+  "unexecuted": 0,
+  "valid": 11176
+}

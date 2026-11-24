@@ -1,0 +1,21 @@
+{
+  "local_inventory": {
+    "FinanceBench": [],
+    "MultiHop-RAG": []
+  },
+  "metadata_only": true,
+  "partition_rule": "stable hash of version-bound group ID with seed 731; reserve only after independent metadata audit",
+  "prohibitions": [
+    "no qrels/answers/reader outputs",
+    "no holdout IDs invented",
+    "no TEST outcome inspection",
+    "no re-splitting after model outcomes"
+  ],
+  "required_next_evidence": [
+    "official local label-free query/source metadata for MultiHop-RAG",
+    "official local label-free document/issuer-period metadata for FinanceBench",
+    "independent group-disjointness verification"
+  ],
+  "source_document_group_rule": "connected components over canonical source-document IDs; FinanceBench additionally issuer/reporting-period groups",
+  "status": "E3_0_HOLDOUT_RESERVATION_PENDING_METADATA"
+}

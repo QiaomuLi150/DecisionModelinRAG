@@ -1,0 +1,9 @@
+{
+  "historical_artifacts_preserved": true,
+  "jina_selection_gate": "PASS",
+  "n2_e": "PARTIAL_PREOUTCOME_PROTOCOL_MISSING",
+  "n3_transfer": "BLOCKED_HYBRID_RRF_NOT_BM25",
+  "overall": "PARTIAL",
+  "paid_api_calls": 0,
+  "protected_holdout_accessed": false
+}

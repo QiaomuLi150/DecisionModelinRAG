@@ -1,0 +1,10 @@
+{
+  "status": "FAILED_BEFORE_RAW_FREEZE",
+  "reason": "runner progress-report dictionary comprehension referenced undefined variable win",
+  "native_model_load": "succeeded on GPU 3",
+  "left_padding_path": "active",
+  "native_requests_completed_before_abort": "not persisted as valid evidence",
+  "raw_output_published": false,
+  "superseded_by": "PROTOCOL_V3.json",
+  "historical_artifacts_modified": false
+}

@@ -1,0 +1,24 @@
+{
+  "bm25": {
+    "b": 0.75,
+    "k1": 1.2,
+    "tokenizer": "lowercase_regex",
+    "top_k": 100
+  },
+  "corpus_rows": 45497,
+  "created_utc": "2026-10-14T16:12:17.475425+00:00",
+  "dense_top_k": 100,
+  "embedding_inputs": 46999,
+  "embedding_requests": 1469,
+  "embedding_endpoint": "http://service.example.invalid/v1/embeddings",
+  "embedding_model": "Qwen/Qwen3-VL-Embedding-2B",
+  "exploratory_queries": 1502,
+  "index": {
+    "qdrant_modified": false,
+    "type": "local_exact_cosine_matrix"
+  },
+  "retrieval_only": true,
+  "rrf_k": 60,
+  "slate_k": 20,
+  "slates_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7"
+}

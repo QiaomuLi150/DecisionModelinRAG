@@ -1,0 +1,31 @@
+{
+  "attempts_by_policy": {
+    "jina_full": 360,
+    "jina_pplx_budget": 360,
+    "pplx_budget": 360,
+    "pplx_two_stage": 360
+  },
+  "failed_by_policy": {
+    "jina_full": 0,
+    "jina_pplx_budget": 3,
+    "pplx_budget": 3,
+    "pplx_two_stage": 3
+  },
+  "gpu_isolated_before_process_exit": true,
+  "gpu_post_in_process_external_isolation": true,
+  "labels_joined": false,
+  "post_process_exit_check_required": true,
+  "raw_sha256": {
+    "results/v1_5/c1_two_stage_specialist_gpu3/r1_retime/raw/jina_full_R1_RAW_V2.jsonl": "d209a52660fb0678aee7a5b565e70ffb71c10f370758975ab0d34cb5bf10a142",
+    "results/v1_5/c1_two_stage_specialist_gpu3/r1_retime/raw/jina_pplx_budget_R1_RAW_V2.jsonl": "1a4c306de3d9fbd08a4d03e725c488376fec83334ba712d7b33a2e5d7c776da4",
+    "results/v1_5/c1_two_stage_specialist_gpu3/r1_retime/raw/pplx_budget_R1_RAW_V2.jsonl": "a32432773dccbca8b0fb9cc2e729d4b85f34325d755897bbb4e069e4d18e7f2a",
+    "results/v1_5/c1_two_stage_specialist_gpu3/r1_retime/raw/pplx_two_stage_R1_RAW_V2.jsonl": "89a86fd9d86e414add377cd6bdaa2b7a5bd66a6e96fa43642e5bb82e87f4821b"
+  },
+  "status": "PASS",
+  "valid_by_policy": {
+    "jina_full": 360,
+    "jina_pplx_budget": 357,
+    "pplx_budget": 357,
+    "pplx_two_stage": 357
+  }
+}

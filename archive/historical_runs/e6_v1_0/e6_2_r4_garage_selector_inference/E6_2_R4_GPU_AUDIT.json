@@ -1,0 +1,8 @@
+{
+  "gpu_inspection": "not performed because no inference stage was entered",
+  "model_calls": 0,
+  "physical_forwards": 0,
+  "reason": "GaRAGe protocol gate failed before model loading; no neural inference or timed workload was authorized to start",
+  "standing_authorization": "present",
+  "status": "NOT_USED"
+}

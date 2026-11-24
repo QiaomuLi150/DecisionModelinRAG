@@ -1,0 +1,22 @@
+{
+  "corpus_index": {
+    "local_exact_dense_matrix_created": false,
+    "qdrant_modified": false,
+    "type": "not_created"
+  },
+  "embedding": {
+    "dimension": "NOT_MEASURED",
+    "endpoint": "http://service.example.invalid/v1/embeddings",
+    "model": "Qwen/Qwen3-VL-Embedding-2B",
+    "normalization": "exact cosine contract; not executed",
+    "revision_observed_local_ref": "9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda",
+    "revision_snapshot_hash": "NOT_AVAILABLE_IN_LOCAL_CACHE"
+  },
+  "gpu": {
+    "authorization": "PENDING",
+    "preflight": "NOT_RUN",
+    "telemetry": "NOT_AVAILABLE"
+  },
+  "no_substitution": true,
+  "status": "NOT_BUILT_GPU_AUTHORIZATION_PENDING"
+}

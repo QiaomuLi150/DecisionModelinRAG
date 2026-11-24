@@ -1,0 +1,41 @@
+{
+  "anchor_rule": "position 0/5/10/15 cycled by canonical sample index",
+  "arms": [
+    "B1_BASE_JOINT",
+    "B1_ORDER_P1",
+    "B1_ORDER_P2",
+    "B1_ORDER_P3",
+    "B1_CONTEXT_MATCHED",
+    "B1_CONTEXT_IRRELEVANT"
+  ],
+  "cal_counts": {
+    "hotpot": 4,
+    "musique": 4,
+    "wiki2": 4
+  },
+  "candidate_count": 20,
+  "holdout_access": false,
+  "model": "Cloudflare/clef-flash",
+  "new_inference_cap_full_slate": 2000,
+  "panel_counts": {
+    "B1_CONTEXT_IRRELEVANT": 400,
+    "B1_CONTEXT_MATCHED": 400,
+    "B1_ORDER_P1": 400,
+    "B1_ORDER_P2": 400,
+    "B1_ORDER_P3": 400
+  },
+  "precision": "bfloat16",
+  "protocol_sha256": "6904eb1d8ada87c16f6ff5ff631c2aba0538b93fb86bd6d8161f4012e99412df",
+  "quota": 5,
+  "replacement_rule": "four non-anchor positions; same-dataset source-distinct, length/topic matched or low-query-overlap; known gold IDs excluded offline",
+  "revision": "8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3",
+  "sample_counts": {
+    "enterprise": 100,
+    "hotpot": 100,
+    "musique": 100,
+    "wiki2": 100
+  },
+  "score_contract": "JOINT_BINARY_RELEVANCE:v2; higher is more relevant; canonical ID remap",
+  "seed": 731,
+  "status": "FROZEN_BEFORE_NEW_INFERENCE"
+}

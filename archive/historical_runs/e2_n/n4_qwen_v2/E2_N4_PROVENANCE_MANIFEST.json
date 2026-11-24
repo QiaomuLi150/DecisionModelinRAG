@@ -1,0 +1,59 @@
+{
+  "artifact_index": [
+    {
+      "bytes": 519,
+      "path": "results/non_jev/v2/e2_n/n4_qwen_v2/E2_N4_OWNER_REVIEW_GATE.md",
+      "sha256": "037d223161eb089fd2c3ff9b5a18fddf2e2ffd2413a6ae3de27873cfcdbdacb7"
+    },
+    {
+      "bytes": 1178,
+      "path": "results/non_jev/v2/e2_n/n4_qwen_v2/E2_N_CONTEXT_AND_MECHANISM_ANALYSIS.md",
+      "sha256": "1415fd9595ec176e6ee183f7a5b6b7bf56fc96327da1da3c12dfe0c701adde59"
+    },
+    {
+      "bytes": 6563,
+      "path": "results/non_jev/v2/e2_n/n4_qwen_v2/E2_N_MODEL_DATASET_QUALITY_SUMMARY.csv",
+      "sha256": "dbe63889057201e27f77215cca021688a13ab02a79eeaf6d60082dd204c30bad"
+    },
+    {
+      "bytes": 10222,
+      "path": "results/non_jev/v2/e2_n/n4_qwen_v2/E2_N_PRIMARY_EXPLORATORY_PAIRED_STATISTICS.csv",
+      "sha256": "6d1bfc88da0758cfcc4b93ba3025b83d9756c546f46b5e3d3bc1a9be980b9440"
+    },
+    {
+      "bytes": 860,
+      "path": "results/non_jev/v2/e2_n/n4_qwen_v2/E2_N_RAW_SCORES_AND_TRACE_INDEX.jsonl",
+      "sha256": "9827c157c87ccb4377b0be0333eb2b07eaee3fdc2f31145f3bbde75eba1e4e53"
+    },
+    {
+      "bytes": 1155,
+      "path": "results/non_jev/v2/e2_n/n4_qwen_v2/E2_N_RUNTIME_GPU_AND_COST_DIAGNOSTICS.md",
+      "sha256": "5330d968252f31519e2a1e34d191e9a2bccb7dbdee1db6bbf27c6fe1567acfaf"
+    },
+    {
+      "bytes": 41839910,
+      "path": "results/non_jev/v2/e2_n/n4_qwen_v2/E2_N_TOP5_SELECTIONS.jsonl",
+      "sha256": "f2086dbd4036c9e30b223a69407d09dd5d89487090238c2f0386c2a5b17f3227"
+    }
+  ],
+  "blocked_or_limited": [
+    "resident Qwen service telemetry remains non-instrumented",
+    "additional official checkpoints not yet adapter-validated",
+    "monetary GPU cost",
+    "reader factual accuracy"
+  ],
+  "completed": [
+    "independent offline selection",
+    "Track A quality summaries",
+    "Track B quality summaries",
+    "paired bootstrap intervals",
+    "runtime/context diagnostics",
+    "trace hash index"
+  ],
+  "created_at_utc": "2026-10-13T03:48:25.375197+00:00",
+  "fresh_confirmatory_holdout_accessed": false,
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "stage": "N4",
+  "status": "PASS_WITH_LIMITATIONS"
+}

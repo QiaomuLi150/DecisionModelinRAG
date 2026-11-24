@@ -1,0 +1,66 @@
+{
+  "failure_policy": [
+    "UNATTEMPTED",
+    "TIMEOUT",
+    "INVALID_OUTPUT",
+    "CONTRACT_FAILURE",
+    "INFRA_FAILURE",
+    "TRUNCATED_INPUT"
+  ],
+  "historical_anchor": "QASPER E5 PPLX-Jina CSSR-U unchanged and not pooled",
+  "models": {
+    "decision": [
+      "pplx_decider_27b",
+      "liquid_d1_3b",
+      "startlux_decision_4b_conditional",
+      "amos_1_small_2b_conditional"
+    ],
+    "specialist": [
+      "jina_v3_5",
+      "qwen3_reranker_4b",
+      "bge_reranker_v2_m3",
+      "qwen3_reranker_0_6b"
+    ]
+  },
+  "multiplicity": "PPLX-Jina primary anchor; compact-model and specialist contrasts exploratory with Holm family or explicitly labeled intervals frozen before outcomes",
+  "primary_dataset": "BEIR/SciFact",
+  "primary_endpoint": {
+    "Recall@5": "qrel-positive documents retrieved in Top-5",
+    "nDCG@5": "binary qrel score at document identity",
+    "no_positive_qrel": "retain in unconditional denominator and report separately",
+    "unjudged": "not explicit negative; standard qrel evaluator reports conservative zero-gain behavior plus judged-coverage sensitivity"
+  },
+  "primary_track": "N-REL",
+  "prohibited_claims": [
+    "CSSR replication on SciFact/GaRAGe",
+    "architectural causality",
+    "superiority/equivalence without margin",
+    "independent factual correctness from reader F1",
+    "commercial dollar savings without cost model"
+  ],
+  "resource_frontier": [
+    "full selector p50",
+    "full selector p95",
+    "peak allocated memory",
+    "physical forwards/tokens",
+    "failure rate",
+    "hardware UUID",
+    "precision/quantization"
+  ],
+  "secondary_dataset": "GaRAGe exact K=15 supplied pool",
+  "secondary_endpoint": {
+    "grounding_precision_at_5": "count ANSWER-THE-QUESTION among selected five divided by five",
+    "scope": "fixed supplied pool, not natural retrieval",
+    "support_any_at_5": "at least one selected passage with ANSWER-THE-QUESTION",
+    "unjudged": "UNKNOWN or empty remains unjudged; never recoded as negative"
+  },
+  "secondary_track": "F-GRD",
+  "statistics": {
+    "GaRAGe": "query-level paired intervals only; source-group CI unavailable",
+    "SciFact": "component-aware only if qrel graph grouping is accepted; query-weighted sensitivity mandatory",
+    "ci": "two-sided percentile 95%",
+    "seed": 731,
+    "source_group_bootstrap": 5000
+  },
+  "status": "PRE_INFERENCE_PROTOCOL_FOR_OWNER_SIGNATURE"
+}

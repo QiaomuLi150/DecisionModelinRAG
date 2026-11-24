@@ -1,0 +1,95 @@
+{
+  "created_utc": "2026-10-15T03:08:51.325102+00:00",
+  "gate": "E6_2_R1_GPU_AUTHORIZATION_PENDING",
+  "historical_artifacts_modified": false,
+  "historical_inputs": [
+    {
+      "bytes": 5847,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_INPUT_OUTPUT_PROVENANCE_MANIFEST.json",
+      "sha256": "f9cfd4c759e0870e375d57452dc1a04c39e93b6ae6a6774b3b67ecb0daf9e3ef"
+    },
+    {
+      "bytes": 11538225,
+      "path": "results/non_jev/v2/e5_v1_1/e5_0_data_protocol/E5_0_NATURAL_TOP20_MANIFEST.jsonl",
+      "sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7"
+    },
+    {
+      "bytes": 11752,
+      "path": "scripts/m2_retrieve.py",
+      "sha256": "0c71be200d9a2108446a4ff3663b01d89a38a9c48bf8dc639b45292e74b7d35a"
+    }
+  ],
+  "missing_success_artifacts": [
+    "E6_2_R1_CAL_RETRIEVAL_SLATES.jsonl",
+    "E6_2_R1_EXPLORATORY_TOP20_SLATES.jsonl",
+    "E6_2_R1_EXPLORATORY_TOP5_BASELINE.jsonl"
+  ],
+  "new_outputs": [
+    {
+      "bytes": 2181,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_CORPUS_AND_PARTITION_AUDIT.json",
+      "sha256": "98618b02011dffb1d393a86336fd2ddd7edc40b67b899be5ff87c7b56281a042"
+    },
+    {
+      "bytes": 446,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_CPU_BM25_CAL_VALIDATION.json",
+      "sha256": "8e8a91d249d0ff67f012a86dde46ffa98e40662b290c90f436b3615f295908e9"
+    },
+    {
+      "bytes": 1003,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_E6_2_RELEASE_GATE.json",
+      "sha256": "c1a93d201cff9882f865e1ac6b3130cf48b460e83f4a4e754fa412cb601db489"
+    },
+    {
+      "bytes": 3220,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_EXECUTION_MANIFEST.json",
+      "sha256": "7867ca73882f6f3663cfe41e5540cd06ba3d52e75861c110002efc0304bb07ec"
+    },
+    {
+      "bytes": 1613,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_FINAL_RETRIEVAL_REPORT.md",
+      "sha256": "2e3254bb5df5f92a9464799fd1ef90e8e963cbb6b22783f8cc47da6ce464a7fd"
+    },
+    {
+      "bytes": 403,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_GPU_AND_RESOURCE_AUDIT.json",
+      "sha256": "09572b2467ffaa4845dec0d44c0106267917b42aececbf6d273dae92d3d37aa8"
+    },
+    {
+      "bytes": 671,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_INDEX_AND_EMBEDDING_PROVENANCE.json",
+      "sha256": "8688f32497a7e1b081d457ece9e2d15a18f8d7893515d92b73ecdac9e0f10f90"
+    },
+    {
+      "bytes": 953,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_LEAKAGE_AND_RESERVATION_AUDIT.md",
+      "sha256": "f6ab81720428895b02475a43d91b47befd218f155f5efa3ad9ad7b745266f302"
+    },
+    {
+      "bytes": 760,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_RETRIEVAL_FAILURES.jsonl",
+      "sha256": "f5db2f7aaabcae7d7c436626ca2d4b9820f67a39cc7924377544b8dbadf9e2c8"
+    },
+    {
+      "bytes": 1549,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_RETRIEVER_CONTRACT.md",
+      "sha256": "7f64ddf80cffb3381b216e94de2c60a955765e563c295a511056292f06ebc544"
+    },
+    {
+      "bytes": 831,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_TEST_AND_REGRESSION_REPORT.json",
+      "sha256": "e4c767b43dd2b9e9b608610f04ee7312aa0bcda46290d3feee8cbdd7c576a60a"
+    }
+  ],
+  "reserved_content_access": false,
+  "schema": "E6-2-R1-PROVENANCE-V1",
+  "zero_calls": {
+    "dense_retrieval": 0,
+    "embedding": 0,
+    "gpu": 0,
+    "jev": 0,
+    "paid_api": 0,
+    "reader": 0,
+    "reranker": 0
+  }
+}

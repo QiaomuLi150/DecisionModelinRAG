@@ -1,0 +1,37 @@
+{
+  "cohort_manifest_sha256": "3e2a31e047f7365280710f2d6f84bb12e66ea8ee657ef79b6330cb41e7c765c5",
+  "conditions_per_model_query": 5,
+  "created_utc": "2026-10-15T21:00:17.265083+00:00",
+  "failure_policy": "retain every attempt; no retry, fallback, resampling or truncation repair",
+  "holdout_access": false,
+  "jev_calls": 0,
+  "models": [
+    "pplx_decider",
+    "startlux_decision_4b",
+    "jina_v3_5",
+    "qwen3_reranker_0_6b"
+  ],
+  "native_output_freeze_before_labels": true,
+  "paid_api_calls": 0,
+  "permutation_manifest_sha256": "a2090acd9fc28e1cd5c3178902b36a884224ab566b3b7de1885219e2922d8a60",
+  "planned_physical_attempts": 1600,
+  "population": {
+    "garage": 40,
+    "scifact": 40,
+    "unique_queries": 80
+  },
+  "revisions": {
+    "jina_v3_5": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+    "pplx_decider": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+    "qwen3_reranker_0_6b": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+    "startlux_decision_4b": "9c0a32e9809d6a3f612434dd0bce150295dcc274"
+  },
+  "schema": "DECISIONRAG-E7-B-PROTOCOL-V1",
+  "seed": 731,
+  "selection": "native scores/readout independently aligned to current canonical positions; stable position then ID tie break; exactly five unique IDs",
+  "statistics": {
+    "bootstrap_resamples": 5000,
+    "seed": 731,
+    "unit": "query"
+  }
+}

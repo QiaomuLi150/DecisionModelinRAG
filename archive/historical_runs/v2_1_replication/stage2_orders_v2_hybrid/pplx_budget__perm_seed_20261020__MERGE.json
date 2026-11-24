@@ -1,0 +1,12 @@
+{
+  "labels_joined": false,
+  "model_calls_added": 0,
+  "order_id": "perm_seed_20261020",
+  "parts": [
+    "pplx_budget__perm_seed_20261020__enterprise__full.jsonl",
+    "pplx_budget__perm_seed_20261020__musique__full.jsonl"
+  ],
+  "raw_sha256": "cd1c778838753d9496066d3a7d14c70ad2dded6edf6f411db9c9e87c7fea2212",
+  "rows": 2667,
+  "status": "MERGED_OFFLINE"
+}

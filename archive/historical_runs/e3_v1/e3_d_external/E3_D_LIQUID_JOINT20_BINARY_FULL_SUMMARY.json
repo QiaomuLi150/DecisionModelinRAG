@@ -1,0 +1,9 @@
+{
+  "errors": 0,
+  "gpu_id": 1,
+  "physical_forward_calls": 0,
+  "policy": "liquid_joint20_binary",
+  "requested": 1009,
+  "stage": "full",
+  "valid": 1009
+}

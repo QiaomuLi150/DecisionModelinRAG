@@ -1,0 +1,157 @@
+[
+  {
+    "bytes": 8269,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/PROTOCOL_FROZEN.md",
+    "sha256": "f15cb0f6001327bfe47e0b1d605f73f7beefc3c6a5fc195689cd5ca1652ce86e"
+  },
+  {
+    "bytes": 85,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/PROTOCOL_FROZEN.md.sha256",
+    "sha256": "0ea9ce609c25fbaea7556d045bd579e4feb45b32b3a6b9d35131cd819f0041c5"
+  },
+  {
+    "bytes": 2879,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/PREPARATION_SUMMARY.json",
+    "sha256": "b6915705fe8a5f3d8aae8d3f365ab04a60d5758eb795348604c6904e09888230"
+  },
+  {
+    "bytes": 677,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/SERVING_ARGS.json",
+    "sha256": "3ab02cded4f08e504c0ae1f635589fccd79da0c90209b7468f40609dd210d146"
+  },
+  {
+    "bytes": 93568,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/LATENCY_COHORT_IDS.jsonl",
+    "sha256": "5d5f34e3b3a9cfd1b547744e1e4417c992e97b86a81edd94f8f175645652961c"
+  },
+  {
+    "bytes": 1178,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/DRY_RUN_IDS.jsonl",
+    "sha256": "4d9b0c9db357707795334a812cca49e317aec73231f4958b9dba679c0e4bf714"
+  },
+  {
+    "bytes": 402856917,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/CQADUPSTACK_FROZEN_TOP20_SLATES.jsonl",
+    "sha256": "91ef21f780968d4c30a838607a2b3a7cda24f05f5b3d544507cb9dc8c8ef3b7a"
+  },
+  {
+    "bytes": 526759397,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/prepared_L4096.jsonl",
+    "sha256": "3d59d569958ccc948b1af7c1087d3118d823f25b48f80442de577e7215529cfb"
+  },
+  {
+    "bytes": 576059224,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/prepared_L6144.jsonl",
+    "sha256": "0531eeca76f03f2834b466d898175fd0c5374922bdc1d0010f03f6d1fab5d407"
+  },
+  {
+    "bytes": 607467329,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/prepared_L8192.jsonl",
+    "sha256": "88b9a303946bc9824441b1bf0a559d31308c60a51f8a5c1237b233d03dd902d1"
+  },
+  {
+    "bytes": 1131,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/val_summary.csv",
+    "sha256": "bf15e2815b2419cf135789e7ac86e0ec0ba699d0647c49e040eb931865442154"
+  },
+  {
+    "bytes": 849,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/val_contrasts.csv",
+    "sha256": "500c9c24a1cd212ccddf0f8df8d35a7802a6d38fcb3868287d377600010382ce"
+  },
+  {
+    "bytes": 8317013,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/val_perquery.csv",
+    "sha256": "b6889d7bc2a378a62ac0102f83e7b000452a88b588fca1e0bb34ec5a66136e32"
+  },
+  {
+    "bytes": 5699,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/OFFLINE_SCORECARD.json",
+    "sha256": "af49a087210968fa94636bba51e0e0797cccc18b542dd3bdc162cad19d2d3030"
+  },
+  {
+    "bytes": 13600485,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/raw/native_passB_paired_clean_pass1_gpu3_shard0_of1_pass1.jsonl",
+    "sha256": "a178bee5af52fd8d576004a2e2d17b19df87b0ec2b48bc02141c4ada2e00f4e1"
+  },
+  {
+    "bytes": 4626,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/raw/native_passB_paired_clean_pass1_gpu3_shard0_of1_pass1.SUMMARY.json",
+    "sha256": "c4080735280ec4cdb8808d951d0b5737567c342dd4bbe47856647ccdaa7e8334"
+  },
+  {
+    "bytes": 13600494,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/raw/native_passB_paired_clean_pass2_gpu3_shard0_of1_pass2.jsonl",
+    "sha256": "73b4e62ff6e680ea9f51afbcabf465275b1662b41541c8edd912e382b686720d"
+  },
+  {
+    "bytes": 4619,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/raw/native_passB_paired_clean_pass2_gpu3_shard0_of1_pass2.SUMMARY.json",
+    "sha256": "e6697746dc5159a59f72002511e65c6110b8b5e93f08b171255e0618c3cf759e"
+  },
+  {
+    "bytes": 4104862,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/passB_analysis_clean_v1/PASSB_PERREQUEST.csv",
+    "sha256": "81e1ee60be69516514765ead1d9d45dabd7d8e68b757a8c070bdc877a837c12e"
+  },
+  {
+    "bytes": 1019,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/passB_analysis_clean_v1/PASSB_LATENCY_SUMMARY.csv",
+    "sha256": "838861ef378d53a07a05ddf9c25a736b5184f906041cd212656eeec5752e338a"
+  },
+  {
+    "bytes": 2424,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/passB_analysis_clean_v1/PASSB_LATENCY_RATIOS.csv",
+    "sha256": "6a0e98fa9d43c4d7fc448a276ef6a6b2f57ce62414866adea55cfe4e5cd34b43"
+  },
+  {
+    "bytes": 447,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/passB_analysis_clean_v1/PASSB_ANCHOR_SUMMARY.csv",
+    "sha256": "83eecb6f62afc236438220ff44a631d8f1904b46f8b5274535c6db91ae585a90"
+  },
+  {
+    "bytes": 2149,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/passB_analysis_clean_v1/PASSB_INTEGRITY.json",
+    "sha256": "b5e536f4848f9bcfc43a2a3c44a7ad047c15c2e22732e3cf548f6828d1f3bb1a"
+  },
+  {
+    "bytes": 495,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/passB_analysis_clean_v1/PASSB_RAW_MANIFEST.json",
+    "sha256": "88bbf2575fc725235d030566638dad7c5da4ac2bb7b0b5075b2c8cfc609ed7ab"
+  },
+  {
+    "bytes": 14322,
+    "path": "scripts/v3_6_frozen_validation_v2_native.py",
+    "sha256": "438790d3e1204756b17508adf6a43782c69099015ec5325f6684cd44324c1177"
+  },
+  {
+    "bytes": 15911,
+    "path": "scripts/v3_6_frozen_validation_v2_prepare.py",
+    "sha256": "9499532507244d700923a321b47e404ea0b71b5965509b3c69a03b2d4f55ba9f"
+  },
+  {
+    "bytes": 9705,
+    "path": "scripts/v3_6_frozen_validation_v2_analyze.py",
+    "sha256": "554bb5ce55dccffde3d4915ae158b47982b76b2d8c02563e467907f18db7f1ec"
+  },
+  {
+    "bytes": 16787,
+    "path": "scripts/v3_6_frozen_validation_v2_passb_analyze.py",
+    "sha256": "a31af1cb8961b194e50e6d2e956174a1828498eb70e1b6367aca7c30261abd97"
+  },
+  {
+    "bytes": 825,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/final_closure_v1/FINAL_STATUS.json",
+    "sha256": "b0b6249eb7738b75917fb648cfdf257ac77c4350b2ddf8ddde9793e4e19befe6"
+  },
+  {
+    "bytes": 4313,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/final_closure_v1/V3_6_FROZEN_VALIDATION_V2_FINAL_CLOSURE.md",
+    "sha256": "63e5c6b15f0c49de23fdd284933b0cb3f030a505a26dc6f6ab97a72cbc5314ea"
+  },
+  {
+    "bytes": 248,
+    "path": "results/v3_6_essential/frozen_prospective_validation_v2/final_closure_v1/TEST_REPORT.md",
+    "sha256": "79ea8119307d100750e7d3f4c1411d12313b81450752b746a67178e549149dc1"
+  }
+]

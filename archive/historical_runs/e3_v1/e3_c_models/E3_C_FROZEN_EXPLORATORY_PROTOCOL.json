@@ -1,0 +1,673 @@
+{
+  "baseline_trace_sha256": {
+    "bge_pointwise": "645164198c69886f61f1de60e43ccb189ca57146940eb5027326ce9482c4ad5f",
+    "jina35": "e9472311e538cc36e70ac9ebc387e3370c9d9405a544ec86e943fa85ac4f9526",
+    "pplx_decider": "47594515c9c74806f18143660a906ad5b4301861801a66999385ef3172aa0544"
+  },
+  "bootstrap_reps": 5000,
+  "cal_query_ids": [
+    "hotpot:5a70f1685542994082a3e40f",
+    "hotpot:5a711cb45542994082a3e59f",
+    "hotpot:5a71214d5542994082a3e5b9",
+    "hotpot:5a7125165542994082a3e5d0",
+    "hotpot:5a7133565542994082a3e65c",
+    "hotpot:5a7136e25542994082a3e67e",
+    "hotpot:5a713dcb5542994082a3e6d9",
+    "hotpot:5a71446b5542994082a3e72a",
+    "hotpot:5a7145d55542994082a3e73c",
+    "hotpot:5a7148005542994082a3e759",
+    "hotpot:5a716a9b5542994082a3e821",
+    "hotpot:5a71717d5542994082a3e834",
+    "hotpot:5a717d4c5542994082a3e854",
+    "hotpot:5a721e0e55429971e9dc928d",
+    "hotpot:5a7264ed5542990c210a411a",
+    "hotpot:5a727e1b5542991f9a20c497",
+    "hotpot:5a7283365542991f9a20c4b2",
+    "hotpot:5a72908f5542994cef4bc33b",
+    "hotpot:5a72a6d855429901807daf27",
+    "hotpot:5a72ac8a5542992359bc3164",
+    "hotpot:5a72bb045542994cef4bc3e4",
+    "hotpot:5a72df275542992359bc31b3",
+    "hotpot:5a72df8d5542992359bc31b4",
+    "hotpot:5a7309a15542992359bc320c",
+    "hotpot:5a7324205542994cef4bc478",
+    "hotpot:5a73250a5542991f9a20c643",
+    "hotpot:5a73266d5542994cef4bc47d",
+    "hotpot:5a732aa055429901807daf9f",
+    "hotpot:5a732ab25542991f29ee2d25",
+    "hotpot:5a733d5d5542991f29ee2d71"
+  ],
+  "gpu_authorized": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "gpu_selected": {
+    "approved": [
+      {
+        "index": 0,
+        "memory_free_mib": 81147,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 6,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 1,
+        "memory_free_mib": 80577,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 575,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 2,
+        "memory_free_mib": 26367,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 54785,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 4,
+        "memory_free_mib": 24570,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 56583,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      }
+    ],
+    "devices": [
+      {
+        "index": 0,
+        "memory_free_mib": 81147,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 6,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 1,
+        "memory_free_mib": 80577,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 575,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 2,
+        "memory_free_mib": 26367,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 54785,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 3,
+        "memory_free_mib": 20689,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 60463,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 4,
+        "memory_free_mib": 24570,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 56583,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 5,
+        "memory_free_mib": 67630,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 13523,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 47,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 6,
+        "memory_free_mib": 6293,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 74859,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 99,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 7,
+        "memory_free_mib": 28930,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 52223,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      }
+    ],
+    "status": "ok"
+  },
+  "holdout_access": false,
+  "jev_calls": 0,
+  "model_snapshot_inventory": {
+    "liquid_d1_3b": {
+      "LICENSE": {
+        "bytes": 10574,
+        "sha256": "4d28ca14dedc0b3d0fcc2b3339f0e79931faa33874f3d24f522183a8fc70068c"
+      },
+      "README.md": {
+        "bytes": 10448,
+        "sha256": "175b0bd5f0b4272a67723e16d5e1994e7a8c2d162e7797c9f1c24c01fed83f1d"
+      },
+      "api.py": {
+        "bytes": 3478,
+        "sha256": "94e9f82eabfdf92c4abe1153e9a6dc4dd9821f9cc2fec3221e79e70723d8ada0"
+      },
+      "chat_template.jinja": {
+        "bytes": 5436,
+        "sha256": "86f4770449a4797c9b4212d110b0cc70fb993c1ce960095bcfb12eea22f61cca"
+      },
+      "config.json": {
+        "bytes": 2773,
+        "sha256": "0cbac0f580bd8036ef94ac83aa632a57a170e66d20f381ef47c3f6486c9a3e8c"
+      },
+      "hybrid.py": {
+        "bytes": 14416,
+        "sha256": "ce579827b952a6978a3560f70e74be9e228f9029de46048996b0c5f58d7f1f39"
+      },
+      "lfm2_vl.py": {
+        "bytes": 5602,
+        "sha256": "f9e8d3354572a169237865283594b0364209fdb858901121b9f99147328b5d95"
+      },
+      "model.safetensors": {
+        "bytes": 6247065504,
+        "sha256": "50e03317847caf6df9a9aee27ed40f20554a86a21e60d1d47ba41a422b546c0c"
+      },
+      "modeling_d1.py": {
+        "bytes": 1335,
+        "sha256": "7fc6a001f80fc2d146f2a51128478f3b3bd4f1423a3ac129bc10f3fd0caf1d98"
+      },
+      "processor_config.json": {
+        "bytes": 824,
+        "sha256": "b9b82ad34a69e2f70a9033741e11f82b8a98bb5f8e6c13b3b2d5efdd3935d916"
+      },
+      "prompt.cpython-312.pyc": {
+        "bytes": 19901,
+        "sha256": "970c36af76cbde1274536f8fb3913b0a6c0acd29ab0face9fe169de33fb521ca"
+      },
+      "prompt.py": {
+        "bytes": 12478,
+        "sha256": "a20b5f52e41a6d29e694bb8c861a5a4803ce3eb69364edad79511ccf8edb5c31"
+      },
+      "runner.py": {
+        "bytes": 11776,
+        "sha256": "24d3ae718e9f9717771c0df39c93d324d00aa27bf3e12bab085c0922096cb0dd"
+      },
+      "tokenizer.json": {
+        "bytes": 17905750,
+        "sha256": "8096ecb9f54599d756c8de728a598a340bc1e43c0deb77ddd62456c38349fcee"
+      },
+      "tokenizer_config.json": {
+        "bytes": 507,
+        "sha256": "ef6770d12dd9ac58d334e979bf160c5cdfd41f13d205fd5d5516857645feb0ea"
+      }
+    },
+    "zerank_2": {
+      "LICENSE": {
+        "bytes": 11358,
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      "README.md": {
+        "bytes": 4495,
+        "sha256": "a296c356d2484632efcefb3d4e447d609e81174b8c9a325ab6398d871d242013"
+      },
+      "added_tokens.json": {
+        "bytes": 707,
+        "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+      },
+      "chat_template.jinja": {
+        "bytes": 4686,
+        "sha256": "77137ede3bb2f14fabaab01c6e86eb49b77cf3db5061246115796b5f55998336"
+      },
+      "config.json": {
+        "bytes": 1536,
+        "sha256": "85e199caee58ec6aeeefa1252bf61fbdbd783c29a0d3a2846ef2b6b441316ab0"
+      },
+      "config_sentence_transformers.json": {
+        "bytes": 199,
+        "sha256": "a2b911585ab86c94085b6276d9b66624a105a0a1762e163214b5bd3734055765"
+      },
+      "generation_config.json": {
+        "bytes": 214,
+        "sha256": "d3e057bbca66b92f33a8bdc6a1301014e0e4ab69b3b3fd2e442d9fe0c69f3431"
+      },
+      "merges.txt": {
+        "bytes": 1671853,
+        "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+      },
+      "model-00001-of-00002.safetensors": {
+        "bytes": 4967215360,
+        "sha256": "965c1e20f69b548ecc01da6317c78bf08faa3bd763c9195da6881764623c1e99"
+      },
+      "model-00002-of-00002.safetensors": {
+        "bytes": 3077766632,
+        "sha256": "f02e5aa29ab4dd2dcc876a2a01d281f2ea086fc5a0ff8ece717ac7c5f14e1b21"
+      },
+      "model.safetensors.index.json": {
+        "bytes": 32855,
+        "sha256": "06b3d5319b6d76d1a4a2433419180016cfd54ed62d086a5e6567a809f8c82634"
+      },
+      "modules.json": {
+        "bytes": 281,
+        "sha256": "8b0cf4a17b264e13b267907ee1026e551b1cde537691dd71af4c8aa55a889769"
+      },
+      "sentence_bert_config.json": {
+        "bytes": 475,
+        "sha256": "85670127b109e0f975971784bfa0ab110f7d4f5c4650c5dcebcea5fc80604f1a"
+      },
+      "special_tokens_map.json": {
+        "bytes": 613,
+        "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+      },
+      "tokenizer.json": {
+        "bytes": 11422654,
+        "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+      },
+      "tokenizer_config.json": {
+        "bytes": 5431,
+        "sha256": "cd5c1909da4950a610a9e3a6cb6763cff0381d91c6f0838855db8d5ae83d6c9f"
+      },
+      "vocab.json": {
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      }
+    }
+  },
+  "models": {
+    "liquid_d1_3b": {
+      "license": "lfm1.0",
+      "policy": "liquid_joint20_binary",
+      "repo": "LiquidAI/d1-3B",
+      "revision": "051bcc464b01b9f92942b364d9586b0ef5912432"
+    },
+    "zerank_2": {
+      "license": "apache-2.0",
+      "policy": "zerank2_pointwise",
+      "repo": "zeroentropy/zerank-2-reranker",
+      "revision": "5eae30d5ee3c6b2df2ef6d723bde45172d761c4c"
+    }
+  },
+  "native_contracts": {
+    "liquid": "one system_one shared text state with twenty named noul P(yes) readouts; cross-head ranking is exploratory and not calibration proof",
+    "zerank": "twenty query-document pairs through official CrossEncoder; raw Yes logits descending; no sigmoid used"
+  },
+  "paid_api_calls": 0,
+  "populations": {
+    "logical_total": 4267,
+    "track_a": 3767,
+    "track_a_datasets": {
+      "hotpot": 800,
+      "musique": 2167,
+      "wiki2": 800
+    },
+    "track_b": 500,
+    "track_b_identity_eligible": 443,
+    "track_b_retrieval_conditional": 330
+  },
+  "protocol": "E3-C v1.0",
+  "seed": 731,
+  "smoke_query_ids": [
+    "hotpot:5a70f1685542994082a3e40f",
+    "hotpot:5a711cb45542994082a3e59f",
+    "hotpot:5a71214d5542994082a3e5b9",
+    "musique:2hop__10017_18974",
+    "musique:2hop__10114_599630",
+    "musique:2hop__10122_18974",
+    "wiki2:003f41f80bde11eba7f7acde48001122",
+    "wiki2:007b76e80bdc11eba7f7acde48001122",
+    "wiki2:00ea5297094a11ebbdaeac1f6bf848b6",
+    "qst_0001",
+    "qst_0002",
+    "qst_0003"
+  ],
+  "source_inputs": {
+    "results/non_jev/v2/e2_n2/E2_N2_SELECTED_DOCUMENTS.jsonl": {
+      "bytes": 116155030,
+      "sha256": "cb2a948c62bf7590bfeb37f2c254ea89e09c175dc2ce691c7f3b132f2ef84c97"
+    },
+    "results/non_jev/v2/e2_sp/E2_SP_READER_COHORT_MANIFEST.json": {
+      "bytes": 643066,
+      "sha256": "d266e46f3b30e7281740c391d573208123217893cbd1a1e78fb768cc5210a840"
+    },
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_QUERY_LEVEL_EVIDENCE_STATES.csv": {
+      "bytes": 1643849,
+      "sha256": "bc8bbff40ead4284bfd6cede3b9710fe8a49f1c34e1842acc1977b8e426d850c"
+    },
+    "results/non_jev/v2/e3_v1/e3_b_mechanism/E3_B_PROVENANCE_MANIFEST.json": {
+      "bytes": 6880,
+      "sha256": "7441c6b515f0f7133919e6f202e1cfb12b71130789886aa032dfd5912ccd0f9d"
+    },
+    "results/preflight/v11/NEW_TEST_GOLD_SIDECAR.jsonl": {
+      "bytes": 3236770,
+      "sha256": "5b17f0dfacceddc82952163b6fb98fcecb2d0d4ce232209c5d565f79c04d40cc"
+    },
+    "results/preflight/v11_remediation/ENTERPRISE_QUESTION_MANIFEST_V11R1.jsonl": {
+      "bytes": 831571,
+      "sha256": "00befe74a6bd3786fd2149639f434efd574f2784f49f7f91961c3ed7091d2683"
+    }
+  },
+  "timing_query_ids": [
+    "hotpot:5ac240ef55429951e9e684ef",
+    "hotpot:5ab8f33155429919ba4e237f",
+    "hotpot:5ade4fcc5542997c77adeded",
+    "hotpot:5ab2fccb5542991669774176",
+    "hotpot:5adc8977554299438c868de2",
+    "hotpot:5a835c895542993344746009",
+    "hotpot:5adc02905542994650320c50",
+    "hotpot:5a77d3f555429967ab1052c5",
+    "hotpot:5abbc3a955429931dba144f9",
+    "hotpot:5a87b30c5542994846c1cdcf",
+    "hotpot:5a8fa89c55429918e830d29f",
+    "hotpot:5a8f799d55429918e830d22d",
+    "hotpot:5ae2098e5542997f29b3c21b",
+    "hotpot:5ab90a2055429916710eb0ea",
+    "hotpot:5a75abbb5542992d0ec05fd9",
+    "hotpot:5ae60484554299546bf8301a",
+    "hotpot:5ab9d13455429939ce03dc31",
+    "hotpot:5ac38c0755429939154137bb",
+    "hotpot:5a8887a055429938390d3f72",
+    "hotpot:5ae306115542992decbdcdc4",
+    "hotpot:5ae0af5555429945ae95941e",
+    "hotpot:5a7d2aa05542995f4f40221f",
+    "hotpot:5a838fcd5542992ef85e2305",
+    "hotpot:5ac0aab35542992a796ded5c",
+    "hotpot:5ae8295955429952e35eaa6d",
+    "hotpot:5a8ea7f25542995085b37468",
+    "hotpot:5a75ac415542992d0ec05fdb",
+    "hotpot:5ab2d3c5554299295394687a",
+    "hotpot:5a90bdea55429916514e754b",
+    "hotpot:5ae26fad554299495565da6f",
+    "hotpot:5abdf68c5542993f32c2a06b",
+    "hotpot:5abce7d755429959677d6b3a",
+    "hotpot:5abbc2245542992ccd8e7f8a",
+    "hotpot:5a88fa9e5542993b751ca8de",
+    "hotpot:5a81d19b55429926c1cdad90",
+    "hotpot:5a85c3225542992a431d1b95",
+    "hotpot:5ade03c65542990dbb2f7f2e",
+    "hotpot:5ab4341c55429942dd415ede",
+    "hotpot:5a84e1095542997175ce1f25",
+    "hotpot:5a8091515542996402f6a563",
+    "hotpot:5ac54cef5542993e66e822da",
+    "hotpot:5ae7c5ef5542993210983f44",
+    "hotpot:5ae4ebeb55429908b63264bb",
+    "hotpot:5a7a0e745542990783324e1d",
+    "hotpot:5a83d42d5542992ef85e2375",
+    "hotpot:5ac275f155429921a00aaf82",
+    "hotpot:5ab53ef1554299488d4d9920",
+    "hotpot:5a8c9164554299653c1aa0c1",
+    "hotpot:5ac249bd55429951e9e68528",
+    "hotpot:5a835b88554299123d8c2101",
+    "hotpot:5addcfd65542997dc790703e",
+    "hotpot:5a74ee175542996c70cfae41",
+    "hotpot:5adfa6db55429942ec259ad6",
+    "hotpot:5abd04bd5542992ac4f381a9",
+    "hotpot:5a8601f855429960ec39b5fd",
+    "hotpot:5ab4bea15542990594ba9cae",
+    "hotpot:5ae1500655429920d52343cc",
+    "hotpot:5a72ac8a5542992359bc3164",
+    "hotpot:5a88f7bf5542997e5c09a6dd",
+    "hotpot:5ae0b4c15542993d6555ec21",
+    "hotpot:5a85b0c85542994c784ddb40",
+    "hotpot:5abbb0655542992ccd8e7f72",
+    "hotpot:5ab7c3df5542993667794003",
+    "hotpot:5a83411655429966c78a6b5d",
+    "hotpot:5ac55c135542993e66e82345",
+    "hotpot:5abfa2255542993fe9a41e18",
+    "hotpot:5adbe75455429944faac23af",
+    "hotpot:5a7df25a5542990b8f503b02",
+    "hotpot:5ab510cb5542996a3a96a00f",
+    "hotpot:5adfde09554299025d62a369",
+    "hotpot:5a7d22dc5542995ed0d16600",
+    "hotpot:5abdbabe5542993f32c2a028",
+    "hotpot:5a82a55955429966c78a6a70",
+    "hotpot:5ade5e335542992fa25da766",
+    "hotpot:5a7d158155429909bec76947",
+    "hotpot:5a7b7bed5542997c3ec971bc",
+    "hotpot:5add98ef5542997545bbbd82",
+    "hotpot:5abc3f505542993a06baf8b2",
+    "hotpot:5ae3776e5542992e3233c40c",
+    "hotpot:5add564a5542990dbb2f7e38",
+    "musique:2hop__44522_58556",
+    "musique:2hop__29368_29376",
+    "musique:3hop2__132957_132967_40768",
+    "musique:2hop__142198_152093",
+    "musique:2hop__170914_152093",
+    "musique:2hop__488811_30078",
+    "musique:4hop2__71753_158985_70784_61381",
+    "musique:4hop1__199362_765799_282674_759393",
+    "musique:4hop1__151903_5274_458768_33677",
+    "musique:4hop2__105527_14670_8987_8974",
+    "musique:3hop1__857_846_7888",
+    "musique:3hop1__79039_131926_89261",
+    "musique:2hop__66708_573255",
+    "musique:4hop2__9988_261673_70784_61381",
+    "musique:3hop1__105767_443779_52195",
+    "musique:2hop__464479_70131",
+    "musique:3hop1__373866_5189_63702",
+    "musique:4hop1__455862_508773_85832_745702",
+    "musique:2hop__40970_90367",
+    "musique:4hop2__161602_474028_88460_126088",
+    "musique:3hop1__108881_720914_27537",
+    "musique:2hop__695432_18803",
+    "musique:2hop__311931_417706",
+    "musique:4hop1__696484_49925_13759_736921",
+    "musique:3hop1__103751_24918_24991",
+    "musique:2hop__51881_20590",
+    "musique:2hop__96096_78606",
+    "musique:2hop__61714_89309",
+    "musique:3hop1__511157_709625_84283",
+    "musique:2hop__179322_83289",
+    "musique:3hop1__462960_160545_60577",
+    "musique:4hop3__800262_466199_695123_72134",
+    "musique:2hop__403712_793210",
+    "musique:2hop__3739_13529",
+    "musique:2hop__62311_62279",
+    "musique:2hop__252521_80650",
+    "musique:2hop__95172_152907",
+    "musique:4hop3__15567_29339_508306_70744",
+    "musique:2hop__763380_74735",
+    "musique:2hop__103889_86452",
+    "musique:4hop1__341777_508773_85832_745702",
+    "musique:2hop__10515_21567",
+    "musique:4hop3__130404_29339_508306_70744",
+    "musique:3hop2__655849_223623_162182",
+    "musique:3hop2__57238_1926_54362",
+    "musique:3hop2__28727_92991_76291",
+    "musique:2hop__862994_69048",
+    "musique:2hop__96137_62765",
+    "musique:2hop__510679_57816",
+    "musique:2hop__394720_120259",
+    "musique:3hop1__847420_720378_15538",
+    "musique:4hop3__279362_88460_30152_20999",
+    "musique:2hop__71336_604644",
+    "musique:3hop1__67704_237521_291682",
+    "musique:2hop__157339_156796",
+    "musique:2hop__362912_97805",
+    "musique:3hop1__222497_309482_80702",
+    "musique:2hop__481349_302087",
+    "musique:2hop__73719_510545",
+    "musique:2hop__580458_139390",
+    "musique:2hop__146919_29244",
+    "musique:2hop__75207_53316",
+    "musique:2hop__358582_189042",
+    "musique:2hop__39954_65371",
+    "musique:2hop__70584_198548",
+    "musique:3hop1__389955_132457_51423",
+    "musique:2hop__223655_463572",
+    "musique:2hop__49409_67668",
+    "musique:2hop__5190_64006",
+    "musique:2hop__689472_52835",
+    "musique:2hop__88906_55840",
+    "musique:3hop1__280834_547811_41132",
+    "musique:2hop__496792_392646",
+    "musique:3hop1__131829_39743_24526",
+    "musique:3hop1__315504_629431_64412",
+    "musique:2hop__160092_80144",
+    "musique:3hop1__671542_665330_47686",
+    "musique:4hop1__151650_5274_458768_33633",
+    "musique:4hop2__161602_426860_88460_20999",
+    "musique:2hop__45126_807969",
+    "wiki2:37ec0b540bde11eba7f7acde48001122",
+    "wiki2:bbff89ec0bda11eba7f7acde48001122",
+    "wiki2:23d98c100bdc11eba7f7acde48001122",
+    "wiki2:0d58f95c0bdd11eba7f7acde48001122",
+    "wiki2:c97532fb08cb11ebbd93ac1f6bf848b6",
+    "wiki2:abb5994c0bd911eba7f7acde48001122",
+    "wiki2:1c22977c0bdd11eba7f7acde48001122",
+    "wiki2:cd453d020bdd11eba7f7acde48001122",
+    "wiki2:079cbffc0bde11eba7f7acde48001122",
+    "wiki2:ce9c3713087e11ebbd6bac1f6bf848b6",
+    "wiki2:0c4ac7f20bb011ebab90acde48001122",
+    "wiki2:b0f743e3094f11ebbdaeac1f6bf848b6",
+    "wiki2:a9277caa0bdd11eba7f7acde48001122",
+    "wiki2:436b7b0d088411ebbd6dac1f6bf848b6",
+    "wiki2:d3493f98086611ebbd5eac1f6bf848b6",
+    "wiki2:6d273fd80bb011ebab90acde48001122",
+    "wiki2:60c830200bd911eba7f7acde48001122",
+    "wiki2:568572060bdb11eba7f7acde48001122",
+    "wiki2:f093d3e808a611ebbd7fac1f6bf848b6",
+    "wiki2:ec1c9a2a0bda11eba7f7acde48001122",
+    "wiki2:d6aa5bb20bdc11eba7f7acde48001122",
+    "wiki2:75459b1308c511ebbd8eac1f6bf848b6",
+    "wiki2:e9ce3ee6093b11ebbdaeac1f6bf848b6",
+    "wiki2:53625784086511ebbd5eac1f6bf848b6",
+    "wiki2:1b336cb60bdc11eba7f7acde48001122",
+    "wiki2:afbfedfc08c411ebbd8eac1f6bf848b6",
+    "wiki2:88fd0c0c0bdc11eba7f7acde48001122",
+    "wiki2:eae087b2089811ebbd77ac1f6bf848b6",
+    "wiki2:061db5dc0bde11eba7f7acde48001122",
+    "wiki2:6b713cc60baf11ebab90acde48001122",
+    "wiki2:056d106c085311ebbd58ac1f6bf848b6",
+    "wiki2:1857e70a089a11ebbd77ac1f6bf848b6",
+    "wiki2:ed0838b508dc11ebbd9dac1f6bf848b6",
+    "wiki2:43d525ba0baf11ebab90acde48001122",
+    "wiki2:c2fe1cb60baf11ebab90acde48001122",
+    "wiki2:43d16a100baf11ebab90acde48001122",
+    "wiki2:5a04c61108f011ebbda8ac1f6bf848b6",
+    "wiki2:8cb889a1096711ebbdafac1f6bf848b6",
+    "wiki2:c5e1541a0bdd11eba7f7acde48001122",
+    "wiki2:981f1da9087111ebbd63ac1f6bf848b6",
+    "wiki2:bde981ce0bdd11eba7f7acde48001122",
+    "wiki2:ade9a5980baf11ebab90acde48001122",
+    "wiki2:2de08f6d08a611ebbd7eac1f6bf848b6",
+    "wiki2:383f1ba4084b11ebbd56ac1f6bf848b6",
+    "wiki2:ee702173086311ebbd5eac1f6bf848b6",
+    "wiki2:6a7061c00bb011ebab90acde48001122",
+    "wiki2:a809d3720bdd11eba7f7acde48001122",
+    "wiki2:3e87136c0bdb11eba7f7acde48001122",
+    "wiki2:f59c56560baf11ebab90acde48001122",
+    "wiki2:c8c9d8d80baf11ebab90acde48001122",
+    "wiki2:5a73c5a8099811ebbdb0ac1f6bf848b6",
+    "wiki2:95cf97b40bdd11eba7f7acde48001122",
+    "wiki2:f46100560bdd11eba7f7acde48001122",
+    "wiki2:89f07a780bdb11eba7f7acde48001122",
+    "wiki2:aa73a9fb08b611ebbd88ac1f6bf848b6",
+    "wiki2:e051bd000bdb11eba7f7acde48001122",
+    "wiki2:df6b3eda086f11ebbd62ac1f6bf848b6",
+    "wiki2:f02ac77f096711ebbdafac1f6bf848b6",
+    "wiki2:3b5373780bb011ebab90acde48001122",
+    "wiki2:03d651ba0bdb11eba7f7acde48001122",
+    "wiki2:cd552da408d411ebbd98ac1f6bf848b6",
+    "wiki2:09b198a80bde11eba7f7acde48001122",
+    "wiki2:835ec3be0bda11eba7f7acde48001122",
+    "wiki2:c5ae29fc0bdb11eba7f7acde48001122",
+    "wiki2:b6990ebe0bdb11eba7f7acde48001122",
+    "wiki2:332132e80bde11eba7f7acde48001122",
+    "wiki2:cd0964240bda11eba7f7acde48001122",
+    "wiki2:3d02aa320bdc11eba7f7acde48001122",
+    "wiki2:e84c09e00bd911eba7f7acde48001122",
+    "wiki2:caa0a77908ac11ebbd83ac1f6bf848b6",
+    "wiki2:5d85a6c808ae11ebbd83ac1f6bf848b6",
+    "wiki2:29b5eaf60bb011ebab90acde48001122",
+    "wiki2:f12995e108ab11ebbd82ac1f6bf848b6",
+    "wiki2:73c202840bdc11eba7f7acde48001122",
+    "wiki2:82e088ac0bb011ebab90acde48001122",
+    "wiki2:b4f9e31c087511ebbd67ac1f6bf848b6",
+    "wiki2:21a93ff60bde11eba7f7acde48001122",
+    "wiki2:391f3d3a0bb011ebab90acde48001122",
+    "wiki2:123d23820bdb11eba7f7acde48001122",
+    "wiki2:ab28bfb6097d11ebbdb0ac1f6bf848b6",
+    "qst_0322",
+    "qst_0226",
+    "qst_0038",
+    "qst_0123",
+    "qst_0093",
+    "qst_0342",
+    "qst_0341",
+    "qst_0129",
+    "qst_0429",
+    "qst_0099",
+    "qst_0109",
+    "qst_0184",
+    "qst_0056",
+    "qst_0122",
+    "qst_0227",
+    "qst_0423",
+    "qst_0302",
+    "qst_0209",
+    "qst_0183",
+    "qst_0325",
+    "qst_0440",
+    "qst_0026",
+    "qst_0088",
+    "qst_0198",
+    "qst_0335",
+    "qst_0133",
+    "qst_0323",
+    "qst_0003",
+    "qst_0036",
+    "qst_0324",
+    "qst_0016",
+    "qst_0337",
+    "qst_0043",
+    "qst_0369",
+    "qst_0402",
+    "qst_0077",
+    "qst_0398",
+    "qst_0021",
+    "qst_0250",
+    "qst_0148",
+    "qst_0409",
+    "qst_0274",
+    "qst_0439",
+    "qst_0416",
+    "qst_0393",
+    "qst_0290",
+    "qst_0258",
+    "qst_0407",
+    "qst_0242",
+    "qst_0085",
+    "qst_0145",
+    "qst_0107",
+    "qst_0291",
+    "qst_0159",
+    "qst_0391",
+    "qst_0132",
+    "qst_0238",
+    "qst_0356",
+    "qst_0326",
+    "qst_0443"
+  ],
+  "timing_query_manifest_sha256": "d266e46f3b30e7281740c391d573208123217893cbd1a1e78fb768cc5210a840"
+}

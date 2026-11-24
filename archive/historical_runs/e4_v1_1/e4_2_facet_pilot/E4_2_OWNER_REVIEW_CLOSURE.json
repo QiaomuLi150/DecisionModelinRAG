@@ -1,0 +1,48 @@
+{
+  "accepted_raw_rows": 1400,
+  "all_accepted_rows_valid": true,
+  "candidate_view_contract": "common_word_capped_256_v1",
+  "cohorts": {
+    "cal_queries": 30,
+    "cal_smoke_policy_rows": 150,
+    "diagnostic_enriched_queries": 50,
+    "full_policy_rows": 1250,
+    "representative_queries": 200
+  },
+  "e4_1_status": "E4_1_ROBUSTNESS_ACCEPTED_WITH_LIMITATIONS",
+  "future_phases": {
+    "E4_3": "NOT_RUN",
+    "E4_5": "NOT_RUN"
+  },
+  "jev_calls": 0,
+  "latency_status": "NOT_COMPARABLE_SHARED_GPU",
+  "limitations": [
+    "CSSR metrics are annotated evidence-retention proxies, not factual correctness",
+    "source-group sensitivity is limited by dominant E3-D connected component",
+    "semantic placebo neutrality and entity-binding consistency are not independently verified",
+    "shared-GPU timings are not production cost/QPS estimates"
+  ],
+  "liquid_pointwise_joint_contract": "VALIDATED_SAME_OFFICIAL_SYSTEM_ONE_INTERFACE",
+  "paid_api_calls": 0,
+  "physical_forward_calls_full": 6503,
+  "physical_forward_calls_total": 7291,
+  "policies": [
+    "jina_facet_coverage",
+    "jina_native_top5",
+    "liquid_joint_facet_coverage",
+    "liquid_native_top5",
+    "liquid_pointwise_facet_coverage"
+  ],
+  "reserved_outcomes_accessed": false,
+  "status": "E4_2_PILOT_OWNER_REVIEW_READY",
+  "tests": {
+    "full_repository": {
+      "failed": 0,
+      "passed": 135
+    },
+    "targeted_e4_2": {
+      "failed": 0,
+      "passed": 10
+    }
+  }
+}

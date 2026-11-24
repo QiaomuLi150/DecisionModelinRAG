@@ -1,0 +1,9 @@
+{
+  "status": "FAILED_BEFORE_RAW_FREEZE",
+  "reason": "runner progress-report NameError: undefined variable w",
+  "secondary_runtime_finding": "decoder-only generation emitted right-padding warning; corrected V2 sets tokenizer.padding_side=left",
+  "native_requests_completed_before_abort": "not persisted as valid evidence",
+  "raw_output_published": false,
+  "superseded_by": "PROTOCOL_V2.json",
+  "historical_artifacts_modified": false
+}

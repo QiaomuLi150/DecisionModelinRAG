@@ -1,0 +1,6 @@
+{
+  "experiment_id": "v1_5_c1_two_stage_specialist",
+  "status": "BLOCKED_DEDICATED_GPU_UNAVAILABLE_AT_PREFLIGHT",
+  "model_calls": 0,
+  "results": "not produced"
+}

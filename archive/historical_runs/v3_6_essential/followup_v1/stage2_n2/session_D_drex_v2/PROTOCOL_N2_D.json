@@ -1,0 +1,18 @@
+{
+  "anchor_status": "NOT_IN_SESSION_D_SERVER_OCCUPANCY; same-session Jina/PPLX anchors pending",
+  "attempts": 3,
+  "cohort": "C360",
+  "cohort_sha256": "b871eaf61589542f18f827561becd79201732eaf541a055fe8aae4fc6b811ce4",
+  "cohort_size": 360,
+  "concurrency": 1,
+  "failure_policy": "no retries; failures retain elapsed time and error class",
+  "frozen_bright_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+  "gpu_slot": "D",
+  "labels_joined": false,
+  "model_revision": "3e6d164cb5c8cf264eec167905cc2448d89ea97d",
+  "native_interface": "official /v1/systemone typed choice probabilities",
+  "server_url": "loopback-only",
+  "session": "D",
+  "stage": "N2_Drex_v2_native_C360",
+  "status": "FROZEN_PRE_OUTCOME_PARTIAL"
+}

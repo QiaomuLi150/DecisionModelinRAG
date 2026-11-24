@@ -1,0 +1,15 @@
+{
+  "experiment_id": "v1_5_c4_winnow_rerun",
+  "status": "BLOCKED_DEDICATED_GPU_UNAVAILABLE_AT_PREFLIGHT",
+  "purpose": "Optional exact-runtime v1.3 R5 Winnow rerun under the same dedicated timing contract.",
+  "source_protocol": "results/v1_3/r5_winnow_budget_v2/PROTOCOL_V2.json",
+  "source_protocol_sha256": "5ea8ea34e9906f6965c3452c76a712caee3e549c52d40f6d26e8c3205d2a3e02",
+  "resource_gate": "results/v1_3/r5_winnow_budget_v2/R5_RESOURCE_GATE.json",
+  "resource_gate_sha256": "891b218da5d03cf530520af752f58a9162c35cb5f490f675492aa7d77f9f232d",
+  "gate": {
+    "model_calls": 0,
+    "reason": "The inherited R5 dedicated-GPU gate remained unsatisfied at v1.5 preflight.",
+    "consequence": "No new Winnow timing or quality result is claimed."
+  },
+  "historical_artifacts_modified": false
+}

@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-15T21:22:13.511849+00:00",
+  "factual_correctness": "NOT_VERIFIED",
+  "focused_returncode": 0,
+  "full_regression_collected": 295,
+  "full_regression_returncode": 0,
+  "garage_source_independence": "NOT_ESTABLISHED",
+  "gate": "E7_VALIDATED_EVIDENCE_READY",
+  "jev_calls": 0,
+  "native_attempts": 1600,
+  "paid_api_calls": 0,
+  "planned_native_attempts": 1600,
+  "provenance_manifest_sha256": "309ca991583e2cba4298909ada82b5933e758b593d0b9bb0d674091b532ef986",
+  "reserved_access": false,
+  "schema": "DECISIONRAG-E7-FINAL-OWNER-REVIEW-GATE-V1",
+  "subgates": {
+    "G0_provenance": "PASS",
+    "GA2_secondary_contract_audit": "PASS_WITH_LIMITATIONS",
+    "GA_primary_native_contract": "PASS_WITH_LIMITATIONS",
+    "GB_repeatability_order": "PASS",
+    "GC_ledger": "PASS",
+    "GD_closure": "PASS"
+  }
+}

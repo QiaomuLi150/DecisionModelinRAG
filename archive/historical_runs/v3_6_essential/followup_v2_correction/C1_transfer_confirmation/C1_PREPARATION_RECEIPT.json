@@ -1,0 +1,23 @@
+{
+  "Ls": [
+    2048,
+    4096,
+    6144,
+    8192
+  ],
+  "datasets": {
+    "enterprise": 500,
+    "musique": 2167
+  },
+  "formula": "max(0,floor((L-h(q)-128)/20))",
+  "manifest": "results/v2_1_replication/stage0_preflight_v2_hybrid/INPUT_MANIFEST_V2_HYBRID.jsonl",
+  "original_rows": 2667,
+  "prepared_files": {
+    "2048": "results/v3_6_essential/followup_v2_correction/C1_transfer_confirmation/prepared_L2048.jsonl",
+    "4096": "results/v3_6_essential/followup_v2_correction/C1_transfer_confirmation/prepared_L4096.jsonl",
+    "6144": "results/v3_6_essential/followup_v2_correction/C1_transfer_confirmation/prepared_L6144.jsonl",
+    "8192": "results/v3_6_essential/followup_v2_correction/C1_transfer_confirmation/prepared_L8192.jsonl"
+  },
+  "scan_rows": 10668,
+  "status": "PREPARED"
+}

@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Does truncating candidate text make decision models competitive? Equal-prefix truncation to 8,192 tokens on BRIGHT}\label{tab:budget}
+\scriptsize\setlength{\tabcolsep}{3.2pt}
+\begin{tabular}{@{}l rr rr r rr@{}}\toprule
+ & \multicolumn{2}{c}{Done (\%)} & \multicolumn{2}{c}{nDCG@5} & Jina & \multicolumn{2}{c}{$\Delta$ of truncated vs}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(l){7-8}
+Decision model & default & trunc. & default & trunc. & same text & Jina & BM25 Top-5\\
+\midrule
+PPLX Decider & 44.1 & 99.7 & 0.0813 & \textbf{0.1928} & 0.1765 & $\mathbf{+.0163}$ & $\mathbf{+.0598}$\\
+Kev-9B & 46.8 & 100 & 0.0663 & 0.1213 & 0.1779 & $-.0566$ & $-.0116$\\
+Drex-DLM & 47.8 & 100 & 0.0710 & 0.1187 & 0.1770 & $-.0582$ & $-.0142$\\
+Winnow-12B & 79.6 & 75.5 & 0.1599 & 0.1428 & 0.1844$^a$ & $-.0415$ & $+.0099$\\
+\bottomrule\end{tabular}
+\tabnote{Jina same text: Jina scores exactly the truncated text the decision model read. $^a$\,No same-text control exists for Winnow-12B, whose truncated run used a different server build; its column shows full-text Jina.}
+\end{table}

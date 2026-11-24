@@ -1,0 +1,14 @@
+{
+  "policy": "pplx_two_stage",
+  "order_id": "perm_seed_20261020",
+  "n_requests": 1934,
+  "valid": 1934,
+  "failures": 0,
+  "failure_classes": {},
+  "load_ms": 31823.86300712824,
+  "elapsed_s": 3319.7657058797777,
+  "raw_sha256": "3a8dff2a18ab9b3022db074aa317a12b9e3e79dfe1d76bdb4a792179947a65d2",
+  "labels_joined": false,
+  "gpu_index_requested": 4,
+  "model_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+}

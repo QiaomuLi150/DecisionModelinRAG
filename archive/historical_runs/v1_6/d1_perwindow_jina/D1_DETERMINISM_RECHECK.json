@@ -1,0 +1,130 @@
+{
+  "evaluated": 20,
+  "mismatches": [],
+  "records": [
+    {
+      "canonical_id": "biology:52",
+      "order_id": "perm_seed_2",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "theoremqa_questions:TheoremQA_wenhuchen/jensen2.json",
+      "order_id": "original",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "earth_science:23",
+      "order_id": "perm_seed_3",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "aops:aops_2000_AIME_I_Problems/Problem_9",
+      "order_id": "perm_seed_5",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "stackoverflow:114",
+      "order_id": "original",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "sustainable_living:29",
+      "order_id": "reversed",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "earth_science:13",
+      "order_id": "perm_seed_4",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "theoremqa_questions:TheoremQA_maxku/ipnetwork5-mac.json",
+      "order_id": "original",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "stackoverflow:102",
+      "order_id": "perm_seed_5",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "theoremqa_theorems:TheoremQA_wenhuchen/kepler's_law1.json",
+      "order_id": "perm_seed_2",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "pony:38",
+      "order_id": "reversed",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "theoremqa_questions:TheoremQA_tonyxia/semiconductor5.json",
+      "order_id": "perm_seed_2",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "theoremqa_questions:TheoremQA_xinyi/rate_distortion_function_1.json",
+      "order_id": "perm_seed_1",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "pony:44",
+      "order_id": "perm_seed_1",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "pony:65",
+      "order_id": "reversed",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "earth_science:60",
+      "order_id": "reversed",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "stackoverflow:4",
+      "order_id": "perm_seed_4",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "aops:aops_2015_AMC_12A_Problems/Problem_22",
+      "order_id": "perm_seed_2",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "sustainable_living:67",
+      "order_id": "perm_seed_3",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    },
+    {
+      "canonical_id": "leetcode:27",
+      "order_id": "original",
+      "selected_ids_equal": true,
+      "status": "PASS"
+    }
+  ],
+  "requested": 20,
+  "seed": 731,
+  "selected_or_score_trace_mismatches": 0,
+  "status": "PASS"
+}

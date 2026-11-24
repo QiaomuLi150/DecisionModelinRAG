@@ -1,0 +1,56 @@
+{
+  "bootstrap": {
+    "quality_draws": 40000,
+    "seed": 731,
+    "serving_draws": 10000
+  },
+  "budgets": {
+    "k": 20,
+    "rho": 128,
+    "single": [
+      1024,
+      2048,
+      3072,
+      4096,
+      6144,
+      8192
+    ],
+    "two_stage": [
+      2048,
+      4096,
+      8192
+    ],
+    "window_k": 10
+  },
+  "experiment": "DecisionRAG v3.6 Essential Verification",
+  "gpu_slots": [
+    "A",
+    "B",
+    "C"
+  ],
+  "models": {
+    "jina_v3_5_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+    "pplx_decider_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+  },
+  "population": "BRIGHT frozen BM25 Top-20, 1384 queries, 12 domains",
+  "replication": {
+    "complete_primary_sessions": 2,
+    "required_complete_primary_sessions": 3,
+    "third_session": "Jina-only"
+  },
+  "restrictions": {
+    "new_retrieval": false,
+    "paid_api_calls": 0,
+    "protected_holdout_access": false,
+    "raw_traces_in_export": false
+  },
+  "serving": {
+    "attempts": 3,
+    "cohort": "C360",
+    "concurrency": 1,
+    "labels_joined": false,
+    "timed_boundary": "view preparation, native calls, parsing, ID mapping, Top-5 packaging"
+  },
+  "slate_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+  "status": "PARTIAL"
+}

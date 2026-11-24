@@ -1,0 +1,81 @@
+{
+  "artifact_sha256": {
+    "E3_D_R_AUDIT_PROTOCOL.json": "d07b10122fd12b902b9f84d321a06938fd296ffece5929c1ab536a5ab887920c",
+    "E3_D_R_AUTHENTICATED_INPUT_INVENTORY.json": "d8610df3a8d038ec1f49ce9626f3bb056eb37d99de9efaa7c797c739809f9335",
+    "E3_D_R_BLINDED_HUMAN_REVIEW_SCHEMA.json": "4fb4eefb72f0d39dced3662357c325774e51ae6e65d4376e9fd5705130bca26c",
+    "E3_D_R_CROSS_PHASE_EVIDENCE_TABLES.md": "68de2a01c5ed6a8777bfe582a48d384e62a1fe7b993283c7757d781d65a0f398",
+    "E3_D_R_FINAL_SCIENTIFIC_REPORT.md": "87c533c2d8c315b6670e2c84b48f395968738c529748f493e41d5ee256cce9a7",
+    "E3_D_R_FINANCE_ANSWER_AUDIT.jsonl": "3f3867c1264c6be5570450d29b648ed12e386ce0bda4af33b13bc5ff8ade453d",
+    "E3_D_R_FINANCE_FAILURE_TAXONOMY.csv": "38105592d4c9ae4c98bf8f0e14f8a829b650269f897504e81e03d4a5f62649f5",
+    "E3_D_R_FINANCE_LEGACY_VS_CANONICAL_SCORECARD.csv": "9c80b2d37db6a8b46a74c3038d8f5fd9b1439bdfe1b7f3376e55514bcbb92023",
+    "E3_D_R_FINANCE_NORMALIZER_VALIDATION.md": "e1cbaa5afbe0afb6bdd4713022b59ddbf5da0480b8140bdee240d0a6bc68cfca",
+    "E3_D_R_FULL_REGRESSION_REPORT.md": "fd910d4abadd866283ac91458c6d2d2fc30ee6cda294564b24cb922edd59021d",
+    "E3_D_R_HOLDOUT_AUDIT.json": "909106ed1cd2bb9d1f38276b84e83e13d0ef39cd9fca72f14a5e98a811c5b6aa",
+    "E3_D_R_MULTIHOP_EVIDENCE_ANSWER_4X4.csv": "9dd1ddf5814e6f5b70445032668fc62ffc2a9d11acfc00f886aaa924599a3258",
+    "E3_D_R_MULTIHOP_PAIRED_ANSWER_TRANSITIONS.csv": "53b0f30d76d4fe4fa0ac59ada85d6b188171eb60b502456790846fa128a8b5fb",
+    "E3_D_R_OWNER_REVIEW_GATE.md": "1a2f34a9b9978782c83676015cb379b4b6ffc872de867a8d048fde041110a321",
+    "E3_D_R_PAPER_METRIC_DICTIONARY.md": "9fa5a483754f4a5017ff7a13346255382eb743207380e77f9874a55ae976a2de",
+    "E3_D_R_PAPER_TABLES.csv": "64d012c39201c1c2d1fe50bb44ba6df72a279fdf8b3ec04ecd73ac84232a9e19",
+    "E3_D_R_PRIMARY_PAIRED_BOOTSTRAP.csv": "c1f9c11805ba8a03a31f43a893f91b879f5a2b525464b486203351b2f8850aa1",
+    "E3_D_R_REFERENCE_JOIN_AND_MISSINGNESS.csv": "ed7fa4ab80a15f9150cb9685e52031818d61e4195018264fe87623e4ee561c2e",
+    "E3_D_R_REVIEWER_CASEBOOK.md": "8220769f01006e98479e1b1e65114a1d3be0e40a442938da9594c4be15e224e9"
+  },
+  "gpu_use": false,
+  "historical_artifacts_overwritten": false,
+  "holdout_status": "E3_0_QUERY_HELD_OUT_ONLY",
+  "input_inventory_sha256": "d8610df3a8d038ec1f49ce9626f3bb056eb37d99de9efaa7c797c739809f9335",
+  "jev_calls": 0,
+  "new_model_inference": false,
+  "paid_api_calls": 0,
+  "reader_regenerated": false,
+  "reserved_outcomes_accessed": false,
+  "source_phase_hashes": {
+    "E3_A_EXECUTION_MANIFEST.json": "a3d2bba4411e8e22e8100254e295919e6895996a54961682ed89a81f5c421492",
+    "E3_A_FINAL_SCIENTIFIC_REPORT.md": "0e8cb89c62e5205186b77edbeb76823cfd261d1ee203ad0f34c7c33ccce56cf5",
+    "E3_A_PAIRED_ANSWER_STATS.csv": "e80495c067d391b59bfc2799e2758ad0d37b8cc729d442383f46ef187955e4a2",
+    "E3_A_PAIRED_EVIDENCE_STATS.csv": "dba426108244a20d2a8bcc33f7bcabf01f5e553c5001d9dfb33758073cbf792e",
+    "E3_B_CONTEXT_STABILITY_AND_EFFECTS.csv": "714f3b9ef39ab67159d93c7674ed45f41a427246192659752785a9a23b1d761d",
+    "E3_B_FINAL_SCIENTIFIC_REPORT.md": "dda04216d18d3ee671e08ab4178c4ab47c78c8071ec9ae94e627a1c0d8d52746",
+    "E3_B_PROVENANCE_MANIFEST.json": "7441c6b515f0f7133919e6f202e1cfb12b71130789886aa032dfd5912ccd0f9d",
+    "E3_C_FINAL_SCIENTIFIC_REPORT.md": "b8946fd5cbe5d1285b7e308072594cb5c4efa8bcd89f7d9f8f458a0a33076858",
+    "E3_C_PRIMARY_PAIRED_STATISTICS.csv": "7541d5c0f011d28f55bdaf47ceb86025958151e9ffcaa10be09c3100e1a4401a",
+    "E3_C_PROVENANCE_MANIFEST.json": "985aa0d0c94b8559619057852d0c6e5d421691b34cf0ac096623f798507dbb90",
+    "E3_C_SELECTOR_LATENCY_SUMMARY.csv": "def0fb752480df48547443aa9e16f43dcbbd6553ffab8fbc02ee24d51cbac7ea",
+    "E3_D_EVIDENCE_QUALITY_SCORECARD.csv": "fc0c225545fab9c0961e77e655e6620f9dcc3059726c004aa737970bf8618ec2",
+    "E3_D_FINAL_SCIENTIFIC_REPORT.md": "a79d8b64423f18bec5f19e94be45c9113e787749f89dee4e88d4d7100075c2fa",
+    "E3_D_PROVENANCE_MANIFEST.json": "9dbe4c24206d234330f658a7b0e976f6d63eeed2be77032212212d2aa44b5c28"
+  },
+  "status": "E3_D_R_OWNER_REVIEW_READY",
+  "targeted_tests": {
+    "fixtures": [
+      {
+        "fixture": "$1.2 billion vs 1200 million",
+        "pass": true
+      },
+      {
+        "fixture": "12% vs 12 percentage points",
+        "pass": true
+      },
+      {
+        "fixture": "2021 vs 2022",
+        "pass": true
+      },
+      {
+        "fixture": "-12 vs 12",
+        "pass": true
+      },
+      {
+        "fixture": " vs 12",
+        "pass": true
+      },
+      {
+        "fixture": "url: prefix normalization",
+        "pass": true
+      }
+    ],
+    "status": "PASS",
+    "targeted_failed": 0,
+    "targeted_passed": 6,
+    "targeted_tests": 6
+  }
+}

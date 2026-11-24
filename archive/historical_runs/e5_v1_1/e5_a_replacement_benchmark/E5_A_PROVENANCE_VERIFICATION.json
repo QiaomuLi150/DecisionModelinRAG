@@ -1,0 +1,13 @@
+{
+  "full_collected": 162,
+  "full_pass": true,
+  "historical_artifacts_modified": false,
+  "manifest_sha256": "f0a526aff53bd62a013694a941eb97497eb720467c52ab5d328387774230961d",
+  "new_artifact_count": 32,
+  "outcomes_altered_after_a0": false,
+  "source_slate_expected": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+  "source_slate_match": true,
+  "source_slate_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+  "targeted_collected": 5,
+  "targeted_pass": true
+}

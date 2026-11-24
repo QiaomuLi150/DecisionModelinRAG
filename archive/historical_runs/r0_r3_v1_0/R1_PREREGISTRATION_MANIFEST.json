@@ -1,0 +1,21 @@
+{
+  "decision": "R1_NO_ADMISSIBLE_POPULATION",
+  "max_questions": 300,
+  "model_inference_calls": 0,
+  "population": null,
+  "primary_endpoint": "paired deterministic answer/reference agreement only if independently admissible",
+  "protected_holdout_opened": false,
+  "reader_contract": "Qwen3-VL-8B-Instruct existing frozen local reader; no changes authorized",
+  "secondary_endpoints": [
+    "normalized token F1 proxy",
+    "context feasibility only when native oversized population exists"
+  ],
+  "selection_seed": null,
+  "statistics": {
+    "bootstrap": "source-group-aware where groups are authenticated",
+    "resamples": 5000,
+    "seed": 731
+  },
+  "status": "REJECTED_BEFORE_OUTCOME_INFERENCE",
+  "stop_rule": "No model inference if no source-independent, label-valid, reproducible population passes admission."
+}

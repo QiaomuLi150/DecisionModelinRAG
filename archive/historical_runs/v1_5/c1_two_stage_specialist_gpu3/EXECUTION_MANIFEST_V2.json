@@ -1,0 +1,25 @@
+{
+  "status": "FROZEN_PRE_OUTCOME",
+  "protocol": "results/v1_5/c1_two_stage_specialist_gpu3/PROTOCOL_V2.json",
+  "model_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+  "gpu_index": 3,
+  "top20_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+  "budget_manifest_sha256": "c8d9299711a0c64b94ccd139e4f6329dc8779eb267f534b90c085e3d2d3f9a94",
+  "orders": [
+    "original",
+    "reversed",
+    "perm_seed_1",
+    "perm_seed_2",
+    "perm_seed_3",
+    "perm_seed_4",
+    "perm_seed_5"
+  ],
+  "policies": [
+    "jina_two_stage_full",
+    "jina_two_stage_pplxtext",
+    "jina_pplx_budget"
+  ],
+  "labels_accessed": false,
+  "protected_holdout_accessed": false,
+  "paid_api_calls": 0
+}

@@ -1,0 +1,17 @@
+model,workload,p95_latency_ms,failure_rate,peak_memory_mib
+pplx_decider,scifact,362.07984471693635,0.0,50023.69
+pplx_decider,garage,720.8627523854371,0.0,50311.51
+liquid_d1_3b,scifact,55.68707254715264,0.0,6104.73
+liquid_d1_3b,garage,193.9601795282212,0.0,6517.94
+startlux_decision_4b,scifact,113.87569620274007,0.0,8919.35
+startlux_decision_4b,garage,381.39071241021156,0.0,9983.1
+amos_1_small_2b,scifact,57.004027627408504,0.0,4484.68
+amos_1_small_2b,garage,188.12109297141427,0.0,4905.97
+jina_v3_5,scifact,41.38536490499973,0.0,1228.53
+jina_v3_5,garage,84.43844527937463,0.0,1451.35
+qwen3_reranker_4b,scifact,193.77970406785607,0.0,8035.22
+qwen3_reranker_4b,garage,322.87260727025546,0.0,8895.37
+bge_reranker_v2_m3,scifact,93.25797338970004,0.0,2215.31
+bge_reranker_v2_m3,garage,232.31142130680374,0.0,2420.65
+qwen3_reranker_0_6b,scifact,120.57305020280182,0.0,1327.82
+qwen3_reranker_0_6b,garage,118.10890776105224,0.0,1871.25

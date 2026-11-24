@@ -1,0 +1,18 @@
+{
+  "actual_model_input_hash_rows": 30,
+  "cache_reuse_rows": 0,
+  "config_sha256": "dc4ca6f64fd1deed35e03f99729794a06c57928eb3cbfaca546a2641c2e8a334",
+  "denominator_correction": null,
+  "downloads": 0,
+  "expected_rows": 30,
+  "jev_calls": 0,
+  "model": "bge",
+  "ok_rows": 30,
+  "paid_api_calls": 0,
+  "physical_forward_evidence_rows": 30,
+  "rows": 30,
+  "stage": "N2_CAL",
+  "status": "PASS",
+  "unique_queries": 30,
+  "valid_unique_20_candidate_rows": 30
+}

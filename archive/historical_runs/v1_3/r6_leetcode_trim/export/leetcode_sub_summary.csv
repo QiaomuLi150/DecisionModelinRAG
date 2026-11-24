@@ -1,0 +1,9 @@
+policy,rows,valid,scored,mean_ndcg5,failed
+drex_dlm_budget_sub,142,140,140,0.1355885525647781,2
+drex_dlm_native_sub,142,126,126,0.1596182142923084,16
+jina_drex_budget_sub,142,0,0,,142
+jina_drex_native_sub,142,140,140,0.26671111291797506,2
+jina_kev_budget_sub,142,0,0,,142
+jina_kev_native_sub,142,139,139,0.2653480543838514,3
+kev9_budget_sub,142,139,139,0.08490587930700187,3
+kev9_native_sub,142,132,132,0.10818414209344754,10

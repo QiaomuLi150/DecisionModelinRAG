@@ -1,0 +1,11 @@
+{
+  "command": [
+    "./Production_Project/MultiModalRAG/venv/bin/python",
+    "scripts/e2_n_n4_analyze.py"
+  ],
+  "returncode": 0,
+  "stdout_tail": "{\"paired_rows\": 104, \"quality_rows\": 84, \"selection_rows\": 59738, \"status\": \"PASS_WITH_LIMITATIONS\"}\n",
+  "stderr_tail": "",
+  "cuda_visible_devices": "",
+  "network": "offline"
+}

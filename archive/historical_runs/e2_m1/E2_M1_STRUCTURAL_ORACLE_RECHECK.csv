@@ -1,0 +1,7 @@
+cohort,dataset,n_items,n_eligible,n_retrieval_conditional,n_complete_gold_collisions,n_quota_oracle_feasible,pointwise_quartet_success,joint_quartet_success,pointwise_quota_oracle_violations,joint_quota_oracle_violations,oracle_definition
+track_a,pooled,3767,3767,1490,294,1196,356,543,0,0,conditional and no quartet contains more than one gold document
+track_a,hotpot,800,800,598,114,484,167,270,0,0,conditional and no quartet contains more than one gold document
+track_a,musique,2167,2167,555,125,430,60,107,0,0,conditional and no quartet contains more than one gold document
+track_a,wiki2,800,800,337,55,282,129,166,0,0,conditional and no quartet contains more than one gold document
+track_b,pooled,500,443,330,12,318,120,183,0,0,conditional and no quartet contains more than one gold document
+track_b,enterprise,500,443,330,12,318,120,183,0,0,conditional and no quartet contains more than one gold document

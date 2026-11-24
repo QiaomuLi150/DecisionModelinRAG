@@ -1,0 +1,60 @@
+{
+  "bootstrap": {
+    "repetitions": 5000,
+    "seed": 731,
+    "unit": "query and authenticated source-group sensitivity"
+  },
+  "candidate_text_contract": {
+    "applies_to": "all five E4-2 policies",
+    "historical_reuse": "not accepted unless complete input/view hashes match this contract",
+    "max_words": 256,
+    "name": "common_word_capped_256_v1",
+    "reason": "full source view produced a recorded Jina shared-GPU OOM during pre-pilot smoke; all policies are rerun under the same frozen view"
+  },
+  "facet_count": [
+    2,
+    4
+  ],
+  "facet_method": "deterministic_question_only_v1",
+  "latency_status": "shared GPU unless isolated snapshot proves otherwise",
+  "native_contracts": {
+    "jina_facet_coverage": {
+      "interface": "same Jina rerank(query=facet, documents=Top20) per facet"
+    },
+    "jina_native_top5": {
+      "interface": "official local AutoModel remote-code rerank(query, documents)",
+      "repo": "jinaai/jina-reranker-v3.5",
+      "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc"
+    },
+    "liquid_joint_facet_coverage": {
+      "interface": "same Liquid system_one, all Top20 candidates and candidate-facet questions in one shared state"
+    },
+    "liquid_native_top5": {
+      "interface": "authenticated E3-D system_one shared-state native noul",
+      "repo": "LiquidAI/d1-3B",
+      "revision": "051bcc464b01b9f92942b364d9586b0ef5912432"
+    },
+    "liquid_pointwise_facet_coverage": {
+      "interface": "same Liquid system_one, one candidate state with all frozen facet questions"
+    }
+  },
+  "optimizer": {
+    "calibration": "locked before pilot outcomes",
+    "lambda_redundancy": 0.05,
+    "name": "rank_normalized_weighted_coverage_minus_source_redundancy",
+    "score_transform": "within-facet descending rank to [0,1]; no cross-model raw-score calibration",
+    "tie_break": "original Top-20 order then canonical ID",
+    "top5_size": 5,
+    "weights": "1.0 per valid facet"
+  },
+  "policies": [
+    "jina_native_top5",
+    "jina_facet_coverage",
+    "liquid_native_top5",
+    "liquid_pointwise_facet_coverage",
+    "liquid_joint_facet_coverage"
+  ],
+  "protocol": "DecisionRAG E4-2 v1.1",
+  "seed": 731,
+  "support_ids_in_policy_input": false
+}

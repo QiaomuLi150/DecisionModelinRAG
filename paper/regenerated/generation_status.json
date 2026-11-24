@@ -1,0 +1,19 @@
+{
+  "status": "PARTIAL_REGENERATION",
+  "generated": [
+    "bright_e9_model_summary.csv",
+    "bright_summary.csv",
+    "cqadupstack_forum_contrasts.csv",
+    "cqadupstack_summary.csv",
+    "frontier_points.csv",
+    "order_multistage_results.csv",
+    "transfer_paired_contrasts.csv",
+    "transfer_summary.csv"
+  ],
+  "not_generated": [
+    "paper source TeX tables",
+    "Figures 1-3 images",
+    "full 21-model/11-benchmark screen"
+  ],
+  "reason": "required original source inputs/plot program and complete screen matrix are not present in the release"
+}

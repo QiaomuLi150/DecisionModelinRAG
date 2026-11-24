@@ -1,0 +1,5 @@
+{
+  "reader_calls": 0,
+  "reason": "The release gold_answer/reasoning fields do not provide an independently verified answer-scoring contract; no reader inference was run.",
+  "status": "BRIGHT_READER_NOT_EVALUABLE"
+}

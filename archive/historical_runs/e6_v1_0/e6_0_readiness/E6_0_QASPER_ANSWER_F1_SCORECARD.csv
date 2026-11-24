@@ -1,0 +1,5 @@
+cohort,policy,n_qids,accepted_n,mean_answer_f1,answer_f1_ci95_group_bootstrap,source_groups,answer_type_counts,status
+representative,pplx_decider,200,200,0.21059984633321763,"[0.16957719999316348, 0.25572076649950737]",200,"{""abstractive"": 51, ""boolean"": 24, ""extractive"": 124, ""none"": 1}",POST_HOC_OFFICIAL_QASPER_ANSWER_F1
+representative,jina35,200,200,0.19939438866127093,"[0.15914806617313193, 0.24339191606109456]",200,"{""abstractive"": 50, ""boolean"": 24, ""extractive"": 125, ""none"": 1}",POST_HOC_OFFICIAL_QASPER_ANSWER_F1
+diagnostic_enriched,pplx_decider,55,55,0.2510910806803741,"[0.17934039913160854, 0.3448399701031046]",48,"{""abstractive"": 17, ""boolean"": 4, ""extractive"": 34}",POST_HOC_OFFICIAL_QASPER_ANSWER_F1
+diagnostic_enriched,jina35,55,55,0.16777181922726217,"[0.10588985950473268, 0.24194656238085893]",48,"{""abstractive"": 17, ""boolean"": 4, ""extractive"": 34}",POST_HOC_OFFICIAL_QASPER_ANSWER_F1

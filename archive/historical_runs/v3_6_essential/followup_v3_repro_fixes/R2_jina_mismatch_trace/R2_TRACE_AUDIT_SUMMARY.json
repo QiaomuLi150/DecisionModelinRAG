@@ -1,0 +1,19 @@
+{
+  "all_stage_request_hashes_identical_n": 1380,
+  "all_stage_score_hashes_identical_n": 1384,
+  "conclusion": "The available sweep explicitly reuses the historical PPLX-window strings; no 197-query mismatch was found in this pair.",
+  "control_sha256": "768de37a7f770fae566e25ae46f3c06248b64efb363227ab18179c8bdc5839e7",
+  "fresh_exact_string_rerun_required": false,
+  "list_difference_n": 0,
+  "n_common": 1384,
+  "n_control": 1384,
+  "n_sweep": 1384,
+  "set_difference_n": 0,
+  "status": "PASS",
+  "sweep_sha256": "491fbd2c77246b6bc316b16c0dfea0159e6a013df5accafef607ff9960fa03fd",
+  "unobservable_fields": [
+    "tokenizer",
+    "dtype",
+    "batch_size"
+  ]
+}

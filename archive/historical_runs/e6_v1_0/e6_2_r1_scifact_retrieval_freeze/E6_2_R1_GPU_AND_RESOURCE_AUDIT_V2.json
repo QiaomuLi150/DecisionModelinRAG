@@ -1,0 +1,155 @@
+{
+  "after": {
+    "compute_apps_returncode": 0,
+    "gpus": [
+      {
+        "index": 0,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 18117,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 57,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 1,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 4,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 2,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 54785,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 3,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 60463,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 4,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 56583,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 5,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 8,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 6,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 4,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 7,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 52225,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      }
+    ],
+    "returncode": 0,
+    "stderr": ""
+  },
+  "before": {
+    "compute_apps_returncode": 0,
+    "gpus": [
+      {
+        "index": 0,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 18117,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 88,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 1,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 4,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 2,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 54785,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 3,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 60463,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 4,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 56583,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 5,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 8,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 6,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 4,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      },
+      {
+        "index": 7,
+        "memory_total_mib": 81920,
+        "memory_used_mib": 52225,
+        "name": "NVIDIA A100-SXM4-80GB",
+        "utilization_gpu_percent": 0,
+        "uuid": "<REDACTED_GPU_UUID>"
+      }
+    ],
+    "returncode": 0,
+    "stderr": ""
+  },
+  "embedding_service_revision": "9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda",
+  "new_gpu_process_started": false,
+  "note": "Embedding execution was delegated to the pre-existing host service; its internal GPU placement is host-managed.",
+  "process_eviction": false,
+  "selected_idle_observed_before": [
+    1,
+    5,
+    6
+  ],
+  "status": "PASS",
+  "unrelated_services_modified": false
+}

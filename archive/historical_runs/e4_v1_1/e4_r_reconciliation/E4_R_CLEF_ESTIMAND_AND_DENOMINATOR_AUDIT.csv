@@ -1,0 +1,12 @@
+study,cohort,population,n,joint_success,pointwise_success,difference,denominator_status
+E2-M1,Track A,unconditional_eligible,3767,686,473,0.05654366870188479,eligible
+E2-M1,Track A,retrieval_conditional,1490,686,473,0.1429530201342282,gold present in candidate view
+E2-M1,Track B,unconditional_eligible,443,202,136,0.1489841986455982,identity-resolved eligible
+E2-M1,Track B,retrieval_conditional,330,202,136,0.2,gold present in candidate view
+E4-3,representative,all_k_valid,300,99,109,-0.03333333333333333,all_k_valid
+E4-3,representative,common_k10_feasible,206,99,109,-0.04854368932038835,common_k10_feasible
+E4-3,representative,all_k_valid,300,79,92,-0.043333333333333335,all_k_valid
+E4-3,diagnostic,all_k_valid,80,16,16,0.0,all_k_valid
+E4-3,diagnostic,common_k10_feasible,47,16,16,0.0,common_k10_feasible
+E4-3,diagnostic,all_k_valid,80,13,14,-0.0125,all_k_valid
+E4-3,representative,identical_k10_feasible,206,,,0.0,identical_k10_feasible

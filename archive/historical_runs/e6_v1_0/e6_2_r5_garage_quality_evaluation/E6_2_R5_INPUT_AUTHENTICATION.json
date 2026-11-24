@@ -1,0 +1,166 @@
+{
+  "created_utc": "2026-10-15T15:10:17.050790+00:00",
+  "historical_artifacts_modified": false,
+  "historical_manifest_checks": [
+    {
+      "checked": 24,
+      "listed": 24,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_INPUT_OUTPUT_PROVENANCE_MANIFEST.json",
+      "mismatched": [],
+      "missing": [],
+      "pass": true,
+      "schema": "E6-2-R0-PROVENANCE-V1"
+    },
+    {
+      "checked": 26,
+      "listed": 26,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_PROVENANCE_MANIFEST.json",
+      "mismatched": [],
+      "missing": [],
+      "pass": true,
+      "schema": "E6-2-R3-PROVENANCE-V1"
+    },
+    {
+      "checked": 22,
+      "listed": 22,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_PROVENANCE_MANIFEST.json",
+      "mismatched": [],
+      "missing": [],
+      "pass": true,
+      "schema": "E6-2-R4C-PROVENANCE-V1"
+    },
+    {
+      "checked": 39,
+      "listed": 39,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_PROVENANCE_MANIFEST.json",
+      "mismatched": [],
+      "missing": [],
+      "pass": true,
+      "schema": "E6-2-R4D-PROVENANCE-V1"
+    }
+  ],
+  "input_population": {
+    "count": 1397,
+    "ids_sha256": "255e4473c5e2d00f370be29a9b9ed77554c419e957f31ad70c5d810e437b9097",
+    "input_sha256": "cbe937a1ff3425cc55c937ef32cfd99c470ec09374dfa72b855b79c4fb4935b7",
+    "partition_sha256": "98c81a492c45e1e69b56101b721c5f852e75d10c0cc4bc3fdc8774e2a1c309c8"
+  },
+  "jev_calls": 0,
+  "no_new_inference": true,
+  "paid_api_calls": 0,
+  "prediction_population": {
+    "count": 11176,
+    "models": 8,
+    "prediction_sha256": "bc1cfcada22068be33764f97fe46fc444fc51b4fc0416463d03d33ffb307cc8c",
+    "r4d_provenance_sha256": "cda53c10c0e2b98d57bbff430c6a4c70c04c94640d167c5393b570ff4ad93cf5",
+    "sample_ids": 1397
+  },
+  "r4c_gate": {
+    "endpoint_frozen": true,
+    "focused_tests": "13/13",
+    "full_regression": "245/245",
+    "garage": {
+      "component_count": 1701,
+      "eligible_exact_k15": 2329,
+      "exploratory_inputs": 1397,
+      "full_rows": 2366,
+      "partition_counts": {
+        "CAL": 466,
+        "EXPLORATORY": 1397,
+        "RESERVED": 466
+      },
+      "reservation_sealed": false,
+      "source_identity_established": false
+    },
+    "gate": "E6_2_R4C_GARAGE_READY_WITH_INDEPENDENCE_LIMITATIONS",
+    "gpu_used": false,
+    "historical_artifacts_preserved": true,
+    "jev_calls": 0,
+    "native_contracts_prepared": true,
+    "native_inference_calls": 0,
+    "next_action": "separate owner authorization required for explicitly exploratory GaRAGe inference; no R5 start",
+    "paid_api_calls": 0,
+    "quality_metrics_computed": false,
+    "schema": "E6-2-R4C-RELEASE-GATE-V1",
+    "scifact_corrected_feasible": {
+      "denominator": 277,
+      "n": 254
+    },
+    "scifact_erratum": "SCIFACT_ERRATUM_VERIFIED"
+  },
+  "r4c_label_source_sha256": "3e0449d76701198cc53c27670dacf8d1f67ef6316b3976b7a618938f002bf062",
+  "r4d_gate": {
+    "attempted": 11176,
+    "failed": 0,
+    "gate": "E6_2_R4D_SELECTIONS_FROZEN_READY",
+    "jev_calls": 0,
+    "native_selections_frozen": true,
+    "paid_api_calls": 0,
+    "quality_scoring_started": false,
+    "recommendation": "R5 may read only frozen R4D selections and approved scoring labels after owner authorization",
+    "reserved_accessed": false,
+    "scheduled": 11176,
+    "schema": "E6-2-R4D-R5-GATE-V1",
+    "unexecuted": 0,
+    "valid": 11176
+  },
+  "required_artifacts": [
+    {
+      "bytes": 1213,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_STATISTICAL_ANALYSIS_PLAN.md",
+      "sha256": "8bee6698a22892af95f6ee8b25f4ced43f189bdf08b4ae26b3eab1e738d79d03"
+    },
+    {
+      "bytes": 2395,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_EIGHT_MODEL_ADMISSION_MATRIX.csv",
+      "sha256": "d8fc8e318e1045b13e7309d506fe9624cfac6abede0e6bf2f02f009dea3c27d4"
+    },
+    {
+      "bytes": 2190,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_FINAL_SCIENTIFIC_REPORT.md",
+      "sha256": "f1b2b6d137289d2449ec61a48ba1fa06f6db0f5b6f76de7c5942f34e1d13ccd7"
+    },
+    {
+      "bytes": 641,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_PRIMARY_STATISTICAL_ANALYSIS.json",
+      "sha256": "85f9c87f955d3889f55cc3ef99d159b6e5790d1972a4efde45c0d0503db3f4ec"
+    },
+    {
+      "bytes": 2519,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_FINAL_REPORT.md",
+      "sha256": "0795789271a5bd2a7a06dd3f4581999a4252fdee012e060869747423fc313f82"
+    },
+    {
+      "bytes": 2347499,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_LABEL_PROJECTION.json",
+      "sha256": "3e0449d76701198cc53c27670dacf8d1f67ef6316b3976b7a618938f002bf062"
+    },
+    {
+      "bytes": 2179,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_FINAL_REPORT.md",
+      "sha256": "3af4a7e4697ae5c18b0e89725d205a642a5096c505f25fdbfb6e2d0b64408edc"
+    },
+    {
+      "bytes": 439,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_R5_READINESS_GATE.json",
+      "sha256": "8f5277e8ff22d868c0d0c07a3256a8448341a831f5b3d85747e077a30bf32522"
+    },
+    {
+      "bytes": 9155,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_PROVENANCE_MANIFEST.json",
+      "sha256": "cda53c10c0e2b98d57bbff430c6a4c70c04c94640d167c5393b570ff4ad93cf5"
+    },
+    {
+      "bytes": 882,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_MODEL_EXECUTION_REGISTRY.csv",
+      "sha256": "970ce1239e4170288ff246b09b60c68d6202f05973a63434856e1b63b8c4ecde"
+    },
+    {
+      "bytes": 1777,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_ENDPOINT_PROTOCOL.md",
+      "sha256": "21597ad04094877b44110a3ffdd73ff17e029c4f345afa197bda6644ce852fd2"
+    }
+  ],
+  "reserved_policy": "only EXPLORATORY rows are exported into the R5 scoring projection; RESERVED labels/content are not passed to scoring",
+  "schema": "E6-2-R5-INPUT-AUTH-V1"
+}

@@ -1,0 +1,10 @@
+model,params_b,family,session,p95_ms,p95_ratio_to_jina,status
+jina_full,0.6,dedicated,C,1274.7069999999997,1.0,ANCHOR
+mxbai_rerank_large_v2,0.3,dedicated,C,1565.13355,1.2278378874517835,PASS
+pplx_budget,27.0,decision,C,2415.00985,1.8945607500390291,INCONCLUSIVE
+qwen3_reranker_0_6b,0.6,dedicated,C,1399.978949999994,1.0982750938058663,PASS
+qwen3_reranker_4b,4.0,dedicated,C,4535.9385999999995,3.5584166400592454,FAIL
+drex_v2_native,3.0,decision,D,3197.2538999999997,,INCONCLUSIVE
+jina_full,0.6,dedicated,E,1229.95515,1.0,ANCHOR
+pplx_budget,27.0,decision,E,2416.6313,1.9648125380831976,INCONCLUSIVE
+winnow_native,12.0,decision,E,2749.40345,2.2353688669054312,INCONCLUSIVE

@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-16T00:43:10.995385+00:00",
+  "focused": {
+    "historical_artifacts_preserved": true,
+    "jev_calls": 0,
+    "model_inference_not_started": true,
+    "paid_api_calls": 0,
+    "reserved_data_not_accessed": true,
+    "trec25_and_trec24_admission_records_present": true
+  },
+  "full_regression": {
+    "collected": 303,
+    "command": "MultiModalRAG/venv/bin/python -m pytest -q",
+    "failed": 0,
+    "passed": 303,
+    "returncode": 0,
+    "skipped": 0,
+    "warnings": "existing Triton platform fallback and torch JIT deprecation warnings only"
+  },
+  "status": "PASS_WITH_LIMITATION"
+}

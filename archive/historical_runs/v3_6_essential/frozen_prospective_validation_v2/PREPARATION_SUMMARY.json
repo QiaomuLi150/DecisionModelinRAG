@@ -1,0 +1,79 @@
+{
+  "confirmatory_quality_n": 13125,
+  "dry_forum": "webmasters",
+  "dry_run_n": 20,
+  "files": {
+    "results/v3_6_essential/frozen_prospective_validation_v2/CQADUPSTACK_FROZEN_TOP20_SLATES.jsonl": {
+      "bytes": 402856917,
+      "sha256": "91ef21f780968d4c30a838607a2b3a7cda24f05f5b3d544507cb9dc8c8ef3b7a"
+    },
+    "results/v3_6_essential/frozen_prospective_validation_v2/DRY_RUN_IDS.jsonl": {
+      "bytes": 1178,
+      "sha256": "4d9b0c9db357707795334a812cca49e317aec73231f4958b9dba679c0e4bf714"
+    },
+    "results/v3_6_essential/frozen_prospective_validation_v2/LATENCY_COHORT_IDS.jsonl": {
+      "bytes": 93568,
+      "sha256": "5d5f34e3b3a9cfd1b547744e1e4417c992e97b86a81edd94f8f175645652961c"
+    },
+    "results/v3_6_essential/frozen_prospective_validation_v2/QUERY_LENGTHS.jsonl": {
+      "bytes": 3607555,
+      "sha256": "96786b325811a43f59aea730f636332b2887d5863b519970af4e9bb9867b5902"
+    },
+    "results/v3_6_essential/frozen_prospective_validation_v2/prepared_L4096.jsonl": {
+      "bytes": 526759397,
+      "sha256": "3d59d569958ccc948b1af7c1087d3118d823f25b48f80442de577e7215529cfb"
+    },
+    "results/v3_6_essential/frozen_prospective_validation_v2/prepared_L6144.jsonl": {
+      "bytes": 576059224,
+      "sha256": "0531eeca76f03f2834b466d898175fd0c5374922bdc1d0010f03f6d1fab5d407"
+    },
+    "results/v3_6_essential/frozen_prospective_validation_v2/prepared_L8192.jsonl": {
+      "bytes": 607467329,
+      "sha256": "88b9a303946bc9824441b1bf0a559d31308c60a51f8a5c1237b233d03dd902d1"
+    }
+  },
+  "labels_joined": false,
+  "latency_cohort_sha256": "629d326c9f71df0139a32157e1d4417da004af6000894f107505dcc3095af8ac",
+  "latency_n": 2000,
+  "length_tercile_boundaries": {
+    "medium_upper": 357.55,
+    "short_upper": 197.75
+  },
+  "length_tercile_counts": {
+    "long": 4381,
+    "medium": 4380,
+    "short": 4384
+  },
+  "preparation": [
+    {
+      "L": 4096,
+      "builder_failure_n": 0,
+      "builder_pass_n": 13145,
+      "max_serialized_tokens": 3968,
+      "mean_serialized_tokens": 3379.619703309243,
+      "n": 13145,
+      "sha256": "3d59d569958ccc948b1af7c1087d3118d823f25b48f80442de577e7215529cfb"
+    },
+    {
+      "L": 6144,
+      "builder_failure_n": 0,
+      "builder_pass_n": 13145,
+      "max_serialized_tokens": 6016,
+      "mean_serialized_tokens": 4329.265576264739,
+      "n": 13145,
+      "sha256": "0531eeca76f03f2834b466d898175fd0c5374922bdc1d0010f03f6d1fab5d407"
+    },
+    {
+      "L": 8192,
+      "builder_failure_n": 0,
+      "builder_pass_n": 13145,
+      "max_serialized_tokens": 8059,
+      "mean_serialized_tokens": 4952.506808672499,
+      "n": 13145,
+      "sha256": "88b9a303946bc9824441b1bf0a559d31308c60a51f8a5c1237b233d03dd902d1"
+    }
+  ],
+  "protocol_sha256": "f15cb0f6001327bfe47e0b1d605f73f7beefc3c6a5fc195689cd5ca1652ce86e",
+  "status": "PREPARED_BEFORE_CONFIRMATORY_INFERENCE",
+  "total_queries": 13145
+}

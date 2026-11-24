@@ -1,0 +1,10 @@
+{
+  "access_control": "process-level repository convention only; no sealed external vault or OS deny boundary established",
+  "confirmation_status": "CONFIRMATION_LOCKED",
+  "dataset": "BEIR/SciFact",
+  "raw_question_text_exported": false,
+  "reserved_component_sha256": "2972f0bc8dc6e3513942b8beeb60cb98eb560fa2bfd5e42d5b9b3667036fb615",
+  "reserved_qid_sha256": "508dc9b095f6697aa162a8cb1488c2653c70b4e3110b64c5eff651e27e0e2c6e",
+  "reserved_query_count": 277,
+  "status": "METADATA_ONLY_RESERVED_LOCK"
+}

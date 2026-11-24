@@ -1,0 +1,11 @@
+{
+  "benchmark_gpu": 1,
+  "cached_prediction_reuse": false,
+  "gpu_snapshot_at_prepare": null,
+  "monetary_cost": "NOT_MODELED",
+  "runtime_note": "Per-model subprocess snapshots are embedded in each raw request row; resident services were not stopped.",
+  "same_device_design": true,
+  "schema": "E6-3-SERVING-GPU-AUDIT-V1",
+  "sustainable_qps": "NOT_MEASURED",
+  "warmups_excluded_from_timed_scorecard": true
+}

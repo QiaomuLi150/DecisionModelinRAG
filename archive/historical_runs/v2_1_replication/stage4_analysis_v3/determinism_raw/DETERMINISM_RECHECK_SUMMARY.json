@@ -1,0 +1,104 @@
+{
+  "seed": 20261022,
+  "gpu": 3,
+  "records": [
+    {
+      "dataset": "enterprise",
+      "policy": "bm25_order",
+      "n_rechecked": 20,
+      "n_mismatch": 0,
+      "status": "OFFLINE_DETERMINISTIC"
+    },
+    {
+      "dataset": "enterprise",
+      "policy": "jina_full",
+      "n_rechecked": 20,
+      "n_mismatch": 0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "enterprise",
+      "policy": "jina_budget",
+      "n_rechecked": 20,
+      "n_mismatch": 0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "enterprise",
+      "policy": "jina_two_stage_matched",
+      "n_rechecked": 20,
+      "n_mismatch": 0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "enterprise",
+      "policy": "pplx_native",
+      "n_rechecked": 20,
+      "n_mismatch": 0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "enterprise",
+      "policy": "pplx_budget",
+      "n_rechecked": 20,
+      "n_mismatch": 0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "enterprise",
+      "policy": "pplx_two_stage",
+      "n_rechecked": 20,
+      "n_mismatch": 0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "musique",
+      "policy": "bm25_order",
+      "n_rechecked": 20,
+      "n_mismatch": 0,
+      "status": "OFFLINE_DETERMINISTIC"
+    },
+    {
+      "dataset": "musique",
+      "policy": "jina_full",
+      "n_rechecked": 20,
+      "n_mismatch": 0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "musique",
+      "policy": "jina_budget",
+      "n_rechecked": 20,
+      "n_mismatch": 0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "musique",
+      "policy": "jina_two_stage_matched",
+      "n_rechecked": 20,
+      "n_mismatch": 0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "musique",
+      "policy": "pplx_native",
+      "n_rechecked": 20,
+      "n_mismatch": 0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "musique",
+      "policy": "pplx_budget",
+      "n_rechecked": 20,
+      "n_mismatch": 0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "musique",
+      "policy": "pplx_two_stage",
+      "n_rechecked": 20,
+      "n_mismatch": 0,
+      "status": "PASS"
+    }
+  ]
+}

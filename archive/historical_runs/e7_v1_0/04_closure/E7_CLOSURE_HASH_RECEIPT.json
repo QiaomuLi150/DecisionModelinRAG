@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-15T21:22:13.520587+00:00",
+  "files": [
+    {
+      "path": "results/non_jev/v2/e7_v1_0/04_closure/E7_FINAL_REPORT.md",
+      "sha256": "2578d90e5561d8e148b7de42ec19104ff91ef2b939ac7273810a88c2e9f75263"
+    },
+    {
+      "path": "results/non_jev/v2/e7_v1_0/04_closure/E7_FINAL_OWNER_REVIEW_GATE.json",
+      "sha256": "72d317f2c5ddf89650ce5edb1284ec214b625b4467ba49bfd53bb4c653e83c08"
+    },
+    {
+      "path": "results/non_jev/v2/e7_v1_0/04_closure/E7_PROVENANCE_MANIFEST.json",
+      "sha256": "309ca991583e2cba4298909ada82b5933e758b593d0b9bb0d674091b532ef986"
+    },
+    {
+      "path": "results/non_jev/v2/e7_v1_0/04_closure/E7_TEST_AND_REGRESSION_REPORT.md",
+      "sha256": "b5c2305011307b02a4d41e9fc215d5426863847e6fcca4da88f171b4515636db"
+    }
+  ],
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "reserved_access": false,
+  "schema": "DECISIONRAG-E7-CLOSURE-HASH-RECEIPT-V1"
+}

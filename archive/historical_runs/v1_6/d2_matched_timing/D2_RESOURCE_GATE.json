@@ -1,0 +1,12 @@
+{
+  "status": "BLOCKED_DEDICATED_GPU_UNAVAILABLE",
+  "gpu_index": 3,
+  "memory_total_mib": 81920,
+  "memory_used_mib": 74287,
+  "memory_free_mib": 6865,
+  "utilization_percent": 98,
+  "resident_process_present": true,
+  "process_details_recorded": false,
+  "model_calls_started": 0,
+  "reason": "D2 requires one dedicated A100 and the gate failed; no unrelated process was interrupted."
+}

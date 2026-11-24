@@ -1,0 +1,21 @@
+{
+  "answers_used_for_partition": false,
+  "component_assignment_conflicts": [],
+  "component_assignment_count": 476,
+  "exploratory_ids_unique": true,
+  "exploratory_query_count": 2511,
+  "exploratory_valid_identity_count": 2298,
+  "mapping_failures": {
+    "financebench": 0,
+    "multihop": 0
+  },
+  "model_outcomes_used_for_partition": false,
+  "reserved_answers_opened": false,
+  "reserved_exploratory_overlap_count": 0,
+  "reserved_ids_unique": true,
+  "reserved_model_outcomes_opened": false,
+  "reserved_query_count": 195,
+  "reserved_valid_identity_count": 107,
+  "seed": 731,
+  "status": "PASS"
+}

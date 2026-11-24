@@ -1,0 +1,36 @@
+{
+  "status": "PASS_WITH_RESTARTED_RUNNER_ATTEMPTS",
+  "aborted_attempts": [
+    {
+      "policy": "pplx_single_L4096",
+      "session": 1,
+      "cause": "progress-print TypeError after first target pass; no canonical trace finalized; corrected canonical restart launched"
+    },
+    {
+      "policy": "pplx_single_L6144",
+      "session": 1,
+      "cause": "progress-print TypeError after first target pass; no canonical trace finalized; corrected canonical restart launched"
+    },
+    {
+      "policy": "pplx_single_L6144",
+      "session": 2,
+      "cause": "operator-interrupted invalid runner before its known progress-print boundary; no canonical trace finalized; corrected canonical restart launched"
+    },
+    {
+      "policy": "pplx_single_L4096",
+      "session": 2,
+      "cause": "operator-interrupted invalid runner before its known progress-print boundary; no canonical trace finalized; corrected canonical restart launched"
+    },
+    {
+      "policy": "jina_full",
+      "session": 1,
+      "cause": "progress-print TypeError after target computation; no canonical trace finalized; corrected canonical restart already present"
+    },
+    {
+      "policy": "jina_truncated_L8192",
+      "session": 1,
+      "cause": "progress-print TypeError after target computation; no canonical trace finalized; corrected canonical restart already present"
+    }
+  ],
+  "canonical_restarts": "Only corrected sessions are included in canonical raw exports; aborted attempts are retained here as technical execution evidence."
+}

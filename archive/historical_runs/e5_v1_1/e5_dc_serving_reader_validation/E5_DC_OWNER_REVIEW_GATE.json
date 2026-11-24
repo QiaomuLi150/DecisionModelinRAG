@@ -1,0 +1,11 @@
+{
+  "e5_b": "NOT_EXECUTED",
+  "e5_c": "C_ANALYSIS_PASS",
+  "e5_d": "D_ANALYSIS_PASS",
+  "e5_f": "LOCKED",
+  "factual_correctness_tier": "T1_PROXY_ONLY",
+  "gate": "E5_DC_OWNER_REVIEW_READY",
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "reserved_e5f_accessed": false
+}

@@ -1,0 +1,9 @@
+{
+  "labels_joined": false,
+  "policy": "jina_full",
+  "rows": 1384,
+  "sha256": "706fbd64ce6b57205b1f4a99f5cc09af37d4479d756fce4e550e260ab398e744",
+  "source": "results/non_jev/v2/e9_bright_v1_0/02_native/BRIGHT_NATIVE_RAW_OUTPUTS_jina_v3_5.jsonl",
+  "status": "PASS",
+  "verified_input_hashes": 1384
+}

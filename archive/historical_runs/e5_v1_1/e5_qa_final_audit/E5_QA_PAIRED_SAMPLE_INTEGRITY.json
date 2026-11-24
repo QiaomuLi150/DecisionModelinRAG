@@ -1,0 +1,48 @@
+{
+  "all_diag_qids_unique": true,
+  "all_rep_qids_unique": true,
+  "diagnostic_n": 55,
+  "overlap_n": 7,
+  "overlap_qids": [
+    "qasper:1601.06068:ad362365656b0b218ba324ae60701eb25fe664c1",
+    "qasper:1709.05411:65e6a1cc2590b139729e7e44dce6d9af5dd2c3b5",
+    "qasper:1806.00738:c37f65c9f0d543a35c784263b79236ccf1c44fac",
+    "qasper:1908.11546:b8dea4a98b4da4ef1b9c98a211210e31d6630cf3",
+    "qasper:1909.05246:bd7a95b961af7caebf0430a7c9f675816c9c527f",
+    "qasper:1910.00825:d5f8707ddc21741d52b3c2a9ab1af2871dc6c90b",
+    "qasper:1910.07181:d6e2b276390bdc957dfa7e878de80cee1f41fbca"
+  ],
+  "paired_reproduction": [
+    {
+      "both": 16,
+      "cohort": "representative",
+      "delta": 0.005,
+      "jina_matches": 17,
+      "jina_only": 1,
+      "jina_rate": 0.085,
+      "n_paired": 200,
+      "neither": 181,
+      "pplx_matches": 18,
+      "pplx_only": 2,
+      "pplx_rate": 0.09,
+      "status": "REPRODUCED_FROM_RAW_ACCEPTED_OUTPUTS"
+    },
+    {
+      "both": 2,
+      "cohort": "diagnostic_enriched",
+      "delta": 0.03636363636363636,
+      "jina_matches": 2,
+      "jina_only": 0,
+      "jina_rate": 0.03636363636363636,
+      "n_paired": 55,
+      "neither": 51,
+      "pplx_matches": 4,
+      "pplx_only": 2,
+      "pplx_rate": 0.07272727272727272,
+      "status": "REPRODUCED_FROM_RAW_ACCEPTED_OUTPUTS"
+    }
+  ],
+  "reader_rows": 496,
+  "representative_n": 200,
+  "representative_unique_groups": 200
+}

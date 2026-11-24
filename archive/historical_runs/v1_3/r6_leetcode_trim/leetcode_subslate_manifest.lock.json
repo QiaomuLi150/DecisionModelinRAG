@@ -1,0 +1,14 @@
+{
+  "status": "FROZEN_LABEL_BLIND_SUBSLATES",
+  "records": 142,
+  "kev_at_least_6": 139,
+  "drex_at_least_6": 140,
+  "manifest_sha256": "3f0567bea20cdbd4d4d694779009412bcf4184352ce4f834135c180df7138afb",
+  "tokenizer_sources": {
+    "kev": "data/models/e12_o_checkpoints/kev9_base",
+    "drex": "data/models/e12_o_checkpoints/drex_dlm8"
+  },
+  "fit_limit": 8064,
+  "labels_joined": false,
+  "weights_loaded": false
+}

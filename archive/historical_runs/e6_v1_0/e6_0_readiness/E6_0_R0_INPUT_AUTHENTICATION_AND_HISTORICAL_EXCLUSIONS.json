@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-10-14T22:08:46.898793+00:00",
+  "e5_reader_rows": 496,
+  "e5_reader_unique_qids": 248,
+  "e5a_questions": 1502,
+  "e5a_source_groups": 587,
+  "e5a_support_ceiling": 355,
+  "frozen_slate": {
+    "expected_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+    "match": true,
+    "path": "results/non_jev/v2/e5_v1_1/e5_0_data_protocol/E5_0_NATURAL_TOP20_MANIFEST.jsonl",
+    "sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7"
+  },
+  "historical_manifests": [
+    {
+      "checked": 28,
+      "exists": true,
+      "failed": 0,
+      "manifest": "results/non_jev/v2/e2_m1/E2_M1_PROVENANCE_MANIFEST.json",
+      "passed": 28
+    },
+    {
+      "checked": 36,
+      "exists": true,
+      "failed": 0,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0_data_protocol/E5_0_PROVENANCE_MANIFEST.json",
+      "passed": 36
+    },
+    {
+      "checked": 26,
+      "exists": true,
+      "failed": 0,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_0c_readiness_closure/E5_0C_PROVENANCE_MANIFEST.json",
+      "passed": 26
+    },
+    {
+      "checked": 32,
+      "exists": true,
+      "failed": 0,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "passed": 32
+    },
+    {
+      "checked": 31,
+      "exists": true,
+      "failed": 0,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_PROVENANCE_MANIFEST.json",
+      "passed": 31
+    },
+    {
+      "checked": 24,
+      "exists": true,
+      "failed": 0,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_qa_final_audit/E5_QA_PROVENANCE_MANIFEST.json",
+      "passed": 24
+    }
+  ],
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "sealed_holdout_accessed": false,
+  "status": "PASS_WITH_SCOPE_LIMITS"
+}

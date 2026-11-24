@@ -1,0 +1,25 @@
+{
+  "controls": {
+    "BGE": "existing control; no new inference",
+    "retrieval5": "first-stage Top-5"
+  },
+  "output_policy": "E5-0 freezes contracts only; E5-A is not executed",
+  "primary": {
+    "Jina": {
+      "model_id": "jinaai/jina-reranker-v3.5",
+      "native_contract": "native_listwise_chunked_relevance",
+      "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+      "status": "frozen_no_inference"
+    },
+    "PPLX": {
+      "model_id": "perplexity-ai/pplx-decider-v1.1-27b",
+      "native_contract": "NATIVE_SLATE_CATEGORICAL:v1",
+      "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+      "status": "frozen_no_inference"
+    }
+  },
+  "secondary": {
+    "Liquid": "existing E3-C validated checkpoint; no new inference",
+    "zerank-2": "existing E3-C validated specialist; no new inference"
+  }
+}

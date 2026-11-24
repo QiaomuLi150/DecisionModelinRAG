@@ -1,0 +1,242 @@
+{
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 731,
+  "dataset_rows": {
+    "enterprise": 1800,
+    "musique": 1800
+  },
+  "failures": 0,
+  "fallback_time_used": false,
+  "labels_joined": false,
+  "paid_api_calls": 0,
+  "policy_rows_per_dataset": 360,
+  "protected_holdouts_accessed": false,
+  "ratios": [
+    {
+      "alloc_p95_mib": 2232.1049500000004,
+      "basis": "all_request",
+      "dataset": "enterprise",
+      "p50_ms": 268.72,
+      "p95_ms": 350.15065,
+      "p95_ratio_point": 1.0,
+      "policy": "jina_full",
+      "prob_ratio_le_2": 1.0,
+      "ratio_hi95": 1.0,
+      "ratio_lo95": 1.0
+    },
+    {
+      "alloc_p95_mib": 1762.5357,
+      "basis": "all_request",
+      "dataset": "enterprise",
+      "p50_ms": 167.908,
+      "p95_ms": 182.43235,
+      "p95_ratio_point": 0.5210110276819421,
+      "policy": "jina_budget",
+      "prob_ratio_le_2": 1.0,
+      "ratio_hi95": 0.5722315541662664,
+      "ratio_lo95": 0.4921906355169056
+    },
+    {
+      "alloc_p95_mib": 1662.342,
+      "basis": "all_request",
+      "dataset": "enterprise",
+      "p50_ms": 339.8705,
+      "p95_ms": 417.4202,
+      "p95_ratio_point": 1.1921160220607903,
+      "policy": "jina_two_stage_matched",
+      "prob_ratio_le_2": 1.0,
+      "ratio_hi95": 1.2699806007463599,
+      "ratio_lo95": 1.140301126987535
+    },
+    {
+      "alloc_p95_mib": 51287.1654,
+      "basis": "all_request",
+      "dataset": "enterprise",
+      "p50_ms": 2137.1645,
+      "p95_ms": 2267.0958500000006,
+      "p95_ratio_point": 6.4746298486094505,
+      "policy": "pplx_budget",
+      "prob_ratio_le_2": 0.0,
+      "ratio_hi95": 7.14695881737364,
+      "ratio_lo95": 6.131421595662326
+    },
+    {
+      "alloc_p95_mib": 50984.87335,
+      "basis": "all_request",
+      "dataset": "enterprise",
+      "p50_ms": 4209.5,
+      "p95_ms": 4842.6691,
+      "p95_ratio_point": 13.830244496190426,
+      "policy": "pplx_two_stage",
+      "prob_ratio_le_2": 0.0,
+      "ratio_hi95": 14.98014585013053,
+      "ratio_lo95": 13.327622130499279
+    },
+    {
+      "alloc_p95_mib": 1514.46495,
+      "basis": "all_request",
+      "dataset": "musique",
+      "p50_ms": 72.417,
+      "p95_ms": 113.4094,
+      "p95_ratio_point": 1.0,
+      "policy": "jina_full",
+      "prob_ratio_le_2": 1.0,
+      "ratio_hi95": 1.0,
+      "ratio_lo95": 1.0
+    },
+    {
+      "alloc_p95_mib": 1512.72395,
+      "basis": "all_request",
+      "dataset": "musique",
+      "p50_ms": 72.41300000000001,
+      "p95_ms": 113.73445,
+      "p95_ratio_point": 1.0028661645330985,
+      "policy": "jina_budget",
+      "prob_ratio_le_2": 1.0,
+      "ratio_hi95": 1.0095565178438106,
+      "ratio_lo95": 0.949936909297344
+    },
+    {
+      "alloc_p95_mib": 1342.9602,
+      "basis": "all_request",
+      "dataset": "musique",
+      "p50_ms": 132.5765,
+      "p95_ms": 168.959,
+      "p95_ratio_point": 1.4898147772583226,
+      "policy": "jina_two_stage_matched",
+      "prob_ratio_le_2": 1.0,
+      "ratio_hi95": 1.5507706187367387,
+      "ratio_lo95": 1.4025179411036872
+    },
+    {
+      "alloc_p95_mib": 50670.49265,
+      "basis": "all_request",
+      "dataset": "musique",
+      "p50_ms": 924.6495,
+      "p95_ms": 1283.11485,
+      "p95_ratio_point": 11.314007921741936,
+      "policy": "pplx_budget",
+      "prob_ratio_le_2": 0.0,
+      "ratio_hi95": 11.733238919854601,
+      "ratio_lo95": 10.675709158920336
+    },
+    {
+      "alloc_p95_mib": 50280.3519,
+      "basis": "all_request",
+      "dataset": "musique",
+      "p50_ms": 1509.348,
+      "p95_ms": 1959.2315500000009,
+      "p95_ratio_point": 17.275742134249903,
+      "policy": "pplx_two_stage",
+      "prob_ratio_le_2": 0.0,
+      "ratio_hi95": 18.265109438532747,
+      "ratio_lo95": 16.71792235014468
+    }
+  ],
+  "raw_rows": 3600,
+  "raw_sha256": "1c7cc9a30fc3a78f782837d27b8daddd0045f2865762de1c36508518d767e78c",
+  "repeats": 3,
+  "status": "PASS",
+  "summary": [
+    {
+      "alloc_p95_mib": 2232.1049500000004,
+      "dataset": "enterprise",
+      "failures": 0,
+      "n": 360,
+      "p50_ms": 268.72,
+      "p95_ms": 350.15065,
+      "policy": "jina_full",
+      "valid": 360
+    },
+    {
+      "alloc_p95_mib": 1762.5357,
+      "dataset": "enterprise",
+      "failures": 0,
+      "n": 360,
+      "p50_ms": 167.908,
+      "p95_ms": 182.43235,
+      "policy": "jina_budget",
+      "valid": 360
+    },
+    {
+      "alloc_p95_mib": 1662.342,
+      "dataset": "enterprise",
+      "failures": 0,
+      "n": 360,
+      "p50_ms": 339.8705,
+      "p95_ms": 417.4202,
+      "policy": "jina_two_stage_matched",
+      "valid": 360
+    },
+    {
+      "alloc_p95_mib": 51287.1654,
+      "dataset": "enterprise",
+      "failures": 0,
+      "n": 360,
+      "p50_ms": 2137.1645,
+      "p95_ms": 2267.0958500000006,
+      "policy": "pplx_budget",
+      "valid": 360
+    },
+    {
+      "alloc_p95_mib": 50984.87335,
+      "dataset": "enterprise",
+      "failures": 0,
+      "n": 360,
+      "p50_ms": 4209.5,
+      "p95_ms": 4842.6691,
+      "policy": "pplx_two_stage",
+      "valid": 360
+    },
+    {
+      "alloc_p95_mib": 1514.46495,
+      "dataset": "musique",
+      "failures": 0,
+      "n": 360,
+      "p50_ms": 72.417,
+      "p95_ms": 113.4094,
+      "policy": "jina_full",
+      "valid": 360
+    },
+    {
+      "alloc_p95_mib": 1512.72395,
+      "dataset": "musique",
+      "failures": 0,
+      "n": 360,
+      "p50_ms": 72.41300000000001,
+      "p95_ms": 113.73445,
+      "policy": "jina_budget",
+      "valid": 360
+    },
+    {
+      "alloc_p95_mib": 1342.9602,
+      "dataset": "musique",
+      "failures": 0,
+      "n": 360,
+      "p50_ms": 132.5765,
+      "p95_ms": 168.959,
+      "policy": "jina_two_stage_matched",
+      "valid": 360
+    },
+    {
+      "alloc_p95_mib": 50670.49265,
+      "dataset": "musique",
+      "failures": 0,
+      "n": 360,
+      "p50_ms": 924.6495,
+      "p95_ms": 1283.11485,
+      "policy": "pplx_budget",
+      "valid": 360
+    },
+    {
+      "alloc_p95_mib": 50280.3519,
+      "dataset": "musique",
+      "failures": 0,
+      "n": 360,
+      "p50_ms": 1509.348,
+      "p95_ms": 1959.2315500000009,
+      "policy": "pplx_two_stage",
+      "valid": 360
+    }
+  ]
+}

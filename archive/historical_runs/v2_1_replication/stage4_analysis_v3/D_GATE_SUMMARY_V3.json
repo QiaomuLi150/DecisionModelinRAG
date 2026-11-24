@@ -1,0 +1,14 @@
+{
+  "labels_in_native_traces": false,
+  "paid_api_calls": 0,
+  "protected_holdouts_accessed": false,
+  "protocol_changed": false,
+  "stage0_amended": "PASS",
+  "stage0_original": "BLOCKED_PRESERVED",
+  "stage1": "PASS",
+  "stage2": "PASS",
+  "stage3": "PASS",
+  "stage4": "PASS",
+  "stage5": "PASS",
+  "status": "COMPLETE"
+}

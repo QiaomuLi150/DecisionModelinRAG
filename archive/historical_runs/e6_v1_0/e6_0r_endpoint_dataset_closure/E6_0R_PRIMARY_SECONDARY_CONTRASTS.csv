@@ -1,0 +1,4 @@
+contrast_id,dataset,endpoint,population,status
+NREL_PRIMARY,BEIR/SciFact,binary_nDCG@5; Recall@5,qrel-linked queries after frozen source-component split,PROPOSED_OWNER_SIGNATURE
+FGRD_SECONDARY,GaRAGe,support_any@5; grounding_precision@5,exact K=15 supplied pools,CONDITIONAL_OWNER_SIGNATURE
+HISTORICAL_ANCHOR,QASPER,set-aware CSSR-U,E5 frozen 1502,FROZEN_UNCHANGED_NOT_POOLED

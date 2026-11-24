@@ -1,0 +1,5 @@
+{
+  "error": "Command '['nvidia-smi', '--query-gpu=index,name,memory.total,memory.used,memory.free,utilization.gpu', '--format=csv,noheader,nounits']' returned non-zero exit status 9.",
+  "error_class": "CalledProcessError",
+  "status": "UNAVAILABLE"
+}

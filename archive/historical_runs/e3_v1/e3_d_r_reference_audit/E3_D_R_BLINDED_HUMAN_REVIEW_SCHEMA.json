@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "case_id": "string",
+    "factual_supported": "enum:yes/no/uncertain",
+    "reason": "string",
+    "review_timestamp": "ISO-8601",
+    "reviewer_id": "pseudonymous string"
+  },
+  "human_labels_present": false,
+  "prohibited": [
+    "pre-filled model label",
+    "inferred human agreement"
+  ],
+  "status": "TEMPLATE_ONLY"
+}

@@ -1,0 +1,15 @@
+{
+  "expected_records": 3240,
+  "failed": 867,
+  "labels_joined": false,
+  "policy_counts": {
+    "jina_full": 1080,
+    "pplx_budget": 1137,
+    "winnow_native": 1080
+  },
+  "protected_holdouts_accessed": false,
+  "raw_sha256": "ca68586b40faaaf299b4c5ee35e3d3912cd366972c8f6d468fcc54379f19437d",
+  "records": 3297,
+  "status": "INCOMPLETE",
+  "valid": 2430
+}

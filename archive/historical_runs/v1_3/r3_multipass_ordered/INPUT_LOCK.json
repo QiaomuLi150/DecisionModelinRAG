@@ -1,0 +1,14 @@
+{
+  "bright_records": 1384,
+  "bright_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+  "labels_joined": false,
+  "orders": [
+    "reversed",
+    "perm_seed_1",
+    "perm_seed_2",
+    "perm_seed_3",
+    "perm_seed_4",
+    "perm_seed_5"
+  ],
+  "permutation_sha256": "75ee9bf7ab05ef9e2916dd334d3d5227cb7e038ed2061c2f4aca390f0f271255"
+}

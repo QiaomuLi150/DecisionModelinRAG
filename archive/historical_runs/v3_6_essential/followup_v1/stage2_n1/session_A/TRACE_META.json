@@ -1,0 +1,15 @@
+{
+  "expected_records": 27680,
+  "failed": 266,
+  "gpu_slot": "A",
+  "labels_joined": false,
+  "load_times": {
+    "jina_load_ms": 1433.081,
+    "pplx_load_ms": 14992.16
+  },
+  "records": 27680,
+  "session": "A",
+  "sha256": "6e5df5abdd78a484305544748dbbfdf2406511470700f0fbfa72e69b9b04ee42",
+  "status": "PASS",
+  "valid": 27414
+}

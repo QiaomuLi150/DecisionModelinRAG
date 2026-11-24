@@ -1,0 +1,210 @@
+{
+  "code": [
+    {
+      "bytes": 37075,
+      "path": "scripts/e6_1_native_adapter_validation.py",
+      "sha256": "a042f8a464c3e74c9384e4152a96160cb7ec7646e7d027bb1982d31f85eb0b33"
+    },
+    {
+      "bytes": 31670,
+      "path": "scripts/e6_1b_checkpoint_recovery.py",
+      "sha256": "242c60e79d2c727dc172bb4920b390710339405ee19fdefa730816ddd0abfb8d"
+    },
+    {
+      "bytes": 36937,
+      "path": "scripts/e6_2_r4d_garage_native_inference.py",
+      "sha256": "a5f37acd29802c7d11b787b04fd3f2ab7e9da4f934e5c3ddf4b97e6ee2a68ca0"
+    }
+  ],
+  "created_utc": "2026-10-15T14:44:14.713147+00:00",
+  "gate": "E6_2_R4D_SELECTIONS_FROZEN_READY",
+  "gpu_used": true,
+  "historical_r4c_inputs": [
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_R4_INFERENCE_RELEASE_GATE.json",
+      "sha256": "17459609b9ca4b0ea11a20187d0cfeb613ba392b4fe09292d26e192b4ad7bcec"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_PROVENANCE_MANIFEST.json",
+      "sha256": "a4dbe446573241e9b91daa158c00c83cdb9b785751a869c62f0f45bb8000adcc"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_EXPLORATORY_INPUTS.jsonl",
+      "sha256": "cbe937a1ff3425cc55c937ef32cfd99c470ec09374dfa72b855b79c4fb4935b7"
+    },
+    {
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4c_erratum_and_garage_freeze/E6_2_R4C_GARAGE_PARTITION_MANIFEST.json",
+      "sha256": "98c81a492c45e1e69b56101b721c5f852e75d10c0cc4bc3fdc8774e2a1c309c8"
+    }
+  ],
+  "jev_calls": 0,
+  "native_inference_calls": 11176,
+  "outputs": [
+    {
+      "bytes": 2507,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_CHECKPOINT_AND_RESUME_MANIFEST.json",
+      "sha256": "8afcea13495ae17640c12a931eabd667be38abca8128dd4735b6fc4e31f3246d"
+    },
+    {
+      "bytes": 2,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_FAILURES.csv",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "bytes": 2179,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_FINAL_REPORT.md",
+      "sha256": "3af4a7e4697ae5c18b0e89725d205a642a5096c505f25fdbfb6e2d0b64408edc"
+    },
+    {
+      "bytes": 1018,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_FORWARD_ACCOUNTING.csv",
+      "sha256": "ebe61abee0a258ef8ff4e6b3aa9e0af2afb0a7a51ee39e6209d9939ec4027eeb"
+    },
+    {
+      "bytes": 2846,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_FORWARD_ACCOUNTING.json",
+      "sha256": "9e8151c730b41aea5ae1aacc395ea2a303040978ba7d1173008e19d19be23426"
+    },
+    {
+      "bytes": 9612,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_GPU_AUDIT.json",
+      "sha256": "e9de4858c3a5b9083895477878ae9bae4e6fa3070e919a20019d6d85d17098f9"
+    },
+    {
+      "bytes": 854,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_INPUT_OUTPUT_VALIDATION.json",
+      "sha256": "3c04ca88107a888f08fbee56be6e265649a4373677592c3103e7cba45d51cef5"
+    },
+    {
+      "bytes": 1201,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_LATENCY_AND_RESOURCE_REPORT.csv",
+      "sha256": "03a188bf7ec6815b67c429d79356b32c2c37c0b409d9fc00c39fb88d077c4040"
+    },
+    {
+      "bytes": 1159,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_LEAKAGE_AND_RESERVATION_AUDIT.md",
+      "sha256": "1547e464200dc19d4e8c95b563d8a88030208d6cdfde79376d666f2be7fd9635"
+    },
+    {
+      "bytes": 500,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_MODEL_ATTEMPT_ACCOUNTING.csv",
+      "sha256": "16ea59eb719fc9af6d3808f046a89cb56892f362a0ec3f0c4efd8a14eecf510b"
+    },
+    {
+      "bytes": 882,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_MODEL_EXECUTION_REGISTRY.csv",
+      "sha256": "970ce1239e4170288ff246b09b60c68d6202f05973a63434856e1b63b8c4ecde"
+    },
+    {
+      "bytes": 22765707,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_NATIVE_SELECTIONS.jsonl",
+      "sha256": "bc1cfcada22068be33764f97fe46fc444fc51b4fc0416463d03d33ffb307cc8c"
+    },
+    {
+      "bytes": 27699883,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_NATIVE_TRACES.jsonl",
+      "sha256": "8d4f714449b4044a21546354db92204ae5bbef4e5a6c62684d798f7f85a3dd54"
+    },
+    {
+      "bytes": 9228,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_PREINFERENCE_MANIFEST.json",
+      "sha256": "2c36b5f204a77e55e1f877e9382edffc8a9561e08b8334ddf78bfa519ee34939"
+    },
+    {
+      "bytes": 439,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_R5_READINESS_GATE.json",
+      "sha256": "8f5277e8ff22d868c0d0c07a3256a8448341a831f5b3d85747e077a30bf32522"
+    },
+    {
+      "bytes": 1198,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/E6_2_R4D_TEST_AND_REGRESSION_REPORT.md",
+      "sha256": "e11efa1b708060bb284f198689967ec73e6c3168a105443581c9369e2ead99e1"
+    },
+    {
+      "bytes": 3592068,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/amos_1_small_2b.jsonl",
+      "sha256": "30ac7b7afa1a219a99de8f0c12d60b43d56e0648009c59810207ccf5a37d58b6"
+    },
+    {
+      "bytes": 3437775,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/bge_reranker_v2_m3.jsonl",
+      "sha256": "656ac81ce51a223dd5ec4307ac98dac97ac6c71d5fcdd0bf307b06d848047235"
+    },
+    {
+      "bytes": 3430853,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/jina_v3_5.jsonl",
+      "sha256": "2f19ad204ed6f655eae625004fd1495016be9ac477d6c937973d2eea13912dd8"
+    },
+    {
+      "bytes": 3429969,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/liquid_d1_3b.jsonl",
+      "sha256": "4e833a225dcde53f4f8a163010fc805622091d7ee2b786eb7663fdb450b0beca"
+    },
+    {
+      "bytes": 3476407,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/pplx_decider.jsonl",
+      "sha256": "8dc75cc9587d424face315609c9b362a47d08d52e46fd48bf7027f8dc6f1d297"
+    },
+    {
+      "bytes": 3155681,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/qwen3_reranker_0_6b.jsonl",
+      "sha256": "4e51916d68516b9fc70e063b75976a11733b2ca5244e97dcdf9804d9d1c95151"
+    },
+    {
+      "bytes": 3158221,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/qwen3_reranker_4b.jsonl",
+      "sha256": "611b6876c1d009df8909dab32a9824f82aecf5e1f612b78d814e6bb8d229ed24"
+    },
+    {
+      "bytes": 3598977,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/chunks/startlux_decision_4b.jsonl",
+      "sha256": "1311d0603aea6511ce96d81c7e1c46710c85bf2c175cf9ddfe88cec5aa168b43"
+    },
+    {
+      "bytes": 3417,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/preflight_smoke/amos_1_small_2b.json",
+      "sha256": "eeb245ab7fbd0ccf1b486c5f110fc37e57fc49407ca00130adc72228b5f92f58"
+    },
+    {
+      "bytes": 3218,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/preflight_smoke/bge_reranker_v2_m3.json",
+      "sha256": "a86a06a3aaeff859d38e62d6db407c0501595f98c3323e76496870b42601ede0"
+    },
+    {
+      "bytes": 3194,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/preflight_smoke/jina_v3_5.json",
+      "sha256": "8c6ba4ab8c929e384d3b48dc7cf2cc3a32446854abae326312d5262071ea1221"
+    },
+    {
+      "bytes": 3204,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/preflight_smoke/liquid_d1_3b.json",
+      "sha256": "fe56cda1581b4b74fd79e47bc1a251c002006ea683ec829e9c2b8c71accbbf70"
+    },
+    {
+      "bytes": 3231,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/preflight_smoke/pplx_decider.json",
+      "sha256": "0a29e156647c10050a226e26443910367c4200ac3fbb9b7c78268f48950db2e6"
+    },
+    {
+      "bytes": 3023,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/preflight_smoke/qwen3_reranker_0_6b.json",
+      "sha256": "64f884e64c7cc4e5235ecf44e7381f1bfc21a97061821bbc3803428a501a79ae"
+    },
+    {
+      "bytes": 3007,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/preflight_smoke/qwen3_reranker_4b.json",
+      "sha256": "b6b238279fb89a3765ea8aacf3e6e7d8c29516c25beffa903cd400953716be8e"
+    },
+    {
+      "bytes": 5240,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4d_garage_native_inference/preflight_smoke/startlux_decision_4b.json",
+      "sha256": "df46ad14dc6c3d9d42839a35fc8bf01f71b57a38e2d52bf08a023433365bcc4f"
+    }
+  ],
+  "paid_api_calls": 0,
+  "physical_forwards_not_measured": 1772,
+  "physical_forwards_observed": 13595,
+  "quality_metrics_computed": false,
+  "reserved_content_accessed": false,
+  "schema": "E6-2-R4D-PROVENANCE-V1"
+}

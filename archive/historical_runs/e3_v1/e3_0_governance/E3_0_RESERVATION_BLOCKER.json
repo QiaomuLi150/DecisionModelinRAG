@@ -1,0 +1,6 @@
+{
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "reason": "Required external benchmark metadata is not present in the local historical workspace; no reservation manifest or held-out IDs were generated.",
+  "status": "E3_0_HOLDOUT_RESERVATION_PENDING_METADATA"
+}

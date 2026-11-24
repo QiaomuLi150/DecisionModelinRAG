@@ -1,0 +1,62 @@
+NOT_VERIFIABLE table_i_executed_model_benchmark_runs: The authenticated 21-model/11-benchmark per-run source matrix is absent; E2-N is a different 12-policy study.
+NOT_VERIFIABLE table_ii_total_queries: All eleven benchmark manifests and the Table II aggregation input are not included.
+PASS bright_query_count: observed=1384 expected=1384
+PASS bright_judged_positive_top20_count: observed=607 expected=607
+PASS bright_judged_positive_top20_percent: observed=43.9 expected=43.9
+NOT_VERIFIABLE bright_judged_only_scale_factor: The manuscript's judged-only scale-factor input and exact denominator are not included.
+PASS bright_bm25_top5_ndcg5: observed=0.1330 expected=0.133
+PASS bright_jina_full_ndcg5: observed=0.1844 expected=0.1844
+PASS bright_pplx_4096_ndcg5: observed=0.1875 expected=0.1875
+PASS bright_pplx_4096_valid_percent: observed=99.2 expected=99.2
+NOT_VERIFIABLE bright_pplx_4096_p95_ms: The exact paper latency cohort and per-request aggregation are not reconstructable from the selected export.
+NOT_VERIFIABLE bright_pplx_4096_p95_ratio: Paper's paired timing population is not identical to the pooled C360 export.
+PASS bright_pplx_6144_ndcg5: observed=0.1886 expected=0.1886
+PASS bright_pplx_6144_valid_percent: observed=99.6 expected=99.6
+NOT_VERIFIABLE bright_pplx_6144_p95_ms: Exact paper timing cohort aggregation is unavailable.
+NOT_VERIFIABLE bright_pplx_6144_p95_ratio: Exact paper paired timing population is unavailable.
+FAIL bright_jina_truncated_8192_ndcg5: observed=0.1738 expected=0.1765
+NOT_VERIFIABLE bright_jina_truncated_8192_p95_ms: Exact paper timing cohort aggregation is unavailable.
+NOT_VERIFIABLE bright_jina_full_p95_ms: Exact paper timing cohort aggregation is unavailable.
+NOT_VERIFIABLE bright_pplx_peak_memory_gib: The exact paper peak-memory aggregation is not reproduced from the selected traces.
+NOT_VERIFIABLE bright_jina_full_peak_memory_gib: The exact paper peak-memory aggregation is not reproduced from the selected traces.
+PASS bright_pplx_two_stage_4096_ndcg5: observed=0.2013 expected=0.2013
+NOT_VERIFIABLE two_stage_jina_sweep_ndcg5: The separately retained native traces are summarized in incompatible source files; exact metric row check is not wired in this release.
+NOT_VERIFIABLE two_stage_jina_matched_text_ndcg5: The separately retained native traces are summarized in incompatible source files; exact metric row check is not wired in this release.
+NOT_VERIFIABLE budget_simultaneous_lcb_4096: Selection-adjusted bootstrap draws and source calculation are absent.
+NOT_VERIFIABLE budget_simultaneous_lcb_6144: Selection-adjusted bootstrap draws and source calculation are absent.
+NOT_VERIFIABLE budget_bonferroni_lcb_4096: Selection-adjusted bootstrap draws and source calculation are absent.
+NOT_VERIFIABLE budget_bonferroni_lcb_6144: Selection-adjusted bootstrap draws and source calculation are absent.
+NOT_VERIFIABLE valid_exact_lcb_4096_percent: Exact binomial interval implementation/input is absent.
+NOT_VERIFIABLE valid_exact_lcb_6144_percent: Exact binomial interval implementation/input is absent.
+PASS transfer_requests_total: observed=2667 expected=2667
+PASS enterprise_requests: observed=500 expected=500
+PASS enterprise_labeled_requests: observed=443 expected=443
+PASS musique_requests: observed=2167 expected=2167
+NOT_VERIFIABLE transfer_pplx_4096_p95_seconds: The exact same-session pooled-p95 source population is not reproducible from released rows.
+NOT_VERIFIABLE transfer_pplx_6144_p95_seconds: The exact same-session pooled-p95 source population is not reproducible from released rows.
+NOT_VERIFIABLE transfer_jina_full_p95_seconds: The exact same-session pooled-p95 source population is not reproducible from released rows.
+PASS cqadupstack_total_queries: observed=13145 expected=13145
+PASS cqadupstack_scored_queries: observed=13125 expected=13125
+PASS cqadupstack_dry_run_exclusions: observed=20 expected=20
+PASS cqadupstack_pplx_6144_valid_percent: observed=100.0 expected=100.0
+PASS cqadupstack_pplx_4096_valid_percent: observed=100.0 expected=100.0
+PASS cqadupstack_pplx_6144_ndcg5: observed=0.3290 expected=0.329
+PASS cqadupstack_pplx_4096_ndcg5: observed=0.3301 expected=0.3301
+PASS cqadupstack_jina_ndcg5: observed=0.3198 expected=0.3198
+PASS cqadupstack_bm25_ndcg5: observed=0.2370 expected=0.237
+PASS cqadupstack_top20_gold_count: observed=5486 expected=5486
+PASS cqadupstack_top20_gold_share_percent: observed=41.8 expected=41.8
+PASS cqadupstack_jina_cuda_oom_requests: observed=1 expected=1
+PASS cqadupstack_forum_delta_6144_mean: observed=0.0080 expected=0.008
+PASS cqadupstack_forum_delta_6144_lo95: observed=0.0031 expected=0.0031
+PASS cqadupstack_forum_delta_6144_hi95: observed=0.0128 expected=0.0128
+PASS cqadupstack_forum_delta_4096_mean: observed=0.0092 expected=0.0092
+PASS cqadupstack_forum_delta_4096_lo95: observed=0.0039 expected=0.0039
+PASS cqadupstack_forum_delta_4096_hi95: observed=0.0143 expected=0.0143
+PASS cqadupstack_pplx_4096_p95_ratio: observed=1.49 expected=1.49
+PASS cqadupstack_pplx_4096_p95_ratio_lo95: observed=1.29 expected=1.29
+PASS cqadupstack_pplx_4096_p95_ratio_hi95: observed=1.69 expected=1.69
+PASS cqadupstack_pplx_6144_p95_ratio: observed=2.19 expected=2.19
+PASS cqadupstack_pplx_6144_p95_ratio_lo95: observed=1.92 expected=1.92
+PASS cqadupstack_pplx_6144_p95_ratio_hi95: observed=2.52 expected=2.52
+SUMMARY PASS=38 FAIL=1 NOT_VERIFIABLE=22

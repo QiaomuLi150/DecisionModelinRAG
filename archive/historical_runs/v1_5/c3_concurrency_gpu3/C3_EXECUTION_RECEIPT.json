@@ -1,0 +1,58 @@
+{
+  "D_separate": "BLOCKED_NO_SECOND_DEDICATED_A100",
+  "arrival_schedule": "deterministic virtual FIFO; genuine main-thread native forwards; no thread-safety assumption",
+  "c_status": "PASS",
+  "deviations": [
+    "bounded 10/60-second cells rather than v2 60/300 schedule",
+    "single fixed R1 routing request repeated with stable IDs",
+    "Rmax row is serial native-call capacity diagnostic rather than concurrent server throughput"
+  ],
+  "gpu": 3,
+  "labels_joined": false,
+  "measure_seconds": 60,
+  "pplx_load_ms": 14787.461745552719,
+  "pre": {
+    "index": 3,
+    "memory_free_mib": 81149,
+    "memory_used_mib": 4,
+    "utilization_percent": 0,
+    "uuid": "<REDACTED_GPU_UUID>"
+  },
+  "pre_apps": [],
+  "rmax": [
+    {
+      "completed": 4,
+      "concurrency": 1,
+      "duration_s": 10,
+      "p50_ms": 128.81353730335832,
+      "p95_ms": 1399.1528828628357,
+      "throughput_rps": 1.9948076669945924
+    },
+    {
+      "completed": 8,
+      "concurrency": 2,
+      "duration_s": 10,
+      "p50_ms": 124.82286151498556,
+      "p95_ms": 130.85062382742763,
+      "throughput_rps": 7.9292176117162025
+    },
+    {
+      "completed": 16,
+      "concurrency": 4,
+      "duration_s": 10,
+      "p50_ms": 124.27526898682117,
+      "p95_ms": 126.25478999689221,
+      "throughput_rps": 8.029473732296228
+    },
+    {
+      "completed": 32,
+      "concurrency": 8,
+      "duration_s": 10,
+      "p50_ms": 124.2793221026659,
+      "p95_ms": 130.07633346132934,
+      "throughput_rps": 7.982130896590941
+    }
+  ],
+  "status": "PASS_WITH_D_BLOCKED",
+  "warmup_seconds": 10
+}

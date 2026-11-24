@@ -1,0 +1,11 @@
+{
+  "labels_joined": false,
+  "model_calls_added": 0,
+  "prefix": "pplx_two_stage__perm_seed_20261020__full.jsonl.part",
+  "prefix_rows": 733,
+  "raw_sha256": "7649be50f74a892274f0437358af9323c0251793bcd83b0522a55d62c85addc1",
+  "rows": 2667,
+  "status": "MERGED_OFFLINE",
+  "suffix": "pplx_two_stage__perm_seed_20261020__start733__n1934.jsonl",
+  "suffix_rows": 1934
+}

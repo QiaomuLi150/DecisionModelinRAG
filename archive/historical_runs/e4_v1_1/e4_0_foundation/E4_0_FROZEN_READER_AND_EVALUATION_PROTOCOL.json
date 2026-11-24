@@ -1,0 +1,39 @@
+{
+  "bootstrap": {
+    "repetitions": 5000,
+    "seed": 731,
+    "unit": "source_group where available; otherwise query; report group coverage"
+  },
+  "citation_contract": false,
+  "cohort_hashes": {
+    "diagnostic_enriched": "d4f20f60758be4b15ec00ff8036dd69d1c3df4f3a476114227d177b5ccdabf5f",
+    "representative": "84c9c09fb97cb21e1bc380b2c22121c1a3f33255490827c6a334973620628515"
+  },
+  "contract_sha256": "7e385ef0e24d7f2ccfde2342249a8b28a6d3720b9939ad1ee660a1924d6ff533",
+  "evidence_budget": 5,
+  "generation": {
+    "max_tokens": 64,
+    "seed": 0,
+    "stream": false,
+    "temperature": 0.0,
+    "top_p": 1.0
+  },
+  "grounding": "not independently verified; no citation contract in reader prompt",
+  "primary_comparisons": [
+    "B_PPLX_TOP5 - A_JINA_TOP5 on representative",
+    "D_SUPPORT_REMOVAL - D_CONTROL_NEUTRAL_SWAP on matched placebo-eligible qids"
+  ],
+  "prompt_template": "fixed supplied-passages answer-or-INSUFFICIENT_EVIDENCE; no external knowledge; one short answer",
+  "prompt_version": "decisionrag-e4-reader-v1.1",
+  "reader_endpoint": "http://service.example.invalid/v1/chat/completions",
+  "reader_model": "Qwen/Qwen3-VL-8B-Instruct",
+  "reader_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "secondary_comparisons": [
+    "C-A",
+    "C-B",
+    "C-E",
+    "C-D"
+  ],
+  "text_only": true,
+  "token_cap_per_passage": 256
+}

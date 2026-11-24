@@ -1,0 +1,11 @@
+{
+  "dochopqa": "CONDITIONAL_GRADED_SUPPORT_ONLY",
+  "garage": "SECONDARY_GRADED_GROUNDING_ONLY",
+  "local_release_files": {
+    "dochopqa": false,
+    "garage": false
+  },
+  "overall": "E6_0_ENDPOINT_AMENDMENT_REQUIRED",
+  "primary_complete_support_dataset_admitted": false,
+  "reason": "Neither new dataset currently has a locally reconstructible natural corpus plus a validated exhaustive support-set contract"
+}

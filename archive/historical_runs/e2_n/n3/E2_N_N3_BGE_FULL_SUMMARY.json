@@ -1,0 +1,21 @@
+{
+  "cache_reuse_rows": 0,
+  "downloads": 0,
+  "expected_rows": 4267,
+  "frozen_queries": 4267,
+  "input_and_response_hash_rows": 4267,
+  "jev_calls": 0,
+  "model": "bge",
+  "ok_rows": 4267,
+  "paid_api_calls": 0,
+  "physical_forward_evidence_rows": 4267,
+  "rows": 4267,
+  "stage": "N3_FULL_HISTORICAL",
+  "status": "PASS",
+  "trace_reused_from_e2_m1": false,
+  "trace_sha256": "645164198c69886f61f1de60e43ccb189ca57146940eb5027326ce9482c4ad5f",
+  "track_a_queries": 3767,
+  "track_b_queries": 500,
+  "unique_queries": 4267,
+  "valid_unique_20_candidate_rows": 4267
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "model": "pplx",
+  "gpu": 4,
+  "shard": 2,
+  "shards": 4,
+  "rows": 1323,
+  "valid": 1323,
+  "failures": 0,
+  "failure_classes": {},
+  "elapsed_s": 2873.1766101531684,
+  "raw_sha256": "33997de95fdf408c7eae720aa3a6cefbb25a3f223b6949d86bc2e184171ff9c4",
+  "labels_joined": false,
+  "input_builder": "R1 exact serialized decrement-to-fit",
+  "no_retries": true,
+  "length_filter": {
+    "min_L": null,
+    "max_L": null
+  }
+}

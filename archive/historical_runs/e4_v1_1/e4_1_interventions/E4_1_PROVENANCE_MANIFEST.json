@@ -1,0 +1,47 @@
+{
+  "artifact_sha256": {
+    "e4_0_foundation/E4_0_COHORT_AND_ARMS_MANIFEST.json": "652b3430a94c9e9d7c607ab416442f4e2404b03e67babd4d384d6bf69f55624c",
+    "e4_0_foundation/E4_0_EXPLORATORY_COHORT.csv": "56b6307e0bda55f333a9938c91d918b2793cb98c6cef56ddcfdb3c9b1023a672",
+    "e4_0_foundation/E4_0_FROZEN_READER_AND_EVALUATION_PROTOCOL.json": "da609db4031764c91063a4049b8d2bafb743defe6f182c0ba64a916fef8cb596",
+    "e4_0_foundation/E4_0_INPUT_INVENTORY.json": "da901ff2a542b6934d9c6aeb4b7c3b230270e1c0c1ab489868adf5d911ada4ed",
+    "e4_0_foundation/E4_0_QUESTION_REFERENCE_INDEX.jsonl": "f9c79d7651fd9d958674182b034df390ef13e5f6362cf8a0c67c30f6ec9ac52f",
+    "e4_0_foundation/E4_0_REFERENCE_AND_QREL_AUDIT.md": "6b19df585de32599b9c4b76126a0f0c5bef70041354cc769b1880afd0ee8cbf7",
+    "e4_0_foundation/E4_0_SOURCE_GROUP_AND_CONFIRMATION_AUDIT.md": "d13c58b429e0d2bb8d41cdb6bff2f0c63ee7d96ee65702f5d9cb34cfe5509084",
+    "e4_0_foundation/E4_0_VALIDITY_GATE.md": "c72960af7d46ce2a3a636921493e03d114878966e3a60f9c1af0c78a708eb74f",
+    "e4_1_interventions/E4_1_ACCEPTED_READER_OUTPUTS.jsonl": "a0b7a53a60371e832bd4f4b1194ce0f09ca91578510778314cde74f6d9585c50",
+    "e4_1_interventions/E4_1_ADJUDICATION_QC.csv": "f3841e2ee518409dc0ab5a0f8fd8c460b2417b56326da209bc6390b2c67ee8c8",
+    "e4_1_interventions/E4_1_ARM_CONSTRUCTION.jsonl": "54fa8b999c0a15cc9ccd41caab77e674c24b20257f4f6e6edd18026e7432a428",
+    "e4_1_interventions/E4_1_CASEBOOK.md": "fd43eb68ac2fa3eee8e15386867bd3b0daa2acd7c94be1f65f206707844f5a5f",
+    "e4_1_interventions/E4_1_EVIDENCE_TO_ANSWER_TRANSITIONS.csv": "3475e58a7069f1504621b39efbe4e31aaa9b77f9cdb9ae9b3ce36c931df9e0b8",
+    "e4_1_interventions/E4_1_EXECUTION_EVENTS.md": "8006c43fcd1c5d8d51c6670e78b694b77e72b5d9fabd78e7f338c560e1979b26",
+    "e4_1_interventions/E4_1_EXECUTION_TELEMETRY.json": "9335e071cc4e113101e76acf70204558f9638eddfd4a94f0f2a9acdc5f36e60f",
+    "e4_1_interventions/E4_1_EXECUTION_TELEMETRY_PRE_REPAIR.json": "ac6e216712f5447868f08ba01f955b77ef6344188bd850fbaee7f370391a24d5",
+    "e4_1_interventions/E4_1_FINAL_SCIENTIFIC_REPORT.md": "76580b47993939557a0ae0bd6eae81080c5d645f47d3db878a28fd551f1658a8",
+    "e4_1_interventions/E4_1_FULL_REGRESSION_REPORT.md": "d06f9151da6cdd4d30daef5bf597c53a792a7668f062793489297aa78fe23175",
+    "e4_1_interventions/E4_1_NATIVE_READER_RAW.jsonl": "17a3f4c17dfc6b64675828b4fb61e0d93dd6c6f8452f4e0b796f6079fd1a57cc",
+    "e4_1_interventions/E4_1_NEUTRALITY_AUDIT.json": "f1bd2c40c648e17b128a7e649da7e7f149e7c84614189d88fadfc93e72d93661",
+    "e4_1_interventions/E4_1_OWNER_REVIEW_GATE.md": "54de2ce0b44730b527005800ea1b23ecafe56c4e021cd9c9401db91dd68d4167",
+    "e4_1_interventions/E4_1_PAIRED_INTERVENTION_STATS.csv": "b4c694d0ba16ba9324cc43a81853edbb5f01ac96eb40d591c59f2f71a02509de",
+    "e4_1_interventions/E4_1_REFERENCE_AGREEMENT.csv": "ec6f862f3844ae3c95d2ca5655cfb770ea2fbd647f08c4c2db8f5adb251fdc72",
+    "e4_1_interventions/E4_1_TARGETED_TEST_REPORT.md": "3be2fa917b125c62eed9ad1d3c3d2f6e3133b7d7eed1537fc02ddd0dcae49971"
+  },
+  "future_phases": {
+    "E4_2": "NOT_RUN",
+    "E4_3": "NOT_RUN",
+    "E4_5": "NOT_RUN"
+  },
+  "historical_input_sha256": {
+    "results/non_jev/v2/e3_v1/e3_0_governance/E3_0_RESERVED_PARTITIONS_MANIFEST.json": "7872d9ed78f8e0997c511dc9d76e6f57435f212babba9006242eed55a9dd0816",
+    "results/non_jev/v2/e3_v1/e3_d_external/E3_D_CANDIDATE_VIEWS.jsonl": "eef58ce32354ba0e13305ccd83d0295c48466be225525a972d3d54d77cc801d4",
+    "results/non_jev/v2/e3_v1/e3_d_external/E3_D_FIXED_READER_OUTPUTS.jsonl": "66f97a16a5d1706b6c5425d6b171c02de006b3e1de11fff81cd654898b7ccce9",
+    "results/non_jev/v2/e3_v1/e3_d_external/E3_D_PROVENANCE_MANIFEST.json": "9dbe4c24206d234330f658a7b0e976f6d63eeed2be77032212212d2aa44b5c28",
+    "results/non_jev/v2/e3_v1/e3_d_external/E3_D_SELECTED_TOP5.jsonl": "a32dc6528342fdcdb9b1569b1cd49d99d80beb26fe01ca5179349184df0d5b06"
+  },
+  "jev_calls": 0,
+  "multimodal": false,
+  "new_selector_inference": false,
+  "paid_api_calls": 0,
+  "reserved_outcomes_accessed": false,
+  "status": "E4_1_OWNER_REVIEW_READY",
+  "training": false
+}

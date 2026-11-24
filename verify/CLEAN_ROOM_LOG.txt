@@ -1,0 +1,20 @@
+Clean-room reproducibility log
+
+Environment
+- Fresh virtual environment, Python 3.12.3, matching `environment/environment-analysis.yml`.
+- Standard library only; no package downloads, dataset downloads, network access, GPU use, or model inference.
+- The environment specification contains only the Python version pin.
+
+Commands executed from a fresh copy of the repository
+- `verify/verify_hashes.py` before regeneration: PASS; 135 files listed; 73 source-crosswalk rows / 73 release targets; 29 raw-trace manifest rows; frozen protocol and cohort SHA-256 checks passed.
+- `scripts/make_paper_assets.py`: PASS; regenerated eight available CSV outputs plus `generation_status.json`; exact source tables, complete screen matrix, and figure sources remain absent.
+- `verify/make_data_dictionary.py`: PASS; 65 tabular release files inventoried.
+- `verify/verify_paper_numbers.py`: expected nonzero exit because one computable assertion differs; 38 PASS, 1 FAIL, 22 NOT_VERIFIABLE.
+- `verify/run_integrity_tests.py`: PASS, 8/8 tests, including model-download safety checks.
+- `scripts/download_model.py --help`: PASS; help only, no download.
+- `verify/scan_release.py`: PASS; all 136 files and compressed payloads scanned.
+- `verify/verify_hashes.py` after regeneration: PASS; frozen hashes, source crosswalk targets, and trace projections verified.
+
+The 11 regenerated artifacts (nine `paper/regenerated/` outputs, including eight CSVs plus the generation-status JSON; the data dictionary; and the paper-number check log) were byte-identical to the staged repository outputs. The single expected FAIL is `bright_jina_truncated_8192_ndcg5`: released per-query data gives 0.1738 while the paper prints 0.1765. It was preserved, not corrected.
+
+The final SHA-256 manifest and archive are generated after this clean-room run. Final-tree and final-archive verification outcomes are recorded in `PACKAGING_REPORT.md`, `verify/SANITIZATION_SCAN.txt`, and the packaging handoff.

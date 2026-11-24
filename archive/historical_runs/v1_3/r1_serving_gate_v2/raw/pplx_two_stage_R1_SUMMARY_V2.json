@@ -1,0 +1,20 @@
+{
+  "alloc_p95_mib": 51322.8462,
+  "attempts": 360,
+  "fail_classes": {
+    "RuntimeError": 3
+  },
+  "fail_p50_ms": 42.767,
+  "failed": 3,
+  "input_label_blind": true,
+  "latency_boundary": "request construction + native inference + score parsing + ID mapping + Top-5 packaging",
+  "load_ms": 26037.172,
+  "marginal_alloc_mib": null,
+  "marginal_p50_ms": null,
+  "p50_ms": 3461.201,
+  "p95_ms": 6786.64645,
+  "physical_forward_count": "NOT_EXPOSED_BY_RUNTIME",
+  "policy": "pplx_two_stage",
+  "session": "r1_v2",
+  "valid": 357
+}

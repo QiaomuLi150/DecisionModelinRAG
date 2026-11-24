@@ -1,0 +1,10 @@
+{
+  "batch_size": 8,
+  "failed": 4,
+  "labels_joined": false,
+  "path": "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_pplxtext__perm_seed_2.jsonl",
+  "records": 1384,
+  "sha256": "72d9b19af977d5d2ca176e7202cbcaad5fe5d0a2e5d8c1d016259bbf3839132d",
+  "timing_valid": false,
+  "valid": 1380
+}

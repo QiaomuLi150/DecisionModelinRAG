@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "lengths": [
+    {
+      "dataset": "all",
+      "L": 2048,
+      "n": 2667,
+      "builder_pass_n": 2194,
+      "builder_failure_n": 473,
+      "mean_serialized_tokens": 1868.820875113947,
+      "max_serialized_tokens": 1920,
+      "limit_minus_max": 0,
+      "manifest_sha256": "321da9dc7408d3599f64f4deaac780861733b50e5c997ccea21e02d2b7e8dfda"
+    },
+    {
+      "dataset": "enterprise",
+      "L": 2048,
+      "n": 500,
+      "builder_pass_n": 27,
+      "builder_failure_n": 473,
+      "mean_serialized_tokens": 1909.5185185185185,
+      "max_serialized_tokens": 1917,
+      "limit_minus_max": 3
+    },
+    {
+      "dataset": "musique",
+      "L": 2048,
+      "n": 2167,
+      "builder_pass_n": 2167,
+      "builder_failure_n": 0,
+      "mean_serialized_tokens": 1868.3137978772497,
+      "max_serialized_tokens": 1920,
+      "limit_minus_max": 0
+    },
+    {
+      "dataset": "all",
+      "L": 4096,
+      "n": 2667,
+      "builder_pass_n": 2667,
+      "builder_failure_n": 0,
+      "mean_serialized_tokens": 3263.7439070116234,
+      "max_serialized_tokens": 3968,
+      "limit_minus_max": 0,
+      "manifest_sha256": "33ea106394ccb4711a51e3852d47321b643cea333db7b4897626b72cd32c9a42"
+    },
+    {
+      "dataset": "enterprise",
+      "L": 4096,
+      "n": 500,
+      "builder_pass_n": 500,
+      "builder_failure_n": 0,
+      "mean_serialized_tokens": 3955.428,
+      "max_serialized_tokens": 3968,
+      "limit_minus_max": 0
+    },
+    {
+      "dataset": "musique",
+      "L": 4096,
+      "n": 2167,
+      "builder_pass_n": 2167,
+      "builder_failure_n": 0,
+      "mean_serialized_tokens": 3104.1490539916936,
+      "max_serialized_tokens": 3935,
+      "limit_minus_max": 33
+    },
+    {
+      "dataset": "all",
+      "L": 6144,
+      "n": 2667,
+      "builder_pass_n": 2667,
+      "builder_failure_n": 0,
+      "mean_serialized_tokens": 3897.7461567304085,
+      "max_serialized_tokens": 6014,
+      "limit_minus_max": 2,
+      "manifest_sha256": "3424bcd70a5f3d3698ff112dfd7d7e0d439daaf6607bb490b8e3e598d3c93ee4"
+    },
+    {
+      "dataset": "enterprise",
+      "L": 6144,
+      "n": 500,
+      "builder_pass_n": 500,
+      "builder_failure_n": 0,
+      "mean_serialized_tokens": 5842.8,
+      "max_serialized_tokens": 6014,
+      "limit_minus_max": 2
+    },
+    {
+      "dataset": "musique",
+      "L": 6144,
+      "n": 2167,
+      "builder_pass_n": 2167,
+      "builder_failure_n": 0,
+      "mean_serialized_tokens": 3448.956622058145,
+      "max_serialized_tokens": 5113,
+      "limit_minus_max": 903
+    },
+    {
+      "dataset": "all",
+      "L": 8192,
+      "n": 2667,
+      "builder_pass_n": 2667,
+      "builder_failure_n": 0,
+      "mean_serialized_tokens": 4250.317585301837,
+      "max_serialized_tokens": 8042,
+      "limit_minus_max": 22,
+      "manifest_sha256": "8d85db479ffcc79589dd7ce3230affbd08b219d04508553caf292457925b27f1"
+    },
+    {
+      "dataset": "enterprise",
+      "L": 8192,
+      "n": 500,
+      "builder_pass_n": 500,
+      "builder_failure_n": 0,
+      "mean_serialized_tokens": 7337.518,
+      "max_serialized_tokens": 8042,
+      "limit_minus_max": 22
+    },
+    {
+      "dataset": "musique",
+      "L": 8192,
+      "n": 2167,
+      "builder_pass_n": 2167,
+      "builder_failure_n": 0,
+      "mean_serialized_tokens": 3537.9963082602676,
+      "max_serialized_tokens": 5744,
+      "limit_minus_max": 2320
+    }
+  ],
+  "source_manifest": "results/v2_1_replication/stage0_preflight_v2_hybrid/INPUT_MANIFEST_V2_HYBRID.jsonl",
+  "source_manifest_sha256": "5d7e6685c4cc64b6b6c0e3d6686daaeed226a8a073f87c9c155101781373454e",
+  "labels_included": false
+}

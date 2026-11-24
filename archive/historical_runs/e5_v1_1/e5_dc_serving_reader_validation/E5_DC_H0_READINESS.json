@@ -1,0 +1,38 @@
+{
+  "gpu_preload_gate": {
+    "device_row": [
+      "5",
+      "<REDACTED_GPU_UUID>",
+      "NVIDIA A100-SXM4-80GB",
+      "81920",
+      "8",
+      "81145",
+      "0",
+      "41",
+      "66.67",
+      "210"
+    ],
+    "gpu_id": 5,
+    "isolated": true,
+    "process_snapshot": {
+      "command": "<GPU_PROCESS_LISTING_OMITTED>",
+      "returncode": 0,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "<REDACTED_GPU_UUID>, 1647540, .venv-gifteval/bin/python, 18106 MiB\n<REDACTED_GPU_UUID>, 1647541, .venv-gifteval/bin/python, 15636 MiB\n<REDACTED_GPU_UUID>, 881592, VLLM::EngineCore, 54770 MiB\n<REDACTED_GPU_UUID>, 3901431, <REDACTED_PATH> 60450 MiB\n<REDACTED_GPU_UUID>, 881828, VLLM::EngineCore, 28800 MiB\n<REDACTED_GPU_UUID>, 1385448, VLLM::EngineCore, 27756 MiB\n<REDACTED_GPU_UUID>, 123980, <REDACTED_PATH> 36498 MiB\n<REDACTED_GPU_UUID>, 2816471, <REDACTED_PATH> 13316 MiB\n<REDACTED_GPU_UUID>, 3466332, <REDACTED_PATH> 2380 MiB"
+    },
+    "snapshot": {
+      "command": "nvidia-smi --query-gpu=index,uuid,name,memory.total,memory.used,memory.free,utilization.gpu,temperature.gpu,power.draw,clocks.sm --format=csv,noheader,nounits",
+      "returncode": 0,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "0, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 18117, 63035, 85, 48, 122.68, 1410\n1, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 15649, 65503, 57, 45, 111.36, 1410\n2, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 54785, 26367, 0, 35, 71.71, 1155\n3, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 60463, 20689, 0, 35, 69.80, 1155\n4, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 56583, 24570, 0, 44, 75.81, 1155\n5, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 8, 81145, 0, 41, 66.67, 210\n6, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 4, 81149, 0, 37, 65.26, 210\n7, <REDACTED_GPU_UUID>, NVIDIA A100-SXM4-80GB, 81920, 52225, 28928, 0, 39, 73.51, 1155"
+    }
+  },
+  "jina_checkpoint_present": true,
+  "pplx_checkpoint_present": true,
+  "reader_checkpoint_present": true,
+  "reader_endpoint": "http://service.example.invalid/v1/chat/completions",
+  "reader_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "status": "H0_PASS"
+}

@@ -1,0 +1,184 @@
+{
+  "artifact_count": 20,
+  "artifacts": [
+    {
+      "description": "v1.5 artifact guide",
+      "path": "results/v1_5/README.md",
+      "records": 0,
+      "sha256": "e5a963c2a780fa1bb0a603fb38f6b9963a1f24b75607c43a669fc27d4b6c7146"
+    },
+    {
+      "description": "final scientific report",
+      "path": "results/v1_5/V1_5_FINAL_REPORT.md",
+      "records": 0,
+      "sha256": "2b955de8e61715635da447f80d1f960b48dfc7dc1bd1f1be46b8aaab56ed5931"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c1_two_stage_specialist/BLOCKER.json",
+      "records": 0,
+      "sha256": "ddd70979abbe697cf273e9b6d0615a5be78c032a06fcdbecda3f2f2e63e354d8"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c1_two_stage_specialist/PROTOCOL.json",
+      "records": 0,
+      "sha256": "69645c9c40f1c2a93066c144e43c21ef2878f2aac71bd9cc8e8c17f96cf771d6"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c1_two_stage_specialist/export/STATUS.json",
+      "records": 0,
+      "sha256": "cad983a1a2a2bdc1590aba0e2de57ef64ec6e68226d1aca36a52f1299080a48e"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c2_latency_uncertainty/PROTOCOL.json",
+      "records": 0,
+      "sha256": "7166f11a60056f9d51985fd0fd8047d848082b4f6c9a9c6b76e066a463293e85"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c2_latency_uncertainty/export/C2_INPUT_INTEGRITY.json",
+      "records": 0,
+      "sha256": "2284f4d34430f1e78879e688d8d1e0ce7714f6163cc1375aa5eaedab641ea6b2"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c2_latency_uncertainty/export/C2_RAW_TRACE_MANIFEST.json",
+      "records": 0,
+      "sha256": "7772736f35b7194437f1799614790698d268a2f8e623a79058eef9bd415ce6a4"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c2_latency_uncertainty/export/C2_RUN_RECEIPT.json",
+      "records": 0,
+      "sha256": "189692271b6d0e10ba054b9f8d14e25cb7c4af395a8675abff8a78047783d348"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c2_latency_uncertainty/export/fallback_cost.csv",
+      "records": 360,
+      "sha256": "a6caa6b7353bea75c046cedf9490668ecb86a45504ac411c54a5d86ae42de9af"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c2_latency_uncertainty/export/latency_perrequest.csv",
+      "records": 3960,
+      "sha256": "63eb3451dbf58e54dce66661f153d5b15a0c4bb02bca48461c91a3054617ce21"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c2_latency_uncertainty/export/latency_policy_summary.csv",
+      "records": 11,
+      "sha256": "1f5324954a251ee396613673b101c8f3511c87a069c212b92a1401d3f5a7d612"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c2_latency_uncertainty/export/latency_ratios.csv",
+      "records": 16,
+      "sha256": "6c4ade37654cc5142168c1e02f7fea0d5762bda9a802c9a80dd31002b2a08eb6"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c3_concurrency/BLOCKER.json",
+      "records": 0,
+      "sha256": "83d50a8f72d7f48bea47e2326f967adfc291056ffeb41f80a66a25e58c3cfaaa"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c3_concurrency/PROTOCOL.json",
+      "records": 0,
+      "sha256": "9852be2d6010c8c92d940f5b4a945eb50e38f4f2fad67301bcecd2889f6c6ba6"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c3_concurrency/export/STATUS.json",
+      "records": 0,
+      "sha256": "c1038ec02bdbbe3d190b033ad1e23df77682962face141f8291491ecb61c887d"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c4_winnow_rerun/BLOCKER.json",
+      "records": 0,
+      "sha256": "1cf12686bc0a7039807dfb05d3c38476d5b5127a13dc9a8a29a25d42e9361cbb"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c4_winnow_rerun/PROTOCOL.json",
+      "records": 0,
+      "sha256": "a5347d272b3ae1581937888b7904e17a47db99d14ed67b1bc90c1a9b0602c0c2"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/c4_winnow_rerun/export/STATUS.json",
+      "records": 0,
+      "sha256": "5c154da1d6d177222e58a33b3b557dd1c7e1bd1028d4445cb0dc59f2822d6faa"
+    },
+    {
+      "description": "v1.5 protocol, status, export, or blocker artifact",
+      "path": "results/v1_5/decisionrag_v1_5_control_exports.zip",
+      "records": 0,
+      "sha256": "5d5a5c72a1215944841f90cfd362cfc74641b10753646f3d958dddf57b22ff5e"
+    }
+  ],
+  "historical_sources": [
+    {
+      "path": "results/v1_3/r1_serving_gate_v2/raw/pplx_budget_R1_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "087e7f07c381d7724ca6d90f5f768bf84f8dcba75b7551135279c0bebebaf7cc"
+    },
+    {
+      "path": "results/v1_3/r1_serving_gate_v2/raw/pplx_two_stage_R1_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "b4c7e204d49ddebcc887b000a9e55c0c63921457269971d679eb1a6a285597a6"
+    },
+    {
+      "path": "results/v1_3/r1_serving_gate_v2/raw/jina_full_R1_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "a8e4b95b51206b6f2054a7c166b30089205f2a1ed322a19edc06a200f8905bdd"
+    },
+    {
+      "path": "results/v1_3/r1_serving_gate_v2/raw/jina_pplx_budget_R1_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "fa678cc3e10e21e81af9ce847743802f77f9e577cbfd38830413593e5766d1c4"
+    },
+    {
+      "path": "results/non_jev/v2/e12_o_final_v1_0/03_serving/e12o_o3_attempt_01/jina_v3_5_SERVING_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "f32d8d5306672e01299f691b380bb51d0b09445a194f60d0d784c26dcb45d14b"
+    },
+    {
+      "path": "results/non_jev/v2/e12_o_final_v1_0/03_serving/e12o_o3_attempt_01/winnow12_SERVING_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "3db64348648c54db35b4cac7b00f77f47c4d41f8102861b363ba6bd31744ae4b"
+    },
+    {
+      "path": "results/non_jev/v2/e12_o_final_v1_0/03_serving/e12o_o3_attempt_01/drex_dlm8_SERVING_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "c834dce5aaa31c09c86e954e4c180311494958d42e2812a9f4ff76b27aad6518"
+    },
+    {
+      "path": "results/non_jev/v2/e12_o_final_v1_0/03_serving/e12o_o3_attempt_01/kev9_SERVING_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "ac4a6104aa0f93c82ce1e020cd13d3c2e64dd13a7427b362900894cd92c29955"
+    },
+    {
+      "path": "results/non_jev/v2/e12_o_final_v1_0/03_serving/e12o_o3_attempt_01/qwen3_reranker_0_6b_SERVING_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "0380fdcdbf8b5a5ec595f6d6750a0d330041ee1d73ddd0b155aedce7d50739cb"
+    },
+    {
+      "path": "results/non_jev/v2/e12_o_final_v1_0/03_serving/e12o_o3_attempt_01/mxbai_v2_SERVING_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "aca387563e3e5a7ca5591a69359add503268f8655baee87698477a9124a930e4"
+    },
+    {
+      "path": "results/non_jev/v2/reviewer_response_final_v1_1_blocker_resolution/02_LIQUID_SERVING_RAW_ALL_ATTEMPTS.jsonl",
+      "records": 360,
+      "sha256": "a4aeb117581aa4c697416947cd1497cf07f2e376da7b7436d3628ebdaa9ccf2f"
+    }
+  ],
+  "manifest_version": "v1.5-final",
+  "scope": "new v1.5 artifacts and source hashes only; historical raw traces are not copied"
+}

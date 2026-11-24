@@ -1,0 +1,13 @@
+cohort,population,policy,n,success,rate,joint_success,pointwise_success,difference,ci95_low,ci95_high,wins,losses,ties,seed,reps
+track_a,unconditional_eligible,clef_pointwise_top5,3767,473,0.12556410937085213,,,,,,,,,,
+track_a,unconditional_eligible,clef_joint_top5,3767,686,0.18210777807273693,,,,,,,,,,
+track_a,retrieval_conditional,clef_pointwise_top5,1490,473,0.3174496644295302,,,,,,,,,,
+track_a,retrieval_conditional,clef_joint_top5,1490,686,0.4604026845637584,,,,,,,,,,
+track_b,unconditional_eligible,clef_pointwise_top5,443,136,0.30699774266365687,,,,,,,,,,
+track_b,unconditional_eligible,clef_joint_top5,443,202,0.45598194130925507,,,,,,,,,,
+track_b,retrieval_conditional,clef_pointwise_top5,330,136,0.4121212121212121,,,,,,,,,,
+track_b,retrieval_conditional,clef_joint_top5,330,202,0.6121212121212121,,,,,,,,,,
+track_a,unconditional_eligible,,3767,,,686,473,0.05654366870188479,0.04539421290151314,0.06769312450225644,335,122,3310,731,5000
+track_a,retrieval_conditional,,1490,,,686,473,0.1429530201342282,0.11677852348993288,0.1697986577181208,335,122,1033,731,5000
+track_b,unconditional_eligible,,443,,,202,136,0.1489841986455982,0.10835214446952596,0.18961625282167044,80,14,349,731,5000
+track_b,retrieval_conditional,,330,,,202,136,0.2,0.1484848484848485,0.2515151515151515,80,14,236,731,5000

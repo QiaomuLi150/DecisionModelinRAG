@@ -1,0 +1,5 @@
+# E3-C Authenticity and Integrity Audit
+
+Both new branches use official local checkpoint snapshots and native interfaces. Raw rows preserve model revision, question/candidate/input hashes, output hashes where available, score semantics, candidate IDs, Top-5 IDs, input lengths, physical-forward counts and GPU attribution. Native inputs contain no gold qrels, answer sidecars or CSSR outcomes. Historical Jina/PPLX/BGE/retrieval-only traces are reused by SHA-verified source paths and are not re-inferred. A failed row is retained with an explicit status and is never converted to zero quality.
+
+The append-only trace also preserves the initial Liquid adapter failures and the earlier zerank attempts whose legacy forward hook recorded zero. A two-pair module probe located the actual nested Qwen3Model execution boundary; the affected zerank rows were rerun with that hook, and only the final accepted rows (three physical decoder forwards per 20-candidate query) feed C4. Repeated valid attempts had identical input hashes, score vectors and Top-5 IDs. E3-0 remains pending metadata; no E3-F holdout, Jev, paid API, training, E3-D or multimodal branch was accessed.

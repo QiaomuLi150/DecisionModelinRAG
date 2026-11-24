@@ -1,0 +1,57 @@
+{
+  "cal": [
+    {
+      "context_infeasible": 0,
+      "errors": 0,
+      "model": "liquid_d1_3b",
+      "n": 30,
+      "physical_forwards": 30,
+      "valid": 30
+    },
+    {
+      "context_infeasible": 0,
+      "errors": 0,
+      "model": "zerank_2",
+      "n": 30,
+      "physical_forwards": 90,
+      "valid": 30
+    }
+  ],
+  "frozen_before_full": true,
+  "liquid_policy": {
+    "context_limit": 32768,
+    "contract_status": "VALID_WITH_EXPLORATORY_CROSS_HEAD_LIMITATION",
+    "native_call": "system_one",
+    "policy": "liquid_joint20_binary",
+    "top5": "descending_native_yes_probability_then_original_rank",
+    "twenty_named_noul": true
+  },
+  "protocol": "E3-C v1.0",
+  "seed": 731,
+  "smoke": [
+    {
+      "context_infeasible": 0,
+      "errors": 0,
+      "model": "liquid_d1_3b",
+      "n": 12,
+      "physical_forwards": 12,
+      "valid": 12
+    },
+    {
+      "context_infeasible": 0,
+      "errors": 0,
+      "model": "zerank_2",
+      "n": 12,
+      "physical_forwards": 36,
+      "valid": 12
+    }
+  ],
+  "zerank_policy": {
+    "context_limit": 32768,
+    "contract_status": "VALID_RAW_LOGIT",
+    "native_call": "CrossEncoder.predict",
+    "pair_batch_size": 8,
+    "policy": "zerank2_pointwise",
+    "top5": "descending_raw_yes_logit_then_original_rank"
+  }
+}

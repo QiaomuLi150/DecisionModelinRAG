@@ -1,0 +1,13 @@
+{
+  "claimed_197_not_assumed": true,
+  "comparison_filter": "v1.6 order_id == original",
+  "exact_serialized_input_hashes_available": true,
+  "labels_joined": false,
+  "raw_strings_available": false,
+  "scope": "A1-A3 only; no model inference",
+  "source_pair": [
+    "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_two_stage_pplxtext__original.jsonl",
+    "results/v1_6/d1_perwindow_jina/raw/d1_jina_two_stage_pplxwindow_all.jsonl"
+  ],
+  "status": "FROZEN_PRE_OUTCOME_OFFLINE_AUDIT"
+}

@@ -1,0 +1,26 @@
+{
+  "blockers": [
+    "No authentic gold-blind frozen SciFact Top-20 retrieval slate manifest exists in the local project artifacts."
+  ],
+  "completed": {
+    "dataset_audit": true,
+    "historical_audit": true,
+    "holdout_preserved": true,
+    "model_contract_freeze": true,
+    "natural_scifact_top20_authenticated": false,
+    "statistical_protocol_freeze": true
+  },
+  "created_utc": "2026-10-15T02:53:43.581806+00:00",
+  "gate": "E6_2_R0_RETRIEVAL_FREEZE_REQUIRED",
+  "next_owner_decision": "Authorize a separate CPU/GPU retrieval-only preparation with fixed retriever/index settings, or provide an already-authenticated natural SciFact Top-20 slate manifest.",
+  "prohibitions_observed": {
+    "gpu_calls": 0,
+    "historical_artifacts_modified": false,
+    "jev_calls": 0,
+    "model_inference_calls": 0,
+    "paid_api_calls": 0,
+    "reserved_holdout_access": false,
+    "retrieval_construction_calls": 0
+  },
+  "status": "BLOCKED_PENDING_SEPARATE_RETRIEVAL_ONLY_AUTHORIZATION"
+}

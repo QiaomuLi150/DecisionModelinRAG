@@ -1,0 +1,7 @@
+model,stage,query_id,candidate_k,input_tokens,failure,native_api_calls,physical_forward_count_observed
+amos_1_small_2b,smoke,scifact:100,20,,"BadRequest: maximum context length: request has 16855 tokens, limit 16384",1,0
+amos_1_small_2b,cal,scifact:100,20,,"BadRequest: maximum context length: request has 16855 tokens, limit 16384",1,0
+amos_1_small_2b,cal,scifact:1005,20,,"BadRequest: maximum context length: request has 16404 tokens, limit 16384",1,0
+amos_1_small_2b,cal,scifact:1161,20,,"BadRequest: maximum context length: request has 16898 tokens, limit 16384",1,0
+amos_1_small_2b,cal,scifact:1196,20,,"BadRequest: maximum context length: request has 16507 tokens, limit 16384",1,0
+amos_1_small_2b,cal,scifact:124,20,,"BadRequest: maximum context length: request has 16716 tokens, limit 16384",1,0

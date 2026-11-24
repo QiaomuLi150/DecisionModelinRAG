@@ -1,0 +1,77 @@
+{
+  "models": [
+    {
+      "api_invocations": 1397,
+      "failed_forward_count": "NOT_MEASURED",
+      "method": "adapter registered hook where exposed; NOT_MEASURED otherwise",
+      "model": "pplx_decider",
+      "observed_physical_forwards": 1397,
+      "valid_forward_count_not_measured": 0,
+      "valid_with_observed_forward_count": 1397
+    },
+    {
+      "api_invocations": 1397,
+      "failed_forward_count": "NOT_MEASURED",
+      "method": "adapter registered hook where exposed; NOT_MEASURED otherwise",
+      "model": "liquid_d1_3b",
+      "observed_physical_forwards": 1397,
+      "valid_forward_count_not_measured": 0,
+      "valid_with_observed_forward_count": 1397
+    },
+    {
+      "api_invocations": 1397,
+      "failed_forward_count": "NOT_MEASURED",
+      "method": "adapter registered hook where exposed; NOT_MEASURED otherwise",
+      "model": "startlux_decision_4b",
+      "observed_physical_forwards": 1022,
+      "valid_forward_count_not_measured": 375,
+      "valid_with_observed_forward_count": 1022
+    },
+    {
+      "api_invocations": 1397,
+      "failed_forward_count": "NOT_MEASURED",
+      "method": "adapter registered hook where exposed; NOT_MEASURED otherwise",
+      "model": "amos_1_small_2b",
+      "observed_physical_forwards": 0,
+      "valid_forward_count_not_measured": 1397,
+      "valid_with_observed_forward_count": 0
+    },
+    {
+      "api_invocations": 1397,
+      "failed_forward_count": "NOT_MEASURED",
+      "method": "adapter registered hook where exposed; NOT_MEASURED otherwise",
+      "model": "jina_v3_5",
+      "observed_physical_forwards": 1397,
+      "valid_forward_count_not_measured": 0,
+      "valid_with_observed_forward_count": 1397
+    },
+    {
+      "api_invocations": 1397,
+      "failed_forward_count": "NOT_MEASURED",
+      "method": "adapter registered hook where exposed; NOT_MEASURED otherwise",
+      "model": "qwen3_reranker_4b",
+      "observed_physical_forwards": 2794,
+      "valid_forward_count_not_measured": 0,
+      "valid_with_observed_forward_count": 1397
+    },
+    {
+      "api_invocations": 1397,
+      "failed_forward_count": "NOT_MEASURED",
+      "method": "adapter registered hook where exposed; NOT_MEASURED otherwise",
+      "model": "bge_reranker_v2_m3",
+      "observed_physical_forwards": 2794,
+      "valid_forward_count_not_measured": 0,
+      "valid_with_observed_forward_count": 1397
+    },
+    {
+      "api_invocations": 1397,
+      "failed_forward_count": "NOT_MEASURED",
+      "method": "adapter registered hook where exposed; NOT_MEASURED otherwise",
+      "model": "qwen3_reranker_0_6b",
+      "observed_physical_forwards": 2794,
+      "valid_forward_count_not_measured": 0,
+      "valid_with_observed_forward_count": 1397
+    }
+  ],
+  "physical_forward_claim_policy": "unobserved values remain NOT_MEASURED; no hidden forward estimate"
+}

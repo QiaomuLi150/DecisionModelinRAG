@@ -1,0 +1,15 @@
+{
+  "batch_size": 8,
+  "frozen_before_inference": true,
+  "gpu_requested": 4,
+  "historical_scoring_module": "scripts/v1_5_c1_gpu3_runner.py::score_many",
+  "input_contract": "query + candidate_ids + candidate_texts",
+  "input_manifest_sha256": "b31bac68707eeec451e9c5d67818d4437f2fe8926a44d78ae7dce7d98fa4ecb9",
+  "jina_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+  "labels_joined": false,
+  "native_path": "format_docs_prompts_func -> tokenizer left padding -> model.forward -> outputs.scores",
+  "no_retries": true,
+  "protected_holdouts_accessed": false,
+  "protocol_id": "v3.6_jina_contract_repair_batch8_v1",
+  "selection": "stable descending score, then original index, then candidate_id; k=5"
+}

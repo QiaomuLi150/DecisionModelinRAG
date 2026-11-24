@@ -1,0 +1,26 @@
+cohort,contrast,method,n,groups,mean_delta,ci95_low,ci95_high,seed,repetitions,estimand,excluded_group,excluded_n
+representative,A_vs_B,query_bootstrap,200,21,0.015,-0.015,0.045,731,5000,query-weighted exploratory paired proxy,,
+representative,A_vs_B,source_group_cluster_bootstrap,200,21,0.015,0.0,0.08571428571428572,731,5000,query-weighted point estimate with source-group resampling,,
+representative,A_vs_B,leave_largest_group_out,30,20,0.03333333333333333,0.0,0.10344827586206896,731,5000,sensitivity; not a replacement population estimate,multihop:component:cc11478c0a2ddecde4f0426a,170
+representative,A_vs_B,equal_source_group_descriptive,200,21,0.024369747899159664,,,731,0,descriptive equal-group estimand; no inferential CI,,
+representative,A_vs_B,granular_group_sensitivity,200,NOT_ESTIMABLE,,,,731,0,NOT_ESTIMABLE: no defensible provenance-supported split of connected components,,
+representative,D_vs_D_CONTROL,query_bootstrap,198,21,-0.09090909090909091,-0.1414141414141414,-0.045454545454545456,731,5000,query-weighted exploratory paired proxy,,
+representative,D_vs_D_CONTROL,source_group_cluster_bootstrap,198,21,-0.09090909090909091,-0.3103448275862069,-0.07142857142857142,731,5000,query-weighted point estimate with source-group resampling,,
+representative,D_vs_D_CONTROL,leave_largest_group_out,30,20,-0.2,-0.3548387096774194,-0.07142857142857142,731,5000,sensitivity; not a replacement population estimate,multihop:component:cc11478c0a2ddecde4f0426a,168
+representative,D_vs_D_CONTROL,equal_source_group_descriptive,198,21,-0.21768707482993196,,,731,0,descriptive equal-group estimand; no inferential CI,,
+representative,D_vs_D_CONTROL,granular_group_sensitivity,198,NOT_ESTIMABLE,,,,731,0,NOT_ESTIMABLE: no defensible provenance-supported split of connected components,,
+representative,C_vs_D_CONTROL,query_bootstrap,198,21,0.010101010101010102,-0.015151515151515152,0.04040404040404041,731,5000,query-weighted exploratory paired proxy,,
+representative,C_vs_D_CONTROL,source_group_cluster_bootstrap,198,21,0.010101010101010102,-0.12121212121212122,0.03571428571428571,731,5000,query-weighted point estimate with source-group resampling,,
+representative,C_vs_D_CONTROL,leave_largest_group_out,30,20,-0.03333333333333333,-0.16,0.07692307692307693,731,5000,sensitivity; not a replacement population estimate,multihop:component:cc11478c0a2ddecde4f0426a,168
+representative,C_vs_D_CONTROL,equal_source_group_descriptive,198,21,-0.0467687074829932,,,731,0,descriptive equal-group estimand; no inferential CI,,
+representative,C_vs_D_CONTROL,granular_group_sensitivity,198,NOT_ESTIMABLE,,,,731,0,NOT_ESTIMABLE: no defensible provenance-supported split of connected components,,
+diagnostic_enriched,A_vs_B,query_bootstrap,50,4,0.02,-0.08,0.12,731,5000,query-weighted exploratory paired proxy,,
+diagnostic_enriched,A_vs_B,source_group_cluster_bootstrap,50,4,0.02,0.0,0.02112676056338028,731,5000,query-weighted point estimate with source-group resampling,,
+diagnostic_enriched,A_vs_B,leave_largest_group_out,3,3,0,0.0,0.0,731,5000,sensitivity; not a replacement population estimate,multihop:component:cc11478c0a2ddecde4f0426a,47
+diagnostic_enriched,A_vs_B,equal_source_group_descriptive,50,4,0.005319148936170213,,,731,0,descriptive equal-group estimand; no inferential CI,,
+diagnostic_enriched,A_vs_B,granular_group_sensitivity,50,NOT_ESTIMABLE,,,,731,0,NOT_ESTIMABLE: no defensible provenance-supported split of connected components,,
+diagnostic_enriched,D_vs_D_CONTROL,query_bootstrap,49,4,-0.14285714285714285,-0.2653061224489796,-0.02040816326530612,731,5000,query-weighted exploratory paired proxy,,
+diagnostic_enriched,D_vs_D_CONTROL,source_group_cluster_bootstrap,49,4,-0.14285714285714285,-0.1510791366906475,0.0,731,5000,query-weighted point estimate with source-group resampling,,
+diagnostic_enriched,D_vs_D_CONTROL,leave_largest_group_out,3,3,0,0.0,0.0,731,5000,sensitivity; not a replacement population estimate,multihop:component:cc11478c0a2ddecde4f0426a,46
+diagnostic_enriched,D_vs_D_CONTROL,equal_source_group_descriptive,49,4,-0.03804347826086957,,,731,0,descriptive equal-group estimand; no inferential CI,,
+diagnostic_enriched,D_vs_D_CONTROL,granular_group_sensitivity,49,NOT_ESTIMABLE,,,,731,0,NOT_ESTIMABLE: no defensible provenance-supported split of connected components,,

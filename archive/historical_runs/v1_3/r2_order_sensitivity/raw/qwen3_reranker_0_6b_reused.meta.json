@@ -1,0 +1,11 @@
+{
+  "policy": "qwen3_reranker_0_6b",
+  "rows": 9688,
+  "valid": 9674,
+  "failed": 14,
+  "source_raw_sha256": "f9a37055b2b5d6d802445adac6ae6bb4f437e987655761fe54e6a1efcf602367",
+  "raw_sha256": "ab10a13effe49f0a5226f20a4cf11296376304851546e060babecba99969fbfb",
+  "labels_joined": false,
+  "physical_model_calls": 0,
+  "reason": "pointwise score reuse is order-safe; IDs and scores are remapped offline"
+}

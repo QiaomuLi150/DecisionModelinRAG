@@ -1,0 +1,128 @@
+{
+  "budgets": {
+    "K_single": 20,
+    "K_window": 10,
+    "candidate_prefix": true,
+    "one_token_shrink": true,
+    "rho": 128,
+    "single_L": [
+      1024,
+      2048,
+      3072,
+      4096,
+      6144,
+      8192
+    ],
+    "tokenizer": "PPLX local processor tokenizer",
+    "two_stage_L": [
+      2048,
+      4096,
+      8192
+    ],
+    "unused_budget_redistributed": false
+  },
+  "code_revision": "working tree scripts/v3_6_essential.py",
+  "cohorts": {
+    "C120_source": "frozen v1.6 D2 raw identities",
+    "C360_draw_seed": 20261023
+  },
+  "experiment": "DecisionRAG v3.6 Essential Verification",
+  "inference": {
+    "failures_retained": true,
+    "fallback_only_offline": true,
+    "no_new_downloads": true,
+    "no_retries": true
+  },
+  "models": {
+    "drex_v2": {
+      "revision": "historical registry; no new model load in Stage 1",
+      "runtime": "reuse only"
+    },
+    "jina_v3_5": {
+      "parameters": "0.6B",
+      "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+      "runtime": "native jina reranker local checkpoint"
+    },
+    "liquid_d1_3b": {
+      "revision": "historical registry; timing only",
+      "runtime": "reuse only"
+    },
+    "pplx_decider": {
+      "parameters": "27B",
+      "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+      "runtime": "native autojev DecisionModel local checkpoint"
+    },
+    "winnow_12b": {
+      "revision": "historical registry; no new model load in Stage 1",
+      "runtime": "reuse only"
+    }
+  },
+  "population": {
+    "candidate_count": 20,
+    "dataset": "official frozen BRIGHT Top-20",
+    "domains": [
+      "aops",
+      "biology",
+      "earth_science",
+      "economics",
+      "leetcode",
+      "pony",
+      "psychology",
+      "robotics",
+      "stackoverflow",
+      "sustainable_living",
+      "theoremqa_questions",
+      "theoremqa_theorems"
+    ],
+    "n_queries": 1384,
+    "slate_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2"
+  },
+  "seeds": {
+    "bootstrap": 731,
+    "cohort": 20261023,
+    "determinism": 731
+  },
+  "serving": {
+    "t1": {
+      "attempts": 3,
+      "cohort": "C360",
+      "concurrency": 1,
+      "gpu_slots": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sessions": 3
+    },
+    "t2": {
+      "anchor_policies": [
+        "J_full",
+        "P_8192"
+      ],
+      "attempts": 3,
+      "cohort": "C120"
+    },
+    "thresholds": [
+      1.5,
+      2.0,
+      3.0
+    ]
+  },
+  "statistics": {
+    "bootstrap_draws": 40000,
+    "holm_families": {
+      "Q1": "P_L - J_L for 1024,2048,3072,4096,6144",
+      "Q2": "P2_L - J2_L for 2048,4096",
+      "Q3": "descriptive budget effects",
+      "noninferiority": [
+        0.02,
+        0.01,
+        0.005
+      ]
+    },
+    "latency_bootstrap_draws": 10000,
+    "seed": 731,
+    "sign_flip": "exact 2^12"
+  },
+  "status": "FROZEN_PRE_OUTCOME"
+}

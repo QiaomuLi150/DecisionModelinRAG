@@ -1,0 +1,2 @@
+status,reason,human_verified,model_adjudicated,repeat_qc
+NOT_RUN,No authenticated independent different-family judge was available; deterministic reference proxies are retained and not promoted to factual correctness.,False,False,NOT_RUN

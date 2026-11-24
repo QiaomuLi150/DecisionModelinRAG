@@ -1,0 +1,34 @@
+[
+  {
+    "contrast": "kev9_native_sub - jina_kev_native_sub",
+    "n": 132,
+    "mean_delta": -0.16996170656628148,
+    "positive": 6,
+    "negative": 44,
+    "unchanged": 82
+  },
+  {
+    "contrast": "kev9_budget_sub - jina_kev_budget_sub",
+    "n": 0,
+    "mean_delta": null,
+    "positive": 0,
+    "negative": 0,
+    "unchanged": 0
+  },
+  {
+    "contrast": "drex_dlm_native_sub - jina_drex_native_sub",
+    "n": 126,
+    "mean_delta": -0.1163492566173103,
+    "positive": 8,
+    "negative": 40,
+    "unchanged": 78
+  },
+  {
+    "contrast": "drex_dlm_budget_sub - jina_drex_budget_sub",
+    "n": 0,
+    "mean_delta": null,
+    "positive": 0,
+    "negative": 0,
+    "unchanged": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "policy": "Do not open protected raw content, labels, predictions or references.",
+  "reserved_markers": [
+    "E5-F",
+    "E6-F",
+    "RESERVED",
+    "confirmatory holdout"
+  ]
+}

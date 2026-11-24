@@ -1,0 +1,16 @@
+{
+  "future_partitions": {
+    "CAL": "PENDING_SOURCE_RELEASE_AND_IDENTITY_AUDIT",
+    "EXPLORATORY": "PENDING_SOURCE_RELEASE_AND_IDENTITY_AUDIT",
+    "RESERVED": "SEALED; NO_RAW_CONTENT_OR_LABELS_ACCESSED"
+  },
+  "historical_exclusions": {
+    "qids": 1502,
+    "source_groups": 587,
+    "source_papers": 587
+  },
+  "near_duplicate_status": "NOT_ESTABLISHED_FOR_UNACQUIRED_DATASETS",
+  "schema": "E6-0-SOURCE-DISJOINT-SPLIT-V1",
+  "seed": 731,
+  "status": "PROPOSED_NOT_COMMITTED"
+}

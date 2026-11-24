@@ -1,0 +1,17 @@
+{
+  "expected_records": 1440,
+  "failed": 9,
+  "gpu_index": 6,
+  "labels_joined": false,
+  "model_load_ms": 1089.421,
+  "policies": [
+    "jina_full",
+    "jina_single_3072",
+    "jina_single_4096",
+    "jina_two_stage_4096"
+  ],
+  "records": 1440,
+  "sha256": "66979ea36b06e4ebb8cb9fbfd8ba79324fcee80ed7b303b2f69ac86671baf161",
+  "status": "PASS",
+  "valid": 1431
+}

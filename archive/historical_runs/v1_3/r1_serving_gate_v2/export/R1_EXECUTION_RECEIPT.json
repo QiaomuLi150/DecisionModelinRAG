@@ -1,0 +1,31 @@
+{
+  "attempts_by_policy": {
+    "jina_full": 360,
+    "jina_pplx_budget": 360,
+    "pplx_budget": 360,
+    "pplx_two_stage": 360
+  },
+  "failed_by_policy": {
+    "jina_full": 0,
+    "jina_pplx_budget": 3,
+    "pplx_budget": 3,
+    "pplx_two_stage": 3
+  },
+  "gpu_isolated_before_process_exit": true,
+  "gpu_post_in_process_external_isolation": true,
+  "labels_joined": false,
+  "post_process_exit_check_required": true,
+  "raw_sha256": {
+    "results/v1_3/r1_serving_gate_v2/raw/jina_full_R1_RAW_V2.jsonl": "a8e4b95b51206b6f2054a7c166b30089205f2a1ed322a19edc06a200f8905bdd",
+    "results/v1_3/r1_serving_gate_v2/raw/jina_pplx_budget_R1_RAW_V2.jsonl": "fa678cc3e10e21e81af9ce847743802f77f9e577cbfd38830413593e5766d1c4",
+    "results/v1_3/r1_serving_gate_v2/raw/pplx_budget_R1_RAW_V2.jsonl": "087e7f07c381d7724ca6d90f5f768bf84f8dcba75b7551135279c0bebebaf7cc",
+    "results/v1_3/r1_serving_gate_v2/raw/pplx_two_stage_R1_RAW_V2.jsonl": "b4c7e204d49ddebcc887b000a9e55c0c63921457269971d679eb1a6a285597a6"
+  },
+  "status": "PASS",
+  "valid_by_policy": {
+    "jina_full": 360,
+    "jina_pplx_budget": 357,
+    "pplx_budget": 357,
+    "pplx_two_stage": 357
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "files": {
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_COHORT_AND_STRATA_MANIFEST.jsonl": "a7575c903e2502825486f9080f77e317c4cb278eadfb1f0bd639f08dcb0b563e",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_FAILURE_CASEBOOK.md": "db6abe0ed8e01f6540060794d6b45f1c6559b85e3f34efc03d0858912f4c51f8",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_FINAL_SCIENTIFIC_REPORT.md": "b0036f8eb40fd8c715808bfb6d1b300448079f5ef7db1a217b6ca2f99b657096",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_FROZEN_EXPLORATORY_PROTOCOL.json": "7291ae69e6088a1fa3400ba427aeb2dbfaff28b67c3bffda4c6f806cb939bd9b",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_FULL_TEST_REPORT.md": "82a473e0d41ce0f1a06fb46a93becdd2e17ccd17af1f531d4d5db96332c367f2",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_INPUT_PROVENANCE_AND_HASH_AUDIT.md": "60d9c2e272c9bfa01f01d0f46cc1304f07c40d2e8b840b8e426ed0fb06b15e09",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_ISOLATED_LATENCY_RAW.jsonl": "35d379dc2359a75b9e70de7a835f0de4603f9af2d31c9dd5d9275bc906f76024",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_ISOLATED_LATENCY_SUMMARY.csv": "f61dfdacc565f27e08302bb5f358f5c54ebb15598e521064f16ef6bdf2096c19",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_NATIVE_INTERFACE_AND_FEASIBILITY_AUDIT.md": "3d96e6ac07ebad4198b8178462d453dff4cfc886aa5a4535ffc6557071839d28",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_OWNER_REVIEW_GATE.md": "43a58f3e4cded8914f095d8f18b8ceb948fc8ea0f6f802791c9eb5f32a3d3ec5",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_PAIRED_MECHANISM_INTERACTIONS.csv": "8ef08f562c3e9f864b276f2b306a313c762dd2399aa8fb20f77f20d35f124701",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_QUALITY_LATENCY_REPLACEMENT_MAP.md": "b470170655ac41aa4c32380c0d5560a7bb50c3181750d272887fe16c8ef73a05",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_RAW_NATIVE_INFERENCE.jsonl": "a29085bcefa17675fe763c658fe4080d931d118fd479072c9586b455fff21a42",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_REDUNDANCY_CARDINALITY_AND_LENGTH_STRATA.csv": "654b6bfa03e45295ba87d289ad07009207e9c3fbc320c2941fdc2849ae626b5f",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_RETRIEVAL_CEILINGS_AND_SCORECARD.csv": "a67fbc269d5a43769530f4a21d01447671fb965e56ed30432973f833213cc3f0",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_REVIEWER_DECISION_PACKET.md": "0c5e2c370a17f07dc40712390e6ff603351e989d6037b970d17464a66beb2d7c",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_SELECTED_TOP5.jsonl": "609cc870cd8bbf39cebde4670f61d8934f6ae5d04b625648baa15b22f06e1c7b",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_SOURCE_GROUP_SENSITIVITY.csv": "a7805be80621b48d979a15aeb62c2464febe43587ec4137480af5565617655fe",
+    "results/non_jev/v2/e4_v1_1/e4_3_operating_regimes/E4_3_SOURCE_GROUP_SENSITIVITY.md": "de6a7db5748b81fd5da3f242cbb93d8ae2adf21c4fd2f8886027389ecb68c37a"
+  },
+  "gpu_audit": {
+    "command": "nvidia-smi --query-gpu=index,uuid,memory.total,memory.used,memory.free,utilization.gpu --format=csv,noheader,nounits",
+    "status": "UNAVAILABLE",
+    "stderr": "",
+    "stdout": "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+  },
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "protocol_sha256": "7291ae69e6088a1fa3400ba427aeb2dbfaff28b67c3bffda4c6f806cb939bd9b",
+  "referenced_inputs": {
+    "DecisionRAG_E4_3_Operating_Regimes_Execution_SDD_Codex.md": "96563691fd29c814eb64e55872179358d75e1ee152b9faf59ff728e0c5b49c6c",
+    "results/non_jev/v2/e3_v1/e3_d_external/E3_D_CANDIDATE_VIEWS.jsonl": "eef58ce32354ba0e13305ccd83d0295c48466be225525a972d3d54d77cc801d4",
+    "results/non_jev/v2/e3_v1/e3_d_external/E3_D_EXPLORATORY_METADATA.jsonl": "02e55ef3d91af0cc12f735169494c57ccf511901827b5da87ab0256091b8fe1f",
+    "results/non_jev/v2/e3_v1/e3_d_external/E3_D_FIRST_STAGE_CANDIDATES.jsonl": "c532d37210e6381dd1bec8ae3533325c68bae7e16020677238c8a77ad77ffadc",
+    "results/non_jev/v2/e3_v1/e3_d_external/E3_D_FROZEN_EXPLORATORY_PROTOCOL.json": "ed325ad6fcefed15e80fedfc5398bca43ee28473c56a74e97b0c7ce336494f43",
+    "results/non_jev/v2/e3_v1/e3_d_external/E3_D_NATIVE_SELECTION_TRACES.jsonl": "cd520976d181107c49edc5ef8098830bb861542cc9f914110a782e6ed53a2386",
+    "results/non_jev/v2/e4_v1_1/e4_2_facet_pilot/E4_2_INPUT_AND_COHORT_MANIFEST.json": "333107471bea556f848bbfd64c0dac54d558128befddfe7e299ce051ae579fa0"
+  },
+  "reserved_holdout_accessed": false,
+  "status": "E4_3_OWNER_REVIEW_READY",
+  "test_return_code": 0,
+  "verdict": "E4_3_QUALITY_COMPLETE_TIMING_BLOCKED"
+}

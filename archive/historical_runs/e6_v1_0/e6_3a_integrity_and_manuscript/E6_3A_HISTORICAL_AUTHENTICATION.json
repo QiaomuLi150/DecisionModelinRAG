@@ -1,0 +1,7 @@
+{
+  "checked": 9,
+  "failures": [],
+  "manifest": "results/non_jev/v2/e6_v1_0/e6_3_integrated_completion/scientific_closure/E6_3_INPUT_OUTPUT_PROVENANCE_MANIFEST.json",
+  "manifest_sha256": "f482c7d2362380847bfd7b7df89fe4da5989673693ddc50adca2b71d77bd1153",
+  "pass": true
+}

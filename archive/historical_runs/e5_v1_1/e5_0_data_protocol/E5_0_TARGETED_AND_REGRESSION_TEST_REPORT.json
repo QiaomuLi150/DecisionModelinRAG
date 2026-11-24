@@ -1,0 +1,26 @@
+{
+  "focused_suite": {
+    "collected": 7,
+    "command": "pytest -q tests/test_e5_0_data_protocol.py",
+    "failed": 0,
+    "passed": 7,
+    "skipped": 0
+  },
+  "full_regression": {
+    "collected": 150,
+    "command": "CUDA_VISIBLE_DEVICES='' HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 pytest -q",
+    "failed": 0,
+    "passed": 150,
+    "skipped": 0
+  },
+  "note": "Full suite includes historical E2-E4 tests and the seven E5-0 tests; no phase-order skip was needed because later phases were not invoked.",
+  "phase_order": {
+    "e5_a_selector_inference": "NOT_RUN",
+    "e5_b": "NOT_RUN",
+    "e5_c": "NOT_RUN",
+    "e5_d": "NOT_RUN",
+    "e5_f": "LOCKED",
+    "jev": 0,
+    "paid_api": 0
+  }
+}

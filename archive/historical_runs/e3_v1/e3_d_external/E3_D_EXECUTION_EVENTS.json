@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "cause": "unbounded 20-choice FinanceBench input exceeded native 8192-token branch limit",
+      "event": "initial_d2_adapter_contract_failure",
+      "original_artifact": "E3_D_NATIVE_SELECTION_TRACES_PRE_REPAIR.jsonl",
+      "policy": "pplx_decider",
+      "resolution": "restored authenticated 64-token question/128-token passage short-view adapter"
+    },
+    {
+      "cause": "GPU1 had an observed resident ~51.4 GiB workload during 27B load",
+      "event": "parallel_gpu1_load_failure",
+      "policy": "pplx_decider",
+      "resolution": "retry moved to verified free GPU5; no OOM rows were promoted",
+      "status": "preserved_as_execution_limitation"
+    },
+    {
+      "cause": "GPU0 became contended during first long-view attempt",
+      "event": "parallel_gpu0_memory_failure",
+      "policy": "jina35",
+      "resolution": "restarted with deterministic 64/512-token memory-safe view on verified GPU0",
+      "status": "preserved_as_execution_limitation"
+    }
+  ],
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "reserved_holdout_access": false
+}

@@ -1,0 +1,6 @@
+gpu_slot,model,load_seconds
+A,Jina v3.5,1.030963
+A,PPLX Decider,22.053403
+B,Jina v3.5,0.955896
+B,PPLX Decider,17.906881000000002
+C,Jina v3.5,1.1113320000000002

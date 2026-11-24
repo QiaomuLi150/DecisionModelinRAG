@@ -1,0 +1,26 @@
+cohort,source_group_id,n,group_semantics
+representative,multihop:component:cc11478c0a2ddecde4f0426a,170,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:f4c574d83603b287ea1507aa,4,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:121406074b4d47032f5f40e9,2,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:1841d80c4ff55d5c3967f0e4,2,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:3aea040c3bbaf1ef962812bd,2,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:7df06ef2f31e1ee3c884b7ba,2,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:9ccef4c729c2e732626bae1a,2,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:a46554c358ed608391da9a6c,2,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:fcc0ad00c4292bb40e4f726f,2,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:0c0a85857d7e7697e6f6a900,1,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:0d3c4b770ea8b79eccf2cd6d,1,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:1008e7fcdd870de7070f4ab7,1,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:48aa26ae9576be7ce68c3cf2,1,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:60e0523fb781ec403f02ca71,1,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:6af6a15992abae7df448b05f,1,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:91a713d724f3a8502b0fa0c8,1,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:9f556cf0d1ffddaa97db3c6b,1,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:b18b9884b666f91d02dd7f9a,1,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:b2b8ada7cd3b553d542bbdd0,1,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:b53f96409fa1e3ce6449303f,1,E3-D connected component over canonical source-document identities; not query-independent by construction
+representative,multihop:component:d26d9ec891ddb0d9aab36d4a,1,E3-D connected component over canonical source-document identities; not query-independent by construction
+diagnostic_enriched,multihop:component:cc11478c0a2ddecde4f0426a,47,E3-D connected component over canonical source-document identities; not query-independent by construction
+diagnostic_enriched,multihop:component:6af6a15992abae7df448b05f,1,E3-D connected component over canonical source-document identities; not query-independent by construction
+diagnostic_enriched,multihop:component:a46554c358ed608391da9a6c,1,E3-D connected component over canonical source-document identities; not query-independent by construction
+diagnostic_enriched,multihop:component:b90dd08f8689332cb6c2a994,1,E3-D connected component over canonical source-document identities; not query-independent by construction

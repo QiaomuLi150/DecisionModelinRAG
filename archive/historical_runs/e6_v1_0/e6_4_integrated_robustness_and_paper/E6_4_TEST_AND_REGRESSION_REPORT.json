@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "cohort_counts": true,
+    "native_attempt_key_uniqueness": true,
+    "no_paid_or_jev": true,
+    "no_reserved_access": true,
+    "permutation_lengths": true,
+    "permutation_membership": true,
+    "unique_ids": true,
+    "valid_top5_membership": true
+  },
+  "focused_passed": 8,
+  "focused_total": 8,
+  "full_regression": {
+    "collected": 290,
+    "command": "./Production_Project/MultiModalRAG/venv/bin/python -m pytest -q",
+    "output": "........................................................................ [ 24%]\n........................................................................ [ 49%]\n........................................................................ [ 74%]\n........................................................................ [ 99%]\n..                                                                       [100%]\n=============================== warnings summary ===============================\ntests/test_startlux_runtime.py::test_startlux_fast_kernel_detector_uses_actual_bindings\n  ./Production_Project/MultiModalRAG/venv/lib/python3.12/site-packages/fla/utils/_device.py:100: UserWarning: Triton is not supported on current platform, roll back to CPU.\n    _cpu_device_warning()\n\ntests/test_startlux_runtime.py: 14 warnings\n  ./Production_Project/MultiModalRAG/venv/lib/python3.12/site-packages/torch/jit/_script.py:365: DeprecationWarning: `torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`.\n    warnings.warn(\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n",
+    "passed": 290,
+    "returncode": 0,
+    "stderr": ""
+  },
+  "historical_baseline": "E6-3A recorded 282/282; current full suite run below",
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "reserved_access": false
+}

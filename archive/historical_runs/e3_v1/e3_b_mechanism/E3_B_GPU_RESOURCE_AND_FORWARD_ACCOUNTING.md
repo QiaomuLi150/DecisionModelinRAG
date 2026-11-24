@@ -1,0 +1,3 @@
+# E3-B GPU Resource and Forward Accounting
+
+GPU IDs `[0, 1]` were used under explicit owner authorization while other resident workloads remained running. No service or process was terminated or restarted. B1 new physical forwards = `2102`; B1 baseline reused 400 authenticated historical rows with their original one-forward evidence. B2/B3 used zero GPUs. The pre-run host inventory, model revision, per-row GPU ID, memory telemetry and actual forward counts are recorded in the native detail trace and provenance manifest. This is not a production capacity benchmark and no dollar cost is inferred from these exploratory calls.

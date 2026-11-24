@@ -1,0 +1,6 @@
+policy,n,valid_n,valid_rate,mean_ndcg5_all,source
+bm25_top5,13125,13125,1.0,0.23704720510517302,data/scores/cqadupstack_perquery.csv
+jina_full_text,13125,13124,0.9999238095238095,0.31982527447901576,data/scores/cqadupstack_perquery.csv
+jina_trunc_8192,13125,13124,0.9999238095238095,0.3195499683882833,data/scores/cqadupstack_perquery.csv
+pplx_single_4096,13125,13125,1.0,0.33012543708787245,data/scores/cqadupstack_perquery.csv
+pplx_single_6144,13125,13125,1.0,0.32899383989570335,data/scores/cqadupstack_perquery.csv

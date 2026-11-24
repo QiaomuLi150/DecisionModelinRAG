@@ -1,0 +1,10 @@
+comparison,metric,n,mean_delta,ci95_low,ci95_high,reps,seed,factual_correctness
+single_policy_rate,pplx_complete,250,0.452,,,5000,731,NOT_VERIFIABLE
+single_policy_rate,jina_complete,250,0.472,,,5000,731,NOT_VERIFIABLE
+single_policy_rate,pplx_proxy_em,250,0.576,,,5000,731,NOT_VERIFIABLE
+single_policy_rate,jina_proxy_em,250,0.584,,,5000,731,NOT_VERIFIABLE
+single_policy_rate,pplx_proxy_f1,250,0.5859333333333333,,,5000,731,NOT_VERIFIABLE
+single_policy_rate,jina_proxy_f1,250,0.5992761904761904,,,5000,731,NOT_VERIFIABLE
+pplx_minus_jina,complete,250,-0.02,-0.08,0.04,5000,731,NOT_VERIFIABLE
+pplx_minus_jina,proxy_em,250,-0.008,-0.04,0.02,5000,731,NOT_VERIFIABLE
+pplx_minus_jina,proxy_f1,250,-0.013342857142857144,-0.044,0.015228571428571428,5000,731,NOT_VERIFIABLE

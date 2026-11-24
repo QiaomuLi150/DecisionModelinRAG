@@ -1,0 +1,61 @@
+{
+  "experiment_id": "v1_5_c3_concurrency_gpu3",
+  "protocol_version": "decisionrag-v1.5-c3-v2",
+  "status": "FROZEN_PRE_OUTCOME",
+  "model_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+  "secondary_model_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+  "gpu": 3,
+  "routing_source": "scripts/v1_3_r1_serving.py::fixed_nonselection_request",
+  "routing_population": {
+    "n_prompts": 50,
+    "pool_policy": "exact fixed R1 request repeated with stable request IDs"
+  },
+  "configurations": [
+    "A_routing_only",
+    "B_consolidated",
+    "C_colocated",
+    "D_separate"
+  ],
+  "load": {
+    "routing_fractions_of_rmax": [
+      0.3,
+      0.6
+    ],
+    "selection_rates_rps": [
+      0.0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "warmup_seconds": 60,
+    "measure_seconds": 300,
+    "timeout_seconds": 30,
+    "arrival_seed": 731,
+    "native_batch_size": 1,
+    "queue": "single FIFO worker per loaded native model"
+  },
+  "selection_view": {
+    "source": "E11-A frozen budgeted candidate strings",
+    "queries": 120,
+    "cycling": true,
+    "labels_joined": false
+  },
+  "analysis": {
+    "metrics": [
+      "p50_ms",
+      "p95_ms",
+      "p99_ms",
+      "throughput_rps",
+      "timeouts",
+      "peak_mem_gib"
+    ],
+    "timing_boundary": "arrival-to-completion including queueing, native inference and packaging",
+    "rmax": "closed-loop increasing concurrency until throughput stops rising"
+  },
+  "known_deviations": [
+    "The recovered R1 source contains one fixed routing request rather than a 50-variant prompt artifact; no prompt variants are fabricated.",
+    "D_separate is skipped unless a second dedicated A100 passes the zero-resident-process gate.",
+    "The v1.5 C3 source protocol did not specify a fixed duration for Rmax levels; the continuation records the duration used in the receipt."
+  ],
+  "historical_artifacts_modified": false
+}

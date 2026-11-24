@@ -1,0 +1,172 @@
+[
+  {
+    "records": 2667,
+    "sha256": "64ab8cb0cbfbb2bdacba6ed0962b3db0cb95c0e47cdb21038df7cc4a15afc656",
+    "trace_key": "jina_budget|original"
+  },
+  {
+    "records": 2667,
+    "sha256": "008df2433e1211c1b191c03369bdc9435af586a6f88321173e5cc4ba20e9993c",
+    "trace_key": "jina_budget|perm_seed_20261020"
+  },
+  {
+    "records": 2667,
+    "sha256": "aec298c24cd5cdbe0f3dcd05f73cd52715e9f46307c9679eebab2be42856cb48",
+    "trace_key": "jina_budget|perm_seed_20261021"
+  },
+  {
+    "records": 2667,
+    "sha256": "6ce2118b3cc6970151e6d5d549fb56f2d772f425cd7971bc8df85a85ef41f7e4",
+    "trace_key": "jina_budget|reversed"
+  },
+  {
+    "records": 2667,
+    "sha256": "55e9bbd3363fb16824b0f04e923ae96fee12d48efe70ae629c3a188d18a61a2b",
+    "trace_key": "jina_full|original"
+  },
+  {
+    "records": 2667,
+    "sha256": "f1dc044009bd3453a517e9fd6b6532dd179301b504e856cbb1f0aa3126150c62",
+    "trace_key": "jina_full|perm_seed_20261020"
+  },
+  {
+    "records": 2667,
+    "sha256": "4464257ef791732dbb32037bd8e76641713b26d03717ab35b0bd2648bcd7951a",
+    "trace_key": "jina_full|perm_seed_20261021"
+  },
+  {
+    "records": 2667,
+    "sha256": "94f17504eec9db41e30c91e7a57b5411fa596f960c1bb674fee8bf5563243c42",
+    "trace_key": "jina_full|reversed"
+  },
+  {
+    "records": 2667,
+    "sha256": "c212b89dd1c93f21ebd480270dee0d91610fe8819055b942c41838b0a60b4e91",
+    "trace_key": "jina_two_stage_matched|original"
+  },
+  {
+    "records": 2667,
+    "sha256": "140b765cb2f4e52509f1e085f926fe43cac011e21de6692d9ad33a6e4632d0a4",
+    "trace_key": "jina_two_stage_matched|perm_seed_20261020"
+  },
+  {
+    "records": 2667,
+    "sha256": "8c47e50e5edf5c00b5f960c08d02a3781b6c58a3f0b701dff2c6fb6e2d057889",
+    "trace_key": "jina_two_stage_matched|perm_seed_20261021"
+  },
+  {
+    "records": 2667,
+    "sha256": "b3ee23a80d9fbf4d5eaeee067e8ea898cc84eca83a5f946d8024ce5fbb605be4",
+    "trace_key": "jina_two_stage_matched|reversed"
+  },
+  {
+    "records": 2667,
+    "sha256": "05c9e13562419cd9781462bdddef7272004167b5860e6a8290f626ac994233ba",
+    "trace_key": "pplx_budget|original"
+  },
+  {
+    "records": 2667,
+    "sha256": "cd1c778838753d9496066d3a7d14c70ad2dded6edf6f411db9c9e87c7fea2212",
+    "trace_key": "pplx_budget|perm_seed_20261020"
+  },
+  {
+    "records": 2667,
+    "sha256": "ca6f7fee482bb4b0141093f657b79c0b234dfa850a3628326b997d0ae081cf1a",
+    "trace_key": "pplx_budget|perm_seed_20261021"
+  },
+  {
+    "records": 2667,
+    "sha256": "c936e2831f169381364d2fc8b95df749b187d832db41bfd040bbb75f71134104",
+    "trace_key": "pplx_budget|reversed"
+  },
+  {
+    "records": 2667,
+    "sha256": "9860f0e39499e799e6ff9c63393eb07eec20f9b81b9f1b668f2b2b2ee4ddc8ec",
+    "trace_key": "pplx_native|original"
+  },
+  {
+    "records": 2667,
+    "sha256": "6725e5532f927ea5fdebbb3bc0fb1fd7cd609ac57f2cbc25f6c341e44aa58609",
+    "trace_key": "pplx_two_stage|original"
+  },
+  {
+    "records": 2667,
+    "sha256": "7649be50f74a892274f0437358af9323c0251793bcd83b0522a55d62c85addc1",
+    "trace_key": "pplx_two_stage|perm_seed_20261020"
+  },
+  {
+    "records": 2667,
+    "sha256": "c7a58e3336ac22a139f368f3cf482f765f71702672411d6a5a90729b84d94677",
+    "trace_key": "pplx_two_stage|perm_seed_20261021"
+  },
+  {
+    "records": 2667,
+    "sha256": "39548dcc1d1a39c2ece169d48998b90cb45d0163d99fd84f389404cb46b96636",
+    "trace_key": "pplx_two_stage|reversed"
+  },
+  {
+    "records": 3600,
+    "sha256": "1c7cc9a30fc3a78f782837d27b8daddd0045f2865762de1c36508518d767e78c",
+    "trace_key": "stage3_serving|all_datasets"
+  },
+  {
+    "records": 20,
+    "sha256": "393ec21cdfe9cccbf2277633b57ec52fd6cf245a9e2c3219ca37af4b79cc1cab",
+    "trace_key": "determinism_recheck|enterprise__jina_budget__original__recheck"
+  },
+  {
+    "records": 20,
+    "sha256": "327db721f5e031fcd27a41a14902ee5040b5081c3bad2190e267107e09a5768c",
+    "trace_key": "determinism_recheck|enterprise__jina_full__original__recheck"
+  },
+  {
+    "records": 20,
+    "sha256": "814c38580cb5210d3b8b6423f545d08d43cf9df929dde9ef9de29483a57df456",
+    "trace_key": "determinism_recheck|enterprise__jina_two_stage_matched__original__recheck"
+  },
+  {
+    "records": 20,
+    "sha256": "02e5c4a6817b8d7a9f937b088018a7a7eca4729814b98550c14ef0ebfe4a5115",
+    "trace_key": "determinism_recheck|enterprise__pplx_budget__original__recheck"
+  },
+  {
+    "records": 20,
+    "sha256": "991ed625bb8ad4fe0ea8ee210c77bae2a42169497a2343f1851a2ea47d70fbac",
+    "trace_key": "determinism_recheck|enterprise__pplx_native__original__recheck"
+  },
+  {
+    "records": 20,
+    "sha256": "15861b313c22a61753f3e6bbf19f0378881d68dde4e5c553a523cb807655b769",
+    "trace_key": "determinism_recheck|enterprise__pplx_two_stage__original__recheck"
+  },
+  {
+    "records": 20,
+    "sha256": "814f5938e422e018055e15da1a521b870f2de4c9b974f5d5b50ac12a41c944a6",
+    "trace_key": "determinism_recheck|musique__jina_budget__original__recheck"
+  },
+  {
+    "records": 20,
+    "sha256": "1b9f8497daaf862f99f3afc7b2a17c1306851b28236f2a8977852bb23419c020",
+    "trace_key": "determinism_recheck|musique__jina_full__original__recheck"
+  },
+  {
+    "records": 20,
+    "sha256": "4ed969629777aab778f6d9ce7b510aafc93756997a49cd6dcbb7c451ce590ea9",
+    "trace_key": "determinism_recheck|musique__jina_two_stage_matched__original__recheck"
+  },
+  {
+    "records": 20,
+    "sha256": "6b9a26aab3cfd3f4c3a7a9030c637940943f5d7c9c124c654348d39ab268fdc0",
+    "trace_key": "determinism_recheck|musique__pplx_budget__original__recheck"
+  },
+  {
+    "records": 20,
+    "sha256": "a7dc112115371198a2a963da08ebf95517a5b78122d6d1187f85e38ef1b8d4ec",
+    "trace_key": "determinism_recheck|musique__pplx_native__original__recheck"
+  },
+  {
+    "records": 20,
+    "sha256": "0bdb2439f7d3d40c5f846f6df5406659578409b62c7957d52cbd2ec8ac8f5133",
+    "trace_key": "determinism_recheck|musique__pplx_two_stage__original__recheck"
+  }
+]

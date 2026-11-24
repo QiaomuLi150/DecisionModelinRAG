@@ -1,0 +1,13 @@
+{
+  "candidate_rows": 1009,
+  "corpus": {
+    "financebench": {
+      "pages": 11837
+    },
+    "multihop": {}
+  },
+  "queries": 1009,
+  "reserved_accessed": false,
+  "retrieval_sha256": "c532d37210e6381dd1bec8ae3533325c68bae7e16020677238c8a77ad77ffadc",
+  "status": "CANDIDATE_CONTRACT_PASS"
+}

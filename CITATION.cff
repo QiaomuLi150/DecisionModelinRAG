@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this repository, cite the paper. Replace the TODO fields after publication."
+title: "Can System-1-Style Decision Models Replace Dedicated Rerankers in RAG? A Systems Evaluation"
+authors:
+  - family-names: Li
+    given-names: Qiaomu
+  - family-names: Xie
+    given-names: Ying
+date-released: 2026-10-26
+version: "1.0"
+repository-code: "https://github.com/QiaomuLi150/DecisionModelinRAG"
+url: "https://arxiv.org/abs/2610.34816"
+abstract: "A systems evaluation of reliability, ranking quality, latency, and memory when comparing decision-model reranking policies with dedicated rerankers."
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "Can System-1-Style Decision Models Replace Dedicated Rerankers in RAG? A Systems Evaluation"
+  authors:
+    - family-names: Li
+      given-names: Qiaomu
+    - family-names: Xie
+      given-names: Ying
+  year: 2026
+  url: "https://arxiv.org/abs/2610.34816"

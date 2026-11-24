@@ -1,0 +1,23 @@
+# E2-M1 CAL Validation Report
+
+```json
+{
+  "cohort_count": 30,
+  "dataset_counts": {
+    "hotpot": 10,
+    "musique": 10,
+    "wiki2": 10
+  },
+  "joint_errors": [],
+  "joint_k20_feasible": true,
+  "joint_ok": 30,
+  "max_joint_input_tokens": 6680,
+  "min_joint_input_tokens": 5351,
+  "pointwise_errors": [],
+  "pointwise_ok": 30,
+  "stage": "S1_CAL",
+  "status": "PASS"
+}
+```
+
+CAL was frozen before new results were examined: 10 deterministic rows per HotpotQA, MuSiQue and 2Wiki. No gold fields were copied into inference records.

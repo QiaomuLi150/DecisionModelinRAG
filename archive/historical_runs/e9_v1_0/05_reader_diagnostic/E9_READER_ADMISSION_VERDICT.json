@@ -1,0 +1,6 @@
+{
+  "created_utc": "2026-10-16T00:43:10.992293+00:00",
+  "reader_calls": 0,
+  "reason": "No admitted benchmark population; no reader contract or requests executed",
+  "status": "E9_READER_VALIDATION_NOT_ADMITTED"
+}

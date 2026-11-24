@@ -1,0 +1,192 @@
+{
+  "archive": {
+    "official_url": "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/cqadupstack.zip",
+    "path": "data/external/v3_6_cqadupstack/cqadupstack.zip",
+    "sha256": "6072f7d345496387d24194c8af35c5fb6c2f0e5f9130c5b4a78b98bbfac88558"
+  },
+  "forum_order": [
+    "android",
+    "english",
+    "gaming",
+    "gis",
+    "mathematica",
+    "physics",
+    "programmers",
+    "stats",
+    "tex",
+    "unix",
+    "webmasters",
+    "wordpress"
+  ],
+  "forums": {
+    "android": {
+      "corpus": {
+        "bytes": 16002547,
+        "lines": 22998,
+        "path": "v3_6_cqadupstack/release/cqadupstack/android/corpus.jsonl",
+        "sha256": "aa1bad1bd193e374da8bf30299487d24059c7555a2d437f33e15b7e071cbae95"
+      },
+      "queries": {
+        "bytes": 264625137,
+        "lines": 699,
+        "path": "v3_6_cqadupstack/release/cqadupstack/android/queries.jsonl",
+        "sha256": "bb3bf827bc5d295297ce311ff3e6a3c48b0df4384688c8a3d762993ff3926997"
+      }
+    },
+    "english": {
+      "corpus": {
+        "bytes": 23731230,
+        "lines": 40221,
+        "path": "v3_6_cqadupstack/release/cqadupstack/english/corpus.jsonl",
+        "sha256": "1ba0eed2fc9c0f4afe93325bff8bddca52004884e2969c8a157604b6ecbfcfc8"
+      },
+      "queries": {
+        "bytes": 1185708115,
+        "lines": 1570,
+        "path": "v3_6_cqadupstack/release/cqadupstack/english/queries.jsonl",
+        "sha256": "14b88f22dcde18c39251cfd0fb2623ec37027e590d8f8b30e7102732ae0a4cb2"
+      }
+    },
+    "gaming": {
+      "corpus": {
+        "bytes": 26104990,
+        "lines": 45301,
+        "path": "v3_6_cqadupstack/release/cqadupstack/gaming/corpus.jsonl",
+        "sha256": "48c63ce9f5bdff61344693de5b5b0e8657ecd08daa87d7cbb95ad77c074b8a78"
+      },
+      "queries": {
+        "bytes": 1158874756,
+        "lines": 1595,
+        "path": "v3_6_cqadupstack/release/cqadupstack/gaming/queries.jsonl",
+        "sha256": "79f97273e43617f1992c7c580f13df85a2554cbcd5cc1a3f58321b37858d11f2"
+      }
+    },
+    "gis": {
+      "corpus": {
+        "bytes": 42255382,
+        "lines": 37637,
+        "path": "v3_6_cqadupstack/release/cqadupstack/gis/corpus.jsonl",
+        "sha256": "18d89c9f82284310ec1438076c28c7411e098b55d23ecfa48915e74014d0e5f3"
+      },
+      "queries": {
+        "bytes": 679075758,
+        "lines": 885,
+        "path": "v3_6_cqadupstack/release/cqadupstack/gis/queries.jsonl",
+        "sha256": "83d8cdaab8c27c8a5fbed9414a7c95a5fe583ee7dea6d311f38c0d62b155f528"
+      }
+    },
+    "mathematica": {
+      "corpus": {
+        "bytes": 21093382,
+        "lines": 16705,
+        "path": "v3_6_cqadupstack/release/cqadupstack/mathematica/corpus.jsonl",
+        "sha256": "8d8824a0c7f8ee2aff8bc889d628e97d6d110b90253d6a5a23b8f70023cf9f63"
+      },
+      "queries": {
+        "bytes": 619972259,
+        "lines": 804,
+        "path": "v3_6_cqadupstack/release/cqadupstack/mathematica/queries.jsonl",
+        "sha256": "07f298db74fc7cdc3aadcd48493ae902828f71b25f0d17d05cd073e955cbbe76"
+      }
+    },
+    "physics": {
+      "corpus": {
+        "bytes": 36133047,
+        "lines": 38316,
+        "path": "v3_6_cqadupstack/release/cqadupstack/physics/corpus.jsonl",
+        "sha256": "7c42540150ef9100e0b69d26d9908f8ee6d374020d3f12bbc4c7aa7d6988ab64"
+      },
+      "queries": {
+        "bytes": 743197349,
+        "lines": 1039,
+        "path": "v3_6_cqadupstack/release/cqadupstack/physics/queries.jsonl",
+        "sha256": "15bc00ecfcbeaed367b1088f5eb8f47246bcd5d6ae56244b4c07e7a4a19c8692"
+      }
+    },
+    "programmers": {
+      "corpus": {
+        "bytes": 37360424,
+        "lines": 32176,
+        "path": "v3_6_cqadupstack/release/cqadupstack/programmers/corpus.jsonl",
+        "sha256": "c652ce07f0040a7ee4edad8d63d13e93170665dd0f412ab65eb607c80e1a583f"
+      },
+      "queries": {
+        "bytes": 774354135,
+        "lines": 876,
+        "path": "v3_6_cqadupstack/release/cqadupstack/programmers/queries.jsonl",
+        "sha256": "d77878ec5129d85dd37e2109182f3df5459e288c3346610d59699ab2d6e4241e"
+      }
+    },
+    "stats": {
+      "corpus": {
+        "bytes": 49455084,
+        "lines": 42269,
+        "path": "v3_6_cqadupstack/release/cqadupstack/stats/corpus.jsonl",
+        "sha256": "cb1e8ba2193dc71ce0efa878a068a7b7cae16bb00ad8e504c71282301beecb85"
+      },
+      "queries": {
+        "bytes": 388240208,
+        "lines": 652,
+        "path": "v3_6_cqadupstack/release/cqadupstack/stats/queries.jsonl",
+        "sha256": "aa78e7a1f50f147f30a167849099798bc18c1f0cf30102af743c18990ce987ce"
+      }
+    },
+    "tex": {
+      "corpus": {
+        "bytes": 97411100,
+        "lines": 68184,
+        "path": "v3_6_cqadupstack/release/cqadupstack/tex/corpus.jsonl",
+        "sha256": "4a233f5bfe30a9d8afbf6a1fd3c62292407c5eb6fb97943c78bc2bb1b6e9b5aa"
+      },
+      "queries": {
+        "bytes": 8380324468,
+        "lines": 2906,
+        "path": "v3_6_cqadupstack/release/cqadupstack/tex/queries.jsonl",
+        "sha256": "4eb19d78c35de473a3495013029764a5ea6a7fac2336ab5f30da125ffed7a55a"
+      }
+    },
+    "unix": {
+      "corpus": {
+        "bytes": 52466222,
+        "lines": 47382,
+        "path": "v3_6_cqadupstack/release/cqadupstack/unix/corpus.jsonl",
+        "sha256": "a52e7fb1f7370613eae79143b75ce0ea0a4be1bb2c908c6d9f83431fe2cf9a1a"
+      },
+      "queries": {
+        "bytes": 826061363,
+        "lines": 1072,
+        "path": "v3_6_cqadupstack/release/cqadupstack/unix/queries.jsonl",
+        "sha256": "c79432ddf7f86c1a30a2ea0d9622844e106aa6fd7674a3aaa6e9664d6e739711"
+      }
+    },
+    "webmasters": {
+      "corpus": {
+        "bytes": 14080720,
+        "lines": 17405,
+        "path": "v3_6_cqadupstack/release/cqadupstack/webmasters/corpus.jsonl",
+        "sha256": "b9c00bb5ce58c648442e80f2d05d619b63567bf2cafede2979dba3282446abb5"
+      },
+      "queries": {
+        "bytes": 176865650,
+        "lines": 506,
+        "path": "v3_6_cqadupstack/release/cqadupstack/webmasters/queries.jsonl",
+        "sha256": "564199829cfa1c41525817c65ef888d136d626a2b53c6b35f27e008376740833"
+      }
+    },
+    "wordpress": {
+      "corpus": {
+        "bytes": 59742319,
+        "lines": 48605,
+        "path": "v3_6_cqadupstack/release/cqadupstack/wordpress/corpus.jsonl",
+        "sha256": "4820c9b476a9d48b9a915741941650203baf737a71a984ed591df3007d09ba5e"
+      },
+      "queries": {
+        "bytes": 292892072,
+        "lines": 541,
+        "path": "v3_6_cqadupstack/release/cqadupstack/wordpress/queries.jsonl",
+        "sha256": "5508719e89c8dc54669e014adce47e1ff9fa5c6c6d2b91a991835e899dbe53e6"
+      }
+    }
+  },
+  "total_queries": 13145
+}

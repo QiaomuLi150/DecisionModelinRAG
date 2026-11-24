@@ -1,0 +1,115 @@
+{
+  "protocol_id": "decisionrag-v1.3-r4-reader-window-v2.1",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "model_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "model_path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--Qwen--Qwen3-VL-8B-Instruct/snapshots/0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "prompt_revision": "E11V_FIXED_READER_QWEN_V1",
+  "windows": [
+    512,
+    1024
+  ],
+  "policies": [
+    "retrieval_top5",
+    "jina_full",
+    "jina_budget",
+    "pplx_budget"
+  ],
+  "cohort_questions": 300,
+  "cohort_manifest_sha256": "2269ed1128a7210b024ec2e0dd0d36ed6596d54867885c00111e136186584f76",
+  "visible_content_sha256": "427a1408e3f4c585b576bae0a041879c9d839c4be40de4e57812447f00b2f4db",
+  "selection_hashes": {
+    "retrieval_top5": "2ef48f1010b2c1edaa46fc01c6ac9246d9d19af9f78d9f16c67a09581f106915",
+    "jina_full": "6123e644c4f8d23c8991c42aee886ca5430e05eae73bd75b35f358a3444ad3f8",
+    "jina_budget": "6ab78229b240ac4b6d795a8448b0096d335451bbbcc8aae3366771bcf76aca55",
+    "pplx_budget": "b5c4e901fea812d7038da2267e3ab208ec38cfabce439bfb7f1efa6c7a753910"
+  },
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_new_tokens": 64,
+    "do_sample": false
+  },
+  "batch_size": 2,
+  "gpu": 3,
+  "gpu_pre_model": {
+    "status": "ok",
+    "devices": [
+      {
+        "index": 0,
+        "uuid": "<REDACTED_GPU_UUID>",
+        "name": "NVIDIA A100-SXM4-80GB",
+        "memory_total_mib": 81920,
+        "memory_used_mib": 33827,
+        "memory_free_mib": 47326,
+        "utilization_percent": 99
+      },
+      {
+        "index": 1,
+        "uuid": "<REDACTED_GPU_UUID>",
+        "name": "NVIDIA A100-SXM4-80GB",
+        "memory_total_mib": 81920,
+        "memory_used_mib": 27277,
+        "memory_free_mib": 53876,
+        "utilization_percent": 100
+      },
+      {
+        "index": 2,
+        "uuid": "<REDACTED_GPU_UUID>",
+        "name": "NVIDIA A100-SXM4-80GB",
+        "memory_total_mib": 81920,
+        "memory_used_mib": 68149,
+        "memory_free_mib": 13004,
+        "utilization_percent": 97
+      },
+      {
+        "index": 3,
+        "uuid": "<REDACTED_GPU_UUID>",
+        "name": "NVIDIA A100-SXM4-80GB",
+        "memory_total_mib": 81920,
+        "memory_used_mib": 4,
+        "memory_free_mib": 81149,
+        "utilization_percent": 0
+      },
+      {
+        "index": 4,
+        "uuid": "<REDACTED_GPU_UUID>",
+        "name": "NVIDIA A100-SXM4-80GB",
+        "memory_total_mib": 81920,
+        "memory_used_mib": 56799,
+        "memory_free_mib": 24354,
+        "utilization_percent": 0
+      },
+      {
+        "index": 5,
+        "uuid": "<REDACTED_GPU_UUID>",
+        "name": "NVIDIA A100-SXM4-80GB",
+        "memory_total_mib": 81920,
+        "memory_used_mib": 26855,
+        "memory_free_mib": 54297,
+        "utilization_percent": 100
+      },
+      {
+        "index": 6,
+        "uuid": "<REDACTED_GPU_UUID>",
+        "name": "NVIDIA A100-SXM4-80GB",
+        "memory_total_mib": 81920,
+        "memory_used_mib": 26855,
+        "memory_free_mib": 54297,
+        "utilization_percent": 100
+      },
+      {
+        "index": 7,
+        "uuid": "<REDACTED_GPU_UUID>",
+        "name": "NVIDIA A100-SXM4-80GB",
+        "memory_total_mib": 81920,
+        "memory_used_mib": 79431,
+        "memory_free_mib": 1722,
+        "utilization_percent": 99
+      }
+    ],
+    "compute_apps": "<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 2432\n<REDACTED_GPU_UUID>, 1909153, .venv-gifteval/bin/python, 15684\n<REDACTED_GPU_UUID>, 1909155, .venv-gifteval/bin/python, 15684\n<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 1670425, <REDACTED_PATH> 26846\n<REDACTED_GPU_UUID>, 881592, VLLM::EngineCore, 54770\n<REDACTED_GPU_UUID>, 1551577, <REDACTED_PATH> 416\n<REDACTED_GPU_UUID>, 2053390, <REDACTED_PATH> 12918\n<REDACTED_GPU_UUID>, 881828, VLLM::EngineCore, 28800\n<REDACTED_GPU_UUID>, 1385448, VLLM::EngineCore, 27972\n<REDACTED_GPU_UUID>, 2105526, <REDACTED_PATH> 26846\n<REDACTED_GPU_UUID>, 2088548, <REDACTED_PATH> 26846\n<REDACTED_GPU_UUID>, 2816471, <REDACTED_PATH> 13316\n<REDACTED_GPU_UUID>, 3466332, <REDACTED_PATH> 2380\n<REDACTED_GPU_UUID>, 1941812, VLLM::EngineCore, 63708",
+    "captured_utc": "2026-10-19T19:45:57Z"
+  },
+  "created_utc": "2026-10-19T19:45:57Z",
+  "supersedes": "PROTOCOL.json / failed pre-output implementation attempt"
+}

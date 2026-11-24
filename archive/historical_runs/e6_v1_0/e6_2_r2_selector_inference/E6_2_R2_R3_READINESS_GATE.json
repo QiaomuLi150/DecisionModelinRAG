@@ -1,0 +1,118 @@
+{
+  "actual_attempts": 1939,
+  "created_utc": "2026-10-15T03:55:47.631858+00:00",
+  "exclusions": [
+    "startlux_decision_4b",
+    "amos_1_small_2b"
+  ],
+  "gate": "E6_2_R2_SELECTIONS_FROZEN_WITH_EXCLUSIONS",
+  "models": [
+    {
+      "assigned_gpu": 1,
+      "attempts": 277,
+      "failed": 0,
+      "load_error": null,
+      "model": "pplx_decider",
+      "quality_metrics": "NOT_RUN",
+      "revision": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+      "scheduled_attempts": 277,
+      "status": "VALIDATED",
+      "successful": 277
+    },
+    {
+      "assigned_gpu": 5,
+      "attempts": 277,
+      "failed": 0,
+      "load_error": null,
+      "model": "liquid_d1_3b",
+      "quality_metrics": "NOT_RUN",
+      "revision": "051bcc464b01b9f92942b364d9586b0ef5912432",
+      "scheduled_attempts": 277,
+      "status": "VALIDATED",
+      "successful": 277
+    },
+    {
+      "assigned_gpu": 6,
+      "attempts": 0,
+      "failed": 0,
+      "load_error": "ModuleNotFoundError: No module named 'causal_conv1d'",
+      "model": "startlux_decision_4b",
+      "quality_metrics": "NOT_RUN",
+      "revision": "9c0a32e9809d6a3f612434dd0bce150295dcc274",
+      "scheduled_attempts": 277,
+      "status": "MODEL_LOAD_BLOCKED",
+      "successful": 0
+    },
+    {
+      "assigned_gpu": 6,
+      "attempts": 277,
+      "failed": 83,
+      "load_error": null,
+      "model": "amos_1_small_2b",
+      "quality_metrics": "NOT_RUN",
+      "revision": "09ba3e9d8f506cfcb96ea130845d5d76d9d92028",
+      "scheduled_attempts": 277,
+      "status": "VALIDATED_WITH_EXCLUSIONS",
+      "successful": 194
+    },
+    {
+      "assigned_gpu": 5,
+      "attempts": 277,
+      "failed": 0,
+      "load_error": null,
+      "model": "jina_v3_5",
+      "quality_metrics": "NOT_RUN",
+      "revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+      "scheduled_attempts": 277,
+      "status": "VALIDATED",
+      "successful": 277
+    },
+    {
+      "assigned_gpu": 5,
+      "attempts": 277,
+      "failed": 0,
+      "load_error": null,
+      "model": "qwen3_reranker_4b",
+      "quality_metrics": "NOT_RUN",
+      "revision": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+      "scheduled_attempts": 277,
+      "status": "VALIDATED",
+      "successful": 277
+    },
+    {
+      "assigned_gpu": 5,
+      "attempts": 277,
+      "failed": 0,
+      "load_error": null,
+      "model": "bge_reranker_v2_m3",
+      "quality_metrics": "NOT_RUN",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "scheduled_attempts": 277,
+      "status": "VALIDATED",
+      "successful": 277
+    },
+    {
+      "assigned_gpu": 6,
+      "attempts": 277,
+      "failed": 0,
+      "load_error": null,
+      "model": "qwen3_reranker_0_6b",
+      "quality_metrics": "NOT_RUN",
+      "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+      "scheduled_attempts": 277,
+      "status": "VALIDATED",
+      "successful": 277
+    }
+  ],
+  "next_gate": "E6-2 R3 owner authorization for offline relevance scoring",
+  "qrels_accessed": false,
+  "quality_metrics": false,
+  "reserved_content_accessed": false,
+  "scheduled_attempts": 2216,
+  "status": "READY_FOR_SEPARATE_E6_2_R3_OFFLINE_SCORING",
+  "tests": {
+    "environment": "shared MultiModalRAG virtual environment",
+    "focused_r2": "11/11",
+    "full_authoritative": "225/225"
+  }
+}

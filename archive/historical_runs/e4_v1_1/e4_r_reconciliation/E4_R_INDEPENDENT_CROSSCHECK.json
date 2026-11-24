@@ -1,0 +1,29 @@
+{
+  "cohort_rep_n": 300,
+  "interaction": [
+    0.0,
+    -0.05825242718446602,
+    0.05825242718446602
+  ],
+  "k10_conditional": [
+    -0.04854368932038835,
+    -0.11650485436893204,
+    0.019417475728155338
+  ],
+  "k10_feasible_n": 206,
+  "k10_joint_success": 99,
+  "k10_pointwise_success": 109,
+  "k10_valid_n": 300,
+  "k20_joint_success": 79,
+  "k20_pointwise_success": 92,
+  "k20_unconditional": [
+    -0.043333333333333335,
+    -0.1,
+    0.01
+  ],
+  "k20_valid_n": 300,
+  "reps": 5000,
+  "seed": 731,
+  "status": "PASS",
+  "valid_rows_used": 4560
+}

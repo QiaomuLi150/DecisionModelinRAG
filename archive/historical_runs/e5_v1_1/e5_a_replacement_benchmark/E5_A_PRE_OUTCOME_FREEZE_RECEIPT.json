@@ -1,0 +1,11 @@
+{
+  "contract_matrix_sha256": "058687020305a7a0a17361d07031a5e542d48c9ffec38179d6419f9ddf5b4061",
+  "freeze_utc": "2026-10-14T17:39:28.450435+00:00",
+  "gpu_auth_sha256": "6640aa0d79f0e5119d4d33acc01c2d163795f8539ae34d11c7ac7f5fda2f917d",
+  "manifest_sha256": "f0a526aff53bd62a013694a941eb97497eb720467c52ab5d328387774230961d",
+  "outcomes_read": false,
+  "protocol_sha256": "07348b53b5445643f518fa765de81606ad6d12c756335ab0958504cef91f0361",
+  "reserved_accessed": false,
+  "source_integrity_sha256": "8f0b258330445286d3e28b39d77541559843bdd477864906d08cee177d415504",
+  "status": "PRE_OUTCOME_FREEZE_PASS"
+}

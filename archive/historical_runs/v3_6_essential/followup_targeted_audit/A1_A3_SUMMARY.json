@@ -1,0 +1,15 @@
+{
+  "claimed_difference_n": 197,
+  "claimed_gap": "0.1790_to_0.1855",
+  "first30_class_counts": {
+    "WINDOW_TEXT_HASH_OR_SERIALIZATION": 30
+  },
+  "list_difference_n": 1069,
+  "observed_gap": 0.006576293086499652,
+  "paper_recommendation": "Retain both frozen rows with explicit run/protocol labels; do not replace v1.5 with v1.6 or infer a setting cause. If one row is needed for matched-text discussion, label v1.6 as D1 matched-text control and v1.5 as historical frozen E11 input-text result.",
+  "population": 1384,
+  "set_difference_n": 789,
+  "status": "PARTIAL_HISTORICAL_PREMISE_MISMATCH",
+  "v15_valid": 1380,
+  "v16_valid": 1381
+}

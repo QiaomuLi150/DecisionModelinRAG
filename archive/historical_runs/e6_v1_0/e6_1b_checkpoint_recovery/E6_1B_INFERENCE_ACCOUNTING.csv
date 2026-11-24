@@ -1,0 +1,3 @@
+model,physical_gpu,scheduled_attempts,successful_native_calls,native_api_calls,forward_hook_events_observed,physical_forward_measurement,load_time_ms,peak_allocated_mib_max,peak_reserved_mib_max,k15_valid,k20_valid,context_or_inference_failures
+startlux_decision_4b,5,256,256,256,256,DIRECT_HOOK_COUNT,17536.16840019822,11566.78955078125,16428.0,125,131,0
+amos_1_small_2b,5,256,250,256,0,NOT_INSTRUMENTED_BY_OFFICIAL_DECODER_WRAPPER,62329.24252562225,5793.60595703125,11508.0,125,125,6

@@ -1,0 +1,14 @@
+{
+  "policy": "jina_full",
+  "order_id": "perm_seed_20261021",
+  "n_requests": 2667,
+  "valid": 2667,
+  "failures": 0,
+  "failure_classes": {},
+  "load_ms": 11489.77867886424,
+  "elapsed_s": 649.3453786438331,
+  "raw_sha256": "4464257ef791732dbb32037bd8e76641713b26d03717ab35b0bd2648bcd7951a",
+  "labels_joined": false,
+  "gpu_index_requested": 6,
+  "model_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc"
+}

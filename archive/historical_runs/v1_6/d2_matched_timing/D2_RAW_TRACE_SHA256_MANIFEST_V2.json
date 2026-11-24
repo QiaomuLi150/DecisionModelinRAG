@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "traces": [
+    {
+      "labels_joined": false,
+      "path": "results/v1_6/d2_matched_timing/raw/d2_latency_perrequest_raw.jsonl",
+      "records": 2160,
+      "sha256": "9f7a043a2b87019d7bd021b9f68cc82e0b75f5a55fc314d4b8242605ec131bae"
+    },
+    {
+      "description": "authenticated frozen BM25 fallback timing reused offline",
+      "path": "results/v1_5/c2_latency_uncertainty/export/fallback_cost.csv",
+      "records": 360,
+      "sha256": "a6caa6b7353bea75c046cedf9490668ecb86a45504ac411c54a5d86ae42de9af"
+    }
+  ]
+}

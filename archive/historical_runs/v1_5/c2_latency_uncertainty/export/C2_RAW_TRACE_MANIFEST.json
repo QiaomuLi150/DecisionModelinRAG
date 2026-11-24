@@ -1,0 +1,59 @@
+{
+  "records": [
+    {
+      "path": "results/v1_3/r1_serving_gate_v2/raw/pplx_budget_R1_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "087e7f07c381d7724ca6d90f5f768bf84f8dcba75b7551135279c0bebebaf7cc"
+    },
+    {
+      "path": "results/v1_3/r1_serving_gate_v2/raw/pplx_two_stage_R1_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "b4c7e204d49ddebcc887b000a9e55c0c63921457269971d679eb1a6a285597a6"
+    },
+    {
+      "path": "results/v1_3/r1_serving_gate_v2/raw/jina_full_R1_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "a8e4b95b51206b6f2054a7c166b30089205f2a1ed322a19edc06a200f8905bdd"
+    },
+    {
+      "path": "results/v1_3/r1_serving_gate_v2/raw/jina_pplx_budget_R1_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "fa678cc3e10e21e81af9ce847743802f77f9e577cbfd38830413593e5766d1c4"
+    },
+    {
+      "path": "results/non_jev/v2/e12_o_final_v1_0/03_serving/e12o_o3_attempt_01/jina_v3_5_SERVING_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "f32d8d5306672e01299f691b380bb51d0b09445a194f60d0d784c26dcb45d14b"
+    },
+    {
+      "path": "results/non_jev/v2/e12_o_final_v1_0/03_serving/e12o_o3_attempt_01/winnow12_SERVING_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "3db64348648c54db35b4cac7b00f77f47c4d41f8102861b363ba6bd31744ae4b"
+    },
+    {
+      "path": "results/non_jev/v2/e12_o_final_v1_0/03_serving/e12o_o3_attempt_01/drex_dlm8_SERVING_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "c834dce5aaa31c09c86e954e4c180311494958d42e2812a9f4ff76b27aad6518"
+    },
+    {
+      "path": "results/non_jev/v2/e12_o_final_v1_0/03_serving/e12o_o3_attempt_01/kev9_SERVING_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "ac4a6104aa0f93c82ce1e020cd13d3c2e64dd13a7427b362900894cd92c29955"
+    },
+    {
+      "path": "results/non_jev/v2/e12_o_final_v1_0/03_serving/e12o_o3_attempt_01/qwen3_reranker_0_6b_SERVING_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "0380fdcdbf8b5a5ec595f6d6750a0d330041ee1d73ddd0b155aedce7d50739cb"
+    },
+    {
+      "path": "results/non_jev/v2/e12_o_final_v1_0/03_serving/e12o_o3_attempt_01/mxbai_v2_SERVING_RAW_V2.jsonl",
+      "records": 360,
+      "sha256": "aca387563e3e5a7ca5591a69359add503268f8655baee87698477a9124a930e4"
+    },
+    {
+      "path": "results/non_jev/v2/reviewer_response_final_v1_1_blocker_resolution/02_LIQUID_SERVING_RAW_ALL_ATTEMPTS.jsonl",
+      "records": 360,
+      "sha256": "a4aeb117581aa4c697416947cd1497cf07f2e376da7b7436d3628ebdaa9ccf2f"
+    }
+  ]
+}

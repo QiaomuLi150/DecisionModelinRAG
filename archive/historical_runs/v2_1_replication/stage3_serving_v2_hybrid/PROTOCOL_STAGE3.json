@@ -1,0 +1,37 @@
+{
+  "cohort_sha256": "c822ad4898b875ed626afb53bc83531923fe50aaa7fcd3c8c66bf7b385b8fe32",
+  "concurrency": 1,
+  "created_utc": "2026-10-21T00:10:44Z",
+  "datasets": [
+    "enterprise",
+    "musique"
+  ],
+  "gpu_index": 3,
+  "input_manifest_sha256": "5d7e6685c4cc64b6b6c0e3d6686daaeed226a8a073f87c9c155101781373454e",
+  "labels_joined": false,
+  "model_loading_excluded": true,
+  "models": {
+    "jina_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+    "pplx_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+  },
+  "no_retries": true,
+  "paid_api_calls": 0,
+  "policy_order": [
+    "jina_full",
+    "jina_budget",
+    "jina_two_stage_matched",
+    "pplx_budget",
+    "pplx_two_stage"
+  ],
+  "protected_holdouts_accessed": false,
+  "protocol_v2_sha256": "9a83a3ccdbd6d8c0d260ced93d36d65d012d06e8ede5a84c12e60f6ada0c82f6",
+  "ratio_bootstrap": {
+    "basis": "all requests",
+    "cluster": "canonical_id",
+    "draws": 10000,
+    "seed": 731
+  },
+  "repeats": 3,
+  "status": "FROZEN_PRE_OUTCOME",
+  "timed_boundary": "view selection + native scoring + parsing + ID mapping + Top-5 packaging"
+}

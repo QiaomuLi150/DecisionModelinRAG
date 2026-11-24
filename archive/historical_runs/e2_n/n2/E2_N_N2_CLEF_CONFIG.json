@@ -1,0 +1,17 @@
+{
+  "adapter": "native joint_schema_model",
+  "config_sha256": "bf09d473dd30d11f7fedf098dd1819484086cd77707424bf973583384b3cdf92",
+  "joint_batch_size": 1,
+  "joint_candidate_count": 20,
+  "model_id": "Cloudflare/clef-flash",
+  "pointwise_batch_size_candidates": 4,
+  "precision": "bfloat16",
+  "revision": "8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3",
+  "score_contracts": [
+    "INDEPENDENT_RELEVANCE:v2",
+    "JOINT_BINARY_RELEVANCE:v2"
+  ],
+  "score_direction": "higher_is_more_relevant",
+  "tie_break": "original_candidate_order_then_doc_id",
+  "token_max_length": 16384
+}

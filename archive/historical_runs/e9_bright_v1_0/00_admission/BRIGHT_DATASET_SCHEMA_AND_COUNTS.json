@@ -1,0 +1,157 @@
+{
+  "checks": [
+    {
+      "domain": "biology",
+      "excluded_id_count": 0,
+      "excluded_nonempty": 0,
+      "gold_id_count": 372,
+      "gold_long_id_count": 134,
+      "queries": 103,
+      "query_schema_ok": true,
+      "unique_query_ids": true
+    },
+    {
+      "domain": "earth_science",
+      "excluded_id_count": 0,
+      "excluded_nonempty": 0,
+      "gold_id_count": 585,
+      "gold_long_id_count": 187,
+      "queries": 116,
+      "query_schema_ok": true,
+      "unique_query_ids": true
+    },
+    {
+      "domain": "economics",
+      "excluded_id_count": 0,
+      "excluded_nonempty": 0,
+      "gold_id_count": 800,
+      "gold_long_id_count": 109,
+      "queries": 103,
+      "query_schema_ok": true,
+      "unique_query_ids": true
+    },
+    {
+      "domain": "psychology",
+      "excluded_id_count": 0,
+      "excluded_nonempty": 0,
+      "gold_id_count": 692,
+      "gold_long_id_count": 116,
+      "queries": 101,
+      "query_schema_ok": true,
+      "unique_query_ids": true
+    },
+    {
+      "domain": "robotics",
+      "excluded_id_count": 0,
+      "excluded_nonempty": 0,
+      "gold_id_count": 520,
+      "gold_long_id_count": 106,
+      "queries": 101,
+      "query_schema_ok": true,
+      "unique_query_ids": true
+    },
+    {
+      "domain": "stackoverflow",
+      "excluded_id_count": 0,
+      "excluded_nonempty": 0,
+      "gold_id_count": 478,
+      "gold_long_id_count": 129,
+      "queries": 117,
+      "query_schema_ok": true,
+      "unique_query_ids": true
+    },
+    {
+      "domain": "sustainable_living",
+      "excluded_id_count": 0,
+      "excluded_nonempty": 0,
+      "gold_id_count": 576,
+      "gold_long_id_count": 129,
+      "queries": 108,
+      "query_schema_ok": true,
+      "unique_query_ids": true
+    },
+    {
+      "domain": "pony",
+      "excluded_id_count": 0,
+      "excluded_nonempty": 0,
+      "gold_id_count": 2219,
+      "gold_long_id_count": 769,
+      "queries": 112,
+      "query_schema_ok": true,
+      "unique_query_ids": true
+    },
+    {
+      "domain": "leetcode",
+      "excluded_id_count": 33485,
+      "excluded_nonempty": 142,
+      "gold_id_count": 262,
+      "gold_long_id_count": 142,
+      "queries": 142,
+      "query_schema_ok": true,
+      "unique_query_ids": true
+    },
+    {
+      "domain": "aops",
+      "excluded_id_count": 622756,
+      "excluded_nonempty": 111,
+      "gold_id_count": 524,
+      "gold_long_id_count": 111,
+      "queries": 111,
+      "query_schema_ok": true,
+      "unique_query_ids": true
+    },
+    {
+      "domain": "theoremqa_questions",
+      "excluded_id_count": 606523,
+      "excluded_nonempty": 194,
+      "gold_id_count": 617,
+      "gold_long_id_count": 194,
+      "queries": 194,
+      "query_schema_ok": true,
+      "unique_query_ids": true
+    },
+    {
+      "domain": "theoremqa_theorems",
+      "excluded_id_count": 0,
+      "excluded_nonempty": 0,
+      "gold_id_count": 151,
+      "gold_long_id_count": 76,
+      "queries": 76,
+      "query_schema_ok": true,
+      "unique_query_ids": true
+    }
+  ],
+  "config": "examples",
+  "counts": {
+    "aops": 111,
+    "biology": 103,
+    "earth_science": 116,
+    "economics": 103,
+    "leetcode": 142,
+    "pony": 112,
+    "psychology": 101,
+    "robotics": 101,
+    "stackoverflow": 117,
+    "sustainable_living": 108,
+    "theoremqa_questions": 194,
+    "theoremqa_theorems": 76
+  },
+  "dataset": "xlangai/BRIGHT",
+  "domains": [
+    "biology",
+    "earth_science",
+    "economics",
+    "psychology",
+    "robotics",
+    "stackoverflow",
+    "sustainable_living",
+    "pony",
+    "leetcode",
+    "aops",
+    "theoremqa_questions",
+    "theoremqa_theorems"
+  ],
+  "revision": "3066d29c9651a576c8aba4832d249807b181ecae",
+  "short_vs_long_policy": "short examples and short documents only; long_documents not admitted",
+  "total_queries": 1384
+}

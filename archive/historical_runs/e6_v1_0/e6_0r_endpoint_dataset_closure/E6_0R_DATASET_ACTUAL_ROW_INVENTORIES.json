@@ -1,0 +1,1003 @@
+{
+  "dochop": {
+    "admission": "NOT_ADMISSIBLE_FOR_NATURAL_OR_COMPLETE_SUPPORT; supplied_context_only",
+    "answer_field_present_rows": 0,
+    "bytes": 196084332,
+    "component_count": 4705,
+    "context_count_histogram": {
+      "3": 1365,
+      "4": 1447,
+      "5": 8567
+    },
+    "context_exact_content_duplicate_rows_minus_first": 23027,
+    "context_rows_multi_document": 7863,
+    "context_rows_with_duplicate_canonical_ids": 0,
+    "context_type_counts": {
+      "table": 2812
+    },
+    "dataset": "DocHop-QA",
+    "evidence_label_field_present_rows": 0,
+    "external_pmc_source_only": true,
+    "hop_type_counts": {
+      "chain": 2812,
+      "fan": 8567
+    },
+    "largest_component_questions": 2192,
+    "natural_corpus_present": false,
+    "path": "data/external/e6_0r_datasets/dochopqa/[F] DocHopQA_Dataset.json",
+    "question_exact_duplicate_rows_minus_first": 562,
+    "revision": "bfd2c7c9cf77e27dc93c57fe9f7defb091b3edbe",
+    "rows": 11379,
+    "sample_rows": [
+      {
+        "context_count": 5,
+        "id": 2233,
+        "pmc_ids": [
+          "PMC1866371",
+          "PMC1866374"
+        ],
+        "question_sha256": "af4839a94ac3ab2504c48f6310def7179766ba6ec3ae926cc8ca64b66334ad0c",
+        "stratum": [
+          "Paragraph-Oriented",
+          "fan",
+          "multi"
+        ]
+      },
+      {
+        "context_count": 5,
+        "id": 400,
+        "pmc_ids": [
+          "PMC2714407"
+        ],
+        "question_sha256": "1189a1ca3a897b21eaf204910800ffd48b86277af3a603eee18bc05e59e65bb4",
+        "stratum": [
+          "Paragraph-Oriented",
+          "fan",
+          "single"
+        ]
+      },
+      {
+        "context_count": 4,
+        "id": 11301,
+        "pmc_ids": [
+          "PMC1383621",
+          "PMC1386721"
+        ],
+        "question_sha256": "e234837936c7ec021ccc245d02e19b3521bbe3f1e7bf378d90c7dfe9f5e9c56d",
+        "stratum": [
+          "Table-Oriented",
+          "chain",
+          "multi"
+        ]
+      }
+    ],
+    "sha256": "a4bc2b0d5be351372bf1e9b7083137a7e6843a9542ddb69956fa52614ef7d13a",
+    "source_uri": "https://huggingface.co/datasets/anonymousaaai123/DocHopQA_Dataset",
+    "task_type_counts": {
+      "Paragraph-Oriented": 8567,
+      "Table-Oriented": 2812
+    },
+    "unique_pmc_ids": 9250,
+    "used_doc_counts": {
+      "multi": 7863,
+      "single": 3516
+    }
+  },
+  "garage": {
+    "admission": "FIXED_POOL_GROUNDING_ADMISSIBLE_CONDITIONAL; exact-K15-to-Top5 only; never natural Top20",
+    "aligned_annotation_lengths": 2366,
+    "answer_generate_nonempty": 2364,
+    "answer_validate_yes": 1939,
+    "bytes": 28426483,
+    "complete_support_set_field_present": false,
+    "dataset": "GaRAGe",
+    "duplicate_passage_text_rows": 0,
+    "evidence_correct_counts": {
+      "": 9402,
+      "ANSWER-THE-QUESTION": 11015,
+      "OUTDATED": 2771,
+      "RELATED-INFORMATION": 9337,
+      "UNKNOWN": 2826
+    },
+    "evidence_relevant_counts": {
+      "": 4,
+      "NO": 9393,
+      "YES": 25954
+    },
+    "exact_k15_rows": 2329,
+    "path": "data/external/e6_0r_datasets/garage/GaRAGe_benchmark.jsonl",
+    "pool_size_histogram": {
+      "10": 2,
+      "11": 4,
+      "12": 7,
+      "13": 4,
+      "14": 11,
+      "15": 2329,
+      "5": 2,
+      "6": 1,
+      "7": 3,
+      "8": 2,
+      "9": 1
+    },
+    "provider_counts": {
+      "ent": 4752,
+      "web": 30599
+    },
+    "question_complexity_counts": {
+      "Aggregation": 55,
+      "Comparison": 355,
+      "Multi-hop": 713,
+      "Post-processing heavy": 696,
+      "Set": 278,
+      "Simple": 54,
+      "Simple w. condition": 215
+    },
+    "question_tag_counts": {
+      "arxiv": 188,
+      "devops": 112,
+      "enron": 227,
+      "sec": 333,
+      "web": 1506
+    },
+    "revision": "2b7264f5d4e066affbe4b67b7d3b9cffeff98ede",
+    "rows": 2366,
+    "rows_k_at_least_5": 2366,
+    "sample_id_unique": true,
+    "sample_rows": [
+      {
+        "evidence_correct": [
+          "RELATED-INFORMATION",
+          "",
+          "ANSWER-THE-QUESTION",
+          "",
+          "ANSWER-THE-QUESTION",
+          "",
+          "",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          ""
+        ],
+        "pool_size": 15,
+        "question_sha256": "380e3bcb105d9303a7e907fcbd66eada23af588f4be9b6aa1d39a07fb7246460",
+        "sample_id": "88763802-ba84-4ada-aa15-d128193bbd8d",
+        "stratum": "Aggregation|arxiv"
+      },
+      {
+        "evidence_correct": [
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "176c405756c5945429dc579fb10e16e67683c25a289eb3aa547bc5d58773e6f0",
+        "sample_id": "d4189db0-ac51-4ce4-8387-ce7336fa1d3d",
+        "stratum": "Aggregation|devops"
+      },
+      {
+        "evidence_correct": [
+          "",
+          "",
+          "ANSWER-THE-QUESTION",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "pool_size": 15,
+        "question_sha256": "1765d30d2576feb0c09dd818a3af44cdade73e3507f18b23387a43bb98a6ca39",
+        "sample_id": "57aa8871-4df4-42dc-a91d-9830d37e6e77",
+        "stratum": "Aggregation|enron"
+      },
+      {
+        "evidence_correct": [
+          "",
+          "",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "OUTDATED",
+          "",
+          "",
+          "",
+          "",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          ""
+        ],
+        "pool_size": 15,
+        "question_sha256": "5c1151de322681e48d9ceb5331631324acd61890a7326f31f2f8a8dc3d828698",
+        "sample_id": "ddefe122-c1f6-48f4-8ecd-b6c7388c4eb7",
+        "stratum": "Aggregation|sec"
+      },
+      {
+        "evidence_correct": [
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "0b63aec5b21ee3adf48d9e72f829b5cf04093afd93be1c6348420f3c1a02267c",
+        "sample_id": "8ef0a6b2-f6b1-4d97-8c08-0f9cbcf31aac",
+        "stratum": "Aggregation|web"
+      },
+      {
+        "evidence_correct": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "RELATED-INFORMATION",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "pool_size": 15,
+        "question_sha256": "f1bf7e14a640ae7709123066a1ba9867f9a161424f6b45d93ff8c18da61bfcb3",
+        "sample_id": "0ad52b6e-34fc-4c25-8b7b-317154510adc",
+        "stratum": "Comparison|arxiv"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "",
+          "",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "",
+          "",
+          "UNKNOWN",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "2c0bd20638639bdca6ff04fcb44fe42cd530bb364205e91b8d165038af6f5e74",
+        "sample_id": "0f18c629-ba25-4480-9f4d-8dcc367c1724",
+        "stratum": "Comparison|devops"
+      },
+      {
+        "evidence_correct": [
+          "",
+          "",
+          "UNKNOWN",
+          "UNKNOWN",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "UNKNOWN",
+          "UNKNOWN",
+          "UNKNOWN",
+          "UNKNOWN",
+          "UNKNOWN",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "1422271bba0bd0a711d5d54cdb26b674ccfdcade7185310cb25e1df57384fa14",
+        "sample_id": "3223c5c2-2eed-4a5f-abc6-7f25514722a4",
+        "stratum": "Comparison|enron"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "UNKNOWN",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "397a024939a48cc1c92a85434dc31087c5418dc44f9204b19659d5408f442bc1",
+        "sample_id": "447541b2-72b3-431b-8086-25083fef3b35",
+        "stratum": "Comparison|sec"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "f955f779a91ec80e2165e55f9db94fe82fb9f58e6322a42880e4ec7a61708b3f",
+        "sample_id": "904b54f0-2445-495c-a837-134a6960954f",
+        "stratum": "Comparison|web"
+      },
+      {
+        "evidence_correct": [
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "936258cb0d68c9aa1a74949fab91b4382978422eeb49a22dd9acb30b6a7132bd",
+        "sample_id": "a59cb9c3-d6b4-43b5-bfdc-3345bb8e1f7e",
+        "stratum": "Multi-hop|arxiv"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "UNKNOWN",
+          "",
+          "",
+          "",
+          "RELATED-INFORMATION",
+          "",
+          "ANSWER-THE-QUESTION",
+          "UNKNOWN",
+          "RELATED-INFORMATION",
+          "",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "9c6d069d4227857b69ae6d0e3eb07dcd470e1fd9bbe7bf9361ed4799833d8676",
+        "sample_id": "89381931-b727-4072-9335-51d1c1523183",
+        "stratum": "Multi-hop|devops"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "ANSWER-THE-QUESTION",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "pool_size": 15,
+        "question_sha256": "d08d07d107833169ac84619e76eb56aff9f451533654cae6e14ef67b6ee17bd9",
+        "sample_id": "7cb38357-e698-4dfa-9df5-982133a27c63",
+        "stratum": "Multi-hop|enron"
+      },
+      {
+        "evidence_correct": [
+          "",
+          "",
+          "UNKNOWN",
+          "UNKNOWN",
+          "",
+          "UNKNOWN",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "pool_size": 15,
+        "question_sha256": "ac549fae6ec35eba85a795d9bc698351cce03f7e8492a7309c9d95398cff5cff",
+        "sample_id": "bf572fdf-9dce-4636-bcc6-e4140cc51cf5",
+        "stratum": "Multi-hop|sec"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "UNKNOWN",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "4cbbd42cecb499baeb7a7179743b021f07d622859343809f592260e55963fea9",
+        "sample_id": "4621cd3e-b1e3-4127-84ff-04df4d4b5b21",
+        "stratum": "Multi-hop|web"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "",
+          "",
+          "",
+          "RELATED-INFORMATION",
+          "",
+          "RELATED-INFORMATION",
+          "",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "",
+          "RELATED-INFORMATION",
+          "",
+          "",
+          "RELATED-INFORMATION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "937ed8bfe8ea7817d5be88c85de27ef1aff449a35ee8b5a9be06342b77f389c3",
+        "sample_id": "0890f4c3-99b1-4b94-829c-e1e0f12ad8b1",
+        "stratum": "Post-processing heavy|arxiv"
+      },
+      {
+        "evidence_correct": [
+          "",
+          "ANSWER-THE-QUESTION",
+          "",
+          "",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "",
+          "",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "",
+          "",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "d5b20a846c61ab3fc64521959aede4c721a86c4ef38e3e9252161a34308622c4",
+        "sample_id": "9d5844b5-26c8-44b6-ba50-7096fd52ec0c",
+        "stratum": "Post-processing heavy|devops"
+      },
+      {
+        "evidence_correct": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "pool_size": 15,
+        "question_sha256": "2aa8e2d04f7730ce77b7b213941c8b9da985cc25183e139e47cfb9c637f2b1db",
+        "sample_id": "05c6e192-9c31-4508-ba2e-2902c1d4dea8",
+        "stratum": "Post-processing heavy|enron"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "acebe6d20bdf0012ff356f079dac92d0787d1efa558ac32d6f1e3ab89a260f59",
+        "sample_id": "9d69ab94-1969-4426-bb18-08f868216fd7",
+        "stratum": "Post-processing heavy|sec"
+      },
+      {
+        "evidence_correct": [
+          "OUTDATED",
+          "UNKNOWN",
+          "ANSWER-THE-QUESTION",
+          "UNKNOWN",
+          "OUTDATED",
+          "OUTDATED",
+          "OUTDATED",
+          "ANSWER-THE-QUESTION",
+          "OUTDATED",
+          "OUTDATED",
+          "OUTDATED",
+          "UNKNOWN",
+          "OUTDATED",
+          "OUTDATED",
+          "OUTDATED"
+        ],
+        "pool_size": 15,
+        "question_sha256": "2af8c50f4ed3516a2d5c359dd2240cc37af8c30d0ca261aeb88ee1fb32e19f79",
+        "sample_id": "a8984d33-c82b-4aa1-9ab1-5be181b9acba",
+        "stratum": "Post-processing heavy|web"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "UNKNOWN",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "d274905735eee977be733969696f2ae676ab130a45723933cd11b154d2125f4d",
+        "sample_id": "075698f7-64ec-4870-93f9-7ec8e9b6ea44",
+        "stratum": "Set|arxiv"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "UNKNOWN",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "UNKNOWN",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "666df47a97914627d8d5bc601e7b316f39bc18a7108e322709d9c00f7cfd9be0",
+        "sample_id": "f0018e59-b343-45f4-9dcb-4ec47160d877",
+        "stratum": "Set|devops"
+      },
+      {
+        "evidence_correct": [
+          "",
+          "RELATED-INFORMATION",
+          "",
+          "ANSWER-THE-QUESTION",
+          "",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "",
+          "RELATED-INFORMATION",
+          "",
+          "RELATED-INFORMATION",
+          "",
+          "RELATED-INFORMATION",
+          "",
+          ""
+        ],
+        "pool_size": 15,
+        "question_sha256": "067f1165738a5221c3da02e94f001b81cc9fb6a63e3fcd01383d168bf802518b",
+        "sample_id": "00210446-3db2-4ac0-8450-3cdf50d2c32d",
+        "stratum": "Set|enron"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "341ab59afe237afa2fb909ace2f8f3ae885f65f6be96a3961225e0cc7dda908f",
+        "sample_id": "8952854e-3009-49c0-8f78-3c874ebb947b",
+        "stratum": "Set|sec"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "",
+          "",
+          "ANSWER-THE-QUESTION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "ba7c9706c392d8edf77d478652effdec8901b5d7d21a4cbd2b88f189548b08d0",
+        "sample_id": "ba0219e8-4be1-4e46-a51b-c2bd34675796",
+        "stratum": "Set|web"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "",
+          "",
+          "",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          ""
+        ],
+        "pool_size": 15,
+        "question_sha256": "d876b8b9389cb8a16fc90df6bbf344b50071530633770171d2b9d28d4e11216a",
+        "sample_id": "138e12a8-422f-4718-9389-c223299994f1",
+        "stratum": "Simple w. condition|arxiv"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "UNKNOWN",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "UNKNOWN",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "UNKNOWN",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "OUTDATED",
+          "OUTDATED",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "b1757c15ecbb1424c0b0fa96b3a6d7b34edd7917cd207c7ce33581ffd6cbfef6",
+        "sample_id": "a94fae80-2e96-43af-b43c-73f1d56cf690",
+        "stratum": "Simple w. condition|devops"
+      },
+      {
+        "evidence_correct": [
+          "UNKNOWN",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "UNKNOWN",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "393a2ff7a6fe631ef10fc3f8ac34a21c28fed59cddc2d0665fd0681547833090",
+        "sample_id": "daccd0ce-7a4b-4ec7-861b-1a7bb3a366c2",
+        "stratum": "Simple w. condition|enron"
+      },
+      {
+        "evidence_correct": [
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION",
+          "RELATED-INFORMATION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "1def0462a1ced95df7e972497fbe566843e730664b89c245ab1591e6dde2a212",
+        "sample_id": "8665d65f-70d5-49fe-bb32-9400cec93765",
+        "stratum": "Simple w. condition|sec"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "UNKNOWN",
+          "UNKNOWN",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "UNKNOWN",
+          "ANSWER-THE-QUESTION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "b8da53731764d609d5fdc96322e9b2bb5c16671f0fa477ef7b1fed49d50f4df2",
+        "sample_id": "084862c9-4a13-4b8d-8141-dc7a28da7162",
+        "stratum": "Simple w. condition|web"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "OUTDATED",
+          "",
+          "ANSWER-THE-QUESTION",
+          "OUTDATED",
+          "",
+          "",
+          "",
+          "",
+          "OUTDATED",
+          "",
+          "OUTDATED",
+          "",
+          "",
+          "OUTDATED"
+        ],
+        "pool_size": 15,
+        "question_sha256": "423ca95abb94817f5460edc9af17a25fb5f409118d75b7d5a3f64be58df2bfff",
+        "sample_id": "4bf1e192-f6f1-4f1d-b969-29db10a2470f",
+        "stratum": "Simple|arxiv"
+      },
+      {
+        "evidence_correct": [
+          "",
+          "RELATED-INFORMATION",
+          "OUTDATED",
+          "RELATED-INFORMATION",
+          "OUTDATED",
+          "OUTDATED",
+          "",
+          "",
+          "RELATED-INFORMATION",
+          "UNKNOWN",
+          "UNKNOWN",
+          "RELATED-INFORMATION",
+          "",
+          "RELATED-INFORMATION",
+          "OUTDATED"
+        ],
+        "pool_size": 15,
+        "question_sha256": "5430977fa6f5cf915d3b9b7bb128a1bb438cf888b616217476200409cf4c0194",
+        "sample_id": "26e5286c-7c55-4aca-98d7-e3f2e574b805",
+        "stratum": "Simple|devops"
+      },
+      {
+        "evidence_correct": [
+          "ANSWER-THE-QUESTION",
+          "UNKNOWN",
+          "",
+          "",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "",
+          "",
+          "",
+          "",
+          "ANSWER-THE-QUESTION",
+          "",
+          "",
+          "",
+          "ANSWER-THE-QUESTION"
+        ],
+        "pool_size": 15,
+        "question_sha256": "35d92e2747a361ed0d2d2e1ef50bc03e69d74515af6c006fc202cde3607cbf0f",
+        "sample_id": "80545557-f901-440f-83d5-b5a8436d12df",
+        "stratum": "Simple|enron"
+      },
+      {
+        "evidence_correct": [
+          "OUTDATED",
+          "OUTDATED",
+          "OUTDATED",
+          "OUTDATED",
+          "OUTDATED",
+          "RELATED-INFORMATION",
+          "OUTDATED",
+          "OUTDATED",
+          "OUTDATED",
+          "OUTDATED",
+          "OUTDATED",
+          "OUTDATED",
+          "OUTDATED",
+          "OUTDATED",
+          "OUTDATED"
+        ],
+        "pool_size": 15,
+        "question_sha256": "8819a9c33003c6ea42780921d3e4c003b82363e525b464a73514c8c08638362b",
+        "sample_id": "069f16ca-81b5-4c39-a614-99824c912922",
+        "stratum": "Simple|sec"
+      },
+      {
+        "evidence_correct": [
+          "OUTDATED",
+          "ANSWER-THE-QUESTION",
+          "RELATED-INFORMATION",
+          "ANSWER-THE-QUESTION",
+          "OUTDATED",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "ANSWER-THE-QUESTION",
+          "OUTDATED",
+          "ANSWER-THE-QUESTION",
+          "OUTDATED",
+          "OUTDATED",
+          "ANSWER-THE-QUESTION",
+          ""
+        ],
+        "pool_size": 15,
+        "question_sha256": "023ec273268ee241b422539d76a2edb645144463d17264ab5580eb3bdb6486e0",
+        "sample_id": "166d79d7-54fc-48dc-9e00-b8cca773c4e5",
+        "stratum": "Simple|web"
+      }
+    ],
+    "sha256": "419e3941f6e8eb4082a74ca2140c1f9337f8b467ff76656a6b8b0290ca3f3a72",
+    "source_group_status": "BLOCKED_NO_STABLE_SOURCE_DOCUMENT_ID",
+    "source_uri": "https://github.com/amazon-science/GaRAGe",
+    "stable_candidate_identity": "sample_id:cite_1..cite_K positional identity only; no source-document IDs/URLs",
+    "stable_source_id_fields_in_grounding": []
+  },
+  "scifact": {
+    "admission": "NATURAL_RELEVANCE_ADMISSIBLE_CONDITIONAL; doc-level sparse qrels; not CSSR",
+    "complete_support_sets": false,
+    "corpus_exact_duplicate_rows_minus_first": 0,
+    "corpus_ids_unique": true,
+    "corpus_rows": 5183,
+    "dataset": "BEIR/SciFact",
+    "dataset_revision": "b3b5335604bf5ee3c4447671af975ea25143d4f5",
+    "empty_corpus_rows": 0,
+    "empty_query_rows": 0,
+    "files": [
+      {
+        "bytes": 116808,
+        "path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact/queries/0.0.0/b3b5335604bf5ee3c4447671af975ea25143d4f5/scifact-queries.arrow",
+        "sha256": "eb72bf7b1144d3fab2368330be29d64ce0c081f613b395e47c87d148588e6d5c"
+      },
+      {
+        "bytes": 7877544,
+        "path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact/corpus/0.0.0/b3b5335604bf5ee3c4447671af975ea25143d4f5/scifact-corpus.arrow",
+        "sha256": "1abf7e91fa5278704cdf75a919f522b82e9c3711da990443efd212f7361f8394"
+      },
+      {
+        "bytes": 22784,
+        "path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact-qrels/default/0.0.0/2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029/scifact-qrels-train.arrow",
+        "sha256": "26725381447f908390e967771af83f0d5e838c6d772718fda949cab94dbd230f"
+      },
+      {
+        "bytes": 8864,
+        "path": "<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/datasets/BeIR___scifact-qrels/default/0.0.0/2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029/scifact-qrels-test.arrow",
+        "sha256": "210ff5c601deb42f529a85299c4bf88f03d5667ae4fba030981ca8a51aefdea0"
+      }
+    ],
+    "natural_corpus_present": true,
+    "qrel_component_count": 572,
+    "qrel_component_largest_question_count": 9,
+    "qrels_revision": "2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029",
+    "qrels_source_uri": "https://huggingface.co/datasets/BeIR/scifact-qrels",
+    "query_exact_duplicate_rows_minus_first": 4,
+    "query_ids_unique": true,
+    "query_rows": 1109,
+    "source_uri": "https://huggingface.co/datasets/BeIR/scifact",
+    "test_qrel_rows": 339,
+    "train_qrel_rows": 919
+  }
+}

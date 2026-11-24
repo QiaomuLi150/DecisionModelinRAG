@@ -1,0 +1,78 @@
+{
+  "cal_partition_file_sha256": "1afbcb531e276d1f5c5c80ca4bd42f984dff093f7efddf7e3ed3938705d4ff50",
+  "code_and_inputs": {
+    "embedding_local_ref_sha256": "99d6d64ed3feba8d1f9d3663c9a503d15a86cc39ca7a8a1d28e955d7a3b078de",
+    "historical_e5_manifest_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+    "r0_provenance_sha256": "f9cfd4c759e0870e375d57452dc1a04c39e93b6ae6a6774b3b67ecb0daf9e3ef",
+    "retrieval_code": "scripts/m2_retrieve.py",
+    "retrieval_code_sha256": "0c71be200d9a2108446a4ff3663b01d89a38a9c48bf8dc639b45292e74b7d35a"
+  },
+  "corpus_sha256": "1abf7e91fa5278704cdf75a919f522b82e9c3711da990443efd212f7361f8394",
+  "created_utc": "2026-10-15T03:08:26.542817+00:00",
+  "dataset": {
+    "cal_queries": 555,
+    "corpus_rows": 5183,
+    "name": "BEIR/SciFact",
+    "primary_exploratory_queries": 277,
+    "query_rows": 1109,
+    "reserved_queries": 277
+  },
+  "exploratory_partition_file_sha256": "dff7891ed15c87a6381796a9fab5a11b2daf0208633a07eddec70cdd6900b559",
+  "failure_policy": {
+    "no_fallback_retriever": true,
+    "no_gold_injection": true,
+    "no_gpu_auth": "stop before dense embedding and slate generation",
+    "no_qrel_guided_repair": true
+  },
+  "frozen_before_new_embedding_or_dense_retrieval": true,
+  "hardware": {
+    "fresh_r1_device_specific_authorization": "ABSENT_IN_CURRENT_OWNER_INSTRUCTION",
+    "historical_gpu5_gpu6_permission_reused": false,
+    "preflight_run": false,
+    "required_next_step": "owner-approved GPU UUID plus occupancy/memory check"
+  },
+  "historical_e5_slate_sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+  "holdout": {
+    "reserved_content_loaded": false,
+    "reserved_qrels_loaded": false,
+    "reserved_slates_loaded": false
+  },
+  "query_sha256": "eb72bf7b1144d3fab2368330be29d64ce0c081f613b395e47c87d148588e6d5c",
+  "reserved_partition_metadata": {
+    "content_loaded": false,
+    "declared_qid_sha256": "508dc9b095f6697aa162a8cb1488c2653c70b4e3110b64c5eff651e27e0e2c6e",
+    "rows": 277
+  },
+  "retrieval_started": false,
+  "retriever": {
+    "dense": {
+      "endpoint": "http://service.example.invalid/v1/embeddings",
+      "inference_status": "NOT_RUN_GPU_AUTH_PENDING",
+      "model": "Qwen/Qwen3-VL-Embedding-2B",
+      "revision_artifact_pinned": false,
+      "revision_observed_local_ref": "9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda",
+      "similarity": "exact cosine",
+      "top_k": 100
+    },
+    "fusion": {
+      "candidate_deduplication": "canonical document ID",
+      "k": 60,
+      "method": "RRF",
+      "output_k": 20,
+      "tie_break": "canonical document ID ascending"
+    },
+    "sparse": {
+      "b": 0.75,
+      "implementation": "scripts/m2_retrieve.py::BM25",
+      "k1": 1.2,
+      "tokenizer": "lowercase_regex",
+      "top_k": 100
+    }
+  },
+  "schema": "E6-2-R1-EXECUTION-MANIFEST-V1",
+  "serialization": {
+    "canonical_doc_id": "scifact:<_id>",
+    "compatibility_note": "SciFact Arrow schema requires an explicit pre-outcome adapter from (_id,title,text) to the historical m2 contract (doc_id,title,full_text)."
+  },
+  "status": "GPU_AUTHORIZATION_PENDING"
+}

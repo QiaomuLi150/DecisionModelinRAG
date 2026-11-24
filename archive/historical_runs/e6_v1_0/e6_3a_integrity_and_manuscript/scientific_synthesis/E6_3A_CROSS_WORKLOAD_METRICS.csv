@@ -1,0 +1,4 @@
+workload,quality_metric,pplx_minus_jina,ci95_low,ci95_high,quality_n,source_group_independence,serving_source
+SciFact,operational_binary_ndcg5,0.01739960021571993,-0.01054864518886083,0.04528112317476296,277,qualified,E6-3A corrected same-sample serving
+GaRAGe,binary_evidence_relevant_ndcg5,-0.01580213691250374,-0.022765040204003047,-0.008965936101147882,1397,not established,E6-3A corrected same-sample serving
+GaRAGe reader,normalized_token_f1_reference_overlap,-0.003406734241567417,see E6-3 bootstrap artifact,see E6-3 bootstrap artifact,200,not established,E6-3 frozen reader; no new inference

@@ -1,0 +1,19 @@
+{
+  "blockers": [
+    "JINA_SELECTION_GATE",
+    "N3_HYBRID_RRF_NO_BM25",
+    "N2_E_PROTOCOL_PREOUTCOME_RECEIPT"
+  ],
+  "n1_expected": 27680,
+  "n1_records": 55360,
+  "n2_records": 9720,
+  "n2_sessions": [
+    "C",
+    "D",
+    "E"
+  ],
+  "overall": "PARTIAL",
+  "paid_api_calls": 0,
+  "protected_holdout_accessed": false,
+  "raw_manifest": "RAW_TRACE_SHA256_MANIFEST_FOLLOWUP.json"
+}

@@ -1,0 +1,76 @@
+{
+  "created_utc": "2026-10-14T22:39:52.162354+00:00",
+  "e5_a_primary_anchor_preserved": true,
+  "e6_0_gate": {
+    "decision": "E6_0_ACCEPTED_SUCCESSFUL_READINESS_AUDIT",
+    "e6_1_cal_adapter_pilot": "AUTHORIZED_BOUNDED",
+    "e6_1_scope": [
+      "frozen CAL population only",
+      "native adapter and scoring-contract validation",
+      "candidate alignment and exact Top-5 validation",
+      "dataset-specific graded-support/grounding endpoint only",
+      "complete failure and provenance accounting",
+      "no full eight-model benchmark"
+    ],
+    "e6_confirmation": "LOCKED",
+    "full_eight_model_benchmark": "NOT_AUTHORIZED",
+    "graded_support_grounding_amendment": "CONDITIONALLY_APPROVED",
+    "historical_e6_0_artifacts_modified": false,
+    "jev_calls_authorized": 0,
+    "paid_api_calls_authorized": 0,
+    "schema": "DecisionRAG-E6-0-OWNER-DECISION-V1",
+    "sealed_holdout_access": "NOT_AUTHORIZED"
+  },
+  "frozen_slate": {
+    "expected": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7",
+    "match": true,
+    "path": "results/non_jev/v2/e5_v1_1/e5_0_data_protocol/E5_0_NATURAL_TOP20_MANIFEST.jsonl",
+    "sha256": "be9cf462b77e92ee8c1b70bad5d10412e9c51c4d3a249e9e925140ebdab2d5e7"
+  },
+  "git_head": "246ff54e66b178eadd350351a5544879f5484ed2",
+  "historical_checked": 91,
+  "historical_declared_manifest_checks": [
+    {
+      "checked": 28,
+      "exists": true,
+      "failed": 0,
+      "manifest": "results/non_jev/v2/e2_m1/E2_M1_PROVENANCE_MANIFEST.json",
+      "missing_declarations": 0,
+      "passed": 28
+    },
+    {
+      "checked": 32,
+      "exists": true,
+      "failed": 0,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_a_replacement_benchmark/E5_A_PROVENANCE_MANIFEST.json",
+      "missing_declarations": 0,
+      "passed": 32
+    },
+    {
+      "checked": 31,
+      "exists": true,
+      "failed": 0,
+      "manifest": "results/non_jev/v2/e5_v1_1/e5_dc_serving_reader_validation/E5_DC_PROVENANCE_MANIFEST.json",
+      "missing_declarations": 0,
+      "passed": 31
+    },
+    {
+      "checked": 0,
+      "exists": true,
+      "failed": 0,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_0_readiness/E6_0_PROVENANCE_MANIFEST.json",
+      "missing_declarations": 0,
+      "passed": 0
+    }
+  ],
+  "historical_failed": 0,
+  "historical_passed": 91,
+  "jev_calls": 0,
+  "new_embedding_calls": 0,
+  "new_gpu_operations": 0,
+  "new_model_forwards": 0,
+  "new_reader_calls": 0,
+  "outputs_not_in_historical_manifests": true,
+  "paid_api_calls": 0,
+  "sealed_holdout_accessed": false
+}

@@ -1,0 +1,124 @@
+{
+  "basis": "all_requests_with_failure_fallback",
+  "fallback_source": "results/v1_5/c2_latency_uncertainty/export/fallback_cost.csv",
+  "fallback_source_sha256": "a6caa6b7353bea75c046cedf9490668ecb86a45504ac411c54a5d86ae42de9af",
+  "rows": [
+    {
+      "alloc_p95_mib": 4432.37745,
+      "alloc_success_p95_mib": 4432.37745,
+      "attempted": 360,
+      "basis": "all_requests_with_failure_fallback",
+      "bootstrap_draws": 10000,
+      "bootstrap_seed": 731,
+      "failed": 0,
+      "failure_classes": {},
+      "p50_ms": 286.38149999999996,
+      "p95_ms": 1171.4756499999999,
+      "p95_ratio": 1.0,
+      "policy": "jina_full",
+      "prob_ratio_le_2": 1.0,
+      "ratio_hi95": 1.0,
+      "ratio_lo95": 1.0,
+      "valid": 360
+    },
+    {
+      "alloc_p95_mib": 2638.9744000000014,
+      "alloc_success_p95_mib": 2638.9744000000014,
+      "attempted": 360,
+      "basis": "all_requests_with_failure_fallback",
+      "bootstrap_draws": 10000,
+      "bootstrap_seed": 731,
+      "failed": 0,
+      "failure_classes": {},
+      "p50_ms": 350.39549999999997,
+      "p95_ms": 1115.910200000001,
+      "p95_ratio": 1.030116602568161,
+      "policy": "jina_two_stage_full",
+      "prob_ratio_le_2": 1.0,
+      "ratio_hi95": 1.2247205352671993,
+      "ratio_lo95": 0.8429796265048348,
+      "valid": 360
+    },
+    {
+      "alloc_p95_mib": 1951.4629,
+      "alloc_success_p95_mib": 1952.0626,
+      "attempted": 360,
+      "basis": "all_requests_with_failure_fallback",
+      "bootstrap_draws": 10000,
+      "bootstrap_seed": 731,
+      "failed": 3,
+      "failure_classes": {
+        "RuntimeError": 3
+      },
+      "p50_ms": 323.30150000000003,
+      "p95_ms": 729.5394000000001,
+      "p95_ratio": 0.6392509041651049,
+      "policy": "jina_two_stage_pplxwindow",
+      "prob_ratio_le_2": 1.0,
+      "ratio_hi95": 0.8976753003638493,
+      "ratio_lo95": 0.39382502849837964,
+      "valid": 357
+    },
+    {
+      "alloc_p95_mib": 1946.18495,
+      "alloc_success_p95_mib": 1946.4278,
+      "attempted": 360,
+      "basis": "all_requests_with_failure_fallback",
+      "bootstrap_draws": 10000,
+      "bootstrap_seed": 731,
+      "failed": 3,
+      "failure_classes": {
+        "RuntimeError": 3
+      },
+      "p50_ms": 151.613,
+      "p95_ms": 245.22375,
+      "p95_ratio": 0.2114062093025541,
+      "policy": "jina_pplx_budget",
+      "prob_ratio_le_2": 1.0,
+      "ratio_hi95": 0.31153659466008865,
+      "ratio_lo95": 0.13455025271931115,
+      "valid": 357
+    },
+    {
+      "alloc_p95_mib": 51345.79595,
+      "alloc_success_p95_mib": 51345.9038,
+      "attempted": 360,
+      "basis": "all_requests_with_failure_fallback",
+      "bootstrap_draws": 10000,
+      "bootstrap_seed": 731,
+      "failed": 3,
+      "failure_classes": {
+        "RuntimeError": 3
+      },
+      "p50_ms": 1606.5495,
+      "p95_ms": 2373.67145,
+      "p95_ratio": 2.0485868503931104,
+      "policy": "pplx_budget",
+      "prob_ratio_le_2": 0.3301,
+      "ratio_hi95": 3.0249371916611683,
+      "ratio_lo95": 1.305213180703456,
+      "valid": 357
+    },
+    {
+      "alloc_p95_mib": 51323.59495,
+      "alloc_success_p95_mib": 51323.7328,
+      "attempted": 360,
+      "basis": "all_requests_with_failure_fallback",
+      "bootstrap_draws": 10000,
+      "bootstrap_seed": 731,
+      "failed": 3,
+      "failure_classes": {
+        "RuntimeError": 3
+      },
+      "p50_ms": 3465.4359999999997,
+      "p95_ms": 6782.0886,
+      "p95_ratio": 5.883790587976433,
+      "policy": "pplx_two_stage",
+      "prob_ratio_le_2": 0.0,
+      "ratio_hi95": 8.443707332997214,
+      "ratio_lo95": 3.7039305979668686,
+      "valid": 357
+    }
+  ],
+  "status": "PASS"
+}

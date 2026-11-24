@@ -1,0 +1,14 @@
+{
+  "results/v1_5/c1_two_stage_specialist_gpu3/raw/jina_pplx_budget__original.jsonl": {
+    "record_count": 1384,
+    "sha256": "5418cc21b56d04536d602c7dcb436fb8686b78f3003bf25be568d4e76f1dbab1"
+  },
+  "results/v3_6_essential/followup_v2_contract_repair/JINA_CONTRACT_REPAIR_INPUT_MANIFEST.jsonl": {
+    "record_count": 1384,
+    "sha256": "b31bac68707eeec451e9c5d67818d4437f2fe8926a44d78ae7dce7d98fa4ecb9"
+  },
+  "results/v3_6_essential/followup_v2_contract_repair/raw/jina_contract_repair_batch8_gpu4.jsonl": {
+    "record_count": 1384,
+    "sha256": "6c61dca38735f8d4f35f1e3e2ad28cc2b79a8340e300f9b84d0d04faae80284a"
+  }
+}

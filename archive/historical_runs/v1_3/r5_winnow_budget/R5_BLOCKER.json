@@ -1,0 +1,9 @@
+{
+  "status": "BLOCKED_RUNTIME_BINARY_UNAVAILABLE",
+  "experiment": "R5",
+  "reason": "The authenticated Winnow source documentation specifies the native llama.cpp build commit 6c2b3c04e248a319f2cb43832628eba03e55fe38 and flags, but no matching local server/runtime binary was present. The protocol does not permit replacing it with an unverified runtime.",
+  "model_calls": 0,
+  "runtime_commit": "6c2b3c04e248a319f2cb43832628eba03e55fe38",
+  "labels_joined": false,
+  "resolution": "Acquire or build the exact pinned runtime under a separately controlled execution window; no build or inference was silently substituted."
+}

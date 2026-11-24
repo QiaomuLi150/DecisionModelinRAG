@@ -1,0 +1,62 @@
+{
+  "labels_included": false,
+  "prepared_files": {
+    "2048": {
+      "path": "results/v3_6_essential/followup_v3_repro_fixes/R1_transfer_budget_grid/prepared_L2048.jsonl",
+      "sha256": "321da9dc7408d3599f64f4deaac780861733b50e5c997ccea21e02d2b7e8dfda"
+    },
+    "4096": {
+      "path": "results/v3_6_essential/followup_v3_repro_fixes/R1_transfer_budget_grid/prepared_L4096.jsonl",
+      "sha256": "33ea106394ccb4711a51e3852d47321b643cea333db7b4897626b72cd32c9a42"
+    },
+    "6144": {
+      "path": "results/v3_6_essential/followup_v3_repro_fixes/R1_transfer_budget_grid/prepared_L6144.jsonl",
+      "sha256": "3424bcd70a5f3d3698ff112dfd7d7e0d439daaf6607bb490b8e3e598d3c93ee4"
+    },
+    "8192": {
+      "path": "results/v3_6_essential/followup_v3_repro_fixes/R1_transfer_budget_grid/prepared_L8192.jsonl",
+      "sha256": "8d85db479ffcc79589dd7ce3230affbd08b219d04508553caf292457925b27f1"
+    }
+  },
+  "protocol_id": "decisionrag-v3.6-repro-fixes-r1-r2",
+  "r1": {
+    "bootstrap_draws": 40000,
+    "bootstrap_seed": 731,
+    "bootstrap_unit": "question",
+    "builder": "measure exact empty-candidate serialized request overhead, then decrement one shared per-candidate prefix cap until exact serialized request <= L-128",
+    "failure_score": 0.0,
+    "labels_joined_after_raw_freeze": true,
+    "lengths": [
+      2048,
+      4096,
+      6144,
+      8192
+    ],
+    "metrics": [
+      "nDCG@5",
+      "FS@5"
+    ],
+    "models": {
+      "jina": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+      "pplx": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+    },
+    "no_retries": true,
+    "population": {
+      "enterprise": 500,
+      "musique": 2167,
+      "total": 2667
+    },
+    "safety_margin_tokens": 128,
+    "tokenizer_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+  },
+  "r2": {
+    "comparison": "v3.6 sweep jina_two_stage_8192__8192_reuse vs v1.5 jina_two_stage_pplxtext__original",
+    "population": 1384,
+    "rerun_if_input_mismatch": true,
+    "trace_comparison": "stage request hashes, candidate membership/order, score vectors, survivor IDs, reconstructed window content hashes"
+  },
+  "scope": "Two reproducibility fixes; no new benchmark or model family",
+  "source_manifest": "results/v2_1_replication/stage0_preflight_v2_hybrid/INPUT_MANIFEST_V2_HYBRID.jsonl",
+  "source_manifest_sha256": "5d7e6685c4cc64b6b6c0e3d6686daaeed226a8a073f87c9c155101781373454e",
+  "version": "R1-R2-1.0"
+}

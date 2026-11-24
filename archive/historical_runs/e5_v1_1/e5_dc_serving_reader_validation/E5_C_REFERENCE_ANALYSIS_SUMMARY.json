@@ -1,0 +1,55 @@
+{
+  "agreement_counts": {
+    "UNRESOLVED": 8
+  },
+  "paired": [
+    {
+      "abstentions_jina": 8,
+      "abstentions_pplx": 10,
+      "both": 16,
+      "ci95": [
+        -0.01,
+        0.020124999999998183
+      ],
+      "cohort": "representative",
+      "delta": 0.005,
+      "estimand": "PPLX minus Jina T1 reference agreement",
+      "jina_only": 1,
+      "jina_rate": 0.085,
+      "jina_successes": 17,
+      "n_paired": 200,
+      "neither": 181,
+      "pplx_only": 2,
+      "pplx_rate": 0.09,
+      "pplx_successes": 18,
+      "status": "MEASURED_T1_PROXY",
+      "truncated_pairs": 35
+    },
+    {
+      "abstentions_jina": 7,
+      "abstentions_pplx": 6,
+      "both": 2,
+      "ci95": [
+        0.0,
+        0.08333333333333333
+      ],
+      "cohort": "diagnostic_enriched",
+      "delta": 0.03636363636363636,
+      "estimand": "PPLX minus Jina T1 reference agreement",
+      "jina_only": 0,
+      "jina_rate": 0.03636363636363636,
+      "jina_successes": 2,
+      "n_paired": 55,
+      "neither": 51,
+      "pplx_only": 2,
+      "pplx_rate": 0.07272727272727272,
+      "pplx_successes": 4,
+      "status": "MEASURED_T1_PROXY",
+      "truncated_pairs": 18
+    }
+  ],
+  "reader_status_counts": {
+    "OK": 496
+  },
+  "rows": 496
+}

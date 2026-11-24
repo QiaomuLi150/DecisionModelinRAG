@@ -1,0 +1,33 @@
+{
+  "endpoint_frozen": true,
+  "focused_tests": "13/13",
+  "full_regression": "245/245",
+  "garage": {
+    "component_count": 1701,
+    "eligible_exact_k15": 2329,
+    "exploratory_inputs": 1397,
+    "full_rows": 2366,
+    "partition_counts": {
+      "CAL": 466,
+      "EXPLORATORY": 1397,
+      "RESERVED": 466
+    },
+    "reservation_sealed": false,
+    "source_identity_established": false
+  },
+  "gate": "E6_2_R4C_GARAGE_READY_WITH_INDEPENDENCE_LIMITATIONS",
+  "gpu_used": false,
+  "historical_artifacts_preserved": true,
+  "jev_calls": 0,
+  "native_contracts_prepared": true,
+  "native_inference_calls": 0,
+  "next_action": "separate owner authorization required for explicitly exploratory GaRAGe inference; no R5 start",
+  "paid_api_calls": 0,
+  "quality_metrics_computed": false,
+  "schema": "E6-2-R4C-RELEASE-GATE-V1",
+  "scifact_corrected_feasible": {
+    "denominator": 277,
+    "n": 254
+  },
+  "scifact_erratum": "SCIFACT_ERRATUM_VERIFIED"
+}

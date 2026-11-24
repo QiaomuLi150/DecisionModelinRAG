@@ -1,0 +1,30 @@
+{
+  "bootstrap": {
+    "frontier_probability_draws": 10000,
+    "quality_draws": 40000,
+    "seed": 731,
+    "timing_draws": 10000
+  },
+  "experiment": "DecisionRAG v3.6 Essential Verification",
+  "models": {
+    "jina_v3_5_revision": "e8a93f33f0b22108f8c2364f8484ce3422552fbc",
+    "pplx_decider_revision": "14c9d90137962d300f3de95633f7b6535e80c5ce"
+  },
+  "overall_status": "PARTIAL_T1_REPLICATION_LIMIT",
+  "quality_population": "BRIGHT frozen 1,384 queries / 12 domains",
+  "replication": {
+    "solo_complete": true,
+    "t1_complete_primary_sessions": 2,
+    "t1_third_session": "Jina-only",
+    "t2_complete_sessions": 3
+  },
+  "restrictions": {
+    "new_retrieval": false,
+    "paid_api_calls": 0,
+    "protected_holdout_access": false,
+    "raw_traces_in_export": false
+  },
+  "slate_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+  "stage3_status": "PASS_T2_FRONTIER_AND_CPU_STATS",
+  "timing_population": "C120 x 3 attempts; T2 A/B/C plus B6.2 solo"
+}

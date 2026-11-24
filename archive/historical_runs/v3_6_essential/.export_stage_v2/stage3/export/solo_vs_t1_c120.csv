@@ -1,0 +1,6 @@
+policy,solo_session,t1_session,p95_solo_ms,p95_t1_ms,rel_diff,comparison_status
+jina_full,T2_D,T1_GPU3,1130.1003500000004,1168.3814,-0.03276417272647403,GPU-isolated solo vs historical T1 session; not a whole-host-idle estimate
+jina_full,T2_D,T1_GPU3_R3,1130.1003500000004,1168.2076,-0.032620272287219865,GPU-isolated solo vs historical T1 session; not a whole-host-idle estimate
+jina_full,T2_D,T1_GPU6,1130.1003500000004,1167.87425,-0.032344150065813704,GPU-isolated solo vs historical T1 session; not a whole-host-idle estimate
+pplx_budget,T2_D,T1_GPU3,2379.9121,2376.8541,0.001286574552472608,GPU-isolated solo vs historical T1 session; not a whole-host-idle estimate
+pplx_budget,T2_D,T1_GPU6,2379.9121,2382.3208,-0.0010110729000056828,GPU-isolated solo vs historical T1 session; not a whole-host-idle estimate

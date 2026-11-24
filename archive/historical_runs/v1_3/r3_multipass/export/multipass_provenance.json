@@ -1,0 +1,20 @@
+{
+  "shards": [
+    {
+      "path": "results/v1_3/r3_multipass/multipass_raw_start0_n462.jsonl",
+      "sha256": "ff6bcddd0b4fd81035b27c1f7d200fcd174d5014b18f18785bbc756062d50434",
+      "rows": 462
+    },
+    {
+      "path": "results/v1_3/r3_multipass/multipass_raw_start462_n461.jsonl",
+      "sha256": "30151a17338eb9d075d869fdfc5483a48e74a9e7892644819d9c1d664b095b61",
+      "rows": 461
+    },
+    {
+      "path": "results/v1_3/r3_multipass/multipass_raw_start923_n461.jsonl",
+      "sha256": "e83c3c13d563270e53eb0842aedc9039bc447b9a5157e6fc42391a94f0b6dd42",
+      "rows": 461
+    }
+  ],
+  "labels_joined_offline": true
+}

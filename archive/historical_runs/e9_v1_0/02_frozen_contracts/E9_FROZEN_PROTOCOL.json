@@ -1,0 +1,15 @@
+{
+  "candidate_k": 20,
+  "created_utc": "2026-10-16T00:43:10.988735+00:00",
+  "models": [
+    "pplx_decider",
+    "jina_v3_5",
+    "liquid_d1_3b",
+    "qwen3_reranker_0_6b"
+  ],
+  "qrels_in_model_input": false,
+  "reader_subset": "NOT_SELECTED",
+  "reason": "No benchmark met admission floors",
+  "selected_k": 5,
+  "status": "PROTOCOL_NOT_FROZEN_BENCHMARK_NOT_ADMITTED"
+}

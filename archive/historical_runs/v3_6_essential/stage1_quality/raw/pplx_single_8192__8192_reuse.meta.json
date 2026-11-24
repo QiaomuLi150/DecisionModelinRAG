@@ -1,0 +1,9 @@
+{
+  "labels_joined": false,
+  "policy": "pplx_single_8192",
+  "rows": 1384,
+  "sha256": "5843fcbef96f916e92549e35884124d0c3faeff6667fdefc0e3c88cee5d563c0",
+  "source": "results/non_jev/v2/e11_v1_0/02_native/E11_A_PPLX_BUDGETED_RAW.jsonl",
+  "status": "PASS",
+  "verified_input_hashes": 1384
+}

@@ -1,0 +1,50 @@
+{
+  "gate": "D2_COMPLETE_OWNER_REVIEW_READY",
+  "historical_blocked_gate_preserved": true,
+  "cohort_ids": 120,
+  "attempts_per_id": 3,
+  "policies": 6,
+  "records": 2160,
+  "valid": 2148,
+  "failed": 12,
+  "raw_trace_sha256": "9f7a043a2b87019d7bd021b9f68cc82e0b75f5a55fc314d4b8242605ec131bae",
+  "gpu": {
+    "index": 3,
+    "uuid": "<REDACTED_GPU_UUID>",
+    "preflight_memory_used_mib": 4,
+    "preflight_memory_free_mib": 81149,
+    "preflight_utilization_percent": 0,
+    "post_run_memory_used_mib": 4
+  },
+  "labels_joined": false,
+  "protected_holdouts_accessed": false,
+  "paid_api_calls": 0,
+  "ratios": {
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 731,
+    "jina_two_stage_full": {
+      "p95_ratio": 1.030116602568161,
+      "lo95": 0.8429796265048348,
+      "hi95": 1.2247205352671993,
+      "prob_ratio_le_2": 1.0
+    },
+    "jina_two_stage_pplxwindow": {
+      "p95_ratio": 0.6392509041651049,
+      "lo95": 0.39382502849837964,
+      "hi95": 0.8976753003638493,
+      "prob_ratio_le_2": 1.0
+    },
+    "pplx_budget": {
+      "p95_ratio": 2.0485868503931104,
+      "lo95": 1.305213180703456,
+      "hi95": 3.0249371916611683,
+      "prob_ratio_le_2": 0.3301
+    },
+    "pplx_two_stage": {
+      "p95_ratio": 5.883790587976433,
+      "lo95": 3.7039305979668686,
+      "hi95": 8.443707332997214,
+      "prob_ratio_le_2": 0.0
+    }
+  }
+}

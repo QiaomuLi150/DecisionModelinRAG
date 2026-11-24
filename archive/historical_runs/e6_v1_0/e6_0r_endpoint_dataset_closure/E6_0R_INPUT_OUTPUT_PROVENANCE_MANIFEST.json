@@ -1,0 +1,256 @@
+{
+  "created_utc": "2026-10-14T22:39:52.491452+00:00",
+  "files": [
+    {
+      "bytes": 1,
+      "path": "data/external/e6_0r_datasets/dochopqa/.cache/huggingface/.gitignore",
+      "role": "audited_public_input",
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1"
+    },
+    {
+      "bytes": 191,
+      "path": "data/external/e6_0r_datasets/dochopqa/.cache/huggingface/CACHEDIR.TAG",
+      "role": "audited_public_input",
+      "sha256": "f6572428f6d5e1575e73a1502895a8731f10757dfbb634909c6e154b849af91d"
+    },
+    {
+      "bytes": 0,
+      "path": "data/external/e6_0r_datasets/dochopqa/.cache/huggingface/download/README.md.lock",
+      "role": "audited_public_input",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 101,
+      "path": "data/external/e6_0r_datasets/dochopqa/.cache/huggingface/download/README.md.metadata",
+      "role": "audited_public_input",
+      "sha256": "3625f4315cc26bac0747312f45ec69dc8175dd48fc0c6882ac5a0e77dcba0e41"
+    },
+    {
+      "bytes": 0,
+      "path": "data/external/e6_0r_datasets/dochopqa/.cache/huggingface/download/[F] DocHopQA_Dataset.json.lock",
+      "role": "audited_public_input",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 123,
+      "path": "data/external/e6_0r_datasets/dochopqa/.cache/huggingface/download/[F] DocHopQA_Dataset.json.metadata",
+      "role": "audited_public_input",
+      "sha256": "68c212ac0906477f40b70131021312e94b733d92deb16faeb12c8bf601fed929"
+    },
+    {
+      "bytes": 2315,
+      "path": "data/external/e6_0r_datasets/dochopqa/README.md",
+      "role": "audited_public_input",
+      "sha256": "5f2b19ef0585f53fe5947cecdc029d751c2abdf5f49fd5b7a0900317d86878a9"
+    },
+    {
+      "bytes": 196084332,
+      "path": "data/external/e6_0r_datasets/dochopqa/[F] DocHopQA_Dataset.json",
+      "role": "audited_public_input",
+      "sha256": "a4bc2b0d5be351372bf1e9b7083137a7e6843a9542ddb69956fa52614ef7d13a"
+    },
+    {
+      "bytes": 28426483,
+      "path": "data/external/e6_0r_datasets/garage/GaRAGe_benchmark.jsonl",
+      "role": "audited_public_input",
+      "sha256": "419e3941f6e8eb4082a74ca2140c1f9337f8b467ff76656a6b8b0290ca3f3a72"
+    },
+    {
+      "bytes": 19347,
+      "path": "data/external/e6_0r_datasets/garage/LICENSE",
+      "role": "audited_public_input",
+      "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    },
+    {
+      "bytes": 4322,
+      "path": "data/external/e6_0r_datasets/garage/README.md",
+      "role": "audited_public_input",
+      "sha256": "b3f7ab1186a759746e5f80cb0823aea07743acef91dedc416292cd154965a397"
+    },
+    {
+      "bytes": 727,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_ACCESS_ISOLATION_AND_CHRONOLOGY.md",
+      "role": "e6_0r_output",
+      "sha256": "6d00decbf324579128971d99e98c6cdcc3894969310440378733c2bbcddd8ad8"
+    },
+    {
+      "bytes": 1419,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_CORPUS_RECONSTRUCTABILITY_AUDIT.md",
+      "role": "e6_0r_output",
+      "sha256": "dd68a7c013c25208534cf42812213e8e8afa277099b3c992cc9176e00f90351c"
+    },
+    {
+      "bytes": 424,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_DATASET_ACTUAL_ROW_INVENTORIES.csv",
+      "role": "e6_0r_output",
+      "sha256": "a114a810a2789706d53a59a7d4f619538f9d673d96ace0e242d40eaf8bed7725"
+    },
+    {
+      "bytes": 30206,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_DATASET_ACTUAL_ROW_INVENTORIES.json",
+      "role": "e6_0r_output",
+      "sha256": "4b6ea86fe4623e81fe974807bda6a1d2c365b704e0b0d3599fccf30775c8f30a"
+    },
+    {
+      "bytes": 920,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_DATASET_REJECTION_AND_ADMISSION_MATRIX.md",
+      "role": "e6_0r_output",
+      "sha256": "5240015e90c64998ac2a1aa929c1a18cf2451ace9513d71d2cc2cf503521d6a3"
+    },
+    {
+      "bytes": 1196,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_DATASET_SOURCE_AND_LICENSE_PROOFS.md",
+      "role": "e6_0r_output",
+      "sha256": "57d0adde40d7e2d5ac37150ec3dc8ac6d1772a5c0e4c2aebd1a361811ee7eedd"
+    },
+    {
+      "bytes": 55930,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_DATASET_SOURCE_STATS.json",
+      "role": "e6_0r_output",
+      "sha256": "fafc9e72fae205760e31e3d36db4624fa722b15ac3bc3f96a70500d39293b5d3"
+    },
+    {
+      "bytes": 520,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_E6_1_CAL_ADAPTER_HANDOFF_SPEC.md",
+      "role": "e6_0r_output",
+      "sha256": "13bffa05b717f087ec708d24f485f208965d4d1ab0fa8523723e9fcfe1519868"
+    },
+    {
+      "bytes": 356,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_E6_2_RELEASE_CRITERIA.md",
+      "role": "e6_0r_output",
+      "sha256": "b123480ce2cd8c7d3c554542550a39822046e68b2dbee4a60dc3f3065b080147"
+    },
+    {
+      "bytes": 1828,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_ENDPOINT_AMENDMENT_V1_PROPOSED.md",
+      "role": "e6_0r_output",
+      "sha256": "d335e3cf7236e42d93d3d10ef4ea97e9ed9f68f73c65f8ce51e277cd6ae4ff6b"
+    },
+    {
+      "bytes": 2398,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_ENDPOINT_SCHEMA_AND_LABEL_MAPPING.json",
+      "role": "e6_0r_output",
+      "sha256": "e04ad8e0e13f4f97c71dba4ededc06890d9fc1e4c16f144159f4af141d728162"
+    },
+    {
+      "bytes": 594,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_FAIL_AND_ACCESS_LOG.jsonl",
+      "role": "e6_0r_output",
+      "sha256": "f6b7549d907ef75c5969961031f09656c3f7c8b976c05536dfb29d44bab3df68"
+    },
+    {
+      "bytes": 2675,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_FINAL_OWNER_REVIEW_REPORT.md",
+      "role": "e6_0r_output",
+      "sha256": "37c6943193c6a799e8e28b0e4bc9a5579459382d4966017c0d1f310a3db0f4f3"
+    },
+    {
+      "bytes": 1575,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_GOLD_PASSAGE_AND_ANNOTATION_AUDIT.md",
+      "role": "e6_0r_output",
+      "sha256": "ce06c5a149516db2797fac8874805ec73f25a3cec1ce52d5a1703fb1b1320fb8"
+    },
+    {
+      "bytes": 1274,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_HISTORICAL_EXCLUSION_INDEX.json",
+      "role": "e6_0r_output",
+      "sha256": "b8e84be58b1d74151103148f8ab2d7f221a593a461943bec043bf1cac23bcbe5"
+    },
+    {
+      "bytes": 374,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_HISTORICAL_IMMUTABILITY_REPORT.json",
+      "role": "e6_0r_output",
+      "sha256": "5138c67f379e4fabe9eec2a977ac92c993d7086dfae228577839477098b1f7a9"
+    },
+    {
+      "bytes": 1322,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_HISTORICAL_OVERLAP_AND_DUPLICATE_AUDIT.md",
+      "role": "e6_0r_output",
+      "sha256": "544beafd1c7f09c073c9572c2e16c289604e5a2db3ea043c6176662ff258b4d3"
+    },
+    {
+      "bytes": 554,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_NATURAL_VS_FIXED_POOL_SCOPE_CROSSWALK.md",
+      "role": "e6_0r_output",
+      "sha256": "56a1dc925640317d82bd11b350bd5de78a9fbfaf088cc2d9d0b8f4a7bbfa9948"
+    },
+    {
+      "bytes": 302,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_OWNER_REVIEW_GATE.json",
+      "role": "e6_0r_output",
+      "sha256": "370e63d2debb15b43418489e3aa15174fd840f7e1009b568cd9ca69bfc14c5a7"
+    },
+    {
+      "bytes": 425,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_POOL_SIZE_AND_JUDGMENT_COVERAGE.csv",
+      "role": "e6_0r_output",
+      "sha256": "c08c1a0de5947573d9dbfacd35833728c226415559d89fac033b7d53b08b5c23"
+    },
+    {
+      "bytes": 380,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_PRIMARY_SECONDARY_CONTRASTS.csv",
+      "role": "e6_0r_output",
+      "sha256": "6ac2bf4e20a8cf32002574fcbb5849b4c1be6824e760e7fb348f9df1fcced2d6"
+    },
+    {
+      "bytes": 704,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_R0_EXACT_PROTOCOL_CROSSWALK.md",
+      "role": "e6_0r_output",
+      "sha256": "83afab6307fb78c54d30ff656783ade734f7728dd1e2ebe3821bd4fb92c7d34a"
+    },
+    {
+      "bytes": 2541,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_R0_INPUT_AUTHENTICATION.json",
+      "role": "e6_0r_output",
+      "sha256": "4c869b3d31a876c3dd62eba2d257c766dbf435dad707868920d7ebf244cecedb"
+    },
+    {
+      "bytes": 539,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_RESERVED_METADATA_ONLY_RECEIPT.json",
+      "role": "e6_0r_output",
+      "sha256": "371b68cd51f98c91f8f5cbf4558aeb11192fad67a385a98f58bfa58ef4faf617"
+    },
+    {
+      "bytes": 447,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_RESOURCE_FRONTIER_AND_SERVING_PROTOCOL.md",
+      "role": "e6_0r_output",
+      "sha256": "83a5c34988b719ec1fa69c2b2207b7ee861a0c3ce1c412e89a6e318e3ed6caa4"
+    },
+    {
+      "bytes": 15655,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_SCIFACT_CAL_QIDS.jsonl",
+      "role": "e6_0r_output",
+      "sha256": "1afbcb531e276d1f5c5c80ca4bd42f984dff093f7efddf7e3ed3938705d4ff50"
+    },
+    {
+      "bytes": 7815,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_SCIFACT_EXPLORATORY_QIDS.jsonl",
+      "role": "e6_0r_output",
+      "sha256": "dff7891ed15c87a6381796a9fab5a11b2daf0208633a07eddec70cdd6900b559"
+    },
+    {
+      "bytes": 826,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_SOURCE_COMPONENT_GRAPH_REPORT.md",
+      "role": "e6_0r_output",
+      "sha256": "4b1c607c402ae01fb650d1d374e06b938943b9327913d5ef57876029e958c4c7"
+    },
+    {
+      "bytes": 20499,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_SOURCE_SPLIT_MANIFEST.json",
+      "role": "e6_0r_output",
+      "sha256": "1517c1302a44d5dd26d45a6dba099af139c6bacba6809ea6e9b0d4d408264dad"
+    },
+    {
+      "bytes": 574,
+      "path": "results/non_jev/v2/e6_v1_0/e6_0r_endpoint_dataset_closure/E6_0R_TARGETED_AND_REGRESSION_TEST_REPORT.md",
+      "role": "e6_0r_output",
+      "sha256": "8d5ba9517a64b194d51b27e2b7fed3f4e96d134f684476a961dcf00770097ab1"
+    }
+  ],
+  "git_head": "246ff54e66b178eadd350351a5544879f5484ed2",
+  "gpu_operations": 0,
+  "inference_calls": 0,
+  "schema": "DecisionRAG-E6-0R-PROVENANCE-V1",
+  "seed": 731
+}

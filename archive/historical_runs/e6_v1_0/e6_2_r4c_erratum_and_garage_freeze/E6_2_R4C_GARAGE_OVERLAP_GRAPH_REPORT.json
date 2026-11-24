@@ -1,0 +1,58 @@
+{
+  "component_membership_sha256": "900fe0f64829b245522ddb12a5a057603f700b22b855b7e5fb78000d977286ae",
+  "components": {
+    "component_sha256": "42ca0a21af9dbb6c559c1e9829fa93842930f17bee21ef47b898a877cfa26fa8",
+    "count": 1701,
+    "largest_size": 336,
+    "observed_content_overlap_only": true,
+    "non_singleton_component_rows": 768,
+    "non_singleton_component_row_fraction": 0.32975525976814085,
+    "size_distribution": {
+      "1": 1561,
+      "2": 83,
+      "3": 33,
+      "4": 10,
+      "5": 4,
+      "6": 1,
+      "7": 2,
+      "8": 1,
+      "9": 2,
+      "13": 1,
+      "18": 1,
+      "30": 1,
+      "336": 1
+    }
+  },
+  "duplicate_candidate_texts_within_pool": 62,
+  "edge_reason_counts": {
+    "duplicate_normalized_passages_across_samples": 751,
+    "duplicate_normalized_questions": 4,
+    "near_duplicate_passage_pairs": 45
+  },
+  "eligible_ids_sha256": "36778ed8e5dd4b1844ea56e960305cf3a3734dbf5e8b7dd8494e910b3f213320",
+  "eligible_rows": 2329,
+  "exact_normalized_passage_hashes_repeated_across_samples": 688,
+  "exact_normalized_question_groups_gt1": 4,
+  "excluded_non_exact_or_misaligned_rows": 37,
+  "near_duplicate": {
+    "accepted_pairs": 271,
+    "candidate_buckets": 135270,
+    "containment_threshold": 0.92,
+    "embeddings_used": false,
+    "jaccard_threshold": 0.85,
+    "method": "16-value MinHash-style 5-token-shingle LSH; deterministic SHA1 seeds; candidate buckets >100 skipped",
+    "unique_passage_hashes": 34122,
+    "accepted_pair_fraction_of_unique_passage_hashes": 0.007942090147119161,
+    "accepted_cross_sample_pair_count": 45
+  },
+  "exact_vs_approximate_summary": {
+    "exact_repeated_passage_hashes": 688,
+    "exact_repeated_passage_hash_fraction": 0.020162944727741633,
+    "approximate_accepted_pairs": 271,
+    "approximate_cross_sample_pairs": 45,
+    "approximate_candidate_generation_did_not_use_embeddings": true
+  },
+  "repeated_full_k15_pools_gt1": 0,
+  "schema": "E6-2-R4C-GARAGE-OVERLAP-GRAPH-V1",
+  "unverified_source_identity": true
+}

@@ -1,0 +1,5 @@
+policy,attempts,valid,failures,native_calls,new_calls_in_r0_r3,resource_scope
+R0_RETRIEVAL_TOP5_VISIBLE_TEXT,300,300,0,0,0,historical E11-V corrected artifact; no new inference in R0-R3
+P1_PPLX_BUDGETED_VISIBLE_TEXT,300,300,0,300,0,historical E11-V corrected artifact; no new inference in R0-R3
+S1_JINA_FULL_VISIBLE_TEXT,300,300,0,300,0,historical E11-V corrected artifact; no new inference in R0-R3
+S2_JINA_BUDGETED_VISIBLE_TEXT,300,300,0,300,0,historical E11-V corrected artifact; no new inference in R0-R3

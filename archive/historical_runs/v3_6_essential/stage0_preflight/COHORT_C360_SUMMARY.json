@@ -1,0 +1,46 @@
+{
+  "c120_ids_sha256": "37bdd6130bfbc4f1243d6fc0cd178b3536a45e5b982866335c07c8d688e26e3d",
+  "c120_n": 120,
+  "c360_domain_counts": {
+    "aops": 30,
+    "biology": 30,
+    "earth_science": 30,
+    "economics": 30,
+    "leetcode": 30,
+    "pony": 30,
+    "psychology": 30,
+    "robotics": 30,
+    "stackoverflow": 30,
+    "sustainable_living": 30,
+    "theoremqa_questions": 30,
+    "theoremqa_theorems": 30
+  },
+  "c360_ids_sha256": "b871eaf61589542f18f827561becd79201732eaf541a055fe8aae4fc6b811ce4",
+  "c360_length_quantiles": {
+    "q50": 6118,
+    "q90": 8042,
+    "q99": 8058
+  },
+  "c360_n": 360,
+  "domain_counts": {
+    "aops": 111,
+    "biology": 103,
+    "earth_science": 116,
+    "economics": 103,
+    "leetcode": 142,
+    "pony": 112,
+    "psychology": 101,
+    "robotics": 101,
+    "stackoverflow": 117,
+    "sustainable_living": 108,
+    "theoremqa_questions": 194,
+    "theoremqa_theorems": 76
+  },
+  "population_length_quantiles": {
+    "q50": 6143,
+    "q90": 8043,
+    "q99": 8060
+  },
+  "seed": 20261023,
+  "status": "PASS"
+}

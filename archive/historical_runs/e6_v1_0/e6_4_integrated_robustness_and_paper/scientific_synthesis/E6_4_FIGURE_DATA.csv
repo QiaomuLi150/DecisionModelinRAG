@@ -1,0 +1,4 @@
+figure,dataset,source,note
+quality_vs_latency,SciFact,E6-2 R3 + E6-3A corrected,no pooled axes
+order_stability,,E6-4 mechanism scoring,set Jaccard and selection changes
+reader_proxy,,E6-3A reader audit,"reference overlap proxy, not factual correctness"

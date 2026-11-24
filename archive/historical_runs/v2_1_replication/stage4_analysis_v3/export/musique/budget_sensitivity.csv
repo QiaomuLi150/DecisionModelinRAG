@@ -1,0 +1,15 @@
+policy,contrast_vs,lower95,pass_b0.02,pass_b0.05,pass_b0.10
+bm25_order,bm25_order,0.0,False,False,False
+bm25_order,jina_full,-0.11121365943700968,False,False,False
+jina_full,bm25_order,0.0844485463774804,True,True,True
+jina_full,jina_full,0.0,True,True,True
+jina_budget,bm25_order,0.0853714813105676,True,True,True
+jina_budget,jina_full,-0.0009229349330872173,True,True,True
+jina_two_stage_matched,bm25_order,0.08998615597600369,True,True,True
+jina_two_stage_matched,jina_full,0.0,True,True,True
+pplx_native,bm25_order,0.06137517305029996,True,True,True
+pplx_native,jina_full,-0.03461005999077065,False,True,True
+pplx_budget,bm25_order,0.063682510383018,True,True,True
+pplx_budget,jina_full,-0.032302722658052604,False,True,True
+pplx_two_stage,bm25_order,0.07014305491462852,True,True,True
+pplx_two_stage,jina_full,-0.025842178126442086,False,True,True

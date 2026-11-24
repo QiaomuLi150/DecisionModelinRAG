@@ -1,0 +1,8 @@
+{
+  "exact_content_hash_matches": 1384,
+  "old_manifest_rows": 1384,
+  "old_manifest_sha256": "c8d9299711a0c64b94ccd139e4f6329dc8779eb267f534b90c085e3d2d3f9a94",
+  "queries": 1384,
+  "rule": "same PPLX tokenizer, prompt overhead, rho=128, equal prefix and one-token shrink",
+  "status": "PASS"
+}

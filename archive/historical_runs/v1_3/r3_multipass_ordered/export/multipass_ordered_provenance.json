@@ -1,0 +1,69 @@
+{
+  "protocol": "results/v1_3/r3_multipass_ordered/PROTOCOL.json",
+  "protocol_sha256": "5069c67ff84b73da4053e247c2d0b302c9baef8db6115150ce7299baf81bd331",
+  "input_lock": "results/v1_3/r3_multipass_ordered/INPUT_LOCK.json",
+  "input_lock_sha256": "f60989dc9a93eaf88702b5467c5c58a6ab51a1bfabebc81a6d980956aae95da5",
+  "labels_joined_after_raw_freeze": true,
+  "raw_shards": [
+    {
+      "path": "results/v1_3/r3_multipass_ordered/raw/multipass_gpu3_start0_n1384_orders_reversed_perm_seed_1.jsonl",
+      "sha256": "14a95bfa1a615b70a91b9d6c1e754585db35e0e22646f56c87e4953cc43c52d2",
+      "rows": 2768,
+      "orders": [
+        "perm_seed_1",
+        "reversed"
+      ],
+      "valid": 2762,
+      "failed": 6
+    },
+    {
+      "path": "results/v1_3/r3_multipass_ordered/raw/multipass_gpu5_start0_n1384_orders_perm_seed_2_perm_seed_3.jsonl",
+      "sha256": "63975a0e165cf23e42f6fb3c1196521d4417b8ab7ccbdfaca0e61975e36a0236",
+      "rows": 2768,
+      "orders": [
+        "perm_seed_2",
+        "perm_seed_3"
+      ],
+      "valid": 2762,
+      "failed": 6
+    },
+    {
+      "path": "results/v1_3/r3_multipass_ordered/raw/multipass_gpu6_start0_n1384_orders_perm_seed_4_perm_seed_5.jsonl",
+      "sha256": "ec5ae1a0d822ecb1d3e1e41c34a94627ef5cd62f854b020a4772776513c71285",
+      "rows": 2768,
+      "orders": [
+        "perm_seed_4",
+        "perm_seed_5"
+      ],
+      "valid": 2762,
+      "failed": 6
+    }
+  ],
+  "original_r3_shards": [
+    {
+      "path": "results/v1_3/r3_multipass/multipass_raw_start0_n462.jsonl",
+      "sha256": "ff6bcddd0b4fd81035b27c1f7d200fcd174d5014b18f18785bbc756062d50434",
+      "rows": 462
+    },
+    {
+      "path": "results/v1_3/r3_multipass/multipass_raw_start462_n461.jsonl",
+      "sha256": "30151a17338eb9d075d869fdfc5483a48e74a9e7892644819d9c1d664b095b61",
+      "rows": 461
+    },
+    {
+      "path": "results/v1_3/r3_multipass/multipass_raw_start923_n461.jsonl",
+      "sha256": "e83c3c13d563270e53eb0842aedc9039bc447b9a5157e6fc42391a94f0b6dd42",
+      "rows": 461
+    }
+  ],
+  "bright_sha256": "c304b2c35f445153181098d3a899271db6fc653b44aea50186c6efaeec8e6ea2",
+  "orders": [
+    "reversed",
+    "perm_seed_1",
+    "perm_seed_2",
+    "perm_seed_3",
+    "perm_seed_4",
+    "perm_seed_5"
+  ],
+  "raw_labels_joined_field_required_false": true
+}

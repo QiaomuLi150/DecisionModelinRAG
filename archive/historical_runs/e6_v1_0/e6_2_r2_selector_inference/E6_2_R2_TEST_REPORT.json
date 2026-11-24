@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-15T03:55:47.631858+00:00",
+  "focused_r2": {
+    "collected": 11,
+    "command": "pytest -q tests/test_e6_2_r2_preflight.py tests/test_e6_2_r2_selector_inference.py",
+    "failed": 0,
+    "passed": 11
+  },
+  "full_authoritative": {
+    "collected": 225,
+    "command": "./Production_Project/MultiModalRAG/venv/bin/python -m pytest -q",
+    "environment": "shared MultiModalRAG virtual environment",
+    "failed": 0,
+    "passed": 225
+  },
+  "historical_artifacts_modified": false,
+  "native_inference": {
+    "actual_attempts": 1939,
+    "quality_scoring": false,
+    "scheduled_attempts": 2216
+  },
+  "prohibited_calls": {
+    "jev": 0,
+    "paid_api": 0,
+    "reader": 0
+  },
+  "schema": "E6-2-R2-TEST-REPORT-V2"
+}

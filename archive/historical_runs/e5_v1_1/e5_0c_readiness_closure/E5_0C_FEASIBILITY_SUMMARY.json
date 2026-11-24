@@ -1,0 +1,24 @@
+{
+  "cal_exact_ceiling": "CAL_EXACT_CEILING_NOT_MEASURED",
+  "cal_missing_ingredients": [
+    "CAL frozen Top-20 slates",
+    "matching CAL query embeddings"
+  ],
+  "exploratory_any_support_top20": 428,
+  "exploratory_any_support_top20_rate": 0.28495339547270304,
+  "exploratory_complete_support_top20": 343,
+  "exploratory_complete_support_top20_rate": 0.22836218375499334,
+  "exploratory_complete_support_top5": 212,
+  "exploratory_complete_support_top5_rate": 0.1411451398135819,
+  "exploratory_population": 1502,
+  "source_group_count": 587,
+  "source_groups_with_feasible_query": 247,
+  "status": "EXPLORATORY_PREOUTCOME_CEILING_COMPUTED_CAL_EXACT_CEILING_NOT_MEASURED",
+  "support_cardinality": {
+    "1": 1096,
+    "2": 269,
+    "3": 73,
+    "4": 41,
+    "5": 23
+  }
+}

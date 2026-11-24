@@ -1,0 +1,20 @@
+{
+  "bootstrap_draws": 40000,
+  "bootstrap_seed": 731,
+  "bootstrap_unit": "question",
+  "contrast_rows": 8,
+  "labels_joined_after_raw_freeze": true,
+  "perquery_rows": 42672,
+  "raw_input_files": [
+    "results/v3_6_essential/followup_v3_repro_fixes/raw/jina_shard0_of1.jsonl",
+    "results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_boundary_cancelled.jsonl",
+    "results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_prefix_shard0_of2.jsonl",
+    "results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_prefix_shard1_of2.jsonl",
+    "results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_suffix_shard0_of4.jsonl",
+    "results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_suffix_shard1_of4.jsonl",
+    "results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_suffix_shard2_of4.jsonl",
+    "results/v3_6_essential/followup_v3_repro_fixes/raw/pplx_suffix_shard3_of4.jsonl"
+  ],
+  "status": "PASS",
+  "summary_rows": 32
+}

@@ -1,0 +1,13 @@
+policy,dataset,n,proxy_em,proxy_f1,numeric_or_exact_proxy,interpretation
+retrieval5,multihop,250,0.572,0.5878,NOT_APPLICABLE,"reference string proxy, not independently adjudicated factual correctness"
+retrieval5,financebench,109,NOT_APPLICABLE,NOT_APPLICABLE,0.07339449541284404,"deterministic FinanceBench answer proxy, not independently adjudicated factual correctness"
+bge_pointwise,multihop,250,0.596,0.6050666666666668,NOT_APPLICABLE,"reference string proxy, not independently adjudicated factual correctness"
+bge_pointwise,financebench,109,NOT_APPLICABLE,NOT_APPLICABLE,0.09174311926605505,"deterministic FinanceBench answer proxy, not independently adjudicated factual correctness"
+jina35,multihop,250,0.584,0.5992761904761904,NOT_APPLICABLE,"reference string proxy, not independently adjudicated factual correctness"
+jina35,financebench,109,NOT_APPLICABLE,NOT_APPLICABLE,0.11009174311926606,"deterministic FinanceBench answer proxy, not independently adjudicated factual correctness"
+pplx_decider,multihop,250,0.576,0.5859333333333333,NOT_APPLICABLE,"reference string proxy, not independently adjudicated factual correctness"
+pplx_decider,financebench,109,NOT_APPLICABLE,NOT_APPLICABLE,0.09174311926605505,"deterministic FinanceBench answer proxy, not independently adjudicated factual correctness"
+liquid_joint20_binary,multihop,250,0.556,0.5788857142857142,NOT_APPLICABLE,"reference string proxy, not independently adjudicated factual correctness"
+liquid_joint20_binary,financebench,109,NOT_APPLICABLE,NOT_APPLICABLE,0.11009174311926606,"deterministic FinanceBench answer proxy, not independently adjudicated factual correctness"
+zerank2_pointwise,multihop,250,0.6,0.6217428571428572,NOT_APPLICABLE,"reference string proxy, not independently adjudicated factual correctness"
+zerank2_pointwise,financebench,109,NOT_APPLICABLE,NOT_APPLICABLE,0.11009174311926606,"deterministic FinanceBench answer proxy, not independently adjudicated factual correctness"

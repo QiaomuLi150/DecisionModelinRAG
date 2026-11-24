@@ -1,0 +1,18 @@
+{
+  "full_regression": {
+    "cuda_disabled": true,
+    "environment": "MultiModalRAG/venv",
+    "status": "PASS",
+    "tests_failed": 0,
+    "tests_passed": 302
+  },
+  "status": "PASS_WITH_SCIENTIFIC_BLOCKERS",
+  "targeted_checks": {
+    "holdout_accessed": false,
+    "n1_expected_count": 27680,
+    "n2_c_expected_count": 5400,
+    "paid_api_calls": 0,
+    "raw_trace_manifest": true,
+    "stage1_gate_preserved": true
+  }
+}

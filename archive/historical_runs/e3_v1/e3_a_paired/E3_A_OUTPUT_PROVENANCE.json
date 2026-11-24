@@ -1,0 +1,41 @@
+{
+  "artifact_sha256": {
+    "results/non_jev/v2/e3_v1/e3_0_governance/E3_0_CONTAMINATION_GUARD_TEST_REPORT.md": "f5cbe2550883f25448c9e4f6a96f822306210925d05d543202a3f4a68cd553c3",
+    "results/non_jev/v2/e3_v1/e3_0_governance/E3_0_HOLDOUT_RESERVATION_RULES.json": "c3e670c1eb76851ceed5c5b2f7f4f1f3af47e08c659e61b94e85353b4a6feee0",
+    "results/non_jev/v2/e3_v1/e3_0_governance/E3_0_OWNER_GATE.md": "1b3001a4348758424eaa5bb7f8c83adfca59d0cd4496bfea918772a1404808a6",
+    "results/non_jev/v2/e3_v1/e3_0_governance/E3_0_RESERVATION_BLOCKER.json": "992ced4d67391e4f0f84a2be7cff36fbf6c1e4d885811f67dac25be0e25b402a",
+    "results/non_jev/v2/e3_v1/e3_0_governance/E3_0_SOURCE_EXPOSURE_AND_METADATA_AUDIT.md": "945f1da9ca2f20d612edf8fe1ec914f3090658860e22ddcf0ab743f4eaa47734",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_ESCALATION_COST_BOUNDARY.md": "247908a286e05e2af16005e03c1bf535e37ff1c345d2deeac5e5fa76b07eceeb",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_ESCALATION_ORACLE_CURVES.csv": "00ee0c4c71531ea799cda9f7b5cf31f14c1d1cbd6c508d986866297afe7b2525",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_EVIDENCE_TO_ANSWER_TRANSITIONS.csv": "0119c0e88e394d5941062ace7cad42cf6c5a45849aaa4509620148b0203765ff",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_EXECUTION_MANIFEST.json": "a3d2bba4411e8e22e8100254e295919e6895996a54961682ed89a81f5c421492",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_FINAL_SCIENTIFIC_REPORT.md": "0e8cb89c62e5205186b77edbeb76823cfd261d1ee203ad0f34c7c33ccce56cf5",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_FOUR_CELL_COUNTS.csv": "e9bfb0eead48f0fe7207e1d5b7275a904ee9244e88a5a7367748826e879b7438",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_ILLUSTRATIVE_CASES.md": "037822a81720187fa7cd0c3a083980c4d6f681595dffada49068b2ce7fed5972",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_INDEPENDENT_RECOMPUTATION.md": "40992ed1e418cd31df53c3a588affe825cb80fcced7a88152778654342aab1f9",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_NO_REFERENCE_JUDGE_SECONDARY.csv": "bc328ec3fb0b2a1a98aa5a7916b59df7825ebd683e371080684debb40dd939a3",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_OWNER_REVIEW_GATE.md": "e5ed16a4a2a34e5180a83a5ea8fb46c8641e6b50b2ef9cece2a7a8f925e784b5",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_PAIRED_ANSWER_STATS.csv": "e80495c067d391b59bfc2799e2758ad0d37b8cc729d442383f46ef187955e4a2",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_PAIRED_EVIDENCE_STATS.csv": "dba426108244a20d2a8bcc33f7bcabf01f5e553c5001d9dfb33758073cbf792e",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_QUERY_LEVEL_EVIDENCE_STATES.csv": "bc8bbff40ead4284bfd6cede3b9710fe8a49f1c34e1842acc1977b8e426d850c",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_READER_ALIGNMENT_AND_REFERENCE_AUDIT.csv": "582bffc7b4432d76fa8be87df173975ce61a6e4d9c9ee392e0a372e7adae4581",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_SOURCE_IDENTITY_AND_JOIN_AUDIT.md": "0413eb038d9301052c9fb51edb8e8a2286c3f255a6f2de25c836d90d5961dcff",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_STRATIFIED_FAILURE_ANALYSIS.csv": "fe9e614ab5a017e5c6626581117a9f75f17ef998a1119e44ebb530ab5ae963d2",
+    "results/non_jev/v2/e3_v1/e3_a_paired/E3_A_TEST_REPORT.md": "ee492137cc8c22de41a8443b9f31bd33efa0874e6cf30cf970cdf48cede0253f"
+  },
+  "git_commit": "246ff54e66b178eadd350351a5544879f5484ed2",
+  "governance_status": "E3_0_HOLDOUT_RESERVATION_PENDING_METADATA",
+  "input_sha256": {
+    "results/non_jev/v2/e2_n2/E2_N2_SELECTED_DOCUMENTS.jsonl": "cb2a948c62bf7590bfeb37f2c254ea89e09c175dc2ce691c7f3b132f2ef84c97",
+    "results/non_jev/v2/e2_sp/E2_SP_READER_COHORT_MANIFEST.json": "d266e46f3b30e7281740c391d573208123217893cbd1a1e78fb768cc5210a840",
+    "results/non_jev/v2/e2_sp/gpu5/E2_SP_P1_READER_OUTPUTS.jsonl": "6d67533997927fd7defb5acb92e8ca022f8dcdfb55c8455da89d09a85de4a4a9",
+    "results/non_jev/v2/e2_sp/gpu5/E2_SP_S2_SELECTION_RESULTS.jsonl": "e3b2299b5c44de257da9342de364240906bcdeb0888d79241575b8ee4dfe0dce",
+    "results/non_jev/v2/e2_sp_r2/E2_SP_R2_LOCAL_ADJUDICATION.jsonl": "13abc2ab04151d5dba2fded45cdbaf6d469e3167b19821ba035ba0bd07d93cba",
+    "results/preflight/v11/NEW_TEST_GOLD_SIDECAR.jsonl": "5b17f0dfacceddc82952163b6fb98fcecb2d0d4ce232209c5d565f79c04d40cc",
+    "results/preflight/v11_remediation/ENTERPRISE_QUESTION_MANIFEST_V11R1.jsonl": "00befe74a6bd3786fd2149639f434efd574f2784f49f7f91961c3ed7091d2683"
+  },
+  "jev_calls": 0,
+  "new_inference": 0,
+  "paid_api_calls": 0,
+  "status": "E3_A_OWNER_REVIEW_READY"
+}

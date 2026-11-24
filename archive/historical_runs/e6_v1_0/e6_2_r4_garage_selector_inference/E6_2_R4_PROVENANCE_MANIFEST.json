@@ -1,0 +1,132 @@
+{
+  "code": [
+    {
+      "path": "scripts/e6_2_r4_garage_preflight.py",
+      "sha256": "933051f16f4ea0069af60474888c63bc05d15ea252abc92bcf801259fd292dc3"
+    }
+  ],
+  "created_utc": "2026-10-15T13:16:00.649010+00:00",
+  "garage_source_sha256": "419e3941f6e8eb4082a74ca2140c1f9337f8b467ff76656a6b8b0290ca3f3a72",
+  "gate": "E6_2_R4_SCIFACT_INTEGRITY_BLOCKED",
+  "historical_manifest_checks": [
+    {
+      "listed": 24,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r0_scientific_readiness/E6_2_R0_INPUT_OUTPUT_PROVENANCE_MANIFEST.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 24
+    },
+    {
+      "listed": 27,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r1_scifact_retrieval_freeze/E6_2_R1_PROVENANCE_MANIFEST_V3.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 27
+    },
+    {
+      "listed": 30,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r2_selector_inference/E6_2_R2_PROVENANCE_MANIFEST.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 30
+    },
+    {
+      "listed": 5,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r2_startlux_repair/E6_2_R2_STARTLUX_REPAIR_PROVENANCE.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 5
+    },
+    {
+      "listed": 22,
+      "manifest": "results/non_jev/v2/e6_v1_0/e6_2_r3_scifact_quality_evaluation/E6_2_R3_PROVENANCE_MANIFEST.json",
+      "mismatched": 0,
+      "missing": 0,
+      "passed": 22
+    }
+  ],
+  "jev_calls": 0,
+  "native_inference_calls": 0,
+  "outputs": [
+    {
+      "bytes": 784,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_FAILURES.csv",
+      "sha256": "9ede7e2095d3aecca9065bc428444e49aee6082aa1c4db55b2e63862fabad19f"
+    },
+    {
+      "bytes": 1424,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_FINAL_REPORT.md",
+      "sha256": "9c08549a10e7a795bdfcb5d1c5561dc65508f1807c9a4ec9f20e5de13ddb1ffe"
+    },
+    {
+      "bytes": 1040,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_GARAGE_COHORT_AND_ANNOTATION_AUDIT.md",
+      "sha256": "622c37c55ce42bd61d5ec7f22fdd9165aca1802d65af0d8f35ec64927533624b"
+    },
+    {
+      "bytes": 959,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_GARAGE_DATASET_AUDIT.json",
+      "sha256": "4e8f2eeb04c25598d6ffa17885ec0fe5b4e6e781ff324f16f76017169fc906e8"
+    },
+    {
+      "bytes": 722,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_GARAGE_ENDPOINT_CONTRACT.md",
+      "sha256": "fd1e51f053ef693b5fc2351e909fb670bbfa891097ca8f92e6d96095394e9ef6"
+    },
+    {
+      "bytes": 315,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_GPU_AUDIT.json",
+      "sha256": "dd0ff83ae4ca1b3c089675183429f5d77608bcedbfd0dd269779323b0805bf7b"
+    },
+    {
+      "bytes": 373,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_LATENCY_AND_RESOURCE_REPORT.csv",
+      "sha256": "f9316e10496bf48b98ea140543068cc7c04eaa923768c96f6eabec157aba9c02"
+    },
+    {
+      "bytes": 526,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_LEAKAGE_AND_RESERVATION_AUDIT.md",
+      "sha256": "314feba1c0e37d2c639f15d246b38273742a135926a409a48904908e469714d9"
+    },
+    {
+      "bytes": 538,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_MODEL_ATTEMPT_ACCOUNTING.csv",
+      "sha256": "f0aa99afd252721a20335f9435e488cce1fb7a46a47eba3987b60e455ed7b03b"
+    },
+    {
+      "bytes": 2014,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_PREINFERENCE_MANIFEST.json",
+      "sha256": "5e9aec88f0e1e5aeedb345972c3d293932121e77a23e93cdc81a9eac72878f65"
+    },
+    {
+      "bytes": 479,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_R5_READINESS_GATE.json",
+      "sha256": "7425a8a27b38909b113431962b559e4a47f67754da1ed1b7b49e98dda456eff5"
+    },
+    {
+      "bytes": 938,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_SCIFACT_CORRECTION_PROPOSAL.md",
+      "sha256": "4ef322b00b2a8be6d9a2c5439ce8913d41df402fb1d59b1e8d1870477dbd902a"
+    },
+    {
+      "bytes": 1302,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_SCIFACT_INTEGRITY_AUDIT.md",
+      "sha256": "04732f0ae87998c5144d74f89a7b40ba50b0cdef23fc144c81dc0b27fc45af9e"
+    },
+    {
+      "bytes": 3781,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_SCIFACT_METRIC_REPRODUCTION.json",
+      "sha256": "9d16f27989b10c8abdb72b3973e33e08e3e7f85ac4f251fbfa3ea8560ab36831"
+    },
+    {
+      "bytes": 499,
+      "path": "results/non_jev/v2/e6_v1_0/e6_2_r4_garage_selector_inference/E6_2_R4_TEST_AND_REGRESSION_REPORT.md",
+      "sha256": "d4ebe72d4e70fd37b56a5ee1c94f0f65ac644209a30142e289a98a663dd8fae8"
+    }
+  ],
+  "paid_api_calls": 0,
+  "physical_forwards": 0,
+  "quality_metrics_computed": false,
+  "reserved_accessed": false,
+  "schema": "E6-2-R4-PROVENANCE-V1"
+}

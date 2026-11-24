@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-15T03:18:30.326087+00:00",
+  "focused": {
+    "collected": 6,
+    "command": "pytest -q tests/test_e6_2_r1_retrieval_freeze.py",
+    "failed": 0,
+    "passed": 6
+  },
+  "full_authoritative": {
+    "collected": 214,
+    "command": "./Production_Project/MultiModalRAG/venv/bin/python -m pytest -q",
+    "environment": "shared MultiModalRAG venv (Python 3.12.3; pyarrow available)",
+    "failed": 0,
+    "passed": 214
+  },
+  "inference_rerun": false,
+  "jev_calls": 0,
+  "paid_api_calls": 0,
+  "reader_calls": 0,
+  "schema": "E6-2-R1-TEST-AND-REGRESSION-REPORT-V2",
+  "selector_calls": 0,
+  "system_python_check": {
+    "collected": 214,
+    "command": "pytest -q",
+    "failed": 2,
+    "failure_class": "pre-existing SciFact audit tests could not import pyarrow from /usr/bin/python3",
+    "not_a_retrieval_or_R1_test_failure": true,
+    "passed": 212
+  }
+}

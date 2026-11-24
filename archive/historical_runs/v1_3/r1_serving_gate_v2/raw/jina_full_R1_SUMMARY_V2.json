@@ -1,0 +1,18 @@
+{
+  "alloc_p95_mib": 4433.00845,
+  "attempts": 360,
+  "fail_classes": {},
+  "fail_p50_ms": null,
+  "failed": 0,
+  "input_label_blind": true,
+  "latency_boundary": "request construction + native inference + score parsing + ID mapping + Top-5 packaging",
+  "load_ms": 1471.226,
+  "marginal_alloc_mib": null,
+  "marginal_p50_ms": null,
+  "p50_ms": 285.6645,
+  "p95_ms": 1130.2588000000003,
+  "physical_forward_count": "NOT_EXPOSED_BY_RUNTIME",
+  "policy": "jina_full",
+  "session": "r1_v2",
+  "valid": 360
+}

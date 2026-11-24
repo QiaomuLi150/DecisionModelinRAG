@@ -1,0 +1,4 @@
+dataset,decision,local_snapshot,license,unit,questions,source_groups,support_mapping,cross_document_scope,reason
+QASPER train/dev v0.3,ACCEPT_PRIMARY,PASS,CC BY 4.0,paper paragraph,3598,1169,PASS for eligible rows; exclusions reported,within-paper; not cross-document multi-hop,Authentic paragraph evidence and stable paper IDs; primary scope is text-document evidence selection.
+FRAMES,UNVERIFIED,NOT_ACQUIRED,card inspected; local terms not frozen,Wikipedia article list,824 card-reported,UNVERIFIED,UNVERIFIED,multi-article,Official card was inspected but no local text/evidence snapshot was acquired in E5-0; not used.
+MultiHop-RAG,RESTRICT_DIAGNOSTIC,HISTORICAL_E3,ODC-BY (historical record),article/passage,2556 historical,392 historical,historically audited,historically inspected,Not independent for E5 because its questions and source material were already inspected in E3.

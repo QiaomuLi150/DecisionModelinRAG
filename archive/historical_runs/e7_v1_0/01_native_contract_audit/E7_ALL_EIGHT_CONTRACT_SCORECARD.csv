@@ -1,0 +1,9 @@
+model,roster_role,checkpoint_or_artifact,contract_status,verdict,note
+pplx_decider,primary,<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--perplexity-ai--pplx-decider-v1.1-27b/snapshots/14c9d90137962d300f3de95633f7b6535e80c5ce,DEEPLY_AUDITED,PENDING_B_AUDIT,Secondary physical escalation not triggered unless artifact discrepancy found.
+liquid_d1_3b,secondary,historical E6 artifacts,ARTIFACT_AUDITED,AUTHENTICATED_FROM_E6_ARTIFACTS,Secondary physical escalation not triggered unless artifact discrepancy found.
+startlux_decision_4b,primary,./data/models/e6_1b/startlux_decision_v1_4b,DEEPLY_AUDITED,PENDING_B_AUDIT,Secondary physical escalation not triggered unless artifact discrepancy found.
+amos_1_small_2b,secondary,historical E6 artifacts,ARTIFACT_AUDITED,AUTHENTICATED_FROM_E6_ARTIFACTS,Secondary physical escalation not triggered unless artifact discrepancy found.
+jina_v3_5,primary,<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--jinaai--jina-reranker-v3.5/snapshots/e8a93f33f0b22108f8c2364f8484ce3422552fbc,DEEPLY_AUDITED,PENDING_B_AUDIT,Secondary physical escalation not triggered unless artifact discrepancy found.
+qwen3_reranker_4b,secondary,historical E6 artifacts,ARTIFACT_AUDITED,AUTHENTICATED_FROM_E6_ARTIFACTS,Secondary physical escalation not triggered unless artifact discrepancy found.
+bge_reranker_v2_m3,secondary,historical E6 artifacts,ARTIFACT_AUDITED,AUTHENTICATED_FROM_E6_ARTIFACTS,Secondary physical escalation not triggered unless artifact discrepancy found.
+qwen3_reranker_0_6b,primary,<REDACTED_PATH><REDACTED_USER>/<REDACTED_USER>/.cache/huggingface/hub/models--Qwen--Qwen3-Reranker-0.6B/snapshots/e61197ed45024b0ed8a2d74b80b4d909f1255473,DEEPLY_AUDITED,PENDING_B_AUDIT,Secondary physical escalation not triggered unless artifact discrepancy found.
